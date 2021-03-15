@@ -20,7 +20,7 @@ export function createDecorator(
     kind: NodeKind.Decorator,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

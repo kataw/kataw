@@ -12,10 +12,9 @@ var v = a ?
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var v = a ?\n  b :\n  c;",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ var v = a ?
                             "text": "v",
                             "rawText": "v",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -45,7 +44,7 @@ var v = a ?
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
@@ -55,7 +54,7 @@ var v = a ?
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
@@ -65,32 +64,32 @@ var v = a ?
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 21
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 21
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -99,7 +98,6 @@ var v = a ?
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -109,17 +107,13 @@ var v = a ?
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

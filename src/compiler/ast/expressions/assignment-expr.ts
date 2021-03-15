@@ -30,7 +30,7 @@ export function createAssignmentExpression(
     operator,
     right,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       operator === '**='
         ? TransformFlags.ES2016

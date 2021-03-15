@@ -10,10 +10,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "--/b/.c",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@
                         "kind": 4260544,
                         "text": "/b/",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 5
@@ -38,13 +37,13 @@
                         "text": "c",
                         "rawText": "c",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 7,
@@ -55,13 +54,13 @@
                     }
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 7
@@ -70,7 +69,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -80,17 +78,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

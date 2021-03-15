@@ -43,7 +43,9 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
-    tob.$printed === '✖ Soon to be open sourced' ? '' : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
+    tob.$printed === '✖ Soon to be open sourced'
+      ? ''
+      : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
@@ -107,22 +109,15 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-
-${Constants.JavascriptStart}${
-  JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)
-}${Constants.JavascriptEnd}
-  
+${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
+    Constants.JavascriptEnd
+  }
 ### Printed
-
-${Constants.JavascriptStart}${
-  updateItems.includes('printer') ? tob.$printed : tob.printed
-}${Constants.JavascriptEnd}
-  
+${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ### Diagnostics
-
-${Constants.JavascriptStart}${
-  updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics
-}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
+    Constants.JavascriptEnd
+  }
 `;
 }
 

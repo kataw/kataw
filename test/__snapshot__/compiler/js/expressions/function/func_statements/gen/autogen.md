@@ -206,10 +206,9 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if (x) #",
     "filename": "",
     "statements": [
@@ -220,7 +219,7 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 5
@@ -232,13 +231,13 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
                     "text": "#",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 8
@@ -246,7 +245,7 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
             "alternate": null,
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 8
@@ -263,7 +262,6 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -273,17 +271,13 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

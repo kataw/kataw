@@ -14,10 +14,9 @@ a instanceof b + c
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "a instanceof b + c",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ a instanceof b + c
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -43,7 +42,7 @@ a instanceof b + c
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 14
@@ -54,25 +53,25 @@ a instanceof b + c
                         "text": "c",
                         "rawText": "c",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -81,7 +80,6 @@ a instanceof b + c
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -91,17 +89,13 @@ a instanceof b + c
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

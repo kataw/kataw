@@ -10,10 +10,9 @@ do if(8)function s(){}while(y)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do if(8)function s(){}while(y)",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ do if(8)function s(){}while(y)
                 "text": "y",
                 "rawText": "y",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 29
@@ -36,7 +35,7 @@ do if(8)function s(){}while(y)
                     "text": 8,
                     "rawText": "8",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 7
@@ -48,7 +47,7 @@ do if(8)function s(){}while(y)
                         "text": "s",
                         "rawText": "s",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 16,
                         "end": 18
@@ -58,7 +57,7 @@ do if(8)function s(){}while(y)
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 20
@@ -71,20 +70,20 @@ do if(8)function s(){}while(y)
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 256,
                     "start": 8,
                     "end": 22
@@ -92,13 +91,13 @@ do if(8)function s(){}while(y)
                 "alternate": null,
                 "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -107,7 +106,6 @@ do if(8)function s(){}while(y)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -117,17 +115,13 @@ do if(8)function s(){}while(y)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

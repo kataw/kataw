@@ -10,10 +10,9 @@ declare function f([]?, {})
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function f([]?, {})",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ declare function f([]?, {})
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 16,
                 "end": 18
@@ -42,13 +41,13 @@ declare function f([]?, {})
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 20,
                                 "end": 20
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 19,
                             "end": 21
@@ -60,7 +59,7 @@ declare function f([]?, {})
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 19,
                         "end": 22
@@ -77,12 +76,12 @@ declare function f([]?, {})
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 23,
                             "end": 26
@@ -94,7 +93,7 @@ declare function f([]?, {})
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 23,
                         "end": 26
@@ -102,7 +101,7 @@ declare function f([]?, {})
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 27
@@ -111,7 +110,7 @@ declare function f([]?, {})
             "contents": null,
             "typeParameters": null,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 27
@@ -120,7 +119,6 @@ declare function f([]?, {})
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -130,17 +128,13 @@ declare function f([]?, {})
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

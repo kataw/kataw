@@ -11,10 +11,9 @@ x: for(;;) continue x
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x: for(;;) continue x\n/y",
     "filename": "",
     "statements": [
@@ -25,7 +24,7 @@ x: for(;;) continue x
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 1
@@ -43,26 +42,26 @@ x: for(;;) continue x
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 1081344,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 21
                 },
                 "flags": 1081344,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 21
             },
             "isWebCompat": true,
             "flags": 1081344,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -73,13 +72,13 @@ x: for(;;) continue x
                 "kind": 4260544,
                 "text": "/y",
                 "flags": 1081344,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 24
@@ -96,7 +95,6 @@ x: for(;;) continue x
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -106,17 +104,13 @@ x: for(;;) continue x
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

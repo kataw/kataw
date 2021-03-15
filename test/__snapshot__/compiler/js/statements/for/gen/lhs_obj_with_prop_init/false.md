@@ -14,10 +14,9 @@ for ({p: x = 0} = 0 in {});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for ({p: x = 0} = 0 in {});",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ for ({p: x = 0} = 0 in {});
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
@@ -49,7 +48,7 @@ for ({p: x = 0} = 0 in {});
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 8,
                                         "end": 10
@@ -60,13 +59,13 @@ for ({p: x = 0} = 0 in {});
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 8,
                                     "end": 14
@@ -74,7 +73,7 @@ for ({p: x = 0} = 0 in {});
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
@@ -83,13 +82,13 @@ for ({p: x = 0} = 0 in {});
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 6,
                         "end": 14
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 15
@@ -100,13 +99,13 @@ for ({p: x = 0} = 0 in {});
                     "text": 0,
                     "rawText": "0",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 19
@@ -119,13 +118,13 @@ for ({p: x = 0} = 0 in {});
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 25
@@ -133,13 +132,13 @@ for ({p: x = 0} = 0 in {});
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 26,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 27
@@ -148,7 +147,6 @@ for ({p: x = 0} = 0 in {});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -158,17 +156,13 @@ for ({p: x = 0} = 0 in {});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

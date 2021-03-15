@@ -11,10 +11,9 @@ class x {    async async get f(x){}    }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x {    async async get f(x){}    }\n",
     "filename": "",
     "statements": [
@@ -25,7 +24,7 @@ class x {    async async get f(x){}    }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -43,7 +42,7 @@ class x {    async async get f(x){}    }
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 24
@@ -60,7 +59,7 @@ class x {    async async get f(x){}    }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 24
@@ -78,7 +77,7 @@ class x {    async async get f(x){}    }
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
@@ -94,7 +93,7 @@ class x {    async async get f(x){}    }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 31,
                                             "end": 32
@@ -106,7 +105,7 @@ class x {    async async get f(x){}    }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 31,
                                         "end": 32
@@ -114,7 +113,7 @@ class x {    async async get f(x){}    }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 33
@@ -128,13 +127,13 @@ class x {    async async get f(x){}    }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 33,
                                 "end": 35
@@ -144,20 +143,20 @@ class x {    async async get f(x){}    }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 35
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 24,
                         "end": 35
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 40
@@ -165,7 +164,7 @@ class x {    async async get f(x){}    }
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 40
@@ -182,7 +181,6 @@ class x {    async async get f(x){}    }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -192,17 +190,13 @@ class x {    async async get f(x){}    }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

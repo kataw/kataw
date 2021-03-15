@@ -72,10 +72,9 @@ class e {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class a {\n    //constructor ();\n    constructor (n: number);\n    constructor (s: string);\n    constructor (ns: any) {\n\n    }\n\n    public pgF() { }\n\n    public pv;\n    public get d() {\n        return 30;\n    }\n    public set d(a: number) {\n    }\n\n    public static get p2() {\n        return { x: 30, y: 40 };\n    }\n\n    private static d2() {\n    }\n    private static get p3() {\n        return \"string\";\n    }\n    private pv3;\n\n    private foo(n: number): string;\n    private foo(s: string): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}\n\ndeclare class aAmbient {\n    constructor (n: number);\n    constructor (s: string);\n    public pgF(): void;\n    public pv;\n    public d : number;\n    static p2 : { x: number; y: number; };\n    static d2();\n    static p3;\n    private pv3;\n    private foo(s);\n}\n\nclass d {\n    private foo(n: number): string;\n    private foo(s: string): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}\n\nclass e {\n    private foo(s: string): string;\n    private foo(n: number): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}",
     "filename": "",
     "statements": [
@@ -86,7 +85,7 @@ class e {
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -110,7 +109,7 @@ class e {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 47
@@ -126,7 +125,7 @@ class e {
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 49,
                                             "end": 50
@@ -135,7 +134,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 51,
                                             "end": 58
@@ -145,7 +144,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 49,
                                         "end": 58
@@ -153,7 +152,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 59
@@ -166,13 +165,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 47,
                             "end": 60
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 60
@@ -190,7 +189,7 @@ class e {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 60,
                                 "end": 76
@@ -206,7 +205,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 78,
                                             "end": 79
@@ -215,7 +214,7 @@ class e {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 80,
                                             "end": 87
@@ -225,7 +224,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 78,
                                         "end": 87
@@ -233,7 +232,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 78,
                                 "end": 88
@@ -246,13 +245,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 76,
                             "end": 89
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 60,
                         "end": 89
@@ -270,7 +269,7 @@ class e {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 89,
                                 "end": 105
@@ -286,7 +285,7 @@ class e {
                                             "text": "ns",
                                             "rawText": "ns",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 107,
                                             "end": 109
@@ -295,7 +294,7 @@ class e {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 110,
                                             "end": 114
@@ -305,7 +304,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 107,
                                         "end": 114
@@ -313,7 +312,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 107,
                                 "end": 115
@@ -327,13 +326,13 @@ class e {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 117,
                                     "end": 117
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 115,
                                 "end": 124
@@ -343,13 +342,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 105,
                             "end": 124
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 89,
                         "end": 124
@@ -367,7 +366,7 @@ class e {
                                 "text": "pgF",
                                 "rawText": "pgF",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 136,
                                 "end": 140
@@ -377,7 +376,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 141,
                                 "end": 142
@@ -391,13 +390,13 @@ class e {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 144,
                                     "end": 144
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 142,
                                 "end": 146
@@ -407,20 +406,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 124,
                                 "end": 136
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 140,
                             "end": 146
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 124,
                         "end": 146
@@ -432,7 +431,7 @@ class e {
                             "text": "pv",
                             "rawText": "pv",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 158,
                             "end": 161
@@ -449,14 +448,14 @@ class e {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 146,
                             "end": 158
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 146,
                         "end": 162
@@ -474,7 +473,7 @@ class e {
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 177,
                                 "end": 179
@@ -484,7 +483,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 180,
                                 "end": 181
@@ -503,13 +502,13 @@ class e {
                                                 "text": 30,
                                                 "rawText": "30",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 198,
                                                 "end": 201
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 183,
                                             "end": 202
@@ -517,13 +516,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 183,
                                     "end": 202
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 181,
                                 "end": 208
@@ -533,20 +532,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 162,
                                 "end": 173
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 179,
                             "end": 208
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 162,
                         "end": 208
@@ -564,7 +563,7 @@ class e {
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 223,
                                 "end": 225
@@ -580,7 +579,7 @@ class e {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 226,
                                             "end": 227
@@ -589,7 +588,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 228,
                                             "end": 235
@@ -599,7 +598,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 226,
                                         "end": 235
@@ -607,7 +606,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 226,
                                 "end": 236
@@ -621,13 +620,13 @@ class e {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 238,
                                     "end": 238
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 236,
                                 "end": 244
@@ -637,20 +636,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 208,
                                 "end": 219
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 225,
                             "end": 244
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 208,
                         "end": 244
@@ -668,7 +667,7 @@ class e {
                                 "text": "p2",
                                 "rawText": "p2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 267,
                                 "end": 270
@@ -678,7 +677,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 271,
                                 "end": 272
@@ -704,7 +703,7 @@ class e {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 291,
                                                                 "end": 293
@@ -714,7 +713,7 @@ class e {
                                                                 "text": 30,
                                                                 "rawText": "30",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 294,
                                                                 "end": 297
@@ -722,7 +721,7 @@ class e {
                                                             "accessModifier": null,
                                                             "decorators": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 291,
                                                             "end": 297
@@ -734,7 +733,7 @@ class e {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 298,
                                                                 "end": 300
@@ -744,7 +743,7 @@ class e {
                                                                 "text": 40,
                                                                 "rawText": "40",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 301,
                                                                 "end": 304
@@ -752,7 +751,7 @@ class e {
                                                             "accessModifier": null,
                                                             "decorators": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 298,
                                                             "end": 304
@@ -761,19 +760,19 @@ class e {
                                                     "trailingComma": false,
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 291,
                                                     "end": 304
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 289,
                                                 "end": 306
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 274,
                                             "end": 307
@@ -781,13 +780,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 274,
                                     "end": 307
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 272,
                                 "end": 313
@@ -797,20 +796,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 244,
                                 "end": 256
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 270,
                             "end": 313
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 244,
                         "end": 313
@@ -828,7 +827,7 @@ class e {
                                 "text": "d2",
                                 "rawText": "d2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 333,
                                 "end": 336
@@ -838,7 +837,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 337,
                                 "end": 338
@@ -852,13 +851,13 @@ class e {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 340,
                                     "end": 340
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 338,
                                 "end": 346
@@ -868,20 +867,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 313,
                                 "end": 326
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 336,
                             "end": 346
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 313,
                         "end": 346
@@ -899,7 +898,7 @@ class e {
                                 "text": "p3",
                                 "rawText": "p3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 369,
                                 "end": 372
@@ -909,7 +908,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 373,
                                 "end": 374
@@ -928,13 +927,13 @@ class e {
                                                 "text": "string",
                                                 "rawText": "string",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 391,
                                                 "end": 400
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 376,
                                             "end": 401
@@ -942,13 +941,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 376,
                                     "end": 401
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 374,
                                 "end": 407
@@ -958,20 +957,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 346,
                                 "end": 358
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 372,
                             "end": 407
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 346,
                         "end": 407
@@ -983,7 +982,7 @@ class e {
                             "text": "pv3",
                             "rawText": "pv3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 419,
                             "end": 423
@@ -1000,14 +999,14 @@ class e {
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 407,
                             "end": 419
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 407,
                         "end": 424
@@ -1025,7 +1024,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 437,
                                 "end": 441
@@ -1041,7 +1040,7 @@ class e {
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 442,
                                             "end": 443
@@ -1050,7 +1049,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 444,
                                             "end": 451
@@ -1060,7 +1059,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 442,
                                         "end": 451
@@ -1068,7 +1067,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 442,
                                 "end": 452
@@ -1080,7 +1079,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 453,
                                 "end": 460
@@ -1088,20 +1087,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 424,
                                 "end": 437
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 441,
                             "end": 461
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 424,
                         "end": 461
@@ -1119,7 +1118,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 473,
                                 "end": 477
@@ -1135,7 +1134,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 478,
                                             "end": 479
@@ -1144,7 +1143,7 @@ class e {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 480,
                                             "end": 487
@@ -1154,7 +1153,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 478,
                                         "end": 487
@@ -1162,7 +1161,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 478,
                                 "end": 488
@@ -1174,7 +1173,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 489,
                                 "end": 496
@@ -1182,20 +1181,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 461,
                                 "end": 473
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 477,
                             "end": 497
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 461,
                         "end": 497
@@ -1213,7 +1212,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 509,
                                 "end": 513
@@ -1229,7 +1228,7 @@ class e {
                                             "text": "ns",
                                             "rawText": "ns",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 514,
                                             "end": 516
@@ -1238,7 +1237,7 @@ class e {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 517,
                                             "end": 521
@@ -1248,7 +1247,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 514,
                                         "end": 521
@@ -1256,7 +1255,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 514,
                                 "end": 522
@@ -1279,7 +1278,7 @@ class e {
                                                         "text": "ns",
                                                         "rawText": "ns",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 539,
                                                         "end": 542
@@ -1289,13 +1288,13 @@ class e {
                                                         "text": "toString",
                                                         "rawText": "toString",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 543,
                                                         "end": 551
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 542,
                                                     "end": 551,
@@ -1312,18 +1311,18 @@ class e {
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 553,
                                                     "end": 553
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 551,
                                                 "end": 553
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 524,
                                             "end": 554
@@ -1331,13 +1330,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 524,
                                     "end": 554
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 522,
                                 "end": 560
@@ -1347,27 +1346,27 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 497,
                                 "end": 509
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 513,
                             "end": 560
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 497,
                         "end": 560
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 562
@@ -1375,7 +1374,7 @@ class e {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 562
@@ -1387,7 +1386,7 @@ class e {
                 "text": "aAmbient",
                 "rawText": "aAmbient",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 577,
                 "end": 586
@@ -1411,7 +1410,7 @@ class e {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 588,
                                 "end": 604
@@ -1427,7 +1426,7 @@ class e {
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 606,
                                             "end": 607
@@ -1436,7 +1435,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 608,
                                             "end": 615
@@ -1446,7 +1445,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 606,
                                         "end": 615
@@ -1454,7 +1453,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 606,
                                 "end": 616
@@ -1467,13 +1466,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 604,
                             "end": 617
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 588,
                         "end": 617
@@ -1491,7 +1490,7 @@ class e {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 617,
                                 "end": 633
@@ -1507,7 +1506,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 635,
                                             "end": 636
@@ -1516,7 +1515,7 @@ class e {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 637,
                                             "end": 644
@@ -1526,7 +1525,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 635,
                                         "end": 644
@@ -1534,7 +1533,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 635,
                                 "end": 645
@@ -1547,13 +1546,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 633,
                             "end": 646
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 617,
                         "end": 646
@@ -1571,7 +1570,7 @@ class e {
                                 "text": "pgF",
                                 "rawText": "pgF",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 657,
                                 "end": 661
@@ -1581,7 +1580,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 662,
                                 "end": 663
@@ -1593,7 +1592,7 @@ class e {
                             "type": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 664,
                                 "end": 669
@@ -1601,20 +1600,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 646,
                                 "end": 657
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 661,
                             "end": 670
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 646,
                         "end": 670
@@ -1626,7 +1625,7 @@ class e {
                             "text": "pv",
                             "rawText": "pv",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 681,
                             "end": 684
@@ -1643,14 +1642,14 @@ class e {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 670,
                             "end": 681
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 670,
                         "end": 685
@@ -1662,7 +1661,7 @@ class e {
                             "text": "d",
                             "rawText": "d",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 696,
                             "end": 698
@@ -1676,7 +1675,7 @@ class e {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 700,
                             "end": 707
@@ -1686,14 +1685,14 @@ class e {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 685,
                             "end": 696
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 685,
                         "end": 708
@@ -1705,7 +1704,7 @@ class e {
                             "text": "p2",
                             "rawText": "p2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 719,
                             "end": 722
@@ -1728,7 +1727,7 @@ class e {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 726,
                                             "end": 728
@@ -1738,7 +1737,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 729,
                                             "end": 736
@@ -1747,7 +1746,7 @@ class e {
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 726,
                                         "end": 737
@@ -1759,7 +1758,7 @@ class e {
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 737,
                                             "end": 739
@@ -1769,7 +1768,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 740,
                                             "end": 747
@@ -1778,7 +1777,7 @@ class e {
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 737,
                                         "end": 748
@@ -1786,13 +1785,13 @@ class e {
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 726,
                                 "end": 750
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 724,
                             "end": 750
@@ -1802,7 +1801,7 @@ class e {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 708,
                         "end": 751
@@ -1820,7 +1819,7 @@ class e {
                                 "text": "d2",
                                 "rawText": "d2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 762,
                                 "end": 765
@@ -1830,7 +1829,7 @@ class e {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 766,
                                 "end": 767
@@ -1843,13 +1842,13 @@ class e {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 765,
                             "end": 768
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 751,
                         "end": 768
@@ -1861,7 +1860,7 @@ class e {
                             "text": "p3",
                             "rawText": "p3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 779,
                             "end": 782
@@ -1878,7 +1877,7 @@ class e {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 768,
                         "end": 783
@@ -1890,7 +1889,7 @@ class e {
                             "text": "pv3",
                             "rawText": "pv3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 795,
                             "end": 799
@@ -1907,14 +1906,14 @@ class e {
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 783,
                             "end": 795
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 783,
                         "end": 800
@@ -1932,7 +1931,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 812,
                                 "end": 816
@@ -1948,7 +1947,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 817,
                                             "end": 818
@@ -1960,7 +1959,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 817,
                                         "end": 818
@@ -1968,7 +1967,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 817,
                                 "end": 819
@@ -1981,27 +1980,27 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 800,
                                 "end": 812
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 816,
                             "end": 820
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 800,
                         "end": 820
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 588,
                 "end": 822
@@ -2009,7 +2008,7 @@ class e {
             "decorators": null,
             "isAbstract": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 571,
             "end": 822
@@ -2021,7 +2020,7 @@ class e {
                 "text": "d",
                 "rawText": "d",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 829,
                 "end": 831
@@ -2045,7 +2044,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 845,
                                 "end": 849
@@ -2061,7 +2060,7 @@ class e {
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 850,
                                             "end": 851
@@ -2070,7 +2069,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 852,
                                             "end": 859
@@ -2080,7 +2079,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 850,
                                         "end": 859
@@ -2088,7 +2087,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 850,
                                 "end": 860
@@ -2100,7 +2099,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 861,
                                 "end": 868
@@ -2108,20 +2107,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 833,
                                 "end": 845
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 849,
                             "end": 869
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 833,
                         "end": 869
@@ -2139,7 +2138,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 881,
                                 "end": 885
@@ -2155,7 +2154,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 886,
                                             "end": 887
@@ -2164,7 +2163,7 @@ class e {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 888,
                                             "end": 895
@@ -2174,7 +2173,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 886,
                                         "end": 895
@@ -2182,7 +2181,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 886,
                                 "end": 896
@@ -2194,7 +2193,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 897,
                                 "end": 904
@@ -2202,20 +2201,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 869,
                                 "end": 881
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 885,
                             "end": 905
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 869,
                         "end": 905
@@ -2233,7 +2232,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 917,
                                 "end": 921
@@ -2249,7 +2248,7 @@ class e {
                                             "text": "ns",
                                             "rawText": "ns",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 922,
                                             "end": 924
@@ -2258,7 +2257,7 @@ class e {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 925,
                                             "end": 929
@@ -2268,7 +2267,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 922,
                                         "end": 929
@@ -2276,7 +2275,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 922,
                                 "end": 930
@@ -2299,7 +2298,7 @@ class e {
                                                         "text": "ns",
                                                         "rawText": "ns",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 947,
                                                         "end": 950
@@ -2309,13 +2308,13 @@ class e {
                                                         "text": "toString",
                                                         "rawText": "toString",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 951,
                                                         "end": 959
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 950,
                                                     "end": 959,
@@ -2332,18 +2331,18 @@ class e {
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 961,
                                                     "end": 961
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 959,
                                                 "end": 961
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 932,
                                             "end": 962
@@ -2351,13 +2350,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 932,
                                     "end": 962
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 930,
                                 "end": 968
@@ -2367,27 +2366,27 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 905,
                                 "end": 917
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 921,
                             "end": 968
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 905,
                         "end": 968
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 833,
                 "end": 970
@@ -2395,7 +2394,7 @@ class e {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 822,
             "end": 970
@@ -2407,7 +2406,7 @@ class e {
                 "text": "e",
                 "rawText": "e",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 977,
                 "end": 979
@@ -2431,7 +2430,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 993,
                                 "end": 997
@@ -2447,7 +2446,7 @@ class e {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 998,
                                             "end": 999
@@ -2456,7 +2455,7 @@ class e {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 1000,
                                             "end": 1007
@@ -2466,7 +2465,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 998,
                                         "end": 1007
@@ -2474,7 +2473,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 998,
                                 "end": 1008
@@ -2486,7 +2485,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1009,
                                 "end": 1016
@@ -2494,20 +2493,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 981,
                                 "end": 993
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 997,
                             "end": 1017
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 981,
                         "end": 1017
@@ -2525,7 +2524,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1029,
                                 "end": 1033
@@ -2541,7 +2540,7 @@ class e {
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 1034,
                                             "end": 1035
@@ -2550,7 +2549,7 @@ class e {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 1036,
                                             "end": 1043
@@ -2560,7 +2559,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 1034,
                                         "end": 1043
@@ -2568,7 +2567,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1034,
                                 "end": 1044
@@ -2580,7 +2579,7 @@ class e {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1045,
                                 "end": 1052
@@ -2588,20 +2587,20 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1017,
                                 "end": 1029
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 1033,
                             "end": 1053
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 1017,
                         "end": 1053
@@ -2619,7 +2618,7 @@ class e {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1065,
                                 "end": 1069
@@ -2635,7 +2634,7 @@ class e {
                                             "text": "ns",
                                             "rawText": "ns",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 1070,
                                             "end": 1072
@@ -2644,7 +2643,7 @@ class e {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 1073,
                                             "end": 1077
@@ -2654,7 +2653,7 @@ class e {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 1070,
                                         "end": 1077
@@ -2662,7 +2661,7 @@ class e {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1070,
                                 "end": 1078
@@ -2685,7 +2684,7 @@ class e {
                                                         "text": "ns",
                                                         "rawText": "ns",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 1095,
                                                         "end": 1098
@@ -2695,13 +2694,13 @@ class e {
                                                         "text": "toString",
                                                         "rawText": "toString",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 1099,
                                                         "end": 1107
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 1098,
                                                     "end": 1107,
@@ -2718,18 +2717,18 @@ class e {
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 1109,
                                                     "end": 1109
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 1107,
                                                 "end": 1109
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 1080,
                                             "end": 1110
@@ -2737,13 +2736,13 @@ class e {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 1080,
                                     "end": 1110
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1078,
                                 "end": 1116
@@ -2753,27 +2752,27 @@ class e {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1053,
                                 "end": 1065
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 1069,
                             "end": 1116
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 1053,
                         "end": 1116
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 981,
                 "end": 1118
@@ -2781,7 +2780,7 @@ class e {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 970,
             "end": 1118
@@ -2790,7 +2789,6 @@ class e {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -2800,17 +2798,13 @@ class e {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

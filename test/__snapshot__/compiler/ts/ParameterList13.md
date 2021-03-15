@@ -12,10 +12,9 @@ interface I {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface I {\n    new (public x);\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ interface I {
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -52,7 +51,7 @@ interface I {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 29,
                                         "end": 31
@@ -63,14 +62,14 @@ interface I {
                                     "accessModifier": {
                                         "kind": 4194494,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 23,
                                         "end": 29
                                     },
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 23,
                                     "end": 31
@@ -78,14 +77,14 @@ interface I {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 23,
                             "end": 31
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 21,
                         "end": 33
@@ -93,13 +92,13 @@ interface I {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 13,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 35
@@ -108,7 +107,6 @@ interface I {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -118,17 +116,13 @@ interface I {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

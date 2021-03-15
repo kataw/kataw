@@ -11,10 +11,9 @@ typeof class{}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "typeof class{}\n/foo/",
     "filename": "",
     "statements": [
@@ -37,20 +36,20 @@ typeof class{}
                                 "kind": 50,
                                 "elements": [],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 13,
                                 "end": 14
                             },
                             "decorators": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 6,
                             "end": 14
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 14
@@ -61,13 +60,13 @@ typeof class{}
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 19
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 19
@@ -77,19 +76,19 @@ typeof class{}
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 20
@@ -106,7 +105,6 @@ typeof class{}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -116,17 +114,13 @@ typeof class{}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "'use strict'; class C extends yield { }",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@
                 "text": "use strict",
                 "rawText": "use strict",
                 "flags": 33554432,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -46,7 +45,7 @@
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 19,
                 "end": 21
@@ -59,14 +58,14 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 35
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 35
@@ -76,7 +75,7 @@
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 37,
                 "end": 39
@@ -84,7 +83,7 @@
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 13,
             "end": 39
@@ -93,7 +92,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -103,17 +101,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ function*g(){ function yield(){}; }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function*g(){ function yield(){}; }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function*g(){ function yield(){}; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 10
@@ -38,7 +37,7 @@ function*g(){ function yield(){}; }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 12
@@ -56,7 +55,7 @@ function*g(){ function yield(){}; }
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 22,
                                 "end": 28
@@ -66,7 +65,7 @@ function*g(){ function yield(){}; }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
@@ -79,20 +78,20 @@ function*g(){ function yield(){}; }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 31
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 13,
                             "end": 32
@@ -100,7 +99,7 @@ function*g(){ function yield(){}; }
                         {
                             "kind": 6291526,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 32,
                             "end": 33
@@ -108,20 +107,20 @@ function*g(){ function yield(){}; }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 33
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 35
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 35
@@ -130,7 +129,6 @@ function*g(){ function yield(){}; }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -140,17 +138,13 @@ function*g(){ function yield(){}; }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ class A extends async function f(){} {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends async function f(){} {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class A extends async function f(){} {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -43,7 +42,7 @@ class A extends async function f(){} {}
                         "text": "f",
                         "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 30,
                         "end": 32
@@ -53,7 +52,7 @@ class A extends async function f(){} {}
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 33,
                         "end": 34
@@ -65,13 +64,13 @@ class A extends async function f(){} {}
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 35
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 34,
                         "end": 36
@@ -79,14 +78,14 @@ class A extends async function f(){} {}
                     "typeParameters": null,
                     "type": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 4,
                     "start": 15,
                     "end": 36
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 36
@@ -96,7 +95,7 @@ class A extends async function f(){} {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 38,
                 "end": 39
@@ -104,7 +103,7 @@ class A extends async function f(){} {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 39
@@ -113,7 +112,6 @@ class A extends async function f(){} {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -123,17 +121,13 @@ class A extends async function f(){} {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

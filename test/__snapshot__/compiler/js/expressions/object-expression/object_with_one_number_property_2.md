@@ -10,10 +10,9 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -47,7 +46,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": 0.9,
                                             "rawText": ".9",
                                             "flags": 2048,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
@@ -57,7 +56,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
@@ -65,7 +64,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 6,
                                         "end": 10
@@ -77,7 +76,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": 132,
                                             "rawText": "0x84",
                                             "flags": 512,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 11,
                                             "end": 16
@@ -87,7 +86,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
@@ -95,7 +94,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 18
@@ -107,7 +106,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": 1,
                                             "rawText": "0b1",
                                             "flags": 256,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 19,
                                             "end": 23
@@ -117,7 +116,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
@@ -125,7 +124,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 19,
                                         "end": 25
@@ -137,7 +136,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": 23,
                                             "rawText": "0o27",
                                             "flags": 1024,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 31
@@ -147,7 +146,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 32,
                                             "end": 33
@@ -155,7 +154,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 26,
                                         "end": 33
@@ -167,7 +166,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": 1e+234,
                                             "rawText": "1e234",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 34,
                                             "end": 40
@@ -177,7 +176,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 41,
                                             "end": 42
@@ -185,7 +184,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 34,
                                         "end": 42
@@ -194,13 +193,13 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 42
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 43
@@ -209,18 +208,18 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 44
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 44
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 45
@@ -229,7 +228,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -239,17 +237,13 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ obj.voi\u0064 = 42;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "obj.voi\\u0064 = 42;",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ obj.voi\u0064 = 42;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 3
@@ -38,13 +37,13 @@ obj.voi\u0064 = 42;
                         "text": "void",
                         "rawText": "voi\\u0064",
                         "flags": 75497472,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 4,
                         "end": 13
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 13,
@@ -60,19 +59,19 @@ obj.voi\u0064 = 42;
                     "text": 42,
                     "rawText": "42",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -81,7 +80,6 @@ obj.voi\u0064 = 42;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -91,17 +89,13 @@ obj.voi\u0064 = 42;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

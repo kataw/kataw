@@ -10,10 +10,9 @@ foo: { while(z) continue foo }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo: { while(z) continue foo }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ foo: { while(z) continue foo }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
@@ -41,7 +40,7 @@ foo: { while(z) continue foo }
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
@@ -53,19 +52,19 @@ foo: { while(z) continue foo }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 28
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 6,
                             "end": 28
@@ -73,20 +72,20 @@ foo: { while(z) continue foo }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 30
             },
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -95,7 +94,6 @@ foo: { while(z) continue foo }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -105,17 +103,13 @@ foo: { while(z) continue foo }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

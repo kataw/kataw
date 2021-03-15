@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "'use strict'; await => async.await[foo]",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@
                 "text": "use strict",
                 "rawText": "use strict",
                 "flags": 33554432,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -55,7 +54,7 @@
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
@@ -67,7 +66,7 @@
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 19,
                             "end": 19
@@ -77,7 +76,7 @@
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 19
@@ -91,7 +90,7 @@
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 22,
                             "end": 28
@@ -101,13 +100,13 @@
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 29,
                             "end": 34
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 28,
                         "end": 34,
@@ -122,25 +121,25 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 35,
                         "end": 38
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 34,
                     "end": 39
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 39
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 39
@@ -149,7 +148,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -159,17 +157,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

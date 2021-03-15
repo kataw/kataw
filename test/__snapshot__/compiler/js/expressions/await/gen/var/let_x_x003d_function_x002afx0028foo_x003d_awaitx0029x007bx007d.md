@@ -14,10 +14,9 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { let x = function *f(foo = await){} });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -112,7 +111,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 42,
                                                                 "end": 44
@@ -126,7 +125,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                     "text": "f",
                                                                     "rawText": "f",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1025,
                                                                     "start": 57,
                                                                     "end": 58
@@ -142,7 +141,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 59,
                                                                                 "end": 62
@@ -155,13 +154,13 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                                     "kind": 131322,
                                                                                     "text": "",
                                                                                     "flags": 3,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 70,
                                                                                     "end": 70
                                                                                 },
                                                                                 "flags": 1,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 32780,
                                                                                 "start": 64,
                                                                                 "end": 70
@@ -170,7 +169,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                             "accessModifier": null,
                                                                             "isReadOnly": false,
                                                                             "flags": 1,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1,
                                                                             "start": 59,
                                                                             "end": 70
@@ -178,7 +177,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 1,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 59,
                                                                     "end": 71
@@ -190,13 +189,13 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                         "statements": [],
                                                                         "multiline": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 72,
                                                                         "end": 72
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 71,
                                                                     "end": 73
@@ -204,26 +203,26 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                 "typeParameters": null,
                                                                 "type": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 128,
                                                                 "start": 46,
                                                                 "end": 73
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 73
                                                         }
                                                     ],
                                                     "flags": 8,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 73
                                                 },
                                                 "flags": 8,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 38,
                                                 "end": 73
@@ -231,13 +230,13 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 73
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 75
@@ -245,32 +244,32 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 75
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 76
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 76
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 76
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 77
@@ -287,7 +286,6 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -297,17 +295,13 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

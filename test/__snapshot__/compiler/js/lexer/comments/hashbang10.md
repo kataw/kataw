@@ -17,10 +17,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": " #!\n",
     "filename": "",
     "statements": [
@@ -33,19 +32,19 @@
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 3
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 2,
             "end": 3
@@ -69,7 +68,6 @@
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -79,17 +77,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

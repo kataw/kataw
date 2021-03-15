@@ -15,10 +15,9 @@ function f([x],){}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f([x],){}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ function f([x],){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -53,14 +52,14 @@ function f([x],){}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 12,
                                             "end": 13
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 12,
                                         "end": 13
@@ -68,13 +67,13 @@ function f([x],){}
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 11,
                             "end": 14
@@ -86,7 +85,7 @@ function f([x],){}
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 11,
                         "end": 14
@@ -94,7 +93,7 @@ function f([x],){}
                 ],
                 "trailingComma": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 16
@@ -107,20 +106,20 @@ function f([x],){}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 18
@@ -129,7 +128,6 @@ function f([x],){}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -139,17 +137,13 @@ function f([x],){}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

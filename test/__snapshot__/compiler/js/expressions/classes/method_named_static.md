@@ -10,10 +10,9 @@ class x{   static(){}   }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x{   static(){}   }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ class x{   static(){}   }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -48,7 +47,7 @@ class x{   static(){}   }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
@@ -58,7 +57,7 @@ class x{   static(){}   }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
@@ -72,13 +71,13 @@ class x{   static(){}   }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
@@ -88,20 +87,20 @@ class x{   static(){}   }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 21
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 8,
                         "end": 21
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 8,
                 "end": 25
@@ -109,7 +108,7 @@ class x{   static(){}   }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 25
@@ -118,7 +117,6 @@ class x{   static(){}   }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -128,17 +126,13 @@ class x{   static(){}   }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

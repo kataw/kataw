@@ -27,7 +27,7 @@ export function createTemplateLiteralTypeSpan(
     rawText,
     text,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

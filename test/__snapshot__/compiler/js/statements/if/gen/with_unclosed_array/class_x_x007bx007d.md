@@ -14,10 +14,9 @@ if[ class x {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if[ class x {}",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ if[ class x {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 9,
                                 "end": 11
@@ -47,14 +46,14 @@ if[ class x {}
                                 "kind": 50,
                                 "elements": [],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 13,
                                 "end": 14
                             },
                             "decorators": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 3,
                             "end": 14
@@ -63,13 +62,13 @@ if[ class x {}
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 14
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 14
@@ -80,13 +79,13 @@ if[ class x {}
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 14
@@ -94,7 +93,7 @@ if[ class x {}
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 14
@@ -118,7 +117,6 @@ if[ class x {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -128,17 +126,13 @@ if[ class x {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

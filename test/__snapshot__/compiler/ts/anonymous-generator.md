@@ -12,10 +12,9 @@ const fn = function* <T>(input: T): Generator<number> {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const fn = function* <T>(input: T): Generator<number> {\n  yield 2;\n}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ const fn = function* <T>(input: T): Generator<number> {
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 8
@@ -53,7 +52,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "text": "input",
                                             "rawText": "input",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 25,
                                             "end": 30
@@ -66,14 +65,14 @@ const fn = function* <T>(input: T): Generator<number> {
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 33
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 31,
                                             "end": 34
@@ -83,7 +82,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 25,
                                         "end": 33
@@ -91,7 +90,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 34
@@ -111,19 +110,19 @@ const fn = function* <T>(input: T): Generator<number> {
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 63,
                                                     "end": 65
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 16393,
                                                 "start": 55,
                                                 "end": 65
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 55,
                                             "end": 66
@@ -131,13 +130,13 @@ const fn = function* <T>(input: T): Generator<number> {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 55,
                                     "end": 66
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 53,
                                 "end": 68
@@ -152,7 +151,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
@@ -161,14 +160,14 @@ const fn = function* <T>(input: T): Generator<number> {
                                         "defaultType": null,
                                         "expression": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 22,
                                         "end": 23
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 22,
                                 "end": 23
@@ -180,7 +179,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                     "text": "Generator",
                                     "rawText": "Generator",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 45
@@ -191,45 +190,45 @@ const fn = function* <T>(input: T): Generator<number> {
                                         {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 46,
                                             "end": 52
                                         }
                                     ],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 46,
                                     "end": 52
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 35,
                                 "end": 55
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 128,
                             "start": 10,
                             "end": 68
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 68
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 68
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 68
@@ -238,7 +237,6 @@ const fn = function* <T>(input: T): Generator<number> {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -248,17 +246,13 @@ const fn = function* <T>(input: T): Generator<number> {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

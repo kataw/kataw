@@ -12,10 +12,9 @@ function isString(x: any): x is string {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function isString(x: any): x is string {\n    return typeof x === 'string'\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function isString(x: any): x is string {
                 "text": "isString",
                 "rawText": "isString",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 17
@@ -42,7 +41,7 @@ function isString(x: any): x is string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 18,
                             "end": 19
@@ -51,7 +50,7 @@ function isString(x: any): x is string {
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 20,
                             "end": 24
@@ -61,7 +60,7 @@ function isString(x: any): x is string {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 18,
                         "end": 24
@@ -69,7 +68,7 @@ function isString(x: any): x is string {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 25
@@ -82,7 +81,7 @@ function isString(x: any): x is string {
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 28
@@ -90,13 +89,13 @@ function isString(x: any): x is string {
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 31,
                     "end": 38
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 26,
                 "end": 38
@@ -118,13 +117,13 @@ function isString(x: any): x is string {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 58,
                                         "end": 60
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 51,
                                     "end": 60
@@ -135,19 +134,19 @@ function isString(x: any): x is string {
                                     "text": "string",
                                     "rawText": "string",
                                     "flags": 33554432,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 64,
                                     "end": 73
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 51,
                                 "end": 73
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
                             "end": 73
@@ -155,20 +154,20 @@ function isString(x: any): x is string {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 40,
                     "end": 73
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 38,
                 "end": 75
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 75
@@ -177,7 +176,6 @@ function isString(x: any): x is string {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -187,17 +185,13 @@ function isString(x: any): x is string {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

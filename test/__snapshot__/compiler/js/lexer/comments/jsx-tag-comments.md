@@ -25,10 +25,9 @@ const pure = () => {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const pure = () => {\n    return (\n        <Foo\n            // single\n            /* block */\n        >\n        </Foo>\n    );\n}\n",
     "filename": "",
     "statements": [
@@ -45,7 +44,7 @@ const pure = () => {
                             "text": "pure",
                             "rawText": "pure",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 10
@@ -62,7 +61,7 @@ const pure = () => {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
@@ -84,7 +83,7 @@ const pure = () => {
                                                             "kind": 129,
                                                             "text": "Foo",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 8192,
                                                             "start": 43,
                                                             "end": 46
@@ -93,14 +92,14 @@ const pure = () => {
                                                             "kind": 123,
                                                             "attributesList": [],
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 8192,
                                                             "start": 46,
                                                             "end": 46
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 33,
                                                         "end": 102
@@ -112,7 +111,7 @@ const pure = () => {
                                                                 "kind": 137,
                                                                 "text": "\n        ",
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "parent": null,
                                                                 "start": 102,
@@ -120,7 +119,7 @@ const pure = () => {
                                                             }
                                                         ],
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 102,
                                                         "end": 111
@@ -131,31 +130,31 @@ const pure = () => {
                                                             "kind": 129,
                                                             "text": "Foo",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 8192,
                                                             "start": 113,
                                                             "end": 116
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 111,
                                                         "end": 117
                                                     },
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 8192,
                                                     "start": 33,
                                                     "end": 117
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 123
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 20,
                                             "end": 124
@@ -163,38 +162,38 @@ const pure = () => {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 124
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 126
                             },
                             "flags": 1073774592,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 126
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 126
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 126
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 126
@@ -203,7 +202,6 @@ const pure = () => {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -213,17 +211,13 @@ const pure = () => {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

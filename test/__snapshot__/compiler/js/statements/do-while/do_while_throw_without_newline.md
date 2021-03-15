@@ -12,10 +12,9 @@ do throw function (v, h) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do throw function (v, h) {\n  \"use strict\"\n} while ((\"\"))",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@ do throw function (v, h) {
                     "text": "",
                     "rawText": "",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 52,
                     "end": 54
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 51,
                 "end": 55
@@ -55,7 +54,7 @@ do throw function (v, h) {
                                     "text": "v",
                                     "rawText": "v",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 19,
                                     "end": 20
@@ -67,7 +66,7 @@ do throw function (v, h) {
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 20
@@ -80,7 +79,7 @@ do throw function (v, h) {
                                     "text": "h",
                                     "rawText": "h",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 21,
                                     "end": 23
@@ -92,7 +91,7 @@ do throw function (v, h) {
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 21,
                                 "end": 23
@@ -100,7 +99,7 @@ do throw function (v, h) {
                         ],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 24
@@ -117,13 +116,13 @@ do throw function (v, h) {
                                         "text": "use strict",
                                         "rawText": "use strict",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 26,
                                         "end": 41
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 41
@@ -131,13 +130,13 @@ do throw function (v, h) {
                             ],
                             "multiline": true,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 41
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 24,
                         "end": 43
@@ -145,19 +144,19 @@ do throw function (v, h) {
                     "typeParameters": null,
                     "type": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 43
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 43
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 56
@@ -174,7 +173,6 @@ do throw function (v, h) {
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -184,17 +182,13 @@ do throw function (v, h) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

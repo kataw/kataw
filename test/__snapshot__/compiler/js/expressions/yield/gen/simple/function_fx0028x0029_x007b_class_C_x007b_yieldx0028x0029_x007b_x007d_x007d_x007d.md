@@ -14,10 +14,9 @@ function f() { class C { yield() { } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f() { class C { yield() { } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function f() { class C { yield() { } } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -38,7 +37,7 @@ function f() { class C { yield() { } } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 12
@@ -56,7 +55,7 @@ function f() { class C { yield() { } } }
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 20,
                                 "end": 22
@@ -80,7 +79,7 @@ function f() { class C { yield() { } } }
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 30
@@ -90,7 +89,7 @@ function f() { class C { yield() { } } }
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 32
@@ -104,13 +103,13 @@ function f() { class C { yield() { } } }
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 34
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 36
@@ -120,20 +119,20 @@ function f() { class C { yield() { } } }
                                             "accessModifier": null,
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 30,
                                             "end": 36
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 24,
                                         "end": 36
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 24,
                                 "end": 38
@@ -141,7 +140,7 @@ function f() { class C { yield() { } } }
                             "decorators": null,
                             "isAbstract": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 14,
                             "end": 38
@@ -149,20 +148,20 @@ function f() { class C { yield() { } } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 38
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 40
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 40
@@ -171,7 +170,6 @@ function f() { class C { yield() { } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -181,17 +179,13 @@ function f() { class C { yield() { } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

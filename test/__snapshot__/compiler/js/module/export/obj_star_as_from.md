@@ -16,10 +16,9 @@ export {bar}, * as foo from 'bar';
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export {bar}, * as foo from 'bar';",
     "filename": "",
     "statements": [
@@ -39,27 +38,27 @@ export {bar}, * as foo from 'bar';
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "binding": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 12
@@ -68,7 +67,7 @@ export {bar}, * as foo from 'bar';
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 12
@@ -81,7 +80,7 @@ export {bar}, * as foo from 'bar';
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 13
@@ -92,19 +91,19 @@ export {bar}, * as foo from 'bar';
                     "text": "as",
                     "rawText": "as",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 18
@@ -116,13 +115,13 @@ export {bar}, * as foo from 'bar';
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 18,
             "end": 22
@@ -134,13 +133,13 @@ export {bar}, * as foo from 'bar';
                 "text": "from",
                 "rawText": "from",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 22,
             "end": 27
@@ -152,13 +151,13 @@ export {bar}, * as foo from 'bar';
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 33554433,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 27,
             "end": 34
@@ -210,7 +209,6 @@ export {bar}, * as foo from 'bar';
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -220,17 +218,13 @@ export {bar}, * as foo from 'bar';
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

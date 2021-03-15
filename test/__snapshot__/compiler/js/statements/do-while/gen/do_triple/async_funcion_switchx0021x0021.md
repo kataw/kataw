@@ -14,10 +14,9 @@ do do do async funcion switch!! while while while
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do do do async funcion switch!! while while while",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ do do do async funcion switch!! while while while
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 22
@@ -38,7 +37,7 @@ do do do async funcion switch!! while while while
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 22
@@ -50,7 +49,7 @@ do do do async funcion switch!! while while while
                         "text": "funcion",
                         "rawText": "funcion",
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 22
@@ -62,31 +61,31 @@ do do do async funcion switch!! while while while
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 22
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 22
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -103,19 +102,19 @@ do do do async funcion switch!! while while while
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 31
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 31
@@ -124,13 +123,13 @@ do do do async funcion switch!! while while while
                 "kind": 2093,
                 "clauses": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 22,
             "end": 31
@@ -141,7 +140,7 @@ do do do async funcion switch!! while while while
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 37,
                 "end": 37
@@ -152,7 +151,7 @@ do do do async funcion switch!! while while while
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 43,
                     "end": 43
@@ -163,7 +162,7 @@ do do do async funcion switch!! while while while
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 49,
                         "end": 49
@@ -174,31 +173,31 @@ do do do async funcion switch!! while while while
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 49,
                             "end": 49
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 49,
                         "end": 49
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 43,
                     "end": 49
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 37,
                 "end": 49
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 31,
             "end": 49
@@ -250,7 +249,6 @@ do do do async funcion switch!! while while while
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -260,17 +258,13 @@ do do do async funcion switch!! while while while
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

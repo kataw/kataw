@@ -16,10 +16,9 @@ class x{ constructor(){} 9(){} }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x{ constructor(){} 9(){} }",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ class x{ constructor(){} 9(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -54,7 +53,7 @@ class x{ constructor(){} 9(){} }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
@@ -64,7 +63,7 @@ class x{ constructor(){} 9(){} }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
@@ -78,13 +77,13 @@ class x{ constructor(){} 9(){} }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
@@ -94,13 +93,13 @@ class x{ constructor(){} 9(){} }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 8,
                         "end": 24
@@ -118,7 +117,7 @@ class x{ constructor(){} 9(){} }
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
@@ -128,7 +127,7 @@ class x{ constructor(){} 9(){} }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 28
@@ -142,13 +141,13 @@ class x{ constructor(){} 9(){} }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
@@ -158,20 +157,20 @@ class x{ constructor(){} 9(){} }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 30
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 24,
                         "end": 30
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 8,
                 "end": 32
@@ -179,7 +178,7 @@ class x{ constructor(){} 9(){} }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 32
@@ -188,7 +187,6 @@ class x{ constructor(){} 9(){} }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -198,17 +196,13 @@ class x{ constructor(){} 9(){} }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

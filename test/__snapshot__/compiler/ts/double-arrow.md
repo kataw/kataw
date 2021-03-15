@@ -19,10 +19,9 @@ const fn2 = () => {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const fn1 = () => {\n  return;\n} /* foo */;\n\nconst fn2 = () => {\n  return;\n}\n\n// foo\n;",
     "filename": "",
     "statements": [
@@ -39,7 +38,7 @@ const fn2 = () => {
                             "text": "fn1",
                             "rawText": "fn1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 9
@@ -56,7 +55,7 @@ const fn2 = () => {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
@@ -70,7 +69,7 @@ const fn2 = () => {
                                             "kind": 2097346,
                                             "expression": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 19,
                                             "end": 29
@@ -78,38 +77,38 @@ const fn2 = () => {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 29
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 31
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 31
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 31
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 31
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 42
@@ -127,7 +126,7 @@ const fn2 = () => {
                             "text": "fn2",
                             "rawText": "fn2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 49,
                             "end": 53
@@ -144,7 +143,7 @@ const fn2 = () => {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 55,
                                 "end": 55
@@ -158,7 +157,7 @@ const fn2 = () => {
                                             "kind": 2097346,
                                             "expression": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 63,
                                             "end": 73
@@ -166,38 +165,38 @@ const fn2 = () => {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 63,
                                     "end": 73
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 61,
                                 "end": 75
                             },
                             "flags": 1073774592,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 55,
                             "end": 75
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 49,
                         "end": 75
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 49,
                 "end": 75
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 42,
             "end": 85
@@ -206,7 +205,6 @@ const fn2 = () => {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -216,17 +214,13 @@ const fn2 = () => {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

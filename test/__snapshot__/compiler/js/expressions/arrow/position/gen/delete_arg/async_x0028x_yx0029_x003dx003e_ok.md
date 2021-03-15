@@ -14,10 +14,9 @@ delete async (x, y) => ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "delete async (x, y) => ok",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ delete async (x, y) => ok
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
@@ -49,7 +48,7 @@ delete async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 16,
                             "end": 19
@@ -62,7 +61,7 @@ delete async (x, y) => ok
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
@@ -74,7 +73,7 @@ delete async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 16,
                             "end": 19
@@ -84,19 +83,19 @@ delete async (x, y) => ok
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -108,13 +107,13 @@ delete async (x, y) => ok
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 22,
             "end": 25
@@ -131,7 +130,6 @@ delete async (x, y) => ok
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -141,17 +139,13 @@ delete async (x, y) => ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

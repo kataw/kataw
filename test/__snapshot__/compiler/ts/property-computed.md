@@ -13,10 +13,9 @@ class C {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C {\n    [Symbol.iterator]: number;\n    [Symbol.iterator]?: number;\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -49,7 +48,7 @@ class C {
                                     "text": "Symbol",
                                     "rawText": "Symbol",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
@@ -59,13 +58,13 @@ class C {
                                     "text": "iterator",
                                     "rawText": "iterator",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 22,
                                     "end": 30
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 30,
@@ -76,7 +75,7 @@ class C {
                                 }
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 9,
                             "end": 31
@@ -90,7 +89,7 @@ class C {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 32,
                             "end": 39
@@ -100,7 +99,7 @@ class C {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 40
@@ -116,7 +115,7 @@ class C {
                                     "text": "Symbol",
                                     "rawText": "Symbol",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 46,
                                     "end": 52
@@ -126,13 +125,13 @@ class C {
                                     "text": "iterator",
                                     "rawText": "iterator",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 53,
                                     "end": 61
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 52,
                                 "end": 61,
@@ -143,7 +142,7 @@ class C {
                                 }
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 40,
                             "end": 62
@@ -157,7 +156,7 @@ class C {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 64,
                             "end": 71
@@ -167,14 +166,14 @@ class C {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 40,
                         "end": 72
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 74
@@ -182,7 +181,7 @@ class C {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 74
@@ -191,7 +190,6 @@ class C {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -201,17 +199,13 @@ class C {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

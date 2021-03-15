@@ -28,7 +28,7 @@ export function createObjectLiteral(
     kind: NodeKind.ObjectLiteral,
     propertyList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

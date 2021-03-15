@@ -17,10 +17,9 @@ x*/
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "// var /*\nx*/",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ x*/
                     "text": "x",
                     "rawText": "x",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 11
@@ -43,19 +42,19 @@ x*/
                     "kind": 4260544,
                     "text": "/",
                     "flags": 1048576,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 14
@@ -72,7 +71,6 @@ x*/
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -82,17 +80,13 @@ x*/
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

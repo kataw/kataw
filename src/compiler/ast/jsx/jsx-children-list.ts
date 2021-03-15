@@ -26,7 +26,7 @@ export function createJsxChildrenList(
     kind: NodeKind.JsxChildrenList,
     children,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

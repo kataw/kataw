@@ -14,10 +14,9 @@ for (oh,no in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (oh,no in x) ;",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ for (oh,no in x) ;
                         "text": "oh",
                         "rawText": "oh",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 7
@@ -41,14 +40,14 @@ for (oh,no in x) ;
                         "text": "no",
                         "rawText": "no",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 10
@@ -58,7 +57,7 @@ for (oh,no in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 15
@@ -66,13 +65,13 @@ for (oh,no in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -81,7 +80,6 @@ for (oh,no in x) ;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -91,17 +89,13 @@ for (oh,no in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

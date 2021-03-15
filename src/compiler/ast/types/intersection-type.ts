@@ -20,7 +20,7 @@ export function createIntersectionType(
     kind: NodeKind.IntersectionType,
     types,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

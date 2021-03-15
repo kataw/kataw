@@ -20,7 +20,7 @@ export function createParenthesizedType(
     kind: NodeKind.ParenthesizedType,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

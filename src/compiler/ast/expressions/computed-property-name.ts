@@ -17,7 +17,7 @@ export function createComputedPropertyName(
     kind: NodeKind.ComputedPropertyName,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | TransformFlags.ComputedPropertyName,
     start,
     end

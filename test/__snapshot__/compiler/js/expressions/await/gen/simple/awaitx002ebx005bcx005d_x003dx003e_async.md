@@ -14,10 +14,9 @@ await.b[c] => async
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "await.b[c] => async",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ await.b[c] => async
                         "text": "await",
                         "rawText": "await",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 5
@@ -42,13 +41,13 @@ await.b[c] => async
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 7,
@@ -63,19 +62,19 @@ await.b[c] => async
                     "text": "c",
                     "rawText": "c",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -87,13 +86,13 @@ await.b[c] => async
                 "text": "async",
                 "rawText": "async",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 19
@@ -102,7 +101,6 @@ await.b[c] => async
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -112,17 +110,13 @@ await.b[c] => async
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

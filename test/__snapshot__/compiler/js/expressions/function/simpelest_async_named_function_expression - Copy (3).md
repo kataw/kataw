@@ -16,10 +16,9 @@ foo(async function f(){})
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo(async function f(){})",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ foo(async function f(){})
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 3
@@ -48,7 +47,7 @@ foo(async function f(){})
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 18,
                                 "end": 20
@@ -58,7 +57,7 @@ foo(async function f(){})
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
@@ -70,13 +69,13 @@ foo(async function f(){})
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
@@ -84,7 +83,7 @@ foo(async function f(){})
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 4,
                             "start": 4,
                             "end": 24
@@ -93,18 +92,18 @@ foo(async function f(){})
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 9,
                     "end": 25
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -113,7 +112,6 @@ foo(async function f(){})
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -123,17 +121,13 @@ foo(async function f(){})
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

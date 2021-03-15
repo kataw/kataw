@@ -14,10 +14,9 @@ class extends {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class extends {}",
     "filename": "",
     "statements": [
@@ -35,20 +34,20 @@ class extends {}
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 16
@@ -58,7 +57,7 @@ class extends {}
                 "kind": 50,
                 "elements": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -66,7 +65,7 @@ class extends {}
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 16
@@ -83,7 +82,6 @@ class extends {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -93,17 +91,13 @@ class extends {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

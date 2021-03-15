@@ -14,10 +14,9 @@ var foob\\u{c481}r = 0;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var foob\\\\u{c481}r = 0;",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var foob\\u{c481}r = 0;
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 8
@@ -42,20 +41,20 @@ var foob\\u{c481}r = 0;
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 8
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 8
@@ -69,7 +68,7 @@ var foob\\u{c481}r = 0;
                     "text": "@{xc481}@r",
                     "rawText": "\\u{c481}r",
                     "flags": 4194304,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 9,
                     "end": 18
@@ -80,19 +79,19 @@ var foob\\u{c481}r = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 9,
             "end": 23
@@ -116,7 +115,6 @@ var foob\\u{c481}r = 0;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -126,17 +124,13 @@ var foob\\u{c481}r = 0;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

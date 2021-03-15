@@ -12,10 +12,9 @@ class A {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {\n  [\"async\"] a() {}\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -46,13 +45,13 @@ class A {
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 20
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 9,
                             "end": 21
@@ -69,7 +68,7 @@ class A {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 21
@@ -87,7 +86,7 @@ class A {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
@@ -97,7 +96,7 @@ class A {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
@@ -111,13 +110,13 @@ class A {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
@@ -127,20 +126,20 @@ class A {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 28
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 21,
                         "end": 28
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 30
@@ -148,7 +147,7 @@ class A {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 30
@@ -165,7 +164,6 @@ class A {
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -175,17 +173,13 @@ class A {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

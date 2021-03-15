@@ -26,10 +26,9 @@ interface PropertyMap {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface SymbolMap {\n  [x: symbol]: string;\n}\n\ninterface PropertyMap {\n  [x: string | number | symbol]: string;\n}\n\n// same as\ninterface PropertyMap {\n  [x: PropertyKey]: string;\n}\n\n interface I13 {\n   [x: string]: <T>(x: T) => T;\n   foo: E;\n }",
     "filename": "",
     "statements": [
@@ -40,7 +39,7 @@ interface PropertyMap {
                 "text": "SymbolMap",
                 "rawText": "SymbolMap",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 19
@@ -64,7 +63,7 @@ interface PropertyMap {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 25,
                                         "end": 26
@@ -73,7 +72,7 @@ interface PropertyMap {
                                     "type": {
                                         "kind": 8403,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 27,
                                         "end": 34
@@ -82,7 +81,7 @@ interface PropertyMap {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 25,
                                     "end": 34
@@ -90,7 +89,7 @@ interface PropertyMap {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 25,
                             "end": 34
@@ -98,7 +97,7 @@ interface PropertyMap {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 36,
                             "end": 43
@@ -106,7 +105,7 @@ interface PropertyMap {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 25,
                         "end": 44
@@ -114,13 +113,13 @@ interface PropertyMap {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 21,
                 "end": 44
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 46
@@ -132,7 +131,7 @@ interface PropertyMap {
                 "text": "PropertyMap",
                 "rawText": "PropertyMap",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 57,
                 "end": 69
@@ -156,7 +155,7 @@ interface PropertyMap {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 75,
                                         "end": 76
@@ -168,7 +167,7 @@ interface PropertyMap {
                                             {
                                                 "kind": 4202702,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 77,
                                                 "end": 84
@@ -176,7 +175,7 @@ interface PropertyMap {
                                             {
                                                 "kind": 4202657,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 86,
                                                 "end": 93
@@ -184,14 +183,14 @@ interface PropertyMap {
                                             {
                                                 "kind": 8403,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 95,
                                                 "end": 102
                                             }
                                         ],
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 84,
                                         "end": 102
@@ -200,7 +199,7 @@ interface PropertyMap {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 75,
                                     "end": 102
@@ -208,7 +207,7 @@ interface PropertyMap {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 75,
                             "end": 102
@@ -216,7 +215,7 @@ interface PropertyMap {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 104,
                             "end": 111
@@ -224,7 +223,7 @@ interface PropertyMap {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 75,
                         "end": 112
@@ -232,13 +231,13 @@ interface PropertyMap {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 71,
                 "end": 112
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 46,
             "end": 114
@@ -250,7 +249,7 @@ interface PropertyMap {
                 "text": "PropertyMap",
                 "rawText": "PropertyMap",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 136,
                 "end": 148
@@ -274,7 +273,7 @@ interface PropertyMap {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 154,
                                         "end": 155
@@ -287,14 +286,14 @@ interface PropertyMap {
                                             "text": "PropertyKey",
                                             "rawText": "PropertyKey",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 156,
                                             "end": 168
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 156,
                                         "end": 169
@@ -303,7 +302,7 @@ interface PropertyMap {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 154,
                                     "end": 168
@@ -311,7 +310,7 @@ interface PropertyMap {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 154,
                             "end": 168
@@ -319,7 +318,7 @@ interface PropertyMap {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 170,
                             "end": 177
@@ -327,7 +326,7 @@ interface PropertyMap {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 154,
                         "end": 178
@@ -335,13 +334,13 @@ interface PropertyMap {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 150,
                 "end": 178
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 114,
             "end": 180
@@ -353,7 +352,7 @@ interface PropertyMap {
                 "text": "I13",
                 "rawText": "I13",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 192,
                 "end": 196
@@ -377,7 +376,7 @@ interface PropertyMap {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 203,
                                         "end": 204
@@ -386,7 +385,7 @@ interface PropertyMap {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 205,
                                         "end": 212
@@ -395,7 +394,7 @@ interface PropertyMap {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 203,
                                     "end": 212
@@ -403,7 +402,7 @@ interface PropertyMap {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 203,
                             "end": 212
@@ -420,7 +419,7 @@ interface PropertyMap {
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 216,
                                             "end": 217
@@ -429,14 +428,14 @@ interface PropertyMap {
                                         "defaultType": null,
                                         "expression": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 216,
                                         "end": 217
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 216,
                                 "end": 217
@@ -452,7 +451,7 @@ interface PropertyMap {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 219,
                                             "end": 220
@@ -465,14 +464,14 @@ interface PropertyMap {
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 221,
                                                 "end": 223
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 221,
                                             "end": 224
@@ -481,7 +480,7 @@ interface PropertyMap {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 219,
                                         "end": 223
@@ -489,7 +488,7 @@ interface PropertyMap {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 219,
                                 "end": 223
@@ -501,20 +500,20 @@ interface PropertyMap {
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 227,
                                     "end": 229
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 227,
                                 "end": 230
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 214,
                             "end": 229
@@ -522,7 +521,7 @@ interface PropertyMap {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 203,
                         "end": 230
@@ -534,7 +533,7 @@ interface PropertyMap {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 230,
                             "end": 237
@@ -548,14 +547,14 @@ interface PropertyMap {
                                 "text": "E",
                                 "rawText": "E",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 238,
                                 "end": 240
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 238,
                             "end": 241
@@ -564,7 +563,7 @@ interface PropertyMap {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 230,
                         "end": 241
@@ -572,13 +571,13 @@ interface PropertyMap {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 198,
                 "end": 241
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 180,
             "end": 244
@@ -587,7 +586,6 @@ interface PropertyMap {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -597,17 +595,13 @@ interface PropertyMap {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

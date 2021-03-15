@@ -18,7 +18,7 @@ export function createExportDefault(
     kind: NodeKind.ExportDefault,
     declaration,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

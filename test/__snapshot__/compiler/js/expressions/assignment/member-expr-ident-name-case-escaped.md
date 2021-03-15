@@ -19,10 +19,9 @@ obj.c\u0061se = 42;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var obj = {};\n\nobj.c\\u0061se = 42;",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ obj.c\u0061se = 42;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 7
@@ -53,32 +52,32 @@ obj.c\u0061se = 42;
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 12
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 12
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -94,7 +93,7 @@ obj.c\u0061se = 42;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 18
@@ -104,13 +103,13 @@ obj.c\u0061se = 42;
                         "text": "case",
                         "rawText": "c\\u0061se",
                         "flags": 75497472,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 28
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 28,
@@ -126,19 +125,19 @@ obj.c\u0061se = 42;
                     "text": 42,
                     "rawText": "42",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 33
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 34
@@ -147,7 +146,6 @@ obj.c\u0061se = 42;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -157,17 +155,13 @@ obj.c\u0061se = 42;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

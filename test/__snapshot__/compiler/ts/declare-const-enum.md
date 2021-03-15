@@ -10,10 +10,9 @@ declare const enum E {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare const enum E {}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ declare const enum E {}
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 20
@@ -33,14 +32,14 @@ declare const enum E {}
                 "kind": 8265,
                 "enumMembersList": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 22,
                 "end": 22
             },
             "isConst": true,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 23
@@ -49,7 +48,6 @@ declare const enum E {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -59,17 +57,13 @@ declare const enum E {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

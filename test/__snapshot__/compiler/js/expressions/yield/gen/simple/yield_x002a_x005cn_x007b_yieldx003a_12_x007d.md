@@ -14,10 +14,9 @@ yield * \n { yield: 12 }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "yield * \\n { yield: 12 }",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ yield * \n { yield: 12 }
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 5
@@ -40,19 +39,19 @@ yield * \n { yield: 12 }
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 7
@@ -64,13 +63,13 @@ yield * \n { yield: 12 }
                 "text": "n",
                 "rawText": "n",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 9,
             "end": 10
@@ -87,7 +86,7 @@ yield * \n { yield: 12 }
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 18
@@ -99,20 +98,20 @@ yield * \n { yield: 12 }
                                 "text": 12,
                                 "rawText": "12",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 22
                         },
                         "isWebCompat": true,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 22
@@ -120,13 +119,13 @@ yield * \n { yield: 12 }
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 24
@@ -150,7 +149,6 @@ yield * \n { yield: 12 }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -160,17 +158,13 @@ yield * \n { yield: 12 }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

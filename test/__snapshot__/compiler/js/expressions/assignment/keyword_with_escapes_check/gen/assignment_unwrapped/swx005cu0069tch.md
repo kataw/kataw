@@ -14,10 +14,9 @@ sw\u0069tch = x;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "sw\\u0069tch = x;",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ sw\u0069tch = x;
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 11
@@ -40,13 +39,13 @@ sw\u0069tch = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 15
@@ -55,13 +54,13 @@ sw\u0069tch = x;
                 "kind": 2093,
                 "clauses": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 15
@@ -69,7 +68,7 @@ sw\u0069tch = x;
         {
             "kind": 6291526,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 15,
             "end": 16
@@ -93,7 +92,6 @@ sw\u0069tch = x;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -103,17 +101,13 @@ sw\u0069tch = x;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

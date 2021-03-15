@@ -16,10 +16,9 @@ export default [x] = y
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export default [x] = y",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ export default [x] = y
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
@@ -46,13 +45,13 @@ export default [x] = y
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 18
@@ -63,19 +62,19 @@ export default [x] = y
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -92,7 +91,6 @@ export default [x] = y
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -102,17 +100,13 @@ export default [x] = y
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

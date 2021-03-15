@@ -16,10 +16,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "<ul><li>111</li><li>222</li><li>333</li><li>444</li></ul>",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@
                         "kind": 129,
                         "text": "ul",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 1,
                         "end": 3
@@ -42,14 +41,14 @@
                         "kind": 123,
                         "attributesList": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 3,
                         "end": 3
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 0,
                     "end": 4
@@ -65,7 +64,7 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 5,
                                     "end": 7
@@ -74,14 +73,14 @@
                                     "kind": 123,
                                     "attributesList": [],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 7,
                                     "end": 7
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 4,
                                 "end": 8
@@ -93,7 +92,7 @@
                                         "kind": 137,
                                         "text": "111",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 8192,
                                         "parent": null,
                                         "start": 8,
@@ -101,7 +100,7 @@
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 8,
                                 "end": 11
@@ -112,19 +111,19 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 11,
                                 "end": 16
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "start": 4,
                             "end": 16
@@ -137,7 +136,7 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 17,
                                     "end": 19
@@ -146,14 +145,14 @@
                                     "kind": 123,
                                     "attributesList": [],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 16,
                                 "end": 20
@@ -165,7 +164,7 @@
                                         "kind": 137,
                                         "text": "222",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 8192,
                                         "parent": null,
                                         "start": 20,
@@ -173,7 +172,7 @@
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 20,
                                 "end": 23
@@ -184,19 +183,19 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 23,
                                 "end": 28
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "start": 16,
                             "end": 28
@@ -209,7 +208,7 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 29,
                                     "end": 31
@@ -218,14 +217,14 @@
                                     "kind": 123,
                                     "attributesList": [],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 31,
                                     "end": 31
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 28,
                                 "end": 32
@@ -237,7 +236,7 @@
                                         "kind": 137,
                                         "text": "333",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 8192,
                                         "parent": null,
                                         "start": 32,
@@ -245,7 +244,7 @@
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 32,
                                 "end": 35
@@ -256,19 +255,19 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 37,
                                     "end": 39
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 35,
                                 "end": 40
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "start": 28,
                             "end": 40
@@ -281,7 +280,7 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 41,
                                     "end": 43
@@ -290,14 +289,14 @@
                                     "kind": 123,
                                     "attributesList": [],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 43,
                                     "end": 43
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 40,
                                 "end": 44
@@ -309,7 +308,7 @@
                                         "kind": 137,
                                         "text": "444",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 8192,
                                         "parent": null,
                                         "start": 44,
@@ -317,7 +316,7 @@
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 44,
                                 "end": 47
@@ -328,26 +327,26 @@
                                     "kind": 129,
                                     "text": "li",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 49,
                                     "end": 51
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 47,
                                 "end": 52
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "start": 40,
                             "end": 52
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 4,
                     "end": 52
@@ -358,25 +357,25 @@
                         "kind": 129,
                         "text": "ul",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 54,
                         "end": 56
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 52,
                     "end": 57
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 8192,
                 "start": 0,
                 "end": 57
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 57
@@ -385,7 +384,6 @@
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -395,17 +393,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

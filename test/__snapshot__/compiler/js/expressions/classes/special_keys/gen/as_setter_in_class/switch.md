@@ -14,10 +14,9 @@ class x {set switch(x){}}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x {set switch(x){}}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class x {set switch(x){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class x {set switch(x){}}
                                 "text": "switch",
                                 "rawText": "switch",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 19
@@ -68,7 +67,7 @@ class x {set switch(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 20,
                                             "end": 21
@@ -80,7 +79,7 @@ class x {set switch(x){}}
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 20,
                                         "end": 21
@@ -88,7 +87,7 @@ class x {set switch(x){}}
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
@@ -102,13 +101,13 @@ class x {set switch(x){}}
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
@@ -118,20 +117,20 @@ class x {set switch(x){}}
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 24
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 24
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 25
@@ -139,7 +138,7 @@ class x {set switch(x){}}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 25
@@ -148,7 +147,6 @@ class x {set switch(x){}}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -158,17 +156,13 @@ class x {set switch(x){}}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

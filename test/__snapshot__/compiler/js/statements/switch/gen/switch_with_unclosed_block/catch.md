@@ -14,10 +14,9 @@ switch {} default(x) { catch
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch {} default(x) { catch",
     "filename": "",
     "statements": [
@@ -31,13 +30,13 @@ switch {} default(x) { catch
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 9
@@ -57,19 +56,19 @@ switch {} default(x) { catch
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 17,
                                     "end": 20
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
@@ -88,13 +87,13 @@ switch {} default(x) { catch
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 22
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 22
@@ -109,26 +108,26 @@ switch {} default(x) { catch
                                                         "statements": [],
                                                         "multiline": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 28
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 28
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 16,
                                                 "start": 22,
                                                 "end": 28
                                             },
                                             "finallyBlock": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 16,
                                             "start": 22,
                                             "end": 28
@@ -136,33 +135,33 @@ switch {} default(x) { catch
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 28
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 28
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -207,7 +206,6 @@ switch {} default(x) { catch
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -217,17 +215,13 @@ switch {} default(x) { catch
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

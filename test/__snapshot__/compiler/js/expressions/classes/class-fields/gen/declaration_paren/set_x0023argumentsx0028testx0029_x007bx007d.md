@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class extends Base { set #arguments(test) {} });",
     "filename": "",
     "statements": [
@@ -36,14 +35,14 @@
                             "text": "Base",
                             "rawText": "Base",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 19
@@ -65,7 +64,7 @@
                                         "text": "#arguments",
                                         "rawText": "#arguments",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 524288,
                                         "start": 25,
                                         "end": 36
@@ -81,7 +80,7 @@
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 37,
                                                     "end": 41
@@ -93,7 +92,7 @@
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 37,
                                                 "end": 41
@@ -101,7 +100,7 @@
                                         ],
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 37,
                                         "end": 42
@@ -115,13 +114,13 @@
                                             "statements": [],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 44,
                                             "end": 44
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 42,
                                         "end": 45
@@ -131,39 +130,39 @@
                                     "accessModifier": null,
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 45
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 21,
                                 "end": 45
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 21,
                         "end": 47
                     },
                     "decorators": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 1,
                     "end": 47
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 48
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 49
@@ -172,7 +171,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -182,17 +180,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

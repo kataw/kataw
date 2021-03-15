@@ -14,10 +14,9 @@ inte\u0072face = x;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "inte\\u0072face = x;",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ inte\u0072face = x;
                     "text": "interface",
                     "rawText": "inte\\u0072face",
                     "flags": 75497472,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 14
@@ -41,19 +40,19 @@ inte\u0072face = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -62,7 +61,6 @@ inte\u0072face = x;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -72,17 +70,13 @@ inte\u0072face = x;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

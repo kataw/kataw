@@ -10,10 +10,9 @@ switch(x) { default: default: }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch(x) { default: default: }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ switch(x) { default: default: }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 8
@@ -36,7 +35,7 @@ switch(x) { default: default: }
                         "kind": 65,
                         "statements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 11,
                         "end": 20
@@ -45,20 +44,20 @@ switch(x) { default: default: }
                         "kind": 65,
                         "statements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 29
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 31
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -67,7 +66,6 @@ switch(x) { default: default: }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -77,17 +75,13 @@ switch(x) { default: default: }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

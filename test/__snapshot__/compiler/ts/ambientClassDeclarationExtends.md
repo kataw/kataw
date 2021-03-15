@@ -17,10 +17,9 @@ declare class D extends C { }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare class A { }\ndeclare class B extends A { }\n\ndeclare class C {\n    public foo;\n}\nnamespace D { var x; }\ndeclare class D extends C { }",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ declare class D extends C { }
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 13,
                 "end": 15
@@ -43,7 +42,7 @@ declare class D extends C { }
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 17,
                 "end": 19
@@ -51,7 +50,7 @@ declare class D extends C { }
             "decorators": null,
             "isAbstract": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 7,
             "end": 19
@@ -63,7 +62,7 @@ declare class D extends C { }
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 33,
                 "end": 35
@@ -76,14 +75,14 @@ declare class D extends C { }
                     "text": "A",
                     "rawText": "A",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 43,
                     "end": 45
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 43,
                 "end": 45
@@ -93,7 +92,7 @@ declare class D extends C { }
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 47,
                 "end": 49
@@ -101,7 +100,7 @@ declare class D extends C { }
             "decorators": null,
             "isAbstract": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 27,
             "end": 49
@@ -113,7 +112,7 @@ declare class D extends C { }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 64,
                 "end": 66
@@ -131,7 +130,7 @@ declare class D extends C { }
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 79,
                             "end": 83
@@ -148,21 +147,21 @@ declare class D extends C { }
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 68,
                             "end": 79
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 68,
                         "end": 84
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 68,
                 "end": 86
@@ -170,7 +169,7 @@ declare class D extends C { }
             "decorators": null,
             "isAbstract": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 58,
             "end": 86
@@ -182,7 +181,7 @@ declare class D extends C { }
                 "text": "D",
                 "rawText": "D",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 96,
                 "end": 98
@@ -202,7 +201,7 @@ declare class D extends C { }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 104,
                                         "end": 106
@@ -211,20 +210,20 @@ declare class D extends C { }
                                     "type": null,
                                     "initializer": null,
                                     "flags": 104,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 0,
                                     "end": 106
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 104,
                             "end": 106
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 100,
                         "end": 107
@@ -232,13 +231,13 @@ declare class D extends C { }
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 100,
                 "end": 107
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 86,
             "end": 109
@@ -250,7 +249,7 @@ declare class D extends C { }
                 "text": "D",
                 "rawText": "D",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 123,
                 "end": 125
@@ -263,14 +262,14 @@ declare class D extends C { }
                     "text": "C",
                     "rawText": "C",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 133,
                     "end": 135
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 133,
                 "end": 135
@@ -280,7 +279,7 @@ declare class D extends C { }
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 137,
                 "end": 139
@@ -288,7 +287,7 @@ declare class D extends C { }
             "decorators": null,
             "isAbstract": false,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 117,
             "end": 139
@@ -297,7 +296,6 @@ declare class D extends C { }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -307,17 +305,13 @@ declare class D extends C { }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

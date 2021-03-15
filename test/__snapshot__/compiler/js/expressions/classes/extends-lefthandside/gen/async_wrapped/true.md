@@ -16,10 +16,9 @@ async function p(){
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function p(){\n  class C extends true {}\n}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ async function p(){
                 "text": "p",
                 "rawText": "p",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -40,7 +39,7 @@ async function p(){
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -58,7 +57,7 @@ async function p(){
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 29
@@ -70,14 +69,14 @@ async function p(){
                                     "kind": 4260391,
                                     "text": true,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 42
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 42
@@ -87,7 +86,7 @@ async function p(){
                                 "kind": 50,
                                 "elements": [],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 44,
                                 "end": 45
@@ -95,7 +94,7 @@ async function p(){
                             "decorators": null,
                             "isAbstract": false,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 19,
                             "end": 45
@@ -103,20 +102,20 @@ async function p(){
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 45
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 47
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 47
@@ -125,7 +124,6 @@ async function p(){
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -135,17 +133,13 @@ async function p(){
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

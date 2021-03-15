@@ -16,10 +16,9 @@ export as namespace A;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export as namespace A;",
     "filename": "",
     "statements": [
@@ -30,13 +29,13 @@ export as namespace A;
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 6,
             "end": 22
@@ -53,7 +52,6 @@ export as namespace A;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -63,17 +61,13 @@ export as namespace A;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

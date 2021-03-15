@@ -10,10 +10,9 @@ function f(){ new.target + foo }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f(){ new.target + foo }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function f(){ new.target + foo }
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -34,7 +33,7 @@ function f(){ new.target + foo }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 12
@@ -56,13 +55,13 @@ function f(){ new.target + foo }
                                         "text": "target",
                                         "rawText": "target",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 18,
                                         "end": 24
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 13,
                                     "end": 24
@@ -73,19 +72,19 @@ function f(){ new.target + foo }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 30
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 30
@@ -93,20 +92,20 @@ function f(){ new.target + foo }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 30
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 32
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 32
@@ -115,7 +114,6 @@ function f(){ new.target + foo }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -125,17 +123,13 @@ function f(){ new.target + foo }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

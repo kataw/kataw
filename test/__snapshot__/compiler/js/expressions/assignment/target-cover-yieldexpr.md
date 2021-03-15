@@ -12,10 +12,9 @@ function* g() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function* g() {\n  (yield) = 1;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function* g() {
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 11
@@ -36,7 +35,7 @@ function* g() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -58,13 +57,13 @@ function* g() {
                                         "delegate": false,
                                         "expression": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 16393,
                                         "start": 15,
                                         "end": 24
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 25
@@ -75,19 +74,19 @@ function* g() {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 29
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 30
@@ -95,20 +94,20 @@ function* g() {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 30
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 32
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 32
@@ -117,7 +116,6 @@ function* g() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -127,17 +125,13 @@ function* g() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

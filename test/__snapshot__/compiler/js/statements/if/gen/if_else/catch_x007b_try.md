@@ -14,10 +14,9 @@ if catch { try else
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if catch { try else",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ if catch { try else
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 2
@@ -41,13 +40,13 @@ if catch { try else
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 2
@@ -69,13 +68,13 @@ if catch { try else
                                             "statements": [],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 14
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 14,
                                         "end": 14
@@ -88,19 +87,19 @@ if catch { try else
                                             "statements": [],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 14
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 14,
                                         "end": 14
                                     },
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 14
@@ -108,26 +107,26 @@ if catch { try else
                             ],
                             "multiline": false,
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 16,
                     "start": 2,
                     "end": 14
                 },
                 "finallyBlock": null,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 2,
                 "end": 14
@@ -138,20 +137,20 @@ if catch { try else
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -175,7 +174,6 @@ if catch { try else
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -185,17 +183,13 @@ if catch { try else
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

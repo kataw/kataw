@@ -10,10 +10,9 @@ foo: for (;;) continue foo
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo: for (;;) continue foo",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ foo: for (;;) continue foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
@@ -42,26 +41,26 @@ foo: for (;;) continue foo
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 26
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 26
             },
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 26
@@ -70,7 +69,6 @@ foo: for (;;) continue foo
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -80,17 +78,13 @@ foo: for (;;) continue foo
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

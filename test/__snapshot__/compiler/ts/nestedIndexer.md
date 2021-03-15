@@ -15,10 +15,9 @@ var match: { [index: number]: string; }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function then(x) {\n\nvar match: { [index: number]: string; }\n\n}\n",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var match: { [index: number]: string; }
                 "text": "then",
                 "rawText": "then",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 13
@@ -45,7 +44,7 @@ var match: { [index: number]: string; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 15
@@ -57,7 +56,7 @@ var match: { [index: number]: string; }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 14,
                         "end": 15
@@ -65,7 +64,7 @@ var match: { [index: number]: string; }
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 16
@@ -88,7 +87,7 @@ var match: { [index: number]: string; }
                                             "text": "match",
                                             "rawText": "match",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 23,
                                             "end": 29
@@ -113,7 +112,7 @@ var match: { [index: number]: string; }
                                                                         "text": "index",
                                                                         "rawText": "index",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1025,
                                                                         "start": 34,
                                                                         "end": 39
@@ -122,7 +121,7 @@ var match: { [index: number]: string; }
                                                                     "type": {
                                                                         "kind": 4202657,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 2097152,
                                                                         "start": 40,
                                                                         "end": 47
@@ -131,7 +130,7 @@ var match: { [index: number]: string; }
                                                                     "accessModifier": null,
                                                                     "isReadOnly": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1,
                                                                     "start": 34,
                                                                     "end": 47
@@ -139,7 +138,7 @@ var match: { [index: number]: string; }
                                                             ],
                                                             "trailingcomma": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 34,
                                                             "end": 47
@@ -147,7 +146,7 @@ var match: { [index: number]: string; }
                                                         "returnType": {
                                                             "kind": 4202702,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 49,
                                                             "end": 56
@@ -155,7 +154,7 @@ var match: { [index: number]: string; }
                                                         "isStatic": false,
                                                         "isReadOnly": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 34,
                                                         "end": 57
@@ -163,33 +162,33 @@ var match: { [index: number]: string; }
                                                 ],
                                                 "multiline": false,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 32,
                                                 "end": 59
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 30,
                                             "end": 59
                                         },
                                         "initializer": null,
                                         "flags": 23,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 32768,
                                         "end": 59
                                     }
                                 ],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 59
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 59
@@ -197,20 +196,20 @@ var match: { [index: number]: string; }
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 59
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 62
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 62
@@ -219,7 +218,6 @@ var match: { [index: number]: string; }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -229,17 +227,13 @@ var match: { [index: number]: string; }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

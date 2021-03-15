@@ -26,7 +26,7 @@ export function createArgumentList(
     trailingComma,
     transformFlags: TransformFlags.None,
     flags,
-    intersects: false,
+    symbol: null,
     start,
     end
   };

@@ -14,10 +14,9 @@ bar, eval => { 'use strict'; 0 };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "bar, eval => { 'use strict'; 0 };",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ bar, eval => { 'use strict'; 0 };
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 3
@@ -50,7 +49,7 @@ bar, eval => { 'use strict'; 0 };
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 4,
                                         "end": 9
@@ -62,7 +61,7 @@ bar, eval => { 'use strict'; 0 };
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 9,
                                     "end": 9
@@ -72,7 +71,7 @@ bar, eval => { 'use strict'; 0 };
                             "accessModifier": null,
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 4,
                             "end": 9
@@ -89,13 +88,13 @@ bar, eval => { 'use strict'; 0 };
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 33554432,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 27
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 14,
                                         "end": 28
@@ -107,13 +106,13 @@ bar, eval => { 'use strict'; 0 };
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 28,
                                             "end": 30
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
@@ -121,32 +120,32 @@ bar, eval => { 'use strict'; 0 };
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 30
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 32
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 4,
                         "end": 32
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 33
@@ -155,7 +154,6 @@ bar, eval => { 'use strict'; 0 };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -165,17 +163,13 @@ bar, eval => { 'use strict'; 0 };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ if[ /false//a
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if[ /false//a",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ if[ /false//a
                                 "kind": 4260544,
                                 "text": "/false/",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 3,
                                 "end": 11
@@ -45,13 +44,13 @@ if[ /false//a
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 3,
                             "end": 13
@@ -60,13 +59,13 @@ if[ /false//a
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 13
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 13
@@ -77,13 +76,13 @@ if[ /false//a
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 13
@@ -91,7 +90,7 @@ if[ /false//a
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -115,7 +114,6 @@ if[ /false//a
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -125,17 +123,13 @@ if[ /false//a
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

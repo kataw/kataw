@@ -14,10 +14,9 @@ if if if async try while { catch }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if if if async try while { catch }",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ if if if async try while { catch }
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 2
@@ -38,7 +37,7 @@ if if if async try while { catch }
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 5
@@ -50,7 +49,7 @@ if if if async try while { catch }
                         "text": "async",
                         "rawText": "async",
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 14
@@ -64,13 +63,13 @@ if if if async try while { catch }
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 18
@@ -83,19 +82,19 @@ if if if async try while { catch }
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 18
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 18
@@ -103,7 +102,7 @@ if if if async try while { catch }
                     "alternate": null,
                     "isWebCompat": true,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 18
@@ -111,7 +110,7 @@ if if if async try while { catch }
                 "alternate": null,
                 "isWebCompat": true,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 18
@@ -119,7 +118,7 @@ if if if async try while { catch }
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -136,7 +135,7 @@ if if if async try while { catch }
                             "text": "catch",
                             "rawText": "catch",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 32
@@ -145,13 +144,13 @@ if if if async try while { catch }
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 32
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 24,
                 "end": 34
@@ -162,19 +161,19 @@ if if if async try while { catch }
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 18,
             "end": 34
@@ -212,7 +211,6 @@ if if if async try while { catch }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -222,17 +220,13 @@ if if if async try while { catch }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

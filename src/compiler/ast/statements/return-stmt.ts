@@ -19,7 +19,7 @@ export function createReturnStatement(
     kind: NodeKind.ReturnStatement,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

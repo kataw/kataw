@@ -35,10 +35,9 @@ async function f(){}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f(\n\nfunction f(){\n\nfunction f(){\n\nfunction f({}\nfunction f(){}\n\nasync function f(){}\n\n function !f(){}\n\n\n function f(!{}\n function f(!a switch foo try catch switch){!}\n function f(){!\n function f(){}\n function f()switch function\n",
     "filename": "",
     "statements": [
@@ -49,7 +48,7 @@ async function f(){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -59,7 +58,7 @@ async function f(){}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 21
@@ -68,7 +67,7 @@ async function f(){}
             "contents": null,
             "typeParameters": null,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 11
@@ -80,7 +79,7 @@ async function f(){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 21,
                 "end": 23
@@ -90,7 +89,7 @@ async function f(){}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 24,
                 "end": 25
@@ -108,7 +107,7 @@ async function f(){}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 36,
                                 "end": 38
@@ -118,7 +117,7 @@ async function f(){}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 40
@@ -136,7 +135,7 @@ async function f(){}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 51,
                                                 "end": 53
@@ -156,12 +155,12 @@ async function f(){}
                                                                 "trailingComma": false,
                                                                 "transformFlags": 1025,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "start": 55,
                                                                 "end": 55
                                                             },
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 54,
                                                             "end": 56
@@ -173,7 +172,7 @@ async function f(){}
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 54,
                                                         "end": 56
@@ -181,7 +180,7 @@ async function f(){}
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32769,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 65
@@ -190,7 +189,7 @@ async function f(){}
                                             "contents": null,
                                             "typeParameters": null,
                                             "flags": 32769,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 41,
                                             "end": 56
@@ -202,7 +201,7 @@ async function f(){}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 65,
                                                 "end": 67
@@ -212,7 +211,7 @@ async function f(){}
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 69
@@ -225,20 +224,20 @@ async function f(){}
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 70,
                                                     "end": 70
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 69,
                                                 "end": 71
                                             },
                                             "typeParameters": null,
                                             "flags": 32769,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 256,
                                             "start": 56,
                                             "end": 71
@@ -250,7 +249,7 @@ async function f(){}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 87,
                                                 "end": 89
@@ -260,7 +259,7 @@ async function f(){}
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 90,
                                                 "end": 91
@@ -273,20 +272,20 @@ async function f(){}
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 92,
                                                     "end": 92
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 93
                                             },
                                             "typeParameters": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 260,
                                             "start": 71,
                                             "end": 93
@@ -298,7 +297,7 @@ async function f(){}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 104,
                                                 "end": 104
@@ -308,7 +307,7 @@ async function f(){}
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 104,
                                                 "end": 104
@@ -328,7 +327,7 @@ async function f(){}
                                                                     "text": "f",
                                                                     "rawText": "f",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 106,
                                                                     "end": 107
@@ -340,18 +339,18 @@ async function f(){}
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 109,
                                                                     "end": 109
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 107,
                                                                 "end": 109
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 106,
                                                             "end": 109
@@ -363,13 +362,13 @@ async function f(){}
                                                                 "statements": [],
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 110,
                                                                 "end": 110
                                                             },
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 109,
                                                             "end": 111
@@ -381,7 +380,7 @@ async function f(){}
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 123,
                                                                 "end": 125
@@ -391,7 +390,7 @@ async function f(){}
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 126,
                                                                 "end": 127
@@ -409,13 +408,13 @@ async function f(){}
                                                                                 "statements": [],
                                                                                 "multiline": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 128,
                                                                                 "end": 128
                                                                             },
                                                                             "flags": 32768,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 127,
                                                                             "end": 129
@@ -427,7 +426,7 @@ async function f(){}
                                                                                 "text": "f",
                                                                                 "rawText": "f",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 139,
                                                                                 "end": 141
@@ -437,7 +436,7 @@ async function f(){}
                                                                                 "formalParameterList": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 142,
                                                                                 "end": 143
@@ -455,13 +454,13 @@ async function f(){}
                                                                                                 "text": "a",
                                                                                                 "rawText": "a",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 143,
                                                                                                 "end": 144
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 143,
                                                                                             "end": 144
@@ -473,7 +472,7 @@ async function f(){}
                                                                                                 "text": "foo",
                                                                                                 "rawText": "foo",
                                                                                                 "flags": 1,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 151,
                                                                                                 "end": 155
@@ -482,13 +481,13 @@ async function f(){}
                                                                                                 "kind": 2093,
                                                                                                 "clauses": [],
                                                                                                 "flags": 1,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 155,
                                                                                                 "end": 155
                                                                                             },
                                                                                             "flags": 1,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 144,
                                                                                             "end": 155
@@ -502,13 +501,13 @@ async function f(){}
                                                                                                     "statements": [],
                                                                                                     "multiline": false,
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 159,
                                                                                                     "end": 159
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 159,
                                                                                                 "end": 159
@@ -523,26 +522,26 @@ async function f(){}
                                                                                                         "statements": [],
                                                                                                         "multiline": false,
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 165,
                                                                                                         "end": 165
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 165,
                                                                                                     "end": 165
                                                                                                 },
                                                                                                 "flags": 1,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 16,
                                                                                                 "start": 159,
                                                                                                 "end": 165
                                                                                             },
                                                                                             "finallyBlock": null,
                                                                                             "flags": 1,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 16,
                                                                                             "start": 155,
                                                                                             "end": 165
@@ -553,7 +552,7 @@ async function f(){}
                                                                                                 "kind": 131322,
                                                                                                 "text": "",
                                                                                                 "flags": 3,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 172,
                                                                                                 "end": 172
@@ -562,13 +561,13 @@ async function f(){}
                                                                                                 "kind": 2093,
                                                                                                 "clauses": [],
                                                                                                 "flags": 1,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 173,
                                                                                                 "end": 174
                                                                                             },
                                                                                             "flags": 1,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 165,
                                                                                             "end": 174
@@ -582,19 +581,19 @@ async function f(){}
                                                                                                     "kind": 131322,
                                                                                                     "text": "",
                                                                                                     "flags": 3,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 175,
                                                                                                     "end": 175
                                                                                                 },
                                                                                                 "flags": 1,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 174,
                                                                                                 "end": 175
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 174,
                                                                                             "end": 175
@@ -602,20 +601,20 @@ async function f(){}
                                                                                     ],
                                                                                     "multiline": false,
                                                                                     "flags": 1,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 143,
                                                                                     "end": 175
                                                                                 },
                                                                                 "flags": 32768,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 142,
                                                                                 "end": 176
                                                                             },
                                                                             "typeParameters": null,
                                                                             "flags": 32768,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 256,
                                                                             "start": 129,
                                                                             "end": 176
@@ -627,7 +626,7 @@ async function f(){}
                                                                                 "text": "f",
                                                                                 "rawText": "f",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 186,
                                                                                 "end": 188
@@ -637,7 +636,7 @@ async function f(){}
                                                                                 "formalParameterList": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 189,
                                                                                 "end": 190
@@ -660,7 +659,7 @@ async function f(){}
                                                                                                         "text": "f",
                                                                                                         "rawText": "f",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 1025,
                                                                                                         "start": 202,
                                                                                                         "end": 204
@@ -670,7 +669,7 @@ async function f(){}
                                                                                                         "formalParameterList": [],
                                                                                                         "trailingComma": false,
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 205,
                                                                                                         "end": 206
@@ -682,13 +681,13 @@ async function f(){}
                                                                                                             "statements": [],
                                                                                                             "multiline": false,
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 207,
                                                                                                             "end": 207
                                                                                                         },
                                                                                                         "flags": 32768,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 206,
                                                                                                         "end": 208
@@ -696,19 +695,19 @@ async function f(){}
                                                                                                     "typeParameters": null,
                                                                                                     "type": null,
                                                                                                     "flags": 32768,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 192,
                                                                                                     "end": 208
                                                                                                 },
                                                                                                 "flags": 32768,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 191,
                                                                                                 "end": 208
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 191,
                                                                                             "end": 208
@@ -720,7 +719,7 @@ async function f(){}
                                                                                                 "text": "f",
                                                                                                 "rawText": "f",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1025,
                                                                                                 "start": 218,
                                                                                                 "end": 220
@@ -730,7 +729,7 @@ async function f(){}
                                                                                                 "formalParameterList": [],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 221,
                                                                                                 "end": 222
@@ -748,7 +747,7 @@ async function f(){}
                                                                                                                 "text": "",
                                                                                                                 "rawText": "",
                                                                                                                 "flags": 32769,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 1025,
                                                                                                                 "start": 237,
                                                                                                                 "end": 237
@@ -758,7 +757,7 @@ async function f(){}
                                                                                                                 "formalParameterList": [],
                                                                                                                 "trailingComma": false,
                                                                                                                 "flags": 32769,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "start": 237,
                                                                                                                 "end": 237
@@ -767,7 +766,7 @@ async function f(){}
                                                                                                             "contents": null,
                                                                                                             "typeParameters": null,
                                                                                                             "flags": 32769,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 2097152,
                                                                                                             "start": 228,
                                                                                                             "end": 237
@@ -775,20 +774,20 @@ async function f(){}
                                                                                                     ],
                                                                                                     "multiline": false,
                                                                                                     "flags": 32769,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 228,
                                                                                                     "end": 237
                                                                                                 },
                                                                                                 "flags": 32769,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 222,
                                                                                                 "end": 237
                                                                                             },
                                                                                             "typeParameters": null,
                                                                                             "flags": 32769,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 256,
                                                                                             "start": 208,
                                                                                             "end": 237
@@ -796,20 +795,20 @@ async function f(){}
                                                                                     ],
                                                                                     "multiline": false,
                                                                                     "flags": 32769,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 191,
                                                                                     "end": 237
                                                                                 },
                                                                                 "flags": 32769,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 190,
                                                                                 "end": 237
                                                                             },
                                                                             "typeParameters": null,
                                                                             "flags": 32769,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 256,
                                                                             "start": 176,
                                                                             "end": 237
@@ -817,20 +816,20 @@ async function f(){}
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 32769,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 127,
                                                                     "end": 237
                                                                 },
                                                                 "flags": 32769,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 126,
                                                                 "end": 237
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 32769,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 256,
                                                             "start": 111,
                                                             "end": 237
@@ -838,20 +837,20 @@ async function f(){}
                                                     ],
                                                     "multiline": false,
                                                     "flags": 32769,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 106,
                                                     "end": 237
                                                 },
                                                 "flags": 32769,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 104,
                                                 "end": 237
                                             },
                                             "typeParameters": null,
                                             "flags": 32769,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 256,
                                             "start": 93,
                                             "end": 237
@@ -859,20 +858,20 @@ async function f(){}
                                     ],
                                     "multiline": true,
                                     "flags": 32769,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 41,
                                     "end": 237
                                 },
                                 "flags": 32769,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 237
                             },
                             "typeParameters": null,
                             "flags": 32769,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 26,
                             "end": 237
@@ -880,20 +879,20 @@ async function f(){}
                     ],
                     "multiline": true,
                     "flags": 32769,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 237
                 },
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 237
             },
             "typeParameters": null,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 11,
             "end": 237
@@ -994,7 +993,6 @@ async function f(){}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1004,17 +1002,13 @@ async function f(){}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

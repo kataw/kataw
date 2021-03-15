@@ -15,10 +15,9 @@ class C
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C\n{\n    m()\n    {\n    }\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ class C
                 "text": "C",
                 "rawText": "C",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -53,7 +52,7 @@ class C
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
@@ -63,7 +62,7 @@ class C
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
@@ -77,13 +76,13 @@ class C
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 29
@@ -93,20 +92,20 @@ class C
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 29
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 29
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 31
@@ -114,7 +113,7 @@ class C
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 31
@@ -123,7 +122,6 @@ class C
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -133,17 +131,13 @@ class C
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

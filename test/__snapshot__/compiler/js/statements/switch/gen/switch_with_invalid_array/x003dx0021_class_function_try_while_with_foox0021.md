@@ -14,10 +14,9 @@ switch [catch] =! class function try while with foo!
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch [catch] =! class function try while with foo!",
     "filename": "",
     "statements": [
@@ -31,13 +30,13 @@ switch [catch] =! class function try while with foo!
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 8
@@ -46,13 +45,13 @@ switch [catch] =! class function try while with foo!
                 "kind": 2093,
                 "clauses": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 8
@@ -66,13 +65,13 @@ switch [catch] =! class function try while with foo!
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 8
@@ -87,26 +86,26 @@ switch [catch] =! class function try while with foo!
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 8,
                 "end": 13
             },
             "finallyBlock": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 16,
             "start": 8,
             "end": 13
@@ -126,26 +125,26 @@ switch [catch] =! class function try while with foo!
                         "kind": 50,
                         "elements": [],
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 17,
                         "end": 17
                     },
                     "decorators": null,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 17,
                     "end": 23
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 16,
             "end": 23
@@ -157,7 +156,7 @@ switch [catch] =! class function try while with foo!
                 "text": "",
                 "rawText": "",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 32,
                 "end": 32
@@ -167,7 +166,7 @@ switch [catch] =! class function try while with foo!
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 32
@@ -184,7 +183,7 @@ switch [catch] =! class function try while with foo!
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
@@ -198,13 +197,13 @@ switch [catch] =! class function try while with foo!
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 47,
                                         "end": 51
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 51,
                                     "end": 52
@@ -215,25 +214,25 @@ switch [catch] =! class function try while with foo!
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 52,
                                         "end": 52
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 52,
                                     "end": 52
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 52
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 36,
                             "end": 52
@@ -241,20 +240,20 @@ switch [catch] =! class function try while with foo!
                     ],
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 36,
                     "end": 52
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 52
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 23,
             "end": 52
@@ -327,7 +326,6 @@ switch [catch] =! class function try while with foo!
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -337,17 +335,13 @@ switch [catch] =! class function try while with foo!
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ new oh,no
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new oh,no",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ new oh,no
                             "text": "oh",
                             "rawText": "oh",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 3,
                             "end": 6
@@ -41,7 +40,7 @@ new oh,no
                         "typeArguments": null,
                         "argumentList": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 32,
                         "start": 0,
                         "end": 6
@@ -51,20 +50,20 @@ new oh,no
                         "text": "no",
                         "rawText": "no",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -73,7 +72,6 @@ new oh,no
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -83,17 +81,13 @@ new oh,no
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

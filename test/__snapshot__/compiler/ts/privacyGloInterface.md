@@ -34,10 +34,9 @@ interface C7_public {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\nclass C5_public {\n    private f1() {\n    }\n}\n\n\ninterface C7_public {\n    (c1: C5_public);\n    (): C5_public;\n\n    new (c1: C5_public);\n    new (): C5_public;\n\n    [c: number]: C5_public;\n\n    x: C5_public;\n\n    a?: C5_public;\n\n    f1(a1: C5_public);\n    f3(): C5_public;\n}\n\n",
     "filename": "",
     "statements": [
@@ -48,7 +47,7 @@ interface C7_public {
                 "text": "C5_public",
                 "rawText": "C5_public",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 6,
                 "end": 16
@@ -72,7 +71,7 @@ interface C7_public {
                                 "text": "f1",
                                 "rawText": "f1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
@@ -82,7 +81,7 @@ interface C7_public {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 35
@@ -96,13 +95,13 @@ interface C7_public {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 37
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 43
@@ -112,27 +111,27 @@ interface C7_public {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 18,
                                 "end": 30
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 33,
                             "end": 43
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 18,
                         "end": 43
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 18,
                 "end": 45
@@ -140,7 +139,7 @@ interface C7_public {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 45
@@ -152,7 +151,7 @@ interface C7_public {
                 "text": "C7_public",
                 "rawText": "C7_public",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 57,
                 "end": 67
@@ -178,7 +177,7 @@ interface C7_public {
                                         "text": "c1",
                                         "rawText": "c1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 75,
                                         "end": 77
@@ -191,14 +190,14 @@ interface C7_public {
                                             "text": "C5_public",
                                             "rawText": "C5_public",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 78,
                                             "end": 88
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 78,
                                         "end": 89
@@ -207,7 +206,7 @@ interface C7_public {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 75,
                                     "end": 88
@@ -215,14 +214,14 @@ interface C7_public {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 75,
                             "end": 88
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 69,
                         "end": 90
@@ -237,7 +236,7 @@ interface C7_public {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 96,
                             "end": 96
@@ -249,20 +248,20 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 98,
                                 "end": 108
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 98,
                             "end": 109
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 90,
                         "end": 109
@@ -283,7 +282,7 @@ interface C7_public {
                                         "text": "c1",
                                         "rawText": "c1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 120,
                                         "end": 122
@@ -296,14 +295,14 @@ interface C7_public {
                                             "text": "C5_public",
                                             "rawText": "C5_public",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 123,
                                             "end": 133
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 123,
                                         "end": 134
@@ -312,7 +311,7 @@ interface C7_public {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 120,
                                     "end": 133
@@ -320,14 +319,14 @@ interface C7_public {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 120,
                             "end": 133
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 118,
                         "end": 135
@@ -342,7 +341,7 @@ interface C7_public {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 145,
                             "end": 145
@@ -354,20 +353,20 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 147,
                                 "end": 157
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 147,
                             "end": 158
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 143,
                         "end": 158
@@ -386,7 +385,7 @@ interface C7_public {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 165,
                                         "end": 166
@@ -395,7 +394,7 @@ interface C7_public {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 167,
                                         "end": 174
@@ -404,7 +403,7 @@ interface C7_public {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 165,
                                     "end": 174
@@ -412,7 +411,7 @@ interface C7_public {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 165,
                             "end": 174
@@ -424,14 +423,14 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 176,
                                 "end": 186
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 176,
                             "end": 187
@@ -439,7 +438,7 @@ interface C7_public {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 165,
                         "end": 187
@@ -451,7 +450,7 @@ interface C7_public {
                             "text": "x",
                             "rawText": "x",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 187,
                             "end": 194
@@ -465,14 +464,14 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 195,
                                 "end": 205
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 195,
                             "end": 206
@@ -481,7 +480,7 @@ interface C7_public {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 187,
                         "end": 206
@@ -493,7 +492,7 @@ interface C7_public {
                             "text": "a",
                             "rawText": "a",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 206,
                             "end": 213
@@ -507,14 +506,14 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 215,
                                 "end": 225
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 215,
                             "end": 226
@@ -523,7 +522,7 @@ interface C7_public {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 206,
                         "end": 226
@@ -535,7 +534,7 @@ interface C7_public {
                             "text": "f1",
                             "rawText": "f1",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 226,
                             "end": 234
@@ -556,7 +555,7 @@ interface C7_public {
                                         "text": "a1",
                                         "rawText": "a1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 235,
                                         "end": 237
@@ -569,14 +568,14 @@ interface C7_public {
                                             "text": "C5_public",
                                             "rawText": "C5_public",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 238,
                                             "end": 248
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 238,
                                         "end": 249
@@ -585,7 +584,7 @@ interface C7_public {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 235,
                                     "end": 248
@@ -593,14 +592,14 @@ interface C7_public {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 235,
                             "end": 248
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 226,
                         "end": 250
@@ -612,7 +611,7 @@ interface C7_public {
                             "text": "f3",
                             "rawText": "f3",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 250,
                             "end": 257
@@ -627,7 +626,7 @@ interface C7_public {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 258,
                             "end": 258
@@ -639,20 +638,20 @@ interface C7_public {
                                 "text": "C5_public",
                                 "rawText": "C5_public",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 260,
                                 "end": 270
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 260,
                             "end": 271
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 250,
                         "end": 271
@@ -660,13 +659,13 @@ interface C7_public {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 69,
                 "end": 271
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 45,
             "end": 273
@@ -675,7 +674,6 @@ interface C7_public {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -685,17 +683,13 @@ interface C7_public {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ class x { "constructor"(){}; constructor(){}; }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x { \"constructor\"(){}; constructor(){}; }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ class x { "constructor"(){}; constructor(){}; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -48,7 +47,7 @@ class x { "constructor"(){}; constructor(){}; }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 23
@@ -58,7 +57,7 @@ class x { "constructor"(){}; constructor(){}; }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
@@ -72,13 +71,13 @@ class x { "constructor"(){}; constructor(){}; }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
@@ -88,13 +87,13 @@ class x { "constructor"(){}; constructor(){}; }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 27
@@ -102,7 +101,7 @@ class x { "constructor"(){}; constructor(){}; }
                     {
                         "kind": 4194502,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 27,
                         "end": 28
@@ -120,7 +119,7 @@ class x { "constructor"(){}; constructor(){}; }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 40
@@ -130,7 +129,7 @@ class x { "constructor"(){}; constructor(){}; }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 41,
                                 "end": 42
@@ -144,13 +143,13 @@ class x { "constructor"(){}; constructor(){}; }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 43,
                                     "end": 43
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 44
@@ -160,13 +159,13 @@ class x { "constructor"(){}; constructor(){}; }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
                             "end": 44
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 28,
                         "end": 44
@@ -174,14 +173,14 @@ class x { "constructor"(){}; constructor(){}; }
                     {
                         "kind": 4194502,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 44,
                         "end": 45
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 47
@@ -189,7 +188,7 @@ class x { "constructor"(){}; constructor(){}; }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 47
@@ -198,7 +197,6 @@ class x { "constructor"(){}; constructor(){}; }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -208,17 +206,13 @@ class x { "constructor"(){}; constructor(){}; }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,7 +14,7 @@ export function createImplementClause(type: TypeNode, flags: NodeFlags, start: n
     kind: NodeKind.ImplementClause,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

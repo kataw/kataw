@@ -23,7 +23,7 @@ export function createOptionalExpression(
     member,
     chain,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

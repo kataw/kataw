@@ -19,10 +19,9 @@ enum void {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var typeof = 10;\nfunction throw() {}\nvar {while, return} = { while: 1, return: 2 };\nvar {this, switch: { continue} } = { this: 1, switch: { continue: 2 }};\nvar [debugger, if] = [1, 2];\nenum void {}\n\n\n\n",
     "filename": "",
     "statements": [
@@ -32,13 +31,13 @@ enum void {}
                 "kind": 244,
                 "declarations": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 3
@@ -54,13 +53,13 @@ enum void {}
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 10
@@ -71,19 +70,19 @@ enum void {}
                     "text": 10,
                     "rawText": "10",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 15
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 3,
             "end": 16
@@ -95,7 +94,7 @@ enum void {}
                 "text": "",
                 "rawText": "",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 25,
                 "end": 25
@@ -105,7 +104,7 @@ enum void {}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 25
@@ -125,13 +124,13 @@ enum void {}
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 31
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 31,
                             "end": 33
@@ -143,13 +142,13 @@ enum void {}
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 35
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 36
@@ -170,12 +169,12 @@ enum void {}
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 42,
                                                 "end": 42
                                             },
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 40,
                                             "end": 42
@@ -184,20 +183,20 @@ enum void {}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 40,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 1,
                                         "end": 42
                                     }
                                 ],
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 42
                             },
                             "flags": 32769,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 36,
                             "end": 42
@@ -211,7 +210,7 @@ enum void {}
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 47,
                                         "end": 47
@@ -220,14 +219,14 @@ enum void {}
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 48,
                                         "end": 48
                                     }
                                 ],
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 47,
                                 "end": 48
@@ -236,13 +235,13 @@ enum void {}
                                 "kind": 2097346,
                                 "expression": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 55
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 42,
                             "end": 55
@@ -250,20 +249,20 @@ enum void {}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 31,
                     "end": 55
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 56
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 16,
             "end": 56
@@ -279,7 +278,7 @@ enum void {}
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 66,
                             "end": 66
@@ -290,19 +289,19 @@ enum void {}
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 66,
                                 "end": 66
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 66,
                             "end": 66
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 60,
                         "end": 66
@@ -310,13 +309,13 @@ enum void {}
                 ],
                 "multiline": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 60,
                 "end": 66
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 58,
             "end": 66
@@ -331,7 +330,7 @@ enum void {}
                         "text": 1,
                         "rawText": "1",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 67,
                         "end": 69
@@ -340,20 +339,20 @@ enum void {}
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 70,
                         "end": 70
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 67,
                 "end": 70
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 67,
             "end": 70
@@ -364,13 +363,13 @@ enum void {}
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 77,
                 "end": 77
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 70,
             "end": 77
@@ -382,13 +381,13 @@ enum void {}
                 "text": 2,
                 "rawText": "2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 78,
                 "end": 80
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 78,
             "end": 80
@@ -396,7 +395,7 @@ enum void {}
         {
             "kind": 6291526,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 82,
             "end": 83
@@ -421,14 +420,14 @@ enum void {}
                                             "text": "this",
                                             "rawText": "this",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 89,
                                             "end": 93
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 89,
                                         "end": 93
@@ -438,12 +437,12 @@ enum void {}
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 89,
                                 "end": 94
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 87,
                             "end": 94
@@ -452,20 +451,20 @@ enum void {}
                         "type": null,
                         "initializer": null,
                         "flags": 87,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1,
                         "end": 94
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 87,
                 "end": 94
             },
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 83,
             "end": 94
@@ -476,7 +475,7 @@ enum void {}
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 101,
                 "end": 101
@@ -485,13 +484,13 @@ enum void {}
                 "kind": 2093,
                 "clauses": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 101,
                 "end": 101
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 94,
             "end": 101
@@ -505,7 +504,7 @@ enum void {}
                         "kind": 2097212,
                         "label": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 104,
                         "end": 113
@@ -513,13 +512,13 @@ enum void {}
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 104,
                 "end": 113
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 102,
             "end": 114
@@ -534,7 +533,7 @@ enum void {}
                         "label": {
                             "kind": 4260571,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 120,
                             "end": 125
@@ -549,7 +548,7 @@ enum void {}
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 126,
                                         "end": 128
@@ -558,27 +557,27 @@ enum void {}
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 129,
                                         "end": 129
                                     }
                                 ],
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 126,
                                 "end": 129
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 126,
                             "end": 129
                         },
                         "isWebCompat": true,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 120,
                         "end": 129
@@ -589,7 +588,7 @@ enum void {}
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 136,
                             "end": 136
@@ -598,13 +597,13 @@ enum void {}
                             "kind": 2093,
                             "clauses": [],
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 136,
                             "end": 136
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 129,
                         "end": 136
@@ -612,13 +611,13 @@ enum void {}
                 ],
                 "multiline": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 120,
                 "end": 136
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 118,
             "end": 136
@@ -634,13 +633,13 @@ enum void {}
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 148,
                             "end": 148
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 139,
                         "end": 148
@@ -648,13 +647,13 @@ enum void {}
                 ],
                 "multiline": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 139,
                 "end": 148
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 137,
             "end": 148
@@ -666,13 +665,13 @@ enum void {}
                 "text": 2,
                 "rawText": "2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 149,
                 "end": 151
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 149,
             "end": 151
@@ -680,7 +679,7 @@ enum void {}
         {
             "kind": 6291526,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 154,
             "end": 155
@@ -699,13 +698,13 @@ enum void {}
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 161,
                                 "end": 161
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 159,
                             "end": 161
@@ -714,20 +713,20 @@ enum void {}
                         "type": null,
                         "initializer": null,
                         "flags": 159,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1,
                         "end": 161
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 159,
                 "end": 161
             },
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 155,
             "end": 161
@@ -735,7 +734,7 @@ enum void {}
         {
             "kind": 6291518,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 161,
             "end": 169
@@ -746,7 +745,7 @@ enum void {}
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 173,
                 "end": 173
@@ -757,13 +756,13 @@ enum void {}
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 173,
                     "end": 173
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 173,
                 "end": 173
@@ -771,7 +770,7 @@ enum void {}
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 170,
             "end": 173
@@ -788,7 +787,7 @@ enum void {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 178,
                             "end": 179
@@ -798,7 +797,7 @@ enum void {}
                             "text": 2,
                             "rawText": "2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 180,
                             "end": 182
@@ -807,19 +806,19 @@ enum void {}
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 178,
                     "end": 182
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 176,
                 "end": 183
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 176,
             "end": 184
@@ -831,13 +830,13 @@ enum void {}
                 "text": "enum",
                 "rawText": "enum",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 184,
                 "end": 189
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 184,
             "end": 189
@@ -855,25 +854,25 @@ enum void {}
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 196,
                         "end": 196
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 194,
                     "end": 197
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 189,
                 "end": 197
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 189,
             "end": 197
@@ -890,7 +889,6 @@ enum void {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -900,17 +898,13 @@ enum void {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

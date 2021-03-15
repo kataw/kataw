@@ -15,10 +15,9 @@ async => {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async => {}\n/ x / g",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ async => {}
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 0,
                                 "end": 5
@@ -50,7 +49,7 @@ async => {}
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 5,
                             "end": 5
@@ -60,7 +59,7 @@ async => {}
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 5
@@ -72,25 +71,25 @@ async => {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 11
@@ -101,13 +100,13 @@ async => {}
                 "kind": 4260544,
                 "text": "/ x /",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 11,
             "end": 17
@@ -119,13 +118,13 @@ async => {}
                 "text": "g",
                 "rawText": "g",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 17,
             "end": 19
@@ -142,7 +141,6 @@ async => {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -152,17 +150,13 @@ async => {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

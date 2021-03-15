@@ -27,7 +27,7 @@ export function createImportClause(
     namedImports,
     isTypeOnly,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

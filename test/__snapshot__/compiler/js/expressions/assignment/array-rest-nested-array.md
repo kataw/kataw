@@ -16,10 +16,9 @@ result = [...[x]] = vals;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "result = [...[x]] = vals;",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ result = [...[x]] = vals;
                     "text": "result",
                     "rawText": "result",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 6
@@ -57,7 +56,7 @@ result = [...[x]] = vals;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 15
@@ -66,19 +65,19 @@ result = [...[x]] = vals;
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 16
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2,
                                     "start": 10,
                                     "end": 16
@@ -87,13 +86,13 @@ result = [...[x]] = vals;
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 16
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 17
@@ -104,25 +103,25 @@ result = [...[x]] = vals;
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 24
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 24
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -131,7 +130,6 @@ result = [...[x]] = vals;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -141,17 +139,13 @@ result = [...[x]] = vals;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

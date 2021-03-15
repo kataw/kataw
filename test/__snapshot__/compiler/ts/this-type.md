@@ -14,10 +14,9 @@ class Message {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Message {\n  clone(): this {\n    return this;\n  }\n}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class Message {
                 "text": "Message",
                 "rawText": "Message",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 13
@@ -52,7 +51,7 @@ class Message {
                                 "text": "clone",
                                 "rawText": "clone",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
@@ -62,7 +61,7 @@ class Message {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
@@ -79,13 +78,13 @@ class Message {
                                             "expression": {
                                                 "kind": 4260571,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 49
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 33,
                                             "end": 50
@@ -93,13 +92,13 @@ class Message {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 33,
                                     "end": 50
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 54
@@ -108,7 +107,7 @@ class Message {
                             "type": {
                                 "kind": 4202716,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 26,
                                 "end": 31
@@ -116,20 +115,20 @@ class Message {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 54
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 15,
                         "end": 54
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 15,
                 "end": 56
@@ -137,7 +136,7 @@ class Message {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 56
@@ -146,7 +145,6 @@ class Message {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -156,17 +154,13 @@ class Message {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

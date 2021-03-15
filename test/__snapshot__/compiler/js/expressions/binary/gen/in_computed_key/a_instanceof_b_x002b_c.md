@@ -14,10 +14,9 @@ x = {[ a instanceof b + c ]: y}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x = {[ a instanceof b + c ]: y}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ x = {[ a instanceof b + c ]: y}
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -52,7 +51,7 @@ x = {[ a instanceof b + c ]: y}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
@@ -65,7 +64,7 @@ x = {[ a instanceof b + c ]: y}
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 21
@@ -76,25 +75,25 @@ x = {[ a instanceof b + c ]: y}
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 21,
                                             "end": 25
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 6,
                                         "end": 25
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 131073,
                                     "start": 5,
                                     "end": 27
@@ -104,7 +103,7 @@ x = {[ a instanceof b + c ]: y}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
@@ -112,7 +111,7 @@ x = {[ a instanceof b + c ]: y}
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 30
@@ -121,25 +120,25 @@ x = {[ a instanceof b + c ]: y}
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 30
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 31
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 31
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -148,7 +147,6 @@ x = {[ a instanceof b + c ]: y}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -158,17 +156,13 @@ x = {[ a instanceof b + c ]: y}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

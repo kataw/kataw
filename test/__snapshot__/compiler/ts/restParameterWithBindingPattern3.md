@@ -18,10 +18,9 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function a(...[a = 1, b = true]: string[]) { }\n\nfunction b(...[...foo = []]: string[]) { }\n\nfunction c(...{0: a, length, 3: d}: [boolean, string, number]) { }\n\nfunction d(...[a, , , d]: [boolean, string, number]) { }\n\nfunction e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number]) { }",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -56,7 +55,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 15,
                                             "end": 16
@@ -66,13 +65,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 18,
                                             "end": 20
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 15,
                                         "end": 20
@@ -85,7 +84,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 21,
                                             "end": 23
@@ -94,13 +93,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "kind": 4260391,
                                             "text": true,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 25,
                                             "end": 30
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 21,
                                         "end": 30
@@ -108,13 +107,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 15,
                                 "end": 30
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 31
@@ -125,13 +124,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "elementType": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 32,
                                 "end": 39
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 32,
                             "end": 42
@@ -141,7 +140,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 11,
                         "end": 41
@@ -149,7 +148,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 42
@@ -162,20 +161,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 44,
                     "end": 44
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 42,
                 "end": 46
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 46
@@ -187,7 +186,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "text": "b",
                 "rawText": "b",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 56,
                 "end": 58
@@ -211,7 +210,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 66,
                                             "end": 69
@@ -224,19 +223,19 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 73,
                                                 "end": 73
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 71,
                                             "end": 74
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4097,
                                         "start": 63,
                                         "end": 74
@@ -244,13 +243,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 63,
                                 "end": 74
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 62,
                             "end": 75
@@ -261,13 +260,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "elementType": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 76,
                                 "end": 83
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 76,
                             "end": 86
@@ -277,7 +276,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 59,
                         "end": 85
@@ -285,7 +284,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 59,
                 "end": 86
@@ -298,20 +297,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 88,
                     "end": 88
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 86,
                 "end": 90
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 46,
             "end": 90
@@ -323,7 +322,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "text": "c",
                 "rawText": "c",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 100,
                 "end": 102
@@ -347,7 +346,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 107,
                                             "end": 108
@@ -360,20 +359,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 109,
                                                 "end": 111
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 109,
                                             "end": 111
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 107,
                                         "end": 111
@@ -386,14 +385,14 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "length",
                                             "rawText": "length",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 112,
                                             "end": 119
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 112,
                                         "end": 119
@@ -406,7 +405,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 120,
                                             "end": 122
@@ -419,20 +418,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 123,
                                                 "end": 125
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 123,
                                             "end": 125
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 120,
                                         "end": 125
@@ -442,12 +441,12 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 107,
                                 "end": 125
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 106,
                             "end": 126
@@ -459,7 +458,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4268070,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 129,
                                     "end": 136
@@ -467,7 +466,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 137,
                                     "end": 144
@@ -475,7 +474,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 145,
                                     "end": 152
@@ -483,7 +482,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 127,
                             "end": 153
@@ -493,7 +492,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 103,
                         "end": 153
@@ -501,7 +500,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 103,
                 "end": 154
@@ -514,20 +513,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 156,
                     "end": 156
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 154,
                 "end": 158
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 90,
             "end": 158
@@ -539,7 +538,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "text": "d",
                 "rawText": "d",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 168,
                 "end": 170
@@ -563,14 +562,14 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 175,
                                             "end": 176
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 175,
                                         "end": 176
@@ -578,7 +577,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     {
                                         "kind": 4276394,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 177,
                                         "end": 177
@@ -586,7 +585,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     {
                                         "kind": 4276394,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 179,
                                         "end": 179
@@ -599,14 +598,14 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 181,
                                             "end": 183
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 181,
                                         "end": 183
@@ -614,13 +613,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 175,
                                 "end": 183
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 174,
                             "end": 184
@@ -632,7 +631,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4268070,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 187,
                                     "end": 194
@@ -640,7 +639,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 195,
                                     "end": 202
@@ -648,7 +647,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 203,
                                     "end": 210
@@ -656,7 +655,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 185,
                             "end": 211
@@ -666,7 +665,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 171,
                         "end": 211
@@ -674,7 +673,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 171,
                 "end": 212
@@ -687,20 +686,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 214,
                     "end": 214
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 212,
                 "end": 216
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 158,
             "end": 216
@@ -712,7 +711,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "text": "e",
                 "rawText": "e",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 226,
                 "end": 228
@@ -736,7 +735,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 233,
                                             "end": 234
@@ -749,7 +748,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 235,
                                                 "end": 237
@@ -759,19 +758,19 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 239,
                                                 "end": 241
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 235,
                                             "end": 241
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 233,
                                         "end": 241
@@ -784,7 +783,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 242,
                                             "end": 244
@@ -797,7 +796,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 245,
                                                 "end": 247
@@ -806,19 +805,19 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4260391,
                                                 "text": true,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 249,
                                                 "end": 254
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 245,
                                             "end": 254
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 242,
                                         "end": 254
@@ -831,7 +830,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 255,
                                             "end": 264
@@ -844,20 +843,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "text": "rest",
                                                 "rawText": "rest",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 264,
                                                 "end": 269
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 264,
                                             "end": 269
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 255,
                                         "end": 269
@@ -867,12 +866,12 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 233,
                                 "end": 269
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 232,
                             "end": 270
@@ -884,7 +883,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4268070,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 273,
                                     "end": 280
@@ -892,7 +891,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 281,
                                     "end": 288
@@ -900,7 +899,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 289,
                                     "end": 296
@@ -908,7 +907,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 271,
                             "end": 297
@@ -918,7 +917,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 229,
                         "end": 297
@@ -926,7 +925,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 229,
                 "end": 298
@@ -939,20 +938,20 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 300,
                     "end": 300
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 298,
                 "end": 302
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 216,
             "end": 302
@@ -961,7 +960,6 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -971,17 +969,13 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

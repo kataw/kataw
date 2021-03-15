@@ -24,7 +24,7 @@ export function createNamespaceDeclaration(
     name,
     body,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

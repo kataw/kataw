@@ -20,10 +20,9 @@ class b extends a {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class a {\n    static get x(): () => string {\n        return null;\n    }\n}\n\nclass b extends a {\n    static x() {\n        return \"20\";\n    }\n}",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ class b extends a {
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -58,7 +57,7 @@ class b extends a {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
@@ -68,7 +67,7 @@ class b extends a {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 28
@@ -86,13 +85,13 @@ class b extends a {
                                                 "kind": 4260512,
                                                 "text": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 59,
                                                 "end": 64
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 44,
                                             "end": 65
@@ -100,13 +99,13 @@ class b extends a {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 65
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 71
@@ -120,7 +119,7 @@ class b extends a {
                                     "parameterList": [],
                                     "trailingcomma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 31,
                                     "end": 31
@@ -128,13 +127,13 @@ class b extends a {
                                 "returnType": {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 35,
                                     "end": 42
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 29,
                                 "end": 42
@@ -142,20 +141,20 @@ class b extends a {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 71
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 71
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 73
@@ -163,7 +162,7 @@ class b extends a {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 73
@@ -175,7 +174,7 @@ class b extends a {
                 "text": "b",
                 "rawText": "b",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 80,
                 "end": 82
@@ -188,14 +187,14 @@ class b extends a {
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 90,
                     "end": 92
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 90,
                 "end": 92
@@ -217,7 +216,7 @@ class b extends a {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 105,
                                 "end": 107
@@ -227,7 +226,7 @@ class b extends a {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 108,
                                 "end": 109
@@ -246,13 +245,13 @@ class b extends a {
                                                 "text": "20",
                                                 "rawText": "20",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 126,
                                                 "end": 131
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 111,
                                             "end": 132
@@ -260,13 +259,13 @@ class b extends a {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 111,
                                     "end": 132
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 109,
                                 "end": 138
@@ -276,20 +275,20 @@ class b extends a {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 107,
                             "end": 138
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 94,
                         "end": 138
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 94,
                 "end": 140
@@ -297,7 +296,7 @@ class b extends a {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 73,
             "end": 140
@@ -306,7 +305,6 @@ class b extends a {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -316,17 +314,13 @@ class b extends a {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -17,10 +17,9 @@ export function f(x: string): string;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export function f(x: number): number;\nexport function f(x: string): string;",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ export function f(x: string): string;
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 15,
                     "end": 17
@@ -49,7 +48,7 @@ export function f(x: string): string;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 18,
                                 "end": 19
@@ -58,7 +57,7 @@ export function f(x: string): string;
                             "type": {
                                 "kind": 4202657,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 20,
                                 "end": 27
@@ -68,7 +67,7 @@ export function f(x: string): string;
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 18,
                             "end": 27
@@ -76,7 +75,7 @@ export function f(x: string): string;
                     ],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 28
@@ -84,7 +83,7 @@ export function f(x: string): string;
                 "type": {
                     "kind": 4202657,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 29,
                     "end": 36
@@ -92,7 +91,7 @@ export function f(x: string): string;
                 "contents": null,
                 "typeParameters": null,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 6,
                 "end": 37
@@ -102,7 +101,7 @@ export function f(x: string): string;
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 37
@@ -116,7 +115,7 @@ export function f(x: string): string;
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 53,
                     "end": 55
@@ -132,7 +131,7 @@ export function f(x: string): string;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 56,
                                 "end": 57
@@ -141,7 +140,7 @@ export function f(x: string): string;
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 58,
                                 "end": 65
@@ -151,7 +150,7 @@ export function f(x: string): string;
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 56,
                             "end": 65
@@ -159,7 +158,7 @@ export function f(x: string): string;
                     ],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 56,
                     "end": 66
@@ -167,7 +166,7 @@ export function f(x: string): string;
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 67,
                     "end": 74
@@ -175,7 +174,7 @@ export function f(x: string): string;
                 "contents": null,
                 "typeParameters": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 44,
                 "end": 75
@@ -185,7 +184,7 @@ export function f(x: string): string;
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 37,
             "end": 75
@@ -194,7 +193,6 @@ export function f(x: string): string;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -204,17 +202,13 @@ export function f(x: string): string;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class B extends delete x {})",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 6,
                         "end": 8
@@ -44,14 +43,14 @@
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 16
                         },
                         "typeArguments": null,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 16
@@ -61,26 +60,26 @@
                         "kind": 50,
                         "elements": [],
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 1,
                         "end": 1
                     },
                     "decorators": null,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 1,
                     "end": 16
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 16
@@ -95,19 +94,19 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 16,
             "end": 25
@@ -119,13 +118,13 @@
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 25,
             "end": 28
@@ -156,7 +155,6 @@
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -166,17 +164,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

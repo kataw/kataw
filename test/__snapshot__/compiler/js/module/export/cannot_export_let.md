@@ -16,10 +16,9 @@ export var let = x;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export var let = x;",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ export var let = x;
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 10,
                                 "end": 14
@@ -49,26 +48,26 @@ export var let = x;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 10,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 0,
                             "end": 18
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 19
@@ -78,7 +77,7 @@ export var let = x;
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -95,7 +94,6 @@ export var let = x;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -105,17 +103,13 @@ export var let = x;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

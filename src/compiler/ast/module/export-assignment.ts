@@ -16,7 +16,7 @@ export function createExportAssignment(
     kind: NodeKind.ExportAssignment,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

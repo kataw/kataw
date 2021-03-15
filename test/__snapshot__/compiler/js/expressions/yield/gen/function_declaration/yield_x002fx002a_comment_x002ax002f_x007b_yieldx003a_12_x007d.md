@@ -14,10 +14,9 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { yield /* comment */ { yield: 12 } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,13 +55,13 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 26
@@ -79,7 +78,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 42,
                                             "end": 48
@@ -91,20 +90,20 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                                 "text": 12,
                                                 "rawText": "12",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 52
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 49,
                                             "end": 52
                                         },
                                         "isWebCompat": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 42,
                                         "end": 52
@@ -112,13 +111,13 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 52
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 54
@@ -126,20 +125,20 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 54
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 56
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 56
@@ -163,7 +162,6 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -173,17 +171,13 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -20,7 +20,7 @@ export function createHeritageClauses(
     kind: NodeKind.HeritageClauses,
     clauses,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

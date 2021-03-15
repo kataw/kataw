@@ -18,10 +18,9 @@ class x extends y {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x extends y {\n  constructor() {\n    ({\"foo\": super[cool]} = x)\n  }\n}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ class x extends y {
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -45,14 +44,14 @@ class x extends y {
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 17
@@ -74,7 +73,7 @@ class x extends y {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 33
@@ -84,7 +83,7 @@ class x extends y {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 35
@@ -114,7 +113,7 @@ class x extends y {
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 44,
                                                                         "end": 49
@@ -124,7 +123,7 @@ class x extends y {
                                                                         "member": {
                                                                             "kind": 4260561,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 50,
                                                                             "end": 56
@@ -134,13 +133,13 @@ class x extends y {
                                                                             "text": "cool",
                                                                             "rawText": "cool",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 57,
                                                                             "end": 61
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 56,
                                                                         "end": 62
@@ -148,7 +147,7 @@ class x extends y {
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 44,
                                                                     "end": 62
@@ -157,13 +156,13 @@ class x extends y {
                                                             "trailingComma": false,
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 62
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 63
@@ -174,25 +173,25 @@ class x extends y {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 65,
                                                         "end": 67
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 67
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 68
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 68
@@ -200,13 +199,13 @@ class x extends y {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 68
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 72
@@ -216,20 +215,20 @@ class x extends y {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 72
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 19,
                         "end": 72
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 19,
                 "end": 74
@@ -237,7 +236,7 @@ class x extends y {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 74
@@ -246,7 +245,6 @@ class x extends y {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -256,17 +254,13 @@ class x extends y {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

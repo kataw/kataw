@@ -40,10 +40,9 @@ static set Bar(bar:string) {barback = bar;} // not ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\nclass C1 {\n\n    p: any;\n    static s: any;\n\n    constructor() {\n        var v = 0;\n\n        s = 1;\n\n        b();\n    }\n\n    static b() {\n        v = 1;\n        this.p = 0;\n        C1.s = 1;\n    }\n}\n\nclass C2 {\n\nbarback:string = \"\";\n\nstatic get Bar() {return \"bar\";} // ok\n\nstatic set Bar(bar:string) {barback = bar;} // not ok\n\n}\n",
     "filename": "",
     "statements": [
@@ -54,7 +53,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                 "text": "C1",
                 "rawText": "C1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 6,
                 "end": 9
@@ -72,7 +71,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "text": "p",
                             "rawText": "p",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 18
@@ -86,7 +85,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 19,
                             "end": 23
@@ -96,7 +95,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 11,
                         "end": 24
@@ -108,7 +107,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "text": "s",
                             "rawText": "s",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 37
@@ -122,7 +121,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 38,
                             "end": 42
@@ -132,7 +131,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 24,
                         "end": 43
@@ -150,7 +149,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 60
@@ -160,7 +159,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 61,
                                 "end": 62
@@ -184,7 +183,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                             "text": "v",
                                                             "rawText": "v",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 76,
                                                             "end": 78
@@ -196,26 +195,26 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                             "text": 0,
                                                             "rawText": "0",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 80,
                                                             "end": 82
                                                         },
                                                         "flags": 76,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 82
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 76,
                                                 "end": 82
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 64,
                                             "end": 83
@@ -229,7 +228,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": "s",
                                                     "rawText": "s",
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 83,
                                                     "end": 94
@@ -240,19 +239,19 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 96,
                                                     "end": 98
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 83,
                                                 "end": 98
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 83,
                                             "end": 99
@@ -266,7 +265,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 99,
                                                     "end": 110
@@ -278,18 +277,18 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 112,
                                                     "end": 112
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 110,
                                                 "end": 112
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 99,
                                             "end": 113
@@ -297,13 +296,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 64,
                                     "end": 113
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 62,
                                 "end": 119
@@ -313,13 +312,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 119
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 43,
                         "end": 119
@@ -337,7 +336,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 131,
                                 "end": 133
@@ -347,7 +346,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 134,
                                 "end": 135
@@ -368,7 +367,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": "v",
                                                     "rawText": "v",
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 147
@@ -379,19 +378,19 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 149,
                                                     "end": 151
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 151
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 137,
                                             "end": 152
@@ -405,7 +404,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "member": {
                                                         "kind": 4260571,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 152,
                                                         "end": 165
@@ -415,13 +414,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                         "text": "p",
                                                         "rawText": "p",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 166,
                                                         "end": 167
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 165,
                                                     "end": 167,
@@ -437,19 +436,19 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": 0,
                                                     "rawText": "0",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 169,
                                                     "end": 171
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 152,
                                                 "end": 171
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 152,
                                             "end": 172
@@ -465,7 +464,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                         "text": "C1",
                                                         "rawText": "C1",
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 172,
                                                         "end": 183
@@ -475,13 +474,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                         "text": "s",
                                                         "rawText": "s",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 184,
                                                         "end": 185
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 183,
                                                     "end": 185,
@@ -497,19 +496,19 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 187,
                                                     "end": 189
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 172,
                                                 "end": 189
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 172,
                                             "end": 190
@@ -517,13 +516,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 137,
                                     "end": 190
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 135,
                                 "end": 196
@@ -533,20 +532,20 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 133,
                             "end": 196
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 119,
                         "end": 196
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 198
@@ -554,7 +553,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 198
@@ -566,7 +565,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 205,
                 "end": 208
@@ -584,7 +583,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "text": "barback",
                             "rawText": "barback",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 210,
                             "end": 219
@@ -598,7 +597,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 220,
                             "end": 226
@@ -608,7 +607,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "text": "",
                             "rawText": "",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 228,
                             "end": 231
@@ -617,7 +616,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 210,
                         "end": 232
@@ -635,7 +634,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "text": "Bar",
                                 "rawText": "Bar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 244,
                                 "end": 248
@@ -645,7 +644,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 249,
                                 "end": 250
@@ -664,13 +663,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 258,
                                                 "end": 264
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 252,
                                             "end": 265
@@ -678,13 +677,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 252,
                                     "end": 265
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 250,
                                 "end": 266
@@ -694,13 +693,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 248,
                             "end": 266
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 232,
                         "end": 266
@@ -718,7 +717,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "text": "Bar",
                                 "rawText": "Bar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 284,
                                 "end": 288
@@ -734,7 +733,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 289,
                                             "end": 292
@@ -743,7 +742,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 293,
                                             "end": 299
@@ -753,7 +752,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 289,
                                         "end": 299
@@ -761,7 +760,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 289,
                                 "end": 300
@@ -782,7 +781,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": "barback",
                                                     "rawText": "barback",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 302,
                                                     "end": 309
@@ -793,19 +792,19 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 311,
                                                     "end": 315
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 302,
                                                 "end": 315
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 302,
                                             "end": 316
@@ -813,13 +812,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 302,
                                     "end": 316
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 300,
                                 "end": 317
@@ -829,20 +828,20 @@ static set Bar(bar:string) {barback = bar;} // not ok
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 288,
                             "end": 317
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 266,
                         "end": 317
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 210,
                 "end": 330
@@ -850,7 +849,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 198,
             "end": 330
@@ -859,7 +858,6 @@ static set Bar(bar:string) {barback = bar;} // not ok
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -869,17 +867,13 @@ static set Bar(bar:string) {barback = bar;} // not ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

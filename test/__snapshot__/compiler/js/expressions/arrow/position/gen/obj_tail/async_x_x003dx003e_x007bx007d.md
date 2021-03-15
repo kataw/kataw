@@ -14,10 +14,9 @@ x = {arrow: async x => {}}.y
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x = {arrow: async x => {}}.y",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ x = {arrow: async x => {}}.y
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -50,7 +49,7 @@ x = {arrow: async x => {}}.y
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
@@ -69,7 +68,7 @@ x = {arrow: async x => {}}.y
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 17,
                                                         "end": 19
@@ -81,7 +80,7 @@ x = {arrow: async x => {}}.y
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 22,
                                                     "end": 19
@@ -91,7 +90,7 @@ x = {arrow: async x => {}}.y
                                             "accessModifier": null,
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 11,
                                             "end": 19
@@ -103,19 +102,19 @@ x = {arrow: async x => {}}.y
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 24
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 22,
                                             "end": 25
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 25
@@ -123,7 +122,7 @@ x = {arrow: async x => {}}.y
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 25
@@ -132,13 +131,13 @@ x = {arrow: async x => {}}.y
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 25
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 26
@@ -148,13 +147,13 @@ x = {arrow: async x => {}}.y
                         "text": "y",
                         "rawText": "y",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 27,
                         "end": 28
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 28,
@@ -165,13 +164,13 @@ x = {arrow: async x => {}}.y
                     }
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -180,7 +179,6 @@ x = {arrow: async x => {}}.y
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -190,17 +188,13 @@ x = {arrow: async x => {}}.y
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

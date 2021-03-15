@@ -20,7 +20,7 @@ export function createBigIntLiteral(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ESNext,
     start,
     end

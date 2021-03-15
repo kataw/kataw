@@ -28,7 +28,7 @@ export function createObjectTypeMembers(
     members,
     multiline,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

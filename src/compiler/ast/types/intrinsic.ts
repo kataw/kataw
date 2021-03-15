@@ -10,7 +10,7 @@ export function createIntrinsicKeyword(flags: NodeFlags, start: number, end: num
   return {
     kind: NodeKind.IntrinsicKeyword,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

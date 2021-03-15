@@ -14,10 +14,9 @@ if( catch
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if( catch",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ if( catch
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 3
@@ -41,13 +40,13 @@ if( catch
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 3
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 3
@@ -62,26 +61,26 @@ if( catch
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 9
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 16,
                     "start": 3,
                     "end": 9
                 },
                 "finallyBlock": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 3,
                 "end": 9
@@ -89,7 +88,7 @@ if( catch
             "alternate": null,
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -106,7 +105,6 @@ if( catch
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -116,17 +114,13 @@ if( catch
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

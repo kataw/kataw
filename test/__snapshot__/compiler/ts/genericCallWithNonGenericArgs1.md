@@ -12,10 +12,9 @@ f<any>(null)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f<T>(x: any) { }\nf<any>(null)\n",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ f<any>(null)
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -42,7 +41,7 @@ f<any>(null)
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 15
@@ -51,7 +50,7 @@ f<any>(null)
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 16,
                             "end": 20
@@ -61,7 +60,7 @@ f<any>(null)
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 14,
                         "end": 20
@@ -69,7 +68,7 @@ f<any>(null)
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 21
@@ -82,13 +81,13 @@ f<any>(null)
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 25
@@ -103,7 +102,7 @@ f<any>(null)
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12
@@ -112,20 +111,20 @@ f<any>(null)
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 11,
                         "end": 12
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 11,
                 "end": 12
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 25
@@ -139,7 +138,7 @@ f<any>(null)
                     "text": "f",
                     "rawText": "f",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 25,
                     "end": 27
@@ -150,14 +149,14 @@ f<any>(null)
                         {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 28,
                             "end": 31
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 28,
                     "end": 32
@@ -169,7 +168,7 @@ f<any>(null)
                             "kind": 4260512,
                             "text": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 37
@@ -178,18 +177,18 @@ f<any>(null)
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 33,
                     "end": 37
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 27,
                 "end": 38
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 25,
             "end": 38
@@ -198,7 +197,6 @@ f<any>(null)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -208,17 +206,13 @@ f<any>(null)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

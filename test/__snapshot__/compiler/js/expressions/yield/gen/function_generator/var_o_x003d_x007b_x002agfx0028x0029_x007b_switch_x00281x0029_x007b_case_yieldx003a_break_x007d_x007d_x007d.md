@@ -14,10 +14,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -89,7 +88,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 43,
                                                             "end": 45
@@ -108,7 +107,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                             "text": "gf",
                                                                             "rawText": "gf",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 51,
                                                                             "end": 53
@@ -118,7 +117,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                             "formalParameterList": [],
                                                                             "trailingComma": false,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 54,
                                                                             "end": 55
@@ -137,7 +136,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                             "text": 1,
                                                                                             "rawText": "1",
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 66,
                                                                                             "end": 67
@@ -152,7 +151,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                         "delegate": false,
                                                                                                         "expression": null,
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 16393,
                                                                                                         "start": 75,
                                                                                                         "end": 81
@@ -162,27 +161,27 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                             "kind": 2097193,
                                                                                                             "label": null,
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 82,
                                                                                                             "end": 89
                                                                                                         }
                                                                                                     ],
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 70,
                                                                                                     "end": 89
                                                                                                 }
                                                                                             ],
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 68,
                                                                                             "end": 91
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 57,
                                                                                         "end": 91
@@ -190,13 +189,13 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 ],
                                                                                 "multiline": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 57,
                                                                                 "end": 91
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 55,
                                                                             "end": 93
@@ -206,7 +205,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                         "accessModifier": null,
                                                                         "typeParameters": null,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 2097152,
                                                                         "start": 53,
                                                                         "end": 93
@@ -215,32 +214,32 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "trailingComma": false,
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 49,
                                                                 "end": 93
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 95
                                                         },
                                                         "flags": 43,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 95
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 95
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 95
@@ -248,20 +247,20 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 95
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 97
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 97
@@ -269,20 +268,20 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 97
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 98
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 98
@@ -291,7 +290,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -301,17 +299,13 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

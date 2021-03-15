@@ -14,10 +14,9 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 30,
                                 "end": 34
@@ -66,7 +65,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 36
@@ -87,19 +86,19 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 46
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 16393,
                                                 "start": 38,
                                                 "end": 46
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 38,
                                             "end": 47
@@ -110,7 +109,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "kind": 4260391,
                                                 "text": true,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 56
@@ -130,19 +129,19 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                                     "text": 3,
                                                                     "rawText": "3",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 65,
                                                                     "end": 67
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 16393,
                                                                 "start": 59,
                                                                 "end": 67
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 59,
                                                             "end": 67
@@ -150,13 +149,13 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 59,
                                                     "end": 67
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 69
@@ -164,7 +163,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                             "alternate": null,
                                             "isWebCompat": true,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 47,
                                             "end": 69
@@ -172,7 +171,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                         {
                                             "kind": 6291526,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 69,
                                             "end": 70
@@ -187,19 +186,19 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "text": 4,
                                                     "rawText": "4",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 76,
                                                     "end": 78
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 16393,
                                                 "start": 70,
                                                 "end": 78
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 70,
                                             "end": 78
@@ -207,20 +206,20 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 38,
                                     "end": 78
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 80
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 384,
                             "start": 20,
                             "end": 80
@@ -228,20 +227,20 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 80
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 82
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 82
@@ -258,7 +257,6 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -268,17 +266,13 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -16,10 +16,9 @@ class A {async **=f(){}}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {async **=f(){}}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ class A {async **=f(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -48,7 +47,7 @@ class A {async **=f(){}}
                             "text": "",
                             "rawText": "",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 14
@@ -65,14 +64,14 @@ class A {async **=f(){}}
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 14
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 14
@@ -80,7 +79,7 @@ class A {async **=f(){}}
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 14
@@ -94,7 +93,7 @@ class A {async **=f(){}}
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 19
@@ -106,18 +105,18 @@ class A {async **=f(){}}
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 18,
             "end": 21
@@ -129,13 +128,13 @@ class A {async **=f(){}}
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 23
@@ -166,7 +165,6 @@ class A {async **=f(){}}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -176,17 +174,13 @@ class A {async **=f(){}}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

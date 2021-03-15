@@ -14,10 +14,9 @@ class C { *method() { new super(); } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { *method() { new super(); } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { *method() { new super(); } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { *method() { new super(); } }
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 17
@@ -62,7 +61,7 @@ class C { *method() { new super(); } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
@@ -81,7 +80,7 @@ class C { *method() { new super(); } }
                                                 "expression": {
                                                     "kind": 4260561,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 31
@@ -93,18 +92,18 @@ class C { *method() { new super(); } }
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 32,
                                                     "end": 32
                                                 },
                                                 "flags": 21,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 32,
                                                 "start": 0,
                                                 "end": 33
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 21,
                                             "end": 34
@@ -112,13 +111,13 @@ class C { *method() { new super(); } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 21,
                                     "end": 34
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 36
@@ -128,20 +127,20 @@ class C { *method() { new super(); } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 17,
                             "end": 36
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 36
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 38
@@ -149,7 +148,7 @@ class C { *method() { new super(); } }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 38
@@ -158,7 +157,6 @@ class C { *method() { new super(); } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -168,17 +166,13 @@ class C { *method() { new super(); } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

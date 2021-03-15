@@ -14,10 +14,9 @@ function*bar() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function*bar() {\n  // 'yield' here is an identifier, and not a yield expression.\n  function*foo(a = yield) {\n  }\n}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function*bar() {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 12
@@ -38,7 +37,7 @@ function*bar() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -56,7 +55,7 @@ function*bar() {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 92,
                                 "end": 95
@@ -72,7 +71,7 @@ function*bar() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 96,
                                             "end": 97
@@ -84,7 +83,7 @@ function*bar() {
                                             "delegate": false,
                                             "expression": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 16393,
                                             "start": 99,
                                             "end": 105
@@ -93,7 +92,7 @@ function*bar() {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 96,
                                         "end": 105
@@ -101,7 +100,7 @@ function*bar() {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 96,
                                 "end": 106
@@ -114,20 +113,20 @@ function*bar() {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 108,
                                     "end": 108
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 106,
                                 "end": 112
                             },
                             "typeParameters": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 384,
                             "start": 16,
                             "end": 112
@@ -135,20 +134,20 @@ function*bar() {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 112
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 114
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 114
@@ -157,7 +156,6 @@ function*bar() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -167,17 +165,13 @@ function*bar() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

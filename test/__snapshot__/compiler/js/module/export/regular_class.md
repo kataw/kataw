@@ -16,10 +16,9 @@ export class x {} foo
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export class x {} foo",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ export class x {} foo
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 12,
                     "end": 14
@@ -44,7 +43,7 @@ export class x {} foo
                     "kind": 50,
                     "elements": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 16,
                     "end": 17
@@ -52,7 +51,7 @@ export class x {} foo
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 6,
                 "end": 17
@@ -62,7 +61,7 @@ export class x {} foo
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 17
@@ -74,13 +73,13 @@ export class x {} foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 17,
             "end": 21
@@ -97,7 +96,6 @@ export class x {} foo
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -107,17 +105,13 @@ export class x {} foo
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -17,7 +17,7 @@ export function createRegularExpressionLiteral(
     kind: NodeKind.RegularExpressionLiteral,
     text,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

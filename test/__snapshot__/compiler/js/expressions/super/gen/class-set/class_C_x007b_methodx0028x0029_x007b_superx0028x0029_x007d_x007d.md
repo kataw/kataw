@@ -14,10 +14,9 @@ class C { set x(_) { class C { method() { super(); } } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { set x(_) { class C { method() { super(); } } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
@@ -68,7 +67,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                             "text": "_",
                                             "rawText": "_",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 16,
                                             "end": 17
@@ -80,7 +79,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 16,
                                         "end": 17
@@ -88,7 +87,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
@@ -107,7 +106,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 26,
                                                 "end": 28
@@ -131,7 +130,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                 "text": "method",
                                                                 "rawText": "method",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 37
@@ -141,7 +140,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 39
@@ -160,7 +159,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                                 "expression": {
                                                                                     "kind": 4260561,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 41,
                                                                                     "end": 47
@@ -172,18 +171,18 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 49,
                                                                                     "end": 49
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 65536,
                                                                                 "start": 47,
                                                                                 "end": 49
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 41,
                                                                             "end": 50
@@ -191,13 +190,13 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 41,
                                                                     "end": 50
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 52
@@ -207,20 +206,20 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                             "accessModifier": null,
                                                             "typeParameters": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 52
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 30,
                                                         "end": 52
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 30,
                                                 "end": 54
@@ -228,7 +227,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                             "decorators": null,
                                             "isAbstract": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 20,
                                             "end": 54
@@ -236,13 +235,13 @@ class C { set x(_) { class C { method() { super(); } } } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 54
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 56
@@ -252,20 +251,20 @@ class C { set x(_) { class C { method() { super(); } } } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 56
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 56
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 58
@@ -273,7 +272,7 @@ class C { set x(_) { class C { method() { super(); } } } }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 58
@@ -282,7 +281,6 @@ class C { set x(_) { class C { method() { super(); } } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -292,17 +290,13 @@ class C { set x(_) { class C { method() { super(); } } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

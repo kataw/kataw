@@ -10,10 +10,9 @@ var v = a => <any><any>{}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var v = a => <any><any>{}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var v = a => <any><any>{}
                             "text": "v",
                             "rawText": "v",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -50,7 +49,7 @@ var v = a => <any><any>{}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
@@ -62,7 +61,7 @@ var v = a => <any><any>{}
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 9,
                                         "end": 9
@@ -72,7 +71,7 @@ var v = a => <any><any>{}
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
@@ -82,7 +81,7 @@ var v = a => <any><any>{}
                                 "type": {
                                     "kind": 4202498,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 14,
                                     "end": 17
@@ -92,7 +91,7 @@ var v = a => <any><any>{}
                                     "type": {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 19,
                                         "end": 22
@@ -105,50 +104,50 @@ var v = a => <any><any>{}
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 24
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 18,
                                     "end": 25
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 12,
                                 "end": 25
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 25
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 25
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -157,7 +156,6 @@ var v = a => <any><any>{}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -167,17 +165,13 @@ var v = a => <any><any>{}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ class C extends Base { a\n get }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C extends Base { a\\n get }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C extends Base { a\n get }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -41,14 +40,14 @@ class C extends Base { a\n get }
                     "text": "Base",
                     "rawText": "Base",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 20
@@ -64,7 +63,7 @@ class C extends Base { a\n get }
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 22,
                             "end": 24
@@ -81,14 +80,14 @@ class C extends Base { a\n get }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 22,
                         "end": 24
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 22,
                 "end": 24
@@ -96,7 +95,7 @@ class C extends Base { a\n get }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 24
@@ -108,13 +107,13 @@ class C extends Base { a\n get }
                 "text": "n",
                 "rawText": "n",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 25,
             "end": 26
@@ -126,13 +125,13 @@ class C extends Base { a\n get }
                 "text": "get",
                 "rawText": "get",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 26,
             "end": 30
@@ -170,7 +169,6 @@ class C extends Base { a\n get }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -180,17 +178,13 @@ class C extends Base { a\n get }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

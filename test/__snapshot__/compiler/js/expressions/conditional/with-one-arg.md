@@ -17,10 +17,9 @@ z(x)?x:y;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "z(x)?x:y;",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ z(x)?x:y;
                         "text": "z",
                         "rawText": "z",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 1
@@ -49,7 +48,7 @@ z(x)?x:y;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
@@ -58,12 +57,12 @@ z(x)?x:y;
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 3,
                         "end": 4
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 1,
                     "end": 4
@@ -73,7 +72,7 @@ z(x)?x:y;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 6
@@ -83,19 +82,19 @@ z(x)?x:y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -104,7 +103,6 @@ z(x)?x:y;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -114,17 +112,13 @@ z(x)?x:y;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

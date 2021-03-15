@@ -16,10 +16,9 @@ function *P(){
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function *P(){\n  class D extends async function(){} {}\n}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ function *P(){
                 "text": "P",
                 "rawText": "P",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 11
@@ -40,7 +39,7 @@ function *P(){
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -58,7 +57,7 @@ function *P(){
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 22,
                                 "end": 24
@@ -74,7 +73,7 @@ function *P(){
                                         "formalParameterList": [],
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 48,
                                         "end": 49
@@ -86,13 +85,13 @@ function *P(){
                                             "statements": [],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 50,
                                             "end": 50
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 49,
                                         "end": 51
@@ -100,14 +99,14 @@ function *P(){
                                     "typeParameters": null,
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 4,
                                     "start": 32,
                                     "end": 51
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 51
@@ -117,7 +116,7 @@ function *P(){
                                 "kind": 50,
                                 "elements": [],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 53,
                                 "end": 54
@@ -125,7 +124,7 @@ function *P(){
                             "decorators": null,
                             "isAbstract": false,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 14,
                             "end": 54
@@ -133,20 +132,20 @@ function *P(){
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 54
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 56
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 56
@@ -155,7 +154,6 @@ function *P(){
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -165,17 +163,13 @@ function *P(){
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

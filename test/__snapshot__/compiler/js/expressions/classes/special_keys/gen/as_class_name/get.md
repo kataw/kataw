@@ -14,10 +14,9 @@ class get {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class get {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class get {}
                 "text": "get",
                 "rawText": "get",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 9
@@ -40,7 +39,7 @@ class get {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 12
@@ -48,7 +47,7 @@ class get {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 12
@@ -57,7 +56,6 @@ class get {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -67,17 +65,13 @@ class get {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

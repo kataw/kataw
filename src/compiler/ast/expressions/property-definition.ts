@@ -40,7 +40,7 @@ export function createPropertyDefinition(
     accessModifier,
     decorators,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: accessModifier ? TransformFlags.TypeScript : TransformFlags.None,
     start,
     end

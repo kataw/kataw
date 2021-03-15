@@ -10,10 +10,9 @@ var nestedArray: Array<Array<Array<string>>>
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var nestedArray: Array<Array<Array<string>>>",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var nestedArray: Array<Array<Array<string>>>
                             "text": "nestedArray",
                             "rawText": "nestedArray",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 15
@@ -42,7 +41,7 @@ var nestedArray: Array<Array<Array<string>>>
                                 "text": "Array",
                                 "rawText": "Array",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
@@ -57,7 +56,7 @@ var nestedArray: Array<Array<Array<string>>>
                                             "text": "Array",
                                             "rawText": "Array",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
@@ -72,7 +71,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                         "text": "Array",
                                                         "rawText": "Array",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 34
@@ -83,66 +82,66 @@ var nestedArray: Array<Array<Array<string>>>
                                                             {
                                                                 "kind": 4202702,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 35,
                                                                 "end": 41
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 35,
                                                         "end": 41
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 29,
                                                     "end": 43
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 29,
                                             "end": 42
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 23,
                                         "end": 44
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 23,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 16,
                             "end": 44
                         },
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 44
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 44
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 44
@@ -151,7 +150,6 @@ var nestedArray: Array<Array<Array<string>>>
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -161,17 +159,13 @@ var nestedArray: Array<Array<Array<string>>>
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

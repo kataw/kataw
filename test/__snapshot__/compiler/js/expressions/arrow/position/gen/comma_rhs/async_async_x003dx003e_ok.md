@@ -14,10 +14,9 @@ a, async async => ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "a, async async => ok",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ a, async async => ok
                         "text": "a",
                         "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 1
@@ -50,7 +49,7 @@ a, async async => ok
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 8,
                                         "end": 14
@@ -62,7 +61,7 @@ a, async async => ok
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 17,
                                     "end": 14
@@ -72,7 +71,7 @@ a, async async => ok
                             "accessModifier": null,
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 2,
                             "end": 14
@@ -82,26 +81,26 @@ a, async async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 20
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 20
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 20
@@ -110,7 +109,6 @@ a, async async => ok
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -120,17 +118,13 @@ a, async async => ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

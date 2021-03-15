@@ -20,7 +20,7 @@ export function createArrayBindingPattern(
     kind: NodeKind.ArrayBindingPattern,
     elementList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
     start,
     end

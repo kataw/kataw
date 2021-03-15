@@ -16,10 +16,9 @@ export default class {} foo
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export default class {} foo",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ export default class {} foo
                     "kind": 50,
                     "elements": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 22,
                     "end": 23
@@ -43,13 +42,13 @@ export default class {} foo
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 14,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 23
@@ -61,13 +60,13 @@ export default class {} foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 23,
             "end": 27
@@ -84,7 +83,6 @@ export default class {} foo
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -94,17 +92,13 @@ export default class {} foo
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -15,10 +15,9 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var i: IHasVisualizationModel;\nvar d1 = i || moduleA;\nvar d2: IHasVisualizationModel = i || moduleA;\nvar d2: IHasVisualizationModel = moduleA || i;\nvar e: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null || { x: moduleA };\nvar f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x: moduleA } : null;",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "i",
                             "rawText": "i",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -47,34 +46,34 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "IHasVisualizationModel",
                                 "rawText": "IHasVisualizationModel",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 29
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 6,
                             "end": 30
                         },
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 29
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -91,7 +90,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "d1",
                             "rawText": "d1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 34,
                             "end": 37
@@ -105,7 +104,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
@@ -116,32 +115,32 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "moduleA",
                                 "rawText": "moduleA",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 44,
                                 "end": 52
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 39,
                             "end": 52
                         },
                         "flags": 34,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 52
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 52
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 30,
             "end": 53
@@ -158,7 +157,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "d2",
                             "rawText": "d2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 57,
                             "end": 60
@@ -171,14 +170,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "IHasVisualizationModel",
                                 "rawText": "IHasVisualizationModel",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 61,
                                 "end": 84
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 61,
                             "end": 86
@@ -190,7 +189,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 86,
                                 "end": 88
@@ -201,32 +200,32 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "moduleA",
                                 "rawText": "moduleA",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 91,
                                 "end": 99
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 86,
                             "end": 99
                         },
                         "flags": 57,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 99
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 57,
                 "end": 99
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 53,
             "end": 100
@@ -243,7 +242,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "d2",
                             "rawText": "d2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 104,
                             "end": 107
@@ -256,14 +255,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "IHasVisualizationModel",
                                 "rawText": "IHasVisualizationModel",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 108,
                                 "end": 131
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 108,
                             "end": 133
@@ -275,7 +274,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "moduleA",
                                 "rawText": "moduleA",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 133,
                                 "end": 141
@@ -286,32 +285,32 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 144,
                                 "end": 146
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 133,
                             "end": 146
                         },
                         "flags": 104,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 146
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 104,
                 "end": 146
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 100,
             "end": 147
@@ -328,7 +327,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "e",
                             "rawText": "e",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 151,
                             "end": 153
@@ -346,7 +345,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 156,
                                             "end": 158
@@ -360,14 +359,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "IHasVisualizationModel",
                                                 "rawText": "IHasVisualizationModel",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 159,
                                                 "end": 182
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 159,
                                             "end": 184
@@ -376,7 +375,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 156,
                                         "end": 182
@@ -384,13 +383,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 156,
                                 "end": 184
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 154,
                             "end": 184
@@ -411,7 +410,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 189,
                                                     "end": 191
@@ -425,14 +424,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                         "text": "IHasVisualizationModel",
                                                         "rawText": "IHasVisualizationModel",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 192,
                                                         "end": 215
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 192,
                                                     "end": 217
@@ -441,7 +440,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 189,
                                                 "end": 215
@@ -449,13 +448,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 189,
                                         "end": 217
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 188,
                                     "end": 217
@@ -464,13 +463,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                     "kind": 4260512,
                                     "text": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 218,
                                     "end": 222
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 186,
                                 "end": 222
@@ -488,7 +487,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 227,
                                                 "end": 229
@@ -498,7 +497,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "moduleA",
                                                 "rawText": "moduleA",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 230,
                                                 "end": 238
@@ -506,7 +505,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 227,
                                             "end": 238
@@ -515,38 +514,38 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 227,
                                     "end": 238
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 225,
                                 "end": 240
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 186,
                             "end": 240
                         },
                         "flags": 151,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 240
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 151,
                 "end": 240
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 147,
             "end": 241
@@ -563,7 +562,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 245,
                             "end": 247
@@ -581,7 +580,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 250,
                                             "end": 252
@@ -595,14 +594,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "IHasVisualizationModel",
                                                 "rawText": "IHasVisualizationModel",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 253,
                                                 "end": 276
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 253,
                                             "end": 278
@@ -611,7 +610,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 250,
                                         "end": 276
@@ -619,13 +618,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 250,
                                 "end": 278
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 248,
                             "end": 278
@@ -646,7 +645,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 283,
                                                     "end": 285
@@ -660,14 +659,14 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                         "text": "IHasVisualizationModel",
                                                         "rawText": "IHasVisualizationModel",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 286,
                                                         "end": 309
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 286,
                                                     "end": 311
@@ -676,7 +675,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 283,
                                                 "end": 309
@@ -684,13 +683,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 283,
                                         "end": 311
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 282,
                                     "end": 311
@@ -699,13 +698,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                     "kind": 4260512,
                                     "text": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 312,
                                     "end": 316
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 280,
                                 "end": 316
@@ -722,7 +721,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 320,
                                                 "end": 322
@@ -732,7 +731,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "text": "moduleA",
                                                 "rawText": "moduleA",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 323,
                                                 "end": 331
@@ -740,7 +739,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 320,
                                             "end": 331
@@ -749,13 +748,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 320,
                                     "end": 331
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 318,
                                 "end": 333
@@ -764,32 +763,32 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                 "kind": 4260512,
                                 "text": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 335,
                                 "end": 340
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 280,
                             "end": 340
                         },
                         "flags": 245,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 340
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 245,
                 "end": 340
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 241,
             "end": 341
@@ -798,7 +797,6 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -808,17 +806,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

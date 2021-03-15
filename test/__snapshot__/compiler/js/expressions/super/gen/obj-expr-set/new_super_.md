@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "({ set x(_) { new super; } })",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
@@ -53,7 +52,7 @@
                                                 "text": "_",
                                                 "rawText": "_",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 9,
                                                 "end": 10
@@ -65,7 +64,7 @@
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 9,
                                             "end": 10
@@ -73,7 +72,7 @@
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
@@ -94,7 +93,7 @@
                                                         "member": {
                                                             "kind": 4260561,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 23
@@ -104,13 +103,13 @@
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 1,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 23
                                                         },
                                                         "flags": 17,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 1,
                                                         "end": 23
@@ -118,13 +117,13 @@
                                                     "typeArguments": null,
                                                     "argumentList": null,
                                                     "flags": 13,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 32,
                                                     "start": 1,
                                                     "end": 23
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 24
@@ -132,13 +131,13 @@
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 24
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 11,
                                     "end": 26
@@ -148,7 +147,7 @@
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 26
@@ -157,25 +156,25 @@
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 26
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 1,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 29
@@ -192,7 +191,6 @@
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -202,17 +200,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

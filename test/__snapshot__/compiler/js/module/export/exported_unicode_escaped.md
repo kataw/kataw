@@ -17,10 +17,9 @@ export { \u0061bc }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var abc = 5;\nexport { \\u0061bc }",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ export { \u0061bc }
                             "text": "abc",
                             "rawText": "abc",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 7
@@ -48,26 +47,26 @@ export { \u0061bc }
                             "text": 5,
                             "rawText": "5",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 12
@@ -88,27 +87,27 @@ export { \u0061bc }
                                 "text": "abc",
                                 "rawText": " \\u0061bc",
                                 "flags": 8388608,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 30
                             },
                             "binding": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 30
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 30
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 32
@@ -117,7 +116,7 @@ export { \u0061bc }
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 12,
             "end": 32
@@ -134,7 +133,6 @@ export { \u0061bc }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -144,17 +142,13 @@ export { \u0061bc }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

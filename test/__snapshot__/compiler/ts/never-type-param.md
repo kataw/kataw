@@ -11,10 +11,9 @@ Observable.empty<never>();
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const x: X<never>;\nObservable.empty<never>();",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ Observable.empty<never>();
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 7
@@ -44,7 +43,7 @@ Observable.empty<never>();
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
@@ -55,40 +54,40 @@ Observable.empty<never>();
                                     {
                                         "kind": 4202651,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 11,
                                         "end": 16
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 11,
                                 "end": 16
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 8,
                             "end": 18
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 17
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 18
@@ -104,7 +103,7 @@ Observable.empty<never>();
                         "text": "Observable",
                         "rawText": "Observable",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 18,
                         "end": 29
@@ -114,13 +113,13 @@ Observable.empty<never>();
                         "text": "empty",
                         "rawText": "empty",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 30,
                         "end": 35
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 35,
@@ -136,14 +135,14 @@ Observable.empty<never>();
                         {
                             "kind": 4202651,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 36,
                             "end": 41
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 36,
                     "end": 42
@@ -154,18 +153,18 @@ Observable.empty<never>();
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 43,
                     "end": 43
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 35,
                 "end": 44
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 18,
             "end": 45
@@ -174,7 +173,6 @@ Observable.empty<never>();
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -184,17 +182,13 @@ Observable.empty<never>();
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

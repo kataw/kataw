@@ -14,10 +14,9 @@ class A extends async function *(){} {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends async function *(){} {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class A extends async function *(){} {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -44,7 +43,7 @@ class A extends async function *(){} {}
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 33,
                         "end": 34
@@ -56,13 +55,13 @@ class A extends async function *(){} {}
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 35
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 34,
                         "end": 36
@@ -70,14 +69,14 @@ class A extends async function *(){} {}
                     "typeParameters": null,
                     "type": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8,
                     "start": 15,
                     "end": 36
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 36
@@ -87,7 +86,7 @@ class A extends async function *(){} {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 38,
                 "end": 39
@@ -95,7 +94,7 @@ class A extends async function *(){} {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 39
@@ -104,7 +103,6 @@ class A extends async function *(){} {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -114,17 +112,13 @@ class A extends async function *(){} {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

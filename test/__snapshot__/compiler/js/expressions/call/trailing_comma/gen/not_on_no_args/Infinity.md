@@ -14,10 +14,9 @@ foo(,);
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo(,);",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ foo(,);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 0,
                             "end": 3
@@ -45,12 +44,12 @@ foo(,);
                             "trailingComma": false,
                             "transformFlags": 0,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "start": 5,
                             "end": 4
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 4
@@ -59,20 +58,20 @@ foo(,);
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 5
@@ -80,7 +79,7 @@ foo(,);
         {
             "kind": 6291526,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 6,
             "end": 7
@@ -97,7 +96,6 @@ foo(,);
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -107,17 +105,13 @@ foo(,);
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

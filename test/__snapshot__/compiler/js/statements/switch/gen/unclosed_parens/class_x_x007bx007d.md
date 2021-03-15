@@ -14,10 +14,9 @@ switch( class x {} case
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch( class x {} case",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ switch( class x {} case
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 13,
                     "end": 15
@@ -42,14 +41,14 @@ switch( class x {} case
                     "kind": 50,
                     "elements": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 17,
                     "end": 18
                 },
                 "decorators": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 7,
                 "end": 18
@@ -63,27 +62,27 @@ switch( class x {} case
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 23
                         },
                         "statements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 18,
                         "end": 23
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 23
@@ -100,7 +99,6 @@ switch( class x {} case
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -110,17 +108,13 @@ switch( class x {} case
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

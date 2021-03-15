@@ -14,10 +14,9 @@ do {} while (x) { while try this and !foo
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do {} while (x) { while try this and !foo",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ do {} while (x) { while try this and !foo
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -40,19 +39,19 @@ do {} while (x) { while try this and !foo
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 5
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 15
@@ -68,7 +67,7 @@ do {} while (x) { while try this and !foo
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 23
@@ -82,13 +81,13 @@ do {} while (x) { while try this and !foo
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
@@ -101,25 +100,25 @@ do {} while (x) { while try this and !foo
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 17,
                         "end": 27
@@ -129,13 +128,13 @@ do {} while (x) { while try this and !foo
                         "expression": {
                             "kind": 4260571,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 32
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 27,
                         "end": 32
@@ -149,19 +148,19 @@ do {} while (x) { while try this and !foo
                                 "text": "and",
                                 "rawText": "and",
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 36,
                             "end": 38
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 32,
                         "end": 38
@@ -173,13 +172,13 @@ do {} while (x) { while try this and !foo
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 38,
                             "end": 41
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 38,
                         "end": 41
@@ -187,13 +186,13 @@ do {} while (x) { while try this and !foo
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 41
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 15,
             "end": 41
@@ -231,7 +230,6 @@ do {} while (x) { while try this and !foo
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -241,17 +239,13 @@ do {} while (x) { while try this and !foo
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ example.inner?.greet<string>()
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "example.inner?.greet<string>()",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ example.inner?.greet<string>()
                             "text": "example",
                             "rawText": "example",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 0,
                             "end": 7
@@ -40,13 +39,13 @@ example.inner?.greet<string>()
                             "text": "inner",
                             "rawText": "inner",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 13,
@@ -66,13 +65,13 @@ example.inner?.greet<string>()
                                 "text": "greet",
                                 "rawText": "greet",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 20
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 15,
                             "end": 20
@@ -91,14 +90,14 @@ example.inner?.greet<string>()
                         {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 21,
                             "end": 27
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 21,
                     "end": 28
@@ -109,18 +108,18 @@ example.inner?.greet<string>()
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 20,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -129,7 +128,6 @@ example.inner?.greet<string>()
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -139,17 +137,13 @@ example.inner?.greet<string>()
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

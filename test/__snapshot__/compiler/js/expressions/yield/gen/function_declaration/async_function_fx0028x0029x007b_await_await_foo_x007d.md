@@ -14,10 +14,9 @@ function not_gen() { async function f(){ await await foo; } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { async function f(){ await await foo; } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 35,
                                 "end": 37
@@ -66,7 +65,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
@@ -88,25 +87,25 @@ function not_gen() { async function f(){ await await foo; } }}
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 56
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 32780,
                                                     "start": 46,
                                                     "end": 56
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 32780,
                                                 "start": 40,
                                                 "end": 56
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 40,
                                             "end": 57
@@ -114,20 +113,20 @@ function not_gen() { async function f(){ await await foo; } }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 40,
                                     "end": 57
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 59
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 260,
                             "start": 20,
                             "end": 59
@@ -135,20 +134,20 @@ function not_gen() { async function f(){ await await foo; } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 59
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 61
@@ -165,7 +164,6 @@ function not_gen() { async function f(){ await await foo; } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -175,17 +173,13 @@ function not_gen() { async function f(){ await await foo; } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

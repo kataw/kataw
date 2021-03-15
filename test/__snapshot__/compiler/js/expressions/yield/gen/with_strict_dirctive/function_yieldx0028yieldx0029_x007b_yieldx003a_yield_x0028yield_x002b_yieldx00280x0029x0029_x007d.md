@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "'use strict'; function yield(yield) { yield: yield (yield + yield(0)); }",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@
                 "text": "use strict",
                 "rawText": "use strict",
                 "flags": 33554432,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -46,7 +45,7 @@
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 22,
                 "end": 28
@@ -62,7 +61,7 @@
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 29,
                             "end": 34
@@ -74,7 +73,7 @@
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 29,
                         "end": 34
@@ -82,7 +81,7 @@
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 35
@@ -100,7 +99,7 @@
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 43
@@ -114,7 +113,7 @@
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 44,
                                         "end": 50
@@ -130,7 +129,7 @@
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 57
@@ -143,7 +142,7 @@
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 65
@@ -157,7 +156,7 @@
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 66,
                                                                 "end": 67
@@ -166,18 +165,18 @@
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 67,
                                                         "end": 68
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 65,
                                                     "end": 68
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 68
@@ -186,25 +185,25 @@
                                         "trailingComma": false,
                                         "transformFlags": 0,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "start": 57,
                                         "end": 69
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 50,
                                     "end": 69
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 44,
                                 "end": 70
                             },
                             "isWebCompat": true,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 37,
                             "end": 70
@@ -212,20 +211,20 @@
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 37,
                     "end": 70
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 35,
                 "end": 72
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 13,
             "end": 72
@@ -234,7 +233,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -244,17 +242,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

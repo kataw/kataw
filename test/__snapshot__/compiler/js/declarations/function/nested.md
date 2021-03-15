@@ -16,10 +16,9 @@ function f(){function f(){function f(){}}}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f(){function f(){function f(){}}}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ function f(){function f(){function f(){}}}
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -40,7 +39,7 @@ function f(){function f(){function f(){}}}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 12
@@ -58,7 +57,7 @@ function f(){function f(){function f(){}}}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 21,
                                 "end": 23
@@ -68,7 +67,7 @@ function f(){function f(){function f(){}}}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
@@ -86,7 +85,7 @@ function f(){function f(){function f(){}}}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 34,
                                                 "end": 36
@@ -96,7 +95,7 @@ function f(){function f(){function f(){}}}
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 38
@@ -109,20 +108,20 @@ function f(){function f(){function f(){}}}
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 39
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 40
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 256,
                                             "start": 26,
                                             "end": 40
@@ -130,20 +129,20 @@ function f(){function f(){function f(){}}}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 40
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 41
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 13,
                             "end": 41
@@ -151,20 +150,20 @@ function f(){function f(){function f(){}}}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 41
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 42
@@ -173,7 +172,6 @@ function f(){function f(){function f(){}}}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -183,17 +181,13 @@ function f(){function f(){function f(){}}}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -21,7 +21,7 @@ export function createTypeQuery(
     kind: NodeKind.TypeQuery,
     exprName,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

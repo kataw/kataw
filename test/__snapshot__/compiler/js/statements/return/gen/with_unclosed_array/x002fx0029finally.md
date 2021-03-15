@@ -14,10 +14,9 @@ return[ /)finally
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return[ /)finally",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ return[ /)finally
                             "kind": 4260544,
                             "text": "/)finally",
                             "flags": 1048576,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 17
@@ -41,19 +40,19 @@ return[ /)finally
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 17
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 17
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 17
@@ -77,7 +76,6 @@ return[ /)finally
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -87,17 +85,13 @@ return[ /)finally
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

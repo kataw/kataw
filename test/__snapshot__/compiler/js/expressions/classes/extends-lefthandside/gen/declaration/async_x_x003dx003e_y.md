@@ -16,10 +16,9 @@ x => y {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends async\nx => y {}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ x => y {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -43,14 +42,14 @@ x => y {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "typeArguments": null,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 21
@@ -60,7 +59,7 @@ x => y {}
                 "kind": 50,
                 "elements": [],
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -68,7 +67,7 @@ x => y {}
             "decorators": null,
             "isAbstract": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 21
@@ -89,7 +88,7 @@ x => y {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 32769,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
@@ -101,7 +100,7 @@ x => y {}
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 23,
                             "end": 23
@@ -111,7 +110,7 @@ x => y {}
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 23
@@ -121,19 +120,19 @@ x => y {}
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 28
@@ -145,13 +144,13 @@ x => y {}
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 28,
             "end": 31
@@ -175,7 +174,6 @@ x => y {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -185,17 +183,13 @@ x => y {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

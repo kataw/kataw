@@ -49,10 +49,9 @@ class ClassWithThreeMembers {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "public\nclass NonPublicClass {\n    public s() {\n    }\n}\n\nclass NonPublicClass2 {\n    public\n    private nonPublicFunction() {\n    }\n}\nprivate\nclass NonPrivateClass {\n    private s() {\n    }\n}\n\nclass NonPrivateClass2 {\n    private\n    public nonPrivateFunction() {\n    }\n}\nprotected\nclass NonProtectedClass {\n  protected s() {\n  }\n}\n\nclass NonProtectedClass2 {\n    protected\n    public nonProtectedFunction() {\n    }\n}\n\nclass ClassWithThreeMembers {\n    public\n    private\n    protected\n}\n",
     "filename": "",
     "statements": [
@@ -63,13 +62,13 @@ class ClassWithThreeMembers {
                 "text": "public",
                 "rawText": "public",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 6
@@ -81,7 +80,7 @@ class ClassWithThreeMembers {
                 "text": "NonPublicClass",
                 "rawText": "NonPublicClass",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 12,
                 "end": 27
@@ -105,7 +104,7 @@ class ClassWithThreeMembers {
                                 "text": "s",
                                 "rawText": "s",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 42
@@ -115,7 +114,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 44
@@ -129,13 +128,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 46,
                                     "end": 46
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 44,
                                 "end": 52
@@ -145,27 +144,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 29,
                                 "end": 40
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 42,
                             "end": 52
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 29,
                         "end": 52
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 29,
                 "end": 54
@@ -173,7 +172,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 6,
             "end": 54
@@ -185,7 +184,7 @@ class ClassWithThreeMembers {
                 "text": "NonPublicClass2",
                 "rawText": "NonPublicClass2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 61,
                 "end": 77
@@ -203,7 +202,7 @@ class ClassWithThreeMembers {
                             "text": "public",
                             "rawText": "public",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 79,
                             "end": 90
@@ -220,7 +219,7 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 79,
                         "end": 90
@@ -238,7 +237,7 @@ class ClassWithThreeMembers {
                                 "text": "nonPublicFunction",
                                 "rawText": "nonPublicFunction",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 102,
                                 "end": 120
@@ -248,7 +247,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 121,
                                 "end": 122
@@ -262,13 +261,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 124,
                                     "end": 124
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 122,
                                 "end": 130
@@ -278,27 +277,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 90,
                                 "end": 102
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 120,
                             "end": 130
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 90,
                         "end": 130
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 79,
                 "end": 132
@@ -306,7 +305,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 54,
             "end": 132
@@ -318,13 +317,13 @@ class ClassWithThreeMembers {
                 "text": "private",
                 "rawText": "private",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 132,
                 "end": 140
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 132,
             "end": 140
@@ -336,7 +335,7 @@ class ClassWithThreeMembers {
                 "text": "NonPrivateClass",
                 "rawText": "NonPrivateClass",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 146,
                 "end": 162
@@ -360,7 +359,7 @@ class ClassWithThreeMembers {
                                 "text": "s",
                                 "rawText": "s",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 176,
                                 "end": 178
@@ -370,7 +369,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 179,
                                 "end": 180
@@ -384,13 +383,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 182,
                                     "end": 182
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 180,
                                 "end": 188
@@ -400,27 +399,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194485,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 164,
                                 "end": 176
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 178,
                             "end": 188
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 164,
                         "end": 188
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 164,
                 "end": 190
@@ -428,7 +427,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 140,
             "end": 190
@@ -440,7 +439,7 @@ class ClassWithThreeMembers {
                 "text": "NonPrivateClass2",
                 "rawText": "NonPrivateClass2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 197,
                 "end": 214
@@ -458,7 +457,7 @@ class ClassWithThreeMembers {
                             "text": "private",
                             "rawText": "private",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 216,
                             "end": 228
@@ -475,7 +474,7 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 216,
                         "end": 228
@@ -493,7 +492,7 @@ class ClassWithThreeMembers {
                                 "text": "nonPrivateFunction",
                                 "rawText": "nonPrivateFunction",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 239,
                                 "end": 258
@@ -503,7 +502,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 259,
                                 "end": 260
@@ -517,13 +516,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 262,
                                     "end": 262
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 260,
                                 "end": 268
@@ -533,27 +532,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 228,
                                 "end": 239
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 258,
                             "end": 268
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 228,
                         "end": 268
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 216,
                 "end": 270
@@ -561,7 +560,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 190,
             "end": 270
@@ -573,13 +572,13 @@ class ClassWithThreeMembers {
                 "text": "protected",
                 "rawText": "protected",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 270,
                 "end": 280
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 270,
             "end": 280
@@ -591,7 +590,7 @@ class ClassWithThreeMembers {
                 "text": "NonProtectedClass",
                 "rawText": "NonProtectedClass",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 286,
                 "end": 304
@@ -615,7 +614,7 @@ class ClassWithThreeMembers {
                                 "text": "s",
                                 "rawText": "s",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 318,
                                 "end": 320
@@ -625,7 +624,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 321,
                                 "end": 322
@@ -639,13 +638,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 324,
                                     "end": 324
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 322,
                                 "end": 328
@@ -655,27 +654,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194493,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 306,
                                 "end": 318
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 320,
                             "end": 328
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 306,
                         "end": 328
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 306,
                 "end": 330
@@ -683,7 +682,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 280,
             "end": 330
@@ -695,7 +694,7 @@ class ClassWithThreeMembers {
                 "text": "NonProtectedClass2",
                 "rawText": "NonProtectedClass2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 337,
                 "end": 356
@@ -713,7 +712,7 @@ class ClassWithThreeMembers {
                             "text": "protected",
                             "rawText": "protected",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 358,
                             "end": 372
@@ -730,7 +729,7 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 358,
                         "end": 372
@@ -748,7 +747,7 @@ class ClassWithThreeMembers {
                                 "text": "nonProtectedFunction",
                                 "rawText": "nonProtectedFunction",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 383,
                                 "end": 404
@@ -758,7 +757,7 @@ class ClassWithThreeMembers {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 405,
                                 "end": 406
@@ -772,13 +771,13 @@ class ClassWithThreeMembers {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 408,
                                     "end": 408
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 406,
                                 "end": 414
@@ -788,27 +787,27 @@ class ClassWithThreeMembers {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 372,
                                 "end": 383
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 404,
                             "end": 414
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 372,
                         "end": 414
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 358,
                 "end": 416
@@ -816,7 +815,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 330,
             "end": 416
@@ -828,7 +827,7 @@ class ClassWithThreeMembers {
                 "text": "ClassWithThreeMembers",
                 "rawText": "ClassWithThreeMembers",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 423,
                 "end": 445
@@ -846,7 +845,7 @@ class ClassWithThreeMembers {
                             "text": "public",
                             "rawText": "public",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 447,
                             "end": 458
@@ -863,7 +862,7 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 447,
                         "end": 458
@@ -875,7 +874,7 @@ class ClassWithThreeMembers {
                             "text": "private",
                             "rawText": "private",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 458,
                             "end": 470
@@ -892,7 +891,7 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 458,
                         "end": 470
@@ -904,7 +903,7 @@ class ClassWithThreeMembers {
                             "text": "protected",
                             "rawText": "protected",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 470,
                             "end": 484
@@ -921,14 +920,14 @@ class ClassWithThreeMembers {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 470,
                         "end": 484
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 447,
                 "end": 486
@@ -936,7 +935,7 @@ class ClassWithThreeMembers {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 416,
             "end": 486
@@ -945,7 +944,6 @@ class ClassWithThreeMembers {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -955,17 +953,13 @@ class ClassWithThreeMembers {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ switch (A) {default: D; case B: C; }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch (A) {default: D; case B: C; }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ switch (A) {default: D; case B: C; }
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 9
@@ -42,20 +41,20 @@ switch (A) {default: D; case B: C; }
                                     "text": "D",
                                     "rawText": "D",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 23
@@ -67,7 +66,7 @@ switch (A) {default: D; case B: C; }
                             "text": "B",
                             "rawText": "B",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 30
@@ -80,33 +79,33 @@ switch (A) {default: D; case B: C; }
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 23,
                         "end": 34
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 36
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 36
@@ -115,7 +114,6 @@ switch (A) {default: D; case B: C; }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -125,17 +123,13 @@ switch (A) {default: D; case B: C; }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

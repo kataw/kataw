@@ -14,10 +14,9 @@ async () => {  impo\u0072t = x  }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async () => {  impo\\u0072t = x  }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ async () => {  impo\u0072t = x  }
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
@@ -49,7 +48,7 @@ async () => {  impo\u0072t = x  }
                                 "moduleSpecifier": null,
                                 "importClause": null,
                                 "flags": 75497472,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 26
@@ -57,25 +56,25 @@ async () => {  impo\u0072t = x  }
                         ],
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 26
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 26
                 },
                 "flags": 1073741825,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 26
@@ -87,13 +86,13 @@ async () => {  impo\u0072t = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 28,
             "end": 30
@@ -117,7 +116,6 @@ async () => {  impo\u0072t = x  }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -127,17 +125,13 @@ async () => {  impo\u0072t = x  }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

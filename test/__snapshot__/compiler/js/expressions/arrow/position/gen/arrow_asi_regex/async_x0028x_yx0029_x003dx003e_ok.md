@@ -15,10 +15,9 @@ async (x, y) => ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async (x, y) => ok\n/x/",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ async (x, y) => ok
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
@@ -50,7 +49,7 @@ async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 12
@@ -63,7 +62,7 @@ async (x, y) => ok
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
@@ -75,7 +74,7 @@ async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 12
@@ -85,7 +84,7 @@ async (x, y) => ok
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 12
@@ -99,7 +98,7 @@ async (x, y) => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 18
@@ -110,13 +109,13 @@ async (x, y) => ok
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 15,
                         "end": 21
@@ -126,25 +125,25 @@ async (x, y) => ok
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
                 "flags": 1073741825,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -161,7 +160,6 @@ async (x, y) => ok
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -171,17 +169,13 @@ async (x, y) => ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ do {} while (x) { async try while { catch }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do {} while (x) { async try while { catch }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ do {} while (x) { async try while { catch }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -40,19 +39,19 @@ do {} while (x) { async try while { catch }
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 5
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 15
@@ -69,13 +68,13 @@ do {} while (x) { async try while { catch }
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 17,
                         "end": 23
@@ -89,13 +88,13 @@ do {} while (x) { async try while { catch }
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 27
@@ -108,19 +107,19 @@ do {} while (x) { async try while { catch }
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 27
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 23,
                         "end": 27
@@ -137,7 +136,7 @@ do {} while (x) { async try while { catch }
                                         "text": "catch",
                                         "rawText": "catch",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 35,
                                         "end": 41
@@ -146,13 +145,13 @@ do {} while (x) { async try while { catch }
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 41
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 43
@@ -163,19 +162,19 @@ do {} while (x) { async try while { catch }
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 43,
                             "end": 43
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 27,
                         "end": 43
@@ -183,13 +182,13 @@ do {} while (x) { async try while { catch }
                 ],
                 "multiline": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 43
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 15,
             "end": 43
@@ -227,7 +226,6 @@ do {} while (x) { async try while { catch }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -237,17 +235,13 @@ do {} while (x) { async try while { catch }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

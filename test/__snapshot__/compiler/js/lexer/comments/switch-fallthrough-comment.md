@@ -22,10 +22,9 @@ switch(foo) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch(foo) {\n    // foo\n    case 1:\n        // falls through\n    case 2:\n        doIt();\n}",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ switch(foo) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 10
@@ -51,14 +50,14 @@ switch(foo) {
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 35
                         },
                         "statements": [],
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 36
@@ -70,7 +69,7 @@ switch(foo) {
                             "text": 2,
                             "rawText": "2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 70,
                             "end": 72
@@ -85,7 +84,7 @@ switch(foo) {
                                         "text": "doIt",
                                         "rawText": "doIt",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 73,
                                         "end": 86
@@ -97,38 +96,38 @@ switch(foo) {
                                         "trailingComma": false,
                                         "transformFlags": 0,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "start": 88,
                                         "end": 88
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 86,
                                     "end": 88
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 73,
                                 "end": 89
                             }
                         ],
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 36,
                         "end": 89
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 91
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 91
@@ -137,7 +136,6 @@ switch(foo) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -147,17 +145,13 @@ switch(foo) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

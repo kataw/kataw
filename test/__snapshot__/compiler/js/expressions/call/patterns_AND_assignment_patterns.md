@@ -10,10 +10,9 @@ async({a=1}. {b=2}, {c=3} = {}))
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async({a=1}. {b=2}, {c=3} = {}))",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                     "text": "async",
                     "rawText": "async",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 5
@@ -49,7 +48,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 8
@@ -61,14 +60,14 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
                                             "accessModifier": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 7,
                                             "end": 10
@@ -77,13 +76,13 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 7,
                                     "end": 10
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
@@ -93,13 +92,13 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "text": "",
                                 "rawText": "",
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12,
@@ -121,7 +120,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
@@ -133,14 +132,14 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "accessModifier": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 14,
                                         "end": 17
@@ -149,13 +148,13 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 18
@@ -174,7 +173,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 22
@@ -186,14 +185,14 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "text": 3,
                                                 "rawText": "3",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 24
                                             },
                                             "accessModifier": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 21,
                                             "end": 24
@@ -202,13 +201,13 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
@@ -222,19 +221,19 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 30
@@ -243,18 +242,18 @@ async({a=1}. {b=2}, {c=3} = {}))
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 7,
                     "end": 31
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 31
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -278,7 +277,6 @@ async({a=1}. {b=2}, {c=3} = {}))
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -288,17 +286,13 @@ async({a=1}. {b=2}, {c=3} = {}))
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ do class x {} while
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do class x {} while",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ do class x {} while
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 19
@@ -39,7 +38,7 @@ do class x {} while
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 8,
                     "end": 10
@@ -51,7 +50,7 @@ do class x {} while
                     "kind": 50,
                     "elements": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 12,
                     "end": 13
@@ -59,13 +58,13 @@ do class x {} while
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 2,
                 "end": 13
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -89,7 +88,6 @@ do class x {} while
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -99,17 +97,13 @@ do class x {} while
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

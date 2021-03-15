@@ -10,10 +10,9 @@ wrap({*foo(){}});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({*foo(){}});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({*foo(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -47,7 +46,7 @@ wrap({*foo(){}});
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
@@ -57,7 +56,7 @@ wrap({*foo(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
@@ -71,13 +70,13 @@ wrap({*foo(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 13
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
@@ -87,7 +86,7 @@ wrap({*foo(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 10,
                                         "end": 14
@@ -96,13 +95,13 @@ wrap({*foo(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 15
@@ -111,18 +110,18 @@ wrap({*foo(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 16
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 16
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 17
@@ -131,7 +130,6 @@ wrap({*foo(){}});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -141,17 +139,13 @@ wrap({*foo(){}});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

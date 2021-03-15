@@ -17,10 +17,9 @@ abstract class AbstractRule {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "abstract class AbstractRule {\n    /**\n     * @deprecated\n     * Failures will be filtered based on `tslint:disable` comments by tslint.\n     * This method now does nothing.\n     */\n    filterFailures() {}\n}",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ abstract class AbstractRule {
                 "text": "AbstractRule",
                 "rawText": "AbstractRule",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 27
@@ -55,7 +54,7 @@ abstract class AbstractRule {
                                 "text": "filterFailures",
                                 "rawText": "filterFailures",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 199
@@ -65,7 +64,7 @@ abstract class AbstractRule {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 200,
                                 "end": 201
@@ -79,13 +78,13 @@ abstract class AbstractRule {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 203,
                                     "end": 203
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 201,
                                 "end": 204
@@ -95,20 +94,20 @@ abstract class AbstractRule {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 199,
                             "end": 204
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 29,
                         "end": 204
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 29,
                 "end": 206
@@ -116,7 +115,7 @@ abstract class AbstractRule {
             "decorators": null,
             "isAbstract": true,
             "flags": 536870912,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 8,
             "end": 206
@@ -125,7 +124,6 @@ abstract class AbstractRule {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -135,17 +133,13 @@ abstract class AbstractRule {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

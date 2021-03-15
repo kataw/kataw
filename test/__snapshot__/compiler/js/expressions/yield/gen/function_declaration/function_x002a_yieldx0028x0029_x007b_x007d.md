@@ -14,10 +14,9 @@ function not_gen() { function * yield() { } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function * yield() { } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { function * yield() { } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { function * yield() { } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { function * yield() { } }}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 31,
                                 "end": 37
@@ -66,7 +65,7 @@ function not_gen() { function * yield() { } }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
@@ -79,20 +78,20 @@ function not_gen() { function * yield() { } }}
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 41,
                                     "end": 41
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 43
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 384,
                             "start": 20,
                             "end": 43
@@ -100,20 +99,20 @@ function not_gen() { function * yield() { } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 43
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 45
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 45
@@ -130,7 +129,6 @@ function not_gen() { function * yield() { } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -140,17 +138,13 @@ function not_gen() { function * yield() { } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

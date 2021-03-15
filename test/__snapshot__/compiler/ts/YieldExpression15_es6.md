@@ -12,10 +12,9 @@ var v = () => {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var v = () => {\n     yield foo\n  }",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ var v = () => {
                             "text": "v",
                             "rawText": "v",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -48,7 +47,7 @@ var v = () => {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
@@ -65,13 +64,13 @@ var v = () => {
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 26
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 15,
                                             "end": 26
@@ -83,13 +82,13 @@ var v = () => {
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 30
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 30
@@ -97,38 +96,38 @@ var v = () => {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 30
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 34
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 34
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 34
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 34
@@ -145,7 +144,6 @@ var v = () => {
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -155,17 +153,13 @@ var v = () => {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -26,7 +26,7 @@ export function createTryStatement(
     catchClause,
     finallyBlock,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       (block ? block.transformFlags : TransformFlags.None) |
       (catchClause ? catchClause.transformFlags : TransformFlags.None) |

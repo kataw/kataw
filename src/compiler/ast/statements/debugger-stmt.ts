@@ -9,7 +9,7 @@ export function createDebuggerStatement(flags: NodeFlags, start: number, end: nu
   return {
     kind: NodeKind.DebuggerStatement,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

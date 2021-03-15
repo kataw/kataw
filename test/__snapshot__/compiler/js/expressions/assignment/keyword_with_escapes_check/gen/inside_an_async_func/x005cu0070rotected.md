@@ -14,10 +14,9 @@ async () => {  \u0070rotected = x  }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async () => {  \\u0070rotected = x  }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ async () => {  \u0070rotected = x  }
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
@@ -52,7 +51,7 @@ async () => {  \u0070rotected = x  }
                                         "text": "protected",
                                         "rawText": "  \\u0070rotected",
                                         "flags": 8388608,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 29
@@ -63,19 +62,19 @@ async () => {  \u0070rotected = x  }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 13,
                                     "end": 33
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 33
@@ -83,25 +82,25 @@ async () => {  \u0070rotected = x  }
                         ],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 33
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 36
                 },
                 "flags": 1073741824,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 36
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 36
@@ -110,7 +109,6 @@ async () => {  \u0070rotected = x  }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -120,17 +118,13 @@ async () => {  \u0070rotected = x  }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

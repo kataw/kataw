@@ -32,7 +32,7 @@ export function createForOfStatement(
     statement,
     isAwait,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: isAwait ? TransformFlags.ES2015 | TransformFlags.ES2018 : TransformFlags.ES2015,
     start,
     end

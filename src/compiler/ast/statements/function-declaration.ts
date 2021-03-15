@@ -60,7 +60,7 @@ export function createFunctionDeclaration(
     contents,
     typeParameters,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags,
     start,
     end

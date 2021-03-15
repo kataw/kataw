@@ -16,10 +16,9 @@ import {a, b} fromx "c"
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import {a, b} fromx \"c\"",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ import {a, b} fromx "c"
                 "text": "fromx",
                 "rawText": "fromx",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 19
@@ -54,13 +53,13 @@ import {a, b} fromx "c"
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
@@ -74,39 +73,39 @@ import {a, b} fromx "c"
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
                 "isTypeOnly": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -118,13 +117,13 @@ import {a, b} fromx "c"
                 "text": "c",
                 "rawText": "c",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 19,
             "end": 23
@@ -148,7 +147,6 @@ import {a, b} fromx "c"
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -158,17 +156,13 @@ import {a, b} fromx "c"
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -39,7 +39,7 @@ export function createMappedType(
     isOptional,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

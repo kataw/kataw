@@ -30,10 +30,9 @@ declare enum E {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "enum ErrorRecoverySet {  StmtStart = ExprStart | SColon | Var | Stmt | While | TypeScriptS, Postfix = Dot | LParen | LBrack, }\n\nconst enum X {\n  None = 0,\n  A = 1 << 0,\n  B = 1 << 1,\n  C = 1 << 2,\n  D = A | B,\n  E = C | string,\n  F = D | E,\n  G = D | C | A,\n}\n\ndeclare enum E {\n a = 1e3, // ok\n b = 1e25, // ok\n c = 1e-3, // error\n d = 1e-9, // error\n e = 1e0, // ok\n f = 1e+25 // ok\n}",
     "filename": "",
     "statements": [
@@ -44,7 +43,7 @@ declare enum E {
                 "text": "ErrorRecoverySet",
                 "rawText": "ErrorRecoverySet",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 21
@@ -59,7 +58,7 @@ declare enum E {
                             "text": "StmtStart",
                             "rawText": "StmtStart",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 34
@@ -79,7 +78,7 @@ declare enum E {
                                                 "text": "ExprStart",
                                                 "rawText": "ExprStart",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 46
@@ -90,13 +89,13 @@ declare enum E {
                                                 "text": "SColon",
                                                 "rawText": "SColon",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 55
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 36,
                                             "end": 55
@@ -107,13 +106,13 @@ declare enum E {
                                             "text": "Var",
                                             "rawText": "Var",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 57,
                                             "end": 61
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 36,
                                         "end": 61
@@ -124,13 +123,13 @@ declare enum E {
                                         "text": "Stmt",
                                         "rawText": "Stmt",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 63,
                                         "end": 68
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 68
@@ -141,13 +140,13 @@ declare enum E {
                                     "text": "While",
                                     "rawText": "While",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 70,
                                     "end": 76
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 76
@@ -158,19 +157,19 @@ declare enum E {
                                 "text": "TypeScriptS",
                                 "rawText": "TypeScriptS",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 78,
                                 "end": 90
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 36,
                             "end": 90
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 23,
                         "end": 90
@@ -182,7 +181,7 @@ declare enum E {
                             "text": "Postfix",
                             "rawText": "Postfix",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 91,
                             "end": 99
@@ -196,7 +195,7 @@ declare enum E {
                                     "text": "Dot",
                                     "rawText": "Dot",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 101,
                                     "end": 105
@@ -207,13 +206,13 @@ declare enum E {
                                     "text": "LParen",
                                     "rawText": "LParen",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 107,
                                     "end": 114
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 101,
                                 "end": 114
@@ -224,33 +223,33 @@ declare enum E {
                                 "text": "LBrack",
                                 "rawText": "LBrack",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 116,
                                 "end": 123
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 101,
                             "end": 123
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 91,
                         "end": 123
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 23,
                 "end": 124
             },
             "isConst": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 126
@@ -262,7 +261,7 @@ declare enum E {
                 "text": "X",
                 "rawText": "X",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 138,
                 "end": 140
@@ -277,7 +276,7 @@ declare enum E {
                             "text": "None",
                             "rawText": "None",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 142,
                             "end": 149
@@ -287,13 +286,13 @@ declare enum E {
                             "text": 0,
                             "rawText": "0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 151,
                             "end": 153
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 142,
                         "end": 153
@@ -305,7 +304,7 @@ declare enum E {
                             "text": "A",
                             "rawText": "A",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 154,
                             "end": 158
@@ -317,7 +316,7 @@ declare enum E {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 160,
                                 "end": 162
@@ -328,19 +327,19 @@ declare enum E {
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 165,
                                 "end": 167
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 160,
                             "end": 167
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 154,
                         "end": 167
@@ -352,7 +351,7 @@ declare enum E {
                             "text": "B",
                             "rawText": "B",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 168,
                             "end": 172
@@ -364,7 +363,7 @@ declare enum E {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 174,
                                 "end": 176
@@ -375,19 +374,19 @@ declare enum E {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 179,
                                 "end": 181
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 174,
                             "end": 181
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 168,
                         "end": 181
@@ -399,7 +398,7 @@ declare enum E {
                             "text": "C",
                             "rawText": "C",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 182,
                             "end": 186
@@ -411,7 +410,7 @@ declare enum E {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 188,
                                 "end": 190
@@ -422,19 +421,19 @@ declare enum E {
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 193,
                                 "end": 195
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 188,
                             "end": 195
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 182,
                         "end": 195
@@ -446,7 +445,7 @@ declare enum E {
                             "text": "D",
                             "rawText": "D",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 196,
                             "end": 200
@@ -458,7 +457,7 @@ declare enum E {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 202,
                                 "end": 204
@@ -469,19 +468,19 @@ declare enum E {
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 206,
                                 "end": 208
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 202,
                             "end": 208
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 196,
                         "end": 208
@@ -493,7 +492,7 @@ declare enum E {
                             "text": "E",
                             "rawText": "E",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 209,
                             "end": 213
@@ -505,7 +504,7 @@ declare enum E {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 215,
                                 "end": 217
@@ -516,19 +515,19 @@ declare enum E {
                                 "text": "string",
                                 "rawText": "string",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 219,
                                 "end": 226
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 215,
                             "end": 226
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 209,
                         "end": 226
@@ -540,7 +539,7 @@ declare enum E {
                             "text": "F",
                             "rawText": "F",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 227,
                             "end": 231
@@ -552,7 +551,7 @@ declare enum E {
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 233,
                                 "end": 235
@@ -563,19 +562,19 @@ declare enum E {
                                 "text": "E",
                                 "rawText": "E",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 237,
                                 "end": 239
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 233,
                             "end": 239
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 227,
                         "end": 239
@@ -587,7 +586,7 @@ declare enum E {
                             "text": "G",
                             "rawText": "G",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 240,
                             "end": 244
@@ -601,7 +600,7 @@ declare enum E {
                                     "text": "D",
                                     "rawText": "D",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 246,
                                     "end": 248
@@ -612,13 +611,13 @@ declare enum E {
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 250,
                                     "end": 252
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 246,
                                 "end": 252
@@ -629,33 +628,33 @@ declare enum E {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 254,
                                 "end": 256
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 246,
                             "end": 256
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 240,
                         "end": 256
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 142,
                 "end": 257
             },
             "isConst": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 126,
             "end": 259
@@ -667,7 +666,7 @@ declare enum E {
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 273,
                 "end": 275
@@ -682,7 +681,7 @@ declare enum E {
                             "text": "a",
                             "rawText": "a",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 277,
                             "end": 280
@@ -692,13 +691,13 @@ declare enum E {
                             "text": 1000,
                             "rawText": "1e3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 282,
                             "end": 286
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 277,
                         "end": 286
@@ -710,7 +709,7 @@ declare enum E {
                             "text": "b",
                             "rawText": "b",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 287,
                             "end": 296
@@ -720,13 +719,13 @@ declare enum E {
                             "text": 1e+25,
                             "rawText": "1e25",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 298,
                             "end": 303
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 287,
                         "end": 303
@@ -738,7 +737,7 @@ declare enum E {
                             "text": "c",
                             "rawText": "c",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 304,
                             "end": 313
@@ -748,13 +747,13 @@ declare enum E {
                             "text": 0.001,
                             "rawText": "1e-3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 315,
                             "end": 320
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 304,
                         "end": 320
@@ -766,7 +765,7 @@ declare enum E {
                             "text": "d",
                             "rawText": "d",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 321,
                             "end": 333
@@ -776,13 +775,13 @@ declare enum E {
                             "text": 1e-9,
                             "rawText": "1e-9",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 335,
                             "end": 340
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 321,
                         "end": 340
@@ -794,7 +793,7 @@ declare enum E {
                             "text": "e",
                             "rawText": "e",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 341,
                             "end": 353
@@ -804,13 +803,13 @@ declare enum E {
                             "text": 1,
                             "rawText": "1e0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 355,
                             "end": 359
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 341,
                         "end": 359
@@ -822,7 +821,7 @@ declare enum E {
                             "text": "f",
                             "rawText": "f",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 360,
                             "end": 369
@@ -832,27 +831,27 @@ declare enum E {
                             "text": 1e+25,
                             "rawText": "1e+25",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 371,
                             "end": 377
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 360,
                         "end": 377
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 277,
                 "end": 377
             },
             "isConst": false,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 268,
             "end": 385
@@ -861,7 +860,6 @@ declare enum E {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -871,17 +869,13 @@ declare enum E {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

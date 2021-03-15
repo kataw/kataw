@@ -10,10 +10,9 @@ let x: "foo";
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let x: \"foo\";",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ let x: "foo";
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -41,27 +40,27 @@ let x: "foo";
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 6,
                             "end": 12
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 13
@@ -70,7 +69,6 @@ let x: "foo";
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -80,17 +78,13 @@ let x: "foo";
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

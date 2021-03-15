@@ -40,7 +40,7 @@ export function createPropertySignature(
     isReadOnly,
     initializer,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

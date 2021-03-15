@@ -10,10 +10,9 @@ wrap({async [foo""](){}});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({async [foo\"\"](){}});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({async [foo""](){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -47,13 +46,13 @@ wrap({async [foo""](){}});
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 131073,
                                         "start": 11,
                                         "end": 16
@@ -65,7 +64,7 @@ wrap({async [foo""](){}});
                                             "text": "",
                                             "rawText": "",
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
@@ -74,7 +73,7 @@ wrap({async [foo""](){}});
                                             "kind": 131322,
                                             "text": "",
                                             "flags": 3,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 18,
                                             "end": 18
@@ -82,7 +81,7 @@ wrap({async [foo""](){}});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
@@ -91,13 +90,13 @@ wrap({async [foo""](){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 18
@@ -106,18 +105,18 @@ wrap({async [foo""](){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -131,13 +130,13 @@ wrap({async [foo""](){}});
                 "accessModifier": null,
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 19,
             "end": 21
@@ -149,13 +148,13 @@ wrap({async [foo""](){}});
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 23
@@ -163,7 +162,7 @@ wrap({async [foo""](){}});
         {
             "kind": 6291526,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 25,
             "end": 26
@@ -208,7 +207,6 @@ wrap({async [foo""](){}});
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -218,17 +216,13 @@ wrap({async [foo""](){}});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

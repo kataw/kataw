@@ -21,7 +21,7 @@ export function createStringType(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

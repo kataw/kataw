@@ -25,7 +25,7 @@ export function createCaseClause(
     expression,
     statements,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

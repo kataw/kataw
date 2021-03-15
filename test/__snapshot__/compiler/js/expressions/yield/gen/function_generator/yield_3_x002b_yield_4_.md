@@ -14,10 +14,9 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { yield 3 + yield 4; }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -84,13 +83,13 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 45
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 45
@@ -104,7 +103,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 1,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 47
@@ -115,19 +114,19 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 55
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 55
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 45,
                                             "end": 55
@@ -139,13 +138,13 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                 "text": 4,
                                                 "rawText": "4",
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 57
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 55,
                                             "end": 58
@@ -153,20 +152,20 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 58
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 60
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 60
@@ -174,20 +173,20 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 60
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 61
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 61
@@ -211,7 +210,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -221,17 +219,13 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

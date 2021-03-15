@@ -15,10 +15,9 @@ interface Newline {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface Comma { x: number, y: number }\ninterface Semi { x: number; y: number }\ninterface Newline {\n    x: number\n    y: number\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ interface Newline {
                 "text": "Comma",
                 "rawText": "Comma",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 15
@@ -46,7 +45,7 @@ interface Newline {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 19
@@ -56,7 +55,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 20,
                             "end": 27
@@ -65,7 +64,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 17,
                         "end": 28
@@ -77,7 +76,7 @@ interface Newline {
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 30
@@ -87,7 +86,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 31,
                             "end": 38
@@ -96,7 +95,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 28,
                         "end": 38
@@ -104,13 +103,13 @@ interface Newline {
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 17,
                 "end": 38
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 40
@@ -122,7 +121,7 @@ interface Newline {
                 "text": "Semi",
                 "rawText": "Semi",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 50,
                 "end": 55
@@ -139,7 +138,7 @@ interface Newline {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 57,
                             "end": 59
@@ -149,7 +148,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 60,
                             "end": 67
@@ -158,7 +157,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 57,
                         "end": 68
@@ -170,7 +169,7 @@ interface Newline {
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 68,
                             "end": 70
@@ -180,7 +179,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 71,
                             "end": 78
@@ -189,7 +188,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 68,
                         "end": 78
@@ -197,13 +196,13 @@ interface Newline {
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 57,
                 "end": 78
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 40,
             "end": 80
@@ -215,7 +214,7 @@ interface Newline {
                 "text": "Newline",
                 "rawText": "Newline",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 90,
                 "end": 98
@@ -232,7 +231,7 @@ interface Newline {
                             "text": "x",
                             "rawText": "x",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 100,
                             "end": 106
@@ -242,7 +241,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 107,
                             "end": 114
@@ -251,7 +250,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 100,
                         "end": 114
@@ -263,7 +262,7 @@ interface Newline {
                             "text": "y",
                             "rawText": "y",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 114,
                             "end": 120
@@ -273,7 +272,7 @@ interface Newline {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 121,
                             "end": 128
@@ -282,7 +281,7 @@ interface Newline {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 114,
                         "end": 128
@@ -290,13 +289,13 @@ interface Newline {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 100,
                 "end": 128
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 80,
             "end": 130
@@ -305,7 +304,6 @@ interface Newline {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -315,17 +313,13 @@ interface Newline {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ var await; var f = (async function() { `await; });
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { `await; });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { `await; });
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { `await; });
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { `await; });
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { `await; });
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -107,13 +106,13 @@ var await; var f = (async function() { `await; });
                                                     "text": "await; });",
                                                     "literal": true,
                                                     "flags": 1048576,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 38,
                                                     "end": 50
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 50
@@ -121,13 +120,13 @@ var await; var f = (async function() { `await; });
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 50
                                     },
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 50
@@ -135,32 +134,32 @@ var await; var f = (async function() { `await; });
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 50
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 50
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1,
                         "end": 50
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 50
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 50
@@ -184,7 +183,6 @@ var await; var f = (async function() { `await; });
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -194,17 +192,13 @@ var await; var f = (async function() { `await; });
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

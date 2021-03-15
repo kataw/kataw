@@ -10,10 +10,9 @@ switch (A) {case B: C; break; case D: E; break;}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch (A) {case B: C; break; case D: E; break;}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ switch (A) {case B: C; break; case D: E; break;}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 9
@@ -39,7 +38,7 @@ switch (A) {case B: C; break; case D: E; break;}
                             "text": "B",
                             "rawText": "B",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 18
@@ -52,13 +51,13 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
@@ -67,14 +66,14 @@ switch (A) {case B: C; break; case D: E; break;}
                                 "kind": 2097193,
                                 "label": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 29
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 29
@@ -86,7 +85,7 @@ switch (A) {case B: C; break; case D: E; break;}
                             "text": "D",
                             "rawText": "D",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 34,
                             "end": 36
@@ -99,13 +98,13 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "text": "E",
                                     "rawText": "E",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
@@ -114,27 +113,27 @@ switch (A) {case B: C; break; case D: E; break;}
                                 "kind": 2097193,
                                 "label": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 47
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 29,
                         "end": 47
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 48
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 48
@@ -143,7 +142,6 @@ switch (A) {case B: C; break; case D: E; break;}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -153,17 +151,13 @@ switch (A) {case B: C; break; case D: E; break;}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

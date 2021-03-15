@@ -10,10 +10,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "({ \"__proto__\": null, __proto__: null })",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 2,
                                     "end": 14
@@ -42,7 +41,7 @@
                                     "kind": 4260512,
                                     "text": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
@@ -50,7 +49,7 @@
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 2,
                                 "end": 20
@@ -62,7 +61,7 @@
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 21,
                                     "end": 31
@@ -71,7 +70,7 @@
                                     "kind": 4260512,
                                     "text": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 32,
                                     "end": 37
@@ -79,7 +78,7 @@
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 37
@@ -88,25 +87,25 @@
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 37
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 1,
                     "end": 39
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 40
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 40
@@ -115,7 +114,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -125,17 +123,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

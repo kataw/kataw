@@ -24,7 +24,7 @@ export function createKeywordTypeNode(kind: NodeKind, start: number, end: number
   return {
     kind,
     flags: NodeFlags.None,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

@@ -18,10 +18,9 @@ these characters should not be considered within a comment
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "#!/*\nthese characters should not be considered within a comment\n*/",
     "filename": "",
     "statements": [
@@ -32,13 +31,13 @@ these characters should not be considered within a comment
                 "text": "these",
                 "rawText": "these",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 10
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 4,
             "end": 10
@@ -50,13 +49,13 @@ these characters should not be considered within a comment
                 "text": "characters",
                 "rawText": "characters",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 21
@@ -68,13 +67,13 @@ these characters should not be considered within a comment
                 "text": "should",
                 "rawText": "should",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 28
@@ -86,13 +85,13 @@ these characters should not be considered within a comment
                 "text": "not",
                 "rawText": "not",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 32
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 28,
             "end": 32
@@ -104,13 +103,13 @@ these characters should not be considered within a comment
                 "text": "be",
                 "rawText": "be",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 32,
             "end": 35
@@ -122,13 +121,13 @@ these characters should not be considered within a comment
                 "text": "considered",
                 "rawText": "considered",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 35,
                 "end": 46
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 35,
             "end": 46
@@ -140,13 +139,13 @@ these characters should not be considered within a comment
                 "text": "within",
                 "rawText": "within",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 46,
                 "end": 53
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 46,
             "end": 53
@@ -158,13 +157,13 @@ these characters should not be considered within a comment
                 "text": "a",
                 "rawText": "a",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 53,
                 "end": 55
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 53,
             "end": 55
@@ -178,7 +177,7 @@ these characters should not be considered within a comment
                     "text": "comment",
                     "rawText": "comment",
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 55,
                     "end": 63
@@ -188,19 +187,19 @@ these characters should not be considered within a comment
                     "kind": 4260544,
                     "text": "/",
                     "flags": 1048576,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 65,
                     "end": 67
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 55,
                 "end": 67
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 55,
             "end": 67
@@ -273,7 +272,6 @@ these characters should not be considered within a comment
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -283,17 +281,13 @@ these characters should not be considered within a comment
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

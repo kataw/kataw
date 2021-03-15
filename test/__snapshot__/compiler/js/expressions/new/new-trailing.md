@@ -10,10 +10,9 @@ new x().y;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new x().y;",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ new x().y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 5
@@ -40,12 +39,12 @@ new x().y;
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 32,
                     "start": 0,
                     "end": 7
@@ -55,13 +54,13 @@ new x().y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 9,
@@ -72,7 +71,7 @@ new x().y;
                 }
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -81,7 +80,6 @@ new x().y;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -91,17 +89,13 @@ new x().y;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

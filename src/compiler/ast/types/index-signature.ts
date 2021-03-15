@@ -35,7 +35,7 @@ export function createIndexSignature(
     isStatic,
     isReadOnly,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

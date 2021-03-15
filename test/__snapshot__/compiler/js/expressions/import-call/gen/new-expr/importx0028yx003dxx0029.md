@@ -14,10 +14,9 @@ import(y=x)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import(y=x)",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ import(y=x)
                         "text": "y",
                         "rawText": "y",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 8
@@ -44,25 +43,25 @@ import(y=x)
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 262152,
                 "start": 0,
                 "end": 11
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 11
@@ -71,7 +70,6 @@ import(y=x)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -81,17 +79,13 @@ import(y=x)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

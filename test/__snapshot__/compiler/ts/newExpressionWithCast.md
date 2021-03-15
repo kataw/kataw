@@ -24,10 +24,9 @@ var test3 = new (<any>Test3)();
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "// @noimplicitany: true\n\nfunction Test() { }\n// valid but error with noImplicitAny\nvar test = new Test();\n\nfunction Test2() { }\n// parse error\nvar test2 = new <any>Test2();\n\nfunction Test3() { }\n// valid with noImplicitAny\nvar test3 = new (<any>Test3)();\n\n",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ var test3 = new (<any>Test3)();
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 33,
                 "end": 38
@@ -48,7 +47,7 @@ var test3 = new (<any>Test3)();
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 40
@@ -61,20 +60,20 @@ var test3 = new (<any>Test3)();
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 42,
                     "end": 42
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 40,
                 "end": 44
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 44
@@ -91,7 +90,7 @@ var test3 = new (<any>Test3)();
                             "text": "test",
                             "rawText": "test",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 86,
                             "end": 91
@@ -105,7 +104,7 @@ var test3 = new (<any>Test3)();
                                 "text": "Test",
                                 "rawText": "Test",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 97,
                                 "end": 102
@@ -117,31 +116,31 @@ var test3 = new (<any>Test3)();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 103,
                                 "end": 103
                             },
                             "flags": 93,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 104
                         },
                         "flags": 86,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 104
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 86,
                 "end": 104
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 44,
             "end": 105
@@ -153,7 +152,7 @@ var test3 = new (<any>Test3)();
                 "text": "Test2",
                 "rawText": "Test2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 115,
                 "end": 121
@@ -163,7 +162,7 @@ var test3 = new (<any>Test3)();
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 122,
                 "end": 123
@@ -176,20 +175,20 @@ var test3 = new (<any>Test3)();
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 125,
                     "end": 125
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 123,
                 "end": 127
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 105,
             "end": 127
@@ -206,7 +205,7 @@ var test3 = new (<any>Test3)();
                             "text": "test2",
                             "rawText": "test2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 146,
                             "end": 152
@@ -223,7 +222,7 @@ var test3 = new (<any>Test3)();
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 158,
                                         "end": 158
@@ -231,7 +230,7 @@ var test3 = new (<any>Test3)();
                                     "typeArguments": null,
                                     "argumentList": null,
                                     "flags": 154,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 32,
                                     "start": 1,
                                     "end": 158
@@ -242,13 +241,13 @@ var test3 = new (<any>Test3)();
                                     "text": "any",
                                     "rawText": "any",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 160,
                                     "end": 163
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 154,
                                 "end": 163
@@ -261,7 +260,7 @@ var test3 = new (<any>Test3)();
                                     "text": "Test2",
                                     "rawText": "Test2",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 164,
                                     "end": 169
@@ -273,37 +272,37 @@ var test3 = new (<any>Test3)();
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 171,
                                     "end": 171
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 169,
                                 "end": 171
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 154,
                             "end": 171
                         },
                         "flags": 146,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 171
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 146,
                 "end": 171
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 127,
             "end": 172
@@ -315,7 +314,7 @@ var test3 = new (<any>Test3)();
                 "text": "Test3",
                 "rawText": "Test3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 182,
                 "end": 188
@@ -325,7 +324,7 @@ var test3 = new (<any>Test3)();
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 189,
                 "end": 190
@@ -338,20 +337,20 @@ var test3 = new (<any>Test3)();
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 192,
                     "end": 192
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 190,
                 "end": 194
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 172,
             "end": 194
@@ -368,7 +367,7 @@ var test3 = new (<any>Test3)();
                             "text": "test3",
                             "rawText": "test3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 226,
                             "end": 232
@@ -384,7 +383,7 @@ var test3 = new (<any>Test3)();
                                     "type": {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 241,
                                         "end": 244
@@ -394,19 +393,19 @@ var test3 = new (<any>Test3)();
                                         "text": "Test3",
                                         "rawText": "Test3",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 245,
                                         "end": 250
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 240,
                                     "end": 250
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 238,
                                 "end": 251
@@ -418,31 +417,31 @@ var test3 = new (<any>Test3)();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 252,
                                 "end": 252
                             },
                             "flags": 234,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 253
                         },
                         "flags": 226,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 253
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 226,
                 "end": 253
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 194,
             "end": 254
@@ -451,7 +450,6 @@ var test3 = new (<any>Test3)();
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -461,17 +459,13 @@ var test3 = new (<any>Test3)();
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

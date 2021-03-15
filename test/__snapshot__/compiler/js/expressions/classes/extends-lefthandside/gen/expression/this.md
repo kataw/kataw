@@ -14,10 +14,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class B extends this {})",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 6,
                         "end": 8
@@ -43,14 +42,14 @@
                         "expression": {
                             "kind": 4260571,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 21
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 21
@@ -60,26 +59,26 @@
                         "kind": 50,
                         "elements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 23,
                         "end": 24
                     },
                     "decorators": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 1,
                     "end": 24
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -88,7 +87,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -98,17 +96,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ return catch /)finally
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return catch /)finally",
     "filename": "",
     "statements": [
@@ -27,13 +26,13 @@ return catch /)finally
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 6
@@ -47,13 +46,13 @@ return catch /)finally
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 6
@@ -68,26 +67,26 @@ return catch /)finally
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 1048577,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 6,
                 "end": 12
             },
             "finallyBlock": null,
             "flags": 1048577,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 16,
             "start": 6,
             "end": 12
@@ -98,13 +97,13 @@ return catch /)finally
                 "kind": 4260544,
                 "text": "/)finally",
                 "flags": 1048577,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 12,
             "end": 22
@@ -135,7 +134,6 @@ return catch /)finally
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -145,17 +143,13 @@ return catch /)finally
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

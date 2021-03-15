@@ -14,10 +14,9 @@ do do do =! class function try while with foo! while while while
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do do do =! class function try while with foo! while while while",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 26,
                 "end": 26
@@ -38,7 +37,7 @@ do do do =! class function try while with foo! while while while
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 26
@@ -53,7 +52,7 @@ do do do =! class function try while with foo! while while while
                             "formalParameterList": [],
                             "trailingComma": false,
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 26
@@ -65,13 +64,13 @@ do do do =! class function try while with foo! while while while
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 26
@@ -79,7 +78,7 @@ do do do =! class function try while with foo! while while while
                         "typeParameters": null,
                         "type": null,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 17,
                         "end": 26
@@ -92,7 +91,7 @@ do do do =! class function try while with foo! while while while
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 8
@@ -111,50 +110,50 @@ do do do =! class function try while with foo! while while while
                                         "kind": 50,
                                         "elements": [],
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 11,
                                         "end": 11
                                     },
                                     "decorators": null,
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 11,
                                     "end": 17
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 26
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 26
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 26
@@ -168,13 +167,13 @@ do do do =! class function try while with foo! while while while
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 30
@@ -187,19 +186,19 @@ do do do =! class function try while with foo! while while while
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 26,
             "end": 30
@@ -210,7 +209,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 36,
                 "end": 36
@@ -224,13 +223,13 @@ do do do =! class function try while with foo! while while while
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 41,
                         "end": 45
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 45,
                     "end": 46
@@ -241,7 +240,7 @@ do do do =! class function try while with foo! while while while
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 52,
                         "end": 52
@@ -252,7 +251,7 @@ do do do =! class function try while with foo! while while while
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 58,
                             "end": 58
@@ -263,7 +262,7 @@ do do do =! class function try while with foo! while while while
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 64,
                                 "end": 64
@@ -274,43 +273,43 @@ do do do =! class function try while with foo! while while while
                                     "kind": 131322,
                                     "text": "",
                                     "flags": 3,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 64,
                                     "end": 64
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 64,
                                 "end": 64
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 58,
                             "end": 64
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 52,
                         "end": 64
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 46,
                     "end": 64
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 36,
                 "end": 64
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 30,
             "end": 64
@@ -383,7 +382,6 @@ do do do =! class function try while with foo! while while while
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -393,17 +391,13 @@ do do do =! class function try while with foo! while while while
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

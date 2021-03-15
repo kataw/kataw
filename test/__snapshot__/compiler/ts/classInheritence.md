@@ -11,10 +11,9 @@ class A extends A { }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class B extends A { }\nclass A extends A { }",
     "filename": "",
     "statements": [
@@ -25,7 +24,7 @@ class A extends A { }
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -38,14 +37,14 @@ class A extends A { }
                     "text": "A",
                     "rawText": "A",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 17
@@ -55,7 +54,7 @@ class A extends A { }
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 19,
                 "end": 21
@@ -63,7 +62,7 @@ class A extends A { }
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 21
@@ -75,7 +74,7 @@ class A extends A { }
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 27,
                 "end": 29
@@ -88,14 +87,14 @@ class A extends A { }
                     "text": "A",
                     "rawText": "A",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 37,
                     "end": 39
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 37,
                 "end": 39
@@ -105,7 +104,7 @@ class A extends A { }
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 41,
                 "end": 43
@@ -113,7 +112,7 @@ class A extends A { }
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 21,
             "end": 43
@@ -122,7 +121,6 @@ class A extends A { }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -132,17 +130,13 @@ class A extends A { }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -13,10 +13,9 @@ enum E {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "enum E {\n    \"foo\",\n    \"bar\" = 1\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ enum E {
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 6
@@ -42,14 +41,14 @@ enum E {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 18
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 8,
                         "end": 18
@@ -61,7 +60,7 @@ enum E {
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 29
@@ -71,27 +70,27 @@ enum E {
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 31,
                             "end": 33
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 19,
                         "end": 33
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 8,
                 "end": 33
             },
             "isConst": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 35
@@ -100,7 +99,6 @@ enum E {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -110,17 +108,13 @@ enum E {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,10 +12,9 @@ class X {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class X {\n  a!: string;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class X {
                 "text": "X",
                 "rawText": "X",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -44,7 +43,7 @@ class X {
                             "text": "a",
                             "rawText": "a",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 13
@@ -58,7 +57,7 @@ class X {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 15,
                             "end": 22
@@ -68,14 +67,14 @@ class X {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 23
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 25
@@ -83,7 +82,7 @@ class X {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 25
@@ -92,7 +91,6 @@ class X {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -102,17 +100,13 @@ class X {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

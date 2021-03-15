@@ -14,10 +14,9 @@ function not_gen() { function f() { class C { yield() { } } } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function f() { class C { yield() { } } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 29,
                                 "end": 31
@@ -66,7 +65,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 33
@@ -84,7 +83,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 41,
                                                 "end": 43
@@ -108,7 +107,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 45,
                                                                 "end": 51
@@ -118,7 +117,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 52,
                                                                 "end": 53
@@ -132,13 +131,13 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "statements": [],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 55
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 57
@@ -148,20 +147,20 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                             "accessModifier": null,
                                                             "typeParameters": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 51,
                                                             "end": 57
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 45,
                                                         "end": 57
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 45,
                                                 "end": 59
@@ -169,7 +168,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                             "decorators": null,
                                             "isAbstract": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 35,
                                             "end": 59
@@ -177,20 +176,20 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 59
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 33,
                                 "end": 61
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 20,
                             "end": 61
@@ -198,20 +197,20 @@ function not_gen() { function f() { class C { yield() { } } } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 61
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 63
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 63
@@ -228,7 +227,6 @@ function not_gen() { function f() { class C { yield() { } } } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -238,17 +236,13 @@ function not_gen() { function f() { class C { yield() { } } } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

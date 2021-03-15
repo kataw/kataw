@@ -14,10 +14,9 @@ async () => {  debugge\u0072 = x  }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async () => {  debugge\\u0072 = x  }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ async () => {  debugge\u0072 = x  }
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
@@ -46,7 +45,7 @@ async () => {  debugge\u0072 = x  }
                             {
                                 "kind": 6291518,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 28
@@ -54,25 +53,25 @@ async () => {  debugge\u0072 = x  }
                         ],
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 28
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 28
                 },
                 "flags": 1073741825,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -84,13 +83,13 @@ async () => {  debugge\u0072 = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 30,
             "end": 32
@@ -114,7 +113,6 @@ async () => {  debugge\u0072 = x  }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -124,17 +122,13 @@ async () => {  debugge\u0072 = x  }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

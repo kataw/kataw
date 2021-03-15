@@ -19,10 +19,9 @@ wrap({0o4432(){}});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({0(){}});\n\nwrap({1(){}});\n\nwrap({0x234235(){}});\n\nwrap({0b01010(){}});\n\nwrap({0o4432(){}});\n",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ wrap({0o4432(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -56,7 +55,7 @@ wrap({0o4432(){}});
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
@@ -66,7 +65,7 @@ wrap({0o4432(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
@@ -80,13 +79,13 @@ wrap({0o4432(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 10
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
@@ -96,7 +95,7 @@ wrap({0o4432(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 7,
                                         "end": 11
@@ -105,13 +104,13 @@ wrap({0o4432(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 12
@@ -120,18 +119,18 @@ wrap({0o4432(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 13
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 13
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 14
@@ -145,7 +144,7 @@ wrap({0o4432(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 20
@@ -166,7 +165,7 @@ wrap({0o4432(){}});
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
@@ -176,7 +175,7 @@ wrap({0o4432(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
@@ -190,13 +189,13 @@ wrap({0o4432(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 26
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 25,
                                             "end": 27
@@ -206,7 +205,7 @@ wrap({0o4432(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 23,
                                         "end": 27
@@ -215,13 +214,13 @@ wrap({0o4432(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 28
@@ -230,18 +229,18 @@ wrap({0o4432(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 22,
                     "end": 29
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 29
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 14,
             "end": 30
@@ -255,7 +254,7 @@ wrap({0o4432(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 36
@@ -276,7 +275,7 @@ wrap({0o4432(){}});
                                             "text": 2310709,
                                             "rawText": "0x234235",
                                             "flags": 512,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 38,
                                             "end": 46
@@ -286,7 +285,7 @@ wrap({0o4432(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 47,
                                             "end": 48
@@ -300,13 +299,13 @@ wrap({0o4432(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 49
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 48,
                                             "end": 50
@@ -316,7 +315,7 @@ wrap({0o4432(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 46,
                                         "end": 50
@@ -325,13 +324,13 @@ wrap({0o4432(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,
                                 "end": 50
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 37,
                             "end": 51
@@ -340,18 +339,18 @@ wrap({0o4432(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 38,
                     "end": 52
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 36,
                 "end": 52
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 30,
             "end": 53
@@ -365,7 +364,7 @@ wrap({0o4432(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 53,
                     "end": 59
@@ -386,7 +385,7 @@ wrap({0o4432(){}});
                                             "text": 10,
                                             "rawText": "0b01010",
                                             "flags": 256,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 61,
                                             "end": 68
@@ -396,7 +395,7 @@ wrap({0o4432(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 69,
                                             "end": 70
@@ -410,13 +409,13 @@ wrap({0o4432(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 71
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 70,
                                             "end": 72
@@ -426,7 +425,7 @@ wrap({0o4432(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 68,
                                         "end": 72
@@ -435,13 +434,13 @@ wrap({0o4432(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 61,
                                 "end": 72
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 73
@@ -450,18 +449,18 @@ wrap({0o4432(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 61,
                     "end": 74
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 59,
                 "end": 74
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 53,
             "end": 75
@@ -475,7 +474,7 @@ wrap({0o4432(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 75,
                     "end": 81
@@ -496,7 +495,7 @@ wrap({0o4432(){}});
                                             "text": 2330,
                                             "rawText": "0o4432",
                                             "flags": 1024,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 83,
                                             "end": 89
@@ -506,7 +505,7 @@ wrap({0o4432(){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 90,
                                             "end": 91
@@ -520,13 +519,13 @@ wrap({0o4432(){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 92,
                                                 "end": 92
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 91,
                                             "end": 93
@@ -536,7 +535,7 @@ wrap({0o4432(){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 89,
                                         "end": 93
@@ -545,13 +544,13 @@ wrap({0o4432(){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 83,
                                 "end": 93
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 82,
                             "end": 94
@@ -560,18 +559,18 @@ wrap({0o4432(){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 83,
                     "end": 95
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 81,
                 "end": 95
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 75,
             "end": 96
@@ -580,7 +579,6 @@ wrap({0o4432(){}});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -590,17 +588,13 @@ wrap({0o4432(){}});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

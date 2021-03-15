@@ -14,10 +14,9 @@ class import {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class import {}",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ class import {}
                 "kind": 50,
                 "elements": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -39,7 +38,7 @@ class import {}
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 5
@@ -50,7 +49,7 @@ class import {}
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 15
@@ -66,26 +65,26 @@ class import {}
                         "kind": 115,
                         "specifiers": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
                 "isTypeOnly": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 5,
             "end": 15
@@ -109,7 +108,6 @@ class import {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -119,17 +117,13 @@ class import {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

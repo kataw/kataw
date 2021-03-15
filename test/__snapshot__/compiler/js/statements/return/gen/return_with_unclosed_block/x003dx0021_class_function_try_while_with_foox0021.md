@@ -14,10 +14,9 @@ return {} return(x) { =! class function try while with foo!
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return {} return(x) { =! class function try while with foo!",
     "filename": "",
     "statements": [
@@ -31,19 +30,19 @@ return {} return(x) { =! class function try while with foo!
                     "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -57,19 +56,19 @@ return {} return(x) { =! class function try while with foo!
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 9,
             "end": 19
@@ -81,13 +80,13 @@ return {} return(x) { =! class function try while with foo!
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 19,
             "end": 23
@@ -107,26 +106,26 @@ return {} return(x) { =! class function try while with foo!
                         "kind": 50,
                         "elements": [],
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 24,
                         "end": 24
                     },
                     "decorators": null,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 23,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 23,
             "end": 30
@@ -138,7 +137,7 @@ return {} return(x) { =! class function try while with foo!
                 "text": "",
                 "rawText": "",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 39,
                 "end": 39
@@ -148,7 +147,7 @@ return {} return(x) { =! class function try while with foo!
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 39
@@ -165,7 +164,7 @@ return {} return(x) { =! class function try while with foo!
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 49
@@ -179,13 +178,13 @@ return {} return(x) { =! class function try while with foo!
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 54,
                                         "end": 58
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 58,
                                     "end": 59
@@ -196,25 +195,25 @@ return {} return(x) { =! class function try while with foo!
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 59,
                                         "end": 59
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 59,
                                     "end": 59
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 59
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 43,
                             "end": 59
@@ -222,20 +221,20 @@ return {} return(x) { =! class function try while with foo!
                     ],
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 43,
                     "end": 59
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 59
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 30,
             "end": 59
@@ -308,7 +307,6 @@ return {} return(x) { =! class function try while with foo!
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -318,17 +316,13 @@ return {} return(x) { =! class function try while with foo!
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

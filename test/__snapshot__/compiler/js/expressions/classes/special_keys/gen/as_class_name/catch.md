@@ -14,10 +14,9 @@ class catch {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class catch {}",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ class catch {}
                 "kind": 50,
                 "elements": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -39,7 +38,7 @@ class catch {}
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 5
@@ -53,13 +52,13 @@ class catch {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 5
@@ -74,26 +73,26 @@ class catch {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 5,
                 "end": 14
             },
             "finallyBlock": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 16,
             "start": 5,
             "end": 14
@@ -110,7 +109,6 @@ class catch {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -120,17 +118,13 @@ class catch {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

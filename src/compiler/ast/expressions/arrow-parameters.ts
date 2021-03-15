@@ -27,7 +27,7 @@ export function createArrowParameters(
     accessModifier,
     trailingComma,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

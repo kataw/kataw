@@ -16,10 +16,9 @@ import foo;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import foo;",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ import foo;
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 10
@@ -42,7 +41,7 @@ import foo;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 6,
                     "end": 10
@@ -51,13 +50,13 @@ import foo;
                 "namedImports": null,
                 "isTypeOnly": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 11
@@ -74,7 +73,6 @@ import foo;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -84,17 +82,13 @@ import foo;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

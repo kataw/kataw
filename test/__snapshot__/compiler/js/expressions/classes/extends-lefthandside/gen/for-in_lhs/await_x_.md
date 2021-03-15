@@ -16,10 +16,9 @@ x; in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (await\nx; in x) ;",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ x; in x) ;
                 "text": "await",
                 "rawText": "await",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 10
@@ -43,13 +42,13 @@ x; in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 18
@@ -59,7 +58,7 @@ x; in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 12
@@ -68,13 +67,13 @@ x; in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -91,7 +90,6 @@ x; in x) ;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -101,17 +99,13 @@ x; in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -61,7 +60,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                         "formalParameterList": [],
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 34,
                                         "end": 35
@@ -80,7 +79,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 39
@@ -101,7 +100,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 57,
                                                                             "end": 58
@@ -110,7 +109,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "kind": 4260512,
                                                                             "text": null,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 60,
                                                                             "end": 65
@@ -120,26 +119,26 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "delegate": false,
                                                                             "expression": null,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 16393,
                                                                             "start": 67,
                                                                             "end": 73
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 55,
                                                                         "end": 73
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 74
                                                                 },
                                                                 "typeArguments": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 55,
                                                                 "end": 74
@@ -149,26 +148,26 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                 "kind": 50,
                                                                 "elements": [],
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1,
                                                                 "start": 76,
                                                                 "end": 78
                                                             },
                                                             "decorators": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 41,
                                                             "end": 78
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 78
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 78
@@ -176,13 +175,13 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                             ],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 78
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 35,
                                         "end": 80
@@ -190,19 +189,19 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                     "typeParameters": null,
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 128,
                                     "start": 22,
                                     "end": 80
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 81
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 82
@@ -210,20 +209,20 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 82
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 84
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 84
@@ -240,7 +239,6 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -250,17 +248,13 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

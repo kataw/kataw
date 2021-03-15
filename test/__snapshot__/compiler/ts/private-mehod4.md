@@ -15,10 +15,9 @@ const C = class {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const C = class {\n    #bar() {}\n    foo() {\n        this.#bar = console.log(\"should log this then throw\");\n    }\n}",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ const C = class {
                             "text": "C",
                             "rawText": "C",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 7
@@ -64,7 +63,7 @@ const C = class {
                                                 "text": "#bar",
                                                 "rawText": "#bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 524288,
                                                 "start": 17,
                                                 "end": 26
@@ -74,7 +73,7 @@ const C = class {
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 28
@@ -88,13 +87,13 @@ const C = class {
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 30
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 31
@@ -104,13 +103,13 @@ const C = class {
                                             "accessModifier": null,
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 31
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 17,
                                         "end": 31
@@ -128,7 +127,7 @@ const C = class {
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 39
@@ -138,7 +137,7 @@ const C = class {
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 41
@@ -159,7 +158,7 @@ const C = class {
                                                                     "member": {
                                                                         "kind": 4260571,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 43,
                                                                         "end": 56
@@ -169,13 +168,13 @@ const C = class {
                                                                         "text": "#bar",
                                                                         "rawText": "#bar",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 524288,
                                                                         "start": 57,
                                                                         "end": 61
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 61,
@@ -195,7 +194,7 @@ const C = class {
                                                                             "text": "console",
                                                                             "rawText": "console",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 63,
                                                                             "end": 71
@@ -205,13 +204,13 @@ const C = class {
                                                                             "text": "log",
                                                                             "rawText": "log",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 72,
                                                                             "end": 75
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 71,
                                                                         "end": 75,
@@ -230,7 +229,7 @@ const C = class {
                                                                                 "text": "should log this then throw",
                                                                                 "rawText": "should log this then throw",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 76,
                                                                                 "end": 104
@@ -239,24 +238,24 @@ const C = class {
                                                                         "trailingComma": false,
                                                                         "transformFlags": 0,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "start": 104,
                                                                         "end": 105
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 75,
                                                                     "end": 105
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 43,
                                                                 "end": 105
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 43,
                                                             "end": 106
@@ -264,13 +263,13 @@ const C = class {
                                                     ],
                                                     "multiline": true,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 106
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 112
@@ -280,46 +279,46 @@ const C = class {
                                             "accessModifier": null,
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 112
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 31,
                                         "end": 112
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 17,
                                 "end": 114
                             },
                             "decorators": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 114
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 114
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 114
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 114
@@ -328,7 +327,6 @@ const C = class {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -338,17 +336,13 @@ const C = class {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

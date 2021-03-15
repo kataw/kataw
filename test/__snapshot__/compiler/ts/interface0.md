@@ -15,10 +15,9 @@ var y: Generic<number> = { x: 3 };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface Generic<T> {\n    x: T;\n}\n\nvar y: Generic<number> = { x: 3 };\n",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var y: Generic<number> = { x: 3 };
                 "text": "Generic",
                 "rawText": "Generic",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 17
@@ -44,7 +43,7 @@ var y: Generic<number> = { x: 3 };
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 19
@@ -53,14 +52,14 @@ var y: Generic<number> = { x: 3 };
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 18,
                         "end": 19
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 18,
                 "end": 19
@@ -76,7 +75,7 @@ var y: Generic<number> = { x: 3 };
                             "text": "x",
                             "rawText": "x",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 22,
                             "end": 28
@@ -90,14 +89,14 @@ var y: Generic<number> = { x: 3 };
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 29,
                             "end": 32
@@ -106,7 +105,7 @@ var y: Generic<number> = { x: 3 };
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 22,
                         "end": 32
@@ -114,13 +113,13 @@ var y: Generic<number> = { x: 3 };
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 22,
                 "end": 32
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 34
@@ -137,7 +136,7 @@ var y: Generic<number> = { x: 3 };
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 39,
                             "end": 41
@@ -150,7 +149,7 @@ var y: Generic<number> = { x: 3 };
                                 "text": "Generic",
                                 "rawText": "Generic",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 50
@@ -161,20 +160,20 @@ var y: Generic<number> = { x: 3 };
                                     {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 51,
                                         "end": 57
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 51,
                                 "end": 57
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 42,
                             "end": 60
@@ -191,7 +190,7 @@ var y: Generic<number> = { x: 3 };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 62,
                                             "end": 64
@@ -201,7 +200,7 @@ var y: Generic<number> = { x: 3 };
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 65,
                                             "end": 67
@@ -209,7 +208,7 @@ var y: Generic<number> = { x: 3 };
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 62,
                                         "end": 67
@@ -218,32 +217,32 @@ var y: Generic<number> = { x: 3 };
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 62,
                                 "end": 67
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 69
                         },
                         "flags": 39,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 69
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 69
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 34,
             "end": 70
@@ -252,7 +251,6 @@ var y: Generic<number> = { x: 3 };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -262,17 +260,13 @@ var y: Generic<number> = { x: 3 };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ function compare</*comment*/T>() {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function compare</*comment*/T>() {}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function compare</*comment*/T>() {}
                 "text": "compare",
                 "rawText": "compare",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -34,7 +33,7 @@ function compare</*comment*/T>() {}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
                 "end": 32
@@ -47,13 +46,13 @@ function compare</*comment*/T>() {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 35
@@ -68,7 +67,7 @@ function compare</*comment*/T>() {}
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 29
@@ -77,20 +76,20 @@ function compare</*comment*/T>() {}
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 17,
                         "end": 29
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 17,
                 "end": 29
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 35
@@ -99,7 +98,6 @@ function compare</*comment*/T>() {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -109,17 +107,13 @@ function compare</*comment*/T>() {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

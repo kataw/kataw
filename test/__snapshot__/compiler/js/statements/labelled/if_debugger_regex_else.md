@@ -15,10 +15,9 @@ function x(){
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function x(){\n  if (x)\n    debugger\n    / /;\n  else;\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ function x(){
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -39,7 +38,7 @@ function x(){
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 12
@@ -57,7 +56,7 @@ function x(){
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
@@ -65,7 +64,7 @@ function x(){
                             "consequent": {
                                 "kind": 6291518,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 35
@@ -73,7 +72,7 @@ function x(){
                             "alternate": null,
                             "isWebCompat": true,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 35
@@ -84,13 +83,13 @@ function x(){
                                 "kind": 4260544,
                                 "text": "/ /",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 44
@@ -98,20 +97,20 @@ function x(){
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 44
                 },
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 44
             },
             "typeParameters": null,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 44
@@ -119,7 +118,7 @@ function x(){
         {
             "kind": 6291526,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 51,
             "end": 52
@@ -143,7 +142,6 @@ function x(){
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -153,17 +151,13 @@ function x(){
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

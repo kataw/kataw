@@ -15,7 +15,7 @@ export function createTrueType(text: string, rawText: string, flags: NodeFlags, 
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

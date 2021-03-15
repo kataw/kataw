@@ -12,10 +12,9 @@ result = ({ __proto__: x, __proto__: y } = value);
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "result = { __proto__: x, __proto__: y } = value;\n\nresult = ({ __proto__: x, __proto__: y } = value);",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "text": "result",
                     "rawText": "result",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 6
@@ -48,7 +47,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 10,
                                         "end": 20
@@ -58,7 +57,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
@@ -66,7 +65,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 23
@@ -78,7 +77,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 24,
                                         "end": 34
@@ -88,7 +87,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 35,
                                         "end": 37
@@ -96,7 +95,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 24,
                                     "end": 37
@@ -105,13 +104,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 37
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 39
@@ -122,25 +121,25 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "text": "value",
                         "rawText": "value",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 41,
                         "end": 47
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 47
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 47
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 48
@@ -154,7 +153,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "text": "result",
                     "rawText": "result",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 48,
                     "end": 56
@@ -176,7 +175,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 61,
                                             "end": 71
@@ -186,7 +185,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 72,
                                             "end": 74
@@ -194,7 +193,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 61,
                                         "end": 74
@@ -206,7 +205,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 75,
                                             "end": 85
@@ -216,7 +215,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 86,
                                             "end": 88
@@ -224,7 +223,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 75,
                                         "end": 88
@@ -233,13 +232,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 61,
                                 "end": 88
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 90
@@ -250,31 +249,31 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "text": "value",
                             "rawText": "value",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 92,
                             "end": 98
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 58,
                         "end": 98
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 58,
                     "end": 99
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 48,
                 "end": 99
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 48,
             "end": 100
@@ -283,7 +282,6 @@ result = ({ __proto__: x, __proto__: y } = value);
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -293,17 +291,13 @@ result = ({ __proto__: x, __proto__: y } = value);
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

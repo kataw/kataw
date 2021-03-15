@@ -10,10 +10,9 @@ wrap({[foo](){}, set [bar](e){}});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({[foo](){}, set [bar](e){}});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({[foo](){}, set [bar](e){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -49,13 +48,13 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 10
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 6,
                                             "end": 11
@@ -65,7 +64,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
@@ -79,13 +78,13 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 14
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
@@ -95,7 +94,7 @@ wrap({[foo](){}, set [bar](e){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 15
@@ -109,13 +108,13 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 25
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 20,
                                             "end": 26
@@ -131,7 +130,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 27,
                                                         "end": 28
@@ -143,7 +142,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 27,
                                                     "end": 28
@@ -151,7 +150,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
@@ -165,13 +164,13 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 30
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 29,
                                             "end": 31
@@ -181,7 +180,7 @@ wrap({[foo](){}, set [bar](e){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 26,
                                         "end": 31
@@ -190,13 +189,13 @@ wrap({[foo](){}, set [bar](e){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 31
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 32
@@ -205,18 +204,18 @@ wrap({[foo](){}, set [bar](e){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 33
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 34
@@ -225,7 +224,6 @@ wrap({[foo](){}, set [bar](e){}});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -235,17 +233,13 @@ wrap({[foo](){}, set [bar](e){}});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

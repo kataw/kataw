@@ -16,10 +16,9 @@ x {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends yield\nx {}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ x {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -43,14 +42,14 @@ x {}
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "typeArguments": null,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 21
@@ -60,7 +59,7 @@ x {}
                 "kind": 50,
                 "elements": [],
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -68,7 +67,7 @@ x {}
             "decorators": null,
             "isAbstract": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 21
@@ -80,13 +79,13 @@ x {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 32769,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 23
@@ -98,13 +97,13 @@ x {}
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 23,
             "end": 26
@@ -128,7 +127,6 @@ x {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -138,17 +136,13 @@ x {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

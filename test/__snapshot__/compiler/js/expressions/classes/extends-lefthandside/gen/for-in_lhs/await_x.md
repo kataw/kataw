@@ -14,10 +14,9 @@ for (await x in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (await x in x) ;",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ for (await x in x) ;
                 "text": "await",
                 "rawText": "await",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 10
@@ -41,7 +40,7 @@ for (await x in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 12
@@ -52,13 +51,13 @@ for (await x in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 17
@@ -67,13 +66,13 @@ for (await x in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 20
@@ -97,7 +96,6 @@ for (await x in x) ;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -107,17 +105,13 @@ for (await x in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

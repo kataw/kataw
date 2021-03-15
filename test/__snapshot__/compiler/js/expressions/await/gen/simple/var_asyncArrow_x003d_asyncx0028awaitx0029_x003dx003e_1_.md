@@ -14,10 +14,9 @@ var asyncArrow = async(await) => 1;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var asyncArrow = async(await) => 1;",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var asyncArrow = async(await) => 1;
                             "text": "asyncArrow",
                             "rawText": "asyncArrow",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 14
@@ -54,7 +53,7 @@ var asyncArrow = async(await) => 1;
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
@@ -66,7 +65,7 @@ var asyncArrow = async(await) => 1;
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 23,
                                         "end": 29
@@ -76,7 +75,7 @@ var asyncArrow = async(await) => 1;
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 29
@@ -86,32 +85,32 @@ var asyncArrow = async(await) => 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 34
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 34
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 35
@@ -120,7 +119,6 @@ var asyncArrow = async(await) => 1;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -130,17 +128,13 @@ var asyncArrow = async(await) => 1;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

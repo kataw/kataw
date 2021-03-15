@@ -14,10 +14,9 @@ yield /* comment */\n {yield: 42}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "yield /* comment */\\n {yield: 42}",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@ yield /* comment */\n {yield: 42}
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 5
@@ -46,13 +45,13 @@ yield /* comment */\n {yield: 42}
                 "text": "n",
                 "rawText": "n",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 20,
             "end": 21
@@ -69,7 +68,7 @@ yield /* comment */\n {yield: 42}
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 28
@@ -81,20 +80,20 @@ yield /* comment */\n {yield: 42}
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 29,
                             "end": 32
                         },
                         "isWebCompat": true,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 23,
                         "end": 32
@@ -102,13 +101,13 @@ yield /* comment */\n {yield: 42}
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 23,
                 "end": 32
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 33
@@ -132,7 +131,6 @@ yield /* comment */\n {yield: 42}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -142,17 +140,13 @@ yield /* comment */\n {yield: 42}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

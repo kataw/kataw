@@ -16,10 +16,9 @@ abc\uD835\uDFD0def
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "abc\\uD835\\uDFD0def",
     "filename": "",
     "statements": [
@@ -30,13 +29,13 @@ abc\uD835\uDFD0def
                 "text": "abc@{x1d7d0}@def",
                 "rawText": "abc\\uD835\\uDFD0def",
                 "flags": 8388608,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -45,7 +44,6 @@ abc\uD835\uDFD0def
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -55,17 +53,13 @@ abc\uD835\uDFD0def
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

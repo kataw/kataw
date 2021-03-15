@@ -56,10 +56,9 @@ class Point {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Point {\n/**\n * Does something.\n */\n  foo() {}\n\n    /**\n     * Does something else.\n     */\n  bar() {}\n\n                /**\n                 * Does\n                 * something\n                 * much\n                 * better\n                 * than\n                 * the\n                 * rest.\n                 */\n  baz() {}\n\n      /**\n       * Buzz-Fizz.\n       * Note: This is indented too far.\n       */\n      fizzBuzz() {}\n\n      /**\n       * Turns the given string into pig-latin.\n       */\n              pigLatinize(value: string) {\n/**\n * This is a block comment inside of a method.\n */\n              }\n\n  /**\n        * One\n * Two\n   * Three\n* Four\n   */\n  mismatchedIndentation() {}\n\n  inline /* foo*/ (/* bar */) /* baz */ {}\n}",
     "filename": "",
     "statements": [
@@ -70,7 +69,7 @@ class Point {
                 "text": "Point",
                 "rawText": "Point",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 11
@@ -94,7 +93,7 @@ class Point {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 46
@@ -104,7 +103,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 47,
                                 "end": 48
@@ -118,13 +117,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 50,
                                     "end": 50
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 51
@@ -134,13 +133,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 46,
                             "end": 51
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 13,
                         "end": 51
@@ -158,7 +157,7 @@ class Point {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 51,
                                 "end": 102
@@ -168,7 +167,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 103,
                                 "end": 104
@@ -182,13 +181,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 106,
                                     "end": 106
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 104,
                                 "end": 107
@@ -198,13 +197,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 102,
                             "end": 107
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 51,
                         "end": 107
@@ -222,7 +221,7 @@ class Point {
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 107,
                                 "end": 329
@@ -232,7 +231,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 330,
                                 "end": 331
@@ -246,13 +245,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 333,
                                     "end": 333
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 331,
                                 "end": 334
@@ -262,13 +261,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 329,
                             "end": 334
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 107,
                         "end": 334
@@ -286,7 +285,7 @@ class Point {
                                 "text": "fizzBuzz",
                                 "rawText": "fizzBuzz",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 334,
                                 "end": 431
@@ -296,7 +295,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 432,
                                 "end": 433
@@ -310,13 +309,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 435,
                                     "end": 435
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 433,
                                 "end": 436
@@ -326,13 +325,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 431,
                             "end": 436
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 334,
                         "end": 436
@@ -350,7 +349,7 @@ class Point {
                                 "text": "pigLatinize",
                                 "rawText": "pigLatinize",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 436,
                                 "end": 531
@@ -366,7 +365,7 @@ class Point {
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 532,
                                             "end": 537
@@ -375,7 +374,7 @@ class Point {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 538,
                                             "end": 545
@@ -385,7 +384,7 @@ class Point {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 532,
                                         "end": 545
@@ -393,7 +392,7 @@ class Point {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 532,
                                 "end": 546
@@ -407,13 +406,13 @@ class Point {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 548,
                                     "end": 548
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 546,
                                 "end": 619
@@ -423,13 +422,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 531,
                             "end": 619
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 436,
                         "end": 619
@@ -447,7 +446,7 @@ class Point {
                                 "text": "mismatchedIndentation",
                                 "rawText": "mismatchedIndentation",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 619,
                                 "end": 695
@@ -457,7 +456,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 696,
                                 "end": 697
@@ -471,13 +470,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 699,
                                     "end": 699
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 697,
                                 "end": 700
@@ -487,13 +486,13 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 695,
                             "end": 700
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 619,
                         "end": 700
@@ -511,7 +510,7 @@ class Point {
                                 "text": "inline",
                                 "rawText": "inline",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 700,
                                 "end": 710
@@ -521,7 +520,7 @@ class Point {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 721,
                                 "end": 731
@@ -535,13 +534,13 @@ class Point {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 743,
                                     "end": 743
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 731,
                                 "end": 744
@@ -551,20 +550,20 @@ class Point {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 710,
                             "end": 744
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 700,
                         "end": 744
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 13,
                 "end": 746
@@ -572,7 +571,7 @@ class Point {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 746
@@ -581,7 +580,6 @@ class Point {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -591,17 +589,13 @@ class Point {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

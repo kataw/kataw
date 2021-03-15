@@ -20,10 +20,9 @@ var await; var f = (async function() { async function f() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { async function f() {\n  let { [await \"a\"]: a } = { a: 1 };\n  return a;\n} });",
     "filename": "",
     "statements": [
@@ -39,7 +38,7 @@ var await; var f = (async function() { async function f() {
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -48,20 +47,20 @@ var await; var f = (async function() { async function f() {
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -78,7 +77,7 @@ var await; var f = (async function() { async function f() {
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -95,7 +94,7 @@ var await; var f = (async function() { async function f() {
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -112,7 +111,7 @@ var await; var f = (async function() { async function f() {
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 53,
                                                     "end": 55
@@ -122,7 +121,7 @@ var await; var f = (async function() { async function f() {
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 57
@@ -158,19 +157,19 @@ var await; var f = (async function() { async function f() {
                                                                                                         "text": "a",
                                                                                                         "rawText": "a",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 74,
                                                                                                         "end": 78
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 32780,
                                                                                                     "start": 69,
                                                                                                     "end": 78
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 131073,
                                                                                                 "start": 67,
                                                                                                 "end": 79
@@ -183,20 +182,20 @@ var await; var f = (async function() { async function f() {
                                                                                                     "text": "a",
                                                                                                     "rawText": "a",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 1025,
                                                                                                     "start": 80,
                                                                                                     "end": 82
                                                                                                 },
                                                                                                 "right": null,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1,
                                                                                                 "start": 80,
                                                                                                 "end": 82
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 1025,
                                                                                             "start": 67,
                                                                                             "end": 82
@@ -206,12 +205,12 @@ var await; var f = (async function() { async function f() {
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 1025,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 67,
                                                                                     "end": 82
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 65,
                                                                                 "end": 84
@@ -230,7 +229,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "text": "a",
                                                                                                 "rawText": "a",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 88,
                                                                                                 "end": 90
@@ -240,7 +239,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "text": 1,
                                                                                                 "rawText": "1",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 91,
                                                                                                 "end": 93
@@ -248,7 +247,7 @@ var await; var f = (async function() { async function f() {
                                                                                             "accessModifier": null,
                                                                                             "decorators": null,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 88,
                                                                                             "end": 93
@@ -257,32 +256,32 @@ var await; var f = (async function() { async function f() {
                                                                                     "trailingComma": false,
                                                                                     "multiline": false,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 88,
                                                                                     "end": 93
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 86,
                                                                                 "end": 95
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 65,
                                                                             "end": 95
                                                                         }
                                                                     ],
                                                                     "flags": 8,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 65,
                                                                     "end": 95
                                                                 },
                                                                 "flags": 32776,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 59,
                                                                 "end": 96
@@ -294,13 +293,13 @@ var await; var f = (async function() { async function f() {
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 105,
                                                                     "end": 107
                                                                 },
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 96,
                                                                 "end": 108
@@ -308,20 +307,20 @@ var await; var f = (async function() { async function f() {
                                                         ],
                                                         "multiline": true,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 108
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 110
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 260,
                                                 "start": 38,
                                                 "end": 110
@@ -329,13 +328,13 @@ var await; var f = (async function() { async function f() {
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 110
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 112
@@ -343,32 +342,32 @@ var await; var f = (async function() { async function f() {
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 112
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 113
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 113
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 113
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 114
@@ -377,7 +376,6 @@ var await; var f = (async function() { async function f() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -387,17 +385,13 @@ var await; var f = (async function() { async function f() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

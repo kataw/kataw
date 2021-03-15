@@ -13,10 +13,9 @@ class A {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {\n  static #x;\n  static #y: string;\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -45,7 +44,7 @@ class A {
                             "text": "#x",
                             "rawText": "#x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 524288,
                             "start": 18,
                             "end": 21
@@ -62,7 +61,7 @@ class A {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 22
@@ -74,7 +73,7 @@ class A {
                             "text": "#y",
                             "rawText": "#y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 524288,
                             "start": 31,
                             "end": 34
@@ -88,7 +87,7 @@ class A {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 35,
                             "end": 42
@@ -98,14 +97,14 @@ class A {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 22,
                         "end": 43
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 45
@@ -113,7 +112,7 @@ class A {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 45
@@ -122,7 +121,6 @@ class A {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -132,17 +130,13 @@ class A {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

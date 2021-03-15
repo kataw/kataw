@@ -25,7 +25,7 @@ export function createParenthesizedExpression(
     kind: NodeKind.ParenthesizedExpression,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

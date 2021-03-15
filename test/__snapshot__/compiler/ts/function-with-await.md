@@ -12,10 +12,9 @@ async function hope(future) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function hope(future) {\n    await future;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ async function hope(future) {
                 "text": "hope",
                 "rawText": "hope",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 19
@@ -42,7 +41,7 @@ async function hope(future) {
                             "text": "future",
                             "rawText": "future",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 20,
                             "end": 26
@@ -54,7 +53,7 @@ async function hope(future) {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 26
@@ -62,7 +61,7 @@ async function hope(future) {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 27
@@ -82,19 +81,19 @@ async function hope(future) {
                                     "text": "future",
                                     "rawText": "future",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 46
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 32780,
                                 "start": 29,
                                 "end": 46
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 29,
                             "end": 47
@@ -102,20 +101,20 @@ async function hope(future) {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 47
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 49
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 49
@@ -124,7 +123,6 @@ async function hope(future) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -134,17 +132,13 @@ async function hope(future) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -11,17 +11,16 @@ debugger
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "debugger\n/bar",
     "filename": "",
     "statements": [
         {
             "kind": 6291518,
             "flags": 1081344,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 8
@@ -32,13 +31,13 @@ debugger
                 "kind": 4260544,
                 "text": "/bar",
                 "flags": 1081344,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 8,
             "end": 13
@@ -55,7 +54,6 @@ debugger
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -65,17 +63,13 @@ debugger
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

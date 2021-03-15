@@ -12,10 +12,9 @@ abstract class Foo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "abstract class Foo {\n  public abstract readonly foo = 'string';\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ abstract class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 18
@@ -44,7 +43,7 @@ abstract class Foo {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 47,
                             "end": 51
@@ -61,7 +60,7 @@ abstract class Foo {
                             "text": "string",
                             "rawText": "string",
                             "flags": 33554432,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 53,
                             "end": 62
@@ -70,21 +69,21 @@ abstract class Foo {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 20,
                             "end": 29
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 20,
                         "end": 63
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 20,
                 "end": 65
@@ -92,7 +91,7 @@ abstract class Foo {
             "decorators": null,
             "isAbstract": true,
             "flags": 536870912,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 8,
             "end": 65
@@ -101,7 +100,6 @@ abstract class Foo {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -111,17 +109,13 @@ abstract class Foo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

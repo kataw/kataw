@@ -16,10 +16,9 @@ function *f() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function *f() {\n  yield async (x, y) => ok\n}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ function *f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 11
@@ -40,7 +39,7 @@ function *f() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -70,7 +69,7 @@ function *f() {
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 35
@@ -82,7 +81,7 @@ function *f() {
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 33,
                                                 "end": 36
@@ -95,7 +94,7 @@ function *f() {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 32
@@ -107,7 +106,7 @@ function *f() {
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 33,
                                                 "end": 36
@@ -117,7 +116,7 @@ function *f() {
                                         "accessModifier": null,
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 32,
                                         "end": 36
@@ -127,25 +126,25 @@ function *f() {
                                         "text": "ok",
                                         "rawText": "ok",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 39,
                                         "end": 42
                                     },
                                     "flags": 1073774592,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 42
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 16393,
                                 "start": 15,
                                 "end": 42
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 42
@@ -153,20 +152,20 @@ function *f() {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 42
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 44
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 44
@@ -175,7 +174,6 @@ function *f() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -185,17 +183,13 @@ function *f() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

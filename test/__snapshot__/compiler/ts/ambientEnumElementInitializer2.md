@@ -12,10 +12,9 @@ declare enum E {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare enum E {\n e = -3 // Negative\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ declare enum E {
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 14
@@ -41,7 +40,7 @@ declare enum E {
                             "text": "e",
                             "rawText": "e",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 19
@@ -54,33 +53,33 @@ declare enum E {
                                 "text": 3,
                                 "rawText": "3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 24
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 16,
                         "end": 24
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 24
             },
             "isConst": false,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 38
@@ -89,7 +88,6 @@ declare enum E {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -99,17 +97,13 @@ declare enum E {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

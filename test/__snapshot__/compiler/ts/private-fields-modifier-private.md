@@ -12,10 +12,9 @@ class A {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {\n  private #a;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -44,7 +43,7 @@ class A {
                             "text": "#a",
                             "rawText": "#a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 524288,
                             "start": 19,
                             "end": 22
@@ -61,21 +60,21 @@ class A {
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 9,
                             "end": 19
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 23
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 25
@@ -83,7 +82,7 @@ class A {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 25
@@ -92,7 +91,6 @@ class A {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -102,17 +100,13 @@ class A {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

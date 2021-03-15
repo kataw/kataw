@@ -31,7 +31,7 @@ export function createIfStatement(
     alternate,
     isWebCompat,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

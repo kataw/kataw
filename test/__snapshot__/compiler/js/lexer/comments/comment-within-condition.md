@@ -17,10 +17,9 @@ if (/* bar */  a) {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "/* foo */\nif (/* bar */  a) {}",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ if (/* bar */  a) {}
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 26
@@ -43,13 +42,13 @@ if (/* bar */  a) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 30
@@ -57,7 +56,7 @@ if (/* bar */  a) {}
             "alternate": null,
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -66,7 +65,6 @@ if (/* bar */  a) {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -76,17 +74,13 @@ if (/* bar */  a) {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

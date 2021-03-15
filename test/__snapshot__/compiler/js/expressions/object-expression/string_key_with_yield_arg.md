@@ -10,10 +10,9 @@ s = {"foo": yield /x/}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "s = {\"foo\": yield /x/}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ s = {"foo": yield /x/}
                     "text": "s",
                     "rawText": "s",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -44,7 +43,7 @@ s = {"foo": yield /x/}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
@@ -58,7 +57,7 @@ s = {"foo": yield /x/}
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 11,
                                             "end": 17
@@ -69,13 +68,13 @@ s = {"foo": yield /x/}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 20
@@ -85,13 +84,13 @@ s = {"foo": yield /x/}
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 21,
                                         "end": 21
                                     },
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 11,
                                     "end": 21
@@ -99,7 +98,7 @@ s = {"foo": yield /x/}
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 21
@@ -108,25 +107,25 @@ s = {"foo": yield /x/}
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 21
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 22
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -143,7 +142,6 @@ s = {"foo": yield /x/}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -153,17 +151,13 @@ s = {"foo": yield /x/}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

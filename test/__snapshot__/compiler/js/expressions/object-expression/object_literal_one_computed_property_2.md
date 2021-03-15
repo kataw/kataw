@@ -10,10 +10,9 @@ wrap({[a]:b, [15]:d}=obj);
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({[a]:b, [15]:d}=obj);",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({[a]:b, [15]:d}=obj);
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -51,13 +50,13 @@ wrap({[a]:b, [15]:d}=obj);
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 8
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 6,
                                                 "end": 9
@@ -67,7 +66,7 @@ wrap({[a]:b, [15]:d}=obj);
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
@@ -75,7 +74,7 @@ wrap({[a]:b, [15]:d}=obj);
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 11
@@ -89,13 +88,13 @@ wrap({[a]:b, [15]:d}=obj);
                                                     "text": 15,
                                                     "rawText": "15",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 16
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 12,
                                                 "end": 17
@@ -105,7 +104,7 @@ wrap({[a]:b, [15]:d}=obj);
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 19
@@ -113,7 +112,7 @@ wrap({[a]:b, [15]:d}=obj);
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
@@ -122,13 +121,13 @@ wrap({[a]:b, [15]:d}=obj);
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 6,
                                     "end": 19
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 20
@@ -139,13 +138,13 @@ wrap({[a]:b, [15]:d}=obj);
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 24
@@ -154,18 +153,18 @@ wrap({[a]:b, [15]:d}=obj);
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 25
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 26
@@ -174,7 +173,6 @@ wrap({[a]:b, [15]:d}=obj);
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -184,17 +182,13 @@ wrap({[a]:b, [15]:d}=obj);
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

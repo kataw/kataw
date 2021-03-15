@@ -14,10 +14,9 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "text": "gfe",
                             "rawText": "gfe",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 7
@@ -47,7 +46,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "text": "rgfe",
                                 "rawText": "rgfe",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 19,
                                 "end": 24
@@ -57,7 +56,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 26
@@ -74,7 +73,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 38
@@ -92,13 +91,13 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 33554432,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 59
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 16393,
                                                             "start": 46,
                                                             "end": 59
@@ -108,27 +107,27 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 2097193,
                                                                 "label": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 60,
                                                                 "end": 67
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 67
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 69
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 28,
                                             "end": 69
@@ -136,13 +135,13 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 28,
                                     "end": 69
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 26,
                                 "end": 71
@@ -150,26 +149,26 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 128,
                             "start": 9,
                             "end": 71
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 71
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 71
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 71
@@ -178,7 +177,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -188,17 +186,13 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

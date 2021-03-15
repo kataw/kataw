@@ -20,7 +20,7 @@ export function createJsxSpreadAttribute(
     kind: NodeKind.JsxSpreadAttribute,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: expression.transformFlags | TransformFlags.Jsx,
     start,
     end

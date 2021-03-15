@@ -32,7 +32,7 @@ export function createArrowFunction(
     arrowParameters,
     contents,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

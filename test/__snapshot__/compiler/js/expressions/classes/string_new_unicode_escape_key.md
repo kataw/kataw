@@ -16,10 +16,9 @@ class x { "prot\u{6f}type"(){} }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x { \"prot\\u{6f}type\"(){} }",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ class x { "prot\u{6f}type"(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -54,7 +53,7 @@ class x { "prot\u{6f}type"(){} }
                                 "text": "prototype",
                                 "rawText": "prototype",
                                 "flags": 4194304,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 9,
                                 "end": 26
@@ -64,7 +63,7 @@ class x { "prot\u{6f}type"(){} }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 28
@@ -78,13 +77,13 @@ class x { "prot\u{6f}type"(){} }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
@@ -94,20 +93,20 @@ class x { "prot\u{6f}type"(){} }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 30
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 30
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 32
@@ -115,7 +114,7 @@ class x { "prot\u{6f}type"(){} }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 32
@@ -124,7 +123,6 @@ class x { "prot\u{6f}type"(){} }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -134,17 +132,13 @@ class x { "prot\u{6f}type"(){} }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

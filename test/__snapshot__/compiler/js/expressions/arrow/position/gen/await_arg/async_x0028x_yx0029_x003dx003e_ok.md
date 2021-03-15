@@ -16,10 +16,9 @@ async function f() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function f() {\n  await async (x, y) => ok\n}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ async function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -40,7 +39,7 @@ async function f() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -66,7 +65,7 @@ async function f() {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 40
@@ -78,7 +77,7 @@ async function f() {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 38,
                                             "end": 41
@@ -91,7 +90,7 @@ async function f() {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 37
@@ -103,7 +102,7 @@ async function f() {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 38,
                                             "end": 41
@@ -113,19 +112,19 @@ async function f() {
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 41
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 32780,
                                 "start": 20,
                                 "end": 41
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 41
@@ -133,20 +132,20 @@ async function f() {
                     ],
                     "multiline": true,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 41
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 41
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 41
@@ -158,13 +157,13 @@ async function f() {
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 44,
                 "end": 47
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 44,
             "end": 47
@@ -188,7 +187,6 @@ async function f() {
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -198,17 +196,13 @@ async function f() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

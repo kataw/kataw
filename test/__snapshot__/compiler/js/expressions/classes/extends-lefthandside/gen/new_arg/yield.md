@@ -14,10 +14,9 @@ new yield
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new yield",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ new yield
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 9
@@ -38,13 +37,13 @@ new yield
                 "typeArguments": null,
                 "argumentList": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 32,
                 "start": 0,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -53,7 +52,6 @@ new yield
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -63,17 +61,13 @@ new yield
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

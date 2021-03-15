@@ -10,10 +10,9 @@ for (x in y) continue
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (x in y) continue",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ for (x in y) continue
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 6
@@ -34,7 +33,7 @@ for (x in y) continue
                 "text": "y",
                 "rawText": "y",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -43,13 +42,13 @@ for (x in y) continue
                 "kind": 2097212,
                 "label": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -58,7 +57,6 @@ for (x in y) continue
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -68,17 +66,13 @@ for (x in y) continue
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

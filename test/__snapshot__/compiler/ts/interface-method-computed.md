@@ -13,10 +13,9 @@ interface I {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface I {\n    [Symbol.iterator](): void;\n    [Symbol.iterator]?(): number;\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ interface I {
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -48,7 +47,7 @@ interface I {
                                     "text": "Symbol",
                                     "rawText": "Symbol",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 25
@@ -58,13 +57,13 @@ interface I {
                                     "text": "iterator",
                                     "rawText": "iterator",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 34
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 34,
@@ -75,7 +74,7 @@ interface I {
                                 }
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 13,
                             "end": 35
@@ -90,7 +89,7 @@ interface I {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 36,
                             "end": 36
@@ -98,13 +97,13 @@ interface I {
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 38,
                             "end": 43
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 13,
                         "end": 44
@@ -120,7 +119,7 @@ interface I {
                                     "text": "Symbol",
                                     "rawText": "Symbol",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 50,
                                     "end": 56
@@ -130,13 +129,13 @@ interface I {
                                     "text": "iterator",
                                     "rawText": "iterator",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 57,
                                     "end": 65
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 56,
                                 "end": 65,
@@ -147,7 +146,7 @@ interface I {
                                 }
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 44,
                             "end": 66
@@ -162,7 +161,7 @@ interface I {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 68,
                             "end": 68
@@ -170,13 +169,13 @@ interface I {
                         "returnType": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 70,
                             "end": 77
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 44,
                         "end": 78
@@ -184,13 +183,13 @@ interface I {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 13,
                 "end": 78
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 80
@@ -199,7 +198,6 @@ interface I {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -209,17 +207,13 @@ interface I {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

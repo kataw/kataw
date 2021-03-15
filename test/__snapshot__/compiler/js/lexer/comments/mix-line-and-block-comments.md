@@ -18,10 +18,9 @@ var zzz /*aaa*/ = 777;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "//foo\nvar zzz /*aaa*/ = 777;\n//bar",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ var zzz /*aaa*/ = 777;
                             "text": "zzz",
                             "rawText": "zzz",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 9,
                             "end": 13
@@ -49,26 +48,26 @@ var zzz /*aaa*/ = 777;
                             "text": 777,
                             "rawText": "777",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
                         "flags": 9,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 27
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 27
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -77,7 +76,6 @@ var zzz /*aaa*/ = 777;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -87,17 +85,13 @@ var zzz /*aaa*/ = 777;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

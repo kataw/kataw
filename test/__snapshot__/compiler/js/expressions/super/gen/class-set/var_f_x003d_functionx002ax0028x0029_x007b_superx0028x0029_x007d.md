@@ -14,10 +14,9 @@ class C { set x(_) { var f = function*() { super(); } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { set x(_) { var f = function*() { super(); } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
@@ -68,7 +67,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                             "text": "_",
                                             "rawText": "_",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 16,
                                             "end": 17
@@ -80,7 +79,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 16,
                                         "end": 17
@@ -88,7 +87,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
@@ -112,7 +111,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 24,
                                                             "end": 26
@@ -127,7 +126,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 40
@@ -144,7 +143,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                 "expression": {
                                                                                     "kind": 4260561,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 42,
                                                                                     "end": 48
@@ -156,18 +155,18 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 50,
                                                                                     "end": 50
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 65536,
                                                                                 "start": 48,
                                                                                 "end": 50
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 42,
                                                                             "end": 51
@@ -175,13 +174,13 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 42,
                                                                     "end": 51
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 53
@@ -189,26 +188,26 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                             "typeParameters": null,
                                                             "type": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 128,
                                                             "start": 28,
                                                             "end": 53
                                                         },
                                                         "flags": 24,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 53
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 53
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 20,
                                             "end": 53
@@ -216,13 +215,13 @@ class C { set x(_) { var f = function*() { super(); } } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 53
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 55
@@ -232,20 +231,20 @@ class C { set x(_) { var f = function*() { super(); } } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 55
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 55
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 57
@@ -253,7 +252,7 @@ class C { set x(_) { var f = function*() { super(); } } }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 57
@@ -262,7 +261,6 @@ class C { set x(_) { var f = function*() { super(); } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -272,17 +270,13 @@ class C { set x(_) { var f = function*() { super(); } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

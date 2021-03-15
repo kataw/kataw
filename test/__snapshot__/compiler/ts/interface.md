@@ -13,10 +13,9 @@ abstract
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface: foo\ninterface\nabstract: foo\nabstract",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ abstract
                 "text": "interface",
                 "rawText": "interface",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 9
@@ -39,20 +38,20 @@ abstract
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 14
@@ -64,13 +63,13 @@ abstract
                 "text": "interface",
                 "rawText": "interface",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 14,
             "end": 24
@@ -82,7 +81,7 @@ abstract
                 "text": "abstract",
                 "rawText": "abstract",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 24,
                 "end": 33
@@ -94,20 +93,20 @@ abstract
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 34,
                     "end": 38
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 38
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 24,
             "end": 38
@@ -119,13 +118,13 @@ abstract
                 "text": "abstract",
                 "rawText": "abstract",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 38,
                 "end": 47
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 38,
             "end": 47
@@ -134,7 +133,6 @@ abstract
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -144,17 +142,13 @@ abstract
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

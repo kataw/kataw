@@ -14,10 +14,9 @@ for (async function f(){} in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (async function f(){} in x) ;",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ for (async function f(){} in x) ;
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 19,
                     "end": 21
@@ -40,7 +39,7 @@ for (async function f(){} in x) ;
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 23
@@ -52,13 +51,13 @@ for (async function f(){} in x) ;
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 25
@@ -66,7 +65,7 @@ for (async function f(){} in x) ;
                 "typeParameters": null,
                 "type": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 25
@@ -76,7 +75,7 @@ for (async function f(){} in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 30
@@ -84,13 +83,13 @@ for (async function f(){} in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 33
@@ -99,7 +98,6 @@ for (async function f(){} in x) ;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -109,17 +107,13 @@ for (async function f(){} in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

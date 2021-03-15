@@ -10,10 +10,9 @@ wrap({set foo(a){}});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({set foo(a){}});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({set foo(a){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -47,7 +46,7 @@ wrap({set foo(a){}});
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
@@ -63,7 +62,7 @@ wrap({set foo(a){}});
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 14,
                                                         "end": 15
@@ -75,7 +74,7 @@ wrap({set foo(a){}});
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 14,
                                                     "end": 15
@@ -83,7 +82,7 @@ wrap({set foo(a){}});
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
@@ -97,13 +96,13 @@ wrap({set foo(a){}});
                                                 "statements": [],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 17
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
@@ -113,7 +112,7 @@ wrap({set foo(a){}});
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
@@ -122,13 +121,13 @@ wrap({set foo(a){}});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 19
@@ -137,18 +136,18 @@ wrap({set foo(a){}});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -157,7 +156,6 @@ wrap({set foo(a){}});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -167,17 +165,13 @@ wrap({set foo(a){}});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

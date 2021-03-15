@@ -14,10 +14,9 @@ async function af(a, b = await a) { }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function af(a, b = await a) { }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ async function af(a, b = await a) { }
                 "text": "af",
                 "rawText": "af",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 17
@@ -44,7 +43,7 @@ async function af(a, b = await a) { }
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 18,
                             "end": 19
@@ -56,7 +55,7 @@ async function af(a, b = await a) { }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 18,
                         "end": 19
@@ -69,7 +68,7 @@ async function af(a, b = await a) { }
                             "text": "b",
                             "rawText": "b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 20,
                             "end": 22
@@ -81,7 +80,7 @@ async function af(a, b = await a) { }
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 24,
                             "end": 30
@@ -90,7 +89,7 @@ async function af(a, b = await a) { }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 30
@@ -103,7 +102,7 @@ async function af(a, b = await a) { }
                             "text": "a",
                             "rawText": "a",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 30,
                             "end": 32
@@ -115,7 +114,7 @@ async function af(a, b = await a) { }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 30,
                         "end": 32
@@ -123,7 +122,7 @@ async function af(a, b = await a) { }
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 33
@@ -136,20 +135,20 @@ async function af(a, b = await a) { }
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 33,
                 "end": 37
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 37
@@ -166,7 +165,6 @@ async function af(a, b = await a) { }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -176,17 +174,13 @@ async function af(a, b = await a) { }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

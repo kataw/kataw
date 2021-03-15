@@ -20,7 +20,7 @@ export function createEnumMembersList(
     kind: NodeKind.EnumMembersList,
     enumMembersList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

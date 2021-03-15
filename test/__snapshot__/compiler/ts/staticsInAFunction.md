@@ -15,10 +15,9 @@ function boo{
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function boo{\n   static test()\n   static test(name:string)\n   static test(name?:any){}\n}\n",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ function boo{
                 "text": "boo",
                 "rawText": "boo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -39,7 +38,7 @@ function boo{
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 12
@@ -57,13 +56,13 @@ function boo{
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 23
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 23
@@ -77,7 +76,7 @@ function boo{
                                     "text": "test",
                                     "rawText": "test",
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
@@ -89,18 +88,18 @@ function boo{
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 30,
                                     "end": 30
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 30
@@ -112,13 +111,13 @@ function boo{
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 40
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 40
@@ -132,7 +131,7 @@ function boo{
                                     "text": "test",
                                     "rawText": "test",
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 40,
                                     "end": 45
@@ -149,7 +148,7 @@ function boo{
                                                 "text": "name",
                                                 "rawText": "name",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 50
@@ -158,7 +157,7 @@ function boo{
                                             "type": {
                                                 "kind": 4202702,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 51,
                                                 "end": 57
@@ -168,7 +167,7 @@ function boo{
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 46,
                                             "end": 57
@@ -177,18 +176,18 @@ function boo{
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 50,
                                     "end": 58
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 45,
                                 "end": 58
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
                             "end": 58
@@ -200,13 +199,13 @@ function boo{
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 58,
                                 "end": 68
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 58,
                             "end": 68
@@ -220,7 +219,7 @@ function boo{
                                     "text": "test",
                                     "rawText": "test",
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 68,
                                     "end": 73
@@ -237,7 +236,7 @@ function boo{
                                                 "text": "name",
                                                 "rawText": "name",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 78
@@ -246,7 +245,7 @@ function boo{
                                             "type": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 80,
                                                 "end": 83
@@ -256,7 +255,7 @@ function boo{
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 74,
                                             "end": 83
@@ -265,18 +264,18 @@ function boo{
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 78,
                                     "end": 84
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 73,
                                 "end": 84
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 68,
                             "end": 84
@@ -288,13 +287,13 @@ function boo{
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 85,
                                 "end": 85
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 84,
                             "end": 86
@@ -302,20 +301,20 @@ function boo{
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 86
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 88
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 88
@@ -360,7 +359,6 @@ function boo{
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -370,17 +368,13 @@ function boo{
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

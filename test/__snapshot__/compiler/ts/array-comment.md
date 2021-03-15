@@ -17,10 +17,9 @@ class ViewTokensChangedEvent {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class ViewTokensChangedEvent {\n  public readonly ranges: {\n    /**\n     * Start line number of range\n     */\n    readonly fromLineNumber: number;\n  }[];\n}",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ class ViewTokensChangedEvent {
                 "text": "ViewTokensChangedEvent",
                 "rawText": "ViewTokensChangedEvent",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 28
@@ -49,7 +48,7 @@ class ViewTokensChangedEvent {
                             "text": "ranges",
                             "rawText": "ranges",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 48,
                             "end": 55
@@ -74,7 +73,7 @@ class ViewTokensChangedEvent {
                                                 "text": "fromLineNumber",
                                                 "rawText": "fromLineNumber",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 121,
                                                 "end": 136
@@ -84,7 +83,7 @@ class ViewTokensChangedEvent {
                                             "type": {
                                                 "kind": 4202657,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 137,
                                                 "end": 144
@@ -93,7 +92,7 @@ class ViewTokensChangedEvent {
                                             "isReadOnly": true,
                                             "initializer": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 58,
                                             "end": 145
@@ -101,19 +100,19 @@ class ViewTokensChangedEvent {
                                     ],
                                     "multiline": true,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 58,
                                     "end": 149
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 56,
                                 "end": 149
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 56,
                             "end": 152
@@ -123,21 +122,21 @@ class ViewTokensChangedEvent {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 30,
                             "end": 39
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 30,
                         "end": 152
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 30,
                 "end": 154
@@ -145,7 +144,7 @@ class ViewTokensChangedEvent {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 154
@@ -154,7 +153,6 @@ class ViewTokensChangedEvent {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -164,17 +162,13 @@ class ViewTokensChangedEvent {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ new /crap/
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new /crap/",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ new /crap/
                     "kind": 4260544,
                     "text": "/crap/",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 10
@@ -37,13 +36,13 @@ new /crap/
                 "typeArguments": null,
                 "argumentList": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 32,
                 "start": 0,
                 "end": 10
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -52,7 +51,6 @@ new /crap/
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -62,17 +60,13 @@ new /crap/
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

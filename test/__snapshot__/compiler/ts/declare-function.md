@@ -10,10 +10,9 @@ declare function foo(bar: string): string;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function foo(bar: string): string;",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ declare function foo(bar: string): string;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 16,
                 "end": 20
@@ -40,7 +39,7 @@ declare function foo(bar: string): string;
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 21,
                             "end": 24
@@ -49,7 +48,7 @@ declare function foo(bar: string): string;
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 25,
                             "end": 32
@@ -59,7 +58,7 @@ declare function foo(bar: string): string;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 21,
                         "end": 32
@@ -67,7 +66,7 @@ declare function foo(bar: string): string;
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 33
@@ -75,7 +74,7 @@ declare function foo(bar: string): string;
             "type": {
                 "kind": 4202702,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 34,
                 "end": 41
@@ -83,7 +82,7 @@ declare function foo(bar: string): string;
             "contents": null,
             "typeParameters": null,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 42
@@ -92,7 +91,6 @@ declare function foo(bar: string): string;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -102,17 +100,13 @@ declare function foo(bar: string): string;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

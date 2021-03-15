@@ -12,10 +12,9 @@ class Test {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Test {\n    static member = async (x: string) => { };\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class Test {
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 10
@@ -44,7 +43,7 @@ class Test {
                             "text": "member",
                             "rawText": "member",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 30
@@ -70,7 +69,7 @@ class Test {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
@@ -79,7 +78,7 @@ class Test {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 42,
                                             "end": 49
@@ -89,7 +88,7 @@ class Test {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 40,
                                         "end": 49
@@ -99,7 +98,7 @@ class Test {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 41,
                                 "end": 50
@@ -111,19 +110,19 @@ class Test {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 55,
                                     "end": 55
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 53,
                                 "end": 57
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 32,
                             "end": 57
@@ -132,14 +131,14 @@ class Test {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 12,
                         "end": 58
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 12,
                 "end": 60
@@ -147,7 +146,7 @@ class Test {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 60
@@ -156,7 +155,6 @@ class Test {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -166,17 +164,13 @@ class Test {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

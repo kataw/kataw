@@ -23,7 +23,7 @@ export function createParameters(
     parameterList,
     trailingcomma,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

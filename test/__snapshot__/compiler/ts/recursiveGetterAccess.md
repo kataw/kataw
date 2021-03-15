@@ -14,10 +14,9 @@ get testProp() { return this.testProp; }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class MyClass {\nget testProp() { return this.testProp; }\n}\n\n",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ get testProp() { return this.testProp; }
                 "text": "MyClass",
                 "rawText": "MyClass",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 13
@@ -52,7 +51,7 @@ get testProp() { return this.testProp; }
                                 "text": "testProp",
                                 "rawText": "testProp",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 28
@@ -62,7 +61,7 @@ get testProp() { return this.testProp; }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
@@ -81,7 +80,7 @@ get testProp() { return this.testProp; }
                                                 "member": {
                                                     "kind": 4260571,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 44
@@ -91,13 +90,13 @@ get testProp() { return this.testProp; }
                                                     "text": "testProp",
                                                     "rawText": "testProp",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 53
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 53,
@@ -108,7 +107,7 @@ get testProp() { return this.testProp; }
                                                 }
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 32,
                                             "end": 54
@@ -116,13 +115,13 @@ get testProp() { return this.testProp; }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 32,
                                     "end": 54
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 56
@@ -132,20 +131,20 @@ get testProp() { return this.testProp; }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 56
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 15,
                         "end": 56
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 15,
                 "end": 58
@@ -153,7 +152,7 @@ get testProp() { return this.testProp; }
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 58
@@ -162,7 +161,6 @@ get testProp() { return this.testProp; }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -172,17 +170,13 @@ get testProp() { return this.testProp; }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

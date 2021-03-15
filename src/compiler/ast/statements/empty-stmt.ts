@@ -10,7 +10,7 @@ export function createEmptyStatement(flags: NodeFlags, start: number, end: numbe
   return {
     kind: NodeKind.EmptyStatement,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

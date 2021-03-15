@@ -16,10 +16,9 @@ export default function foo() {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export default function foo() {}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ export default function foo() {}
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 23,
                     "end": 27
@@ -42,7 +41,7 @@ export default function foo() {}
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 28,
                     "end": 29
@@ -55,26 +54,26 @@ export default function foo() {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
                 "typeParameters": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 256,
                 "start": 14,
                 "end": 32
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 32
@@ -91,7 +90,6 @@ export default function foo() {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -101,17 +99,13 @@ export default function foo() {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

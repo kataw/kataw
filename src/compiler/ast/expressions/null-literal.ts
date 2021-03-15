@@ -12,7 +12,7 @@ export function createNullLiteral(flags: NodeFlags, start: number, end: number):
     kind: NodeKind.NullLiteral,
     text: null,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

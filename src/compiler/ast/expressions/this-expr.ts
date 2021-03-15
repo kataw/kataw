@@ -9,7 +9,7 @@ export function createThisExpression(flags: NodeFlags, start: number, end: numbe
   return {
     kind: NodeKind.ThisExpression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

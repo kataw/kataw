@@ -10,10 +10,9 @@ do wow: while (x) while (x) continue wow;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do wow: while (x) while (x) continue wow;",
     "filename": "",
     "statements": [
@@ -23,7 +22,7 @@ do wow: while (x) while (x) continue wow;
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 41,
                 "end": 41
@@ -35,7 +34,7 @@ do wow: while (x) while (x) continue wow;
                     "text": "wow",
                     "rawText": "wow",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 6
@@ -47,7 +46,7 @@ do wow: while (x) while (x) continue wow;
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 15,
                         "end": 16
@@ -59,7 +58,7 @@ do wow: while (x) while (x) continue wow;
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 26
@@ -71,38 +70,38 @@ do wow: while (x) while (x) continue wow;
                                 "text": "wow",
                                 "rawText": "wow",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 40
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 41
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 17,
                         "end": 41
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 41
                 },
                 "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 41
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 41
@@ -119,7 +118,6 @@ do wow: while (x) while (x) continue wow;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -129,17 +127,13 @@ do wow: while (x) while (x) continue wow;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

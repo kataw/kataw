@@ -14,10 +14,9 @@ for (a in b) function f(){}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (a in b) function f(){}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ for (a in b) function f(){}
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 6
@@ -38,7 +37,7 @@ for (a in b) function f(){}
                 "text": "b",
                 "rawText": "b",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -50,7 +49,7 @@ for (a in b) function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 21,
                     "end": 23
@@ -60,7 +59,7 @@ for (a in b) function f(){}
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 24,
                     "end": 25
@@ -73,26 +72,26 @@ for (a in b) function f(){}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 25,
                     "end": 27
                 },
                 "typeParameters": null,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 256,
                 "start": 12,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 27
@@ -109,7 +108,6 @@ for (a in b) function f(){}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -119,17 +117,13 @@ for (a in b) function f(){}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

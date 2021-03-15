@@ -24,7 +24,7 @@ export function createDoWhileStatement(
     expression,
     statement,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

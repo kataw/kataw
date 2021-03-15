@@ -16,10 +16,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "<input disabled />",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@
                     "kind": 129,
                     "text": "input",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 1,
                     "end": 6
@@ -45,34 +44,34 @@
                                 "kind": 129,
                                 "text": "disabled",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 6,
                                 "end": 15
                             },
                             "initializer": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "start": 6,
                             "end": 15
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 6,
                     "end": 15
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 8192,
                 "start": 0,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -81,7 +80,6 @@
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -91,17 +89,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

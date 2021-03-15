@@ -14,10 +14,9 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -84,7 +83,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 48,
                                                 "end": 54
@@ -100,7 +99,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 55,
                                                             "end": 60
@@ -112,7 +111,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 55,
                                                         "end": 60
@@ -120,7 +119,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 61
@@ -138,7 +137,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 63,
                                                                 "end": 69
@@ -152,7 +151,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                         "text": "yield",
                                                                         "rawText": "yield",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 70,
                                                                         "end": 76
@@ -168,7 +167,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                     "text": "yield",
                                                                                     "rawText": "yield",
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 78,
                                                                                     "end": 83
@@ -181,7 +180,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                         "text": "yield",
                                                                                         "rawText": "yield",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 85,
                                                                                         "end": 91
@@ -195,7 +194,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                                 "text": 0,
                                                                                                 "rawText": "0",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 92,
                                                                                                 "end": 93
@@ -204,18 +203,18 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                         "trailingComma": false,
                                                                                         "transformFlags": 0,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "start": 93,
                                                                                         "end": 94
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 91,
                                                                                     "end": 94
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 78,
                                                                                 "end": 94
@@ -224,25 +223,25 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                         "trailingComma": false,
                                                                         "transformFlags": 0,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "start": 83,
                                                                         "end": 95
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 76,
                                                                     "end": 95
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 70,
                                                                 "end": 96
                                                             },
                                                             "isWebCompat": true,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 63,
                                                             "end": 96
@@ -250,20 +249,20 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 63,
                                                     "end": 96
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 98
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 256,
                                             "start": 39,
                                             "end": 98
@@ -271,20 +270,20 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 98
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 100
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 100
@@ -292,20 +291,20 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 100
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 101
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 101
@@ -314,7 +313,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -324,17 +322,13 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

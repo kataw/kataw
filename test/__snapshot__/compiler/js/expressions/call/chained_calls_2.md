@@ -10,10 +10,9 @@ foo(a)(b)(c)(d)(e)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo(a)(b)(c)(d)(e)",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ foo(a)(b)(c)(d)(e)
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 0,
                                     "end": 3
@@ -48,7 +47,7 @@ foo(a)(b)(c)(d)(e)
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
@@ -57,12 +56,12 @@ foo(a)(b)(c)(d)(e)
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 5,
                                     "end": 6
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 3,
                                 "end": 6
@@ -76,7 +75,7 @@ foo(a)(b)(c)(d)(e)
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
@@ -85,12 +84,12 @@ foo(a)(b)(c)(d)(e)
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 6,
                             "end": 9
@@ -104,7 +103,7 @@ foo(a)(b)(c)(d)(e)
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
@@ -113,12 +112,12 @@ foo(a)(b)(c)(d)(e)
                             "trailingComma": false,
                             "transformFlags": 0,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "start": 11,
                             "end": 12
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 12
@@ -132,7 +131,7 @@ foo(a)(b)(c)(d)(e)
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
@@ -141,12 +140,12 @@ foo(a)(b)(c)(d)(e)
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 14,
                         "end": 15
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 15
@@ -160,7 +159,7 @@ foo(a)(b)(c)(d)(e)
                             "text": "e",
                             "rawText": "e",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 17
@@ -169,18 +168,18 @@ foo(a)(b)(c)(d)(e)
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -189,7 +188,6 @@ foo(a)(b)(c)(d)(e)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -199,17 +197,13 @@ foo(a)(b)(c)(d)(e)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

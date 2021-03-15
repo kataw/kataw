@@ -33,10 +33,9 @@ var /* y = 1;*/
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "/* x = 1;*/\n\nvar /* y = 1;*/\n\n/*CHECK#5*/\n/*var x = 1;\n\n/* Test262Error.thrower('#10: Correct interpretation multi line comments');\n**/\n\n\n/*CHECK#11*/\n/****** Test262Error.thrower('#11: Correct interpretation multi line comments');*********\n***********\n*\n**********\n**/\n",
     "filename": "",
     "statements": [
@@ -46,13 +45,13 @@ var /* y = 1;*/
                 "kind": 244,
                 "declarations": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 16
@@ -61,7 +60,6 @@ var /* y = 1;*/
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -71,17 +69,13 @@ var /* y = 1;*/
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

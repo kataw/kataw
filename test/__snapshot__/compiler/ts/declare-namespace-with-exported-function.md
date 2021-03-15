@@ -18,10 +18,9 @@ declare namespace d3 {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare namespace d3 {\n  export function select(selector: string): Selection<any>;\n}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ declare namespace d3 {
                 "text": "d3",
                 "rawText": "d3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 20
@@ -49,7 +48,7 @@ declare namespace d3 {
                                 "text": "select",
                                 "rawText": "select",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 40,
                                 "end": 47
@@ -65,7 +64,7 @@ declare namespace d3 {
                                             "text": "selector",
                                             "rawText": "selector",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 48,
                                             "end": 56
@@ -74,7 +73,7 @@ declare namespace d3 {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 57,
                                             "end": 64
@@ -84,7 +83,7 @@ declare namespace d3 {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 48,
                                         "end": 64
@@ -92,7 +91,7 @@ declare namespace d3 {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 65
@@ -104,7 +103,7 @@ declare namespace d3 {
                                     "text": "Selection",
                                     "rawText": "Selection",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 66,
                                     "end": 76
@@ -115,20 +114,20 @@ declare namespace d3 {
                                         {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 77,
                                             "end": 80
                                         }
                                     ],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 77,
                                     "end": 80
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 66,
                                 "end": 82
@@ -136,7 +135,7 @@ declare namespace d3 {
                             "contents": null,
                             "typeParameters": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 31,
                             "end": 82
@@ -146,7 +145,7 @@ declare namespace d3 {
                         "fromClause": null,
                         "isTypeOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 22,
                         "end": 82
@@ -154,13 +153,13 @@ declare namespace d3 {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 22,
                 "end": 82
             },
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 84
@@ -169,7 +168,6 @@ declare namespace d3 {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -179,17 +177,13 @@ declare namespace d3 {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

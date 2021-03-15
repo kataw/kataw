@@ -14,10 +14,9 @@ return return return =! class function try while with foo!
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return return return =! class function try while with foo!",
     "filename": "",
     "statements": [
@@ -27,13 +26,13 @@ return return return =! class function try while with foo!
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 6
@@ -44,13 +43,13 @@ return return return =! class function try while with foo!
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 6,
             "end": 13
@@ -63,7 +62,7 @@ return return return =! class function try while with foo!
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 20
@@ -82,32 +81,32 @@ return return return =! class function try while with foo!
                             "kind": 50,
                             "elements": [],
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 23,
                             "end": 23
                         },
                         "decorators": null,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 23,
                         "end": 29
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 29
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 29
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 29
@@ -119,7 +118,7 @@ return return return =! class function try while with foo!
                 "text": "",
                 "rawText": "",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 38,
                 "end": 38
@@ -129,7 +128,7 @@ return return return =! class function try while with foo!
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 38,
                 "end": 38
@@ -146,7 +145,7 @@ return return return =! class function try while with foo!
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 48
@@ -160,13 +159,13 @@ return return return =! class function try while with foo!
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 53,
                                         "end": 57
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 57,
                                     "end": 58
@@ -177,25 +176,25 @@ return return return =! class function try while with foo!
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 58,
                                         "end": 58
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 58,
                                     "end": 58
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 58
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 42,
                             "end": 58
@@ -203,20 +202,20 @@ return return return =! class function try while with foo!
                     ],
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 42,
                     "end": 58
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 38,
                 "end": 58
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 29,
             "end": 58
@@ -282,7 +281,6 @@ return return return =! class function try while with foo!
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -292,17 +290,13 @@ return return return =! class function try while with foo!
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

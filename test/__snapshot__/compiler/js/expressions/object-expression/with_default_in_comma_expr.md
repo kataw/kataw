@@ -10,10 +10,9 @@ x, {foo = y, bar} = doo
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x, {foo = y, bar} = doo",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ x, {foo = y, bar} = doo
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 1
@@ -46,7 +45,7 @@ x, {foo = y, bar} = doo
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 4,
                                             "end": 7
@@ -58,14 +57,14 @@ x, {foo = y, bar} = doo
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "accessModifier": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 4,
                                         "end": 11
@@ -75,7 +74,7 @@ x, {foo = y, bar} = doo
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 12,
                                         "end": 16
@@ -84,13 +83,13 @@ x, {foo = y, bar} = doo
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 4,
                                 "end": 16
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 2,
                             "end": 17
@@ -101,26 +100,26 @@ x, {foo = y, bar} = doo
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 23
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 23
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 23
@@ -129,7 +128,6 @@ x, {foo = y, bar} = doo
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -139,17 +137,13 @@ x, {foo = y, bar} = doo
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

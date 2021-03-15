@@ -14,10 +14,9 @@ new `temp {waitforit} late`
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new `temp {waitforit} late`",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ new `temp {waitforit} late`
                     "text": "temp {waitforit} late",
                     "literal": true,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 3,
                     "end": 27
@@ -39,13 +38,13 @@ new `temp {waitforit} late`
                 "typeArguments": null,
                 "argumentList": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 32,
                 "start": 0,
                 "end": 27
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 27
@@ -54,7 +53,6 @@ new `temp {waitforit} late`
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -64,17 +62,13 @@ new `temp {waitforit} late`
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

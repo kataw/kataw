@@ -20,7 +20,7 @@ export function createAsExpression(
     expression,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

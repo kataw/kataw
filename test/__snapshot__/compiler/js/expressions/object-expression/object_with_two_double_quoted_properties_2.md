@@ -10,10 +10,9 @@ wrap({'a':b, 'c':d});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "wrap({'a':b, 'c':d});",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ wrap({'a':b, 'c':d});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 4
@@ -47,7 +46,7 @@ wrap({'a':b, 'c':d});
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 33554432,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 9
@@ -57,7 +56,7 @@ wrap({'a':b, 'c':d});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
@@ -65,7 +64,7 @@ wrap({'a':b, 'c':d});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 6,
                                         "end": 11
@@ -77,7 +76,7 @@ wrap({'a':b, 'c':d});
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 33554432,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
@@ -87,7 +86,7 @@ wrap({'a':b, 'c':d});
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
@@ -95,7 +94,7 @@ wrap({'a':b, 'c':d});
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
@@ -104,13 +103,13 @@ wrap({'a':b, 'c':d});
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 19
@@ -119,18 +118,18 @@ wrap({'a':b, 'c':d});
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -139,7 +138,6 @@ wrap({'a':b, 'c':d});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -149,17 +147,13 @@ wrap({'a':b, 'c':d});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

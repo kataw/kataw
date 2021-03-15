@@ -13,10 +13,9 @@ class C {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C {\n    @Foo(false)\n    static staticMethod() {}\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -51,7 +50,7 @@ class C {
                                 "text": "staticMethod",
                                 "rawText": "staticMethod",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 49
@@ -61,7 +60,7 @@ class C {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 50,
                                 "end": 51
@@ -75,13 +74,13 @@ class C {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 53,
                                     "end": 53
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 51,
                                 "end": 54
@@ -98,7 +97,7 @@ class C {
                                                 "text": "Foo",
                                                 "rawText": "Foo",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 18
@@ -111,7 +110,7 @@ class C {
                                                         "kind": 4260391,
                                                         "text": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 24
@@ -120,25 +119,25 @@ class C {
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 24,
                                                 "end": 25
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 18,
                                             "end": 25
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 15,
                                         "end": 25
                                     }
                                 ],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 15,
                                 "end": 25
@@ -147,20 +146,20 @@ class C {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 49,
                             "end": 54
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 54
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 56
@@ -168,7 +167,7 @@ class C {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 56
@@ -177,7 +176,6 @@ class C {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -187,17 +185,13 @@ class C {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ if[ =! class function try while with foo!
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if[ =! class function try while with foo!",
     "filename": "",
     "statements": [
@@ -33,13 +32,13 @@ if[ =! class function try while with foo!
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 3
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 3
@@ -58,26 +57,26 @@ if[ =! class function try while with foo!
                             "kind": 50,
                             "elements": [],
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 6,
                             "end": 6
                         },
                         "decorators": null,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 6,
                         "end": 12
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 12
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 12
@@ -89,7 +88,7 @@ if[ =! class function try while with foo!
                     "text": "",
                     "rawText": "",
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 21,
                     "end": 21
@@ -99,7 +98,7 @@ if[ =! class function try while with foo!
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 21
@@ -116,7 +115,7 @@ if[ =! class function try while with foo!
                                     "kind": 131322,
                                     "text": "",
                                     "flags": 3,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 31
@@ -130,13 +129,13 @@ if[ =! class function try while with foo!
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 36,
                                             "end": 40
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 40,
                                         "end": 41
@@ -147,25 +146,25 @@ if[ =! class function try while with foo!
                                             "kind": 131322,
                                             "text": "",
                                             "flags": 3,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 41,
                                             "end": 41
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 41,
                                         "end": 41
                                     },
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 41
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 41
@@ -173,20 +172,20 @@ if[ =! class function try while with foo!
                         ],
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 25,
                         "end": 41
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 41
                 },
                 "typeParameters": null,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 256,
                 "start": 12,
                 "end": 41
@@ -194,7 +193,7 @@ if[ =! class function try while with foo!
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 41
@@ -253,7 +252,6 @@ if[ =! class function try while with foo!
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -263,17 +261,13 @@ if[ =! class function try while with foo!
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

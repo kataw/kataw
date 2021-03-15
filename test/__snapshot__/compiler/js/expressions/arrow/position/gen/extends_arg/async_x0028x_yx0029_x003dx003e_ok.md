@@ -14,10 +14,9 @@ class A extends async (x, y) => ok {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends async (x, y) => ok {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class A extends async (x, y) => ok {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -41,14 +40,14 @@ class A extends async (x, y) => ok {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 21
@@ -58,7 +57,7 @@ class A extends async (x, y) => ok {}
                 "kind": 50,
                 "elements": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 0
@@ -66,7 +65,7 @@ class A extends async (x, y) => ok {}
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 21
@@ -87,7 +86,7 @@ class A extends async (x, y) => ok {}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
@@ -99,7 +98,7 @@ class A extends async (x, y) => ok {}
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 21,
                             "end": 28
@@ -112,7 +111,7 @@ class A extends async (x, y) => ok {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 24
@@ -124,7 +123,7 @@ class A extends async (x, y) => ok {}
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 21,
                             "end": 28
@@ -134,7 +133,7 @@ class A extends async (x, y) => ok {}
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 27
@@ -144,19 +143,19 @@ class A extends async (x, y) => ok {}
                     "text": "ok",
                     "rawText": "ok",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 31,
                     "end": 34
                 },
                 "flags": 1073741824,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 34
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 34
@@ -168,13 +167,13 @@ class A extends async (x, y) => ok {}
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 36,
                 "end": 36
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 34,
             "end": 37
@@ -198,7 +197,6 @@ class A extends async (x, y) => ok {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -208,17 +206,13 @@ class A extends async (x, y) => ok {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

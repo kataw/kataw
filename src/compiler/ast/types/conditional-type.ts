@@ -29,7 +29,7 @@ export function createConditionalType(
     trueType,
     falseType,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

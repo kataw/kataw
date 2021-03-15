@@ -17,7 +17,7 @@ export function createFunctionBody(
     kind: NodeKind.FunctionBody,
     functionStatementList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

@@ -13,10 +13,9 @@ var result: Foo = x["one"]; // error
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Foo { foo() { } }\nvar x: { [index: string]: number; };\nvar result: Foo = x[\"one\"]; // error\n",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ var result: Foo = x["one"]; // error
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 9
@@ -51,7 +50,7 @@ var result: Foo = x["one"]; // error
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
@@ -61,7 +60,7 @@ var result: Foo = x["one"]; // error
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
@@ -75,13 +74,13 @@ var result: Foo = x["one"]; // error
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
@@ -91,20 +90,20 @@ var result: Foo = x["one"]; // error
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 11,
                         "end": 21
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 23
@@ -112,7 +111,7 @@ var result: Foo = x["one"]; // error
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 23
@@ -129,7 +128,7 @@ var result: Foo = x["one"]; // error
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 27,
                             "end": 29
@@ -154,7 +153,7 @@ var result: Foo = x["one"]; // error
                                                         "text": "index",
                                                         "rawText": "index",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 34,
                                                         "end": 39
@@ -163,7 +162,7 @@ var result: Foo = x["one"]; // error
                                                     "type": {
                                                         "kind": 4202702,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 40,
                                                         "end": 47
@@ -172,7 +171,7 @@ var result: Foo = x["one"]; // error
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 34,
                                                     "end": 47
@@ -180,7 +179,7 @@ var result: Foo = x["one"]; // error
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 34,
                                             "end": 47
@@ -188,7 +187,7 @@ var result: Foo = x["one"]; // error
                                         "returnType": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 49,
                                             "end": 56
@@ -196,7 +195,7 @@ var result: Foo = x["one"]; // error
                                         "isStatic": false,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 34,
                                         "end": 57
@@ -204,33 +203,33 @@ var result: Foo = x["one"]; // error
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 32,
                                 "end": 59
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 30,
                             "end": 59
                         },
                         "initializer": null,
                         "flags": 27,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 59
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 59
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 23,
             "end": 60
@@ -247,7 +246,7 @@ var result: Foo = x["one"]; // error
                             "text": "result",
                             "rawText": "result",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 64,
                             "end": 71
@@ -260,14 +259,14 @@ var result: Foo = x["one"]; // error
                                 "text": "Foo",
                                 "rawText": "Foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 72,
                                 "end": 76
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 72,
                             "end": 78
@@ -279,7 +278,7 @@ var result: Foo = x["one"]; // error
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 78,
                                 "end": 80
@@ -289,32 +288,32 @@ var result: Foo = x["one"]; // error
                                 "text": "one",
                                 "rawText": "one",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 81,
                                 "end": 86
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 80,
                             "end": 87
                         },
                         "flags": 64,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 87
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 64,
                 "end": 87
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 60,
             "end": 88
@@ -323,7 +322,6 @@ var result: Foo = x["one"]; // error
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -333,17 +331,13 @@ var result: Foo = x["one"]; // error
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

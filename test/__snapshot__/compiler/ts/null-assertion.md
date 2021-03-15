@@ -12,10 +12,9 @@ const x = foo()!;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x! / 2\n\nconst x = foo()!;",
     "filename": "",
     "statements": [
@@ -30,13 +29,13 @@ const x = foo()!;
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 1,
                     "end": 2
@@ -47,19 +46,19 @@ const x = foo()!;
                     "text": 2,
                     "rawText": "2",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 6
@@ -77,7 +76,7 @@ const x = foo()!;
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 15
@@ -93,7 +92,7 @@ const x = foo()!;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
@@ -105,37 +104,37 @@ const x = foo()!;
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 23,
                             "end": 24
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 24
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 6,
             "end": 25
@@ -144,7 +143,6 @@ const x = foo()!;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -154,17 +152,13 @@ const x = foo()!;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

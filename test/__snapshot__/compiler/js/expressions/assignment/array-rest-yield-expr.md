@@ -10,10 +10,9 @@ result = [...x[yield]] = vals;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "result = [...x[yield]] = vals;",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ result = [...x[yield]] = vals;
                     "text": "result",
                     "rawText": "result",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 6
@@ -48,7 +47,7 @@ result = [...x[yield]] = vals;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
@@ -58,19 +57,19 @@ result = [...x[yield]] = vals;
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 15,
                                             "end": 20
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 14,
                                         "end": 21
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2,
                                     "start": 10,
                                     "end": 21
@@ -79,13 +78,13 @@ result = [...x[yield]] = vals;
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 21
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 22
@@ -96,25 +95,25 @@ result = [...x[yield]] = vals;
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 24,
                         "end": 29
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 29
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 30
@@ -123,7 +122,6 @@ result = [...x[yield]] = vals;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -133,17 +131,13 @@ result = [...x[yield]] = vals;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ var await; var f = (async function() { async function wrap() { async function aw
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { async function wrap() { async function await() { } }; });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { async function wrap() { async function aw
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -106,7 +105,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "text": "wrap",
                                                     "rawText": "wrap",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 53,
                                                     "end": 58
@@ -116,7 +115,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 59,
                                                     "end": 60
@@ -134,7 +133,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "text": "await",
                                                                     "rawText": "await",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1025,
                                                                     "start": 77,
                                                                     "end": 83
@@ -144,7 +143,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "formalParameterList": [],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 84,
                                                                     "end": 85
@@ -157,20 +156,20 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                         "statements": [],
                                                                         "multiline": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 87,
                                                                         "end": 87
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 85,
                                                                     "end": 89
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 260,
                                                                 "start": 62,
                                                                 "end": 89
@@ -178,20 +177,20 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                         ],
                                                         "multiline": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 62,
                                                         "end": 89
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 60,
                                                     "end": 91
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 260,
                                                 "start": 38,
                                                 "end": 91
@@ -199,7 +198,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                             {
                                                 "kind": 6291526,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 92
@@ -207,13 +206,13 @@ var await; var f = (async function() { async function wrap() { async function aw
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 92
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 94
@@ -221,32 +220,32 @@ var await; var f = (async function() { async function wrap() { async function aw
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 94
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 95
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 95
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 95
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 96
@@ -255,7 +254,6 @@ var await; var f = (async function() { async function wrap() { async function aw
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -265,17 +263,13 @@ var await; var f = (async function() { async function wrap() { async function aw
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

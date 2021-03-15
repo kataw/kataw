@@ -17,10 +17,9 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface AbstractSchema<S, V> {\n  m1<T> (v: T): SchemaType<S, Exclude<V, T>>;\n  m2<T> (v: T): SchemaType<S, T>;\n}\n\ntype SchemaType<S, V> = S extends object ? AnySchema<V> : never;\ninterface AnySchema<V> extends AnySchemaType<AnySchema<undefined>, V> { }\ninterface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractSchema<S, V> { }",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "text": "AbstractSchema",
                 "rawText": "AbstractSchema",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 24
@@ -46,7 +45,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "S",
                             "rawText": "S",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 26
@@ -55,7 +54,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 25,
                         "end": 26
@@ -67,7 +66,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "V",
                             "rawText": "V",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 29
@@ -76,14 +75,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 27,
                         "end": 29
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 25,
                 "end": 29
@@ -99,7 +98,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "m1",
                             "rawText": "m1",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 32,
                             "end": 37
@@ -118,7 +117,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 39
@@ -127,14 +126,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 38,
                                     "end": 39
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 38,
                             "end": 39
@@ -150,7 +149,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 42,
                                         "end": 43
@@ -163,14 +162,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 44,
                                         "end": 47
@@ -179,7 +178,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 42,
                                     "end": 46
@@ -187,7 +186,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 42,
                             "end": 46
@@ -199,7 +198,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "text": "SchemaType",
                                 "rawText": "SchemaType",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 59
@@ -214,14 +213,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 60,
                                             "end": 61
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 60,
                                         "end": 62
@@ -233,7 +232,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "Exclude",
                                             "rawText": "Exclude",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 62,
                                             "end": 70
@@ -248,14 +247,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                                         "text": "V",
                                                         "rawText": "V",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 72
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 71,
                                                     "end": 73
@@ -267,46 +266,46 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 73,
                                                         "end": 75
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 73,
                                                     "end": 76
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 71,
                                             "end": 75
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 62,
                                         "end": 77
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 60,
                                 "end": 76
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 48,
                             "end": 78
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 32,
                         "end": 78
@@ -318,7 +317,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "m2",
                             "rawText": "m2",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 78,
                             "end": 83
@@ -337,7 +336,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 84,
                                         "end": 85
@@ -346,14 +345,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 84,
                                     "end": 85
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 84,
                             "end": 85
@@ -369,7 +368,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 88,
                                         "end": 89
@@ -382,14 +381,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 90,
                                             "end": 92
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 90,
                                         "end": 93
@@ -398,7 +397,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 88,
                                     "end": 92
@@ -406,7 +405,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 88,
                             "end": 92
@@ -418,7 +417,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "text": "SchemaType",
                                 "rawText": "SchemaType",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 94,
                                 "end": 105
@@ -433,14 +432,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 106,
                                             "end": 107
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 106,
                                         "end": 108
@@ -452,33 +451,33 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 108,
                                             "end": 110
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 108,
                                         "end": 111
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 106,
                                 "end": 110
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 94,
                             "end": 112
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 78,
                         "end": 112
@@ -486,13 +485,13 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 32,
                 "end": 112
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 114
@@ -504,7 +503,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "text": "SchemaType",
                 "rawText": "SchemaType",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 120,
                 "end": 131
@@ -518,14 +517,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "text": "S",
                         "rawText": "S",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 139,
                         "end": 141
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 139,
                     "end": 149
@@ -533,7 +532,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "extendsType": {
                     "kind": 4202663,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 149,
                     "end": 156
@@ -545,7 +544,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "text": "AnySchema",
                         "rawText": "AnySchema",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 158,
                         "end": 168
@@ -560,27 +559,27 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     "text": "V",
                                     "rawText": "V",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 169,
                                     "end": 170
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 169,
                                 "end": 171
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 169,
                         "end": 170
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 158,
                     "end": 173
@@ -588,13 +587,13 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "falseType": {
                     "kind": 4202651,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 173,
                     "end": 179
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 139,
                 "end": 179
@@ -609,7 +608,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "S",
                             "rawText": "S",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 132,
                             "end": 133
@@ -618,7 +617,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 132,
                         "end": 133
@@ -630,7 +629,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "V",
                             "rawText": "V",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 134,
                             "end": 136
@@ -639,20 +638,20 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 134,
                         "end": 136
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 132,
                 "end": 136
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 114,
             "end": 180
@@ -664,7 +663,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "text": "AnySchema",
                 "rawText": "AnySchema",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 190,
                 "end": 200
@@ -679,7 +678,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "V",
                             "rawText": "V",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 201,
                             "end": 202
@@ -688,14 +687,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 201,
                         "end": 202
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 201,
                 "end": 202
@@ -712,7 +711,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "text": "AnySchemaType",
                                 "rawText": "AnySchemaType",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 211,
                                 "end": 225
@@ -727,7 +726,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "AnySchema",
                                             "rawText": "AnySchema",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 226,
                                             "end": 235
@@ -738,20 +737,20 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                                 {
                                                     "kind": 4202735,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 236,
                                                     "end": 245
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 236,
                                             "end": 245
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 226,
                                         "end": 247
@@ -763,40 +762,40 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "V",
                                             "rawText": "V",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 247,
                                             "end": 249
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 247,
                                         "end": 250
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 226,
                                 "end": 249
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 211,
                             "end": 252
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 211,
                         "end": 250
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 211,
                 "end": 250
@@ -806,13 +805,13 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 252,
                 "end": 252
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 180,
             "end": 254
@@ -824,7 +823,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "text": "AnySchemaType",
                 "rawText": "AnySchemaType",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 264,
                 "end": 278
@@ -839,7 +838,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "S",
                             "rawText": "S",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 279,
                             "end": 280
@@ -851,7 +850,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "text": "AbstractSchema",
                                 "rawText": "AbstractSchema",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 288,
                                 "end": 303
@@ -862,7 +861,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 304,
                                         "end": 307
@@ -870,20 +869,20 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                     {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 308,
                                         "end": 312
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 304,
                                 "end": 312
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 288,
                             "end": 314
@@ -891,7 +890,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 279,
                         "end": 313
@@ -903,7 +902,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                             "text": "V",
                             "rawText": "V",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 314,
                             "end": 316
@@ -912,14 +911,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 314,
                         "end": 316
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 279,
                 "end": 316
@@ -936,7 +935,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "text": "AbstractSchema",
                                 "rawText": "AbstractSchema",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 325,
                                 "end": 340
@@ -951,14 +950,14 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 341,
                                             "end": 342
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 341,
                                         "end": 343
@@ -970,40 +969,40 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                             "text": "V",
                                             "rawText": "V",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 343,
                                             "end": 345
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 343,
                                         "end": 346
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 341,
                                 "end": 345
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 325,
                             "end": 348
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 325,
                         "end": 346
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 325,
                 "end": 346
@@ -1013,13 +1012,13 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 348,
                 "end": 348
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 254,
             "end": 350
@@ -1028,7 +1027,6 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1038,17 +1036,13 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

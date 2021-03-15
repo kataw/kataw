@@ -16,10 +16,9 @@ export let x = 10, y = 20
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export let x = 10, y = 20",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ export let x = 10, y = 20
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 10,
                                 "end": 12
@@ -50,13 +49,13 @@ export let x = 10, y = 20
                                 "text": 10,
                                 "rawText": "10",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 17
@@ -68,7 +67,7 @@ export let x = 10, y = 20
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 18,
                                 "end": 20
@@ -80,26 +79,26 @@ export let x = 10, y = 20
                                 "text": 20,
                                 "rawText": "20",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 25
                         }
                     ],
                     "flags": 8,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 25
                 },
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 769,
                 "start": 0,
                 "end": 25
@@ -109,7 +108,7 @@ export let x = 10, y = 20
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -126,7 +125,6 @@ export let x = 10, y = 20
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -136,17 +134,13 @@ export let x = 10, y = 20
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -47,7 +47,7 @@ export function createFormalParameter(
     accessModifier,
     isReadOnly,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       TransformFlags.ES2015 |
       (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None) |

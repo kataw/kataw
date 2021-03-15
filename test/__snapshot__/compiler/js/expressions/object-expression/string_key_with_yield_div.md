@@ -10,10 +10,9 @@ function *f(){   s = {"foo": yield / x}   }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function *f(){   s = {\"foo\": yield / x}   }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 11
@@ -34,7 +33,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -54,7 +53,7 @@ function *f(){   s = {"foo": yield / x}   }
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
@@ -72,7 +71,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 27
@@ -84,13 +83,13 @@ function *f(){   s = {"foo": yield / x}   }
                                                         "kind": 4260544,
                                                         "text": "/ x}   }",
                                                         "flags": 1048576,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 43
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 16393,
                                                     "start": 28,
                                                     "end": 43
@@ -98,7 +97,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                 "accessModifier": null,
                                                 "decorators": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 43
@@ -107,25 +106,25 @@ function *f(){   s = {"foo": yield / x}   }
                                         "trailingComma": false,
                                         "multiline": false,
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 22,
                                         "end": 43
                                     },
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 43
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 43
@@ -133,20 +132,20 @@ function *f(){   s = {"foo": yield / x}   }
                     ],
                     "multiline": false,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 43
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 43
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 43
@@ -170,7 +169,6 @@ function *f(){   s = {"foo": yield / x}   }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -180,17 +178,13 @@ function *f(){   s = {"foo": yield / x}   }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

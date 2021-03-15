@@ -25,7 +25,7 @@ export function createCaseBlock(
     kind: NodeKind.CaseBlock,
     clauses,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

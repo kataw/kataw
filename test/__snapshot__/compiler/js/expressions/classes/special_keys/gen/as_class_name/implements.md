@@ -14,10 +14,9 @@ class implements {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class implements {}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ class implements {}
                 "kind": 107,
                 "clauses": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 16
@@ -39,7 +38,7 @@ class implements {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 18,
                 "end": 19
@@ -47,7 +46,7 @@ class implements {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 19
@@ -56,7 +55,6 @@ class implements {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -66,17 +64,13 @@ class implements {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

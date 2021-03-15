@@ -16,10 +16,9 @@ export declare declare var name;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export declare declare var name;",
     "filename": "",
     "statements": [
@@ -30,13 +29,13 @@ export declare declare var name;
                 "text": "declare",
                 "rawText": "declare",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
             "flags": 64,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 6,
             "end": 14
@@ -53,7 +52,7 @@ export declare declare var name;
                             "text": "name",
                             "rawText": "name",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 26,
                             "end": 31
@@ -62,20 +61,20 @@ export declare declare var name;
                         "type": null,
                         "initializer": null,
                         "flags": 26,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 31
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 26,
                 "end": 31
             },
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 22,
             "end": 32
@@ -92,7 +91,6 @@ export declare declare var name;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -102,17 +100,13 @@ export declare declare var name;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

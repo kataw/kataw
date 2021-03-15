@@ -14,10 +14,9 @@ A.foo = A.bar;  // invalid LHS
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "enum A { foo, bar }\nA = undefined;  // invalid LHS\nA = A.bar;      // invalid LHS\nA.foo = 1;      // invalid LHS\nA.foo = A.bar;  // invalid LHS",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ A.foo = A.bar;  // invalid LHS
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 6
@@ -43,14 +42,14 @@ A.foo = A.bar;  // invalid LHS
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 8,
                         "end": 12
@@ -62,28 +61,28 @@ A.foo = A.bar;  // invalid LHS
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 13,
                         "end": 17
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 8,
                 "end": 17
             },
             "isConst": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 19
@@ -97,7 +96,7 @@ A.foo = A.bar;  // invalid LHS
                     "text": "A",
                     "rawText": "A",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 21
@@ -108,19 +107,19 @@ A.foo = A.bar;  // invalid LHS
                     "text": "undefined",
                     "rawText": "undefined",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 33
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 19,
             "end": 34
@@ -134,7 +133,7 @@ A.foo = A.bar;  // invalid LHS
                     "text": "A",
                     "rawText": "A",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 34,
                     "end": 52
@@ -147,7 +146,7 @@ A.foo = A.bar;  // invalid LHS
                         "text": "A",
                         "rawText": "A",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 54,
                         "end": 56
@@ -157,13 +156,13 @@ A.foo = A.bar;  // invalid LHS
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 57,
                         "end": 60
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 56,
                     "end": 60,
@@ -174,13 +173,13 @@ A.foo = A.bar;  // invalid LHS
                     }
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 60
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 34,
             "end": 61
@@ -196,7 +195,7 @@ A.foo = A.bar;  // invalid LHS
                         "text": "A",
                         "rawText": "A",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 61,
                         "end": 83
@@ -206,13 +205,13 @@ A.foo = A.bar;  // invalid LHS
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 84,
                         "end": 87
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 83,
                     "end": 87,
@@ -228,19 +227,19 @@ A.foo = A.bar;  // invalid LHS
                     "text": 1,
                     "rawText": "1",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 89,
                     "end": 91
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 61,
                 "end": 91
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 61,
             "end": 92
@@ -256,7 +255,7 @@ A.foo = A.bar;  // invalid LHS
                         "text": "A",
                         "rawText": "A",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 92,
                         "end": 114
@@ -266,13 +265,13 @@ A.foo = A.bar;  // invalid LHS
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 115,
                         "end": 118
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 114,
                     "end": 118,
@@ -290,7 +289,7 @@ A.foo = A.bar;  // invalid LHS
                         "text": "A",
                         "rawText": "A",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 120,
                         "end": 122
@@ -300,13 +299,13 @@ A.foo = A.bar;  // invalid LHS
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 123,
                         "end": 126
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 122,
                     "end": 126,
@@ -317,13 +316,13 @@ A.foo = A.bar;  // invalid LHS
                     }
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 92,
                 "end": 126
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 92,
             "end": 127
@@ -332,7 +331,6 @@ A.foo = A.bar;  // invalid LHS
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -342,17 +340,13 @@ A.foo = A.bar;  // invalid LHS
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

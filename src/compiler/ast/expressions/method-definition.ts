@@ -1,11 +1,6 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import { ObjectLiteral } from './object-literal';
-import { ObjectBindingPattern } from './object-binding-pattern';
-import { ClassDeclaration } from '../statements/class-declaration';
-import { ClassExpression } from './class-expr';
 import { MethodName } from '.';
-import { FormalParameter } from './formal-parameter';
 import { FunctionBody } from './function-body';
 import { PropertyKind } from '../../parser/common';
 import { FormalParameterList } from './formal-parameter-list';
@@ -85,7 +80,7 @@ export function createMethodDefinition(
     accessModifier,
     typeParameters,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags,
     start,
     end

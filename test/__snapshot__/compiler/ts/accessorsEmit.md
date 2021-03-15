@@ -45,10 +45,9 @@ var Test = (function () {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "//// [accessorsEmit.ts]\nclass Result { }\n\nclass Test {\n    get Property(): Result {\n        var x = 1;\n        return null;\n    }\n}\n\nclass Test2 {\n    get Property() {\n        var x = 1;\n        return null;\n    }\n}\n\n//// [accessorsEmit.js]\nvar Result = (function () {\n    function Result() {\n    }\n    return Result;\n})();\nvar Test = (function () {\n    function Test() {\n    }\n    Object.defineProperty(Test.prototype, \"Property\", {\n        get: function () {\n            var x = 1;\n            return null;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Test;\n})();",
     "filename": "",
     "statements": [
@@ -59,7 +58,7 @@ var Test = (function () {
                 "text": "Result",
                 "rawText": "Result",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 29,
                 "end": 36
@@ -71,7 +70,7 @@ var Test = (function () {
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 38,
                 "end": 40
@@ -79,7 +78,7 @@ var Test = (function () {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 40
@@ -91,7 +90,7 @@ var Test = (function () {
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 47,
                 "end": 52
@@ -115,7 +114,7 @@ var Test = (function () {
                                 "text": "Property",
                                 "rawText": "Property",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 62,
                                 "end": 71
@@ -125,7 +124,7 @@ var Test = (function () {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 72,
                                 "end": 73
@@ -149,7 +148,7 @@ var Test = (function () {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 95,
                                                             "end": 97
@@ -161,26 +160,26 @@ var Test = (function () {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 99,
                                                             "end": 101
                                                         },
                                                         "flags": 95,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 101
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 95,
                                                 "end": 101
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 83,
                                             "end": 102
@@ -191,13 +190,13 @@ var Test = (function () {
                                                 "kind": 4260512,
                                                 "text": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 117,
                                                 "end": 122
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 102,
                                             "end": 123
@@ -205,13 +204,13 @@ var Test = (function () {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 83,
                                     "end": 123
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 81,
                                 "end": 129
@@ -224,14 +223,14 @@ var Test = (function () {
                                     "text": "Result",
                                     "rawText": "Result",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 74,
                                     "end": 81
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 74,
                                 "end": 83
@@ -239,20 +238,20 @@ var Test = (function () {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 71,
                             "end": 129
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 54,
                         "end": 129
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 54,
                 "end": 131
@@ -260,7 +259,7 @@ var Test = (function () {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 40,
             "end": 131
@@ -272,7 +271,7 @@ var Test = (function () {
                 "text": "Test2",
                 "rawText": "Test2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 138,
                 "end": 144
@@ -296,7 +295,7 @@ var Test = (function () {
                                 "text": "Property",
                                 "rawText": "Property",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 154,
                                 "end": 163
@@ -306,7 +305,7 @@ var Test = (function () {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 164,
                                 "end": 165
@@ -330,7 +329,7 @@ var Test = (function () {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 179,
                                                             "end": 181
@@ -342,26 +341,26 @@ var Test = (function () {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 183,
                                                             "end": 185
                                                         },
                                                         "flags": 179,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 185
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 179,
                                                 "end": 185
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 167,
                                             "end": 186
@@ -372,13 +371,13 @@ var Test = (function () {
                                                 "kind": 4260512,
                                                 "text": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 201,
                                                 "end": 206
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 186,
                                             "end": 207
@@ -386,13 +385,13 @@ var Test = (function () {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 167,
                                     "end": 207
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 165,
                                 "end": 213
@@ -402,20 +401,20 @@ var Test = (function () {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 163,
                             "end": 213
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 146,
                         "end": 213
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 146,
                 "end": 215
@@ -423,7 +422,7 @@ var Test = (function () {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 131,
             "end": 215
@@ -440,7 +439,7 @@ var Test = (function () {
                             "text": "Result",
                             "rawText": "Result",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 244,
                             "end": 251
@@ -459,7 +458,7 @@ var Test = (function () {
                                         "formalParameterList": [],
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 265,
                                         "end": 266
@@ -476,7 +475,7 @@ var Test = (function () {
                                                         "text": "Result",
                                                         "rawText": "Result",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 281,
                                                         "end": 288
@@ -486,7 +485,7 @@ var Test = (function () {
                                                         "formalParameterList": [],
                                                         "trailingComma": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 289,
                                                         "end": 290
@@ -499,20 +498,20 @@ var Test = (function () {
                                                             "statements": [],
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 292,
                                                             "end": 292
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 290,
                                                         "end": 298
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 256,
                                                     "start": 268,
                                                     "end": 298
@@ -524,13 +523,13 @@ var Test = (function () {
                                                         "text": "Result",
                                                         "rawText": "Result",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 309,
                                                         "end": 316
                                                     },
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 298,
                                                     "end": 317
@@ -538,13 +537,13 @@ var Test = (function () {
                                             ],
                                             "multiline": true,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 268,
                                             "end": 317
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 266,
                                         "end": 319
@@ -552,13 +551,13 @@ var Test = (function () {
                                     "typeParameters": null,
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 255,
                                     "end": 319
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 253,
                                 "end": 320
@@ -570,31 +569,31 @@ var Test = (function () {
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 322,
                                 "end": 322
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 320,
                             "end": 322
                         },
                         "flags": 244,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 322
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 244,
                 "end": 322
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 215,
             "end": 323
@@ -611,7 +610,7 @@ var Test = (function () {
                             "text": "Test",
                             "rawText": "Test",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 327,
                             "end": 332
@@ -630,7 +629,7 @@ var Test = (function () {
                                         "formalParameterList": [],
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 346,
                                         "end": 347
@@ -647,7 +646,7 @@ var Test = (function () {
                                                         "text": "Test",
                                                         "rawText": "Test",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 362,
                                                         "end": 367
@@ -657,7 +656,7 @@ var Test = (function () {
                                                         "formalParameterList": [],
                                                         "trailingComma": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 368,
                                                         "end": 369
@@ -670,20 +669,20 @@ var Test = (function () {
                                                             "statements": [],
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 371,
                                                             "end": 371
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 369,
                                                         "end": 377
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 256,
                                                     "start": 349,
                                                     "end": 377
@@ -699,7 +698,7 @@ var Test = (function () {
                                                                 "text": "Object",
                                                                 "rawText": "Object",
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 377,
                                                                 "end": 388
@@ -709,13 +708,13 @@ var Test = (function () {
                                                                 "text": "defineProperty",
                                                                 "rawText": "defineProperty",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 389,
                                                                 "end": 403
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 388,
                                                             "end": 403,
@@ -736,7 +735,7 @@ var Test = (function () {
                                                                         "text": "Test",
                                                                         "rawText": "Test",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 404,
                                                                         "end": 408
@@ -746,13 +745,13 @@ var Test = (function () {
                                                                         "text": "prototype",
                                                                         "rawText": "prototype",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 409,
                                                                         "end": 418
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 408,
                                                                     "end": 418,
@@ -767,7 +766,7 @@ var Test = (function () {
                                                                     "text": "Property",
                                                                     "rawText": "Property",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 419,
                                                                     "end": 430
@@ -784,7 +783,7 @@ var Test = (function () {
                                                                                     "text": "get",
                                                                                     "rawText": "get",
                                                                                     "flags": 32768,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 433,
                                                                                     "end": 445
@@ -797,7 +796,7 @@ var Test = (function () {
                                                                                         "formalParameterList": [],
                                                                                         "trailingComma": false,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 457,
                                                                                         "end": 458
@@ -819,7 +818,7 @@ var Test = (function () {
                                                                                                                     "text": "x",
                                                                                                                     "rawText": "x",
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 1025,
                                                                                                                     "start": 476,
                                                                                                                     "end": 478
@@ -831,26 +830,26 @@ var Test = (function () {
                                                                                                                     "text": 1,
                                                                                                                     "rawText": "1",
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 0,
                                                                                                                     "start": 480,
                                                                                                                     "end": 482
                                                                                                                 },
                                                                                                                 "flags": 476,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "start": 0,
                                                                                                                 "end": 482
                                                                                                             }
                                                                                                         ],
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 476,
                                                                                                         "end": 482
                                                                                                     },
                                                                                                     "flags": 32768,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 460,
                                                                                                     "end": 483
@@ -861,13 +860,13 @@ var Test = (function () {
                                                                                                         "kind": 4260512,
                                                                                                         "text": null,
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 502,
                                                                                                         "end": 507
                                                                                                     },
                                                                                                     "flags": 32768,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 483,
                                                                                                     "end": 508
@@ -875,13 +874,13 @@ var Test = (function () {
                                                                                             ],
                                                                                             "multiline": true,
                                                                                             "flags": 32768,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 460,
                                                                                             "end": 508
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 458,
                                                                                         "end": 518
@@ -889,7 +888,7 @@ var Test = (function () {
                                                                                     "typeParameters": null,
                                                                                     "type": null,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 446,
                                                                                     "end": 518
@@ -897,7 +896,7 @@ var Test = (function () {
                                                                                 "accessModifier": null,
                                                                                 "decorators": null,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 433,
                                                                                 "end": 518
@@ -909,7 +908,7 @@ var Test = (function () {
                                                                                     "text": "enumerable",
                                                                                     "rawText": "enumerable",
                                                                                     "flags": 32768,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 519,
                                                                                     "end": 538
@@ -918,7 +917,7 @@ var Test = (function () {
                                                                                     "kind": 4260391,
                                                                                     "text": true,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 539,
                                                                                     "end": 544
@@ -926,7 +925,7 @@ var Test = (function () {
                                                                                 "accessModifier": null,
                                                                                 "decorators": null,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 519,
                                                                                 "end": 544
@@ -938,7 +937,7 @@ var Test = (function () {
                                                                                     "text": "configurable",
                                                                                     "rawText": "configurable",
                                                                                     "flags": 32768,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 545,
                                                                                     "end": 566
@@ -947,7 +946,7 @@ var Test = (function () {
                                                                                     "kind": 4260391,
                                                                                     "text": true,
                                                                                     "flags": 32768,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 567,
                                                                                     "end": 572
@@ -955,7 +954,7 @@ var Test = (function () {
                                                                                 "accessModifier": null,
                                                                                 "decorators": null,
                                                                                 "flags": 32768,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 545,
                                                                                 "end": 572
@@ -964,13 +963,13 @@ var Test = (function () {
                                                                         "trailingComma": false,
                                                                         "multiline": true,
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 433,
                                                                         "end": 572
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 431,
                                                                     "end": 578
@@ -979,18 +978,18 @@ var Test = (function () {
                                                             "trailingComma": false,
                                                             "transformFlags": 0,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "start": 408,
                                                             "end": 579
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 403,
                                                         "end": 579
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 377,
                                                     "end": 580
@@ -1002,13 +1001,13 @@ var Test = (function () {
                                                         "text": "Test",
                                                         "rawText": "Test",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 591,
                                                         "end": 596
                                                     },
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 580,
                                                     "end": 597
@@ -1016,13 +1015,13 @@ var Test = (function () {
                                             ],
                                             "multiline": true,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 349,
                                             "end": 597
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 347,
                                         "end": 599
@@ -1030,13 +1029,13 @@ var Test = (function () {
                                     "typeParameters": null,
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 336,
                                     "end": 599
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 334,
                                 "end": 600
@@ -1048,31 +1047,31 @@ var Test = (function () {
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 602,
                                 "end": 602
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 600,
                             "end": 602
                         },
                         "flags": 327,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 602
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 327,
                 "end": 602
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 323,
             "end": 603
@@ -1081,7 +1080,6 @@ var Test = (function () {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1091,17 +1089,13 @@ var Test = (function () {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

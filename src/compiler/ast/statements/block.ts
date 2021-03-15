@@ -24,7 +24,7 @@ export function createBlock(
     statements,
     multiline,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

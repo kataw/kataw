@@ -16,10 +16,9 @@ Foo(() =>
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function Foo(x: any)\n{\n}\n\nFoo(() =>\n    // do something\n    127);",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ Foo(() =>
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -46,7 +45,7 @@ Foo(() =>
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 14
@@ -55,7 +54,7 @@ Foo(() =>
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 15,
                             "end": 19
@@ -65,7 +64,7 @@ Foo(() =>
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 13,
                         "end": 19
@@ -73,7 +72,7 @@ Foo(() =>
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 20
@@ -86,20 +85,20 @@ Foo(() =>
                     "statements": [],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 24
@@ -113,7 +112,7 @@ Foo(() =>
                     "text": "Foo",
                     "rawText": "Foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 24,
                     "end": 29
@@ -132,7 +131,7 @@ Foo(() =>
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 30
@@ -142,13 +141,13 @@ Foo(() =>
                                 "text": 127,
                                 "rawText": "127",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 63
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 63
@@ -157,18 +156,18 @@ Foo(() =>
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 31,
                     "end": 64
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 64
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 24,
             "end": 65
@@ -177,7 +176,6 @@ Foo(() =>
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -187,17 +185,13 @@ Foo(() =>
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

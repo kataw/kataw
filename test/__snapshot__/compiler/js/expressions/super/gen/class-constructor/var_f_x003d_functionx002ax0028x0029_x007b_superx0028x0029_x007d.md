@@ -14,10 +14,9 @@ class C { constructor() { var f = function*() { super(); } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { constructor() { var f = function*() { super(); } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { constructor() { var f = function*() { super(); } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 21
@@ -62,7 +61,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
@@ -86,7 +85,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 29,
                                                             "end": 31
@@ -101,7 +100,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 44,
                                                                 "end": 45
@@ -118,7 +117,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                 "expression": {
                                                                                     "kind": 4260561,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 47,
                                                                                     "end": 53
@@ -130,18 +129,18 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 55,
                                                                                     "end": 55
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 65536,
                                                                                 "start": 53,
                                                                                 "end": 55
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 47,
                                                                             "end": 56
@@ -149,13 +148,13 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 47,
                                                                     "end": 56
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 45,
                                                                 "end": 58
@@ -163,26 +162,26 @@ class C { constructor() { var f = function*() { super(); } } }
                                                             "typeParameters": null,
                                                             "type": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 128,
                                                             "start": 33,
                                                             "end": 58
                                                         },
                                                         "flags": 29,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 0,
                                                         "end": 58
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 58
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 25,
                                             "end": 58
@@ -190,13 +189,13 @@ class C { constructor() { var f = function*() { super(); } } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 25,
                                     "end": 58
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 60
@@ -206,20 +205,20 @@ class C { constructor() { var f = function*() { super(); } } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 60
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 60
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 62
@@ -227,7 +226,7 @@ class C { constructor() { var f = function*() { super(); } } }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 62
@@ -236,7 +235,6 @@ class C { constructor() { var f = function*() { super(); } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -246,17 +244,13 @@ class C { constructor() { var f = function*() { super(); } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

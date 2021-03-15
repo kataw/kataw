@@ -14,10 +14,9 @@ function* gf() { yield 'foo' }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function* gf() { yield 'foo' }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function* gf() { yield 'foo' }
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 12
@@ -38,7 +37,7 @@ function* gf() { yield 'foo' }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -59,19 +58,19 @@ function* gf() { yield 'foo' }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 33554432,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 16393,
                                 "start": 16,
                                 "end": 28
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 28
@@ -79,20 +78,20 @@ function* gf() { yield 'foo' }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 30
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 30
@@ -101,7 +100,6 @@ function* gf() { yield 'foo' }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -111,17 +109,13 @@ function* gf() { yield 'foo' }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

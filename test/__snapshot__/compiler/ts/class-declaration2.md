@@ -12,10 +12,9 @@ class Foo { private readonly foo; } // correct
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Foo { readonly private foo; } // wrong\n\nclass Foo { private readonly foo; } // correct",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class Foo { private readonly foo; } // correct
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 9
@@ -44,7 +43,7 @@ class Foo { private readonly foo; } // correct
                             "text": "private",
                             "rawText": "private",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 28
@@ -61,7 +60,7 @@ class Foo { private readonly foo; } // correct
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 11,
                         "end": 28
@@ -73,7 +72,7 @@ class Foo { private readonly foo; } // correct
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 32
@@ -90,14 +89,14 @@ class Foo { private readonly foo; } // correct
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 28,
                         "end": 33
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 35
@@ -105,7 +104,7 @@ class Foo { private readonly foo; } // correct
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 35
@@ -117,7 +116,7 @@ class Foo { private readonly foo; } // correct
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 51,
                 "end": 55
@@ -135,7 +134,7 @@ class Foo { private readonly foo; } // correct
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 74,
                             "end": 78
@@ -152,21 +151,21 @@ class Foo { private readonly foo; } // correct
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 57,
                             "end": 65
                         },
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 57,
                         "end": 79
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 57,
                 "end": 81
@@ -174,7 +173,7 @@ class Foo { private readonly foo; } // correct
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 35,
             "end": 81
@@ -191,7 +190,6 @@ class Foo { private readonly foo; } // correct
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -201,17 +199,13 @@ class Foo { private readonly foo; } // correct
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -87,10 +87,9 @@ function k ({
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const identity = (a) => a;\n\nconst a = {\n  .../*#__PURE__*/identity({\n    b: 1\n  })\n};\n\nconst b = {\n  ...\n  /*#__PURE__*/identity({\n    b: 1\n  })\n};\n\nconst c = {\n  ...\n  /*#__PURE__*/\n  identity({\n    b: 1\n  })\n};\n\nconst d = {\n  .../*#__PURE__*/\n  identity({\n    b: 1\n  })\n};\n\nfunction e (.../* comment e */args) {\n  const [ea, eb] = [.../* comment eab */args];\n  return args.length;\n}\n\nfunction f (\n  first,\n  .../* comment f */rest\n) {\n  return rest.length;\n}\n\nfunction g (\n  first,\n  .../* comment g */\n  rest\n) {\n  const [ga, gb] = [.../* comment gab */\n    rest\n  ]\n  return rest.length;\n}\n\nconst h = (.../* comment h */args) => args.length;\n\nconst i = (\n  first, .../* comment i */rest\n) => rest.length;\n\nconst j = (\n  first,\n  .../* comment j */\n  rest\n) => rest.length;\n\nfunction k ({\n  first,\n  .../* comment k */rest\n}) {\n  const { ka, kb, .../* comment kr */remaining } = rest;\n  const {\n    kc,\n    kd,\n    .../* comment kr2 */\n    remaining2\n  } = rest;\n  return { .../* comment return k */ remaining };\n}",
     "filename": "",
     "statements": [
@@ -107,7 +106,7 @@ function k ({
                             "text": "identity",
                             "rawText": "identity",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 14
@@ -128,7 +127,7 @@ function k ({
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
@@ -140,7 +139,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 16,
                                         "end": 20
@@ -150,7 +149,7 @@ function k ({
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
@@ -160,32 +159,32 @@ function k ({
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 25
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 25
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 25
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 26
@@ -203,7 +202,7 @@ function k ({
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 33,
                             "end": 35
@@ -224,7 +223,7 @@ function k ({
                                                 "text": "identity",
                                                 "rawText": "identity",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 66
@@ -245,7 +244,7 @@ function k ({
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 68,
                                                                         "end": 74
@@ -255,7 +254,7 @@ function k ({
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 75,
                                                                         "end": 77
@@ -263,7 +262,7 @@ function k ({
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 68,
                                                                     "end": 77
@@ -272,13 +271,13 @@ function k ({
                                                             "trailingComma": false,
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 68,
                                                             "end": 77
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 67,
                                                         "end": 81
@@ -287,18 +286,18 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 68,
                                                 "end": 82
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 66,
                                             "end": 82
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4104,
                                         "start": 45,
                                         "end": 82
@@ -307,32 +306,32 @@ function k ({
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 82
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 37,
                             "end": 84
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 33,
                         "end": 84
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 33,
                 "end": 84
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 26,
             "end": 85
@@ -350,7 +349,7 @@ function k ({
                             "text": "b",
                             "rawText": "b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 92,
                             "end": 94
@@ -371,7 +370,7 @@ function k ({
                                                 "text": "identity",
                                                 "rawText": "identity",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 104,
                                                 "end": 128
@@ -392,7 +391,7 @@ function k ({
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 130,
                                                                         "end": 136
@@ -402,7 +401,7 @@ function k ({
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 137,
                                                                         "end": 139
@@ -410,7 +409,7 @@ function k ({
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 130,
                                                                     "end": 139
@@ -419,13 +418,13 @@ function k ({
                                                             "trailingComma": false,
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 130,
                                                             "end": 139
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 129,
                                                         "end": 143
@@ -434,18 +433,18 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 130,
                                                 "end": 144
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 128,
                                             "end": 144
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4104,
                                         "start": 104,
                                         "end": 144
@@ -454,32 +453,32 @@ function k ({
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 98,
                                 "end": 144
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 96,
                             "end": 146
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 92,
                         "end": 146
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 92,
                 "end": 146
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 85,
             "end": 147
@@ -497,7 +496,7 @@ function k ({
                             "text": "c",
                             "rawText": "c",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 154,
                             "end": 156
@@ -518,7 +517,7 @@ function k ({
                                                 "text": "identity",
                                                 "rawText": "identity",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 166,
                                                 "end": 193
@@ -539,7 +538,7 @@ function k ({
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 195,
                                                                         "end": 201
@@ -549,7 +548,7 @@ function k ({
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 202,
                                                                         "end": 204
@@ -557,7 +556,7 @@ function k ({
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 195,
                                                                     "end": 204
@@ -566,13 +565,13 @@ function k ({
                                                             "trailingComma": false,
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 195,
                                                             "end": 204
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 194,
                                                         "end": 208
@@ -581,18 +580,18 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 195,
                                                 "end": 209
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 193,
                                             "end": 209
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4104,
                                         "start": 166,
                                         "end": 209
@@ -601,32 +600,32 @@ function k ({
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 160,
                                 "end": 209
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 158,
                             "end": 211
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 154,
                         "end": 211
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 154,
                 "end": 211
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 147,
             "end": 212
@@ -644,7 +643,7 @@ function k ({
                             "text": "d",
                             "rawText": "d",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 219,
                             "end": 221
@@ -665,7 +664,7 @@ function k ({
                                                 "text": "identity",
                                                 "rawText": "identity",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 231,
                                                 "end": 255
@@ -686,7 +685,7 @@ function k ({
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 257,
                                                                         "end": 263
@@ -696,7 +695,7 @@ function k ({
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 264,
                                                                         "end": 266
@@ -704,7 +703,7 @@ function k ({
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 257,
                                                                     "end": 266
@@ -713,13 +712,13 @@ function k ({
                                                             "trailingComma": false,
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 257,
                                                             "end": 266
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 256,
                                                         "end": 270
@@ -728,18 +727,18 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 257,
                                                 "end": 271
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 255,
                                             "end": 271
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4104,
                                         "start": 231,
                                         "end": 271
@@ -748,32 +747,32 @@ function k ({
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 225,
                                 "end": 271
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 223,
                             "end": 273
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 219,
                         "end": 273
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 219,
                 "end": 273
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 212,
             "end": 274
@@ -785,7 +784,7 @@ function k ({
                 "text": "e",
                 "rawText": "e",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 284,
                 "end": 286
@@ -801,7 +800,7 @@ function k ({
                             "text": "args",
                             "rawText": "args",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 291,
                             "end": 310
@@ -813,7 +812,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 288,
                         "end": 310
@@ -821,7 +820,7 @@ function k ({
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 288,
                 "end": 311
@@ -853,14 +852,14 @@ function k ({
                                                             "text": "ea",
                                                             "rawText": "ea",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 323,
                                                             "end": 325
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 323,
                                                         "end": 325
@@ -873,14 +872,14 @@ function k ({
                                                             "text": "eb",
                                                             "rawText": "eb",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 326,
                                                             "end": 329
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 326,
                                                         "end": 329
@@ -888,13 +887,13 @@ function k ({
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 323,
                                                 "end": 329
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 321,
                                             "end": 330
@@ -913,13 +912,13 @@ function k ({
                                                             "text": "args",
                                                             "rawText": "args",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 337,
                                                             "end": 358
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2,
                                                         "start": 334,
                                                         "end": 358
@@ -928,32 +927,32 @@ function k ({
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 334,
                                                 "end": 358
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 332,
                                             "end": 359
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 321,
                                         "end": 359
                                     }
                                 ],
                                 "flags": 8,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 321,
                                 "end": 359
                             },
                             "flags": 32776,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 313,
                             "end": 360
@@ -967,7 +966,7 @@ function k ({
                                     "text": "args",
                                     "rawText": "args",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 369,
                                     "end": 374
@@ -977,13 +976,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 375,
                                     "end": 381
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 374,
                                 "end": 381,
@@ -994,7 +993,7 @@ function k ({
                                 }
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 360,
                             "end": 382
@@ -1002,20 +1001,20 @@ function k ({
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 313,
                     "end": 382
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 311,
                 "end": 384
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 274,
             "end": 384
@@ -1027,7 +1026,7 @@ function k ({
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 394,
                 "end": 396
@@ -1043,7 +1042,7 @@ function k ({
                             "text": "first",
                             "rawText": "first",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 398,
                             "end": 406
@@ -1055,7 +1054,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 398,
                         "end": 406
@@ -1068,7 +1067,7 @@ function k ({
                             "text": "rest",
                             "rawText": "rest",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 413,
                             "end": 432
@@ -1080,7 +1079,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 407,
                         "end": 432
@@ -1088,7 +1087,7 @@ function k ({
                 ],
                 "trailingComma": false,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 398,
                 "end": 434
@@ -1108,7 +1107,7 @@ function k ({
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 445,
                                     "end": 450
@@ -1118,13 +1117,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 451,
                                     "end": 457
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 450,
                                 "end": 457,
@@ -1135,7 +1134,7 @@ function k ({
                                 }
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 436,
                             "end": 458
@@ -1143,20 +1142,20 @@ function k ({
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 436,
                     "end": 458
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 434,
                 "end": 460
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 384,
             "end": 460
@@ -1168,7 +1167,7 @@ function k ({
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 470,
                 "end": 472
@@ -1184,7 +1183,7 @@ function k ({
                             "text": "first",
                             "rawText": "first",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 474,
                             "end": 482
@@ -1196,7 +1195,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 474,
                         "end": 482
@@ -1209,7 +1208,7 @@ function k ({
                             "text": "rest",
                             "rawText": "rest",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 489,
                             "end": 511
@@ -1221,7 +1220,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 483,
                         "end": 511
@@ -1229,7 +1228,7 @@ function k ({
                 ],
                 "trailingComma": false,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 474,
                 "end": 513
@@ -1261,14 +1260,14 @@ function k ({
                                                             "text": "ga",
                                                             "rawText": "ga",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 525,
                                                             "end": 527
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 525,
                                                         "end": 527
@@ -1281,14 +1280,14 @@ function k ({
                                                             "text": "gb",
                                                             "rawText": "gb",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 528,
                                                             "end": 531
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 528,
                                                         "end": 531
@@ -1296,13 +1295,13 @@ function k ({
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 525,
                                                 "end": 531
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 523,
                                             "end": 532
@@ -1321,13 +1320,13 @@ function k ({
                                                             "text": "rest",
                                                             "rawText": "rest",
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 539,
                                                             "end": 565
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2,
                                                         "start": 536,
                                                         "end": 565
@@ -1336,32 +1335,32 @@ function k ({
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 536,
                                                 "end": 565
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 534,
                                             "end": 569
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 523,
                                         "end": 569
                                     }
                                 ],
                                 "flags": 32776,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 523,
                                 "end": 569
                             },
                             "flags": 32776,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 515,
                             "end": 569
@@ -1375,7 +1374,7 @@ function k ({
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 578,
                                     "end": 583
@@ -1385,13 +1384,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 584,
                                     "end": 590
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 583,
                                 "end": 590,
@@ -1402,7 +1401,7 @@ function k ({
                                 }
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 569,
                             "end": 591
@@ -1410,20 +1409,20 @@ function k ({
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 515,
                     "end": 591
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 513,
                 "end": 593
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 460,
             "end": 593
@@ -1441,7 +1440,7 @@ function k ({
                             "text": "h",
                             "rawText": "h",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 600,
                             "end": 602
@@ -1462,7 +1461,7 @@ function k ({
                                             "text": "args",
                                             "rawText": "args",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 609,
                                             "end": 628
@@ -1474,7 +1473,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4097,
                                         "start": 606,
                                         "end": 628
@@ -1484,7 +1483,7 @@ function k ({
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 604,
                                 "end": 629
@@ -1496,7 +1495,7 @@ function k ({
                                     "text": "args",
                                     "rawText": "args",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 632,
                                     "end": 637
@@ -1506,13 +1505,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 638,
                                     "end": 644
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 637,
                                 "end": 644,
@@ -1523,26 +1522,26 @@ function k ({
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 604,
                             "end": 644
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 600,
                         "end": 644
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 600,
                 "end": 644
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 593,
             "end": 645
@@ -1560,7 +1559,7 @@ function k ({
                             "text": "i",
                             "rawText": "i",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 652,
                             "end": 654
@@ -1581,7 +1580,7 @@ function k ({
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 671,
                                             "end": 690
@@ -1593,7 +1592,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4097,
                                         "start": 667,
                                         "end": 690
@@ -1606,7 +1605,7 @@ function k ({
                                             "text": "first",
                                             "rawText": "first",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 658,
                                             "end": 666
@@ -1618,7 +1617,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 656,
                                         "end": 692
@@ -1628,7 +1627,7 @@ function k ({
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 658,
                                 "end": 690
@@ -1640,7 +1639,7 @@ function k ({
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 695,
                                     "end": 700
@@ -1650,13 +1649,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 701,
                                     "end": 707
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 700,
                                 "end": 707,
@@ -1667,26 +1666,26 @@ function k ({
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 656,
                             "end": 707
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 652,
                         "end": 707
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 652,
                 "end": 707
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 645,
             "end": 708
@@ -1704,7 +1703,7 @@ function k ({
                             "text": "j",
                             "rawText": "j",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 715,
                             "end": 717
@@ -1725,7 +1724,7 @@ function k ({
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 736,
                                             "end": 758
@@ -1737,7 +1736,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4097,
                                         "start": 730,
                                         "end": 758
@@ -1750,7 +1749,7 @@ function k ({
                                             "text": "first",
                                             "rawText": "first",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 721,
                                             "end": 729
@@ -1762,7 +1761,7 @@ function k ({
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 719,
                                         "end": 760
@@ -1772,7 +1771,7 @@ function k ({
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 721,
                                 "end": 758
@@ -1784,7 +1783,7 @@ function k ({
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 763,
                                     "end": 768
@@ -1794,13 +1793,13 @@ function k ({
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 769,
                                     "end": 775
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 768,
                                 "end": 775,
@@ -1811,26 +1810,26 @@ function k ({
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 719,
                             "end": 775
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 715,
                         "end": 775
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 715,
                 "end": 775
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 708,
             "end": 776
@@ -1842,7 +1841,7 @@ function k ({
                 "text": "k",
                 "rawText": "k",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 786,
                 "end": 788
@@ -1866,14 +1865,14 @@ function k ({
                                             "text": "first",
                                             "rawText": "first",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 791,
                                             "end": 799
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 791,
                                         "end": 799
@@ -1886,14 +1885,14 @@ function k ({
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 800,
                                             "end": 825
                                         },
                                         "right": null,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 800,
                                         "end": 825
@@ -1903,12 +1902,12 @@ function k ({
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 791,
                                 "end": 825
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 790,
                             "end": 827
@@ -1920,7 +1919,7 @@ function k ({
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 790,
                         "end": 827
@@ -1928,7 +1927,7 @@ function k ({
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 790,
                 "end": 828
@@ -1960,14 +1959,14 @@ function k ({
                                                             "text": "ka",
                                                             "rawText": "ka",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 840,
                                                             "end": 843
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 840,
                                                         "end": 843
@@ -1980,14 +1979,14 @@ function k ({
                                                             "text": "kb",
                                                             "rawText": "kb",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 844,
                                                             "end": 847
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 844,
                                                         "end": 847
@@ -2000,14 +1999,14 @@ function k ({
                                                             "text": "remaining",
                                                             "rawText": "remaining",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 848,
                                                             "end": 877
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 848,
                                                         "end": 877
@@ -2017,12 +2016,12 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 840,
                                                 "end": 877
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 838,
                                             "end": 879
@@ -2034,26 +2033,26 @@ function k ({
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 881,
                                             "end": 886
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 838,
                                         "end": 886
                                     }
                                 ],
                                 "flags": 8,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 838,
                                 "end": 886
                             },
                             "flags": 32776,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 830,
                             "end": 887
@@ -2079,14 +2078,14 @@ function k ({
                                                             "text": "kc",
                                                             "rawText": "kc",
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 897,
                                                             "end": 904
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 897,
                                                         "end": 904
@@ -2099,14 +2098,14 @@ function k ({
                                                             "text": "kd",
                                                             "rawText": "kd",
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 905,
                                                             "end": 912
                                                         },
                                                         "right": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 905,
                                                         "end": 912
@@ -2119,14 +2118,14 @@ function k ({
                                                             "text": "remaining2",
                                                             "rawText": "remaining2",
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 913,
                                                             "end": 953
                                                         },
                                                         "right": null,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1024,
                                                         "start": 913,
                                                         "end": 953
@@ -2136,12 +2135,12 @@ function k ({
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 897,
                                                 "end": 953
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 895,
                                             "end": 957
@@ -2153,26 +2152,26 @@ function k ({
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 959,
                                             "end": 964
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 895,
                                         "end": 964
                                     }
                                 ],
                                 "flags": 8,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 895,
                                 "end": 964
                             },
                             "flags": 32776,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 887,
                             "end": 965
@@ -2191,13 +2190,13 @@ function k ({
                                                 "text": "remaining",
                                                 "rawText": "remaining",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 980,
                                                 "end": 1012
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 4104,
                                             "start": 980,
                                             "end": 1012
@@ -2206,19 +2205,19 @@ function k ({
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 976,
                                     "end": 1012
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 974,
                                 "end": 1014
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 965,
                             "end": 1015
@@ -2226,20 +2225,20 @@ function k ({
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 830,
                     "end": 1015
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 828,
                 "end": 1017
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 776,
             "end": 1017
@@ -2248,7 +2247,6 @@ function k ({
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -2258,17 +2256,13 @@ function k ({
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

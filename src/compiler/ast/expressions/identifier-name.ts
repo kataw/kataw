@@ -20,7 +20,7 @@ export function createIdentifierName(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

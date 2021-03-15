@@ -14,10 +14,9 @@ for (async function(){} in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (async function(){} in x) ;",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ for (async function(){} in x) ;
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 21
@@ -43,13 +42,13 @@ for (async function(){} in x) ;
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 23
@@ -57,7 +56,7 @@ for (async function(){} in x) ;
                 "typeParameters": null,
                 "type": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 23
@@ -67,7 +66,7 @@ for (async function(){} in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 26,
                 "end": 28
@@ -75,13 +74,13 @@ for (async function(){} in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -90,7 +89,6 @@ for (async function(){} in x) ;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -100,17 +98,13 @@ for (async function(){} in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

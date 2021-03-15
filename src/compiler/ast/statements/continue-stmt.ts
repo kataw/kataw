@@ -20,7 +20,7 @@ export function createContinueStatement(
     kind: NodeKind.ContinueStatement,
     label,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

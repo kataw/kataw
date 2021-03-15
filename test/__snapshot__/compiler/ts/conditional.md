@@ -25,10 +25,9 @@ a ? async (b) => (c => d) : e => f;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "a ? b ? (c) : (d) : (e) => f : g;\n\na ? (b) : c => d : (e) : f => g;\n\na ? (b) : c => (d) : e => f : g;\n\n// a ? (b) : c => (d => e) : f => g;\n\na ? b ? (c => d) : e => (f => g) : h => i;\n\na ? async (b) : c => d;\na ? async (b) : c => d : e;\na ? async (b => c) : d => e;\na ? async (b) => (c => d) : e => f;\n\n",
     "filename": "",
     "statements": [
@@ -41,7 +40,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -53,7 +52,7 @@ a ? async (b) => (c => d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 5
@@ -65,13 +64,13 @@ a ? async (b) => (c => d) : e => f;
                             "text": "c",
                             "rawText": "c",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 11
@@ -83,19 +82,19 @@ a ? async (b) => (c => d) : e => f;
                             "text": "d",
                             "rawText": "d",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 17
@@ -114,7 +113,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
@@ -126,7 +125,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 23
@@ -136,7 +135,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 23
@@ -146,19 +145,19 @@ a ? async (b) => (c => d) : e => f;
                         "text": "f",
                         "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "flags": 1073741824,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
@@ -170,20 +169,20 @@ a ? async (b) => (c => d) : e => f;
                     "text": "g",
                     "rawText": "g",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 33
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 33
@@ -197,7 +196,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 33,
                     "end": 36
@@ -209,13 +208,13 @@ a ? async (b) => (c => d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 40,
                         "end": 41
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 38,
                     "end": 42
@@ -234,7 +233,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 46
@@ -246,7 +245,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 46,
                                 "end": 46
@@ -256,7 +255,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 44,
                         "end": 46
@@ -266,19 +265,19 @@ a ? async (b) => (c => d) : e => f;
                         "text": "d",
                         "rawText": "d",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 49,
                         "end": 51
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 44,
                     "end": 51
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 33,
                 "end": 51
@@ -299,7 +298,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 55,
                                     "end": 56
@@ -311,7 +310,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 53,
                                 "end": 61
@@ -324,14 +323,14 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 59,
                                 "end": 61
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 59,
                             "end": 64
@@ -339,7 +338,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 53,
                         "end": 61
@@ -349,26 +348,26 @@ a ? async (b) => (c => d) : e => f;
                         "text": "g",
                         "rawText": "g",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 64,
                         "end": 66
                     },
                     "flags": 1073741824,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 53,
                     "end": 66
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 53,
                 "end": 67
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 33,
             "end": 67
@@ -382,7 +381,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 67,
                     "end": 70
@@ -394,13 +393,13 @@ a ? async (b) => (c => d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 74,
                         "end": 75
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 72,
                     "end": 76
@@ -419,7 +418,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 78,
                                     "end": 80
@@ -431,7 +430,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 80,
                                 "end": 80
@@ -441,7 +440,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 78,
                         "end": 80
@@ -460,7 +459,7 @@ a ? async (b) => (c => d) : e => f;
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 85,
                                         "end": 86
@@ -472,7 +471,7 @@ a ? async (b) => (c => d) : e => f;
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 83,
                                     "end": 91
@@ -485,14 +484,14 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 89,
                                     "end": 91
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 89,
                                 "end": 94
@@ -500,7 +499,7 @@ a ? async (b) => (c => d) : e => f;
                             "accessModifier": null,
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 83,
                             "end": 91
@@ -510,25 +509,25 @@ a ? async (b) => (c => d) : e => f;
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 94,
                             "end": 96
                         },
                         "flags": 1073741824,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 83,
                         "end": 96
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 78,
                     "end": 96
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 67,
                 "end": 96
@@ -540,20 +539,20 @@ a ? async (b) => (c => d) : e => f;
                     "text": "g",
                     "rawText": "g",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 98,
                     "end": 100
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 98,
                 "end": 101
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 67,
             "end": 101
@@ -567,7 +566,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 101,
                     "end": 142
@@ -579,7 +578,7 @@ a ? async (b) => (c => d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 144,
                         "end": 146
@@ -600,7 +599,7 @@ a ? async (b) => (c => d) : e => f;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 150,
                                             "end": 151
@@ -612,7 +611,7 @@ a ? async (b) => (c => d) : e => f;
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 148,
                                         "end": 151
@@ -622,7 +621,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 148,
                                 "end": 151
@@ -632,19 +631,19 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 154,
                                 "end": 156
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 148,
                             "end": 156
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 148,
                         "end": 157
@@ -663,7 +662,7 @@ a ? async (b) => (c => d) : e => f;
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 159,
                                         "end": 161
@@ -675,7 +674,7 @@ a ? async (b) => (c => d) : e => f;
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 161,
                                     "end": 161
@@ -685,7 +684,7 @@ a ? async (b) => (c => d) : e => f;
                             "accessModifier": null,
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 159,
                             "end": 161
@@ -706,7 +705,7 @@ a ? async (b) => (c => d) : e => f;
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 166,
                                                 "end": 167
@@ -718,7 +717,7 @@ a ? async (b) => (c => d) : e => f;
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 164,
                                             "end": 167
@@ -728,7 +727,7 @@ a ? async (b) => (c => d) : e => f;
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 164,
                                     "end": 167
@@ -738,31 +737,31 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 170,
                                     "end": 172
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 164,
                                 "end": 172
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 164,
                             "end": 173
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 159,
                         "end": 173
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 144,
                     "end": 173
@@ -781,7 +780,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "h",
                                     "rawText": "h",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 175,
                                     "end": 177
@@ -793,7 +792,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 177,
                                 "end": 177
@@ -803,7 +802,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 175,
                         "end": 177
@@ -813,25 +812,25 @@ a ? async (b) => (c => d) : e => f;
                         "text": "i",
                         "rawText": "i",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 180,
                         "end": 182
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 175,
                     "end": 182
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 101,
                 "end": 182
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 101,
             "end": 183
@@ -845,7 +844,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 183,
                     "end": 186
@@ -857,7 +856,7 @@ a ? async (b) => (c => d) : e => f;
                         "text": "async",
                         "rawText": "async",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 188,
                         "end": 194
@@ -871,7 +870,7 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 196,
                                 "end": 197
@@ -880,12 +879,12 @@ a ? async (b) => (c => d) : e => f;
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 197,
                         "end": 198
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 194,
                     "end": 198
@@ -904,7 +903,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 200,
                                     "end": 202
@@ -916,7 +915,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 202,
                                 "end": 202
@@ -926,7 +925,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 200,
                         "end": 202
@@ -936,25 +935,25 @@ a ? async (b) => (c => d) : e => f;
                         "text": "d",
                         "rawText": "d",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 205,
                         "end": 207
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 200,
                     "end": 207
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 183,
                 "end": 207
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 183,
             "end": 208
@@ -968,7 +967,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 208,
                     "end": 210
@@ -980,7 +979,7 @@ a ? async (b) => (c => d) : e => f;
                         "text": "async",
                         "rawText": "async",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 212,
                         "end": 218
@@ -994,7 +993,7 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 220,
                                 "end": 221
@@ -1003,12 +1002,12 @@ a ? async (b) => (c => d) : e => f;
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 221,
                         "end": 222
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 218,
                     "end": 222
@@ -1027,7 +1026,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 224,
                                     "end": 226
@@ -1039,7 +1038,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 226,
                                 "end": 226
@@ -1049,7 +1048,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 224,
                         "end": 226
@@ -1059,19 +1058,19 @@ a ? async (b) => (c => d) : e => f;
                         "text": "d",
                         "rawText": "d",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 229,
                         "end": 231
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 224,
                     "end": 231
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 208,
                 "end": 231
@@ -1083,20 +1082,20 @@ a ? async (b) => (c => d) : e => f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 233,
                     "end": 235
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 233,
                 "end": 236
             },
             "isWebCompat": true,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 208,
             "end": 236
@@ -1110,7 +1109,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 236,
                     "end": 238
@@ -1122,7 +1121,7 @@ a ? async (b) => (c => d) : e => f;
                         "text": "async",
                         "rawText": "async",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 240,
                         "end": 246
@@ -1145,7 +1144,7 @@ a ? async (b) => (c => d) : e => f;
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 248,
                                                 "end": 249
@@ -1157,7 +1156,7 @@ a ? async (b) => (c => d) : e => f;
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 249,
                                             "end": 249
@@ -1167,7 +1166,7 @@ a ? async (b) => (c => d) : e => f;
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 248,
                                     "end": 249
@@ -1177,13 +1176,13 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 252,
                                     "end": 254
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 248,
                                 "end": 254
@@ -1192,12 +1191,12 @@ a ? async (b) => (c => d) : e => f;
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 249,
                         "end": 255
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 246,
                     "end": 255
@@ -1216,7 +1215,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 257,
                                     "end": 259
@@ -1228,7 +1227,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 259,
                                 "end": 259
@@ -1238,7 +1237,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 257,
                         "end": 259
@@ -1248,25 +1247,25 @@ a ? async (b) => (c => d) : e => f;
                         "text": "e",
                         "rawText": "e",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 262,
                         "end": 264
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 257,
                     "end": 264
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 236,
                 "end": 264
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 236,
             "end": 265
@@ -1280,7 +1279,7 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 265,
                     "end": 267
@@ -1299,7 +1298,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 277,
                                     "end": 278
@@ -1311,7 +1310,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 277,
                                 "end": 279
@@ -1321,7 +1320,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 278,
                         "end": 279
@@ -1342,7 +1341,7 @@ a ? async (b) => (c => d) : e => f;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 284,
                                             "end": 285
@@ -1354,7 +1353,7 @@ a ? async (b) => (c => d) : e => f;
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 282,
                                         "end": 285
@@ -1364,7 +1363,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 282,
                                 "end": 285
@@ -1374,25 +1373,25 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 288,
                                 "end": 290
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 282,
                             "end": 290
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 282,
                         "end": 291
                     },
                     "flags": 1073741824,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 269,
                     "end": 291
@@ -1411,7 +1410,7 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 293,
                                     "end": 295
@@ -1423,7 +1422,7 @@ a ? async (b) => (c => d) : e => f;
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 295,
                                 "end": 295
@@ -1433,7 +1432,7 @@ a ? async (b) => (c => d) : e => f;
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 293,
                         "end": 295
@@ -1443,25 +1442,25 @@ a ? async (b) => (c => d) : e => f;
                         "text": "f",
                         "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 298,
                         "end": 300
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 293,
                     "end": 300
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 265,
                 "end": 300
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 265,
             "end": 301
@@ -1470,7 +1469,6 @@ a ? async (b) => (c => d) : e => f;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1480,17 +1478,13 @@ a ? async (b) => (c => d) : e => f;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

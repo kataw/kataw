@@ -15,7 +15,7 @@ export function createOptionalType(valueType: TypeNode, flags: NodeFlags, start:
     kind: NodeKind.OptionalType,
     valueType,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

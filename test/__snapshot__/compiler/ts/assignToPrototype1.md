@@ -15,10 +15,9 @@ Point.prototype.add = function(dx, dy) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare class Point {\n  add(dx: number, dy: number): void;\n}\n\nPoint.prototype.add = function(dx, dy) {\n};",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ Point.prototype.add = function(dx, dy) {
                 "text": "Point",
                 "rawText": "Point",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 13,
                 "end": 19
@@ -53,7 +52,7 @@ Point.prototype.add = function(dx, dy) {
                                 "text": "add",
                                 "rawText": "add",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
@@ -69,7 +68,7 @@ Point.prototype.add = function(dx, dy) {
                                             "text": "dx",
                                             "rawText": "dx",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 28,
                                             "end": 30
@@ -78,7 +77,7 @@ Point.prototype.add = function(dx, dy) {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 31,
                                             "end": 38
@@ -88,7 +87,7 @@ Point.prototype.add = function(dx, dy) {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 28,
                                         "end": 38
@@ -101,7 +100,7 @@ Point.prototype.add = function(dx, dy) {
                                             "text": "dy",
                                             "rawText": "dy",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 39,
                                             "end": 42
@@ -110,7 +109,7 @@ Point.prototype.add = function(dx, dy) {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 43,
                                             "end": 50
@@ -120,7 +119,7 @@ Point.prototype.add = function(dx, dy) {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 39,
                                         "end": 50
@@ -128,7 +127,7 @@ Point.prototype.add = function(dx, dy) {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 51
@@ -140,7 +139,7 @@ Point.prototype.add = function(dx, dy) {
                             "type": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 52,
                                 "end": 57
@@ -148,20 +147,20 @@ Point.prototype.add = function(dx, dy) {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 58
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 21,
                         "end": 58
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 21,
                 "end": 60
@@ -169,7 +168,7 @@ Point.prototype.add = function(dx, dy) {
             "decorators": null,
             "isAbstract": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 7,
             "end": 60
@@ -187,7 +186,7 @@ Point.prototype.add = function(dx, dy) {
                             "text": "Point",
                             "rawText": "Point",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 67
@@ -197,13 +196,13 @@ Point.prototype.add = function(dx, dy) {
                             "text": "prototype",
                             "rawText": "prototype",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 68,
                             "end": 77
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 67,
                         "end": 77,
@@ -218,13 +217,13 @@ Point.prototype.add = function(dx, dy) {
                         "text": "add",
                         "rawText": "add",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 78,
                         "end": 81
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 77,
                     "end": 81,
@@ -249,7 +248,7 @@ Point.prototype.add = function(dx, dy) {
                                     "text": "dx",
                                     "rawText": "dx",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 93,
                                     "end": 95
@@ -261,7 +260,7 @@ Point.prototype.add = function(dx, dy) {
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 93,
                                 "end": 95
@@ -274,7 +273,7 @@ Point.prototype.add = function(dx, dy) {
                                     "text": "dy",
                                     "rawText": "dy",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 96,
                                     "end": 99
@@ -286,7 +285,7 @@ Point.prototype.add = function(dx, dy) {
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 96,
                                 "end": 99
@@ -294,7 +293,7 @@ Point.prototype.add = function(dx, dy) {
                         ],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 93,
                         "end": 100
@@ -306,13 +305,13 @@ Point.prototype.add = function(dx, dy) {
                             "statements": [],
                             "multiline": true,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 102,
                             "end": 102
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 100,
                         "end": 104
@@ -320,19 +319,19 @@ Point.prototype.add = function(dx, dy) {
                     "typeParameters": null,
                     "type": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 83,
                     "end": 104
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 60,
                 "end": 104
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 60,
             "end": 105
@@ -341,7 +340,6 @@ Point.prototype.add = function(dx, dy) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -351,17 +349,13 @@ Point.prototype.add = function(dx, dy) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

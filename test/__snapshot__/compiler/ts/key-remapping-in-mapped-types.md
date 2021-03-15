@@ -20,10 +20,9 @@ type PickByValueType<T, U> = {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type MappedTypeWithNewKeys<T> = {\n  [K in keyof T as NewKeyType]: T[K]\n};\n\ntype RemoveKindField<T> = {\n  [K in keyof T as Exclude<K, \"kind\">]: T[K]\n};\n\ntype PickByValueType<T, U> = {\n  [K in keyof T as T[K] extends U ? K : never]: T[K]\n};",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ type PickByValueType<T, U> = {
                 "text": "MappedTypeWithNewKeys",
                 "rawText": "MappedTypeWithNewKeys",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 26
@@ -48,7 +47,7 @@ type PickByValueType<T, U> = {
                         "text": "K",
                         "rawText": "K",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 37,
                         "end": 38
@@ -63,20 +62,20 @@ type PickByValueType<T, U> = {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 47,
                                 "end": 49
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 47,
                             "end": 52
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 41,
                         "end": 49
@@ -84,7 +83,7 @@ type PickByValueType<T, U> = {
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 37,
                     "end": 49
@@ -96,14 +95,14 @@ type PickByValueType<T, U> = {
                         "text": "NewKeyType",
                         "rawText": "NewKeyType",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 52,
                         "end": 63
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 52,
                     "end": 64
@@ -121,14 +120,14 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 65,
                             "end": 67
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 65,
                         "end": 68
@@ -140,26 +139,26 @@ type PickByValueType<T, U> = {
                             "text": "K",
                             "rawText": "K",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 68,
                             "end": 69
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 68,
                         "end": 70
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 65,
                     "end": 72
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 31,
                 "end": 72
@@ -174,7 +173,7 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 28
@@ -183,20 +182,20 @@ type PickByValueType<T, U> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 27,
                         "end": 28
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 27,
                 "end": 28
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 73
@@ -208,7 +207,7 @@ type PickByValueType<T, U> = {
                 "text": "RemoveKindField",
                 "rawText": "RemoveKindField",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 79,
                 "end": 95
@@ -222,7 +221,7 @@ type PickByValueType<T, U> = {
                         "text": "K",
                         "rawText": "K",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 106,
                         "end": 107
@@ -237,20 +236,20 @@ type PickByValueType<T, U> = {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 116,
                                 "end": 118
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 116,
                             "end": 121
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 110,
                         "end": 118
@@ -258,7 +257,7 @@ type PickByValueType<T, U> = {
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 106,
                     "end": 118
@@ -270,7 +269,7 @@ type PickByValueType<T, U> = {
                         "text": "Exclude",
                         "rawText": "Exclude",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 121,
                         "end": 129
@@ -285,14 +284,14 @@ type PickByValueType<T, U> = {
                                     "text": "K",
                                     "rawText": "K",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 130,
                                     "end": 131
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 130,
                                 "end": 132
@@ -302,20 +301,20 @@ type PickByValueType<T, U> = {
                                 "text": "kind",
                                 "rawText": "kind",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 132,
                                 "end": 139
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 130,
                         "end": 139
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 121,
                     "end": 141
@@ -333,14 +332,14 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 142,
                             "end": 144
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 142,
                         "end": 145
@@ -352,26 +351,26 @@ type PickByValueType<T, U> = {
                             "text": "K",
                             "rawText": "K",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 145,
                             "end": 146
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 145,
                         "end": 147
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 142,
                     "end": 149
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 100,
                 "end": 149
@@ -386,7 +385,7 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 96,
                             "end": 97
@@ -395,20 +394,20 @@ type PickByValueType<T, U> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 96,
                         "end": 97
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 96,
                 "end": 97
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 73,
             "end": 150
@@ -420,7 +419,7 @@ type PickByValueType<T, U> = {
                 "text": "PickByValueType",
                 "rawText": "PickByValueType",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 156,
                 "end": 172
@@ -434,7 +433,7 @@ type PickByValueType<T, U> = {
                         "text": "K",
                         "rawText": "K",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 186,
                         "end": 187
@@ -449,20 +448,20 @@ type PickByValueType<T, U> = {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 196,
                                 "end": 198
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 196,
                             "end": 201
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 190,
                         "end": 198
@@ -470,7 +469,7 @@ type PickByValueType<T, U> = {
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 186,
                     "end": 198
@@ -486,14 +485,14 @@ type PickByValueType<T, U> = {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 201,
                                 "end": 203
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 201,
                             "end": 204
@@ -505,20 +504,20 @@ type PickByValueType<T, U> = {
                                 "text": "K",
                                 "rawText": "K",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 204,
                                 "end": 205
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 204,
                             "end": 206
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 201,
                         "end": 214
@@ -530,14 +529,14 @@ type PickByValueType<T, U> = {
                             "text": "U",
                             "rawText": "U",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 214,
                             "end": 216
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 214,
                         "end": 218
@@ -549,14 +548,14 @@ type PickByValueType<T, U> = {
                             "text": "K",
                             "rawText": "K",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 218,
                             "end": 220
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 218,
                         "end": 222
@@ -564,13 +563,13 @@ type PickByValueType<T, U> = {
                     "falseType": {
                         "kind": 4202651,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 222,
                         "end": 228
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 201,
                     "end": 228
@@ -588,14 +587,14 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 230,
                             "end": 232
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 230,
                         "end": 233
@@ -607,26 +606,26 @@ type PickByValueType<T, U> = {
                             "text": "K",
                             "rawText": "K",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 233,
                             "end": 234
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 233,
                         "end": 235
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 230,
                     "end": 237
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 180,
                 "end": 237
@@ -641,7 +640,7 @@ type PickByValueType<T, U> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 173,
                             "end": 174
@@ -650,7 +649,7 @@ type PickByValueType<T, U> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 173,
                         "end": 174
@@ -662,7 +661,7 @@ type PickByValueType<T, U> = {
                             "text": "U",
                             "rawText": "U",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 175,
                             "end": 177
@@ -671,20 +670,20 @@ type PickByValueType<T, U> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 175,
                         "end": 177
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 173,
                 "end": 177
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 150,
             "end": 238
@@ -693,7 +692,6 @@ type PickByValueType<T, U> = {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -703,17 +701,13 @@ type PickByValueType<T, U> = {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

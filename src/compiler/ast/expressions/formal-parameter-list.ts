@@ -19,7 +19,7 @@ export function createFormalParameterList(
     formalParameterList,
     trailingComma,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

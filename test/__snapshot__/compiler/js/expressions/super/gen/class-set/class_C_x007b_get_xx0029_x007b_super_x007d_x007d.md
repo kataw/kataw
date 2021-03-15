@@ -14,10 +14,9 @@ class C { set x(_) { class C { get x) { super; } } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { set x(_) { class C { get x) { super; } } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
@@ -68,7 +67,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                             "text": "_",
                                             "rawText": "_",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 16,
                                             "end": 17
@@ -80,7 +79,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 16,
                                         "end": 17
@@ -88,7 +87,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
@@ -107,7 +106,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 26,
                                                 "end": 28
@@ -125,7 +124,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 36
@@ -142,14 +141,14 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                         "accessModifier": null,
                                                         "isStatic": false,
                                                         "flags": 1,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 524352,
                                                         "start": 30,
                                                         "end": 36
                                                     }
                                                 ],
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 30,
                                                 "end": 36
@@ -157,7 +156,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                             "decorators": null,
                                             "isAbstract": false,
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 20,
                                             "end": 36
@@ -165,13 +164,13 @@ class C { set x(_) { class C { get x) { super; } } } }
                                     ],
                                     "multiline": false,
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 36
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 36
@@ -181,20 +180,20 @@ class C { set x(_) { class C { get x) { super; } } } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 36
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 36
                     }
                 ],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 36
@@ -202,7 +201,7 @@ class C { set x(_) { class C { get x) { super; } } } }
             "decorators": null,
             "isAbstract": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 36
@@ -219,7 +218,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                             "member": {
                                 "kind": 4260561,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 45
@@ -229,19 +228,19 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "text": "",
                                 "rawText": "",
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 45,
                                 "end": 45
                             },
                             "flags": 39,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 1,
                             "end": 45
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 39,
                         "end": 46
@@ -249,13 +248,13 @@ class C { set x(_) { class C { get x) { super; } } } }
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 46
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 37,
             "end": 48
@@ -300,7 +299,6 @@ class C { set x(_) { class C { get x) { super; } } } }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -310,17 +308,13 @@ class C { set x(_) { class C { get x) { super; } } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -36,10 +36,9 @@ export default class Operation {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export interface IValidationError {\n    message: string;\n}\n\nexport default class Operation {\n    validateParameters(parameterValues: any) : IValidationError[] | null {\n        let result: IValidationError[] | null = null;\n        for(const parameterLocation of Object.keys(parameterValues)) {\n            const parameter: any = (this as any).getParameter();;\n            const values = (this as any).getValues();\n\n            const innerResult = parameter.validate(values[parameter.oaParameter.name]);\n            if(innerResult && innerResult.length > 0) {\n                // Commenting out this line will fix the problem.\n                result = (result || []).concat(innerResult);\n            }\n        }\n\n        return result;\n    }\n}",
     "filename": "",
     "statements": [
@@ -50,7 +49,7 @@ export default class Operation {
                 "text": "IValidationError",
                 "rawText": "IValidationError",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 33
@@ -67,7 +66,7 @@ export default class Operation {
                             "text": "message",
                             "rawText": "message",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 47
@@ -77,7 +76,7 @@ export default class Operation {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 48,
                             "end": 55
@@ -86,7 +85,7 @@ export default class Operation {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 35,
                         "end": 56
@@ -94,13 +93,13 @@ export default class Operation {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 35,
                 "end": 56
             },
             "flags": 32832,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 6,
             "end": 58
@@ -114,7 +113,7 @@ export default class Operation {
                     "text": "Operation",
                     "rawText": "Operation",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 80,
                     "end": 90
@@ -138,7 +137,7 @@ export default class Operation {
                                     "text": "validateParameters",
                                     "rawText": "validateParameters",
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 92,
                                     "end": 115
@@ -154,7 +153,7 @@ export default class Operation {
                                                 "text": "parameterValues",
                                                 "rawText": "parameterValues",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 116,
                                                 "end": 131
@@ -163,7 +162,7 @@ export default class Operation {
                                             "type": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 132,
                                                 "end": 136
@@ -173,7 +172,7 @@ export default class Operation {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 116,
                                             "end": 136
@@ -181,7 +180,7 @@ export default class Operation {
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 116,
                                     "end": 137
@@ -206,7 +205,7 @@ export default class Operation {
                                                                 "text": "result",
                                                                 "rawText": "result",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 179,
                                                                 "end": 186
@@ -224,20 +223,20 @@ export default class Operation {
                                                                                 "text": "IValidationError",
                                                                                 "rawText": "IValidationError",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 187,
                                                                                 "end": 204
                                                                             },
                                                                             "typeArguments": null,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 2097152,
                                                                             "start": 187,
                                                                             "end": 205
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 2097152,
                                                                         "start": 187,
                                                                         "end": 208
@@ -245,14 +244,14 @@ export default class Operation {
                                                                     {
                                                                         "kind": 4202655,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 2097152,
                                                                         "start": 208,
                                                                         "end": 213
                                                                     }
                                                                 ],
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 206,
                                                                 "end": 213
@@ -261,26 +260,26 @@ export default class Operation {
                                                                 "kind": 4260512,
                                                                 "text": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 215,
                                                                 "end": 220
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 179,
                                                             "end": 220
                                                         }
                                                     ],
                                                     "flags": 8,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 179,
                                                     "end": 220
                                                 },
                                                 "flags": 32776,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 167,
                                                 "end": 221
@@ -300,7 +299,7 @@ export default class Operation {
                                                                     "text": "parameterLocation",
                                                                     "rawText": "parameterLocation",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1025,
                                                                     "start": 239,
                                                                     "end": 257
@@ -309,20 +308,20 @@ export default class Operation {
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 239,
                                                                 "end": 257
                                                             }
                                                         ],
                                                         "flags": 8,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 239,
                                                         "end": 257
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 256,
                                                     "start": 234,
                                                     "end": 257
@@ -336,7 +335,7 @@ export default class Operation {
                                                             "text": "Object",
                                                             "rawText": "Object",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 260,
                                                             "end": 267
@@ -346,13 +345,13 @@ export default class Operation {
                                                             "text": "keys",
                                                             "rawText": "keys",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 268,
                                                             "end": 272
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 267,
                                                         "end": 272,
@@ -371,7 +370,7 @@ export default class Operation {
                                                                 "text": "parameterValues",
                                                                 "rawText": "parameterValues",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 273,
                                                                 "end": 288
@@ -380,12 +379,12 @@ export default class Operation {
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 288,
                                                         "end": 289
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 272,
                                                     "end": 289
@@ -408,7 +407,7 @@ export default class Operation {
                                                                                 "text": "parameter",
                                                                                 "rawText": "parameter",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 310,
                                                                                 "end": 320
@@ -417,7 +416,7 @@ export default class Operation {
                                                                             "type": {
                                                                                 "kind": 4202498,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 2097152,
                                                                                 "start": 321,
                                                                                 "end": 325
@@ -433,7 +432,7 @@ export default class Operation {
                                                                                             "expression": {
                                                                                                 "kind": 4260571,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 329,
                                                                                                 "end": 333
@@ -441,19 +440,19 @@ export default class Operation {
                                                                                             "type": {
                                                                                                 "kind": 4202498,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 2097152,
                                                                                                 "start": 336,
                                                                                                 "end": 340
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 2097152,
                                                                                             "start": 333,
                                                                                             "end": 340
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 327,
                                                                                         "end": 341
@@ -463,13 +462,13 @@ export default class Operation {
                                                                                         "text": "getParameter",
                                                                                         "rawText": "getParameter",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 342,
                                                                                         "end": 354
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 341,
                                                                                     "end": 354,
@@ -486,31 +485,31 @@ export default class Operation {
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 356,
                                                                                     "end": 356
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 354,
                                                                                 "end": 356
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 310,
                                                                             "end": 356
                                                                         }
                                                                     ],
                                                                     "flags": 8,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 310,
                                                                     "end": 356
                                                                 },
                                                                 "flags": 32776,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 292,
                                                                 "end": 357
@@ -518,7 +517,7 @@ export default class Operation {
                                                             {
                                                                 "kind": 6291526,
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 357,
                                                                 "end": 358
@@ -536,7 +535,7 @@ export default class Operation {
                                                                                 "text": "values",
                                                                                 "rawText": "values",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 376,
                                                                                 "end": 383
@@ -554,7 +553,7 @@ export default class Operation {
                                                                                             "expression": {
                                                                                                 "kind": 4260571,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 387,
                                                                                                 "end": 391
@@ -562,19 +561,19 @@ export default class Operation {
                                                                                             "type": {
                                                                                                 "kind": 4202498,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 2097152,
                                                                                                 "start": 394,
                                                                                                 "end": 398
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 2097152,
                                                                                             "start": 391,
                                                                                             "end": 398
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 385,
                                                                                         "end": 399
@@ -584,13 +583,13 @@ export default class Operation {
                                                                                         "text": "getValues",
                                                                                         "rawText": "getValues",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 400,
                                                                                         "end": 409
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 399,
                                                                                     "end": 409,
@@ -607,31 +606,31 @@ export default class Operation {
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 411,
                                                                                     "end": 411
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 409,
                                                                                 "end": 411
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 376,
                                                                             "end": 411
                                                                         }
                                                                     ],
                                                                     "flags": 8,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 376,
                                                                     "end": 411
                                                                 },
                                                                 "flags": 32776,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 358,
                                                                 "end": 412
@@ -649,7 +648,7 @@ export default class Operation {
                                                                                 "text": "innerResult",
                                                                                 "rawText": "innerResult",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 431,
                                                                                 "end": 443
@@ -665,7 +664,7 @@ export default class Operation {
                                                                                         "text": "parameter",
                                                                                         "rawText": "parameter",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 445,
                                                                                         "end": 455
@@ -675,13 +674,13 @@ export default class Operation {
                                                                                         "text": "validate",
                                                                                         "rawText": "validate",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 456,
                                                                                         "end": 464
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 455,
                                                                                     "end": 464,
@@ -702,7 +701,7 @@ export default class Operation {
                                                                                                 "text": "values",
                                                                                                 "rawText": "values",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 465,
                                                                                                 "end": 471
@@ -716,7 +715,7 @@ export default class Operation {
                                                                                                         "text": "parameter",
                                                                                                         "rawText": "parameter",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 472,
                                                                                                         "end": 481
@@ -726,13 +725,13 @@ export default class Operation {
                                                                                                         "text": "oaParameter",
                                                                                                         "rawText": "oaParameter",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 482,
                                                                                                         "end": 493
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 481,
                                                                                                     "end": 493,
@@ -747,13 +746,13 @@ export default class Operation {
                                                                                                     "text": "name",
                                                                                                     "rawText": "name",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 494,
                                                                                                     "end": 498
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 493,
                                                                                                 "end": 498,
@@ -764,7 +763,7 @@ export default class Operation {
                                                                                                 }
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 471,
                                                                                             "end": 499
@@ -773,31 +772,31 @@ export default class Operation {
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 471,
                                                                                     "end": 500
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 464,
                                                                                 "end": 500
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 431,
                                                                             "end": 500
                                                                         }
                                                                     ],
                                                                     "flags": 8,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 431,
                                                                     "end": 500
                                                                 },
                                                                 "flags": 32776,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 412,
                                                                 "end": 501
@@ -811,7 +810,7 @@ export default class Operation {
                                                                         "text": "innerResult",
                                                                         "rawText": "innerResult",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 517,
                                                                         "end": 528
@@ -826,7 +825,7 @@ export default class Operation {
                                                                                 "text": "innerResult",
                                                                                 "rawText": "innerResult",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 531,
                                                                                 "end": 543
@@ -836,13 +835,13 @@ export default class Operation {
                                                                                 "text": "length",
                                                                                 "rawText": "length",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 544,
                                                                                 "end": 550
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 543,
                                                                             "end": 550,
@@ -858,19 +857,19 @@ export default class Operation {
                                                                             "text": 0,
                                                                             "rawText": "0",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 552,
                                                                             "end": 554
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 550,
                                                                         "end": 554
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 517,
                                                                     "end": 554
@@ -889,7 +888,7 @@ export default class Operation {
                                                                                         "text": "result",
                                                                                         "rawText": "result",
                                                                                         "flags": 32768,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 557,
                                                                                         "end": 646
@@ -908,7 +907,7 @@ export default class Operation {
                                                                                                         "text": "result",
                                                                                                         "rawText": "result",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 650,
                                                                                                         "end": 656
@@ -922,25 +921,25 @@ export default class Operation {
                                                                                                             "trailingComma": false,
                                                                                                             "multiline": false,
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 661,
                                                                                                             "end": 661
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 659,
                                                                                                         "end": 662
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 648,
                                                                                                     "end": 662
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 648,
                                                                                                 "end": 663
@@ -950,13 +949,13 @@ export default class Operation {
                                                                                                 "text": "concat",
                                                                                                 "rawText": "concat",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 664,
                                                                                                 "end": 670
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 663,
                                                                                             "end": 670,
@@ -975,7 +974,7 @@ export default class Operation {
                                                                                                     "text": "innerResult",
                                                                                                     "rawText": "innerResult",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 671,
                                                                                                     "end": 682
@@ -984,24 +983,24 @@ export default class Operation {
                                                                                             "trailingComma": false,
                                                                                             "transformFlags": 0,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "start": 682,
                                                                                             "end": 683
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 670,
                                                                                         "end": 683
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 557,
                                                                                     "end": 683
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 557,
                                                                                 "end": 684
@@ -1009,13 +1008,13 @@ export default class Operation {
                                                                         ],
                                                                         "multiline": true,
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 557,
                                                                         "end": 684
                                                                     },
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 555,
                                                                     "end": 698
@@ -1023,7 +1022,7 @@ export default class Operation {
                                                                 "alternate": null,
                                                                 "isWebCompat": false,
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 501,
                                                                 "end": 698
@@ -1031,20 +1030,20 @@ export default class Operation {
                                                         ],
                                                         "multiline": true,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 292,
                                                         "end": 698
                                                     },
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 290,
                                                     "end": 708
                                                 },
                                                 "isAwait": false,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 221,
                                                 "end": 708
@@ -1056,13 +1055,13 @@ export default class Operation {
                                                     "text": "result",
                                                     "rawText": "result",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 724,
                                                     "end": 731
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 708,
                                                 "end": 732
@@ -1070,13 +1069,13 @@ export default class Operation {
                                         ],
                                         "multiline": true,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 167,
                                         "end": 732
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 165,
                                     "end": 738
@@ -1094,20 +1093,20 @@ export default class Operation {
                                                     "text": "IValidationError",
                                                     "rawText": "IValidationError",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 139,
                                                     "end": 156
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 139,
                                                 "end": 157
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 139,
                                             "end": 160
@@ -1115,14 +1114,14 @@ export default class Operation {
                                         {
                                             "kind": 4202655,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 160,
                                             "end": 165
                                         }
                                     ],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 158,
                                     "end": 165
@@ -1130,20 +1129,20 @@ export default class Operation {
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 115,
                                 "end": 738
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 92,
                             "end": 738
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 92,
                     "end": 740
@@ -1151,13 +1150,13 @@ export default class Operation {
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 74,
                 "end": 740
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 58,
             "end": 740
@@ -1166,7 +1165,6 @@ export default class Operation {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1176,17 +1174,13 @@ export default class Operation {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

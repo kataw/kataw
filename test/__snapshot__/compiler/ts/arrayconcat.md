@@ -38,10 +38,9 @@ class parser {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface IOptions {\n    name?: string;\n    flag?: boolean;\n    short?: string;\n    usage?: string;\n    set?: (s: string) => void;\n    type?: string;\n    experimental?: boolean;\n}\n\nclass parser {\n\tpublic options: IOptions[];\n\n\tpublic m() {\n\t\tthis.options = this.options.sort(function(a, b) {\n            var aName = a.name.toLowerCase();\n            var bName = b.name.toLowerCase();\n\n            if (aName > bName) {\n                return 1;\n            } else if (aName < bName) {\n                return -1;\n            } else {\n                return 0;\n            }\n        });\n\t}\n}\n",
     "filename": "",
     "statements": [
@@ -52,7 +51,7 @@ class parser {
                 "text": "IOptions",
                 "rawText": "IOptions",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 18
@@ -69,7 +68,7 @@ class parser {
                             "text": "name",
                             "rawText": "name",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 29
@@ -79,7 +78,7 @@ class parser {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 31,
                             "end": 38
@@ -88,7 +87,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 20,
                         "end": 39
@@ -100,7 +99,7 @@ class parser {
                             "text": "flag",
                             "rawText": "flag",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 39,
                             "end": 48
@@ -110,7 +109,7 @@ class parser {
                         "type": {
                             "kind": 4268070,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 50,
                             "end": 58
@@ -119,7 +118,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 39,
                         "end": 59
@@ -131,7 +130,7 @@ class parser {
                             "text": "short",
                             "rawText": "short",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 59,
                             "end": 69
@@ -141,7 +140,7 @@ class parser {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 71,
                             "end": 78
@@ -150,7 +149,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 59,
                         "end": 79
@@ -162,7 +161,7 @@ class parser {
                             "text": "usage",
                             "rawText": "usage",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 79,
                             "end": 89
@@ -172,7 +171,7 @@ class parser {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 91,
                             "end": 98
@@ -181,7 +180,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 79,
                         "end": 99
@@ -193,7 +192,7 @@ class parser {
                             "text": "set",
                             "rawText": "set",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 99,
                             "end": 107
@@ -214,7 +213,7 @@ class parser {
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 111,
                                             "end": 112
@@ -223,7 +222,7 @@ class parser {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 113,
                                             "end": 120
@@ -232,7 +231,7 @@ class parser {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 111,
                                         "end": 120
@@ -240,7 +239,7 @@ class parser {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 111,
                                 "end": 120
@@ -248,13 +247,13 @@ class parser {
                             "returnType": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 124,
                                 "end": 129
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 109,
                             "end": 129
@@ -263,7 +262,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 99,
                         "end": 130
@@ -275,7 +274,7 @@ class parser {
                             "text": "type",
                             "rawText": "type",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 130,
                             "end": 139
@@ -285,7 +284,7 @@ class parser {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 141,
                             "end": 148
@@ -294,7 +293,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 130,
                         "end": 149
@@ -306,7 +305,7 @@ class parser {
                             "text": "experimental",
                             "rawText": "experimental",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 149,
                             "end": 166
@@ -316,7 +315,7 @@ class parser {
                         "type": {
                             "kind": 4268070,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 168,
                             "end": 176
@@ -325,7 +324,7 @@ class parser {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 149,
                         "end": 177
@@ -333,13 +332,13 @@ class parser {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 20,
                 "end": 177
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 179
@@ -351,7 +350,7 @@ class parser {
                 "text": "parser",
                 "rawText": "parser",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 186,
                 "end": 193
@@ -369,7 +368,7 @@ class parser {
                             "text": "options",
                             "rawText": "options",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 203,
                             "end": 211
@@ -389,20 +388,20 @@ class parser {
                                     "text": "IOptions",
                                     "rawText": "IOptions",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 212,
                                     "end": 221
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 212,
                                 "end": 222
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 212,
                             "end": 224
@@ -412,14 +411,14 @@ class parser {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 195,
                             "end": 203
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 195,
                         "end": 224
@@ -437,7 +436,7 @@ class parser {
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 233,
                                 "end": 235
@@ -447,7 +446,7 @@ class parser {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 236,
                                 "end": 237
@@ -468,7 +467,7 @@ class parser {
                                                     "member": {
                                                         "kind": 4260571,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 239,
                                                         "end": 246
@@ -478,13 +477,13 @@ class parser {
                                                         "text": "options",
                                                         "rawText": "options",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 247,
                                                         "end": 254
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 246,
                                                     "end": 254,
@@ -504,7 +503,7 @@ class parser {
                                                             "member": {
                                                                 "kind": 4260571,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 256,
                                                                 "end": 261
@@ -514,13 +513,13 @@ class parser {
                                                                 "text": "options",
                                                                 "rawText": "options",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 262,
                                                                 "end": 269
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 261,
                                                             "end": 269,
@@ -535,13 +534,13 @@ class parser {
                                                             "text": "sort",
                                                             "rawText": "sort",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 270,
                                                             "end": 274
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 269,
                                                         "end": 274,
@@ -569,7 +568,7 @@ class parser {
                                                                                 "text": "a",
                                                                                 "rawText": "a",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 284,
                                                                                 "end": 285
@@ -581,7 +580,7 @@ class parser {
                                                                             "accessModifier": null,
                                                                             "isReadOnly": false,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1,
                                                                             "start": 284,
                                                                             "end": 285
@@ -594,7 +593,7 @@ class parser {
                                                                                 "text": "b",
                                                                                 "rawText": "b",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 286,
                                                                                 "end": 288
@@ -606,7 +605,7 @@ class parser {
                                                                             "accessModifier": null,
                                                                             "isReadOnly": false,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1,
                                                                             "start": 286,
                                                                             "end": 288
@@ -614,7 +613,7 @@ class parser {
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 284,
                                                                     "end": 289
@@ -636,7 +635,7 @@ class parser {
                                                                                                 "text": "aName",
                                                                                                 "rawText": "aName",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1025,
                                                                                                 "start": 307,
                                                                                                 "end": 313
@@ -654,7 +653,7 @@ class parser {
                                                                                                             "text": "a",
                                                                                                             "rawText": "a",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 315,
                                                                                                             "end": 317
@@ -664,13 +663,13 @@ class parser {
                                                                                                             "text": "name",
                                                                                                             "rawText": "name",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 318,
                                                                                                             "end": 322
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 317,
                                                                                                         "end": 322,
@@ -685,13 +684,13 @@ class parser {
                                                                                                         "text": "toLowerCase",
                                                                                                         "rawText": "toLowerCase",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 323,
                                                                                                         "end": 334
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 322,
                                                                                                     "end": 334,
@@ -708,31 +707,31 @@ class parser {
                                                                                                     "trailingComma": false,
                                                                                                     "transformFlags": 0,
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "start": 336,
                                                                                                     "end": 336
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 334,
                                                                                                 "end": 336
                                                                                             },
                                                                                             "flags": 307,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 0,
                                                                                             "end": 336
                                                                                         }
                                                                                     ],
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 307,
                                                                                     "end": 336
                                                                                 },
                                                                                 "flags": 32768,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 291,
                                                                                 "end": 337
@@ -749,7 +748,7 @@ class parser {
                                                                                                 "text": "bName",
                                                                                                 "rawText": "bName",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1025,
                                                                                                 "start": 353,
                                                                                                 "end": 359
@@ -767,7 +766,7 @@ class parser {
                                                                                                             "text": "b",
                                                                                                             "rawText": "b",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 361,
                                                                                                             "end": 363
@@ -777,13 +776,13 @@ class parser {
                                                                                                             "text": "name",
                                                                                                             "rawText": "name",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 364,
                                                                                                             "end": 368
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 363,
                                                                                                         "end": 368,
@@ -798,13 +797,13 @@ class parser {
                                                                                                         "text": "toLowerCase",
                                                                                                         "rawText": "toLowerCase",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 369,
                                                                                                         "end": 380
                                                                                                     },
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 368,
                                                                                                     "end": 380,
@@ -821,31 +820,31 @@ class parser {
                                                                                                     "trailingComma": false,
                                                                                                     "transformFlags": 0,
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "start": 382,
                                                                                                     "end": 382
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 380,
                                                                                                 "end": 382
                                                                                             },
                                                                                             "flags": 353,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 0,
                                                                                             "end": 382
                                                                                         }
                                                                                     ],
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 353,
                                                                                     "end": 382
                                                                                 },
                                                                                 "flags": 32768,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 337,
                                                                                 "end": 383
@@ -859,7 +858,7 @@ class parser {
                                                                                         "text": "aName",
                                                                                         "rawText": "aName",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 401,
                                                                                         "end": 406
@@ -870,13 +869,13 @@ class parser {
                                                                                         "text": "bName",
                                                                                         "rawText": "bName",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 408,
                                                                                         "end": 414
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 401,
                                                                                     "end": 414
@@ -893,13 +892,13 @@ class parser {
                                                                                                     "text": 1,
                                                                                                     "rawText": "1",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 440,
                                                                                                     "end": 442
                                                                                                 },
                                                                                                 "flags": 32768,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 417,
                                                                                                 "end": 443
@@ -907,13 +906,13 @@ class parser {
                                                                                         ],
                                                                                         "multiline": true,
                                                                                         "flags": 32768,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 417,
                                                                                         "end": 443
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 415,
                                                                                     "end": 457
@@ -927,7 +926,7 @@ class parser {
                                                                                             "text": "aName",
                                                                                             "rawText": "aName",
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 467,
                                                                                             "end": 472
@@ -938,13 +937,13 @@ class parser {
                                                                                             "text": "bName",
                                                                                             "rawText": "bName",
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 474,
                                                                                             "end": 480
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 467,
                                                                                         "end": 480
@@ -964,19 +963,19 @@ class parser {
                                                                                                             "text": 1,
                                                                                                             "rawText": "1",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 508,
                                                                                                             "end": 509
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 506,
                                                                                                         "end": 509
                                                                                                     },
                                                                                                     "flags": 32768,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 483,
                                                                                                     "end": 510
@@ -984,13 +983,13 @@ class parser {
                                                                                             ],
                                                                                             "multiline": true,
                                                                                             "flags": 32768,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 483,
                                                                                             "end": 510
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 481,
                                                                                         "end": 524
@@ -1007,13 +1006,13 @@ class parser {
                                                                                                         "text": 0,
                                                                                                         "rawText": "0",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 554,
                                                                                                         "end": 556
                                                                                                     },
                                                                                                     "flags": 32768,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 531,
                                                                                                     "end": 557
@@ -1021,27 +1020,27 @@ class parser {
                                                                                             ],
                                                                                             "multiline": true,
                                                                                             "flags": 32768,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 531,
                                                                                             "end": 557
                                                                                         },
                                                                                         "flags": 32768,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 529,
                                                                                         "end": 571
                                                                                     },
                                                                                     "isWebCompat": true,
                                                                                     "flags": 32768,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 462,
                                                                                     "end": 571
                                                                                 },
                                                                                 "isWebCompat": true,
                                                                                 "flags": 32768,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 383,
                                                                                 "end": 571
@@ -1049,13 +1048,13 @@ class parser {
                                                                         ],
                                                                         "multiline": true,
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 291,
                                                                         "end": 571
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 289,
                                                                     "end": 581
@@ -1063,7 +1062,7 @@ class parser {
                                                                 "typeParameters": null,
                                                                 "type": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 275,
                                                                 "end": 581
@@ -1072,24 +1071,24 @@ class parser {
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 283,
                                                         "end": 582
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 274,
                                                     "end": 582
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 239,
                                                 "end": 582
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 239,
                                             "end": 583
@@ -1097,13 +1096,13 @@ class parser {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 239,
                                     "end": 583
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 237,
                                 "end": 586
@@ -1113,27 +1112,27 @@ class parser {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 224,
                                 "end": 233
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 235,
                             "end": 586
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 224,
                         "end": 586
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 195,
                 "end": 588
@@ -1141,7 +1140,7 @@ class parser {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 179,
             "end": 588
@@ -1150,7 +1149,6 @@ class parser {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1160,17 +1158,13 @@ class parser {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

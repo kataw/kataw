@@ -19,10 +19,9 @@ function foo(...rest) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function foo(...rest) {\n     var x: number = rest[0];\n     return x;\n}",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ function foo(...rest) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -49,7 +48,7 @@ function foo(...rest) {
                             "text": "rest",
                             "rawText": "rest",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 16,
                             "end": 20
@@ -61,7 +60,7 @@ function foo(...rest) {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 13,
                         "end": 20
@@ -69,7 +68,7 @@ function foo(...rest) {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 21
@@ -92,7 +91,7 @@ function foo(...rest) {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 32,
                                             "end": 34
@@ -101,7 +100,7 @@ function foo(...rest) {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 35,
                                             "end": 42
@@ -113,7 +112,7 @@ function foo(...rest) {
                                                 "text": "rest",
                                                 "rawText": "rest",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 49
@@ -123,32 +122,32 @@ function foo(...rest) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 51
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 49,
                                             "end": 52
                                         },
                                         "flags": 32,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 52
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 52
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 53
@@ -160,13 +159,13 @@ function foo(...rest) {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 65,
                                 "end": 67
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 53,
                             "end": 68
@@ -174,20 +173,20 @@ function foo(...rest) {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 68
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 70
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 70
@@ -196,7 +195,6 @@ function foo(...rest) {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -206,17 +204,13 @@ function foo(...rest) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

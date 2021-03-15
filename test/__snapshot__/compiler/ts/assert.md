@@ -43,10 +43,9 @@ class AssertsFoo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const assertString = (x: any): asserts x => {\n  console.assert(typeof x === 'string');\n}\n\nfunction assertsString(x: any): asserts x {\n  console.assert(typeof x === 'string');\n}\n\nconst assertStringWithGuard = (x: any): asserts x is string => {\n  console.assert(typeof x === 'string');\n}\n\nfunction assertsStringWithGuard(x: any): asserts x is string {\n  console.assert(typeof x === 'string');\n}\n\ninterface AssertFoo {\n  isString(node: any): asserts node;\n}\n\nclass AssertsFoo {\n  isBar(): asserts this {\n    return;\n  }\n  isBaz = (): asserts this => {\n    return;\n  }\n}",
     "filename": "",
     "statements": [
@@ -63,7 +62,7 @@ class AssertsFoo {
                             "text": "assertString",
                             "rawText": "assertString",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 18
@@ -87,7 +86,7 @@ class AssertsFoo {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
@@ -96,7 +95,7 @@ class AssertsFoo {
                                             "type": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 24,
                                                 "end": 28
@@ -106,7 +105,7 @@ class AssertsFoo {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 20,
                                             "end": 28
@@ -118,7 +117,7 @@ class AssertsFoo {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 20,
                                         "end": 40
@@ -132,14 +131,14 @@ class AssertsFoo {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 40
                                     },
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 30,
                                     "end": 40
@@ -147,7 +146,7 @@ class AssertsFoo {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 40
@@ -168,7 +167,7 @@ class AssertsFoo {
                                                         "text": "console",
                                                         "rawText": "console",
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 45,
                                                         "end": 55
@@ -178,13 +177,13 @@ class AssertsFoo {
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 56,
                                                         "end": 62
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 62,
@@ -208,13 +207,13 @@ class AssertsFoo {
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 69,
                                                                     "end": 71
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 63,
                                                                 "end": 71
@@ -225,13 +224,13 @@ class AssertsFoo {
                                                                 "text": "string",
                                                                 "rawText": "string",
                                                                 "flags": 33554432,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 75,
                                                                 "end": 84
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 63,
                                                             "end": 84
@@ -240,18 +239,18 @@ class AssertsFoo {
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 69,
                                                     "end": 85
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 85
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 45,
                                             "end": 86
@@ -259,38 +258,38 @@ class AssertsFoo {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 45,
                                     "end": 86
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 88
                             },
                             "flags": 1073774592,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 88
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 88
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 88
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 88
@@ -302,7 +301,7 @@ class AssertsFoo {
                 "text": "assertsString",
                 "rawText": "assertsString",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 98,
                 "end": 112
@@ -318,7 +317,7 @@ class AssertsFoo {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 113,
                             "end": 114
@@ -327,7 +326,7 @@ class AssertsFoo {
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 115,
                             "end": 119
@@ -337,7 +336,7 @@ class AssertsFoo {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 113,
                         "end": 119
@@ -345,7 +344,7 @@ class AssertsFoo {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 113,
                 "end": 120
@@ -358,14 +357,14 @@ class AssertsFoo {
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 129,
                     "end": 131
                 },
                 "type": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 121,
                 "end": 131
@@ -386,7 +385,7 @@ class AssertsFoo {
                                         "text": "console",
                                         "rawText": "console",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 133,
                                         "end": 143
@@ -396,13 +395,13 @@ class AssertsFoo {
                                         "text": "assert",
                                         "rawText": "assert",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 144,
                                         "end": 150
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 143,
                                     "end": 150,
@@ -426,13 +425,13 @@ class AssertsFoo {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 157,
                                                     "end": 159
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 151,
                                                 "end": 159
@@ -443,13 +442,13 @@ class AssertsFoo {
                                                 "text": "string",
                                                 "rawText": "string",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 163,
                                                 "end": 172
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 151,
                                             "end": 172
@@ -458,18 +457,18 @@ class AssertsFoo {
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 157,
                                     "end": 173
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 150,
                                 "end": 173
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 133,
                             "end": 174
@@ -477,20 +476,20 @@ class AssertsFoo {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 133,
                     "end": 174
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 131,
                 "end": 176
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 88,
             "end": 176
@@ -508,7 +507,7 @@ class AssertsFoo {
                             "text": "assertStringWithGuard",
                             "rawText": "assertStringWithGuard",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 183,
                             "end": 205
@@ -532,7 +531,7 @@ class AssertsFoo {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 209,
                                                 "end": 210
@@ -541,7 +540,7 @@ class AssertsFoo {
                                             "type": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 211,
                                                 "end": 215
@@ -551,7 +550,7 @@ class AssertsFoo {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 207,
                                             "end": 215
@@ -563,7 +562,7 @@ class AssertsFoo {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 207,
                                         "end": 237
@@ -577,7 +576,7 @@ class AssertsFoo {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 225,
                                         "end": 227
@@ -585,13 +584,13 @@ class AssertsFoo {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 230,
                                         "end": 237
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 217,
                                     "end": 237
@@ -599,7 +598,7 @@ class AssertsFoo {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 207,
                                 "end": 237
@@ -620,7 +619,7 @@ class AssertsFoo {
                                                         "text": "console",
                                                         "rawText": "console",
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 242,
                                                         "end": 252
@@ -630,13 +629,13 @@ class AssertsFoo {
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 253,
                                                         "end": 259
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 252,
                                                     "end": 259,
@@ -660,13 +659,13 @@ class AssertsFoo {
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 266,
                                                                     "end": 268
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 260,
                                                                 "end": 268
@@ -677,13 +676,13 @@ class AssertsFoo {
                                                                 "text": "string",
                                                                 "rawText": "string",
                                                                 "flags": 33554432,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 272,
                                                                 "end": 281
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 260,
                                                             "end": 281
@@ -692,18 +691,18 @@ class AssertsFoo {
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 266,
                                                     "end": 282
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 259,
                                                 "end": 282
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 242,
                                             "end": 283
@@ -711,38 +710,38 @@ class AssertsFoo {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 242,
                                     "end": 283
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 240,
                                 "end": 285
                             },
                             "flags": 1073774592,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 207,
                             "end": 285
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 183,
                         "end": 285
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 183,
                 "end": 285
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 176,
             "end": 285
@@ -754,7 +753,7 @@ class AssertsFoo {
                 "text": "assertsStringWithGuard",
                 "rawText": "assertsStringWithGuard",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 295,
                 "end": 318
@@ -770,7 +769,7 @@ class AssertsFoo {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 319,
                             "end": 320
@@ -779,7 +778,7 @@ class AssertsFoo {
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 321,
                             "end": 325
@@ -789,7 +788,7 @@ class AssertsFoo {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 319,
                         "end": 325
@@ -797,7 +796,7 @@ class AssertsFoo {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 319,
                 "end": 326
@@ -810,7 +809,7 @@ class AssertsFoo {
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 335,
                     "end": 337
@@ -818,13 +817,13 @@ class AssertsFoo {
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 340,
                     "end": 347
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 327,
                 "end": 347
@@ -845,7 +844,7 @@ class AssertsFoo {
                                         "text": "console",
                                         "rawText": "console",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 349,
                                         "end": 359
@@ -855,13 +854,13 @@ class AssertsFoo {
                                         "text": "assert",
                                         "rawText": "assert",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 360,
                                         "end": 366
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 359,
                                     "end": 366,
@@ -885,13 +884,13 @@ class AssertsFoo {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 373,
                                                     "end": 375
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 367,
                                                 "end": 375
@@ -902,13 +901,13 @@ class AssertsFoo {
                                                 "text": "string",
                                                 "rawText": "string",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 379,
                                                 "end": 388
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 367,
                                             "end": 388
@@ -917,18 +916,18 @@ class AssertsFoo {
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 373,
                                     "end": 389
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 366,
                                 "end": 389
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 349,
                             "end": 390
@@ -936,20 +935,20 @@ class AssertsFoo {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 349,
                     "end": 390
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 347,
                 "end": 392
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 285,
             "end": 392
@@ -961,7 +960,7 @@ class AssertsFoo {
                 "text": "AssertFoo",
                 "rawText": "AssertFoo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 403,
                 "end": 413
@@ -978,7 +977,7 @@ class AssertsFoo {
                             "text": "isString",
                             "rawText": "isString",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 415,
                             "end": 426
@@ -999,7 +998,7 @@ class AssertsFoo {
                                         "text": "node",
                                         "rawText": "node",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 427,
                                         "end": 431
@@ -1008,7 +1007,7 @@ class AssertsFoo {
                                     "type": {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 432,
                                         "end": 436
@@ -1017,7 +1016,7 @@ class AssertsFoo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 427,
                                     "end": 436
@@ -1025,7 +1024,7 @@ class AssertsFoo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 427,
                             "end": 436
@@ -1038,20 +1037,20 @@ class AssertsFoo {
                                 "text": "node",
                                 "rawText": "node",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 446,
                                 "end": 451
                             },
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 438,
                             "end": 451
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 415,
                         "end": 452
@@ -1059,13 +1058,13 @@ class AssertsFoo {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 415,
                 "end": 452
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 392,
             "end": 454
@@ -1077,7 +1076,7 @@ class AssertsFoo {
                 "text": "AssertsFoo",
                 "rawText": "AssertsFoo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 461,
                 "end": 472
@@ -1101,7 +1100,7 @@ class AssertsFoo {
                                 "text": "isBar",
                                 "rawText": "isBar",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 474,
                                 "end": 482
@@ -1111,7 +1110,7 @@ class AssertsFoo {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 483,
                                 "end": 484
@@ -1127,7 +1126,7 @@ class AssertsFoo {
                                             "kind": 2097346,
                                             "expression": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 500,
                                             "end": 512
@@ -1135,13 +1134,13 @@ class AssertsFoo {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 500,
                                     "end": 512
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 498,
                                 "end": 516
@@ -1153,14 +1152,14 @@ class AssertsFoo {
                                 "parameterName": {
                                     "kind": 4202716,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 493,
                                     "end": 498
                                 },
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 485,
                                 "end": 498
@@ -1168,13 +1167,13 @@ class AssertsFoo {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 482,
                             "end": 516
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 474,
                         "end": 516
@@ -1186,7 +1185,7 @@ class AssertsFoo {
                             "text": "isBaz",
                             "rawText": "isBaz",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 516,
                             "end": 524
@@ -1210,14 +1209,14 @@ class AssertsFoo {
                                     "parameterName": {
                                         "kind": 4202716,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 538,
                                         "end": 543
                                     },
                                     "type": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 530,
                                     "end": 543
@@ -1225,7 +1224,7 @@ class AssertsFoo {
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 526,
                                 "end": 526
@@ -1239,7 +1238,7 @@ class AssertsFoo {
                                             "kind": 2097346,
                                             "expression": null,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 548,
                                             "end": 560
@@ -1247,19 +1246,19 @@ class AssertsFoo {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 548,
                                     "end": 560
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 546,
                                 "end": 564
                             },
                             "flags": 1073774592,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 526,
                             "end": 564
@@ -1268,14 +1267,14 @@ class AssertsFoo {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 516,
                         "end": 564
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 474,
                 "end": 566
@@ -1283,7 +1282,7 @@ class AssertsFoo {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 454,
             "end": 566
@@ -1292,7 +1291,6 @@ class AssertsFoo {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1302,17 +1300,13 @@ class AssertsFoo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

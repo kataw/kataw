@@ -14,10 +14,9 @@ async () => {  c\u006fnst = x  }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async () => {  c\\u006fnst = x  }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ async () => {  c\u006fnst = x  }
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
@@ -50,13 +49,13 @@ async () => {  c\u006fnst = x  }
                                     "kind": 31,
                                     "bindingList": [],
                                     "flags": 8,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
                                 "flags": 75497481,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 769,
                                 "start": 13,
                                 "end": 25
@@ -64,25 +63,25 @@ async () => {  c\u006fnst = x  }
                         ],
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 25
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 25
                 },
                 "flags": 1073741825,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -94,13 +93,13 @@ async () => {  c\u006fnst = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 27,
             "end": 29
@@ -124,7 +123,6 @@ async () => {  c\u006fnst = x  }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -134,17 +132,13 @@ async () => {  c\u006fnst = x  }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

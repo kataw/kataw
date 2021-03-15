@@ -24,10 +24,9 @@ function isConstant(node) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function isConstant(node) {\n        switch (node.type) {\n            case \"SequenceExpression\":\n                return isConstant(node.expressions[node.expressions.length - 1]);\n            // no default\n        }\n        return false;\n    }\n",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ function isConstant(node) {
                 "text": "isConstant",
                 "rawText": "isConstant",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 19
@@ -54,7 +53,7 @@ function isConstant(node) {
                             "text": "node",
                             "rawText": "node",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 20,
                             "end": 24
@@ -66,7 +65,7 @@ function isConstant(node) {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 24
@@ -74,7 +73,7 @@ function isConstant(node) {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 25
@@ -94,7 +93,7 @@ function isConstant(node) {
                                     "text": "node",
                                     "rawText": "node",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 48
@@ -104,13 +103,13 @@ function isConstant(node) {
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 49,
                                     "end": 53
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 53,
@@ -130,7 +129,7 @@ function isConstant(node) {
                                             "text": "SequenceExpression",
                                             "rawText": "SequenceExpression",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 73,
                                             "end": 94
@@ -145,7 +144,7 @@ function isConstant(node) {
                                                         "text": "isConstant",
                                                         "rawText": "isConstant",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 118,
                                                         "end": 129
@@ -163,7 +162,7 @@ function isConstant(node) {
                                                                         "text": "node",
                                                                         "rawText": "node",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 130,
                                                                         "end": 134
@@ -173,13 +172,13 @@ function isConstant(node) {
                                                                         "text": "expressions",
                                                                         "rawText": "expressions",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 135,
                                                                         "end": 146
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 134,
                                                                     "end": 146,
@@ -200,7 +199,7 @@ function isConstant(node) {
                                                                                 "text": "node",
                                                                                 "rawText": "node",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 147,
                                                                                 "end": 151
@@ -210,13 +209,13 @@ function isConstant(node) {
                                                                                 "text": "expressions",
                                                                                 "rawText": "expressions",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 152,
                                                                                 "end": 163
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 151,
                                                                             "end": 163,
@@ -231,13 +230,13 @@ function isConstant(node) {
                                                                             "text": "length",
                                                                             "rawText": "length",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 164,
                                                                             "end": 170
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 163,
                                                                         "end": 170,
@@ -253,19 +252,19 @@ function isConstant(node) {
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 172,
                                                                         "end": 174
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 147,
                                                                     "end": 174
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 146,
                                                                 "end": 175
@@ -274,38 +273,38 @@ function isConstant(node) {
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 134,
                                                         "end": 176
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 129,
                                                     "end": 176
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 95,
                                                 "end": 177
                                             }
                                         ],
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 56,
                                         "end": 177
                                     }
                                 ],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 54,
                                 "end": 213
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 213
@@ -316,13 +315,13 @@ function isConstant(node) {
                                 "kind": 4260391,
                                 "text": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 228,
                                 "end": 234
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 213,
                             "end": 235
@@ -330,20 +329,20 @@ function isConstant(node) {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 27,
                     "end": 235
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 241
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 241
@@ -352,7 +351,6 @@ function isConstant(node) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -362,17 +360,13 @@ function isConstant(node) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

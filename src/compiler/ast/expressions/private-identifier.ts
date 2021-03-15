@@ -20,7 +20,7 @@ export function createPrivateIdentifier(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ClassFields,
     start,
     end

@@ -14,10 +14,9 @@ while (x) async function *f(){}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "while (x) async function *f(){}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ while (x) async function *f(){}
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 8
@@ -42,7 +41,7 @@ while (x) async function *f(){}
                         "text": "f",
                         "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 26,
                         "end": 27
@@ -52,7 +51,7 @@ while (x) async function *f(){}
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 28,
                         "end": 29
@@ -64,13 +63,13 @@ while (x) async function *f(){}
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 30
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 29,
                         "end": 31
@@ -78,19 +77,19 @@ while (x) async function *f(){}
                     "typeParameters": null,
                     "type": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8,
                     "start": 9,
                     "end": 31
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 31
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -99,7 +98,6 @@ while (x) async function *f(){}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -109,17 +107,13 @@ while (x) async function *f(){}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

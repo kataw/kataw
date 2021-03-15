@@ -18,10 +18,9 @@ var {...rest3 } = nullUnion;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare const undefinedUnion: { n: number } | undefined;\nvar rest2: { n: number };\nvar {...rest2 } = undefinedUnion;\n\n\ndeclare const nullUnion: { n: number } | null;\nvar rest3: { n: number };\nvar {...rest3 } = nullUnion;\n",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ var {...rest3 } = nullUnion;
                             "text": "undefinedUnion",
                             "rawText": "undefinedUnion",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 28
@@ -59,7 +58,7 @@ var {...rest3 } = nullUnion;
                                                     "text": "n",
                                                     "rawText": "n",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 33
@@ -69,7 +68,7 @@ var {...rest3 } = nullUnion;
                                                 "type": {
                                                     "kind": 4202657,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 34,
                                                     "end": 41
@@ -78,7 +77,7 @@ var {...rest3 } = nullUnion;
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 31,
                                                 "end": 41
@@ -86,13 +85,13 @@ var {...rest3 } = nullUnion;
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 31,
                                         "end": 43
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 29,
                                     "end": 43
@@ -100,34 +99,34 @@ var {...rest3 } = nullUnion;
                                 {
                                     "kind": 4202735,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 45,
                                     "end": 55
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 43,
                             "end": 55
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 55
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 55
             },
             "flags": 402685960,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 7,
             "end": 56
@@ -144,7 +143,7 @@ var {...rest3 } = nullUnion;
                             "text": "rest2",
                             "rawText": "rest2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 60,
                             "end": 66
@@ -162,7 +161,7 @@ var {...rest3 } = nullUnion;
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 69,
                                             "end": 71
@@ -172,7 +171,7 @@ var {...rest3 } = nullUnion;
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 72,
                                             "end": 79
@@ -181,7 +180,7 @@ var {...rest3 } = nullUnion;
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 69,
                                         "end": 79
@@ -189,33 +188,33 @@ var {...rest3 } = nullUnion;
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 69,
                                 "end": 81
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 67,
                             "end": 81
                         },
                         "initializer": null,
                         "flags": 60,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 81
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 60,
                 "end": 81
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 56,
             "end": 82
@@ -240,14 +239,14 @@ var {...rest3 } = nullUnion;
                                             "text": "rest2",
                                             "rawText": "rest2",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 88,
                                             "end": 96
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 88,
                                         "end": 96
@@ -257,12 +256,12 @@ var {...rest3 } = nullUnion;
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 88,
                                 "end": 96
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 86,
                             "end": 98
@@ -274,26 +273,26 @@ var {...rest3 } = nullUnion;
                             "text": "undefinedUnion",
                             "rawText": "undefinedUnion",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 100,
                             "end": 115
                         },
                         "flags": 86,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 115
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 86,
                 "end": 115
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 82,
             "end": 116
@@ -311,7 +310,7 @@ var {...rest3 } = nullUnion;
                             "text": "nullUnion",
                             "rawText": "nullUnion",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 132,
                             "end": 142
@@ -332,7 +331,7 @@ var {...rest3 } = nullUnion;
                                                     "text": "n",
                                                     "rawText": "n",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 145,
                                                     "end": 147
@@ -342,7 +341,7 @@ var {...rest3 } = nullUnion;
                                                 "type": {
                                                     "kind": 4202657,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 148,
                                                     "end": 155
@@ -351,7 +350,7 @@ var {...rest3 } = nullUnion;
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 145,
                                                 "end": 155
@@ -359,13 +358,13 @@ var {...rest3 } = nullUnion;
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 145,
                                         "end": 157
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 143,
                                     "end": 157
@@ -373,34 +372,34 @@ var {...rest3 } = nullUnion;
                                 {
                                     "kind": 4202655,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 159,
                                     "end": 164
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 157,
                             "end": 164
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 132,
                         "end": 164
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 132,
                 "end": 164
             },
             "flags": 402685960,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 126,
             "end": 165
@@ -417,7 +416,7 @@ var {...rest3 } = nullUnion;
                             "text": "rest3",
                             "rawText": "rest3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 169,
                             "end": 175
@@ -435,7 +434,7 @@ var {...rest3 } = nullUnion;
                                             "text": "n",
                                             "rawText": "n",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 178,
                                             "end": 180
@@ -445,7 +444,7 @@ var {...rest3 } = nullUnion;
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 181,
                                             "end": 188
@@ -454,7 +453,7 @@ var {...rest3 } = nullUnion;
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 178,
                                         "end": 188
@@ -462,33 +461,33 @@ var {...rest3 } = nullUnion;
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 178,
                                 "end": 190
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 176,
                             "end": 190
                         },
                         "initializer": null,
                         "flags": 169,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 190
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 169,
                 "end": 190
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 165,
             "end": 191
@@ -513,14 +512,14 @@ var {...rest3 } = nullUnion;
                                             "text": "rest3",
                                             "rawText": "rest3",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 197,
                                             "end": 205
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 197,
                                         "end": 205
@@ -530,12 +529,12 @@ var {...rest3 } = nullUnion;
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 197,
                                 "end": 205
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 195,
                             "end": 207
@@ -547,26 +546,26 @@ var {...rest3 } = nullUnion;
                             "text": "nullUnion",
                             "rawText": "nullUnion",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 209,
                             "end": 219
                         },
                         "flags": 195,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 219
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 195,
                 "end": 219
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 191,
             "end": 220
@@ -575,7 +574,6 @@ var {...rest3 } = nullUnion;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -585,17 +583,13 @@ var {...rest3 } = nullUnion;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

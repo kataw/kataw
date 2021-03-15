@@ -14,10 +14,9 @@ class C extends Base { async *#arguments() {} }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C extends Base { async *#arguments() {} }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C extends Base { async *#arguments() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -41,14 +40,14 @@ class C extends Base { async *#arguments() {} }
                     "text": "Base",
                     "rawText": "Base",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 20
@@ -70,7 +69,7 @@ class C extends Base { async *#arguments() {} }
                                 "text": "#arguments",
                                 "rawText": "#arguments",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 524288,
                                 "start": 30,
                                 "end": 40
@@ -80,7 +79,7 @@ class C extends Base { async *#arguments() {} }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 41,
                                 "end": 42
@@ -94,13 +93,13 @@ class C extends Base { async *#arguments() {} }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 45
@@ -110,20 +109,20 @@ class C extends Base { async *#arguments() {} }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097160,
                             "start": 40,
                             "end": 45
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 22,
                         "end": 45
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 22,
                 "end": 47
@@ -131,7 +130,7 @@ class C extends Base { async *#arguments() {} }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 47
@@ -140,7 +139,6 @@ class C extends Base { async *#arguments() {} }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -150,17 +148,13 @@ class C extends Base { async *#arguments() {} }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

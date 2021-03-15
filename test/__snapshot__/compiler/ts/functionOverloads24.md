@@ -12,10 +12,9 @@ function foo(bar:any):(a)=>void { return function(){} }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function foo(bar:number):(b:string)=>void;\nfunction foo(bar:string):(a:number)=>void;\nfunction foo(bar:any):(a)=>void { return function(){} }",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -42,7 +41,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 16
@@ -51,7 +50,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 17,
                             "end": 23
@@ -61,7 +60,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 13,
                         "end": 23
@@ -69,7 +68,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 24
@@ -88,7 +87,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 26,
                                 "end": 27
@@ -97,7 +96,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 28,
                                 "end": 34
@@ -106,7 +105,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 26,
                             "end": 34
@@ -114,7 +113,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 26,
                     "end": 34
@@ -122,13 +121,13 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "returnType": {
                     "kind": 4202742,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 37,
                     "end": 41
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 25,
                 "end": 41
@@ -136,7 +135,7 @@ function foo(bar:any):(a)=>void { return function(){} }
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 42
@@ -148,7 +147,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 51,
                 "end": 55
@@ -164,7 +163,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 56,
                             "end": 59
@@ -173,7 +172,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 60,
                             "end": 66
@@ -183,7 +182,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 56,
                         "end": 66
@@ -191,7 +190,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 56,
                 "end": 67
@@ -210,7 +209,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 69,
                                 "end": 70
@@ -219,7 +218,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "type": {
                                 "kind": 4202657,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 71,
                                 "end": 77
@@ -228,7 +227,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 69,
                             "end": 77
@@ -236,7 +235,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 69,
                     "end": 77
@@ -244,13 +243,13 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "returnType": {
                     "kind": 4202742,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 80,
                     "end": 84
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 68,
                 "end": 84
@@ -258,7 +257,7 @@ function foo(bar:any):(a)=>void { return function(){} }
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 42,
             "end": 85
@@ -270,7 +269,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 94,
                 "end": 98
@@ -286,7 +285,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 99,
                             "end": 102
@@ -295,7 +294,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 103,
                             "end": 106
@@ -305,7 +304,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 99,
                         "end": 106
@@ -313,7 +312,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 99,
                 "end": 107
@@ -332,7 +331,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 109,
                                 "end": 110
@@ -343,7 +342,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 109,
                             "end": 110
@@ -351,7 +350,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 109,
                     "end": 110
@@ -359,13 +358,13 @@ function foo(bar:any):(a)=>void { return function(){} }
                 "returnType": {
                     "kind": 4202742,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 113,
                     "end": 117
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 108,
                 "end": 117
@@ -385,7 +384,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 136,
                                     "end": 137
@@ -397,13 +396,13 @@ function foo(bar:any):(a)=>void { return function(){} }
                                         "statements": [],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 138,
                                         "end": 138
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 137,
                                     "end": 139
@@ -411,13 +410,13 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 126,
                                 "end": 139
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 119,
                             "end": 139
@@ -425,20 +424,20 @@ function foo(bar:any):(a)=>void { return function(){} }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 119,
                     "end": 139
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 117,
                 "end": 141
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 85,
             "end": 141
@@ -447,7 +446,6 @@ function foo(bar:any):(a)=>void { return function(){} }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -457,17 +455,13 @@ function foo(bar:any):(a)=>void { return function(){} }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

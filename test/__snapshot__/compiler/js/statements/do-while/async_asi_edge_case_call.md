@@ -12,10 +12,9 @@ do async
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do async\n ()\n while (y)",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ do async
                 "text": "y",
                 "rawText": "y",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 22
@@ -40,7 +39,7 @@ do async
                         "text": "async",
                         "rawText": "async",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
                         "end": 8
@@ -52,24 +51,24 @@ do async
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 23
@@ -78,7 +77,6 @@ do async
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -88,17 +86,13 @@ do async
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

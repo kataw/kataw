@@ -14,10 +14,9 @@ function f(a = async (x, y) => ok) {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f(a = async (x, y) => ok) {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function f(a = async (x, y) => ok) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -44,7 +43,7 @@ function f(a = async (x, y) => ok) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 11,
                             "end": 12
@@ -65,7 +64,7 @@ function f(a = async (x, y) => ok) {}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 26
@@ -77,7 +76,7 @@ function f(a = async (x, y) => ok) {}
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 24,
                                         "end": 27
@@ -90,7 +89,7 @@ function f(a = async (x, y) => ok) {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
@@ -102,7 +101,7 @@ function f(a = async (x, y) => ok) {}
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 24,
                                         "end": 27
@@ -112,7 +111,7 @@ function f(a = async (x, y) => ok) {}
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 27
@@ -122,13 +121,13 @@ function f(a = async (x, y) => ok) {}
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 33
@@ -137,7 +136,7 @@ function f(a = async (x, y) => ok) {}
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 11,
                         "end": 33
@@ -145,7 +144,7 @@ function f(a = async (x, y) => ok) {}
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 34
@@ -158,20 +157,20 @@ function f(a = async (x, y) => ok) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 37
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 37
@@ -180,7 +179,6 @@ function f(a = async (x, y) => ok) {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -190,17 +188,13 @@ function f(a = async (x, y) => ok) {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

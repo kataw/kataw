@@ -10,10 +10,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} } ] = vals;",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     "text": "result",
                     "rawText": "result",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 6
@@ -46,7 +45,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "xCls",
                                         "rawText": "xCls",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
@@ -59,7 +58,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 23,
                                             "end": 25
@@ -71,20 +70,20 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 50,
                                             "elements": [],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 27,
                                             "end": 28
                                         },
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 17,
                                         "end": 28
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 28
@@ -96,7 +95,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "cls",
                                         "rawText": "cls",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 29,
                                         "end": 33
@@ -112,20 +111,20 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 50,
                                             "elements": [],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 43,
                                             "end": 44
                                         },
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 35,
                                         "end": 44
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 29,
                                     "end": 44
@@ -137,7 +136,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "xCls2",
                                         "rawText": "xCls2",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 45,
                                         "end": 51
@@ -165,7 +164,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                             "text": "name",
                                                             "rawText": "name",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 68,
                                                             "end": 73
@@ -175,7 +174,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 74,
                                                             "end": 75
@@ -189,13 +188,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "statements": [],
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 77,
                                                                 "end": 77
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 75,
                                                             "end": 78
@@ -205,33 +204,33 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                         "accessModifier": null,
                                                         "typeParameters": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 73,
                                                         "end": 78
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 61,
                                                     "end": 78
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 61,
                                             "end": 80
                                         },
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 53,
                                         "end": 80
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 45,
                                     "end": 80
@@ -240,13 +239,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 80
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 82
@@ -257,25 +256,25 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 84,
                         "end": 89
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 89
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 89
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 90
@@ -284,7 +283,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -294,17 +292,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

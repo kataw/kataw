@@ -14,10 +14,9 @@ class A extends fooo`bar` {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends fooo`bar` {}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class A extends fooo`bar` {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -43,7 +42,7 @@ class A extends fooo`bar` {}
                         "text": "fooo",
                         "rawText": "fooo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 15,
                         "end": 20
@@ -55,21 +54,21 @@ class A extends fooo`bar` {}
                         "text": "bar",
                         "literal": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 25
                     },
                     "optional": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 20,
                     "end": 25
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 25
@@ -79,7 +78,7 @@ class A extends fooo`bar` {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 27,
                 "end": 28
@@ -87,7 +86,7 @@ class A extends fooo`bar` {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 28
@@ -96,7 +95,6 @@ class A extends fooo`bar` {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -106,17 +104,13 @@ class A extends fooo`bar` {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

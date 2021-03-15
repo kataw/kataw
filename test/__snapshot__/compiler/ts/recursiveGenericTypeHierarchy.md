@@ -12,10 +12,9 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface A<T extends A<T, S>, S extends A<T, S>> { }\ninterface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { }\n",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -41,7 +40,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 13
@@ -53,7 +52,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
@@ -68,14 +67,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 24,
                                         "end": 26
@@ -87,27 +86,27 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 28
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 26,
                                         "end": 29
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 24,
                                 "end": 28
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 21,
                             "end": 30
@@ -115,7 +114,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 12,
                         "end": 29
@@ -127,7 +126,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                             "text": "S",
                             "rawText": "S",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 32
@@ -139,7 +138,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 42
@@ -154,14 +153,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 43,
                                             "end": 44
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 43,
                                         "end": 45
@@ -173,27 +172,27 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 45,
                                             "end": 47
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 45,
                                         "end": 48
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 43,
                                 "end": 47
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 40,
                             "end": 49
@@ -201,14 +200,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 30,
                         "end": 48
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 12,
                 "end": 48
@@ -219,13 +218,13 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 51,
                 "end": 51
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 53
@@ -237,7 +236,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 63,
                 "end": 65
@@ -252,7 +251,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 66,
                             "end": 67
@@ -264,7 +263,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 75,
                                 "end": 77
@@ -279,14 +278,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 78,
                                             "end": 79
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 78,
                                         "end": 80
@@ -298,27 +297,27 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 80,
                                             "end": 82
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 80,
                                         "end": 83
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 78,
                                 "end": 82
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 75,
                             "end": 84
@@ -326,7 +325,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 66,
                         "end": 83
@@ -338,7 +337,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                             "text": "S",
                             "rawText": "S",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 84,
                             "end": 86
@@ -350,7 +349,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 94,
                                 "end": 96
@@ -365,14 +364,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 97,
                                             "end": 98
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 97,
                                         "end": 99
@@ -384,27 +383,27 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "S",
                                             "rawText": "S",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 99,
                                             "end": 101
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 99,
                                         "end": 102
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 97,
                                 "end": 101
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 94,
                             "end": 103
@@ -412,14 +411,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 84,
                         "end": 102
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 66,
                 "end": 102
@@ -436,7 +435,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 111,
                                 "end": 113
@@ -451,7 +450,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 114,
                                             "end": 115
@@ -466,14 +465,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 116,
                                                         "end": 117
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 116,
                                                     "end": 118
@@ -485,27 +484,27 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                                         "text": "S",
                                                         "rawText": "S",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 118,
                                                         "end": 120
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 118,
                                                     "end": 121
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 116,
                                             "end": 120
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 114,
                                         "end": 122
@@ -517,7 +516,7 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 122,
                                             "end": 124
@@ -532,14 +531,14 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 125,
                                                         "end": 126
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 125,
                                                     "end": 127
@@ -551,53 +550,53 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                                                         "text": "S",
                                                         "rawText": "S",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 127,
                                                         "end": 129
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 127,
                                                     "end": 130
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 125,
                                             "end": 129
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 122,
                                         "end": 131
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 114,
                                 "end": 130
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 111,
                             "end": 133
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 111,
                         "end": 131
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 111,
                 "end": 131
@@ -607,13 +606,13 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 133,
                 "end": 133
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 53,
             "end": 135
@@ -622,7 +621,6 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -632,17 +630,13 @@ interface B<T extends B<T, S>, S extends B<T, S>> extends A<B<T, S>, B<T, S>> { 
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

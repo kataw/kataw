@@ -30,7 +30,7 @@ export function createBindingPropertyList(
     trailingComma,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
     flags,
-    intersects: false,
+    symbol: null,
     start,
     end
   };

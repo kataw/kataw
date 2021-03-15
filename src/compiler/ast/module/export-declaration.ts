@@ -46,7 +46,7 @@ export function createExportDeclaration(
     fromClause,
     isTypeOnly,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

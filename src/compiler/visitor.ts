@@ -1,3 +1,4 @@
+import { RootNode } from './ast/rootNode';
 import { createNodeArray, concatenate, updateNode, extractSingleNode } from './utils';
 import { LexicalEnvironmentFlags } from './transform/context';
 import { Node, NodeFlags, NodeKind, TransformFlags } from './ast/node';
@@ -280,7 +281,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
 
   // Switch - Frequently used nodes first
   switch (kind) {
-    case NodeKind.Script:
+    case NodeKind.RootNode:
       context.startLexicalEnvironment();
       return updateRootNode(node, visitNode(node.statements, visitor));
     case NodeKind.FunctionStatementList:

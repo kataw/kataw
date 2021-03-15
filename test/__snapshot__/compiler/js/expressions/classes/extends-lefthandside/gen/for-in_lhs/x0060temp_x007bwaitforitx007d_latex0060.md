@@ -14,10 +14,9 @@ for (`temp {waitforit} late` in x) ;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (`temp {waitforit} late` in x) ;",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ for (`temp {waitforit} late` in x) ;
                 "text": "temp {waitforit} late",
                 "literal": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 5,
                 "end": 28
@@ -39,7 +38,7 @@ for (`temp {waitforit} late` in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
                 "end": 33
@@ -47,13 +46,13 @@ for (`temp {waitforit} late` in x) ;
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 36
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 36
@@ -62,7 +61,6 @@ for (`temp {waitforit} late` in x) ;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -72,17 +70,13 @@ for (`temp {waitforit} late` in x) ;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -23,7 +23,7 @@ export function createPostfixUpdateExpression(
     operator,
     operand,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

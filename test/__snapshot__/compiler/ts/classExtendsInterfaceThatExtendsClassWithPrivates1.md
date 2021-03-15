@@ -23,10 +23,9 @@ class D2 implements I {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C {\n    public foo(x: any) { return x; }\n    private x = 1;\n}\n\ninterface I extends C {\n    other(x: any): any;\n}\n\nclass D2 implements I {\n    public foo(x: any) { return x }\n    private x = 3;\n    other(x: any) { return x }\n}",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ class D2 implements I {
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -61,7 +60,7 @@ class D2 implements I {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
@@ -77,7 +76,7 @@ class D2 implements I {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 25,
                                             "end": 26
@@ -86,7 +85,7 @@ class D2 implements I {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 27,
                                             "end": 31
@@ -96,7 +95,7 @@ class D2 implements I {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 25,
                                         "end": 31
@@ -104,7 +103,7 @@ class D2 implements I {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 32
@@ -123,13 +122,13 @@ class D2 implements I {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 43
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 34,
                                             "end": 44
@@ -137,13 +136,13 @@ class D2 implements I {
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 34,
                                     "end": 44
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 46
@@ -153,20 +152,20 @@ class D2 implements I {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 9,
                                 "end": 20
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 24,
                             "end": 46
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 46
@@ -178,7 +177,7 @@ class D2 implements I {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 58,
                             "end": 60
@@ -195,7 +194,7 @@ class D2 implements I {
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 62,
                             "end": 64
@@ -204,21 +203,21 @@ class D2 implements I {
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 46,
                             "end": 58
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 46,
                         "end": 65
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 67
@@ -226,7 +225,7 @@ class D2 implements I {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 67
@@ -238,7 +237,7 @@ class D2 implements I {
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 78,
                 "end": 80
@@ -256,27 +255,27 @@ class D2 implements I {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 88,
                                 "end": 90
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 88,
                             "end": 92
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 88,
                         "end": 90
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 88,
                 "end": 90
@@ -291,7 +290,7 @@ class D2 implements I {
                             "text": "other",
                             "rawText": "other",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 92,
                             "end": 102
@@ -312,7 +311,7 @@ class D2 implements I {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 103,
                                         "end": 104
@@ -321,7 +320,7 @@ class D2 implements I {
                                     "type": {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 105,
                                         "end": 109
@@ -330,7 +329,7 @@ class D2 implements I {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 103,
                                     "end": 109
@@ -338,7 +337,7 @@ class D2 implements I {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 103,
                             "end": 109
@@ -346,13 +345,13 @@ class D2 implements I {
                         "returnType": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 111,
                             "end": 115
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 92,
                         "end": 116
@@ -360,13 +359,13 @@ class D2 implements I {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 92,
                 "end": 116
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 67,
             "end": 118
@@ -378,7 +377,7 @@ class D2 implements I {
                 "text": "D2",
                 "rawText": "D2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 125,
                 "end": 128
@@ -397,27 +396,27 @@ class D2 implements I {
                                 "text": "I",
                                 "rawText": "I",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 139,
                                 "end": 141
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 139,
                             "end": 143
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 139,
                         "end": 141
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 139,
                 "end": 141
@@ -438,7 +437,7 @@ class D2 implements I {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 154,
                                 "end": 158
@@ -454,7 +453,7 @@ class D2 implements I {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 159,
                                             "end": 160
@@ -463,7 +462,7 @@ class D2 implements I {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 161,
                                             "end": 165
@@ -473,7 +472,7 @@ class D2 implements I {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 159,
                                         "end": 165
@@ -481,7 +480,7 @@ class D2 implements I {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 159,
                                 "end": 166
@@ -500,13 +499,13 @@ class D2 implements I {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 175,
                                                 "end": 177
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 168,
                                             "end": 177
@@ -514,13 +513,13 @@ class D2 implements I {
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 168,
                                     "end": 177
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 166,
                                 "end": 179
@@ -530,20 +529,20 @@ class D2 implements I {
                             "accessModifier": {
                                 "kind": 4194494,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 143,
                                 "end": 154
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 158,
                             "end": 179
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 143,
                         "end": 179
@@ -555,7 +554,7 @@ class D2 implements I {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 191,
                             "end": 193
@@ -572,7 +571,7 @@ class D2 implements I {
                             "text": 3,
                             "rawText": "3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 195,
                             "end": 197
@@ -581,14 +580,14 @@ class D2 implements I {
                         "accessModifier": {
                             "kind": 4194485,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 179,
                             "end": 191
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 179,
                         "end": 198
@@ -606,7 +605,7 @@ class D2 implements I {
                                 "text": "other",
                                 "rawText": "other",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 198,
                                 "end": 208
@@ -622,7 +621,7 @@ class D2 implements I {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 209,
                                             "end": 210
@@ -631,7 +630,7 @@ class D2 implements I {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 211,
                                             "end": 215
@@ -641,7 +640,7 @@ class D2 implements I {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 209,
                                         "end": 215
@@ -649,7 +648,7 @@ class D2 implements I {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 209,
                                 "end": 216
@@ -668,13 +667,13 @@ class D2 implements I {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 225,
                                                 "end": 227
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 218,
                                             "end": 227
@@ -682,13 +681,13 @@ class D2 implements I {
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 218,
                                     "end": 227
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 216,
                                 "end": 229
@@ -698,20 +697,20 @@ class D2 implements I {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 208,
                             "end": 229
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 198,
                         "end": 229
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 143,
                 "end": 231
@@ -719,7 +718,7 @@ class D2 implements I {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 118,
             "end": 231
@@ -728,7 +727,6 @@ class D2 implements I {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -738,17 +736,13 @@ class D2 implements I {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

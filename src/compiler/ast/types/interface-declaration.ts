@@ -32,7 +32,7 @@ export function createInterfaceDeclaration(
     heritageClauses,
     objectTypeMembers,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

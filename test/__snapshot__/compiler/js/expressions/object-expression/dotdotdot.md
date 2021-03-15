@@ -10,10 +10,9 @@ var { ...{ x = 5 } } = {x : 1};
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var { ...{ x = 5 } } = {x : 1};",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": "",
                                             "rawText": "",
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 9
@@ -58,7 +57,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 10,
                                                                 "end": 12
@@ -68,13 +67,13 @@ var { ...{ x = 5 } } = {x : 1};
                                                                 "text": 5,
                                                                 "rawText": "5",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 14,
                                                                 "end": 16
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1024,
                                                             "start": 10,
                                                             "end": 16
@@ -84,25 +83,25 @@ var { ...{ x = 5 } } = {x : 1};
                                                     "trailingComma": false,
                                                     "transformFlags": 1025,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 10,
                                                     "end": 16
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 9,
                                                 "end": 18
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 9,
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 5,
                                         "end": 18
@@ -112,12 +111,12 @@ var { ...{ x = 5 } } = {x : 1};
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 5,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 20
@@ -136,7 +135,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
@@ -146,7 +145,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
@@ -154,7 +153,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 24,
                                         "end": 29
@@ -163,32 +162,32 @@ var { ...{ x = 5 } } = {x : 1};
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 29
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 22,
                             "end": 30
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 30
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -205,7 +204,6 @@ var { ...{ x = 5 } } = {x : 1};
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -215,17 +213,13 @@ var { ...{ x = 5 } } = {x : 1};
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

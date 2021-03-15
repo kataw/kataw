@@ -18,10 +18,9 @@ x; {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function p(){\n  class C extends await\nx; {}\n}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ x; {}
                 "text": "p",
                 "rawText": "p",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -42,7 +41,7 @@ x; {}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -60,7 +59,7 @@ x; {}
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 29
@@ -73,14 +72,14 @@ x; {}
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 43
                                 },
                                 "typeArguments": null,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 43
@@ -90,7 +89,7 @@ x; {}
                                 "kind": 50,
                                 "elements": [],
                                 "flags": 32769,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 19
@@ -98,7 +97,7 @@ x; {}
                             "decorators": null,
                             "isAbstract": false,
                             "flags": 32769,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 19,
                             "end": 43
@@ -110,13 +109,13 @@ x; {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 32769,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 45
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 43,
                             "end": 46
@@ -128,13 +127,13 @@ x; {}
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 48
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 46,
                             "end": 49
@@ -142,20 +141,20 @@ x; {}
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 49
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 51
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 51
@@ -172,7 +171,6 @@ x; {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -182,17 +180,13 @@ x; {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

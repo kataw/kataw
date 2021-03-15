@@ -14,10 +14,9 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -89,7 +88,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                         "formalParameterList": [],
                                                         "trailingComma": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 54
@@ -108,7 +107,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 56,
                                                                             "end": 58
@@ -129,7 +128,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                             "text": "a",
                                                                                             "rawText": "a",
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 76,
                                                                                             "end": 77
@@ -138,7 +137,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                             "kind": 4260512,
                                                                                             "text": null,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 79,
                                                                                             "end": 84
@@ -148,26 +147,26 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                             "delegate": false,
                                                                                             "expression": null,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 16393,
                                                                                             "start": 86,
                                                                                             "end": 92
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 74,
                                                                                         "end": 92
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 74,
                                                                                     "end": 93
                                                                                 },
                                                                                 "typeArguments": null,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 74,
                                                                                 "end": 93
@@ -177,26 +176,26 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                 "kind": 50,
                                                                                 "elements": [],
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1,
                                                                                 "start": 95,
                                                                                 "end": 97
                                                                             },
                                                                             "decorators": null,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1,
                                                                             "start": 60,
                                                                             "end": 97
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 56,
                                                                         "end": 97
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 97
@@ -204,13 +203,13 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                             ],
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 56,
                                                             "end": 97
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 99
@@ -218,19 +217,19 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                     "typeParameters": null,
                                                     "type": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 128,
                                                     "start": 41,
                                                     "end": 99
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 100
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 101
@@ -238,20 +237,20 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 101
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 103
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 103
@@ -259,20 +258,20 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 103
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 104
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 104
@@ -281,7 +280,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -291,17 +289,13 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

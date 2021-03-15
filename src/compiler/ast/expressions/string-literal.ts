@@ -20,7 +20,7 @@ export function createStringLiteral(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: flags & NodeFlags.ExtendedUnicodeEscape ? TransformFlags.ES2015 : TransformFlags.None,
     start,
     end

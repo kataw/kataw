@@ -16,7 +16,7 @@ export function createNamedImports(
     kind: NodeKind.NamedImports,
     importsList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

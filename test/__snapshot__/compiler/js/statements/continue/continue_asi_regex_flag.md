@@ -11,10 +11,9 @@ for (x of 3) continue
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (x of 3) continue\n/x/g",
     "filename": "",
     "statements": [
@@ -25,7 +24,7 @@ for (x of 3) continue
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 6
@@ -35,7 +34,7 @@ for (x of 3) continue
                 "text": 3,
                 "rawText": "3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -44,14 +43,14 @@ for (x of 3) continue
                 "kind": 2097212,
                 "label": null,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 21
             },
             "isAwait": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 21
@@ -62,13 +61,13 @@ for (x of 3) continue
                 "kind": 4260544,
                 "text": "/x/g",
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 26
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 26
@@ -77,7 +76,6 @@ for (x of 3) continue
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -87,17 +85,13 @@ for (x of 3) continue
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

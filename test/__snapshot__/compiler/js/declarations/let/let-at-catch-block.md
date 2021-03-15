@@ -12,10 +12,9 @@ try {} catch (err) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "try {} catch (err) {\n  let let;\n}",
     "filename": "",
     "statements": [
@@ -28,13 +27,13 @@ try {} catch (err) {
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 6
@@ -48,7 +47,7 @@ try {} catch (err) {
                         "text": "err",
                         "rawText": "err",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 14,
                         "end": 17
@@ -56,7 +55,7 @@ try {} catch (err) {
                     "type": null,
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 17
@@ -79,7 +78,7 @@ try {} catch (err) {
                                                 "text": "let",
                                                 "rawText": "let",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 26,
                                                 "end": 30
@@ -88,20 +87,20 @@ try {} catch (err) {
                                             "type": null,
                                             "initializer": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 30
                                         }
                                     ],
                                     "flags": 8,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
                                 "flags": 32776,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 769,
                                 "start": 20,
                                 "end": 31
@@ -109,26 +108,26 @@ try {} catch (err) {
                         ],
                         "multiline": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 31
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 33
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 33
             },
             "finallyBlock": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 33
@@ -137,7 +136,6 @@ try {} catch (err) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -147,17 +145,13 @@ try {} catch (err) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

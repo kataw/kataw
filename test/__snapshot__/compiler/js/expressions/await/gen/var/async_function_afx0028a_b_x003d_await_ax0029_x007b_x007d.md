@@ -14,10 +14,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { async function af(a, b = await a) { } });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -106,7 +105,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                     "text": "af",
                                                     "rawText": "af",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 53,
                                                     "end": 56
@@ -122,7 +121,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 57,
                                                                 "end": 58
@@ -134,7 +133,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 57,
                                                             "end": 58
@@ -147,7 +146,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 59,
                                                                 "end": 61
@@ -161,13 +160,13 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 69,
                                                                     "end": 71
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 32780,
                                                                 "start": 63,
                                                                 "end": 71
@@ -176,7 +175,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 59,
                                                             "end": 71
@@ -184,7 +183,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 72
@@ -197,20 +196,20 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                         "statements": [],
                                                         "multiline": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 74,
                                                         "end": 74
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 72,
                                                     "end": 76
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 260,
                                                 "start": 38,
                                                 "end": 76
@@ -218,13 +217,13 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 76
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 78
@@ -232,32 +231,32 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 78
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 79
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 79
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 79
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 80
@@ -266,7 +265,6 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -276,17 +274,13 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

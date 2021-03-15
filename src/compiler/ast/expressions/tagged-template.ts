@@ -31,7 +31,7 @@ export function createTaggedTemplate(
     template,
     optional,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

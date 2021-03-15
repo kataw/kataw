@@ -14,10 +14,9 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { x = class extends (a ? null : yield) { } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -58,7 +57,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
@@ -79,7 +78,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 41
@@ -88,7 +87,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "kind": 4260512,
                                                     "text": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 48
@@ -98,26 +97,26 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 50,
                                                     "end": 56
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 56
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 38,
                                             "end": 57
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 57
@@ -127,26 +126,26 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                         "kind": 50,
                                         "elements": [],
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 59,
                                         "end": 61
                                     },
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 24,
                                     "end": 61
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 61
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 61
@@ -154,20 +153,20 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 61
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 63
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 63
@@ -184,7 +183,6 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -194,17 +192,13 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

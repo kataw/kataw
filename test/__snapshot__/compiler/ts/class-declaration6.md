@@ -22,10 +22,9 @@ class Derived extends Base {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Base {\n  static method() {}\n  static prop = 1;\n  static get accessor() { return 1 }\n}\n\nclass Derived extends Base {\n  static fn() {\n      super.method; // allowed, as expected\n      super.accessor; // not allowed, not expected\n      super.prop; // not allowed, not expected\n  }\n}",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ class Derived extends Base {
                 "text": "Base",
                 "rawText": "Base",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 10
@@ -60,7 +59,7 @@ class Derived extends Base {
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 28
@@ -70,7 +69,7 @@ class Derived extends Base {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
@@ -84,13 +83,13 @@ class Derived extends Base {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 32,
                                     "end": 32
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
@@ -100,13 +99,13 @@ class Derived extends Base {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 33
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 12,
                         "end": 33
@@ -118,7 +117,7 @@ class Derived extends Base {
                             "text": "prop",
                             "rawText": "prop",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 42,
                             "end": 47
@@ -135,7 +134,7 @@ class Derived extends Base {
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 49,
                             "end": 51
@@ -144,7 +143,7 @@ class Derived extends Base {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 33,
                         "end": 52
@@ -162,7 +161,7 @@ class Derived extends Base {
                                 "text": "accessor",
                                 "rawText": "accessor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 65,
                                 "end": 74
@@ -172,7 +171,7 @@ class Derived extends Base {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 75,
                                 "end": 76
@@ -191,13 +190,13 @@ class Derived extends Base {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 87
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 78,
                                             "end": 87
@@ -205,13 +204,13 @@ class Derived extends Base {
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 78,
                                     "end": 87
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 76,
                                 "end": 89
@@ -221,20 +220,20 @@ class Derived extends Base {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 74,
                             "end": 89
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 52,
                         "end": 89
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 12,
                 "end": 91
@@ -242,7 +241,7 @@ class Derived extends Base {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 91
@@ -254,7 +253,7 @@ class Derived extends Base {
                 "text": "Derived",
                 "rawText": "Derived",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 98,
                 "end": 106
@@ -267,14 +266,14 @@ class Derived extends Base {
                     "text": "Base",
                     "rawText": "Base",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 114,
                     "end": 119
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 114,
                 "end": 119
@@ -296,7 +295,7 @@ class Derived extends Base {
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 130,
                                 "end": 133
@@ -306,7 +305,7 @@ class Derived extends Base {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 134,
                                 "end": 135
@@ -325,7 +324,7 @@ class Derived extends Base {
                                                 "member": {
                                                     "kind": 4260561,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 149
@@ -335,13 +334,13 @@ class Derived extends Base {
                                                     "text": "method",
                                                     "rawText": "method",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 150,
                                                     "end": 156
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 149,
                                                 "end": 156,
@@ -352,7 +351,7 @@ class Derived extends Base {
                                                 }
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 137,
                                             "end": 157
@@ -364,7 +363,7 @@ class Derived extends Base {
                                                 "member": {
                                                     "kind": 4260561,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 157,
                                                     "end": 193
@@ -374,13 +373,13 @@ class Derived extends Base {
                                                     "text": "accessor",
                                                     "rawText": "accessor",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 194,
                                                     "end": 202
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 193,
                                                 "end": 202,
@@ -391,7 +390,7 @@ class Derived extends Base {
                                                 }
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 157,
                                             "end": 203
@@ -403,7 +402,7 @@ class Derived extends Base {
                                                 "member": {
                                                     "kind": 4260561,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 203,
                                                     "end": 244
@@ -413,13 +412,13 @@ class Derived extends Base {
                                                     "text": "prop",
                                                     "rawText": "prop",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 245,
                                                     "end": 249
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 244,
                                                 "end": 249,
@@ -430,7 +429,7 @@ class Derived extends Base {
                                                 }
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 203,
                                             "end": 250
@@ -438,13 +437,13 @@ class Derived extends Base {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 137,
                                     "end": 250
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 135,
                                 "end": 283
@@ -454,20 +453,20 @@ class Derived extends Base {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 133,
                             "end": 283
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 121,
                         "end": 283
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 121,
                 "end": 285
@@ -475,7 +474,7 @@ class Derived extends Base {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 91,
             "end": 285
@@ -484,7 +483,6 @@ class Derived extends Base {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -494,17 +492,13 @@ class Derived extends Base {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

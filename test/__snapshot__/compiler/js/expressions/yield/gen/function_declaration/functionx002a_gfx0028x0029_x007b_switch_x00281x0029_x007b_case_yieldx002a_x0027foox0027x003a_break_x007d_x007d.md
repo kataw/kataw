@@ -14,10 +14,9 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "text": "gf",
                                 "rawText": "gf",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 30,
                                 "end": 33
@@ -66,7 +65,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 35
@@ -84,7 +83,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 47
@@ -102,13 +101,13 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 33554432,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 62,
                                                                 "end": 68
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 16393,
                                                             "start": 55,
                                                             "end": 68
@@ -118,27 +117,27 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 2097193,
                                                                 "label": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 76
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 76
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 78
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 78
@@ -146,20 +145,20 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 78
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 80
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 384,
                             "start": 20,
                             "end": 80
@@ -167,20 +166,20 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 80
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 82
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 82
@@ -197,7 +196,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -207,17 +205,13 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

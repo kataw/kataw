@@ -16,10 +16,9 @@ import a, *= from 'f';
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import a, *= from 'f';",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ import a, *= from 'f';
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 9,
                     "end": 9
@@ -42,13 +41,13 @@ import a, *= from 'f';
                     "text": "from",
                     "rawText": "from",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
                 "flags": 33554432,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 17
@@ -61,7 +60,7 @@ import a, *= from 'f';
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 6,
                     "end": 8
@@ -70,13 +69,13 @@ import a, *= from 'f';
                 "namedImports": null,
                 "isTypeOnly": false,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 17
@@ -88,13 +87,13 @@ import a, *= from 'f';
                 "text": "f",
                 "rawText": "f",
                 "flags": 33554433,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 17,
             "end": 22
@@ -118,7 +117,6 @@ import a, *= from 'f';
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -128,17 +126,13 @@ import a, *= from 'f';
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ async (x, y) => ok, async (x, y) => ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async (x, y) => ok, async (x, y) => ok",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ async (x, y) => ok, async (x, y) => ok
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
@@ -49,7 +48,7 @@ async (x, y) => ok, async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 12
@@ -62,7 +61,7 @@ async (x, y) => ok, async (x, y) => ok
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
@@ -74,7 +73,7 @@ async (x, y) => ok, async (x, y) => ok
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 12
@@ -84,7 +83,7 @@ async (x, y) => ok, async (x, y) => ok
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 12
@@ -97,7 +96,7 @@ async (x, y) => ok, async (x, y) => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 18
@@ -116,7 +115,7 @@ async (x, y) => ok, async (x, y) => ok
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 29,
                                             "end": 31
@@ -128,7 +127,7 @@ async (x, y) => ok, async (x, y) => ok
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 29,
                                         "end": 32
@@ -141,7 +140,7 @@ async (x, y) => ok, async (x, y) => ok
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
@@ -153,7 +152,7 @@ async (x, y) => ok, async (x, y) => ok
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 29,
                                         "end": 32
@@ -163,7 +162,7 @@ async (x, y) => ok, async (x, y) => ok
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 32
@@ -173,32 +172,32 @@ async (x, y) => ok, async (x, y) => ok
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 35,
                                 "end": 38
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 38
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 38
                 },
                 "flags": 1073741824,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 38
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 38
@@ -207,7 +206,6 @@ async (x, y) => ok, async (x, y) => ok
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -217,17 +215,13 @@ async (x, y) => ok, async (x, y) => ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

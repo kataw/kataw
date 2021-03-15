@@ -10,10 +10,9 @@ s = {"foo": await a = x} = x
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "s = {\"foo\": await a = x} = x",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ s = {"foo": await a = x} = x
                     "text": "s",
                     "rawText": "s",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -46,7 +45,7 @@ s = {"foo": await a = x} = x
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
@@ -56,7 +55,7 @@ s = {"foo": await a = x} = x
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
@@ -64,7 +63,7 @@ s = {"foo": await a = x} = x
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 17
@@ -76,7 +75,7 @@ s = {"foo": await a = x} = x
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 17,
                                         "end": 19
@@ -88,14 +87,14 @@ s = {"foo": await a = x} = x
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
                                     "accessModifier": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 17,
                                     "end": 23
@@ -104,13 +103,13 @@ s = {"foo": await a = x} = x
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 23
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 24
@@ -121,25 +120,25 @@ s = {"foo": await a = x} = x
                         "text": "x",
                         "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -156,7 +155,6 @@ s = {"foo": await a = x} = x
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -166,17 +164,13 @@ s = {"foo": await a = x} = x
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

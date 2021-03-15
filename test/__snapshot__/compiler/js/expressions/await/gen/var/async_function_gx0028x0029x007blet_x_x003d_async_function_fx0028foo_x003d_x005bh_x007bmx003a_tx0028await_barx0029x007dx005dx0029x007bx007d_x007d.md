@@ -14,10 +14,9 @@ var await; var f = (async function() { async function g(){let x = async function
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    } });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { async function g(){let x = async function
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { async function g(){let x = async function
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { async function g(){let x = async function
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -106,7 +105,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 53,
                                                     "end": 55
@@ -116,7 +115,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 57
@@ -140,7 +139,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 61,
                                                                                 "end": 63
@@ -154,7 +153,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     "text": "f",
                                                                                     "rawText": "f",
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 1025,
                                                                                     "start": 80,
                                                                                     "end": 82
@@ -170,7 +169,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                 "text": "foo",
                                                                                                 "rawText": "foo",
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1025,
                                                                                                 "start": 83,
                                                                                                 "end": 86
@@ -187,7 +186,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                             "text": "h",
                                                                                                             "rawText": "h",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 90,
                                                                                                             "end": 91
@@ -204,7 +203,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                             "text": "m",
                                                                                                                             "rawText": "m",
                                                                                                                             "flags": 0,
-                                                                                                                            "intersects": false,
+                                                                                                                            "symbol": null,
                                                                                                                             "transformFlags": 0,
                                                                                                                             "start": 94,
                                                                                                                             "end": 95
@@ -216,7 +215,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                 "text": "t",
                                                                                                                                 "rawText": "t",
                                                                                                                                 "flags": 0,
-                                                                                                                                "intersects": false,
+                                                                                                                                "symbol": null,
                                                                                                                                 "transformFlags": 0,
                                                                                                                                 "start": 96,
                                                                                                                                 "end": 98
@@ -232,13 +231,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                             "text": "bar",
                                                                                                                                             "rawText": "bar",
                                                                                                                                             "flags": 0,
-                                                                                                                                            "intersects": false,
+                                                                                                                                            "symbol": null,
                                                                                                                                             "transformFlags": 0,
                                                                                                                                             "start": 104,
                                                                                                                                             "end": 108
                                                                                                                                         },
                                                                                                                                         "flags": 0,
-                                                                                                                                        "intersects": false,
+                                                                                                                                        "symbol": null,
                                                                                                                                         "transformFlags": 32780,
                                                                                                                                         "start": 99,
                                                                                                                                         "end": 108
@@ -247,12 +246,12 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                 "trailingComma": false,
                                                                                                                                 "transformFlags": 0,
                                                                                                                                 "flags": 0,
-                                                                                                                                "intersects": false,
+                                                                                                                                "symbol": null,
                                                                                                                                 "start": 104,
                                                                                                                                 "end": 109
                                                                                                                             },
                                                                                                                             "flags": 0,
-                                                                                                                            "intersects": false,
+                                                                                                                            "symbol": null,
                                                                                                                             "transformFlags": 0,
                                                                                                                             "start": 98,
                                                                                                                             "end": 109
@@ -260,7 +259,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                         "accessModifier": null,
                                                                                                                         "decorators": null,
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "start": 94,
                                                                                                                         "end": 109
@@ -269,13 +268,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                 "trailingComma": false,
                                                                                                                 "multiline": false,
                                                                                                                 "flags": 0,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "start": 94,
                                                                                                                 "end": 109
                                                                                                             },
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 92,
                                                                                                             "end": 110
@@ -284,13 +283,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                     "trailingComma": false,
                                                                                                     "multiline": false,
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 90,
                                                                                                     "end": 110
                                                                                                 },
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 88,
                                                                                                 "end": 111
@@ -299,7 +298,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                             "accessModifier": null,
                                                                                             "isReadOnly": false,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 1,
                                                                                             "start": 83,
                                                                                             "end": 111
@@ -307,7 +306,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     ],
                                                                                     "trailingComma": false,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 83,
                                                                                     "end": 112
@@ -319,13 +318,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                         "statements": [],
                                                                                         "multiline": false,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 113,
                                                                                         "end": 113
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 112,
                                                                                     "end": 114
@@ -333,26 +332,26 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                 "typeParameters": null,
                                                                                 "type": null,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 4,
                                                                                 "start": 65,
                                                                                 "end": 114
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 61,
                                                                             "end": 114
                                                                         }
                                                                     ],
                                                                     "flags": 8,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 61,
                                                                     "end": 114
                                                                 },
                                                                 "flags": 8,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 58,
                                                                 "end": 114
@@ -360,20 +359,20 @@ var await; var f = (async function() { async function g(){let x = async function
                                                         ],
                                                         "multiline": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 58,
                                                         "end": 114
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 119
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 260,
                                                 "start": 38,
                                                 "end": 119
@@ -381,13 +380,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 119
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 121
@@ -395,32 +394,32 @@ var await; var f = (async function() { async function g(){let x = async function
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 121
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 122
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 122
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 122
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 123
@@ -429,7 +428,6 @@ var await; var f = (async function() { async function g(){let x = async function
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -439,17 +437,13 @@ var await; var f = (async function() { async function g(){let x = async function
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

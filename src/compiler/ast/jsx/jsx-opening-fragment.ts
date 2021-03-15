@@ -11,7 +11,7 @@ export function createJsxOpeningFragment(flags: NodeFlags, start: number, end: n
   return {
     kind: NodeKind.JsxOpeningFragment,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

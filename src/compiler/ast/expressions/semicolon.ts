@@ -13,7 +13,7 @@ export function createSemicolon(flags: NodeFlags, start: number, end: number): S
   return {
     kind: NodeKind.Semicolon,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

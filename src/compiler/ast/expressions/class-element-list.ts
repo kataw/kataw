@@ -24,7 +24,7 @@ export function createClassElementList(
     kind: NodeKind.ClassElementList,
     elements,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

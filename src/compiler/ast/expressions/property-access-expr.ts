@@ -24,7 +24,7 @@ export function createPropertyAccessExpression(
     member,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       expression.kind === NodeKind.Super ? TransformFlags.ES2017 | TransformFlags.ES2018 : TransformFlags.None,
     start,

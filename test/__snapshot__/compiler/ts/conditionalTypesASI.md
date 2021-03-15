@@ -13,10 +13,9 @@ interface JSONSchema4 {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface JSONSchema4 {\n  a?: number\n  extends?: string | string[]\n}",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ interface JSONSchema4 {
                 "text": "JSONSchema4",
                 "rawText": "JSONSchema4",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 21
@@ -44,7 +43,7 @@ interface JSONSchema4 {
                             "text": "a",
                             "rawText": "a",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 27
@@ -54,7 +53,7 @@ interface JSONSchema4 {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 29,
                             "end": 36
@@ -63,7 +62,7 @@ interface JSONSchema4 {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 23,
                         "end": 36
@@ -75,7 +74,7 @@ interface JSONSchema4 {
                             "text": "extends",
                             "rawText": "extends",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 36,
                             "end": 46
@@ -88,7 +87,7 @@ interface JSONSchema4 {
                                 {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 48,
                                     "end": 55
@@ -98,20 +97,20 @@ interface JSONSchema4 {
                                     "elementType": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 57,
                                         "end": 64
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 57,
                                     "end": 68
                                 }
                             ],
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 55,
                             "end": 66
@@ -120,7 +119,7 @@ interface JSONSchema4 {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 36,
                         "end": 66
@@ -128,13 +127,13 @@ interface JSONSchema4 {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 23,
                 "end": 66
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 68
@@ -143,7 +142,6 @@ interface JSONSchema4 {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -153,17 +151,13 @@ interface JSONSchema4 {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

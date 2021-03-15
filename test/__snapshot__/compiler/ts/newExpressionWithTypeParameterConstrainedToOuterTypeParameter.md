@@ -14,10 +14,9 @@ var y = new i(""); // y should be string
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface I<T> {\n    new <U extends T>(u: U): U;\n}\nvar i: I<string>;\nvar y = new i(\"\"); // y should be string",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ var y = new i(""); // y should be string
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -43,7 +42,7 @@ var y = new i(""); // y should be string
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 13
@@ -52,14 +51,14 @@ var y = new i(""); // y should be string
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 12,
                         "end": 13
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 12,
                 "end": 13
@@ -82,7 +81,7 @@ var y = new i(""); // y should be string
                                         "text": "U",
                                         "rawText": "U",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 26,
                                         "end": 27
@@ -94,14 +93,14 @@ var y = new i(""); // y should be string
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 35,
                                             "end": 37
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 35,
                                         "end": 38
@@ -109,14 +108,14 @@ var y = new i(""); // y should be string
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 26,
                                     "end": 37
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 26,
                             "end": 37
@@ -132,7 +131,7 @@ var y = new i(""); // y should be string
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 39,
                                         "end": 40
@@ -145,14 +144,14 @@ var y = new i(""); // y should be string
                                             "text": "U",
                                             "rawText": "U",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 41,
                                             "end": 43
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 41,
                                         "end": 44
@@ -161,7 +160,7 @@ var y = new i(""); // y should be string
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 39,
                                     "end": 43
@@ -169,7 +168,7 @@ var y = new i(""); // y should be string
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 39,
                             "end": 43
@@ -181,20 +180,20 @@ var y = new i(""); // y should be string
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 45,
                                 "end": 47
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 45,
                             "end": 48
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 24,
                         "end": 48
@@ -202,13 +201,13 @@ var y = new i(""); // y should be string
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 48
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 50
@@ -225,7 +224,7 @@ var y = new i(""); // y should be string
                             "text": "i",
                             "rawText": "i",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 54,
                             "end": 56
@@ -238,7 +237,7 @@ var y = new i(""); // y should be string
                                 "text": "I",
                                 "rawText": "I",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 57,
                                 "end": 59
@@ -249,40 +248,40 @@ var y = new i(""); // y should be string
                                     {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 60,
                                         "end": 66
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 60,
                                 "end": 66
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 57,
                             "end": 68
                         },
                         "initializer": null,
                         "flags": 54,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 67
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 54,
                 "end": 67
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 50,
             "end": 68
@@ -299,7 +298,7 @@ var y = new i(""); // y should be string
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 72,
                             "end": 74
@@ -313,7 +312,7 @@ var y = new i(""); // y should be string
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 80,
                                 "end": 82
@@ -327,7 +326,7 @@ var y = new i(""); // y should be string
                                         "text": "",
                                         "rawText": "",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 83,
                                         "end": 85
@@ -336,31 +335,31 @@ var y = new i(""); // y should be string
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 83,
                                 "end": 85
                             },
                             "flags": 76,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 86
                         },
                         "flags": 72,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 86
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 72,
                 "end": 86
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 68,
             "end": 87
@@ -369,7 +368,6 @@ var y = new i(""); // y should be string
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -379,17 +377,13 @@ var y = new i(""); // y should be string
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

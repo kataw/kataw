@@ -20,7 +20,7 @@ export function createForBinding(
     kind: NodeKind.ForBinding,
     declarationList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

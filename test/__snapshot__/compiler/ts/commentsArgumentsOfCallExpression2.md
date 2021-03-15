@@ -19,10 +19,9 @@ foo(
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function foo(/*c1*/ x: any, /*d1*/ y: any,/*e1*/w?: any) { }\nvar a, b: any;\nfoo(/*c2*/ 1, /*d2*/ 1 + 2, /*e1*/ a + b);\nfoo(/*c3*/ function () { }, /*d2*/() => { }, /*e2*/ a + /*e3*/ b);\nfoo(/*c3*/ function () { }, /*d3*/() => { }, /*e3*/(a + b));\nfoo(\n    /*c4*/ function () { },\n    /*d4*/() => { },\n    /*e4*/\n    /*e5*/ \"hello\");",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ foo(
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -49,7 +48,7 @@ foo(
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 21
@@ -58,7 +57,7 @@ foo(
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 22,
                             "end": 26
@@ -68,7 +67,7 @@ foo(
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 13,
                         "end": 26
@@ -81,7 +80,7 @@ foo(
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 27,
                             "end": 36
@@ -90,7 +89,7 @@ foo(
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 37,
                             "end": 41
@@ -100,7 +99,7 @@ foo(
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 27,
                         "end": 41
@@ -113,7 +112,7 @@ foo(
                             "text": "w",
                             "rawText": "w",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 42,
                             "end": 49
@@ -122,7 +121,7 @@ foo(
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 51,
                             "end": 55
@@ -132,7 +131,7 @@ foo(
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 42,
                         "end": 55
@@ -140,7 +139,7 @@ foo(
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 56
@@ -153,20 +152,20 @@ foo(
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 56,
                 "end": 60
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 60
@@ -183,7 +182,7 @@ foo(
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 64,
                             "end": 66
@@ -192,7 +191,7 @@ foo(
                         "type": null,
                         "initializer": null,
                         "flags": 64,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 66
@@ -204,7 +203,7 @@ foo(
                             "text": "b",
                             "rawText": "b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 67,
                             "end": 69
@@ -213,27 +212,27 @@ foo(
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 70,
                             "end": 74
                         },
                         "initializer": null,
                         "flags": 67,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 74
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 64,
                 "end": 74
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 60,
             "end": 75
@@ -247,7 +246,7 @@ foo(
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 75,
                     "end": 79
@@ -261,7 +260,7 @@ foo(
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 80,
                             "end": 88
@@ -273,7 +272,7 @@ foo(
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 89,
                                 "end": 98
@@ -284,13 +283,13 @@ foo(
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 100,
                                 "end": 102
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 89,
                             "end": 102
@@ -302,7 +301,7 @@ foo(
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 103,
                                 "end": 112
@@ -313,13 +312,13 @@ foo(
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 114,
                                 "end": 116
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 103,
                             "end": 116
@@ -328,18 +327,18 @@ foo(
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 88,
                     "end": 117
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 79,
                 "end": 117
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 75,
             "end": 118
@@ -353,7 +352,7 @@ foo(
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 118,
                     "end": 122
@@ -370,7 +369,7 @@ foo(
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 140,
                                 "end": 141
@@ -382,13 +381,13 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 143,
                                     "end": 143
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 141,
                                 "end": 145
@@ -396,7 +395,7 @@ foo(
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 123,
                             "end": 145
@@ -411,7 +410,7 @@ foo(
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 146,
                                 "end": 146
@@ -423,19 +422,19 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 160,
                                     "end": 160
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 158,
                                 "end": 162
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 146,
                             "end": 162
@@ -447,7 +446,7 @@ foo(
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 163,
                                 "end": 172
@@ -458,13 +457,13 @@ foo(
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 174,
                                 "end": 183
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 163,
                             "end": 183
@@ -473,18 +472,18 @@ foo(
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 138,
                     "end": 184
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 122,
                 "end": 184
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 118,
             "end": 185
@@ -498,7 +497,7 @@ foo(
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 185,
                     "end": 189
@@ -515,7 +514,7 @@ foo(
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 207,
                                 "end": 208
@@ -527,13 +526,13 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 210,
                                     "end": 210
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 208,
                                 "end": 212
@@ -541,7 +540,7 @@ foo(
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 190,
                             "end": 212
@@ -556,7 +555,7 @@ foo(
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 213,
                                 "end": 213
@@ -568,19 +567,19 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 227,
                                     "end": 227
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 225,
                                 "end": 229
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 213,
                             "end": 229
@@ -594,7 +593,7 @@ foo(
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 238,
                                     "end": 239
@@ -605,19 +604,19 @@ foo(
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 241,
                                     "end": 243
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 230,
                                 "end": 243
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 230,
                             "end": 244
@@ -626,18 +625,18 @@ foo(
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 205,
                     "end": 245
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 189,
                 "end": 245
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 185,
             "end": 246
@@ -651,7 +650,7 @@ foo(
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 246,
                     "end": 250
@@ -668,7 +667,7 @@ foo(
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 273,
                                 "end": 274
@@ -680,13 +679,13 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 276,
                                     "end": 276
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 274,
                                 "end": 278
@@ -694,7 +693,7 @@ foo(
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 251,
                             "end": 278
@@ -709,7 +708,7 @@ foo(
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 279,
                                 "end": 279
@@ -721,19 +720,19 @@ foo(
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 297,
                                     "end": 297
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 295,
                                 "end": 299
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 279,
                             "end": 299
@@ -743,7 +742,7 @@ foo(
                             "text": "hello",
                             "rawText": "hello",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 300,
                             "end": 330
@@ -752,18 +751,18 @@ foo(
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 271,
                     "end": 331
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 250,
                 "end": 331
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 246,
             "end": 332
@@ -772,7 +771,6 @@ foo(
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -782,17 +780,13 @@ foo(
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

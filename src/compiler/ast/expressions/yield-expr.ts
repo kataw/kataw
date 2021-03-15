@@ -22,7 +22,7 @@ export function createYieldExpression(
     delegate,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | TransformFlags.ES2018 | TransformFlags.Yield,
 
     start,

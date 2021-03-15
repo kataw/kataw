@@ -15,10 +15,9 @@ class C extends (function B() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var C;\n\nclass C extends (function B() {\n  with ({});\n  return B;\n}()) {}",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ class C extends (function B() {
                             "text": "C",
                             "rawText": "C",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -43,20 +42,20 @@ class C extends (function B() {
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 5
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 6
@@ -68,7 +67,7 @@ class C extends (function B() {
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 13,
                 "end": 15
@@ -87,7 +86,7 @@ class C extends (function B() {
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 33,
                                 "end": 35
@@ -97,7 +96,7 @@ class C extends (function B() {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -117,13 +116,13 @@ class C extends (function B() {
                                                     "trailingComma": false,
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 49
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 50
@@ -131,13 +130,13 @@ class C extends (function B() {
                                             "statement": {
                                                 "kind": 6291526,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 52
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 52
@@ -149,13 +148,13 @@ class C extends (function B() {
                                                 "text": "B",
                                                 "rawText": "B",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 63
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 52,
                                             "end": 64
@@ -163,13 +162,13 @@ class C extends (function B() {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 64
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 66
@@ -177,7 +176,7 @@ class C extends (function B() {
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 66
@@ -189,25 +188,25 @@ class C extends (function B() {
                             "trailingComma": false,
                             "transformFlags": 0,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "start": 68,
                             "end": 68
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 66,
                         "end": 68
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 69
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 23,
                 "end": 69
@@ -217,7 +216,7 @@ class C extends (function B() {
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 71,
                 "end": 72
@@ -225,7 +224,7 @@ class C extends (function B() {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 6,
             "end": 72
@@ -234,7 +233,6 @@ class C extends (function B() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -244,17 +242,13 @@ class C extends (function B() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

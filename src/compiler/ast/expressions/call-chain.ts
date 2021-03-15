@@ -28,7 +28,7 @@ export function createCallChain(
     typeArguments,
     argumentList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2020,
     start,
     end

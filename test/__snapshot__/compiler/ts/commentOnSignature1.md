@@ -44,10 +44,9 @@ function foo2(a: any): void {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "/*!=================\n    Keep this pinned\n   =================\n*/\n\n/*! Don't keep this pinned comment */\nfunction foo(n: number): void;\n// Don't keep this comment.\nfunction foo(s: string): void;\nfunction foo(a: any): void {\n}\n\nclass c {\n    // dont keep this comment\n    constructor(a: string);\n    /*! keep this pinned comment */\n    constructor(a: number);\n    constructor(a: any) {\n    }\n\n    // dont keep this comment\n    foo(a: string);\n    /*! keep this pinned comment */\n    foo(a: number);\n    foo(a: any) {\n    }\n}\n\n//@filename:b.ts\n///<reference path='a.ts'/>\nfunction foo2(n: number): void;\n// Don't keep this comment.\nfunction foo2(s: string): void;\nfunction foo2(a: any): void {\n}",
     "filename": "",
     "statements": [
@@ -58,7 +57,7 @@ function foo2(a: any): void {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 113,
                 "end": 117
@@ -74,7 +73,7 @@ function foo2(a: any): void {
                             "text": "n",
                             "rawText": "n",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 118,
                             "end": 119
@@ -83,7 +82,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 120,
                             "end": 127
@@ -93,7 +92,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 118,
                         "end": 127
@@ -101,7 +100,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 118,
                 "end": 128
@@ -109,7 +108,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 129,
                 "end": 134
@@ -117,7 +116,7 @@ function foo2(a: any): void {
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 135
@@ -129,7 +128,7 @@ function foo2(a: any): void {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 172,
                 "end": 176
@@ -145,7 +144,7 @@ function foo2(a: any): void {
                             "text": "s",
                             "rawText": "s",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 177,
                             "end": 178
@@ -154,7 +153,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 179,
                             "end": 186
@@ -164,7 +163,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 177,
                         "end": 186
@@ -172,7 +171,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 177,
                 "end": 187
@@ -180,7 +179,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 188,
                 "end": 193
@@ -188,7 +187,7 @@ function foo2(a: any): void {
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 135,
             "end": 194
@@ -200,7 +199,7 @@ function foo2(a: any): void {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 203,
                 "end": 207
@@ -216,7 +215,7 @@ function foo2(a: any): void {
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 208,
                             "end": 209
@@ -225,7 +224,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 210,
                             "end": 214
@@ -235,7 +234,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 208,
                         "end": 214
@@ -243,7 +242,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 208,
                 "end": 215
@@ -251,7 +250,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 216,
                 "end": 221
@@ -263,20 +262,20 @@ function foo2(a: any): void {
                     "statements": [],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 223,
                     "end": 223
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 221,
                 "end": 225
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 194,
             "end": 225
@@ -288,7 +287,7 @@ function foo2(a: any): void {
                 "text": "c",
                 "rawText": "c",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 232,
                 "end": 234
@@ -312,7 +311,7 @@ function foo2(a: any): void {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 236,
                                 "end": 282
@@ -328,7 +327,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 283,
                                             "end": 284
@@ -337,7 +336,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 285,
                                             "end": 292
@@ -347,7 +346,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 283,
                                         "end": 292
@@ -355,7 +354,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 283,
                                 "end": 293
@@ -368,13 +367,13 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 282,
                             "end": 294
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 236,
                         "end": 294
@@ -392,7 +391,7 @@ function foo2(a: any): void {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 294,
                                 "end": 346
@@ -408,7 +407,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 347,
                                             "end": 348
@@ -417,7 +416,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 349,
                                             "end": 356
@@ -427,7 +426,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 347,
                                         "end": 356
@@ -435,7 +434,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 347,
                                 "end": 357
@@ -448,13 +447,13 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 346,
                             "end": 358
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 294,
                         "end": 358
@@ -472,7 +471,7 @@ function foo2(a: any): void {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 358,
                                 "end": 374
@@ -488,7 +487,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 375,
                                             "end": 376
@@ -497,7 +496,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 377,
                                             "end": 381
@@ -507,7 +506,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 375,
                                         "end": 381
@@ -515,7 +514,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 375,
                                 "end": 382
@@ -529,13 +528,13 @@ function foo2(a: any): void {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 384,
                                     "end": 384
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 382,
                                 "end": 390
@@ -545,13 +544,13 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 374,
                             "end": 390
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 358,
                         "end": 390
@@ -569,7 +568,7 @@ function foo2(a: any): void {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 390,
                                 "end": 429
@@ -585,7 +584,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 430,
                                             "end": 431
@@ -594,7 +593,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 432,
                                             "end": 439
@@ -604,7 +603,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 430,
                                         "end": 439
@@ -612,7 +611,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 430,
                                 "end": 440
@@ -625,13 +624,13 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 429,
                             "end": 441
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 390,
                         "end": 441
@@ -649,7 +648,7 @@ function foo2(a: any): void {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 441,
                                 "end": 485
@@ -665,7 +664,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 486,
                                             "end": 487
@@ -674,7 +673,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 488,
                                             "end": 495
@@ -684,7 +683,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 486,
                                         "end": 495
@@ -692,7 +691,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 486,
                                 "end": 496
@@ -705,13 +704,13 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 485,
                             "end": 497
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 441,
                         "end": 497
@@ -729,7 +728,7 @@ function foo2(a: any): void {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 497,
                                 "end": 505
@@ -745,7 +744,7 @@ function foo2(a: any): void {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 506,
                                             "end": 507
@@ -754,7 +753,7 @@ function foo2(a: any): void {
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 508,
                                             "end": 512
@@ -764,7 +763,7 @@ function foo2(a: any): void {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 506,
                                         "end": 512
@@ -772,7 +771,7 @@ function foo2(a: any): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 506,
                                 "end": 513
@@ -786,13 +785,13 @@ function foo2(a: any): void {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 515,
                                     "end": 515
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 513,
                                 "end": 521
@@ -802,20 +801,20 @@ function foo2(a: any): void {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 505,
                             "end": 521
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 497,
                         "end": 521
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 236,
                 "end": 523
@@ -823,7 +822,7 @@ function foo2(a: any): void {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 225,
             "end": 523
@@ -835,7 +834,7 @@ function foo2(a: any): void {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 578,
                 "end": 583
@@ -851,7 +850,7 @@ function foo2(a: any): void {
                             "text": "n",
                             "rawText": "n",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 584,
                             "end": 585
@@ -860,7 +859,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 586,
                             "end": 593
@@ -870,7 +869,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 584,
                         "end": 593
@@ -878,7 +877,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 584,
                 "end": 594
@@ -886,7 +885,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 595,
                 "end": 600
@@ -894,7 +893,7 @@ function foo2(a: any): void {
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 523,
             "end": 601
@@ -906,7 +905,7 @@ function foo2(a: any): void {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 638,
                 "end": 643
@@ -922,7 +921,7 @@ function foo2(a: any): void {
                             "text": "s",
                             "rawText": "s",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 644,
                             "end": 645
@@ -931,7 +930,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 646,
                             "end": 653
@@ -941,7 +940,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 644,
                         "end": 653
@@ -949,7 +948,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 644,
                 "end": 654
@@ -957,7 +956,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 655,
                 "end": 660
@@ -965,7 +964,7 @@ function foo2(a: any): void {
             "contents": null,
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 601,
             "end": 661
@@ -977,7 +976,7 @@ function foo2(a: any): void {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 670,
                 "end": 675
@@ -993,7 +992,7 @@ function foo2(a: any): void {
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 676,
                             "end": 677
@@ -1002,7 +1001,7 @@ function foo2(a: any): void {
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 678,
                             "end": 682
@@ -1012,7 +1011,7 @@ function foo2(a: any): void {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 676,
                         "end": 682
@@ -1020,7 +1019,7 @@ function foo2(a: any): void {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 676,
                 "end": 683
@@ -1028,7 +1027,7 @@ function foo2(a: any): void {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 684,
                 "end": 689
@@ -1040,20 +1039,20 @@ function foo2(a: any): void {
                     "statements": [],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 691,
                     "end": 691
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 689,
                 "end": 693
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 661,
             "end": 693
@@ -1062,7 +1061,6 @@ function foo2(a: any): void {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1072,17 +1070,13 @@ function foo2(a: any): void {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

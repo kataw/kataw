@@ -14,10 +14,9 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function* gf() { switch (1) { case yield* 'foo': break; } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 12
@@ -38,7 +37,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -56,7 +55,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 26
@@ -74,13 +73,13 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 47
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 16393,
                                             "start": 34,
                                             "end": 47
@@ -90,27 +89,27 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "kind": 2097193,
                                                 "label": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 55
                                             }
                                         ],
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 29,
                                         "end": 55
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 57
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 57
@@ -118,20 +117,20 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 57
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 59
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 59
@@ -140,7 +139,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -150,17 +148,13 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

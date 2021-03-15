@@ -10,10 +10,9 @@ function* g() {   [...{ x = yield }] = y   }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function* g() {   [...{ x = yield }] = y   }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function* g() {   [...{ x = yield }] = y   }
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 11
@@ -34,7 +33,7 @@ function* g() {   [...{ x = yield }] = y   }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -68,7 +67,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 23,
                                                                     "end": 25
@@ -80,14 +79,14 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "delegate": false,
                                                                     "expression": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 16393,
                                                                     "start": 27,
                                                                     "end": 33
                                                                 },
                                                                 "accessModifier": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1,
                                                                 "start": 23,
                                                                 "end": 33
@@ -96,19 +95,19 @@ function* g() {   [...{ x = yield }] = y   }
                                                         "trailingComma": false,
                                                         "multiline": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 33
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 35
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2,
                                                 "start": 19,
                                                 "end": 35
@@ -117,13 +116,13 @@ function* g() {   [...{ x = yield }] = y   }
                                         "trailingComma": false,
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 19,
                                         "end": 35
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 36
@@ -134,19 +133,19 @@ function* g() {   [...{ x = yield }] = y   }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 40
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 40
@@ -154,20 +153,20 @@ function* g() {   [...{ x = yield }] = y   }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 44
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 44
@@ -176,7 +175,6 @@ function* g() {   [...{ x = yield }] = y   }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -186,17 +184,13 @@ function* g() {   [...{ x = yield }] = y   }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

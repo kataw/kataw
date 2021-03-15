@@ -23,7 +23,7 @@ export function createJsxMemberExpression(
     ellipsis,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

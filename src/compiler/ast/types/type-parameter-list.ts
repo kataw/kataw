@@ -20,7 +20,7 @@ export function createTypeParameters(
     kind: NodeKind.TypeParameterList,
     typeParameterList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

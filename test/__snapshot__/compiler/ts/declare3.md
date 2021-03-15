@@ -19,10 +19,9 @@ declare var Array: {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare var Array: {\n  new (arrayLength?: number): any[];\n  new <T>(arrayLength: number): T[];\n  new <T>(...items: T[]): T[];\n  (arrayLength?: number): any[];\n  <T>(arrayLength: number): T[];\n  <T>(...items: T[]): T[];\n  isArray(arg: any): boolean;\n  prototype: Array<any>;\n}",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ declare var Array: {
                             "text": "Array",
                             "rawText": "Array",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 11,
                             "end": 17
@@ -65,7 +64,7 @@ declare var Array: {
                                                         "text": "arrayLength",
                                                         "rawText": "arrayLength",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 28,
                                                         "end": 39
@@ -74,7 +73,7 @@ declare var Array: {
                                                     "type": {
                                                         "kind": 4202657,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 41,
                                                         "end": 48
@@ -83,7 +82,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 28,
                                                     "end": 48
@@ -91,7 +90,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 28,
                                             "end": 48
@@ -101,19 +100,19 @@ declare var Array: {
                                             "elementType": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 50,
                                                 "end": 54
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 50,
                                             "end": 57
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 26,
                                         "end": 57
@@ -132,7 +131,7 @@ declare var Array: {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 65,
                                                         "end": 66
@@ -141,14 +140,14 @@ declare var Array: {
                                                     "defaultType": null,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 65,
                                                     "end": 66
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 65,
                                             "end": 66
@@ -164,7 +163,7 @@ declare var Array: {
                                                         "text": "arrayLength",
                                                         "rawText": "arrayLength",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 68,
                                                         "end": 79
@@ -173,7 +172,7 @@ declare var Array: {
                                                     "type": {
                                                         "kind": 4202657,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 80,
                                                         "end": 87
@@ -182,7 +181,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 68,
                                                     "end": 87
@@ -190,7 +189,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 68,
                                             "end": 87
@@ -204,26 +203,26 @@ declare var Array: {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 89,
                                                     "end": 91
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 89,
                                                 "end": 92
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 89,
                                             "end": 94
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 63,
                                         "end": 94
@@ -242,7 +241,7 @@ declare var Array: {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 102,
                                                         "end": 103
@@ -251,14 +250,14 @@ declare var Array: {
                                                     "defaultType": null,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 102,
                                                     "end": 103
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 102,
                                             "end": 103
@@ -274,7 +273,7 @@ declare var Array: {
                                                         "text": "items",
                                                         "rawText": "items",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 108,
                                                         "end": 113
@@ -289,20 +288,20 @@ declare var Array: {
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 114,
                                                                 "end": 116
                                                             },
                                                             "typeArguments": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 114,
                                                             "end": 117
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 114,
                                                         "end": 119
@@ -311,7 +310,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 4097,
                                                     "start": 105,
                                                     "end": 118
@@ -319,7 +318,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 105,
                                             "end": 118
@@ -333,26 +332,26 @@ declare var Array: {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 120,
                                                     "end": 122
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 120,
                                                 "end": 123
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 120,
                                             "end": 125
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 100,
                                         "end": 125
@@ -373,7 +372,7 @@ declare var Array: {
                                                         "text": "arrayLength",
                                                         "rawText": "arrayLength",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 129,
                                                         "end": 140
@@ -382,7 +381,7 @@ declare var Array: {
                                                     "type": {
                                                         "kind": 4202657,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 142,
                                                         "end": 149
@@ -391,7 +390,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 129,
                                                     "end": 149
@@ -399,7 +398,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 129,
                                             "end": 149
@@ -409,19 +408,19 @@ declare var Array: {
                                             "elementType": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 151,
                                                 "end": 155
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 151,
                                             "end": 158
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 125,
                                         "end": 158
@@ -440,7 +439,7 @@ declare var Array: {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 162,
                                                         "end": 163
@@ -449,14 +448,14 @@ declare var Array: {
                                                     "defaultType": null,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 162,
                                                     "end": 163
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 162,
                                             "end": 163
@@ -472,7 +471,7 @@ declare var Array: {
                                                         "text": "arrayLength",
                                                         "rawText": "arrayLength",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 165,
                                                         "end": 176
@@ -481,7 +480,7 @@ declare var Array: {
                                                     "type": {
                                                         "kind": 4202657,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 177,
                                                         "end": 184
@@ -490,7 +489,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 165,
                                                     "end": 184
@@ -498,7 +497,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 165,
                                             "end": 184
@@ -512,26 +511,26 @@ declare var Array: {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 186,
                                                     "end": 188
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 186,
                                                 "end": 189
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 186,
                                             "end": 191
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 158,
                                         "end": 191
@@ -550,7 +549,7 @@ declare var Array: {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 196
@@ -559,14 +558,14 @@ declare var Array: {
                                                     "defaultType": null,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 195,
                                                     "end": 196
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 195,
                                             "end": 196
@@ -582,7 +581,7 @@ declare var Array: {
                                                         "text": "items",
                                                         "rawText": "items",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 201,
                                                         "end": 206
@@ -597,20 +596,20 @@ declare var Array: {
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 207,
                                                                 "end": 209
                                                             },
                                                             "typeArguments": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 207,
                                                             "end": 210
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 207,
                                                         "end": 212
@@ -619,7 +618,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 4097,
                                                     "start": 198,
                                                     "end": 211
@@ -627,7 +626,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 198,
                                             "end": 211
@@ -641,26 +640,26 @@ declare var Array: {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 213,
                                                     "end": 215
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 213,
                                                 "end": 216
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 213,
                                             "end": 218
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 191,
                                         "end": 218
@@ -672,7 +671,7 @@ declare var Array: {
                                             "text": "isArray",
                                             "rawText": "isArray",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 218,
                                             "end": 228
@@ -693,7 +692,7 @@ declare var Array: {
                                                         "text": "arg",
                                                         "rawText": "arg",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 229,
                                                         "end": 232
@@ -702,7 +701,7 @@ declare var Array: {
                                                     "type": {
                                                         "kind": 4202498,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 233,
                                                         "end": 237
@@ -711,7 +710,7 @@ declare var Array: {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 229,
                                                     "end": 237
@@ -719,7 +718,7 @@ declare var Array: {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 229,
                                             "end": 237
@@ -727,13 +726,13 @@ declare var Array: {
                                         "returnType": {
                                             "kind": 4268070,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 239,
                                             "end": 247
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 218,
                                         "end": 248
@@ -745,7 +744,7 @@ declare var Array: {
                                             "text": "prototype",
                                             "rawText": "prototype",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 248,
                                             "end": 260
@@ -759,7 +758,7 @@ declare var Array: {
                                                 "text": "Array",
                                                 "rawText": "Array",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 261,
                                                 "end": 267
@@ -770,20 +769,20 @@ declare var Array: {
                                                     {
                                                         "kind": 4202498,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 268,
                                                         "end": 271
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 268,
                                                 "end": 271
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 261,
                                             "end": 273
@@ -792,7 +791,7 @@ declare var Array: {
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 248,
                                         "end": 273
@@ -800,33 +799,33 @@ declare var Array: {
                                 ],
                                 "multiline": true,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 20,
                                 "end": 275
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 18,
                             "end": 275
                         },
                         "initializer": null,
                         "flags": 11,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 275
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 275
             },
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 7,
             "end": 275
@@ -835,7 +834,6 @@ declare var Array: {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -845,17 +843,13 @@ declare var Array: {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

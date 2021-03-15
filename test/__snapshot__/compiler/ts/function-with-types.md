@@ -12,10 +12,9 @@ function message(name:string):string {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function message(name:string):string {\n    return name;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function message(name:string):string {
                 "text": "message",
                 "rawText": "message",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -42,7 +41,7 @@ function message(name:string):string {
                             "text": "name",
                             "rawText": "name",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 17,
                             "end": 21
@@ -51,7 +50,7 @@ function message(name:string):string {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 22,
                             "end": 28
@@ -61,7 +60,7 @@ function message(name:string):string {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 17,
                         "end": 28
@@ -69,7 +68,7 @@ function message(name:string):string {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 29
@@ -77,7 +76,7 @@ function message(name:string):string {
             "type": {
                 "kind": 4202702,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 30,
                 "end": 36
@@ -94,13 +93,13 @@ function message(name:string):string {
                                 "text": "name",
                                 "rawText": "name",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 54
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 38,
                             "end": 55
@@ -108,20 +107,20 @@ function message(name:string):string {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 38,
                     "end": 55
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 36,
                 "end": 57
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 57
@@ -130,7 +129,6 @@ function message(name:string):string {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -140,17 +138,13 @@ function message(name:string):string {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

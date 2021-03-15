@@ -12,10 +12,9 @@ function a<X extends {}>(b: X): X {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function a<X extends {}>(b: X): X {\n    return b;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function a<X extends {}>(b: X): X {
                 "text": "a",
                 "rawText": "a",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 10
@@ -42,7 +41,7 @@ function a<X extends {}>(b: X): X {
                             "text": "b",
                             "rawText": "b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 25,
                             "end": 26
@@ -55,14 +54,14 @@ function a<X extends {}>(b: X): X {
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 27,
                             "end": 30
@@ -72,7 +71,7 @@ function a<X extends {}>(b: X): X {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 25,
                         "end": 29
@@ -80,7 +79,7 @@ function a<X extends {}>(b: X): X {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 30
@@ -92,14 +91,14 @@ function a<X extends {}>(b: X): X {
                     "text": "X",
                     "rawText": "X",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 31,
                 "end": 35
@@ -116,13 +115,13 @@ function a<X extends {}>(b: X): X {
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 46,
                                 "end": 48
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 49
@@ -130,13 +129,13 @@ function a<X extends {}>(b: X): X {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 35,
                     "end": 49
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 33,
                 "end": 51
@@ -151,7 +150,7 @@ function a<X extends {}>(b: X): X {
                             "text": "X",
                             "rawText": "X",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12
@@ -163,13 +162,13 @@ function a<X extends {}>(b: X): X {
                                 "members": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 22,
                                 "end": 23
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 20,
                             "end": 23
@@ -177,20 +176,20 @@ function a<X extends {}>(b: X): X {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 11,
                         "end": 23
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 11,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 51
@@ -199,7 +198,6 @@ function a<X extends {}>(b: X): X {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -209,17 +207,13 @@ function a<X extends {}>(b: X): X {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

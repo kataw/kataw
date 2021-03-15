@@ -26,7 +26,7 @@ export function createElementAccessChain(
     chain,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2020,
     start,
     end

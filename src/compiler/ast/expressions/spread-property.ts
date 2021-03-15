@@ -21,7 +21,7 @@ export function createSpreadProperty(
     kind: NodeKind.SpreadProperty,
     argument,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.RestOrSpread | TransformFlags.ES2018,
     start,
     end

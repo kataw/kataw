@@ -14,10 +14,9 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 35,
                                 "end": 37
@@ -66,7 +65,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
@@ -90,7 +89,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 43,
                                                             "end": 45
@@ -104,7 +103,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 62,
                                                                 "end": 64
@@ -120,7 +119,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                             "text": "foo",
                                                                             "rawText": "foo",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1025,
                                                                             "start": 65,
                                                                             "end": 68
@@ -137,7 +136,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                         "text": "h",
                                                                                         "rawText": "h",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 72,
                                                                                         "end": 73
@@ -154,7 +153,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                         "text": "m",
                                                                                                         "rawText": "m",
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 76,
                                                                                                         "end": 77
@@ -166,7 +165,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                             "text": "t",
                                                                                                             "rawText": "t",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 78,
                                                                                                             "end": 80
@@ -182,13 +181,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                         "text": "bar",
                                                                                                                         "rawText": "bar",
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "start": 86,
                                                                                                                         "end": 90
                                                                                                                     },
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 32780,
                                                                                                                     "start": 81,
                                                                                                                     "end": 90
@@ -197,12 +196,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                             "trailingComma": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "start": 86,
                                                                                                             "end": 91
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 80,
                                                                                                         "end": 91
@@ -210,7 +209,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                     "accessModifier": null,
                                                                                                     "decorators": null,
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 76,
                                                                                                     "end": 91
@@ -219,13 +218,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                             "trailingComma": false,
                                                                                             "multiline": false,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 76,
                                                                                             "end": 91
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 74,
                                                                                         "end": 92
@@ -234,13 +233,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                 "trailingComma": false,
                                                                                 "multiline": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 72,
                                                                                 "end": 92
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 70,
                                                                             "end": 93
@@ -249,7 +248,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                         "accessModifier": null,
                                                                         "isReadOnly": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1,
                                                                         "start": 65,
                                                                         "end": 93
@@ -257,7 +256,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 65,
                                                                 "end": 94
@@ -269,13 +268,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                     "statements": [],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 95,
                                                                     "end": 95
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 94,
                                                                 "end": 96
@@ -283,26 +282,26 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                             "typeParameters": null,
                                                             "type": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 4,
                                                             "start": 47,
                                                             "end": 96
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 96
                                                     }
                                                 ],
                                                 "flags": 8,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 96
                                             },
                                             "flags": 8,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 769,
                                             "start": 40,
                                             "end": 96
@@ -310,20 +309,20 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 40,
                                     "end": 96
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 101
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 260,
                             "start": 20,
                             "end": 101
@@ -331,20 +330,20 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 101
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 103
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 103
@@ -361,7 +360,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -371,17 +369,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

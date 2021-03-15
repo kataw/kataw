@@ -38,7 +38,7 @@ export function createForStatement(
     isVariableDeclarationList,
     statement,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

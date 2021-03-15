@@ -14,10 +14,9 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { var asyncArrow = async(await) => 1; });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -98,7 +97,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 36
@@ -120,7 +119,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                 "text": "asyncArrow",
                                                                                 "rawText": "asyncArrow",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 42,
                                                                                 "end": 53
@@ -134,7 +133,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                     "text": "async",
                                                                                     "rawText": "async",
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 55,
                                                                                     "end": 61
@@ -149,13 +148,13 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                                 "kind": 131322,
                                                                                                 "text": "",
                                                                                                 "flags": 3,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 67,
                                                                                                 "end": 67
                                                                                             },
                                                                                             "flags": 1,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 32780,
                                                                                             "start": 62,
                                                                                             "end": 67
@@ -164,31 +163,31 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 67,
                                                                                     "end": 68
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 61,
                                                                                 "end": 68
                                                                             },
                                                                             "flags": 42,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 0,
                                                                             "end": 68
                                                                         }
                                                                     ],
                                                                     "flags": 1,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 42,
                                                                     "end": 68
                                                                 },
                                                                 "flags": 1,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 68
@@ -196,13 +195,13 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                         ],
                                                         "multiline": false,
                                                         "flags": 1,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 38,
                                                         "end": 68
                                                     },
                                                     "flags": 1,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 68
@@ -210,7 +209,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                 "typeParameters": null,
                                                 "type": null,
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 4,
                                                 "start": 20,
                                                 "end": 68
@@ -222,7 +221,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 18,
                                             "end": 68
@@ -232,7 +231,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 18,
                                     "end": 68
@@ -242,38 +241,38 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 71,
                                     "end": 73
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 73
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 73
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 73
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 73
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 74
@@ -281,7 +280,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
         {
             "kind": 6291526,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 77,
             "end": 78
@@ -319,7 +318,6 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -329,17 +327,13 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -48,10 +48,9 @@ abstract class Test {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface foo1 {\n  bar3/* foo */ (/* baz */) // bat\n  bar/* foo */ ? /* bar */ (/* baz */) /* bat */;\n  bar2/* foo */ (/* baz */) /* bat */\n}\n\ninterface foo2 {\n  bar/* foo */ ? /* bar */ (bar: /* baz */ string): /* bat */ string;\n}\n\ninterface foo3 {\n  /* foo */ (/* bar */): /* baz */ string;\n}\n\ninterface foo4 {\n  /* foo */ (bar: /* bar */ string): /* baz */ string;\n}\n\ninterface foo5 {\n  /* foo */ new /* bar */  (a: /* baz */ string): /* bat */ string\n}\n\ninterface foo6 {\n  /* foo */ new /* bar */ (/* baz */): /* bat */ string\n}\n\ntype foo7 = /* foo */ (/* bar */) /* baz */ => void\n\ntype foo8 = /* foo */ (a: /* bar */ string) /* baz */ => void\n\nlet foo9: new /* foo */ (/* bar */) /* baz */ => string;\n\nlet foo10: new /* foo */ (a: /* bar */ string) /* baz */ => string;\n\nabstract class Test {\n  abstract foo12 /* foo */ (a: /* bar */ string): /* baz */ void\n\n  abstract foo13 /* foo */ (/* bar */) /* baz */\n}",
     "filename": "",
     "statements": [
@@ -62,7 +61,7 @@ abstract class Test {
                 "text": "foo1",
                 "rawText": "foo1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 14
@@ -79,7 +78,7 @@ abstract class Test {
                             "text": "bar3",
                             "rawText": "bar3",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 23
@@ -94,14 +93,14 @@ abstract class Test {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 34,
                             "end": 34
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 16,
                         "end": 44
@@ -113,7 +112,7 @@ abstract class Test {
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 44,
                             "end": 57
@@ -128,14 +127,14 @@ abstract class Test {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 80,
                             "end": 80
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 44,
                         "end": 101
@@ -147,7 +146,7 @@ abstract class Test {
                             "text": "bar2",
                             "rawText": "bar2",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 101,
                             "end": 108
@@ -162,14 +161,14 @@ abstract class Test {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 119,
                             "end": 119
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 101,
                         "end": 129
@@ -177,13 +176,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 129
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 141
@@ -195,7 +194,7 @@ abstract class Test {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 152,
                 "end": 157
@@ -212,7 +211,7 @@ abstract class Test {
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 159,
                             "end": 165
@@ -233,7 +232,7 @@ abstract class Test {
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 188,
                                         "end": 191
@@ -242,7 +241,7 @@ abstract class Test {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 192,
                                         "end": 209
@@ -251,7 +250,7 @@ abstract class Test {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 188,
                                     "end": 209
@@ -259,7 +258,7 @@ abstract class Test {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 188,
                             "end": 209
@@ -267,13 +266,13 @@ abstract class Test {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 211,
                             "end": 228
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 159,
                         "end": 229
@@ -281,13 +280,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 159,
                 "end": 229
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 141,
             "end": 231
@@ -299,7 +298,7 @@ abstract class Test {
                 "text": "foo3",
                 "rawText": "foo3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 242,
                 "end": 247
@@ -319,7 +318,7 @@ abstract class Test {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 263,
                             "end": 263
@@ -327,13 +326,13 @@ abstract class Test {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 274,
                             "end": 291
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 249,
                         "end": 292
@@ -341,13 +340,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 249,
                 "end": 292
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 231,
             "end": 294
@@ -359,7 +358,7 @@ abstract class Test {
                 "text": "foo4",
                 "rawText": "foo4",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 305,
                 "end": 310
@@ -385,7 +384,7 @@ abstract class Test {
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 326,
                                         "end": 329
@@ -394,7 +393,7 @@ abstract class Test {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 330,
                                         "end": 347
@@ -403,7 +402,7 @@ abstract class Test {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 326,
                                     "end": 347
@@ -411,7 +410,7 @@ abstract class Test {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 326,
                             "end": 347
@@ -419,13 +418,13 @@ abstract class Test {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 349,
                             "end": 366
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 312,
                         "end": 367
@@ -433,13 +432,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 312,
                 "end": 367
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 294,
             "end": 369
@@ -451,7 +450,7 @@ abstract class Test {
                 "text": "foo5",
                 "rawText": "foo5",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 380,
                 "end": 385
@@ -477,7 +476,7 @@ abstract class Test {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 416,
                                         "end": 417
@@ -486,7 +485,7 @@ abstract class Test {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 418,
                                         "end": 435
@@ -495,7 +494,7 @@ abstract class Test {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 416,
                                     "end": 435
@@ -503,7 +502,7 @@ abstract class Test {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 416,
                             "end": 435
@@ -511,13 +510,13 @@ abstract class Test {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 437,
                             "end": 454
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 403,
                         "end": 454
@@ -525,13 +524,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 387,
                 "end": 454
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 369,
             "end": 456
@@ -543,7 +542,7 @@ abstract class Test {
                 "text": "foo6",
                 "rawText": "foo6",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 467,
                 "end": 472
@@ -563,7 +562,7 @@ abstract class Test {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 502,
                             "end": 502
@@ -571,13 +570,13 @@ abstract class Test {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 513,
                             "end": 530
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 490,
                         "end": 530
@@ -585,13 +584,13 @@ abstract class Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 474,
                 "end": 530
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 456,
             "end": 532
@@ -603,7 +602,7 @@ abstract class Test {
                 "text": "foo7",
                 "rawText": "foo7",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 538,
                 "end": 543
@@ -616,7 +615,7 @@ abstract class Test {
                     "parameterList": [],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 557,
                     "end": 557
@@ -624,20 +623,20 @@ abstract class Test {
                 "returnType": {
                     "kind": 4202742,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 580,
                     "end": 585
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 545,
                 "end": 585
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 532,
             "end": 585
@@ -649,7 +648,7 @@ abstract class Test {
                 "text": "foo8",
                 "rawText": "foo8",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 591,
                 "end": 596
@@ -668,7 +667,7 @@ abstract class Test {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 610,
                                 "end": 611
@@ -677,7 +676,7 @@ abstract class Test {
                             "type": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 612,
                                 "end": 629
@@ -686,7 +685,7 @@ abstract class Test {
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 610,
                             "end": 629
@@ -694,7 +693,7 @@ abstract class Test {
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 610,
                     "end": 629
@@ -702,20 +701,20 @@ abstract class Test {
                 "returnType": {
                     "kind": 4202742,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 643,
                     "end": 648
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 598,
                 "end": 648
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 585,
             "end": 648
@@ -733,7 +732,7 @@ abstract class Test {
                             "text": "foo9",
                             "rawText": "foo9",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 653,
                             "end": 658
@@ -750,7 +749,7 @@ abstract class Test {
                                 "parameterList": [],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 675,
                                 "end": 675
@@ -758,33 +757,33 @@ abstract class Test {
                             "returnType": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 698,
                                 "end": 705
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 659,
                             "end": 705
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 653,
                         "end": 705
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 653,
                 "end": 705
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 648,
             "end": 706
@@ -802,7 +801,7 @@ abstract class Test {
                             "text": "foo10",
                             "rawText": "foo10",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 711,
                             "end": 717
@@ -825,7 +824,7 @@ abstract class Test {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 734,
                                             "end": 735
@@ -834,7 +833,7 @@ abstract class Test {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 736,
                                             "end": 753
@@ -843,7 +842,7 @@ abstract class Test {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 734,
                                         "end": 753
@@ -851,7 +850,7 @@ abstract class Test {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 734,
                                 "end": 753
@@ -859,33 +858,33 @@ abstract class Test {
                             "returnType": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 767,
                                 "end": 774
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 718,
                             "end": 774
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 711,
                         "end": 774
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 711,
                 "end": 774
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 706,
             "end": 775
@@ -897,7 +896,7 @@ abstract class Test {
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 791,
                 "end": 796
@@ -921,7 +920,7 @@ abstract class Test {
                                 "text": "foo12",
                                 "rawText": "foo12",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 809,
                                 "end": 815
@@ -937,7 +936,7 @@ abstract class Test {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 827,
                                             "end": 828
@@ -946,7 +945,7 @@ abstract class Test {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 829,
                                             "end": 846
@@ -956,7 +955,7 @@ abstract class Test {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 827,
                                         "end": 846
@@ -964,7 +963,7 @@ abstract class Test {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 827,
                                 "end": 847
@@ -976,7 +975,7 @@ abstract class Test {
                             "type": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 848,
                                 "end": 863
@@ -984,13 +983,13 @@ abstract class Test {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 815,
                             "end": 863
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 798,
                         "end": 863
@@ -1008,7 +1007,7 @@ abstract class Test {
                                 "text": "foo13",
                                 "rawText": "foo13",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 875,
                                 "end": 881
@@ -1018,7 +1017,7 @@ abstract class Test {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 893,
                                 "end": 903
@@ -1031,20 +1030,20 @@ abstract class Test {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 881,
                             "end": 903
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 863,
                         "end": 903
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 798,
                 "end": 915
@@ -1052,7 +1051,7 @@ abstract class Test {
             "decorators": null,
             "isAbstract": true,
             "flags": 536870912,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 785,
             "end": 915
@@ -1061,7 +1060,6 @@ abstract class Test {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1071,17 +1069,13 @@ abstract class Test {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

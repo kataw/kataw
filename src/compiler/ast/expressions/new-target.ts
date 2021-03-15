@@ -13,7 +13,7 @@ export function createNewTarget(name: IdentifierName, flags: NodeFlags, start: n
     kind: NodeKind.NewTarget,
     name,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

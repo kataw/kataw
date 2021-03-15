@@ -27,7 +27,7 @@ export function createBindingElementList(
     elements,
     trailingComma,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

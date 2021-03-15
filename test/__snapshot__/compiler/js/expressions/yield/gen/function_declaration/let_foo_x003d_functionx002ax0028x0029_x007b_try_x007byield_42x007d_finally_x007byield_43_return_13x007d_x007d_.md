@@ -14,10 +14,9 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -62,7 +61,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 24,
                                             "end": 28
@@ -77,7 +76,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 42
@@ -104,19 +103,19 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                     "text": 42,
                                                                                     "rawText": "42",
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 55,
                                                                                     "end": 58
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 16393,
                                                                                 "start": 50,
                                                                                 "end": 58
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 50,
                                                                             "end": 58
@@ -124,13 +123,13 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 50,
                                                                     "end": 58
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 48,
                                                                 "end": 59
@@ -151,19 +150,19 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                     "text": 43,
                                                                                     "rawText": "43",
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 74,
                                                                                     "end": 77
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 16393,
                                                                                 "start": 69,
                                                                                 "end": 77
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 69,
                                                                             "end": 78
@@ -175,13 +174,13 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "text": 13,
                                                                                 "rawText": "13",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 85,
                                                                                 "end": 88
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 78,
                                                                             "end": 88
@@ -189,19 +188,19 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 69,
                                                                     "end": 88
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 67,
                                                                 "end": 89
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 89
@@ -209,13 +208,13 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 89
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 91
@@ -223,26 +222,26 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                             "typeParameters": null,
                                             "type": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 128,
                                             "start": 30,
                                             "end": 91
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 24,
                                         "end": 91
                                     }
                                 ],
                                 "flags": 8,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 91
                             },
                             "flags": 8,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 20,
                             "end": 92
@@ -250,20 +249,20 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 92
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 94
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 94
@@ -280,7 +279,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -290,17 +288,13 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

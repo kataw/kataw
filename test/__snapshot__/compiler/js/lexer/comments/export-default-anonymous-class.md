@@ -25,10 +25,9 @@ export default class {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "/**\n * this is anonymous class.\n */\nexport default class {\n    /**\n     * this is method1.\n     */\n    method1(){\n    }\n}",
     "filename": "",
     "statements": [
@@ -56,7 +55,7 @@ export default class {
                                     "text": "method1",
                                     "rawText": "method1",
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 58,
                                     "end": 110
@@ -66,7 +65,7 @@ export default class {
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 111,
                                     "end": 112
@@ -80,13 +79,13 @@ export default class {
                                         "statements": [],
                                         "multiline": true,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 113,
                                         "end": 113
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 112,
                                     "end": 119
@@ -96,20 +95,20 @@ export default class {
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 110,
                                 "end": 119
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 58,
                             "end": 119
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 58,
                     "end": 121
@@ -117,13 +116,13 @@ export default class {
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 50,
                 "end": 121
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 121
@@ -140,7 +139,6 @@ export default class {
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -150,17 +148,13 @@ export default class {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

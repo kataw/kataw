@@ -16,10 +16,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "[foo, [[[[[[[[[[[[[x,y,z]]]]]]]]]]]]], bar = B] = arr;",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
@@ -112,7 +111,7 @@
                                                                                                                                                                                             "text": "x",
                                                                                                                                                                                             "rawText": "x",
                                                                                                                                                                                             "flags": 0,
-                                                                                                                                                                                            "intersects": false,
+                                                                                                                                                                                            "symbol": null,
                                                                                                                                                                                             "transformFlags": 0,
                                                                                                                                                                                             "start": 19,
                                                                                                                                                                                             "end": 20
@@ -122,7 +121,7 @@
                                                                                                                                                                                             "text": "y",
                                                                                                                                                                                             "rawText": "y",
                                                                                                                                                                                             "flags": 0,
-                                                                                                                                                                                            "intersects": false,
+                                                                                                                                                                                            "symbol": null,
                                                                                                                                                                                             "transformFlags": 0,
                                                                                                                                                                                             "start": 21,
                                                                                                                                                                                             "end": 22
@@ -132,7 +131,7 @@
                                                                                                                                                                                             "text": "z",
                                                                                                                                                                                             "rawText": "z",
                                                                                                                                                                                             "flags": 0,
-                                                                                                                                                                                            "intersects": false,
+                                                                                                                                                                                            "symbol": null,
                                                                                                                                                                                             "transformFlags": 0,
                                                                                                                                                                                             "start": 23,
                                                                                                                                                                                             "end": 24
@@ -141,13 +140,13 @@
                                                                                                                                                                                     "trailingComma": false,
                                                                                                                                                                                     "multiline": false,
                                                                                                                                                                                     "flags": 0,
-                                                                                                                                                                                    "intersects": false,
+                                                                                                                                                                                    "symbol": null,
                                                                                                                                                                                     "transformFlags": 0,
                                                                                                                                                                                     "start": 19,
                                                                                                                                                                                     "end": 24
                                                                                                                                                                                 },
                                                                                                                                                                                 "flags": 0,
-                                                                                                                                                                                "intersects": false,
+                                                                                                                                                                                "symbol": null,
                                                                                                                                                                                 "transformFlags": 0,
                                                                                                                                                                                 "start": 18,
                                                                                                                                                                                 "end": 25
@@ -156,13 +155,13 @@
                                                                                                                                                                         "trailingComma": false,
                                                                                                                                                                         "multiline": false,
                                                                                                                                                                         "flags": 0,
-                                                                                                                                                                        "intersects": false,
+                                                                                                                                                                        "symbol": null,
                                                                                                                                                                         "transformFlags": 0,
                                                                                                                                                                         "start": 18,
                                                                                                                                                                         "end": 25
                                                                                                                                                                     },
                                                                                                                                                                     "flags": 0,
-                                                                                                                                                                    "intersects": false,
+                                                                                                                                                                    "symbol": null,
                                                                                                                                                                     "transformFlags": 0,
                                                                                                                                                                     "start": 17,
                                                                                                                                                                     "end": 26
@@ -171,13 +170,13 @@
                                                                                                                                                             "trailingComma": false,
                                                                                                                                                             "multiline": false,
                                                                                                                                                             "flags": 0,
-                                                                                                                                                            "intersects": false,
+                                                                                                                                                            "symbol": null,
                                                                                                                                                             "transformFlags": 0,
                                                                                                                                                             "start": 17,
                                                                                                                                                             "end": 26
                                                                                                                                                         },
                                                                                                                                                         "flags": 0,
-                                                                                                                                                        "intersects": false,
+                                                                                                                                                        "symbol": null,
                                                                                                                                                         "transformFlags": 0,
                                                                                                                                                         "start": 16,
                                                                                                                                                         "end": 27
@@ -186,13 +185,13 @@
                                                                                                                                                 "trailingComma": false,
                                                                                                                                                 "multiline": false,
                                                                                                                                                 "flags": 0,
-                                                                                                                                                "intersects": false,
+                                                                                                                                                "symbol": null,
                                                                                                                                                 "transformFlags": 0,
                                                                                                                                                 "start": 16,
                                                                                                                                                 "end": 27
                                                                                                                                             },
                                                                                                                                             "flags": 0,
-                                                                                                                                            "intersects": false,
+                                                                                                                                            "symbol": null,
                                                                                                                                             "transformFlags": 0,
                                                                                                                                             "start": 15,
                                                                                                                                             "end": 28
@@ -201,13 +200,13 @@
                                                                                                                                     "trailingComma": false,
                                                                                                                                     "multiline": false,
                                                                                                                                     "flags": 0,
-                                                                                                                                    "intersects": false,
+                                                                                                                                    "symbol": null,
                                                                                                                                     "transformFlags": 0,
                                                                                                                                     "start": 15,
                                                                                                                                     "end": 28
                                                                                                                                 },
                                                                                                                                 "flags": 0,
-                                                                                                                                "intersects": false,
+                                                                                                                                "symbol": null,
                                                                                                                                 "transformFlags": 0,
                                                                                                                                 "start": 14,
                                                                                                                                 "end": 29
@@ -216,13 +215,13 @@
                                                                                                                         "trailingComma": false,
                                                                                                                         "multiline": false,
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "start": 14,
                                                                                                                         "end": 29
                                                                                                                     },
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 0,
                                                                                                                     "start": 13,
                                                                                                                     "end": 30
@@ -231,13 +230,13 @@
                                                                                                             "trailingComma": false,
                                                                                                             "multiline": false,
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 13,
                                                                                                             "end": 30
                                                                                                         },
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 12,
                                                                                                         "end": 31
@@ -246,13 +245,13 @@
                                                                                                 "trailingComma": false,
                                                                                                 "multiline": false,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 12,
                                                                                                 "end": 31
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 11,
                                                                                             "end": 32
@@ -261,13 +260,13 @@
                                                                                     "trailingComma": false,
                                                                                     "multiline": false,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 11,
                                                                                     "end": 32
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 10,
                                                                                 "end": 33
@@ -276,13 +275,13 @@
                                                                         "trailingComma": false,
                                                                         "multiline": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 10,
                                                                         "end": 33
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 9,
                                                                     "end": 34
@@ -291,13 +290,13 @@
                                                             "trailingComma": false,
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 9,
                                                             "end": 34
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 35
@@ -306,13 +305,13 @@
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 35
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 7,
                                             "end": 36
@@ -321,13 +320,13 @@
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 7,
                                     "end": 36
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 37
@@ -339,7 +338,7 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 38,
                                     "end": 42
@@ -350,13 +349,13 @@
                                     "text": "B",
                                     "rawText": "B",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 46
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,
                                 "end": 46
@@ -365,13 +364,13 @@
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1,
                         "end": 46
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 47
@@ -382,19 +381,19 @@
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 49,
                     "end": 53
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 53
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 54
@@ -403,7 +402,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -413,17 +411,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

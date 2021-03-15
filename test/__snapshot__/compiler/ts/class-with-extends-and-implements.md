@@ -10,10 +10,9 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                 "text": "ClassWithParentAndInterface",
                 "rawText": "ClassWithParentAndInterface",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 33
@@ -37,14 +36,14 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                     "text": "MyOtherClass",
                     "rawText": "MyOtherClass",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 41,
                     "end": 54
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 41,
                 "end": 54
@@ -61,27 +60,27 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                                 "text": "MyInterface",
                                 "rawText": "MyInterface",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 65,
                                 "end": 77
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 65,
                             "end": 79
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 65,
                         "end": 77
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 65,
                 "end": 77
@@ -90,7 +89,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 79,
                 "end": 80
@@ -98,7 +97,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 80
@@ -107,7 +106,6 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -117,17 +115,13 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

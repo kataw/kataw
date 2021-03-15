@@ -24,7 +24,7 @@ export function createCatch(
     catchParameter,
     block,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: catchParameter ? TransformFlags.None : TransformFlags.ES2019,
     start,
     end

@@ -12,10 +12,9 @@ class DD extends D {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class DD extends D {\n    static readonly [s: string]: 421\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ class DD extends D {
                 "text": "DD",
                 "rawText": "DD",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 8
@@ -39,14 +38,14 @@ class DD extends D {
                     "text": "D",
                     "rawText": "D",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 18
@@ -69,7 +68,7 @@ class DD extends D {
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 42,
                                         "end": 43
@@ -78,7 +77,7 @@ class DD extends D {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 44,
                                         "end": 51
@@ -87,7 +86,7 @@ class DD extends D {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 42,
                                     "end": 51
@@ -95,7 +94,7 @@ class DD extends D {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 42,
                             "end": 51
@@ -105,7 +104,7 @@ class DD extends D {
                             "text": 421,
                             "rawText": "421",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 53,
                             "end": 57
@@ -113,14 +112,14 @@ class DD extends D {
                         "isStatic": true,
                         "isReadOnly": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 42,
                         "end": 57
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 20,
                 "end": 59
@@ -128,7 +127,7 @@ class DD extends D {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 59
@@ -137,7 +136,6 @@ class DD extends D {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -147,17 +145,13 @@ class DD extends D {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

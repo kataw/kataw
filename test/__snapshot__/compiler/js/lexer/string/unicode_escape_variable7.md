@@ -26,10 +26,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\"\\u{1}\"\n;\n\"\\u{12}\"\n;\n\"\\u{123}\"\n;\n\"\\u{1234}\"\n;\n\"\\u{12345}\"\n;\n\"\\u{103456}\"",
     "filename": "",
     "statements": [
@@ -40,13 +39,13 @@
                 "text": "}",
                 "rawText": "}",
                 "flags": 4194304,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 7
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 9
@@ -58,13 +57,13 @@
                 "text": "\u0012",
                 "rawText": "\u0012",
                 "flags": 4227072,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 9,
             "end": 20
@@ -76,13 +75,13 @@
                 "text": "@{x123}@",
                 "rawText": "@{x123}@",
                 "flags": 4227072,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 20,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 20,
             "end": 32
@@ -94,13 +93,13 @@
                 "text": "@{x1234}@",
                 "rawText": "@{x1234}@",
                 "flags": 4227072,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 32,
                 "end": 43
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 32,
             "end": 45
@@ -112,13 +111,13 @@
                 "text": "H@{x345}@",
                 "rawText": "H@{x345}@",
                 "flags": 4227072,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 45,
                 "end": 57
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 45,
             "end": 59
@@ -130,13 +129,13 @@
                 "text": "@{x40d}@V",
                 "rawText": "@{x40d}@V",
                 "flags": 4227072,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 59,
                 "end": 72
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 59,
             "end": 72
@@ -145,7 +144,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -155,17 +153,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

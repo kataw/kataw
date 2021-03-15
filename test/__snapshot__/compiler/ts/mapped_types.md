@@ -55,10 +55,9 @@ type M = { [m in M] /* commentG */: string }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type A = {\n  // commentA\n  [a in A]: string;\n}\n\ntype B = {\n  /* commentB */ [b in B]: string\n}\n\ntype C = {\n  [/* commentC */ c in C]: string\n}\n\ntype D = {\n  [d /* commentD */ in D]: string\n}\n\ntype E = {\n  [e in /* commentE */ E]: string\n}\n\ntype F = {\n  [f in F /* commentF */]: string\n}\n\ntype G = {\n  [g in G] /* commentG */: string\n}\n\ntype H = { /* commentH */ [h in H]: string }\n\ntype I = { [/* commentI */ i in I]: string }\n\ntype J = { [j /* commentJ */ in J]: string }\n\ntype K = { [k in /* commentK */ K]: string }\n\ntype L = { [l in L /* commentL */]: string }\n\ntype M = { [m in M] /* commentG */: string }",
     "filename": "",
     "statements": [
@@ -69,7 +68,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 6
@@ -83,7 +82,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "a",
                         "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 28,
                         "end": 29
@@ -95,14 +94,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 32,
                         "end": 35
@@ -110,7 +109,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 28,
                     "end": 34
@@ -123,20 +122,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 36,
                     "end": 43
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 8,
                 "end": 46
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 46
@@ -148,7 +147,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 52,
                 "end": 54
@@ -162,7 +161,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 77,
                         "end": 78
@@ -174,14 +173,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "B",
                             "rawText": "B",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 81,
                             "end": 83
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 81,
                         "end": 84
@@ -189,7 +188,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 77,
                     "end": 83
@@ -202,20 +201,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 85,
                     "end": 92
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 56,
                 "end": 94
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 46,
             "end": 94
@@ -227,7 +226,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 100,
                 "end": 102
@@ -241,7 +240,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "c",
                         "rawText": "c",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 110,
                         "end": 126
@@ -253,14 +252,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "C",
                             "rawText": "C",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 129,
                             "end": 131
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 129,
                         "end": 132
@@ -268,7 +267,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 110,
                     "end": 131
@@ -281,20 +280,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 133,
                     "end": 140
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 104,
                 "end": 142
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 94,
             "end": 142
@@ -306,7 +305,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "D",
                 "rawText": "D",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 148,
                 "end": 150
@@ -320,7 +319,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "d",
                         "rawText": "d",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 158,
                         "end": 159
@@ -332,14 +331,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "D",
                             "rawText": "D",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 177,
                             "end": 179
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 177,
                         "end": 180
@@ -347,7 +346,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 158,
                     "end": 179
@@ -360,20 +359,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 181,
                     "end": 188
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 152,
                 "end": 190
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 142,
             "end": 190
@@ -385,7 +384,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 196,
                 "end": 198
@@ -399,7 +398,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "e",
                         "rawText": "e",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 206,
                         "end": 207
@@ -411,14 +410,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "E",
                             "rawText": "E",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 210,
                             "end": 227
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 210,
                         "end": 228
@@ -426,7 +425,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 206,
                     "end": 227
@@ -439,20 +438,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 229,
                     "end": 236
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 200,
                 "end": 238
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 190,
             "end": 238
@@ -464,7 +463,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "F",
                 "rawText": "F",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 244,
                 "end": 246
@@ -478,7 +477,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "f",
                         "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 254,
                         "end": 255
@@ -490,14 +489,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "F",
                             "rawText": "F",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 258,
                             "end": 260
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 258,
                         "end": 276
@@ -505,7 +504,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 254,
                     "end": 260
@@ -518,20 +517,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 277,
                     "end": 284
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 248,
                 "end": 286
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 238,
             "end": 286
@@ -543,7 +542,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "G",
                 "rawText": "G",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 292,
                 "end": 294
@@ -557,7 +556,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "g",
                         "rawText": "g",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 302,
                         "end": 303
@@ -569,14 +568,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "G",
                             "rawText": "G",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 306,
                             "end": 308
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 306,
                         "end": 309
@@ -584,7 +583,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 302,
                     "end": 308
@@ -597,20 +596,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 325,
                     "end": 332
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 296,
                 "end": 334
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 286,
             "end": 334
@@ -622,7 +621,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "H",
                 "rawText": "H",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 340,
                 "end": 342
@@ -636,7 +635,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "h",
                         "rawText": "h",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 363,
                         "end": 364
@@ -648,14 +647,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "H",
                             "rawText": "H",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 367,
                             "end": 369
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 367,
                         "end": 370
@@ -663,7 +662,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 363,
                     "end": 369
@@ -676,20 +675,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 371,
                     "end": 378
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 344,
                 "end": 380
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 334,
             "end": 380
@@ -701,7 +700,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 386,
                 "end": 388
@@ -715,7 +714,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "i",
                         "rawText": "i",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 394,
                         "end": 410
@@ -727,14 +726,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "I",
                             "rawText": "I",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 413,
                             "end": 415
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 413,
                         "end": 416
@@ -742,7 +741,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 394,
                     "end": 415
@@ -755,20 +754,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 417,
                     "end": 424
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 390,
                 "end": 426
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 380,
             "end": 426
@@ -780,7 +779,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "J",
                 "rawText": "J",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 432,
                 "end": 434
@@ -794,7 +793,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "j",
                         "rawText": "j",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 440,
                         "end": 441
@@ -806,14 +805,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "J",
                             "rawText": "J",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 459,
                             "end": 461
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 459,
                         "end": 462
@@ -821,7 +820,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 440,
                     "end": 461
@@ -834,20 +833,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 463,
                     "end": 470
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 436,
                 "end": 472
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 426,
             "end": 472
@@ -859,7 +858,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "K",
                 "rawText": "K",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 478,
                 "end": 480
@@ -873,7 +872,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "k",
                         "rawText": "k",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 486,
                         "end": 487
@@ -885,14 +884,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "K",
                             "rawText": "K",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 490,
                             "end": 507
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 490,
                         "end": 508
@@ -900,7 +899,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 486,
                     "end": 507
@@ -913,20 +912,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 509,
                     "end": 516
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 482,
                 "end": 518
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 472,
             "end": 518
@@ -938,7 +937,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "L",
                 "rawText": "L",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 524,
                 "end": 526
@@ -952,7 +951,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "l",
                         "rawText": "l",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 532,
                         "end": 533
@@ -964,14 +963,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "L",
                             "rawText": "L",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 536,
                             "end": 538
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 536,
                         "end": 554
@@ -979,7 +978,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 532,
                     "end": 538
@@ -992,20 +991,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 555,
                     "end": 562
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 528,
                 "end": 564
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 518,
             "end": 564
@@ -1017,7 +1016,7 @@ type M = { [m in M] /* commentG */: string }
                 "text": "M",
                 "rawText": "M",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 570,
                 "end": 572
@@ -1031,7 +1030,7 @@ type M = { [m in M] /* commentG */: string }
                         "text": "m",
                         "rawText": "m",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 578,
                         "end": 579
@@ -1043,14 +1042,14 @@ type M = { [m in M] /* commentG */: string }
                             "text": "M",
                             "rawText": "M",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 582,
                             "end": 584
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 582,
                         "end": 585
@@ -1058,7 +1057,7 @@ type M = { [m in M] /* commentG */: string }
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 578,
                     "end": 584
@@ -1071,20 +1070,20 @@ type M = { [m in M] /* commentG */: string }
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 601,
                     "end": 608
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 574,
                 "end": 610
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 564,
             "end": 610
@@ -1093,7 +1092,6 @@ type M = { [m in M] /* commentG */: string }
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1103,17 +1101,13 @@ type M = { [m in M] /* commentG */: string }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

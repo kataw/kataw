@@ -11,10 +11,9 @@ class Foo extends Bar implements {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Foo extends Bar implements {\n}",
     "filename": "",
     "statements": [
@@ -25,7 +24,7 @@ class Foo extends Bar implements {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 9
@@ -38,14 +37,14 @@ class Foo extends Bar implements {
                     "text": "Bar",
                     "rawText": "Bar",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 21
@@ -54,7 +53,7 @@ class Foo extends Bar implements {
                 "kind": 107,
                 "clauses": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 32,
                 "end": 32
@@ -63,7 +62,7 @@ class Foo extends Bar implements {
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 34,
                 "end": 36
@@ -71,7 +70,7 @@ class Foo extends Bar implements {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 36
@@ -80,7 +79,6 @@ class Foo extends Bar implements {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -90,17 +88,13 @@ class Foo extends Bar implements {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

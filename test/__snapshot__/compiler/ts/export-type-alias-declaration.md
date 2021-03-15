@@ -16,10 +16,9 @@ export type TestAlias = string | number;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export type TestAlias = string | number;",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ export type TestAlias = string | number;
                 "text": "TestAlias",
                 "rawText": "TestAlias",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 21
@@ -41,7 +40,7 @@ export type TestAlias = string | number;
                     {
                         "kind": 4202702,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 23,
                         "end": 30
@@ -49,21 +48,21 @@ export type TestAlias = string | number;
                     {
                         "kind": 4202657,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 32,
                         "end": 39
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 30,
                 "end": 39
             },
             "typeParameters": null,
             "flags": 64,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 6,
             "end": 40
@@ -72,7 +71,6 @@ export type TestAlias = string | number;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -82,17 +80,13 @@ export type TestAlias = string | number;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

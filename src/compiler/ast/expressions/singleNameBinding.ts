@@ -25,7 +25,7 @@ export function createSingleNameBinding(
     left,
     right,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.BindingPattern,
     start,
     end

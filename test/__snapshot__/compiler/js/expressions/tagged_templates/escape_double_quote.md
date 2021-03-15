@@ -10,10 +10,9 @@ tag`some \" quote`;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "tag`some \\\" quote`;",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ tag`some \" quote`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 3
@@ -38,20 +37,20 @@ tag`some \" quote`;
                     "text": "some \" quote",
                     "literal": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 3,
                     "end": 18
                 },
                 "optional": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 3,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 19
@@ -60,7 +59,6 @@ tag`some \" quote`;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -70,17 +68,13 @@ tag`some \" quote`;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

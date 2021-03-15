@@ -14,10 +14,9 @@ if if if =! class function try while with foo!
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if if if =! class function try while with foo!",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ if if if =! class function try while with foo!
                 "kind": 131322,
                 "text": "",
                 "flags": 3,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 2
@@ -38,7 +37,7 @@ if if if =! class function try while with foo!
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 5
@@ -51,7 +50,7 @@ if if if =! class function try while with foo!
                             "kind": 131322,
                             "text": "",
                             "flags": 3,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 8
@@ -70,26 +69,26 @@ if if if =! class function try while with foo!
                                     "kind": 50,
                                     "elements": [],
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 11,
                                     "end": 11
                                 },
                                 "decorators": null,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 11,
                                 "end": 17
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 17
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 17
@@ -101,7 +100,7 @@ if if if =! class function try while with foo!
                             "text": "",
                             "rawText": "",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 26,
                             "end": 26
@@ -111,7 +110,7 @@ if if if =! class function try while with foo!
                             "formalParameterList": [],
                             "trailingComma": false,
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 26
@@ -128,7 +127,7 @@ if if if =! class function try while with foo!
                                             "kind": 131322,
                                             "text": "",
                                             "flags": 3,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 36,
                                             "end": 36
@@ -142,13 +141,13 @@ if if if =! class function try while with foo!
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 1,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 45
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 45,
                                                 "end": 46
@@ -159,25 +158,25 @@ if if if =! class function try while with foo!
                                                     "kind": 131322,
                                                     "text": "",
                                                     "flags": 3,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 46
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 46
                                             },
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 36,
                                             "end": 46
                                         },
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 30,
                                         "end": 46
@@ -185,20 +184,20 @@ if if if =! class function try while with foo!
                                 ],
                                 "multiline": false,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 46
                             },
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 46
                         },
                         "typeParameters": null,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 256,
                         "start": 17,
                         "end": 46
@@ -206,7 +205,7 @@ if if if =! class function try while with foo!
                     "alternate": null,
                     "isWebCompat": true,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 46
@@ -214,7 +213,7 @@ if if if =! class function try while with foo!
                 "alternate": null,
                 "isWebCompat": true,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 2,
                 "end": 46
@@ -222,7 +221,7 @@ if if if =! class function try while with foo!
             "alternate": null,
             "isWebCompat": true,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 46
@@ -288,7 +287,6 @@ if if if =! class function try while with foo!
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -298,17 +296,13 @@ if if if =! class function try while with foo!
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

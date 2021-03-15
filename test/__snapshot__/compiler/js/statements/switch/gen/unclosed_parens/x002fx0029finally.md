@@ -14,10 +14,9 @@ switch( /)finally case
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch( /)finally case",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ switch( /)finally case
                 "kind": 4260544,
                 "text": "/)finally case",
                 "flags": 1048576,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 22
@@ -36,13 +35,13 @@ switch( /)finally case
                 "kind": 2093,
                 "clauses": [],
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -66,7 +65,6 @@ switch( /)finally case
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -76,17 +74,13 @@ switch( /)finally case
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

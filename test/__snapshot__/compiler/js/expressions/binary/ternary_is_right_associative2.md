@@ -10,10 +10,9 @@ a ? b : c ** x ? d : e
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "a ? b : c ** x ? d : e",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ a ? b : c ** x ? d : e
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -36,7 +35,7 @@ a ? b : c ** x ? d : e
                     "text": "b",
                     "rawText": "b",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 5
@@ -50,7 +49,7 @@ a ? b : c ** x ? d : e
                             "text": "c",
                             "rawText": "c",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 9
@@ -61,13 +60,13 @@ a ? b : c ** x ? d : e
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2,
                         "start": 7,
                         "end": 14
@@ -77,7 +76,7 @@ a ? b : c ** x ? d : e
                         "text": "d",
                         "rawText": "d",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 18
@@ -87,25 +86,25 @@ a ? b : c ** x ? d : e
                         "text": "e",
                         "rawText": "e",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 22
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 22
@@ -114,7 +113,6 @@ a ? b : c ** x ? d : e
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -124,17 +122,13 @@ a ? b : c ** x ? d : e
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

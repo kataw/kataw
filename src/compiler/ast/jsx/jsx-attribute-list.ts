@@ -21,7 +21,7 @@ export function createJsxAttributesList(
     kind: NodeKind.JsxAttributesList,
     attributesList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

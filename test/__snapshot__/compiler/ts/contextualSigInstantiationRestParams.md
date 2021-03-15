@@ -13,10 +13,9 @@ var sig: typeof contextual = toInstantiate;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function toInstantiate<A, B>(a?: A, b?: B): B;\ndeclare function contextual(...s: string[]): string\n\nvar sig: typeof contextual = toInstantiate;",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ var sig: typeof contextual = toInstantiate;
                 "text": "toInstantiate",
                 "rawText": "toInstantiate",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 16,
                 "end": 30
@@ -43,7 +42,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 37,
                             "end": 38
@@ -56,14 +55,14 @@ var sig: typeof contextual = toInstantiate;
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 40,
                                 "end": 42
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 40,
                             "end": 43
@@ -73,7 +72,7 @@ var sig: typeof contextual = toInstantiate;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 37,
                         "end": 42
@@ -86,7 +85,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "b",
                             "rawText": "b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 43,
                             "end": 45
@@ -99,14 +98,14 @@ var sig: typeof contextual = toInstantiate;
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 47,
                                 "end": 49
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 47,
                             "end": 50
@@ -116,7 +115,7 @@ var sig: typeof contextual = toInstantiate;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 43,
                         "end": 49
@@ -124,7 +123,7 @@ var sig: typeof contextual = toInstantiate;
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 37,
                 "end": 50
@@ -136,14 +135,14 @@ var sig: typeof contextual = toInstantiate;
                     "text": "B",
                     "rawText": "B",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 51,
                     "end": 53
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 51,
                 "end": 54
@@ -159,7 +158,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 31,
                             "end": 32
@@ -168,7 +167,7 @@ var sig: typeof contextual = toInstantiate;
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 31,
                         "end": 32
@@ -180,7 +179,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "B",
                             "rawText": "B",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 33,
                             "end": 35
@@ -189,20 +188,20 @@ var sig: typeof contextual = toInstantiate;
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 33,
                         "end": 35
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 31,
                 "end": 35
             },
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 54
@@ -214,7 +213,7 @@ var sig: typeof contextual = toInstantiate;
                 "text": "contextual",
                 "rawText": "contextual",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 71,
                 "end": 82
@@ -230,7 +229,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "s",
                             "rawText": "s",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 86,
                             "end": 87
@@ -241,13 +240,13 @@ var sig: typeof contextual = toInstantiate;
                             "elementType": {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 88,
                                 "end": 95
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 88,
                             "end": 98
@@ -257,7 +256,7 @@ var sig: typeof contextual = toInstantiate;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 83,
                         "end": 97
@@ -265,7 +264,7 @@ var sig: typeof contextual = toInstantiate;
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 83,
                 "end": 98
@@ -273,7 +272,7 @@ var sig: typeof contextual = toInstantiate;
             "type": {
                 "kind": 4202702,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 99,
                 "end": 106
@@ -281,7 +280,7 @@ var sig: typeof contextual = toInstantiate;
             "contents": null,
             "typeParameters": null,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 62,
             "end": 106
@@ -298,7 +297,7 @@ var sig: typeof contextual = toInstantiate;
                             "text": "sig",
                             "rawText": "sig",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 111,
                             "end": 115
@@ -311,13 +310,13 @@ var sig: typeof contextual = toInstantiate;
                                 "text": "contextual",
                                 "rawText": "contextual",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 123,
                                 "end": 134
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 116,
                             "end": 134
@@ -327,26 +326,26 @@ var sig: typeof contextual = toInstantiate;
                             "text": "toInstantiate",
                             "rawText": "toInstantiate",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 136,
                             "end": 150
                         },
                         "flags": 111,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 150
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 111,
                 "end": 150
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 106,
             "end": 151
@@ -355,7 +354,6 @@ var sig: typeof contextual = toInstantiate;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -365,17 +363,13 @@ var sig: typeof contextual = toInstantiate;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

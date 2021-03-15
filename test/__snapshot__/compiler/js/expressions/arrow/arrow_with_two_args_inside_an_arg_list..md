@@ -10,10 +10,9 @@ f(((a, b) => a + b));
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "f(((a, b) => a + b));",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ f(((a, b) => a + b));
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -51,7 +50,7 @@ f(((a, b) => a + b));
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 8
@@ -63,7 +62,7 @@ f(((a, b) => a + b));
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 3,
                                             "end": 9
@@ -76,7 +75,7 @@ f(((a, b) => a + b));
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 4,
                                                 "end": 5
@@ -88,7 +87,7 @@ f(((a, b) => a + b));
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 3,
                                             "end": 9
@@ -98,7 +97,7 @@ f(((a, b) => a + b));
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 4,
                                     "end": 8
@@ -110,7 +109,7 @@ f(((a, b) => a + b));
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
@@ -121,25 +120,25 @@ f(((a, b) => a + b));
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 12,
                                     "end": 18
                                 },
                                 "flags": 1073741824,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 3,
                                 "end": 18
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 2,
                             "end": 19
@@ -148,18 +147,18 @@ f(((a, b) => a + b));
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 3,
                     "end": 20
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -168,7 +167,6 @@ f(((a, b) => a + b));
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -178,17 +176,13 @@ f(((a, b) => a + b));
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

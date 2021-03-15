@@ -57,7 +57,7 @@ export function createFunctionExpression(
     typeParameters,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags,
     start,
     end

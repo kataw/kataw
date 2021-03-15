@@ -11,10 +11,9 @@ tag`\\\ `;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "tag`\\ \\\\`;\ntag`\\\\\\ `;",
     "filename": "",
     "statements": [
@@ -27,7 +26,7 @@ tag`\\\ `;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 3
@@ -39,20 +38,20 @@ tag`\\\ `;
                     "text": " \\",
                     "literal": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 3,
                     "end": 9
                 },
                 "optional": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -66,7 +65,7 @@ tag`\\\ `;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 14
@@ -78,20 +77,20 @@ tag`\\\ `;
                     "text": "\\ ",
                     "literal": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 14,
                     "end": 20
                 },
                 "optional": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 14,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 21
@@ -100,7 +99,6 @@ tag`\\\ `;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -110,17 +108,13 @@ tag`\\\ `;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

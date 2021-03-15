@@ -9,7 +9,7 @@ export function createImportMeta(flags: NodeFlags, start: number, end: number): 
   return {
     kind: NodeKind.ImportMeta,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2020,
     start,
     end

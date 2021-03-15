@@ -16,10 +16,9 @@ let x = () => import {x} from "y"
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let x = () => import {x} from \"y\"",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ let x = () => import {x} from "y"
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -53,7 +52,7 @@ let x = () => import {x} from "y"
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
@@ -71,7 +70,7 @@ let x = () => import {x} from "y"
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
@@ -80,31 +79,31 @@ let x = () => import {x} from "y"
                                         "trailingComma": false,
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 22,
                                         "end": 23
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 262152,
                                 "start": 13,
                                 "end": 24
                             },
                             "flags": 1073741825,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 24
                         },
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 24
@@ -116,7 +115,7 @@ let x = () => import {x} from "y"
                             "text": "from",
                             "rawText": "from",
                             "flags": 1,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 24,
                             "end": 29
@@ -125,20 +124,20 @@ let x = () => import {x} from "y"
                         "type": null,
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 24,
                         "end": 29
                     }
                 ],
                 "flags": 9,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 9,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 29
@@ -150,13 +149,13 @@ let x = () => import {x} from "y"
                 "text": "y",
                 "rawText": "y",
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 29,
             "end": 33
@@ -187,7 +186,6 @@ let x = () => import {x} from "y"
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -197,17 +195,13 @@ let x = () => import {x} from "y"
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

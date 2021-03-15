@@ -14,10 +14,9 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -61,7 +60,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                             "text": "o",
                                             "rawText": "o",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 24,
                                             "end": 26
@@ -80,7 +79,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                             "text": "gf",
                                                             "rawText": "gf",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 34
@@ -90,7 +89,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 36
@@ -109,7 +108,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                             "text": 1,
                                                                             "rawText": "1",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 47,
                                                                             "end": 48
@@ -124,7 +123,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                         "delegate": false,
                                                                                         "expression": null,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 16393,
                                                                                         "start": 56,
                                                                                         "end": 62
@@ -134,27 +133,27 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "kind": 2097193,
                                                                                             "label": null,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 63,
                                                                                             "end": 70
                                                                                         }
                                                                                     ],
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 51,
                                                                                     "end": 70
                                                                                 }
                                                                             ],
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 49,
                                                                             "end": 72
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 38,
                                                                         "end": 72
@@ -162,13 +161,13 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                 ],
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 72
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 74
@@ -178,7 +177,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                         "accessModifier": null,
                                                         "typeParameters": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 34,
                                                         "end": 74
@@ -187,32 +186,32 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 74
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 28,
                                             "end": 76
                                         },
                                         "flags": 24,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 76
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 76
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 76
@@ -220,20 +219,20 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 76
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 78
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 78
@@ -250,7 +249,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -260,17 +258,13 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

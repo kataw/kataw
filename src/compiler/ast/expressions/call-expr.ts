@@ -27,7 +27,7 @@ export function createCallExpression(
     typeArguments,
     argumentList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: typeArguments
       ? TransformFlags.TypeScript
       : expression.kind === NodeKind.Super

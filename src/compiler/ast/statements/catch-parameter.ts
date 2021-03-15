@@ -30,7 +30,7 @@ export function createCatchParameter(
     type,
     initializer,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

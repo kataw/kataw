@@ -16,7 +16,7 @@ export function createNamespaceExportDeclaration(
     kind: NodeKind.NamespaceExportDeclaration,
     name,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

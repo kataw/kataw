@@ -16,10 +16,9 @@ result = { x: { y } } = { x: { y: 2 } };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "result = { x: { y } } = { x: { y: 2 } };",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ result = { x: { y } } = { x: { y: 2 } };
                     "text": "result",
                     "rawText": "result",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 6
@@ -52,7 +51,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
@@ -67,7 +66,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 17
@@ -76,13 +75,13 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 19
@@ -90,7 +89,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 19
@@ -99,13 +98,13 @@ result = { x: { y } } = { x: { y: 2 } };
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 19
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 8,
                         "end": 21
@@ -123,7 +122,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
@@ -140,7 +139,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 32
@@ -150,7 +149,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "text": 2,
                                                         "rawText": "2",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 35
@@ -158,7 +157,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 35
@@ -167,13 +166,13 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 30,
                                             "end": 35
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 28,
                                         "end": 37
@@ -181,7 +180,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 25,
                                     "end": 37
@@ -190,31 +189,31 @@ result = { x: { y } } = { x: { y: 2 } };
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 37
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 23,
                         "end": 39
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 39
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 39
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 40
@@ -223,7 +222,6 @@ result = { x: { y } } = { x: { y: 2 } };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -233,17 +231,13 @@ result = { x: { y } } = { x: { y: 2 } };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

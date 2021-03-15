@@ -15,10 +15,9 @@ class Foo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Foo {\n  constructor(public firstName: string,\n              public readonly lastName: string,\n              public age: number = 30,\n              public readonly student: boolean = false) {}\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 9
@@ -53,7 +52,7 @@ class Foo {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 25
@@ -69,7 +68,7 @@ class Foo {
                                             "text": "firstName",
                                             "rawText": "firstName",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 32,
                                             "end": 42
@@ -78,7 +77,7 @@ class Foo {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 43,
                                             "end": 50
@@ -88,14 +87,14 @@ class Foo {
                                         "accessModifier": {
                                             "kind": 4194494,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 26,
                                             "end": 32
                                         },
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097153,
                                         "start": 26,
                                         "end": 50
@@ -108,7 +107,7 @@ class Foo {
                                             "text": "lastName",
                                             "rawText": "lastName",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 81,
                                             "end": 90
@@ -117,7 +116,7 @@ class Foo {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 91,
                                             "end": 98
@@ -127,14 +126,14 @@ class Foo {
                                         "accessModifier": {
                                             "kind": 4194494,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 51,
                                             "end": 72
                                         },
                                         "isReadOnly": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097153,
                                         "start": 51,
                                         "end": 98
@@ -147,7 +146,7 @@ class Foo {
                                             "text": "age",
                                             "rawText": "age",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 120,
                                             "end": 124
@@ -156,7 +155,7 @@ class Foo {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 125,
                                             "end": 132
@@ -166,7 +165,7 @@ class Foo {
                                             "text": 30,
                                             "rawText": "30",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 134,
                                             "end": 137
@@ -175,14 +174,14 @@ class Foo {
                                         "accessModifier": {
                                             "kind": 4194494,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 99,
                                             "end": 120
                                         },
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097153,
                                         "start": 99,
                                         "end": 137
@@ -195,7 +194,7 @@ class Foo {
                                             "text": "student",
                                             "rawText": "student",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 168,
                                             "end": 176
@@ -204,7 +203,7 @@ class Foo {
                                         "type": {
                                             "kind": 4268070,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 177,
                                             "end": 185
@@ -213,7 +212,7 @@ class Foo {
                                             "kind": 4260391,
                                             "text": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 187,
                                             "end": 193
@@ -222,14 +221,14 @@ class Foo {
                                         "accessModifier": {
                                             "kind": 4194494,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 138,
                                             "end": 159
                                         },
                                         "isReadOnly": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097153,
                                         "start": 138,
                                         "end": 193
@@ -237,7 +236,7 @@ class Foo {
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 26,
                                 "end": 194
@@ -251,13 +250,13 @@ class Foo {
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 196,
                                     "end": 196
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 194,
                                 "end": 197
@@ -267,20 +266,20 @@ class Foo {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 197
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 11,
                         "end": 197
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 199
@@ -288,7 +287,7 @@ class Foo {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 199
@@ -297,7 +296,6 @@ class Foo {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -307,17 +305,13 @@ class Foo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

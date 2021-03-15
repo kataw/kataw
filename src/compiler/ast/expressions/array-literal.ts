@@ -19,7 +19,7 @@ export function createArrayLiteral(
     kind: NodeKind.ArrayLiteral,
     elementList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

@@ -16,10 +16,9 @@ if (x) ; else function f(){}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if (x) ; else function f(){}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ if (x) ; else function f(){}
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 5
@@ -38,7 +37,7 @@ if (x) ; else function f(){}
             "consequent": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 8
@@ -50,7 +49,7 @@ if (x) ; else function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 22,
                     "end": 24
@@ -60,7 +59,7 @@ if (x) ; else function f(){}
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 25,
                     "end": 26
@@ -73,27 +72,27 @@ if (x) ; else function f(){}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 27,
                         "end": 27
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
                 "typeParameters": null,
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 256,
                 "start": 13,
                 "end": 28
             },
             "isWebCompat": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 28
@@ -110,7 +109,6 @@ if (x) ; else function f(){}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -120,17 +118,13 @@ if (x) ; else function f(){}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

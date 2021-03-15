@@ -18,10 +18,9 @@ try {} catch (ex: string | number) {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "try {} catch (ex) {}\ntry {} catch (ex: unknown) {}\ntry {} catch (ex: any) {}\n\n// The following can't be error'd at parse time\ntry {} catch (ex: A) {}\ntry {} catch (ex: Error) {}\ntry {} catch (ex: string) {}\ntry {} catch (ex: string | number) {}",
     "filename": "",
     "statements": [
@@ -34,13 +33,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 6
@@ -54,7 +53,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 14,
                         "end": 16
@@ -62,7 +61,7 @@ try {} catch (ex: string | number) {}
                     "type": null,
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 16
@@ -74,26 +73,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 20
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 20
@@ -107,13 +106,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 24,
                 "end": 27
@@ -127,7 +126,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 35,
                         "end": 37
@@ -135,14 +134,14 @@ try {} catch (ex: string | number) {}
                     "type": {
                         "kind": 4202738,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 38,
                         "end": 46
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 35,
                     "end": 46
@@ -154,26 +153,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 49,
                         "end": 49
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 47,
                     "end": 50
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
                 "end": 50
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 20,
             "end": 50
@@ -187,13 +186,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 56,
                     "end": 56
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 54,
                 "end": 57
@@ -207,7 +206,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 65,
                         "end": 67
@@ -215,14 +214,14 @@ try {} catch (ex: string | number) {}
                     "type": {
                         "kind": 4202498,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 68,
                         "end": 72
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 65,
                     "end": 72
@@ -234,26 +233,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 75,
                         "end": 75
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 73,
                     "end": 76
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 57,
                 "end": 76
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 50,
             "end": 76
@@ -267,13 +266,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 131,
                     "end": 131
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 129,
                 "end": 132
@@ -287,7 +286,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 140,
                         "end": 142
@@ -299,21 +298,21 @@ try {} catch (ex: string | number) {}
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 143,
                             "end": 145
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 143,
                         "end": 146
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 140,
                     "end": 145
@@ -325,26 +324,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 148,
                         "end": 148
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 146,
                     "end": 149
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 132,
                 "end": 149
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 76,
             "end": 149
@@ -358,13 +357,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 155,
                     "end": 155
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 153,
                 "end": 156
@@ -378,7 +377,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 164,
                         "end": 166
@@ -390,21 +389,21 @@ try {} catch (ex: string | number) {}
                             "text": "Error",
                             "rawText": "Error",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 167,
                             "end": 173
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 167,
                         "end": 174
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 164,
                     "end": 173
@@ -416,26 +415,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 176,
                         "end": 176
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 174,
                     "end": 177
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 156,
                 "end": 177
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 149,
             "end": 177
@@ -449,13 +448,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 183,
                     "end": 183
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 181,
                 "end": 184
@@ -469,7 +468,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 192,
                         "end": 194
@@ -477,14 +476,14 @@ try {} catch (ex: string | number) {}
                     "type": {
                         "kind": 4202702,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 195,
                         "end": 202
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 192,
                     "end": 202
@@ -496,26 +495,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 205,
                         "end": 205
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 203,
                     "end": 206
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 184,
                 "end": 206
             },
             "finallyBlock": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 177,
             "end": 206
@@ -529,13 +528,13 @@ try {} catch (ex: string | number) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 212,
                     "end": 212
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 210,
                 "end": 213
@@ -549,7 +548,7 @@ try {} catch (ex: string | number) {}
                         "text": "ex",
                         "rawText": "ex",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1025,
                         "start": 221,
                         "end": 223
@@ -560,7 +559,7 @@ try {} catch (ex: string | number) {}
                             {
                                 "kind": 4202702,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 224,
                                 "end": 231
@@ -568,21 +567,21 @@ try {} catch (ex: string | number) {}
                             {
                                 "kind": 4202657,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 233,
                                 "end": 240
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 231,
                         "end": 240
                     },
                     "initializer": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 221,
                     "end": 240
@@ -594,26 +593,26 @@ try {} catch (ex: string | number) {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 243,
                         "end": 243
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 241,
                     "end": 244
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 213,
                 "end": 244
             },
             "finallyBlock": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 206,
             "end": 244
@@ -622,7 +621,6 @@ try {} catch (ex: string | number) {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -632,17 +630,13 @@ try {} catch (ex: string | number) {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

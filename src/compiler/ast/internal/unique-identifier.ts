@@ -18,7 +18,7 @@ export function createUniqueIdentifier(
     uniqueFlags: reservedInNestedScopes ? uniqueFlags | UniqueIdentifierFlags.ReservedInNestedScopes : uniqueFlags,
     uniqueId,
     flags: NodeFlags.Synthetic,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start: -1,
     end: -1

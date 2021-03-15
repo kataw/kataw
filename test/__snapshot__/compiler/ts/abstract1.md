@@ -22,10 +22,9 @@ abstract class B extends A { abstract bar(); }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "abstract class x { constructor(str: string, other: number) {}}\nabstract class x { abstract prop: string; }\nabstract class x { other = a.b; fn = () => this.prop; }\nabstract class x { other = a.b[c]; fn = () => this.prop; }\nabstract class x { other = this.prop; fn = () => this.prop; }\nabstract class B extends A {}\nabstract class B extends A { abstract bar(); }",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -60,7 +59,7 @@ abstract class B extends A { abstract bar(); }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 30
@@ -76,7 +75,7 @@ abstract class B extends A { abstract bar(); }
                                             "text": "str",
                                             "rawText": "str",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 31,
                                             "end": 34
@@ -85,7 +84,7 @@ abstract class B extends A { abstract bar(); }
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 35,
                                             "end": 42
@@ -95,7 +94,7 @@ abstract class B extends A { abstract bar(); }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 31,
                                         "end": 42
@@ -108,7 +107,7 @@ abstract class B extends A { abstract bar(); }
                                             "text": "other",
                                             "rawText": "other",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 43,
                                             "end": 49
@@ -117,7 +116,7 @@ abstract class B extends A { abstract bar(); }
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 50,
                                             "end": 57
@@ -127,7 +126,7 @@ abstract class B extends A { abstract bar(); }
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 43,
                                         "end": 57
@@ -135,7 +134,7 @@ abstract class B extends A { abstract bar(); }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 58
@@ -149,13 +148,13 @@ abstract class B extends A { abstract bar(); }
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 60,
                                     "end": 60
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 58,
                                 "end": 61
@@ -165,20 +164,20 @@ abstract class B extends A { abstract bar(); }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 61
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 18,
                         "end": 61
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 18,
                 "end": 62
@@ -186,7 +185,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 8,
             "end": 62
@@ -198,7 +197,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 77,
                 "end": 79
@@ -216,7 +215,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "prop",
                             "rawText": "prop",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 90,
                             "end": 95
@@ -230,7 +229,7 @@ abstract class B extends A { abstract bar(); }
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 96,
                             "end": 103
@@ -240,14 +239,14 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 81,
                         "end": 104
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 81,
                 "end": 106
@@ -255,7 +254,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 71,
             "end": 106
@@ -267,7 +266,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 121,
                 "end": 123
@@ -285,7 +284,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "other",
                             "rawText": "other",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 125,
                             "end": 131
@@ -304,7 +303,7 @@ abstract class B extends A { abstract bar(); }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 133,
                                 "end": 135
@@ -314,13 +313,13 @@ abstract class B extends A { abstract bar(); }
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 136,
                                 "end": 137
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 135,
                             "end": 137,
@@ -334,7 +333,7 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 125,
                         "end": 138
@@ -346,7 +345,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 138,
                             "end": 141
@@ -368,7 +367,7 @@ abstract class B extends A { abstract bar(); }
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 143,
                                 "end": 143
@@ -378,7 +377,7 @@ abstract class B extends A { abstract bar(); }
                                 "member": {
                                     "kind": 4260571,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 149,
                                     "end": 154
@@ -388,13 +387,13 @@ abstract class B extends A { abstract bar(); }
                                     "text": "prop",
                                     "rawText": "prop",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 155,
                                     "end": 159
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 154,
                                 "end": 159,
@@ -405,7 +404,7 @@ abstract class B extends A { abstract bar(); }
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 143,
                             "end": 159
@@ -414,14 +413,14 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 138,
                         "end": 160
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 125,
                 "end": 162
@@ -429,7 +428,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 115,
             "end": 162
@@ -441,7 +440,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 177,
                 "end": 179
@@ -459,7 +458,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "other",
                             "rawText": "other",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 181,
                             "end": 187
@@ -480,7 +479,7 @@ abstract class B extends A { abstract bar(); }
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 189,
                                     "end": 191
@@ -490,13 +489,13 @@ abstract class B extends A { abstract bar(); }
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 192,
                                     "end": 193
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 191,
                                 "end": 193,
@@ -511,13 +510,13 @@ abstract class B extends A { abstract bar(); }
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 194,
                                 "end": 195
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 193,
                             "end": 196
@@ -526,7 +525,7 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 181,
                         "end": 197
@@ -538,7 +537,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 197,
                             "end": 200
@@ -560,7 +559,7 @@ abstract class B extends A { abstract bar(); }
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 202,
                                 "end": 202
@@ -570,7 +569,7 @@ abstract class B extends A { abstract bar(); }
                                 "member": {
                                     "kind": 4260571,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 208,
                                     "end": 213
@@ -580,13 +579,13 @@ abstract class B extends A { abstract bar(); }
                                     "text": "prop",
                                     "rawText": "prop",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 214,
                                     "end": 218
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 213,
                                 "end": 218,
@@ -597,7 +596,7 @@ abstract class B extends A { abstract bar(); }
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 202,
                             "end": 218
@@ -606,14 +605,14 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 197,
                         "end": 219
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 181,
                 "end": 221
@@ -621,7 +620,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 171,
             "end": 221
@@ -633,7 +632,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 236,
                 "end": 238
@@ -651,7 +650,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "other",
                             "rawText": "other",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 240,
                             "end": 246
@@ -668,7 +667,7 @@ abstract class B extends A { abstract bar(); }
                             "member": {
                                 "kind": 4260571,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 248,
                                 "end": 253
@@ -678,13 +677,13 @@ abstract class B extends A { abstract bar(); }
                                 "text": "prop",
                                 "rawText": "prop",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 254,
                                 "end": 258
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 253,
                             "end": 258,
@@ -698,7 +697,7 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 240,
                         "end": 259
@@ -710,7 +709,7 @@ abstract class B extends A { abstract bar(); }
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 259,
                             "end": 262
@@ -732,7 +731,7 @@ abstract class B extends A { abstract bar(); }
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 264,
                                 "end": 264
@@ -742,7 +741,7 @@ abstract class B extends A { abstract bar(); }
                                 "member": {
                                     "kind": 4260571,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 270,
                                     "end": 275
@@ -752,13 +751,13 @@ abstract class B extends A { abstract bar(); }
                                     "text": "prop",
                                     "rawText": "prop",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 276,
                                     "end": 280
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 275,
                                 "end": 280,
@@ -769,7 +768,7 @@ abstract class B extends A { abstract bar(); }
                                 }
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 264,
                             "end": 280
@@ -778,14 +777,14 @@ abstract class B extends A { abstract bar(); }
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 259,
                         "end": 281
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 240,
                 "end": 283
@@ -793,7 +792,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 230,
             "end": 283
@@ -805,7 +804,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 298,
                 "end": 300
@@ -818,14 +817,14 @@ abstract class B extends A { abstract bar(); }
                     "text": "A",
                     "rawText": "A",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 308,
                     "end": 310
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 308,
                 "end": 310
@@ -835,7 +834,7 @@ abstract class B extends A { abstract bar(); }
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 312,
                 "end": 313
@@ -843,7 +842,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536903680,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 292,
             "end": 313
@@ -855,7 +854,7 @@ abstract class B extends A { abstract bar(); }
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 328,
                 "end": 330
@@ -868,14 +867,14 @@ abstract class B extends A { abstract bar(); }
                     "text": "A",
                     "rawText": "A",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 338,
                     "end": 340
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 338,
                 "end": 340
@@ -897,7 +896,7 @@ abstract class B extends A { abstract bar(); }
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 351,
                                 "end": 355
@@ -907,7 +906,7 @@ abstract class B extends A { abstract bar(); }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 356,
                                 "end": 357
@@ -920,20 +919,20 @@ abstract class B extends A { abstract bar(); }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 355,
                             "end": 358
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 342,
                         "end": 358
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 342,
                 "end": 360
@@ -941,7 +940,7 @@ abstract class B extends A { abstract bar(); }
             "decorators": null,
             "isAbstract": true,
             "flags": 536870912,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097153,
             "start": 322,
             "end": 360
@@ -950,7 +949,6 @@ abstract class B extends A { abstract bar(); }
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -960,17 +958,13 @@ abstract class B extends A { abstract bar(); }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

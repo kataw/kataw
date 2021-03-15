@@ -10,10 +10,9 @@ z(z(z(a ? b : c++)));
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "z(z(z(a ? b : c++)));",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ z(z(z(a ? b : c++)));
                     "text": "z",
                     "rawText": "z",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -42,7 +41,7 @@ z(z(z(a ? b : c++)));
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
@@ -58,7 +57,7 @@ z(z(z(a ? b : c++)));
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
@@ -74,7 +73,7 @@ z(z(z(a ? b : c++)));
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
@@ -84,7 +83,7 @@ z(z(z(a ? b : c++)));
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 11
@@ -97,19 +96,19 @@ z(z(z(a ? b : c++)));
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 15
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 17
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 17
@@ -118,12 +117,12 @@ z(z(z(a ? b : c++)));
                                             "trailingComma": false,
                                             "transformFlags": 0,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "start": 7,
                                             "end": 18
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 5,
                                         "end": 18
@@ -132,12 +131,12 @@ z(z(z(a ? b : c++)));
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 5,
                                 "end": 19
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 3,
                             "end": 19
@@ -146,18 +145,18 @@ z(z(z(a ? b : c++)));
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 3,
                     "end": 20
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -166,7 +165,6 @@ z(z(z(a ? b : c++)));
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -176,17 +174,13 @@ z(z(z(a ? b : c++)));
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

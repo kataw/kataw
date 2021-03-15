@@ -14,10 +14,9 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)}]){}} });",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 9
@@ -42,20 +41,20 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                         "type": null,
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -72,7 +71,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 16
@@ -89,7 +88,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
@@ -106,7 +105,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1025,
                                                     "start": 44,
                                                     "end": 46
@@ -130,7 +129,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                     "text": "f",
                                                                     "rawText": "f",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 56
@@ -146,7 +145,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 1025,
                                                                                 "start": 57,
                                                                                 "end": 60
@@ -170,7 +169,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                             "text": "m",
                                                                                                             "rawText": "m",
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 65,
                                                                                                             "end": 66
@@ -182,7 +181,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                 "text": "t",
                                                                                                                 "rawText": "t",
                                                                                                                 "flags": 0,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "start": 67,
                                                                                                                 "end": 69
@@ -198,13 +197,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                             "text": "bar",
                                                                                                                             "rawText": "bar",
                                                                                                                             "flags": 0,
-                                                                                                                            "intersects": false,
+                                                                                                                            "symbol": null,
                                                                                                                             "transformFlags": 0,
                                                                                                                             "start": 75,
                                                                                                                             "end": 79
                                                                                                                         },
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 32780,
                                                                                                                         "start": 70,
                                                                                                                         "end": 79
@@ -213,12 +212,12 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                 "trailingComma": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "flags": 0,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "start": 75,
                                                                                                                 "end": 80
                                                                                                             },
                                                                                                             "flags": 0,
-                                                                                                            "intersects": false,
+                                                                                                            "symbol": null,
                                                                                                             "transformFlags": 0,
                                                                                                             "start": 69,
                                                                                                             "end": 80
@@ -226,7 +225,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                         "accessModifier": null,
                                                                                                         "decorators": null,
                                                                                                         "flags": 0,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 65,
                                                                                                         "end": 80
@@ -235,13 +234,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                 "trailingComma": false,
                                                                                                 "multiline": false,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 0,
                                                                                                 "start": 65,
                                                                                                 "end": 80
                                                                                             },
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 64,
                                                                                             "end": 81
@@ -250,13 +249,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                     "trailingComma": false,
                                                                                     "multiline": false,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 64,
                                                                                     "end": 81
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 62,
                                                                                 "end": 82
@@ -265,7 +264,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                             "accessModifier": null,
                                                                             "isReadOnly": false,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 1,
                                                                             "start": 57,
                                                                             "end": 82
@@ -273,7 +272,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 57,
                                                                     "end": 83
@@ -287,13 +286,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                         "statements": [],
                                                                         "multiline": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 84,
                                                                         "end": 84
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 83,
                                                                     "end": 85
@@ -303,20 +302,20 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                 "accessModifier": null,
                                                                 "typeParameters": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097160,
                                                                 "start": 56,
                                                                 "end": 85
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 48,
                                                             "end": 85
                                                         }
                                                     ],
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 48,
                                                     "end": 86
@@ -324,7 +323,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                 "decorators": null,
                                                 "isAbstract": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 38,
                                                 "end": 86
@@ -332,13 +331,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 86
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 88
@@ -346,32 +345,32 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                 "typeParameters": null,
                                 "type": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 88
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 89
                         },
                         "flags": 14,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 89
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 89
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 90
@@ -380,7 +379,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -390,17 +388,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

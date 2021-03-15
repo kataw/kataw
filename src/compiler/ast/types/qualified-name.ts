@@ -24,7 +24,7 @@ export function createQualifiedName(
     left,
     right,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

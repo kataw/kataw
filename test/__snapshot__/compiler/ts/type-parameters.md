@@ -38,10 +38,9 @@ type T = <
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "functionName<A /* A comment */>();\nconst a: T</* comment */> = 1;\nfunctionName</* comment */>();\nfunction foo</* comment */>() {}\ninterface Foo {\n </* comment */>(arg): any;\n}\ntype T = </* comment */>(arg) => any;\n\nfunctionName<\n  A // comment\n>();\nconst a: T<\n  // comment\n> = 1;\nfunctionName<\n  // comment\n>();\nfunction foo<\n  // comment\n>() {}\ninterface Foo {\n <\n  A// comment\n >(arg): any;\n}\ntype T = <\n  // comment\n>(arg) => any;",
     "filename": "",
     "statements": [
@@ -54,7 +53,7 @@ type T = <
                     "text": "functionName",
                     "rawText": "functionName",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 12
@@ -69,21 +68,21 @@ type T = <
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 13,
                             "end": 31
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 13,
                     "end": 31
@@ -94,18 +93,18 @@ type T = <
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 12,
                 "end": 33
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 34
@@ -123,7 +122,7 @@ type T = <
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 40,
                             "end": 42
@@ -136,7 +135,7 @@ type T = <
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 45
@@ -145,13 +144,13 @@ type T = <
                                 "kind": 8419,
                                 "typeArgumentsList": [],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 46,
                                 "end": 46
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 43,
                             "end": 62
@@ -161,26 +160,26 @@ type T = <
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 62,
                             "end": 64
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 40,
                         "end": 64
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 40,
                 "end": 64
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 34,
             "end": 65
@@ -194,7 +193,7 @@ type T = <
                     "text": "functionName",
                     "rawText": "functionName",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 65,
                     "end": 78
@@ -203,7 +202,7 @@ type T = <
                     "kind": 8419,
                     "typeArgumentsList": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 79,
                     "end": 93
@@ -214,18 +213,18 @@ type T = <
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 94,
                     "end": 94
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 78,
                 "end": 95
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 65,
             "end": 96
@@ -237,7 +236,7 @@ type T = <
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 105,
                 "end": 109
@@ -247,7 +246,7 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 125,
                 "end": 126
@@ -260,13 +259,13 @@ type T = <
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 128,
                     "end": 128
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 126,
                 "end": 129
@@ -275,13 +274,13 @@ type T = <
                 "kind": 134226153,
                 "typeParameterList": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 110,
                 "end": 110
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 96,
             "end": 129
@@ -293,7 +292,7 @@ type T = <
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 139,
                 "end": 143
@@ -311,7 +310,7 @@ type T = <
                             "kind": 134226153,
                             "typeParameterList": [],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 148,
                             "end": 148
@@ -327,7 +326,7 @@ type T = <
                                         "text": "arg",
                                         "rawText": "arg",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 163,
                                         "end": 166
@@ -338,7 +337,7 @@ type T = <
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 163,
                                     "end": 166
@@ -346,7 +345,7 @@ type T = <
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 163,
                             "end": 166
@@ -354,13 +353,13 @@ type T = <
                         "returnType": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 168,
                             "end": 172
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 145,
                         "end": 173
@@ -368,13 +367,13 @@ type T = <
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 145,
                 "end": 173
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 129,
             "end": 175
@@ -386,7 +385,7 @@ type T = <
                 "text": "T",
                 "rawText": "T",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 180,
                 "end": 182
@@ -397,7 +396,7 @@ type T = <
                     "kind": 134226153,
                     "typeParameterList": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 186,
                     "end": 186
@@ -413,7 +412,7 @@ type T = <
                                 "text": "arg",
                                 "rawText": "arg",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 201,
                                 "end": 204
@@ -424,7 +423,7 @@ type T = <
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 201,
                             "end": 204
@@ -432,7 +431,7 @@ type T = <
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 201,
                     "end": 204
@@ -440,20 +439,20 @@ type T = <
                 "returnType": {
                     "kind": 4202498,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 208,
                     "end": 212
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 184,
                 "end": 212
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 175,
             "end": 213
@@ -467,7 +466,7 @@ type T = <
                     "text": "functionName",
                     "rawText": "functionName",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 213,
                     "end": 227
@@ -482,21 +481,21 @@ type T = <
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 228,
                                 "end": 232
                             },
                             "typeArguments": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 228,
                             "end": 245
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 228,
                     "end": 245
@@ -507,18 +506,18 @@ type T = <
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 246,
                     "end": 246
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 227,
                 "end": 247
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 213,
             "end": 248
@@ -536,7 +535,7 @@ type T = <
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 254,
                             "end": 256
@@ -549,7 +548,7 @@ type T = <
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 257,
                                 "end": 259
@@ -558,13 +557,13 @@ type T = <
                                 "kind": 8419,
                                 "typeArgumentsList": [],
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 260,
                                 "end": 260
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 257,
                             "end": 277
@@ -574,26 +573,26 @@ type T = <
                             "text": 1,
                             "rawText": "1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 277,
                             "end": 279
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 254,
                         "end": 279
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 254,
                 "end": 279
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 248,
             "end": 280
@@ -607,7 +606,7 @@ type T = <
                     "text": "functionName",
                     "rawText": "functionName",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 280,
                     "end": 293
@@ -616,7 +615,7 @@ type T = <
                     "kind": 8419,
                     "typeArgumentsList": [],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 294,
                     "end": 309
@@ -627,18 +626,18 @@ type T = <
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 310,
                     "end": 310
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 293,
                 "end": 311
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 280,
             "end": 312
@@ -650,7 +649,7 @@ type T = <
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 321,
                 "end": 325
@@ -660,7 +659,7 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 342,
                 "end": 343
@@ -673,13 +672,13 @@ type T = <
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 345,
                     "end": 345
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 343,
                 "end": 346
@@ -688,13 +687,13 @@ type T = <
                 "kind": 134226153,
                 "typeParameterList": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 326,
                 "end": 326
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 312,
             "end": 346
@@ -706,7 +705,7 @@ type T = <
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 356,
                 "end": 360
@@ -730,7 +729,7 @@ type T = <
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 365,
                                         "end": 369
@@ -739,14 +738,14 @@ type T = <
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 365,
                                     "end": 369
                                 }
                             ],
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 365,
                             "end": 369
@@ -762,7 +761,7 @@ type T = <
                                         "text": "arg",
                                         "rawText": "arg",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 383,
                                         "end": 386
@@ -773,7 +772,7 @@ type T = <
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 383,
                                     "end": 386
@@ -781,7 +780,7 @@ type T = <
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 383,
                             "end": 386
@@ -789,13 +788,13 @@ type T = <
                         "returnType": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 388,
                             "end": 392
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 362,
                         "end": 393
@@ -803,13 +802,13 @@ type T = <
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 362,
                 "end": 393
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 346,
             "end": 395
@@ -821,7 +820,7 @@ type T = <
                 "text": "T",
                 "rawText": "T",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 400,
                 "end": 402
@@ -832,7 +831,7 @@ type T = <
                     "kind": 134226153,
                     "typeParameterList": [],
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 406,
                     "end": 406
@@ -848,7 +847,7 @@ type T = <
                                 "text": "arg",
                                 "rawText": "arg",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 422,
                                 "end": 425
@@ -859,7 +858,7 @@ type T = <
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 422,
                             "end": 425
@@ -867,7 +866,7 @@ type T = <
                     ],
                     "trailingcomma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 422,
                     "end": 425
@@ -875,20 +874,20 @@ type T = <
                 "returnType": {
                     "kind": 4202498,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 429,
                     "end": 433
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 404,
                 "end": 433
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 395,
             "end": 434
@@ -897,7 +896,6 @@ type T = <
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -907,17 +905,13 @@ type T = <
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

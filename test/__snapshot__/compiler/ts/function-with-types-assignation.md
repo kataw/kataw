@@ -12,10 +12,9 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function message(name:string, age:number = 100, ...args:Array<string>):string {\n  return name;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                 "text": "message",
                 "rawText": "message",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -42,7 +41,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "text": "name",
                             "rawText": "name",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 17,
                             "end": 21
@@ -51,7 +50,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 22,
                             "end": 28
@@ -61,7 +60,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 17,
                         "end": 28
@@ -74,7 +73,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "text": "age",
                             "rawText": "age",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 29,
                             "end": 33
@@ -83,7 +82,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 34,
                             "end": 40
@@ -93,7 +92,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "text": 100,
                             "rawText": "100",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 42,
                             "end": 46
@@ -102,7 +101,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 29,
                         "end": 46
@@ -115,7 +114,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "text": "args",
                             "rawText": "args",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 51,
                             "end": 55
@@ -128,7 +127,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "text": "Array",
                                 "rawText": "Array",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 56,
                                 "end": 61
@@ -139,20 +138,20 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                     {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 62,
                                         "end": 68
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 62,
                                 "end": 68
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 56,
                             "end": 70
@@ -162,7 +161,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 4097,
                         "start": 47,
                         "end": 69
@@ -170,7 +169,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 70
@@ -178,7 +177,7 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
             "type": {
                 "kind": 4202702,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 71,
                 "end": 77
@@ -195,13 +194,13 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "text": "name",
                                 "rawText": "name",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 88,
                                 "end": 93
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 79,
                             "end": 94
@@ -209,20 +208,20 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 79,
                     "end": 94
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 77,
                 "end": 96
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 96
@@ -231,7 +230,6 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -241,17 +239,13 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

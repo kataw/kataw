@@ -14,10 +14,9 @@ await => async.await[async / ((async) => foo.bar)]
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "await => async.await[async / ((async) => foo.bar)]",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ await => async.await[async / ((async) => foo.bar)]
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 0,
                                 "end": 5
@@ -49,7 +48,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "accessModifier": null,
                             "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 5,
                             "end": 5
@@ -59,7 +58,7 @@ await => async.await[async / ((async) => foo.bar)]
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 5
@@ -73,7 +72,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 14
@@ -83,13 +82,13 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "await",
                             "rawText": "await",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 20,
@@ -106,7 +105,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "async",
                             "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 26
@@ -128,7 +127,7 @@ await => async.await[async / ((async) => foo.bar)]
                                                 "text": "async",
                                                 "rawText": "async",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 36
@@ -140,7 +139,7 @@ await => async.await[async / ((async) => foo.bar)]
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 30,
                                             "end": 37
@@ -150,7 +149,7 @@ await => async.await[async / ((async) => foo.bar)]
                                     "accessModifier": null,
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 30,
                                     "end": 37
@@ -162,7 +161,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 40,
                                         "end": 44
@@ -172,13 +171,13 @@ await => async.await[async / ((async) => foo.bar)]
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 45,
                                         "end": 48
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 48,
@@ -189,37 +188,37 @@ await => async.await[async / ((async) => foo.bar)]
                                     }
                                 },
                                 "flags": 1073741824,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 48
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 49
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 21,
                         "end": 49
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 50
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 50
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 50
@@ -228,7 +227,6 @@ await => async.await[async / ((async) => foo.bar)]
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -238,17 +236,13 @@ await => async.await[async / ((async) => foo.bar)]
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

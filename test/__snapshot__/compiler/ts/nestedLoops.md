@@ -32,10 +32,9 @@ export class Test  {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export class Test  {\n    constructor() {\n\n        let outerArray: Array<number> = [1, 2, 3];\n        let innerArray: Array<number> = [1, 2, 3];\n\n        for (let outer of outerArray)\n            for (let inner of innerArray) {\n                this.aFunction((newValue, oldValue) => {\n                    let x = outer + inner + newValue;\n                });\n            }\n    }\n\n    public aFunction(func: (newValue: any, oldValue: any) => void): void {\n    }\n}",
     "filename": "",
     "statements": [
@@ -48,7 +47,7 @@ export class Test  {
                     "text": "Test",
                     "rawText": "Test",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 12,
                     "end": 17
@@ -72,7 +71,7 @@ export class Test  {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 36
@@ -82,7 +81,7 @@ export class Test  {
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 37,
                                     "end": 38
@@ -107,7 +106,7 @@ export class Test  {
                                                                 "text": "outerArray",
                                                                 "rawText": "outerArray",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 53,
                                                                 "end": 64
@@ -120,7 +119,7 @@ export class Test  {
                                                                     "text": "Array",
                                                                     "rawText": "Array",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 65,
                                                                     "end": 71
@@ -131,20 +130,20 @@ export class Test  {
                                                                         {
                                                                             "kind": 4202657,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 2097152,
                                                                             "start": 72,
                                                                             "end": 78
                                                                         }
                                                                     ],
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 2097152,
                                                                     "start": 72,
                                                                     "end": 78
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 65,
                                                                 "end": 81
@@ -159,7 +158,7 @@ export class Test  {
                                                                             "text": 1,
                                                                             "rawText": "1",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 83,
                                                                             "end": 84
@@ -169,7 +168,7 @@ export class Test  {
                                                                             "text": 2,
                                                                             "rawText": "2",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 85,
                                                                             "end": 87
@@ -179,7 +178,7 @@ export class Test  {
                                                                             "text": 3,
                                                                             "rawText": "3",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 88,
                                                                             "end": 90
@@ -188,32 +187,32 @@ export class Test  {
                                                                     "trailingComma": false,
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 83,
                                                                     "end": 90
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 81,
                                                                 "end": 91
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 53,
                                                             "end": 91
                                                         }
                                                     ],
                                                     "flags": 8,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 53,
                                                     "end": 91
                                                 },
                                                 "flags": 32776,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 40,
                                                 "end": 92
@@ -231,7 +230,7 @@ export class Test  {
                                                                 "text": "innerArray",
                                                                 "rawText": "innerArray",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 104,
                                                                 "end": 115
@@ -244,7 +243,7 @@ export class Test  {
                                                                     "text": "Array",
                                                                     "rawText": "Array",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 116,
                                                                     "end": 122
@@ -255,20 +254,20 @@ export class Test  {
                                                                         {
                                                                             "kind": 4202657,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 2097152,
                                                                             "start": 123,
                                                                             "end": 129
                                                                         }
                                                                     ],
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 2097152,
                                                                     "start": 123,
                                                                     "end": 129
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 116,
                                                                 "end": 132
@@ -283,7 +282,7 @@ export class Test  {
                                                                             "text": 1,
                                                                             "rawText": "1",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 134,
                                                                             "end": 135
@@ -293,7 +292,7 @@ export class Test  {
                                                                             "text": 2,
                                                                             "rawText": "2",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 136,
                                                                             "end": 138
@@ -303,7 +302,7 @@ export class Test  {
                                                                             "text": 3,
                                                                             "rawText": "3",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 139,
                                                                             "end": 141
@@ -312,32 +311,32 @@ export class Test  {
                                                                     "trailingComma": false,
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 134,
                                                                     "end": 141
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 132,
                                                                 "end": 142
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 104,
                                                             "end": 142
                                                         }
                                                     ],
                                                     "flags": 8,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 104,
                                                     "end": 142
                                                 },
                                                 "flags": 32776,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 92,
                                                 "end": 143
@@ -357,7 +356,7 @@ export class Test  {
                                                                     "text": "outer",
                                                                     "rawText": "outer",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1025,
                                                                     "start": 161,
                                                                     "end": 167
@@ -366,20 +365,20 @@ export class Test  {
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 161,
                                                                 "end": 167
                                                             }
                                                         ],
                                                         "flags": 8,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 161,
                                                         "end": 167
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 256,
                                                     "start": 158,
                                                     "end": 167
@@ -389,7 +388,7 @@ export class Test  {
                                                     "text": "outerArray",
                                                     "rawText": "outerArray",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 170,
                                                     "end": 181
@@ -409,7 +408,7 @@ export class Test  {
                                                                         "text": "inner",
                                                                         "rawText": "inner",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1025,
                                                                         "start": 203,
                                                                         "end": 209
@@ -418,20 +417,20 @@ export class Test  {
                                                                     "type": null,
                                                                     "initializer": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 203,
                                                                     "end": 209
                                                                 }
                                                             ],
                                                             "flags": 8,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 203,
                                                             "end": 209
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 256,
                                                         "start": 200,
                                                         "end": 209
@@ -441,7 +440,7 @@ export class Test  {
                                                         "text": "innerArray",
                                                         "rawText": "innerArray",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 212,
                                                         "end": 223
@@ -460,7 +459,7 @@ export class Test  {
                                                                             "member": {
                                                                                 "kind": 4260571,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 226,
                                                                                 "end": 247
@@ -470,13 +469,13 @@ export class Test  {
                                                                                 "text": "aFunction",
                                                                                 "rawText": "aFunction",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 248,
                                                                                 "end": 257
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 247,
                                                                             "end": 257,
@@ -504,7 +503,7 @@ export class Test  {
                                                                                                     "text": "oldValue",
                                                                                                     "rawText": "oldValue",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 268,
                                                                                                     "end": 277
@@ -516,7 +515,7 @@ export class Test  {
                                                                                                 "accessModifier": null,
                                                                                                 "isReadOnly": false,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1,
                                                                                                 "start": 258,
                                                                                                 "end": 278
@@ -529,7 +528,7 @@ export class Test  {
                                                                                                     "text": "newValue",
                                                                                                     "rawText": "newValue",
                                                                                                     "flags": 0,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 0,
                                                                                                     "start": 259,
                                                                                                     "end": 267
@@ -541,7 +540,7 @@ export class Test  {
                                                                                                 "accessModifier": null,
                                                                                                 "isReadOnly": false,
                                                                                                 "flags": 0,
-                                                                                                "intersects": false,
+                                                                                                "symbol": null,
                                                                                                 "transformFlags": 1,
                                                                                                 "start": 258,
                                                                                                 "end": 278
@@ -551,7 +550,7 @@ export class Test  {
                                                                                         "accessModifier": null,
                                                                                         "trailingComma": false,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 259,
                                                                                         "end": 277
@@ -574,7 +573,7 @@ export class Test  {
                                                                                                                     "text": "x",
                                                                                                                     "rawText": "x",
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 1025,
                                                                                                                     "start": 307,
                                                                                                                     "end": 309
@@ -590,7 +589,7 @@ export class Test  {
                                                                                                                             "text": "outer",
                                                                                                                             "rawText": "outer",
                                                                                                                             "flags": 0,
-                                                                                                                            "intersects": false,
+                                                                                                                            "symbol": null,
                                                                                                                             "transformFlags": 0,
                                                                                                                             "start": 311,
                                                                                                                             "end": 317
@@ -601,13 +600,13 @@ export class Test  {
                                                                                                                             "text": "inner",
                                                                                                                             "rawText": "inner",
                                                                                                                             "flags": 0,
-                                                                                                                            "intersects": false,
+                                                                                                                            "symbol": null,
                                                                                                                             "transformFlags": 0,
                                                                                                                             "start": 319,
                                                                                                                             "end": 325
                                                                                                                         },
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "start": 311,
                                                                                                                         "end": 325
@@ -618,32 +617,32 @@ export class Test  {
                                                                                                                         "text": "newValue",
                                                                                                                         "rawText": "newValue",
                                                                                                                         "flags": 0,
-                                                                                                                        "intersects": false,
+                                                                                                                        "symbol": null,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "start": 327,
                                                                                                                         "end": 336
                                                                                                                     },
                                                                                                                     "flags": 0,
-                                                                                                                    "intersects": false,
+                                                                                                                    "symbol": null,
                                                                                                                     "transformFlags": 0,
                                                                                                                     "start": 311,
                                                                                                                     "end": 336
                                                                                                                 },
                                                                                                                 "flags": 0,
-                                                                                                                "intersects": false,
+                                                                                                                "symbol": null,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "start": 307,
                                                                                                                 "end": 336
                                                                                                             }
                                                                                                         ],
                                                                                                         "flags": 8,
-                                                                                                        "intersects": false,
+                                                                                                        "symbol": null,
                                                                                                         "transformFlags": 0,
                                                                                                         "start": 307,
                                                                                                         "end": 336
                                                                                                     },
                                                                                                     "flags": 32776,
-                                                                                                    "intersects": false,
+                                                                                                    "symbol": null,
                                                                                                     "transformFlags": 769,
                                                                                                     "start": 283,
                                                                                                     "end": 337
@@ -651,19 +650,19 @@ export class Test  {
                                                                                             ],
                                                                                             "multiline": true,
                                                                                             "flags": 32768,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 283,
                                                                                             "end": 337
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 281,
                                                                                         "end": 355
                                                                                     },
                                                                                     "flags": 1073741824,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 258,
                                                                                     "end": 355
@@ -672,18 +671,18 @@ export class Test  {
                                                                             "trailingComma": false,
                                                                             "transformFlags": 0,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "start": 259,
                                                                             "end": 356
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 257,
                                                                         "end": 356
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 226,
                                                                     "end": 357
@@ -691,27 +690,27 @@ export class Test  {
                                                             ],
                                                             "multiline": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 226,
                                                             "end": 357
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 224,
                                                         "end": 371
                                                     },
                                                     "isAwait": false,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 182,
                                                     "end": 371
                                                 },
                                                 "isAwait": false,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 143,
                                                 "end": 371
@@ -719,13 +718,13 @@ export class Test  {
                                         ],
                                         "multiline": true,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 40,
                                         "end": 371
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 38,
                                     "end": 377
@@ -735,13 +734,13 @@ export class Test  {
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "flags": 524288,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 377
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 20,
                             "end": 377
@@ -759,7 +758,7 @@ export class Test  {
                                     "text": "aFunction",
                                     "rawText": "aFunction",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 389,
                                     "end": 399
@@ -775,7 +774,7 @@ export class Test  {
                                                 "text": "func",
                                                 "rawText": "func",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 400,
                                                 "end": 404
@@ -795,7 +794,7 @@ export class Test  {
                                                                 "text": "newValue",
                                                                 "rawText": "newValue",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 407,
                                                                 "end": 415
@@ -804,7 +803,7 @@ export class Test  {
                                                             "type": {
                                                                 "kind": 4202498,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 416,
                                                                 "end": 420
@@ -813,7 +812,7 @@ export class Test  {
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 407,
                                                             "end": 420
@@ -826,7 +825,7 @@ export class Test  {
                                                                 "text": "oldValue",
                                                                 "rawText": "oldValue",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 421,
                                                                 "end": 430
@@ -835,7 +834,7 @@ export class Test  {
                                                             "type": {
                                                                 "kind": 4202498,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 431,
                                                                 "end": 435
@@ -844,7 +843,7 @@ export class Test  {
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 421,
                                                             "end": 435
@@ -852,7 +851,7 @@ export class Test  {
                                                     ],
                                                     "trailingcomma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 407,
                                                     "end": 435
@@ -860,13 +859,13 @@ export class Test  {
                                                 "returnType": {
                                                     "kind": 4202742,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 439,
                                                     "end": 444
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 405,
                                                 "end": 444
@@ -876,7 +875,7 @@ export class Test  {
                                             "accessModifier": null,
                                             "isReadOnly": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 400,
                                             "end": 444
@@ -884,7 +883,7 @@ export class Test  {
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 400,
                                     "end": 445
@@ -898,13 +897,13 @@ export class Test  {
                                         "statements": [],
                                         "multiline": true,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 453,
                                         "end": 453
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 451,
                                     "end": 459
@@ -913,7 +912,7 @@ export class Test  {
                                 "type": {
                                     "kind": 4202742,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 446,
                                     "end": 451
@@ -921,27 +920,27 @@ export class Test  {
                                 "accessModifier": {
                                     "kind": 4194494,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 377,
                                     "end": 389
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 399,
                                 "end": 459
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 377,
                             "end": 459
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 20,
                     "end": 461
@@ -949,7 +948,7 @@ export class Test  {
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 6,
                 "end": 461
@@ -959,7 +958,7 @@ export class Test  {
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 461
@@ -968,7 +967,6 @@ export class Test  {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -978,17 +976,13 @@ export class Test  {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

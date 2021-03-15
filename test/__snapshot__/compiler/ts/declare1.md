@@ -13,10 +13,9 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "// error: no intialization expected in ambient declarations\ndeclare const c1: boolean = true;\ndeclare const c2: number = 0;\ndeclare const c3 = null, c4 :string = \"\", c5: any = 0;",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "c1",
                             "rawText": "c1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 73,
                             "end": 76
@@ -42,7 +41,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "type": {
                             "kind": 4268070,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 77,
                             "end": 85
@@ -51,26 +50,26 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "kind": 4260391,
                             "text": true,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 87,
                             "end": 92
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 73,
                         "end": 92
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 73,
                 "end": 92
             },
             "flags": 402685960,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 67,
             "end": 93
@@ -88,7 +87,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "c2",
                             "rawText": "c2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 107,
                             "end": 110
@@ -97,7 +96,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 111,
                             "end": 118
@@ -107,26 +106,26 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": 0,
                             "rawText": "0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 120,
                             "end": 122
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 107,
                         "end": 122
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 107,
                 "end": 122
             },
             "flags": 402685960,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 101,
             "end": 123
@@ -144,7 +143,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "c3",
                             "rawText": "c3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 137,
                             "end": 140
@@ -155,13 +154,13 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "kind": 4260512,
                             "text": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 142,
                             "end": 147
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 137,
                         "end": 147
@@ -173,7 +172,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "c4",
                             "rawText": "c4",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 148,
                             "end": 151
@@ -182,7 +181,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 153,
                             "end": 159
@@ -192,13 +191,13 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "",
                             "rawText": "",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 161,
                             "end": 164
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 148,
                         "end": 164
@@ -210,7 +209,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": "c5",
                             "rawText": "c5",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 165,
                             "end": 168
@@ -219,7 +218,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "type": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 169,
                             "end": 173
@@ -229,26 +228,26 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "text": 0,
                             "rawText": "0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 175,
                             "end": 177
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 165,
                         "end": 177
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 137,
                 "end": 177
             },
             "flags": 402653192,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 131,
             "end": 178
@@ -257,7 +256,6 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -267,17 +265,13 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

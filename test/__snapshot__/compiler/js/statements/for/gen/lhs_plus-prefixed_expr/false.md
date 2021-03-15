@@ -14,10 +14,9 @@ for (+a().b in c);
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (+a().b in c);",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ for (+a().b in c);
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 6,
                             "end": 7
@@ -47,12 +46,12 @@ for (+a().b in c);
                             "trailingComma": false,
                             "transformFlags": 0,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "start": 9,
                             "end": 9
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 9
@@ -62,13 +61,13 @@ for (+a().b in c);
                         "text": "b",
                         "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 9,
                     "end": 11,
@@ -79,7 +78,7 @@ for (+a().b in c);
                     }
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 11
@@ -89,7 +88,7 @@ for (+a().b in c);
                 "text": "c",
                 "rawText": "c",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 16
@@ -97,13 +96,13 @@ for (+a().b in c);
             "statement": {
                 "kind": 6291526,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -112,7 +111,6 @@ for (+a().b in c);
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -122,17 +120,13 @@ for (+a().b in c);
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

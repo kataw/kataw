@@ -24,14 +24,13 @@ export function createRootNode(
   diagnostics: Diagnostic[]
 ): RootNode {
   return {
-    kind: NodeKind.Script,
+    kind: NodeKind.RootNode,
     source,
     filename,
     statements,
     isModule,
     printable: true,
     diagnostics,
-    intersects: false,
     original: null,
     symbol: null,
     flags: NodeFlags.None,

@@ -10,10 +10,9 @@ const a = new A<B>();
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const a = new A<B>();",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ const a = new A<B>();
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 7
@@ -46,7 +45,7 @@ const a = new A<B>();
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
@@ -61,21 +60,21 @@ const a = new A<B>();
                                                 "text": "B",
                                                 "rawText": "B",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 17
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 16,
                                             "end": 18
                                         }
                                     ],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 16,
                                     "end": 18
@@ -86,12 +85,12 @@ const a = new A<B>();
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 15,
                                 "end": 20
@@ -99,26 +98,26 @@ const a = new A<B>();
                             "typeArguments": null,
                             "argumentList": null,
                             "flags": 9,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 20
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 20
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 20
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 21
@@ -127,7 +126,6 @@ const a = new A<B>();
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -137,17 +135,13 @@ const a = new A<B>();
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

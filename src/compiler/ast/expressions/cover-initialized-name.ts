@@ -33,7 +33,7 @@ export function createCoverInitializedName(
     right,
     accessModifier,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

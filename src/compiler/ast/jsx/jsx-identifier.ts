@@ -13,7 +13,7 @@ export function createJsxIdentifier(text: string, start: number, end: number): J
     kind: NodeKind.JsxIdentifier,
     text,
     flags: NodeFlags.None,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

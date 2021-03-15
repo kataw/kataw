@@ -26,10 +26,9 @@ type PropEventSource<T> = {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let x: `foo-${infer bar}`;\ntype HelloWorld = `${Hello}, ${World}`\ntype SeussFish = `${Quantity | Color} fish`;\ndeclare function setAlignment(value: `${VerticalAlignment}-${HorizontalAlignment}`): void;\ntype PropEventSource<T> = {\n  on(eventName: `${string & keyof T}Changed`, callback: () => void): void;\n};\ntype PropEventSource<T> = {\n  on<K extends string & keyof T>\n    (eventName: `${K}Changed`, callback: (newValue: T[K]) => void ): void;\n};",
     "filename": "",
     "statements": [
@@ -46,7 +45,7 @@ type PropEventSource<T> = {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -66,7 +65,7 @@ type PropEventSource<T> = {
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 23
@@ -75,13 +74,13 @@ type PropEventSource<T> = {
                                             "defaultType": null,
                                             "expression": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 19,
                                             "end": 23
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 14,
                                         "end": 23
@@ -89,7 +88,7 @@ type PropEventSource<T> = {
                                     "rawText": "foo-",
                                     "text": "foo-",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 6,
                                     "end": 23
@@ -101,33 +100,33 @@ type PropEventSource<T> = {
                                 "text": "",
                                 "literal": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 6,
                             "end": 25
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 25
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 26
@@ -139,7 +138,7 @@ type PropEventSource<T> = {
                 "text": "HelloWorld",
                 "rawText": "HelloWorld",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
                 "end": 42
@@ -156,14 +155,14 @@ type PropEventSource<T> = {
                                 "text": "Hello",
                                 "rawText": "Hello",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 48,
                                 "end": 53
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 48,
                             "end": 54
@@ -171,7 +170,7 @@ type PropEventSource<T> = {
                         "rawText": "",
                         "text": "",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 44,
                         "end": 53
@@ -185,14 +184,14 @@ type PropEventSource<T> = {
                                 "text": "World",
                                 "rawText": "World",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 58,
                                 "end": 63
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 58,
                             "end": 64
@@ -200,7 +199,7 @@ type PropEventSource<T> = {
                         "rawText": ", ",
                         "text": ", ",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 53,
                         "end": 63
@@ -212,20 +211,20 @@ type PropEventSource<T> = {
                     "text": "",
                     "literal": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 63,
                     "end": 65
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 44,
                 "end": 65
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 26,
             "end": 65
@@ -237,7 +236,7 @@ type PropEventSource<T> = {
                 "text": "SeussFish",
                 "rawText": "SeussFish",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 70,
                 "end": 80
@@ -257,14 +256,14 @@ type PropEventSource<T> = {
                                         "text": "Quantity",
                                         "rawText": "Quantity",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 86,
                                         "end": 94
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 86,
                                     "end": 96
@@ -276,21 +275,21 @@ type PropEventSource<T> = {
                                         "text": "Color",
                                         "rawText": "Color",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 96,
                                         "end": 102
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 96,
                                     "end": 103
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 94,
                             "end": 102
@@ -298,7 +297,7 @@ type PropEventSource<T> = {
                         "rawText": "",
                         "text": "",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 82,
                         "end": 102
@@ -310,20 +309,20 @@ type PropEventSource<T> = {
                     "text": " fish",
                     "literal": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 102,
                     "end": 109
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 82,
                 "end": 109
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 65,
             "end": 110
@@ -335,7 +334,7 @@ type PropEventSource<T> = {
                 "text": "setAlignment",
                 "rawText": "setAlignment",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 127,
                 "end": 140
@@ -351,7 +350,7 @@ type PropEventSource<T> = {
                             "text": "value",
                             "rawText": "value",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 141,
                             "end": 146
@@ -369,14 +368,14 @@ type PropEventSource<T> = {
                                             "text": "VerticalAlignment",
                                             "rawText": "VerticalAlignment",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 151,
                                             "end": 168
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 151,
                                         "end": 169
@@ -384,7 +383,7 @@ type PropEventSource<T> = {
                                     "rawText": "",
                                     "text": "",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 147,
                                     "end": 168
@@ -398,14 +397,14 @@ type PropEventSource<T> = {
                                             "text": "HorizontalAlignment",
                                             "rawText": "HorizontalAlignment",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 172,
                                             "end": 191
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 172,
                                         "end": 192
@@ -413,7 +412,7 @@ type PropEventSource<T> = {
                                     "rawText": "-",
                                     "text": "-",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 168,
                                     "end": 191
@@ -425,13 +424,13 @@ type PropEventSource<T> = {
                                 "text": "",
                                 "literal": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 191,
                                 "end": 193
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 147,
                             "end": 193
@@ -441,7 +440,7 @@ type PropEventSource<T> = {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 141,
                         "end": 193
@@ -449,7 +448,7 @@ type PropEventSource<T> = {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 141,
                 "end": 194
@@ -457,7 +456,7 @@ type PropEventSource<T> = {
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 195,
                 "end": 200
@@ -465,7 +464,7 @@ type PropEventSource<T> = {
             "contents": null,
             "typeParameters": null,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 118,
             "end": 201
@@ -477,7 +476,7 @@ type PropEventSource<T> = {
                 "text": "PropEventSource",
                 "rawText": "PropEventSource",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 206,
                 "end": 222
@@ -494,7 +493,7 @@ type PropEventSource<T> = {
                                 "text": "on",
                                 "rawText": "on",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 229,
                                 "end": 234
@@ -515,7 +514,7 @@ type PropEventSource<T> = {
                                             "text": "eventName",
                                             "rawText": "eventName",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 235,
                                             "end": 244
@@ -532,7 +531,7 @@ type PropEventSource<T> = {
                                                             {
                                                                 "kind": 4202702,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 249,
                                                                 "end": 255
@@ -547,27 +546,27 @@ type PropEventSource<T> = {
                                                                         "text": "T",
                                                                         "rawText": "T",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 263,
                                                                         "end": 265
                                                                     },
                                                                     "typeArguments": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 2097152,
                                                                     "start": 263,
                                                                     "end": 266
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 257,
                                                                 "end": 265
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 255,
                                                         "end": 265
@@ -575,7 +574,7 @@ type PropEventSource<T> = {
                                                     "rawText": "",
                                                     "text": "",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 245,
                                                     "end": 265
@@ -587,13 +586,13 @@ type PropEventSource<T> = {
                                                 "text": "Changed",
                                                 "literal": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 265,
                                                 "end": 274
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 245,
                                             "end": 274
@@ -602,7 +601,7 @@ type PropEventSource<T> = {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 235,
                                         "end": 274
@@ -615,7 +614,7 @@ type PropEventSource<T> = {
                                             "text": "callback",
                                             "rawText": "callback",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 275,
                                             "end": 284
@@ -629,7 +628,7 @@ type PropEventSource<T> = {
                                                 "parameterList": [],
                                                 "trailingcomma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 287,
                                                 "end": 287
@@ -637,13 +636,13 @@ type PropEventSource<T> = {
                                             "returnType": {
                                                 "kind": 4202742,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 291,
                                                 "end": 296
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 285,
                                             "end": 296
@@ -652,7 +651,7 @@ type PropEventSource<T> = {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 275,
                                         "end": 296
@@ -660,7 +659,7 @@ type PropEventSource<T> = {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 235,
                                 "end": 296
@@ -668,13 +667,13 @@ type PropEventSource<T> = {
                             "returnType": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 298,
                                 "end": 303
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 229,
                             "end": 304
@@ -682,13 +681,13 @@ type PropEventSource<T> = {
                     ],
                     "multiline": true,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 229,
                     "end": 306
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 227,
                 "end": 306
@@ -703,7 +702,7 @@ type PropEventSource<T> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 223,
                             "end": 224
@@ -712,20 +711,20 @@ type PropEventSource<T> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 223,
                         "end": 224
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 223,
                 "end": 224
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 201,
             "end": 307
@@ -737,7 +736,7 @@ type PropEventSource<T> = {
                 "text": "PropEventSource",
                 "rawText": "PropEventSource",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 312,
                 "end": 328
@@ -754,7 +753,7 @@ type PropEventSource<T> = {
                                 "text": "on",
                                 "rawText": "on",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 335,
                                 "end": 340
@@ -773,7 +772,7 @@ type PropEventSource<T> = {
                                             "text": "K",
                                             "rawText": "K",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 341,
                                             "end": 342
@@ -784,7 +783,7 @@ type PropEventSource<T> = {
                                                 {
                                                     "kind": 4202702,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 350,
                                                     "end": 357
@@ -799,27 +798,27 @@ type PropEventSource<T> = {
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 365,
                                                             "end": 367
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 365,
                                                         "end": 368
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 359,
                                                     "end": 367
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 357,
                                             "end": 367
@@ -827,14 +826,14 @@ type PropEventSource<T> = {
                                         "defaultType": null,
                                         "expression": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 341,
                                         "end": 367
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 341,
                                 "end": 367
@@ -850,7 +849,7 @@ type PropEventSource<T> = {
                                             "text": "eventName",
                                             "rawText": "eventName",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 374,
                                             "end": 383
@@ -868,14 +867,14 @@ type PropEventSource<T> = {
                                                             "text": "K",
                                                             "rawText": "K",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 388,
                                                             "end": 389
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 388,
                                                         "end": 390
@@ -883,7 +882,7 @@ type PropEventSource<T> = {
                                                     "rawText": "",
                                                     "text": "",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 384,
                                                     "end": 389
@@ -895,13 +894,13 @@ type PropEventSource<T> = {
                                                 "text": "Changed",
                                                 "literal": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 389,
                                                 "end": 398
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 384,
                                             "end": 398
@@ -910,7 +909,7 @@ type PropEventSource<T> = {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 374,
                                         "end": 398
@@ -923,7 +922,7 @@ type PropEventSource<T> = {
                                             "text": "callback",
                                             "rawText": "callback",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 399,
                                             "end": 408
@@ -943,7 +942,7 @@ type PropEventSource<T> = {
                                                             "text": "newValue",
                                                             "rawText": "newValue",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 411,
                                                             "end": 419
@@ -958,14 +957,14 @@ type PropEventSource<T> = {
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 420,
                                                                     "end": 422
                                                                 },
                                                                 "typeArguments": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 420,
                                                                 "end": 423
@@ -977,20 +976,20 @@ type PropEventSource<T> = {
                                                                     "text": "K",
                                                                     "rawText": "K",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 423,
                                                                     "end": 424
                                                                 },
                                                                 "typeArguments": null,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 423,
                                                                 "end": 425
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 420,
                                                             "end": 426
@@ -999,7 +998,7 @@ type PropEventSource<T> = {
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 411,
                                                         "end": 425
@@ -1007,7 +1006,7 @@ type PropEventSource<T> = {
                                                 ],
                                                 "trailingcomma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 411,
                                                 "end": 425
@@ -1015,13 +1014,13 @@ type PropEventSource<T> = {
                                             "returnType": {
                                                 "kind": 4202742,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 429,
                                                 "end": 434
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 409,
                                             "end": 434
@@ -1030,7 +1029,7 @@ type PropEventSource<T> = {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 399,
                                         "end": 434
@@ -1038,7 +1037,7 @@ type PropEventSource<T> = {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 374,
                                 "end": 434
@@ -1046,13 +1045,13 @@ type PropEventSource<T> = {
                             "returnType": {
                                 "kind": 4202742,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 437,
                                 "end": 442
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 335,
                             "end": 443
@@ -1060,13 +1059,13 @@ type PropEventSource<T> = {
                     ],
                     "multiline": true,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 335,
                     "end": 445
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 333,
                 "end": 445
@@ -1081,7 +1080,7 @@ type PropEventSource<T> = {
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 329,
                             "end": 330
@@ -1090,20 +1089,20 @@ type PropEventSource<T> = {
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 329,
                         "end": 330
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 329,
                 "end": 330
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 307,
             "end": 446
@@ -1112,7 +1111,6 @@ type PropEventSource<T> = {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1122,17 +1120,13 @@ type PropEventSource<T> = {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

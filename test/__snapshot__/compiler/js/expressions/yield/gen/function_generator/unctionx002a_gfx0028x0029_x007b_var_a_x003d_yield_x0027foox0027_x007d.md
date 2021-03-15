@@ -14,10 +14,9 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -86,7 +85,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                     "text": "unction",
                                                     "rawText": "unction",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 47
@@ -99,7 +98,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "text": "gf",
                                                         "rawText": "gf",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 51
@@ -111,24 +110,24 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 53,
                                                         "end": 53
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 51,
                                                     "end": 53
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 53
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 53
@@ -150,7 +149,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1025,
                                                                         "start": 59,
                                                                         "end": 61
@@ -162,26 +161,26 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                                         "text": "yield",
                                                                         "rawText": "yield",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 63,
                                                                         "end": 69
                                                                     },
                                                                     "flags": 59,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 33554432,
                                                                     "end": 69
                                                                 }
                                                             ],
                                                             "flags": 33554433,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 59,
                                                             "end": 69
                                                         },
                                                         "flags": 33554433,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 69
@@ -193,13 +192,13 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 33554433,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 69,
                                                             "end": 75
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 69,
                                                         "end": 76
@@ -207,13 +206,13 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                 ],
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 76
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 53,
                                             "end": 78
@@ -221,20 +220,20 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 78
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 80
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 80
@@ -242,20 +241,20 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 80
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 81
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 81
@@ -279,7 +278,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -289,17 +287,13 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ var {...[]} = {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var {...[]} = {}",
     "filename": "",
     "statements": [
@@ -38,13 +37,13 @@ var {...[]} = {}
                                                 "kind": 131322,
                                                 "text": "",
                                                 "flags": 3,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 9
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 8,
                                             "end": 10
@@ -57,20 +56,20 @@ var {...[]} = {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 1,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 10,
                                                 "end": 10
                                             },
                                             "right": null,
                                             "flags": 1,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 10,
                                             "end": 10
                                         },
                                         "flags": 1,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 5,
                                         "end": 10
@@ -80,12 +79,12 @@ var {...[]} = {}
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 11
@@ -100,32 +99,32 @@ var {...[]} = {}
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 16
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 16
@@ -149,7 +148,6 @@ var {...[]} = {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -159,17 +157,13 @@ var {...[]} = {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -16,10 +16,9 @@ var y!: MyComponent
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class MyComponent {\nngModel!: ng.INgModelController;\n}\n\nconst x!: string\n\nvar y!: MyComponent",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ var y!: MyComponent
                 "text": "MyComponent",
                 "rawText": "MyComponent",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 17
@@ -48,7 +47,7 @@ var y!: MyComponent
                             "text": "ngModel",
                             "rawText": "ngModel",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 27
@@ -68,7 +67,7 @@ var y!: MyComponent
                                     "text": "ng",
                                     "rawText": "ng",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 29,
                                     "end": 32
@@ -78,20 +77,20 @@ var y!: MyComponent
                                     "text": "INgModelController",
                                     "rawText": "INgModelController",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 33,
                                     "end": 51
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 29,
                                 "end": 51
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 29,
                             "end": 52
@@ -101,14 +100,14 @@ var y!: MyComponent
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 19,
                         "end": 52
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 19,
                 "end": 54
@@ -116,7 +115,7 @@ var y!: MyComponent
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 54
@@ -134,7 +133,7 @@ var y!: MyComponent
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 61,
                             "end": 63
@@ -143,27 +142,27 @@ var y!: MyComponent
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 65,
                             "end": 72
                         },
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 61,
                         "end": 72
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 61,
                 "end": 72
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 54,
             "end": 72
@@ -180,7 +179,7 @@ var y!: MyComponent
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 77,
                             "end": 79
@@ -193,34 +192,34 @@ var y!: MyComponent
                                 "text": "MyComponent",
                                 "rawText": "MyComponent",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 81,
                                 "end": 93
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 81,
                             "end": 93
                         },
                         "initializer": null,
                         "flags": 77,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 93
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 77,
                 "end": 93
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 72,
             "end": 93
@@ -229,7 +228,6 @@ var y!: MyComponent
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -239,17 +237,13 @@ var y!: MyComponent
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

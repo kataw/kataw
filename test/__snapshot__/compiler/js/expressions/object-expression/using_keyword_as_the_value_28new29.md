@@ -10,10 +10,9 @@ s = {s: new}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "s = {s: new}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ s = {s: new}
                     "text": "s",
                     "rawText": "s",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -44,7 +43,7 @@ s = {s: new}
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
@@ -55,7 +54,7 @@ s = {s: new}
                                         "kind": 131322,
                                         "text": "",
                                         "flags": 3,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 11
@@ -63,7 +62,7 @@ s = {s: new}
                                     "typeArguments": null,
                                     "argumentList": null,
                                     "flags": 7,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 32,
                                     "start": 1,
                                     "end": 11
@@ -71,7 +70,7 @@ s = {s: new}
                                 "accessModifier": null,
                                 "decorators": null,
                                 "flags": 1,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
@@ -80,25 +79,25 @@ s = {s: new}
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 1,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 11
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 12
@@ -115,7 +114,6 @@ s = {s: new}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -125,17 +123,13 @@ s = {s: new}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

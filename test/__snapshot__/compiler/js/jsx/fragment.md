@@ -25,10 +25,9 @@ class Columns extends React.Component {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Columns extends React.Component {\n        render() {\n          return (\n            <>\n              <td>Hello</td>\n              <td>World</td>\n            </>\n      );\n  }\n}",
     "filename": "",
     "statements": [
@@ -39,7 +38,7 @@ class Columns extends React.Component {
                 "text": "Columns",
                 "rawText": "Columns",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 13
@@ -54,7 +53,7 @@ class Columns extends React.Component {
                         "text": "React",
                         "rawText": "React",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 21,
                         "end": 27
@@ -64,13 +63,13 @@ class Columns extends React.Component {
                         "text": "Component",
                         "rawText": "Component",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 28,
                         "end": 37
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 27,
                     "end": 37,
@@ -82,7 +81,7 @@ class Columns extends React.Component {
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 37
@@ -104,7 +103,7 @@ class Columns extends React.Component {
                                 "text": "render",
                                 "rawText": "render",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 39,
                                 "end": 54
@@ -114,7 +113,7 @@ class Columns extends React.Component {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 55,
                                 "end": 56
@@ -135,7 +134,7 @@ class Columns extends React.Component {
                                                     "openingFragment": {
                                                         "kind": 133,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 77,
                                                         "end": 92
@@ -147,7 +146,7 @@ class Columns extends React.Component {
                                                                 "kind": 137,
                                                                 "text": "\n              ",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "parent": null,
                                                                 "start": 92,
@@ -161,7 +160,7 @@ class Columns extends React.Component {
                                                                         "kind": 129,
                                                                         "text": "td",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 108,
                                                                         "end": 110
@@ -170,14 +169,14 @@ class Columns extends React.Component {
                                                                         "kind": 123,
                                                                         "attributesList": [],
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 110,
                                                                         "end": 110
                                                                     },
                                                                     "typeArguments": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 107,
                                                                     "end": 111
@@ -189,7 +188,7 @@ class Columns extends React.Component {
                                                                             "kind": 137,
                                                                             "text": "Hello",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 8192,
                                                                             "parent": null,
                                                                             "start": 111,
@@ -197,7 +196,7 @@ class Columns extends React.Component {
                                                                         }
                                                                     ],
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 111,
                                                                     "end": 116
@@ -208,19 +207,19 @@ class Columns extends React.Component {
                                                                         "kind": 129,
                                                                         "text": "td",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 118,
                                                                         "end": 120
                                                                     },
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 116,
                                                                     "end": 121
                                                                 },
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "start": 107,
                                                                 "end": 121
@@ -229,7 +228,7 @@ class Columns extends React.Component {
                                                                 "kind": 137,
                                                                 "text": "\n              ",
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "parent": null,
                                                                 "start": 121,
@@ -243,7 +242,7 @@ class Columns extends React.Component {
                                                                         "kind": 129,
                                                                         "text": "td",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 137,
                                                                         "end": 139
@@ -252,14 +251,14 @@ class Columns extends React.Component {
                                                                         "kind": 123,
                                                                         "attributesList": [],
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 139,
                                                                         "end": 139
                                                                     },
                                                                     "typeArguments": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 136,
                                                                     "end": 140
@@ -271,7 +270,7 @@ class Columns extends React.Component {
                                                                             "kind": 137,
                                                                             "text": "World",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 8192,
                                                                             "parent": null,
                                                                             "start": 140,
@@ -279,7 +278,7 @@ class Columns extends React.Component {
                                                                         }
                                                                     ],
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 140,
                                                                     "end": 145
@@ -290,19 +289,19 @@ class Columns extends React.Component {
                                                                         "kind": 129,
                                                                         "text": "td",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 8192,
                                                                         "start": 147,
                                                                         "end": 149
                                                                     },
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 8192,
                                                                     "start": 145,
                                                                     "end": 150
                                                                 },
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "start": 136,
                                                                 "end": 150
@@ -311,7 +310,7 @@ class Columns extends React.Component {
                                                                 "kind": 137,
                                                                 "text": "\n            ",
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 8192,
                                                                 "parent": null,
                                                                 "start": 150,
@@ -319,7 +318,7 @@ class Columns extends React.Component {
                                                             }
                                                         ],
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 92,
                                                         "end": 163
@@ -327,25 +326,25 @@ class Columns extends React.Component {
                                                     "closingFragment": {
                                                         "kind": 638,
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 8192,
                                                         "start": 163,
                                                         "end": 166
                                                     },
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 8192,
                                                     "start": 77,
                                                     "end": 166
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 174
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 58,
                                             "end": 175
@@ -353,13 +352,13 @@ class Columns extends React.Component {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 58,
                                     "end": 175
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 56,
                                 "end": 179
@@ -369,20 +368,20 @@ class Columns extends React.Component {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 54,
                             "end": 179
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 39,
                         "end": 179
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 39,
                 "end": 181
@@ -390,7 +389,7 @@ class Columns extends React.Component {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 181
@@ -399,7 +398,6 @@ class Columns extends React.Component {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -409,17 +407,13 @@ class Columns extends React.Component {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

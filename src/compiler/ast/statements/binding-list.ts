@@ -21,7 +21,7 @@ export function createBindingList(
     kind: NodeKind.BindingList,
     bindingList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

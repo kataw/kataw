@@ -14,10 +14,9 @@ async () => {  \u0066unction = x  }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async () => {  \\u0066unction = x  }",
     "filename": "",
     "statements": [
@@ -33,7 +32,7 @@ async () => {  \u0066unction = x  }
                     "accessModifier": null,
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
@@ -50,7 +49,7 @@ async () => {  \u0066unction = x  }
                                     "text": "",
                                     "rawText": "",
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 28,
                                     "end": 28
@@ -60,7 +59,7 @@ async () => {  \u0066unction = x  }
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 1,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
@@ -78,13 +77,13 @@ async () => {  \u0066unction = x  }
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 32
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 32
@@ -92,20 +91,20 @@ async () => {  \u0066unction = x  }
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 28,
                                     "end": 35
                                 },
                                 "typeParameters": null,
                                 "flags": 8388608,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 256,
                                 "start": 13,
                                 "end": 35
@@ -113,25 +112,25 @@ async () => {  \u0066unction = x  }
                         ],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 35
                     },
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 35
                 },
                 "flags": 1073741825,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 35
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 35
@@ -155,7 +154,6 @@ async () => {  \u0066unction = x  }
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -165,17 +163,13 @@ async () => {  \u0066unction = x  }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

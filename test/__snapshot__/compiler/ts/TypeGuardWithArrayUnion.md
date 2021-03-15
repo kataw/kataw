@@ -18,10 +18,9 @@ function saySize(message: Message | Message[]) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Message {\n    value: string;\n}\n\nfunction saySize(message: Message | Message[]) {\n    if (message instanceof Array) {\n        return message.length;  // Should have type Message[] here\n    }\n}",
     "filename": "",
     "statements": [
@@ -32,7 +31,7 @@ function saySize(message: Message | Message[]) {
                 "text": "Message",
                 "rawText": "Message",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 13
@@ -50,7 +49,7 @@ function saySize(message: Message | Message[]) {
                             "text": "value",
                             "rawText": "value",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 25
@@ -64,7 +63,7 @@ function saySize(message: Message | Message[]) {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 26,
                             "end": 33
@@ -74,14 +73,14 @@ function saySize(message: Message | Message[]) {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 15,
                         "end": 34
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 15,
                 "end": 36
@@ -89,7 +88,7 @@ function saySize(message: Message | Message[]) {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 36
@@ -101,7 +100,7 @@ function saySize(message: Message | Message[]) {
                 "text": "saySize",
                 "rawText": "saySize",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 46,
                 "end": 54
@@ -117,7 +116,7 @@ function saySize(message: Message | Message[]) {
                             "text": "message",
                             "rawText": "message",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 55,
                             "end": 62
@@ -133,14 +132,14 @@ function saySize(message: Message | Message[]) {
                                         "text": "Message",
                                         "rawText": "Message",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 63,
                                         "end": 71
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 63,
                                     "end": 73
@@ -154,27 +153,27 @@ function saySize(message: Message | Message[]) {
                                             "text": "Message",
                                             "rawText": "Message",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 73,
                                             "end": 81
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 73,
                                         "end": 82
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 73,
                                     "end": 84
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 71,
                             "end": 83
@@ -184,7 +183,7 @@ function saySize(message: Message | Message[]) {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 55,
                         "end": 83
@@ -192,7 +191,7 @@ function saySize(message: Message | Message[]) {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 55,
                 "end": 84
@@ -212,7 +211,7 @@ function saySize(message: Message | Message[]) {
                                     "text": "message",
                                     "rawText": "message",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 95,
                                     "end": 102
@@ -223,13 +222,13 @@ function saySize(message: Message | Message[]) {
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 113,
                                     "end": 119
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 95,
                                 "end": 119
@@ -248,7 +247,7 @@ function saySize(message: Message | Message[]) {
                                                     "text": "message",
                                                     "rawText": "message",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 145
@@ -258,13 +257,13 @@ function saySize(message: Message | Message[]) {
                                                     "text": "length",
                                                     "rawText": "length",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 146,
                                                     "end": 152
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 145,
                                                 "end": 152,
@@ -275,7 +274,7 @@ function saySize(message: Message | Message[]) {
                                                 }
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 122,
                                             "end": 153
@@ -283,13 +282,13 @@ function saySize(message: Message | Message[]) {
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 122,
                                     "end": 153
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 120,
                                 "end": 195
@@ -297,7 +296,7 @@ function saySize(message: Message | Message[]) {
                             "alternate": null,
                             "isWebCompat": true,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 86,
                             "end": 195
@@ -305,20 +304,20 @@ function saySize(message: Message | Message[]) {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 86,
                     "end": 195
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 84,
                 "end": 197
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 36,
             "end": 197
@@ -327,7 +326,6 @@ function saySize(message: Message | Message[]) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -337,17 +335,13 @@ function saySize(message: Message | Message[]) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

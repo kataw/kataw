@@ -39,10 +39,9 @@ this.intervalID = (setInterval(() => {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const LOG_LEVEL = {\n    EMERGENCY: 0,\n    ALERT: 1,\n    CRITICAL: 2,\n    ERROR: 3,\n    WARNING: 4,\n    NOTICE: 5,\n    INFO: 6,\n    DEBUG: 7,\n} as const;\n\nconst TYPE_MAP = {\n    'character device': 'special',\n    'character special file': 'special',\n    directory: 'directory',\n    'regular file': 'file',\n    socket: 'socket',\n    'symbolic link': 'link',\n} as Foo;\n\nthis.previewPlayerHandle = (setInterval(async () => {\n  if (this.previewIsPlaying) {\n    await this.fetchNextPreviews();\n    this.currentPreviewIndex++;\n  }\n}, this.refreshDelay) as unknown) as number;\n\nthis.intervalID = (setInterval(() => {\n  self.step();\n}, 30) as unknown) as number;",
     "filename": "",
     "statements": [
@@ -59,7 +58,7 @@ this.intervalID = (setInterval(() => {
                             "text": "LOG_LEVEL",
                             "rawText": "LOG_LEVEL",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 15
@@ -80,7 +79,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "EMERGENCY",
                                                 "rawText": "EMERGENCY",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 33
@@ -90,7 +89,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 36
@@ -98,7 +97,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 19,
                                             "end": 36
@@ -110,7 +109,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "ALERT",
                                                 "rawText": "ALERT",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 47
@@ -120,7 +119,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 50
@@ -128,7 +127,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 50
@@ -140,7 +139,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "CRITICAL",
                                                 "rawText": "CRITICAL",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 64
@@ -150,7 +149,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 67
@@ -158,7 +157,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 51,
                                             "end": 67
@@ -170,7 +169,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "ERROR",
                                                 "rawText": "ERROR",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 78
@@ -180,7 +179,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 3,
                                                 "rawText": "3",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 81
@@ -188,7 +187,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 68,
                                             "end": 81
@@ -200,7 +199,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "WARNING",
                                                 "rawText": "WARNING",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 82,
                                                 "end": 94
@@ -210,7 +209,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 4,
                                                 "rawText": "4",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 95,
                                                 "end": 97
@@ -218,7 +217,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 82,
                                             "end": 97
@@ -230,7 +229,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "NOTICE",
                                                 "rawText": "NOTICE",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 109
@@ -240,7 +239,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 5,
                                                 "rawText": "5",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 110,
                                                 "end": 112
@@ -248,7 +247,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 98,
                                             "end": 112
@@ -260,7 +259,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "INFO",
                                                 "rawText": "INFO",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 113,
                                                 "end": 122
@@ -270,7 +269,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 6,
                                                 "rawText": "6",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 123,
                                                 "end": 125
@@ -278,7 +277,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 113,
                                             "end": 125
@@ -290,7 +289,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "DEBUG",
                                                 "rawText": "DEBUG",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 126,
                                                 "end": 136
@@ -300,7 +299,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": 7,
                                                 "rawText": "7",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 139
@@ -308,7 +307,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 126,
                                             "end": 139
@@ -317,13 +316,13 @@ this.intervalID = (setInterval(() => {
                                     "trailingComma": false,
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 140
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 17,
                                 "end": 142
@@ -335,39 +334,39 @@ this.intervalID = (setInterval(() => {
                                     "text": "const",
                                     "rawText": "const",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 145,
                                     "end": 151
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 145,
                                 "end": 152
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 142,
                             "end": 151
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 151
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 151
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 152
@@ -385,7 +384,7 @@ this.intervalID = (setInterval(() => {
                             "text": "TYPE_MAP",
                             "rawText": "TYPE_MAP",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 159,
                             "end": 168
@@ -406,7 +405,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "character device",
                                                 "rawText": "character device",
                                                 "flags": 33587200,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 172,
                                                 "end": 195
@@ -416,7 +415,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "special",
                                                 "rawText": "special",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 196,
                                                 "end": 206
@@ -424,7 +423,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 172,
                                             "end": 206
@@ -436,7 +435,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "character special file",
                                                 "rawText": "character special file",
                                                 "flags": 33587200,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 207,
                                                 "end": 236
@@ -446,7 +445,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "special",
                                                 "rawText": "special",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 237,
                                                 "end": 247
@@ -454,7 +453,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 207,
                                             "end": 247
@@ -466,7 +465,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "directory",
                                                 "rawText": "directory",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 248,
                                                 "end": 262
@@ -476,7 +475,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "directory",
                                                 "rawText": "directory",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 263,
                                                 "end": 275
@@ -484,7 +483,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 248,
                                             "end": 275
@@ -496,7 +495,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "regular file",
                                                 "rawText": "regular file",
                                                 "flags": 33587200,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 276,
                                                 "end": 295
@@ -506,7 +505,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "file",
                                                 "rawText": "file",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 296,
                                                 "end": 303
@@ -514,7 +513,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 276,
                                             "end": 303
@@ -526,7 +525,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "socket",
                                                 "rawText": "socket",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 304,
                                                 "end": 315
@@ -536,7 +535,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "socket",
                                                 "rawText": "socket",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 316,
                                                 "end": 325
@@ -544,7 +543,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 304,
                                             "end": 325
@@ -556,7 +555,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "symbolic link",
                                                 "rawText": "symbolic link",
                                                 "flags": 33587200,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 326,
                                                 "end": 346
@@ -566,7 +565,7 @@ this.intervalID = (setInterval(() => {
                                                 "text": "link",
                                                 "rawText": "link",
                                                 "flags": 33554432,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 347,
                                                 "end": 354
@@ -574,7 +573,7 @@ this.intervalID = (setInterval(() => {
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 326,
                                             "end": 354
@@ -583,13 +582,13 @@ this.intervalID = (setInterval(() => {
                                     "trailingComma": false,
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 172,
                                     "end": 355
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 170,
                                 "end": 357
@@ -601,39 +600,39 @@ this.intervalID = (setInterval(() => {
                                     "text": "Foo",
                                     "rawText": "Foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 360,
                                     "end": 364
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 360,
                                 "end": 365
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 357,
                             "end": 364
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 159,
                         "end": 364
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 159,
                 "end": 364
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 152,
             "end": 365
@@ -647,7 +646,7 @@ this.intervalID = (setInterval(() => {
                     "member": {
                         "kind": 4260571,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 365,
                         "end": 371
@@ -657,13 +656,13 @@ this.intervalID = (setInterval(() => {
                         "text": "previewPlayerHandle",
                         "rawText": "previewPlayerHandle",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 372,
                         "end": 391
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 371,
                     "end": 391,
@@ -687,7 +686,7 @@ this.intervalID = (setInterval(() => {
                                     "text": "setInterval",
                                     "rawText": "setInterval",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 395,
                                     "end": 406
@@ -712,7 +711,7 @@ this.intervalID = (setInterval(() => {
                                                                 "member": {
                                                                     "kind": 4260571,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 427,
                                                                     "end": 431
@@ -722,13 +721,13 @@ this.intervalID = (setInterval(() => {
                                                                     "text": "previewIsPlaying",
                                                                     "rawText": "previewIsPlaying",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 432,
                                                                     "end": 448
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 431,
                                                                 "end": 448,
@@ -754,7 +753,7 @@ this.intervalID = (setInterval(() => {
                                                                                         "member": {
                                                                                             "kind": 4260571,
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 461,
                                                                                             "end": 466
@@ -764,13 +763,13 @@ this.intervalID = (setInterval(() => {
                                                                                             "text": "fetchNextPreviews",
                                                                                             "rawText": "fetchNextPreviews",
                                                                                             "flags": 0,
-                                                                                            "intersects": false,
+                                                                                            "symbol": null,
                                                                                             "transformFlags": 0,
                                                                                             "start": 467,
                                                                                             "end": 484
                                                                                         },
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 466,
                                                                                         "end": 484,
@@ -787,24 +786,24 @@ this.intervalID = (setInterval(() => {
                                                                                         "trailingComma": false,
                                                                                         "transformFlags": 0,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "start": 486,
                                                                                         "end": 486
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 484,
                                                                                     "end": 486
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 32780,
                                                                                 "start": 451,
                                                                                 "end": 486
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 451,
                                                                             "end": 487
@@ -819,7 +818,7 @@ this.intervalID = (setInterval(() => {
                                                                                     "member": {
                                                                                         "kind": 4260571,
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 487,
                                                                                         "end": 496
@@ -829,13 +828,13 @@ this.intervalID = (setInterval(() => {
                                                                                         "text": "currentPreviewIndex",
                                                                                         "rawText": "currentPreviewIndex",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 497,
                                                                                         "end": 516
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 496,
                                                                                     "end": 516,
@@ -846,13 +845,13 @@ this.intervalID = (setInterval(() => {
                                                                                     }
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 487,
                                                                                 "end": 518
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 487,
                                                                             "end": 519
@@ -860,13 +859,13 @@ this.intervalID = (setInterval(() => {
                                                                     ],
                                                                     "multiline": true,
                                                                     "flags": 32768,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 451,
                                                                     "end": 519
                                                                 },
                                                                 "flags": 32768,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 449,
                                                                 "end": 523
@@ -874,7 +873,7 @@ this.intervalID = (setInterval(() => {
                                                             "alternate": null,
                                                             "isWebCompat": true,
                                                             "flags": 32768,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 420,
                                                             "end": 523
@@ -882,19 +881,19 @@ this.intervalID = (setInterval(() => {
                                                     ],
                                                     "multiline": true,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 420,
                                                     "end": 523
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 418,
                                                 "end": 525
                                             },
                                             "flags": 1073741824,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 407,
                                             "end": 525
@@ -904,7 +903,7 @@ this.intervalID = (setInterval(() => {
                                             "member": {
                                                 "kind": 4260571,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 526,
                                                 "end": 531
@@ -914,13 +913,13 @@ this.intervalID = (setInterval(() => {
                                                 "text": "refreshDelay",
                                                 "rawText": "refreshDelay",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 532,
                                                 "end": 544
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 531,
                                             "end": 544,
@@ -934,12 +933,12 @@ this.intervalID = (setInterval(() => {
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 412,
                                     "end": 545
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 406,
                                 "end": 545
@@ -947,19 +946,19 @@ this.intervalID = (setInterval(() => {
                             "type": {
                                 "kind": 4202738,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 548,
                                 "end": 556
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 545,
                             "end": 556
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 393,
                         "end": 557
@@ -967,25 +966,25 @@ this.intervalID = (setInterval(() => {
                     "type": {
                         "kind": 4202657,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 560,
                         "end": 567
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 557,
                     "end": 567
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 365,
                 "end": 567
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 365,
             "end": 568
@@ -999,7 +998,7 @@ this.intervalID = (setInterval(() => {
                     "member": {
                         "kind": 4260571,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 568,
                         "end": 574
@@ -1009,13 +1008,13 @@ this.intervalID = (setInterval(() => {
                         "text": "intervalID",
                         "rawText": "intervalID",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 575,
                         "end": 585
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 574,
                     "end": 585,
@@ -1039,7 +1038,7 @@ this.intervalID = (setInterval(() => {
                                     "text": "setInterval",
                                     "rawText": "setInterval",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 589,
                                     "end": 600
@@ -1058,7 +1057,7 @@ this.intervalID = (setInterval(() => {
                                                 "accessModifier": null,
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 601,
                                                 "end": 601
@@ -1079,7 +1078,7 @@ this.intervalID = (setInterval(() => {
                                                                         "text": "self",
                                                                         "rawText": "self",
                                                                         "flags": 32768,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 608,
                                                                         "end": 615
@@ -1089,13 +1088,13 @@ this.intervalID = (setInterval(() => {
                                                                         "text": "step",
                                                                         "rawText": "step",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 616,
                                                                         "end": 620
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 615,
                                                                     "end": 620,
@@ -1112,18 +1111,18 @@ this.intervalID = (setInterval(() => {
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 622,
                                                                     "end": 622
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 620,
                                                                 "end": 622
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 608,
                                                             "end": 623
@@ -1131,19 +1130,19 @@ this.intervalID = (setInterval(() => {
                                                     ],
                                                     "multiline": true,
                                                     "flags": 32768,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 608,
                                                     "end": 623
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 606,
                                                 "end": 625
                                             },
                                             "flags": 1073741824,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 601,
                                             "end": 625
@@ -1153,7 +1152,7 @@ this.intervalID = (setInterval(() => {
                                             "text": 30,
                                             "rawText": "30",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 626,
                                             "end": 629
@@ -1162,12 +1161,12 @@ this.intervalID = (setInterval(() => {
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 602,
                                     "end": 630
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 600,
                                 "end": 630
@@ -1175,19 +1174,19 @@ this.intervalID = (setInterval(() => {
                             "type": {
                                 "kind": 4202738,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 633,
                                 "end": 641
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 630,
                             "end": 641
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 587,
                         "end": 642
@@ -1195,25 +1194,25 @@ this.intervalID = (setInterval(() => {
                     "type": {
                         "kind": 4202657,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 645,
                         "end": 652
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 642,
                     "end": 652
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 568,
                 "end": 652
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 568,
             "end": 653
@@ -1222,7 +1221,6 @@ this.intervalID = (setInterval(() => {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1232,17 +1230,13 @@ this.intervalID = (setInterval(() => {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

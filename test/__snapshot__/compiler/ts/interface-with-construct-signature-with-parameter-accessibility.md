@@ -12,10 +12,9 @@ interface Test {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface Test {\n    new (public x, private y);\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ interface Test {
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 14
@@ -52,7 +51,7 @@ interface Test {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 32,
                                         "end": 34
@@ -63,14 +62,14 @@ interface Test {
                                     "accessModifier": {
                                         "kind": 4194494,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 26,
                                         "end": 32
                                     },
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 26,
                                     "end": 34
@@ -83,7 +82,7 @@ interface Test {
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 43,
                                         "end": 45
@@ -94,14 +93,14 @@ interface Test {
                                     "accessModifier": {
                                         "kind": 4194485,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 35,
                                         "end": 43
                                     },
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 35,
                                     "end": 45
@@ -109,14 +108,14 @@ interface Test {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 26,
                             "end": 45
                         },
                         "returnType": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 24,
                         "end": 47
@@ -124,13 +123,13 @@ interface Test {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 47
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 49
@@ -139,7 +138,6 @@ interface Test {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -149,17 +147,13 @@ interface Test {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

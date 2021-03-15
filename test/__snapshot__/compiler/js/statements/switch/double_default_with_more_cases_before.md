@@ -10,10 +10,9 @@ switch(x) { case y: break; case z: break; default: default: }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch(x) { case y: break; case z: break; default: default: }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ switch(x) { case y: break; case z: break; default: default: }
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
                 "end": 8
@@ -39,7 +38,7 @@ switch(x) { case y: break; case z: break; default: default: }
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 18
@@ -49,14 +48,14 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "kind": 2097193,
                                 "label": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 11,
                         "end": 26
@@ -68,7 +67,7 @@ switch(x) { case y: break; case z: break; default: default: }
                             "text": "z",
                             "rawText": "z",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 31,
                             "end": 33
@@ -78,14 +77,14 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "kind": 2097193,
                                 "label": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 41
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 26,
                         "end": 41
@@ -94,7 +93,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 65,
                         "statements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 41,
                         "end": 50
@@ -103,20 +102,20 @@ switch(x) { case y: break; case z: break; default: default: }
                         "kind": 65,
                         "statements": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 50,
                         "end": 59
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 61
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 61
@@ -125,7 +124,6 @@ switch(x) { case y: break; case z: break; default: default: }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -135,17 +133,13 @@ switch(x) { case y: break; case z: break; default: default: }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

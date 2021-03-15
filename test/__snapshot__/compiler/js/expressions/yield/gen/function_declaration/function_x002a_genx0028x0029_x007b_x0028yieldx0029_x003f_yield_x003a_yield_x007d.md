@@ -14,10 +14,9 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function * gen() { (yield) ? yield : yield } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                 "text": "gen",
                                 "rawText": "gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 31,
                                 "end": 35
@@ -66,7 +65,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -88,13 +87,13 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                         "delegate": false,
                                                         "expression": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 16393,
                                                         "start": 39,
                                                         "end": 46
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 47
@@ -104,7 +103,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                     "delegate": false,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 16393,
                                                     "start": 49,
                                                     "end": 55
@@ -114,19 +113,19 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                     "delegate": false,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 16393,
                                                     "start": 57,
                                                     "end": 63
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 63
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 39,
                                             "end": 63
@@ -134,20 +133,20 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 63
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 65
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 384,
                             "start": 20,
                             "end": 65
@@ -155,20 +154,20 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 65
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 67
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 67
@@ -185,7 +184,6 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -195,17 +193,13 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

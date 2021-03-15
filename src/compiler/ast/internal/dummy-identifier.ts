@@ -14,7 +14,7 @@ export function createDummyIdentifier(start: number, end: number): DummyIdentifi
     kind: NodeKind.DummyIdentifier,
     text: '',
     flags: NodeFlags.Synthetic | NodeFlags.HasErrors,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

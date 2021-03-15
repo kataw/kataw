@@ -15,7 +15,7 @@ export function createRestType(type: TypeNode, flags: NodeFlags, start: number, 
     kind: NodeKind.RestType,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

@@ -28,7 +28,7 @@ export function createTypePredicate(
     parameterName,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

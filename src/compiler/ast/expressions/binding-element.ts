@@ -30,7 +30,7 @@ export function createBindingElement(
     left,
     right,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None),
     start,
     end

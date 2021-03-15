@@ -19,7 +19,7 @@ export function createNonNullExpression(
     kind: NodeKind.NonNullExpression,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

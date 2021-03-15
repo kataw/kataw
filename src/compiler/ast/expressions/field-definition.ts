@@ -59,7 +59,7 @@ export function createFieldDefinition(
     accessModifier,
     isStatic,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ClassFields | TransformFlags.ESNext,
     start,
     end

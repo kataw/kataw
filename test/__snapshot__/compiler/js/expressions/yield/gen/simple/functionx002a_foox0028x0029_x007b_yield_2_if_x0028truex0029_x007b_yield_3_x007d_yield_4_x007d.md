@@ -14,10 +14,9 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 9,
                 "end": 13
@@ -38,7 +37,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 15
@@ -59,19 +58,19 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 16393,
                                 "start": 17,
                                 "end": 25
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 26
@@ -82,7 +81,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "kind": 4260391,
                                 "text": true,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 35
@@ -102,19 +101,19 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 46
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 16393,
                                                 "start": 38,
                                                 "end": 46
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 38,
                                             "end": 46
@@ -122,13 +121,13 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 38,
                                     "end": 46
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 48
@@ -136,7 +135,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "alternate": null,
                             "isWebCompat": true,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 48
@@ -144,7 +143,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                         {
                             "kind": 6291526,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 48,
                             "end": 49
@@ -159,19 +158,19 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 55,
                                     "end": 57
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 16393,
                                 "start": 49,
                                 "end": 57
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 49,
                             "end": 57
@@ -179,20 +178,20 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 57
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 59
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 59
@@ -201,7 +200,6 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -211,17 +209,13 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

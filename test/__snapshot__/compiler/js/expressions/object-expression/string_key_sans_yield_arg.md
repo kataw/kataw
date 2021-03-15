@@ -10,10 +10,9 @@ function *f(){   s = {"foo": yield}   }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function *f(){   s = {\"foo\": yield}   }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function *f(){   s = {"foo": yield}   }
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 11
@@ -34,7 +33,7 @@ function *f(){   s = {"foo": yield}   }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 13
@@ -54,7 +53,7 @@ function *f(){   s = {"foo": yield}   }
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
@@ -72,7 +71,7 @@ function *f(){   s = {"foo": yield}   }
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 27
@@ -82,7 +81,7 @@ function *f(){   s = {"foo": yield}   }
                                                     "delegate": false,
                                                     "expression": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 16393,
                                                     "start": 28,
                                                     "end": 34
@@ -90,7 +89,7 @@ function *f(){   s = {"foo": yield}   }
                                                 "accessModifier": null,
                                                 "decorators": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 34
@@ -99,25 +98,25 @@ function *f(){   s = {"foo": yield}   }
                                         "trailingComma": false,
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 22,
                                         "end": 34
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 35
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 35
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 35
@@ -125,20 +124,20 @@ function *f(){   s = {"foo": yield}   }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 35
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 39
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 39
@@ -147,7 +146,6 @@ function *f(){   s = {"foo": yield}   }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -157,17 +155,13 @@ function *f(){   s = {"foo": yield}   }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

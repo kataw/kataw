@@ -16,10 +16,9 @@ let result = recursive()(1)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function recursive() {\n    let x = <T>(subkey: T) => recursive();\n    return x as typeof x & { p };\n}\n\nlet result = recursive()(1)\n",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ let result = recursive()(1)
                 "text": "recursive",
                 "rawText": "recursive",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 18
@@ -40,7 +39,7 @@ let result = recursive()(1)
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 20
@@ -64,7 +63,7 @@ let result = recursive()(1)
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 30,
                                             "end": 32
@@ -80,14 +79,14 @@ let result = recursive()(1)
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 37
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 36,
                                                 "end": 38
@@ -103,7 +102,7 @@ let result = recursive()(1)
                                                             "text": "subkey",
                                                             "rawText": "subkey",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 45
@@ -116,14 +115,14 @@ let result = recursive()(1)
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 48
                                                             },
                                                             "typeArguments": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 46,
                                                             "end": 49
@@ -133,7 +132,7 @@ let result = recursive()(1)
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 38,
                                                         "end": 48
@@ -143,32 +142,32 @@ let result = recursive()(1)
                                                 "accessModifier": null,
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 49
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 34,
                                             "end": 49
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 30,
                                         "end": 49
                                     }
                                 ],
                                 "flags": 9,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,
                                 "end": 49
                             },
                             "flags": 32777,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 22,
                             "end": 49
@@ -176,20 +175,20 @@ let result = recursive()(1)
                     ],
                     "multiline": true,
                     "flags": 1,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 49
                 },
                 "flags": 1,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 49
             },
             "typeParameters": null,
             "flags": 1,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 49
@@ -203,7 +202,7 @@ let result = recursive()(1)
                     "text": "recursive",
                     "rawText": "recursive",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 52,
                     "end": 62
@@ -215,18 +214,18 @@ let result = recursive()(1)
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 64,
                     "end": 64
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 62,
                 "end": 64
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 52,
             "end": 65
@@ -240,7 +239,7 @@ let result = recursive()(1)
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 76,
                     "end": 78
@@ -255,13 +254,13 @@ let result = recursive()(1)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 88,
                                 "end": 90
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 81,
                             "end": 90
@@ -278,7 +277,7 @@ let result = recursive()(1)
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 94,
                                             "end": 96
@@ -290,7 +289,7 @@ let result = recursive()(1)
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 94,
                                         "end": 96
@@ -298,32 +297,32 @@ let result = recursive()(1)
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 94,
                                 "end": 98
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 92,
                             "end": 98
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 90,
                     "end": 98
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 78,
                 "end": 98
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 65,
             "end": 99
@@ -341,7 +340,7 @@ let result = recursive()(1)
                             "text": "result",
                             "rawText": "result",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 106,
                             "end": 113
@@ -357,7 +356,7 @@ let result = recursive()(1)
                                     "text": "recursive",
                                     "rawText": "recursive",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 115,
                                     "end": 125
@@ -369,12 +368,12 @@ let result = recursive()(1)
                                     "trailingComma": false,
                                     "transformFlags": 0,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "start": 127,
                                     "end": 127
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 125,
                                 "end": 127
@@ -388,7 +387,7 @@ let result = recursive()(1)
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 128,
                                         "end": 129
@@ -397,31 +396,31 @@ let result = recursive()(1)
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 129,
                                 "end": 130
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 127,
                             "end": 130
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 106,
                         "end": 130
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 106,
                 "end": 130
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 101,
             "end": 130
@@ -438,7 +437,6 @@ let result = recursive()(1)
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -448,17 +446,13 @@ let result = recursive()(1)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

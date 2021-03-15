@@ -23,10 +23,9 @@ var testArrayWithFunc = [
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var testArrayWithFunc = [\n    // Function comment\n    function() {\n        let x = 1;\n    },\n    // String comment\n    '1',\n    // Numeric comment\n    2,\n    // Object comment\n    { a: 1 },\n    // Array comment\n    [1, 2, 3]\n]",
     "filename": "",
     "statements": [
@@ -42,7 +41,7 @@ var testArrayWithFunc = [
                             "text": "testArrayWithFunc",
                             "rawText": "testArrayWithFunc",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 21
@@ -62,7 +61,7 @@ var testArrayWithFunc = [
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 63,
                                             "end": 64
@@ -85,7 +84,7 @@ var testArrayWithFunc = [
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1025,
                                                                         "start": 78,
                                                                         "end": 80
@@ -97,26 +96,26 @@ var testArrayWithFunc = [
                                                                         "text": 1,
                                                                         "rawText": "1",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 82,
                                                                         "end": 84
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 78,
                                                                     "end": 84
                                                                 }
                                                             ],
                                                             "flags": 8,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 78,
                                                             "end": 84
                                                         },
                                                         "flags": 32776,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 769,
                                                         "start": 66,
                                                         "end": 85
@@ -124,13 +123,13 @@ var testArrayWithFunc = [
                                                 ],
                                                 "multiline": true,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 85
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 64,
                                             "end": 91
@@ -138,7 +137,7 @@ var testArrayWithFunc = [
                                         "typeParameters": null,
                                         "type": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 25,
                                         "end": 91
@@ -148,7 +147,7 @@ var testArrayWithFunc = [
                                         "text": "1",
                                         "rawText": "1",
                                         "flags": 33587200,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 92,
                                         "end": 122
@@ -158,7 +157,7 @@ var testArrayWithFunc = [
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 123,
                                         "end": 152
@@ -175,7 +174,7 @@ var testArrayWithFunc = [
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 181,
                                                         "end": 183
@@ -185,7 +184,7 @@ var testArrayWithFunc = [
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 184,
                                                         "end": 186
@@ -193,7 +192,7 @@ var testArrayWithFunc = [
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 181,
                                                     "end": 186
@@ -202,13 +201,13 @@ var testArrayWithFunc = [
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 181,
                                             "end": 186
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 153,
                                         "end": 188
@@ -223,7 +222,7 @@ var testArrayWithFunc = [
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 216,
                                                     "end": 217
@@ -233,7 +232,7 @@ var testArrayWithFunc = [
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 218,
                                                     "end": 220
@@ -243,7 +242,7 @@ var testArrayWithFunc = [
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 221,
                                                     "end": 223
@@ -252,13 +251,13 @@ var testArrayWithFunc = [
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 216,
                                             "end": 223
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 189,
                                         "end": 224
@@ -267,32 +266,32 @@ var testArrayWithFunc = [
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 224
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 226
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 226
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 226
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 226
@@ -301,7 +300,6 @@ var testArrayWithFunc = [
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -311,17 +309,13 @@ var testArrayWithFunc = [
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

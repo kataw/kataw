@@ -20,10 +20,9 @@ Three
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "<em>\nOne\nTwo\nThree\n</em>",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ Three
                         "kind": 129,
                         "text": "em",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 1,
                         "end": 3
@@ -46,14 +45,14 @@ Three
                         "kind": 123,
                         "attributesList": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 3,
                         "end": 3
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 0,
                     "end": 4
@@ -65,7 +64,7 @@ Three
                             "kind": 137,
                             "text": "\nOne\nTwo\nThree\n",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 8192,
                             "parent": null,
                             "start": 4,
@@ -73,7 +72,7 @@ Three
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 4,
                     "end": 19
@@ -84,25 +83,25 @@ Three
                         "kind": 129,
                         "text": "em",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 19,
                     "end": 24
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 8192,
                 "start": 0,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 24
@@ -111,7 +110,6 @@ Three
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -121,17 +119,13 @@ Three
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

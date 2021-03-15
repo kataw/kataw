@@ -17,10 +17,9 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var y = { prot\\u0065cted: x } = { protected: 42 };",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -57,7 +56,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
                                                 "flags": 75497472,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 24
@@ -67,7 +66,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
@@ -75,7 +74,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 27
@@ -84,13 +83,13 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 9,
                                     "end": 27
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 29
@@ -108,7 +107,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "protected",
                                                 "rawText": "protected",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 43
@@ -118,7 +117,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 47
@@ -126,7 +125,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 33,
                                             "end": 47
@@ -135,38 +134,38 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 33,
                                     "end": 47
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 49
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 49
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 49
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 49
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 50
@@ -175,7 +174,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -185,17 +183,13 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

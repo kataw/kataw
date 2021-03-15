@@ -10,10 +10,9 @@ type Result<T extends {}> = Success<T> | Failure
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type Result<T extends {}> = Success<T> | Failure",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ type Result<T extends {}> = Success<T> | Failure
                 "text": "Result",
                 "rawText": "Result",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 11
@@ -39,7 +38,7 @@ type Result<T extends {}> = Success<T> | Failure
                             "text": "Success",
                             "rawText": "Success",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 27,
                             "end": 35
@@ -54,27 +53,27 @@ type Result<T extends {}> = Success<T> | Failure
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 36,
                                         "end": 37
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 36,
                                     "end": 38
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 36,
                             "end": 37
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 27,
                         "end": 40
@@ -86,21 +85,21 @@ type Result<T extends {}> = Success<T> | Failure
                             "text": "Failure",
                             "rawText": "Failure",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
                             "end": 48
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 40,
                         "end": 48
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 38,
                 "end": 48
@@ -115,7 +114,7 @@ type Result<T extends {}> = Success<T> | Failure
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 13
@@ -127,13 +126,13 @@ type Result<T extends {}> = Success<T> | Failure
                                 "members": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 23,
                                 "end": 24
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 21,
                             "end": 24
@@ -141,20 +140,20 @@ type Result<T extends {}> = Success<T> | Failure
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 12,
                         "end": 24
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 12,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 48
@@ -163,7 +162,6 @@ type Result<T extends {}> = Success<T> | Failure
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -173,17 +171,13 @@ type Result<T extends {}> = Success<T> | Failure
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

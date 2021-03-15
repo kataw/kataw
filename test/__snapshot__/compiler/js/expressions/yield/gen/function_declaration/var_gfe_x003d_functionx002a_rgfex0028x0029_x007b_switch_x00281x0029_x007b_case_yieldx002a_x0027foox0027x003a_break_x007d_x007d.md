@@ -14,10 +14,9 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -61,7 +60,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "text": "gfe",
                                             "rawText": "gfe",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 24,
                                             "end": 28
@@ -75,7 +74,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "text": "rgfe",
                                                 "rawText": "rgfe",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 40,
                                                 "end": 45
@@ -85,7 +84,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 47
@@ -102,7 +101,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 58,
                                                                 "end": 59
@@ -120,13 +119,13 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 33554432,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 74,
                                                                                 "end": 80
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 16393,
                                                                             "start": 67,
                                                                             "end": 80
@@ -136,27 +135,27 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                 "kind": 2097193,
                                                                                 "label": null,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 81,
                                                                                 "end": 88
                                                                             }
                                                                         ],
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 62,
                                                                         "end": 88
                                                                     }
                                                                 ],
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 60,
                                                                 "end": 90
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 90
@@ -164,13 +163,13 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 90
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 92
@@ -178,26 +177,26 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "typeParameters": null,
                                             "type": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 128,
                                             "start": 30,
                                             "end": 92
                                         },
                                         "flags": 24,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 92
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 24,
                                 "end": 92
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 92
@@ -205,20 +204,20 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 92
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 94
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 94
@@ -235,7 +234,6 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -245,17 +243,13 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

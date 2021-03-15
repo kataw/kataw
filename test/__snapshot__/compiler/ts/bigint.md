@@ -10,10 +10,9 @@ type T00 = bigint;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type T00 = bigint;",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ type T00 = bigint;
                 "text": "T00",
                 "rawText": "T00",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 8
@@ -32,14 +31,14 @@ type T00 = bigint;
             "type": {
                 "kind": 4202520,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 10,
                 "end": 17
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 18
@@ -48,7 +47,6 @@ type T00 = bigint;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -58,17 +56,13 @@ type T00 = bigint;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

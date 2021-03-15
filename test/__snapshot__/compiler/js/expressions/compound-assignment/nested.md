@@ -10,10 +10,9 @@ z(z(z(a&&=)));
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "z(z(z(a&&=)));",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ z(z(z(a&&=)));
                     "text": "z",
                     "rawText": "z",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -42,7 +41,7 @@ z(z(z(a&&=)));
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
@@ -58,7 +57,7 @@ z(z(z(a&&=)));
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
@@ -74,7 +73,7 @@ z(z(z(a&&=)));
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
@@ -84,13 +83,13 @@ z(z(z(a&&=)));
                                                         "kind": 131322,
                                                         "text": "",
                                                         "flags": 3,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 10
                                                     },
                                                     "flags": 1,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 34,
                                                     "start": 6,
                                                     "end": 10
@@ -99,12 +98,12 @@ z(z(z(a&&=)));
                                             "trailingComma": false,
                                             "transformFlags": 0,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "start": 7,
                                             "end": 11
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
@@ -113,12 +112,12 @@ z(z(z(a&&=)));
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 5,
                                 "end": 12
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 3,
                             "end": 12
@@ -127,18 +126,18 @@ z(z(z(a&&=)));
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 3,
                     "end": 13
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 14
@@ -155,7 +154,6 @@ z(z(z(a&&=)));
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -165,17 +163,13 @@ z(z(z(a&&=)));
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

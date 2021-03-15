@@ -10,10 +10,9 @@ interface I<T extends object = { x: number }> {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface I<T extends object = { x: number }> {}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ interface I<T extends object = { x: number }> {}
                 "text": "I",
                 "rawText": "I",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
@@ -39,7 +38,7 @@ interface I<T extends object = { x: number }> {}
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 13
@@ -47,7 +46,7 @@ interface I<T extends object = { x: number }> {}
                         "constraint": {
                             "kind": 4202663,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 21,
                             "end": 28
@@ -64,7 +63,7 @@ interface I<T extends object = { x: number }> {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 32,
                                             "end": 34
@@ -74,7 +73,7 @@ interface I<T extends object = { x: number }> {}
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 35,
                                             "end": 42
@@ -83,7 +82,7 @@ interface I<T extends object = { x: number }> {}
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 32,
                                         "end": 42
@@ -91,27 +90,27 @@ interface I<T extends object = { x: number }> {}
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 32,
                                 "end": 44
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 30,
                             "end": 44
                         },
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 12,
                         "end": 44
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 12,
                 "end": 44
@@ -122,13 +121,13 @@ interface I<T extends object = { x: number }> {}
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 47,
                 "end": 47
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 48
@@ -137,7 +136,6 @@ interface I<T extends object = { x: number }> {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -147,17 +145,13 @@ interface I<T extends object = { x: number }> {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

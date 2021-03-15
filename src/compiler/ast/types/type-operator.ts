@@ -25,7 +25,7 @@ export function createTypeOperator(
     operator,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

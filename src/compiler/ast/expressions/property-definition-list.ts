@@ -30,7 +30,7 @@ export function createPropertyDefinitionList(
     trailingComma,
     multiline,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

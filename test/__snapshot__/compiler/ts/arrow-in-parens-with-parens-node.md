@@ -10,10 +10,9 @@ var asserted1 = <any>((n) => { return n; });
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var asserted1 = <any>((n) => { return n; });",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var asserted1 = <any>((n) => { return n; });
                             "text": "asserted1",
                             "rawText": "asserted1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 13
@@ -41,7 +40,7 @@ var asserted1 = <any>((n) => { return n; });
                             "type": {
                                 "kind": 4202498,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 17,
                                 "end": 20
@@ -62,7 +61,7 @@ var asserted1 = <any>((n) => { return n; });
                                                     "text": "n",
                                                     "rawText": "n",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 24
@@ -74,7 +73,7 @@ var asserted1 = <any>((n) => { return n; });
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 22,
                                                 "end": 25
@@ -84,7 +83,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "accessModifier": null,
                                         "trailingComma": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 22,
                                         "end": 25
@@ -101,13 +100,13 @@ var asserted1 = <any>((n) => { return n; });
                                                         "text": "n",
                                                         "rawText": "n",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 39
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 40
@@ -115,50 +114,50 @@ var asserted1 = <any>((n) => { return n; });
                                             ],
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 30,
                                             "end": 40
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 28,
                                         "end": 42
                                     },
                                     "flags": 1073741824,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 22,
                                     "end": 42
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 15,
                             "end": 43
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 43
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 43
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 44
@@ -167,7 +166,6 @@ var asserted1 = <any>((n) => { return n; });
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -177,17 +175,13 @@ var asserted1 = <any>((n) => { return n; });
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

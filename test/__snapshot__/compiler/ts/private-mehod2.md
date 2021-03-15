@@ -10,10 +10,9 @@ const ranges = test.rangesByText().get("#foo");
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const ranges = test.rangesByText().get(\"#foo\");",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ const ranges = test.rangesByText().get("#foo");
                             "text": "ranges",
                             "rawText": "ranges",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 12
@@ -50,7 +49,7 @@ const ranges = test.rangesByText().get("#foo");
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 14,
                                             "end": 19
@@ -60,13 +59,13 @@ const ranges = test.rangesByText().get("#foo");
                                             "text": "rangesByText",
                                             "rawText": "rangesByText",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 20,
                                             "end": 32
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 19,
                                         "end": 32,
@@ -83,12 +82,12 @@ const ranges = test.rangesByText().get("#foo");
                                         "trailingComma": false,
                                         "transformFlags": 0,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
@@ -98,13 +97,13 @@ const ranges = test.rangesByText().get("#foo");
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 38,
@@ -123,7 +122,7 @@ const ranges = test.rangesByText().get("#foo");
                                         "text": "#foo",
                                         "rawText": "#foo",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 39,
                                         "end": 45
@@ -132,31 +131,31 @@ const ranges = test.rangesByText().get("#foo");
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 45,
                                 "end": 46
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 38,
                             "end": 46
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 46
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 46
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 47
@@ -165,7 +164,6 @@ const ranges = test.rangesByText().get("#foo");
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -175,17 +173,13 @@ const ranges = test.rangesByText().get("#foo");
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

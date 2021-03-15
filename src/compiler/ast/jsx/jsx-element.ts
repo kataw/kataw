@@ -28,7 +28,7 @@ export function createJsxElement(
     children,
     closingElement,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: openingElement.transformFlags | children.transformFlags | closingElement.transformFlags,
     start,
     end

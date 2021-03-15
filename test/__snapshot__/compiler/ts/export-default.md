@@ -16,10 +16,9 @@ export default (function log() {} as typeof console.log)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export default (function log() {} as typeof console.log)",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ export default (function log() {} as typeof console.log)
                             "text": "log",
                             "rawText": "log",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 24,
                             "end": 28
@@ -46,7 +45,7 @@ export default (function log() {} as typeof console.log)
                             "formalParameterList": [],
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 29,
                             "end": 30
@@ -58,13 +57,13 @@ export default (function log() {} as typeof console.log)
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 32
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 33
@@ -72,7 +71,7 @@ export default (function log() {} as typeof console.log)
                         "typeParameters": null,
                         "type": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 16,
                         "end": 33
@@ -86,7 +85,7 @@ export default (function log() {} as typeof console.log)
                                 "text": "console",
                                 "rawText": "console",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 43,
                                 "end": 51
@@ -96,37 +95,37 @@ export default (function log() {} as typeof console.log)
                                 "text": "log",
                                 "rawText": "log",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 52,
                                 "end": 55
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 43,
                             "end": 55
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 36,
                         "end": 55
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 33,
                     "end": 55
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 56
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 56
@@ -143,7 +142,6 @@ export default (function log() {} as typeof console.log)
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -153,17 +151,13 @@ export default (function log() {} as typeof console.log)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

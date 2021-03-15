@@ -12,10 +12,9 @@ function foo({bar, baz}: {bar: string, baz}) {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function foo({bar, baz}: {bar: string, baz}) {\n\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -50,14 +49,14 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 14,
                                             "end": 17
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 14,
                                         "end": 17
@@ -70,14 +69,14 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "text": "baz",
                                             "rawText": "baz",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 18,
                                             "end": 22
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1024,
                                         "start": 18,
                                         "end": 22
@@ -87,12 +86,12 @@ function foo({bar, baz}: {bar: string, baz}) {
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 14,
                                 "end": 22
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 13,
                             "end": 23
@@ -110,7 +109,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 29
@@ -120,7 +119,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 30,
                                             "end": 37
@@ -129,7 +128,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 26,
                                         "end": 38
@@ -141,7 +140,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "text": "baz",
                                             "rawText": "baz",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 38,
                                             "end": 42
@@ -153,7 +152,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 38,
                                         "end": 42
@@ -161,13 +160,13 @@ function foo({bar, baz}: {bar: string, baz}) {
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 26,
                                 "end": 43
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 24,
                             "end": 43
@@ -177,7 +176,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 13,
                         "end": 43
@@ -185,7 +184,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 44
@@ -198,20 +197,20 @@ function foo({bar, baz}: {bar: string, baz}) {
                     "statements": [],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 46,
                     "end": 46
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 44,
                 "end": 49
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 49
@@ -220,7 +219,6 @@ function foo({bar, baz}: {bar: string, baz}) {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -230,17 +228,13 @@ function foo({bar, baz}: {bar: string, baz}) {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

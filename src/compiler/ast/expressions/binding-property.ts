@@ -40,7 +40,7 @@ export function createBindingProperty(
     key,
     value,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
     start,
     end

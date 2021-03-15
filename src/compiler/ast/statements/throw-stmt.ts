@@ -19,7 +19,7 @@ export function createThrowStatement(
     kind: NodeKind.ThrowStatement,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

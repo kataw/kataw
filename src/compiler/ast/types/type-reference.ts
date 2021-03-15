@@ -26,7 +26,7 @@ export function createTypeReference(
     typeName,
     typeArguments,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

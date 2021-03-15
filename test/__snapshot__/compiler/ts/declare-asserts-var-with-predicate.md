@@ -10,10 +10,9 @@ declare function assertIsString(value: unknown): asserts value is string;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function assertIsString(value: unknown): asserts value is string;",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                 "text": "assertIsString",
                 "rawText": "assertIsString",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 16,
                 "end": 31
@@ -40,7 +39,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                             "text": "value",
                             "rawText": "value",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 32,
                             "end": 37
@@ -49,7 +48,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                         "type": {
                             "kind": 4202738,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 38,
                             "end": 46
@@ -59,7 +58,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 32,
                         "end": 46
@@ -67,7 +66,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 47
@@ -80,7 +79,7 @@ declare function assertIsString(value: unknown): asserts value is string;
                     "text": "value",
                     "rawText": "value",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 56,
                     "end": 62
@@ -88,13 +87,13 @@ declare function assertIsString(value: unknown): asserts value is string;
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 65,
                     "end": 72
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 48,
                 "end": 72
@@ -102,7 +101,7 @@ declare function assertIsString(value: unknown): asserts value is string;
             "contents": null,
             "typeParameters": null,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 73
@@ -111,7 +110,6 @@ declare function assertIsString(value: unknown): asserts value is string;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -121,17 +119,13 @@ declare function assertIsString(value: unknown): asserts value is string;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

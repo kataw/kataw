@@ -23,7 +23,7 @@ export function createIndexedAccessType(
     objectType,
     indexType,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

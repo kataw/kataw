@@ -35,13 +35,15 @@ export function san(dir: any) {
 export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): any {
   const files: string[] = [];
   const combo = path + file;
-  if (statSync(combo).isFile()) {
-    if (combo.slice(-3) === '.md' && combo.slice(-'README.md'.length) !== 'README.md') {
-      files.push(combo);
+  if (existsSync(combo)) {
+    if (statSync(combo).isFile()) {
+      if (combo.slice(-3) === '.md' && combo.slice(-'README.md'.length) !== 'README.md') {
+        files.push(combo);
+      }
+    } else {
+      readdirSync(combo + '/').forEach((s) => files.push(...getTestFiles(combo + '/', s, silent, dirsToo)));
+      if (dirsToo) files.push(combo);
     }
-  } else {
-    readdirSync(combo + '/').forEach((s) => files.push(...getTestFiles(combo + '/', s, silent, dirsToo)));
-    if (dirsToo) files.push(combo);
   }
   return files;
 }

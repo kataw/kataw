@@ -31,7 +31,7 @@ export function createJsxSelfClosingElement(
     attributes,
     typeArguments,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: tagName.transformFlags | attributes.transformFlags,
     start,
     end

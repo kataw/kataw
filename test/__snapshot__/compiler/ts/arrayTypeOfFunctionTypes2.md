@@ -36,10 +36,9 @@ var r6b = r5();
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var x: new () => string[];\nvar r = x[1];\nvar r2 = new r();\nvar r2b = r();\n\nvar x2: { new(): string }[];\nvar r3 = x[1];\nvar r4 = new r3();\nvar r4b = new r3();\n\nvar x3: Array<new () => string>;\nvar r5 = x2[1];\nvar r6 = new r5();\nvar r6b = r5();\n\nvar x;\nvar r = x[1];\nvar r2 = new r();\nvar r2b = r();\nvar x2;\nvar r3 = x[1];\nvar r4 = new r3();\nvar r4b = new r3();\nvar x3;\nvar r5 = x2[1];\nvar r6 = new r5();\nvar r6b = r5();",
     "filename": "",
     "statements": [
@@ -55,7 +54,7 @@ var r6b = r5();
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -72,7 +71,7 @@ var r6b = r5();
                                 "parameterList": [],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 12,
                                 "end": 12
@@ -82,39 +81,39 @@ var r6b = r5();
                                 "elementType": {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 16,
                                     "end": 23
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 16,
                                 "end": 26
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 6,
                             "end": 25
                         },
                         "initializer": null,
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 25
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 26
@@ -131,7 +130,7 @@ var r6b = r5();
                             "text": "r",
                             "rawText": "r",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 30,
                             "end": 32
@@ -145,7 +144,7 @@ var r6b = r5();
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
@@ -155,32 +154,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 38
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 36,
                             "end": 39
                         },
                         "flags": 30,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 39
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 30,
                 "end": 39
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 26,
             "end": 40
@@ -197,7 +196,7 @@ var r6b = r5();
                             "text": "r2",
                             "rawText": "r2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 44,
                             "end": 47
@@ -211,7 +210,7 @@ var r6b = r5();
                                 "text": "r",
                                 "rawText": "r",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 53,
                                 "end": 55
@@ -223,31 +222,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 56,
                                 "end": 56
                             },
                             "flags": 49,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 57
                         },
                         "flags": 44,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 57
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 44,
                 "end": 57
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 40,
             "end": 58
@@ -264,7 +263,7 @@ var r6b = r5();
                             "text": "r2b",
                             "rawText": "r2b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 62,
                             "end": 66
@@ -278,7 +277,7 @@ var r6b = r5();
                                 "text": "r",
                                 "rawText": "r",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 68,
                                 "end": 70
@@ -290,31 +289,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 72,
                                 "end": 72
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 70,
                             "end": 72
                         },
                         "flags": 62,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 72
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 62,
                 "end": 72
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 58,
             "end": 73
@@ -331,7 +330,7 @@ var r6b = r5();
                             "text": "x2",
                             "rawText": "x2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 78,
                             "end": 81
@@ -354,7 +353,7 @@ var r6b = r5();
                                                 "parameterList": [],
                                                 "trailingcomma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 89,
                                                 "end": 89
@@ -362,13 +361,13 @@ var r6b = r5();
                                             "returnType": {
                                                 "kind": 4202702,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 91,
                                                 "end": 98
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 88,
                                             "end": 98
@@ -376,39 +375,39 @@ var r6b = r5();
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 84,
                                     "end": 100
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 82,
                                 "end": 100
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 82,
                             "end": 103
                         },
                         "initializer": null,
                         "flags": 78,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 102
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 78,
                 "end": 102
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 73,
             "end": 103
@@ -425,7 +424,7 @@ var r6b = r5();
                             "text": "r3",
                             "rawText": "r3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 107,
                             "end": 110
@@ -439,7 +438,7 @@ var r6b = r5();
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 112,
                                 "end": 114
@@ -449,32 +448,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 115,
                                 "end": 116
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 114,
                             "end": 117
                         },
                         "flags": 107,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 117
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 107,
                 "end": 117
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 103,
             "end": 118
@@ -491,7 +490,7 @@ var r6b = r5();
                             "text": "r4",
                             "rawText": "r4",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 122,
                             "end": 125
@@ -505,7 +504,7 @@ var r6b = r5();
                                 "text": "r3",
                                 "rawText": "r3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 131,
                                 "end": 134
@@ -517,31 +516,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 135,
                                 "end": 135
                             },
                             "flags": 127,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 136
                         },
                         "flags": 122,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 136
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 122,
                 "end": 136
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 118,
             "end": 137
@@ -558,7 +557,7 @@ var r6b = r5();
                             "text": "r4b",
                             "rawText": "r4b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 141,
                             "end": 145
@@ -572,7 +571,7 @@ var r6b = r5();
                                 "text": "r3",
                                 "rawText": "r3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 151,
                                 "end": 154
@@ -584,31 +583,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 155,
                                 "end": 155
                             },
                             "flags": 147,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 156
                         },
                         "flags": 141,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 156
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 141,
                 "end": 156
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 137,
             "end": 157
@@ -625,7 +624,7 @@ var r6b = r5();
                             "text": "x3",
                             "rawText": "x3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 162,
                             "end": 165
@@ -638,7 +637,7 @@ var r6b = r5();
                                 "text": "Array",
                                 "rawText": "Array",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 166,
                                 "end": 172
@@ -657,7 +656,7 @@ var r6b = r5();
                                             "parameterList": [],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 178,
                                             "end": 178
@@ -665,46 +664,46 @@ var r6b = r5();
                                         "returnType": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 182,
                                             "end": 189
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 173,
                                         "end": 189
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 173,
                                 "end": 189
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 166,
                             "end": 191
                         },
                         "initializer": null,
                         "flags": 162,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 190
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 162,
                 "end": 190
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 157,
             "end": 191
@@ -721,7 +720,7 @@ var r6b = r5();
                             "text": "r5",
                             "rawText": "r5",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 195,
                             "end": 198
@@ -735,7 +734,7 @@ var r6b = r5();
                                 "text": "x2",
                                 "rawText": "x2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 200,
                                 "end": 203
@@ -745,32 +744,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 204,
                                 "end": 205
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 203,
                             "end": 206
                         },
                         "flags": 195,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 206
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 195,
                 "end": 206
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 191,
             "end": 207
@@ -787,7 +786,7 @@ var r6b = r5();
                             "text": "r6",
                             "rawText": "r6",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 211,
                             "end": 214
@@ -801,7 +800,7 @@ var r6b = r5();
                                 "text": "r5",
                                 "rawText": "r5",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 220,
                                 "end": 223
@@ -813,31 +812,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 224,
                                 "end": 224
                             },
                             "flags": 216,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 225
                         },
                         "flags": 211,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 225
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 211,
                 "end": 225
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 207,
             "end": 226
@@ -854,7 +853,7 @@ var r6b = r5();
                             "text": "r6b",
                             "rawText": "r6b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 230,
                             "end": 234
@@ -868,7 +867,7 @@ var r6b = r5();
                                 "text": "r5",
                                 "rawText": "r5",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 236,
                                 "end": 239
@@ -880,31 +879,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 241,
                                 "end": 241
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 239,
                             "end": 241
                         },
                         "flags": 230,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 241
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 230,
                 "end": 241
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 226,
             "end": 242
@@ -921,7 +920,7 @@ var r6b = r5();
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 247,
                             "end": 249
@@ -930,20 +929,20 @@ var r6b = r5();
                         "type": null,
                         "initializer": null,
                         "flags": 247,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 249
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 247,
                 "end": 249
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 242,
             "end": 250
@@ -960,7 +959,7 @@ var r6b = r5();
                             "text": "r",
                             "rawText": "r",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 254,
                             "end": 256
@@ -974,7 +973,7 @@ var r6b = r5();
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 258,
                                 "end": 260
@@ -984,32 +983,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 261,
                                 "end": 262
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 260,
                             "end": 263
                         },
                         "flags": 254,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 263
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 254,
                 "end": 263
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 250,
             "end": 264
@@ -1026,7 +1025,7 @@ var r6b = r5();
                             "text": "r2",
                             "rawText": "r2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 268,
                             "end": 271
@@ -1040,7 +1039,7 @@ var r6b = r5();
                                 "text": "r",
                                 "rawText": "r",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 277,
                                 "end": 279
@@ -1052,31 +1051,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 280,
                                 "end": 280
                             },
                             "flags": 273,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 281
                         },
                         "flags": 268,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 281
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 268,
                 "end": 281
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 264,
             "end": 282
@@ -1093,7 +1092,7 @@ var r6b = r5();
                             "text": "r2b",
                             "rawText": "r2b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 286,
                             "end": 290
@@ -1107,7 +1106,7 @@ var r6b = r5();
                                 "text": "r",
                                 "rawText": "r",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 292,
                                 "end": 294
@@ -1119,31 +1118,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 296,
                                 "end": 296
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 294,
                             "end": 296
                         },
                         "flags": 286,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 296
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 286,
                 "end": 296
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 282,
             "end": 297
@@ -1160,7 +1159,7 @@ var r6b = r5();
                             "text": "x2",
                             "rawText": "x2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 301,
                             "end": 304
@@ -1169,20 +1168,20 @@ var r6b = r5();
                         "type": null,
                         "initializer": null,
                         "flags": 301,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 304
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 301,
                 "end": 304
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 297,
             "end": 305
@@ -1199,7 +1198,7 @@ var r6b = r5();
                             "text": "r3",
                             "rawText": "r3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 309,
                             "end": 312
@@ -1213,7 +1212,7 @@ var r6b = r5();
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 314,
                                 "end": 316
@@ -1223,32 +1222,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 317,
                                 "end": 318
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 316,
                             "end": 319
                         },
                         "flags": 309,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 319
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 309,
                 "end": 319
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 305,
             "end": 320
@@ -1265,7 +1264,7 @@ var r6b = r5();
                             "text": "r4",
                             "rawText": "r4",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 324,
                             "end": 327
@@ -1279,7 +1278,7 @@ var r6b = r5();
                                 "text": "r3",
                                 "rawText": "r3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 333,
                                 "end": 336
@@ -1291,31 +1290,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 337,
                                 "end": 337
                             },
                             "flags": 329,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 338
                         },
                         "flags": 324,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 338
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 324,
                 "end": 338
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 320,
             "end": 339
@@ -1332,7 +1331,7 @@ var r6b = r5();
                             "text": "r4b",
                             "rawText": "r4b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 343,
                             "end": 347
@@ -1346,7 +1345,7 @@ var r6b = r5();
                                 "text": "r3",
                                 "rawText": "r3",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 353,
                                 "end": 356
@@ -1358,31 +1357,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 357,
                                 "end": 357
                             },
                             "flags": 349,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 358
                         },
                         "flags": 343,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 358
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 343,
                 "end": 358
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 339,
             "end": 359
@@ -1399,7 +1398,7 @@ var r6b = r5();
                             "text": "x3",
                             "rawText": "x3",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 363,
                             "end": 366
@@ -1408,20 +1407,20 @@ var r6b = r5();
                         "type": null,
                         "initializer": null,
                         "flags": 363,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 366
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 363,
                 "end": 366
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 359,
             "end": 367
@@ -1438,7 +1437,7 @@ var r6b = r5();
                             "text": "r5",
                             "rawText": "r5",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 371,
                             "end": 374
@@ -1452,7 +1451,7 @@ var r6b = r5();
                                 "text": "x2",
                                 "rawText": "x2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 376,
                                 "end": 379
@@ -1462,32 +1461,32 @@ var r6b = r5();
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 380,
                                 "end": 381
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 379,
                             "end": 382
                         },
                         "flags": 371,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 382
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 371,
                 "end": 382
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 367,
             "end": 383
@@ -1504,7 +1503,7 @@ var r6b = r5();
                             "text": "r6",
                             "rawText": "r6",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 387,
                             "end": 390
@@ -1518,7 +1517,7 @@ var r6b = r5();
                                 "text": "r5",
                                 "rawText": "r5",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 396,
                                 "end": 399
@@ -1530,31 +1529,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 400,
                                 "end": 400
                             },
                             "flags": 392,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 32,
                             "start": 0,
                             "end": 401
                         },
                         "flags": 387,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 401
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 387,
                 "end": 401
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 383,
             "end": 402
@@ -1571,7 +1570,7 @@ var r6b = r5();
                             "text": "r6b",
                             "rawText": "r6b",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 406,
                             "end": 410
@@ -1585,7 +1584,7 @@ var r6b = r5();
                                 "text": "r5",
                                 "rawText": "r5",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 412,
                                 "end": 415
@@ -1597,31 +1596,31 @@ var r6b = r5();
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 417,
                                 "end": 417
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 415,
                             "end": 417
                         },
                         "flags": 406,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 417
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 406,
                 "end": 417
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 402,
             "end": 418
@@ -1630,7 +1629,6 @@ var r6b = r5();
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1640,17 +1638,13 @@ var r6b = r5();
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

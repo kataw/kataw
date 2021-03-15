@@ -10,10 +10,9 @@ f = ([xCls2 = class { static name() {} }]) => {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "f = ([xCls2 = class { static name() {} }]) => {}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                     "text": "f",
                     "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -53,7 +52,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                     "text": "xCls2",
                                                     "rawText": "xCls2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 11
@@ -80,7 +79,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                         "text": "name",
                                                                         "rawText": "name",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 28,
                                                                         "end": 33
@@ -90,7 +89,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                         "formalParameterList": [],
                                                                         "trailingComma": false,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 34,
                                                                         "end": 35
@@ -104,13 +103,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                             "statements": [],
                                                                             "multiline": false,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 37,
                                                                             "end": 37
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 35,
                                                                         "end": 38
@@ -120,33 +119,33 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                     "accessModifier": null,
                                                                     "typeParameters": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 38
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1,
                                                                 "start": 21,
                                                                 "end": 38
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 21,
                                                         "end": 40
                                                     },
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 13,
                                                     "end": 40
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 40
@@ -155,13 +154,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                         "trailingComma": false,
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 6,
                                         "end": 40
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 41
@@ -173,7 +172,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 3,
                                 "end": 42
@@ -183,7 +182,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                         "accessModifier": null,
                         "trailingComma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 42
@@ -195,31 +194,31 @@ f = ([xCls2 = class { static name() {} }]) => {}
                             "statements": [],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 47,
                             "end": 47
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 45,
                         "end": 48
                     },
                     "flags": 1073741824,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 48
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 48
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 48
@@ -228,7 +227,6 @@ f = ([xCls2 = class { static name() {} }]) => {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -238,17 +236,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

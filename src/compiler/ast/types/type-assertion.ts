@@ -24,7 +24,7 @@ export function createTypeAssertion(
     type,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

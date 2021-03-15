@@ -29,10 +29,9 @@ const TestRender = () => <TestComponent />;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import * as React from \"react\";\nclass TestComponent extends React.Component<{ isAny: <T>(obj: any) => obj is T }> {\n    static defaultProps = {\n        isAny: TestComponent.isAny\n    }\n\n    // Type guard is defined as a static class property\n    static isAny<T>(obj: any): obj is T {\n        return true;\n    }\n}\n\nconst TestRender = () => <TestComponent />;",
     "filename": "",
     "statements": [
@@ -43,7 +42,7 @@ const TestRender = () => <TestComponent />;
                 "text": "react",
                 "rawText": "react",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 30
@@ -57,7 +56,7 @@ const TestRender = () => <TestComponent />;
                     "text": "React",
                     "rawText": "React",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 11,
                     "end": 17
@@ -65,13 +64,13 @@ const TestRender = () => <TestComponent />;
                 "namedImports": null,
                 "isTypeOnly": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 17
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 31
@@ -83,7 +82,7 @@ const TestRender = () => <TestComponent />;
                 "text": "TestComponent",
                 "rawText": "TestComponent",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 37,
                 "end": 51
@@ -98,7 +97,7 @@ const TestRender = () => <TestComponent />;
                         "text": "React",
                         "rawText": "React",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 59,
                         "end": 65
@@ -108,13 +107,13 @@ const TestRender = () => <TestComponent />;
                         "text": "Component",
                         "rawText": "Component",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 66,
                         "end": 75
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 65,
                     "end": 75,
@@ -139,7 +138,7 @@ const TestRender = () => <TestComponent />;
                                             "text": "isAny",
                                             "rawText": "isAny",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 77,
                                             "end": 83
@@ -158,7 +157,7 @@ const TestRender = () => <TestComponent />;
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 86,
                                                             "end": 87
@@ -167,14 +166,14 @@ const TestRender = () => <TestComponent />;
                                                         "defaultType": null,
                                                         "expression": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 86,
                                                         "end": 87
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 86,
                                                 "end": 87
@@ -190,7 +189,7 @@ const TestRender = () => <TestComponent />;
                                                             "text": "obj",
                                                             "rawText": "obj",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 89,
                                                             "end": 92
@@ -199,7 +198,7 @@ const TestRender = () => <TestComponent />;
                                                         "type": {
                                                             "kind": 4202498,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 2097152,
                                                             "start": 93,
                                                             "end": 97
@@ -208,7 +207,7 @@ const TestRender = () => <TestComponent />;
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 89,
                                                         "end": 97
@@ -216,7 +215,7 @@ const TestRender = () => <TestComponent />;
                                                 ],
                                                 "trailingcomma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 89,
                                                 "end": 97
@@ -229,7 +228,7 @@ const TestRender = () => <TestComponent />;
                                                     "text": "obj",
                                                     "rawText": "obj",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 101,
                                                     "end": 105
@@ -241,26 +240,26 @@ const TestRender = () => <TestComponent />;
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 108,
                                                         "end": 110
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 108,
                                                     "end": 112
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 101,
                                                 "end": 110
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 84,
                                             "end": 110
@@ -269,7 +268,7 @@ const TestRender = () => <TestComponent />;
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 77,
                                         "end": 110
@@ -277,26 +276,26 @@ const TestRender = () => <TestComponent />;
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 77,
                                 "end": 112
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 76,
                             "end": 112
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 76,
                     "end": 112
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 59,
                 "end": 113
@@ -312,7 +311,7 @@ const TestRender = () => <TestComponent />;
                             "text": "defaultProps",
                             "rawText": "defaultProps",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 126,
                             "end": 139
@@ -336,7 +335,7 @@ const TestRender = () => <TestComponent />;
                                             "text": "isAny",
                                             "rawText": "isAny",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 143,
                                             "end": 157
@@ -348,7 +347,7 @@ const TestRender = () => <TestComponent />;
                                                 "text": "TestComponent",
                                                 "rawText": "TestComponent",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 158,
                                                 "end": 172
@@ -358,13 +357,13 @@ const TestRender = () => <TestComponent />;
                                                 "text": "isAny",
                                                 "rawText": "isAny",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 173,
                                                 "end": 178
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 172,
                                             "end": 178,
@@ -377,7 +376,7 @@ const TestRender = () => <TestComponent />;
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 143,
                                         "end": 178
@@ -386,13 +385,13 @@ const TestRender = () => <TestComponent />;
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 143,
                                 "end": 178
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 141,
                             "end": 184
@@ -401,7 +400,7 @@ const TestRender = () => <TestComponent />;
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 115,
                         "end": 184
@@ -419,7 +418,7 @@ const TestRender = () => <TestComponent />;
                                 "text": "isAny",
                                 "rawText": "isAny",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 252,
                                 "end": 258
@@ -435,7 +434,7 @@ const TestRender = () => <TestComponent />;
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 262,
                                             "end": 265
@@ -444,7 +443,7 @@ const TestRender = () => <TestComponent />;
                                         "type": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 266,
                                             "end": 270
@@ -454,7 +453,7 @@ const TestRender = () => <TestComponent />;
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 262,
                                         "end": 270
@@ -462,7 +461,7 @@ const TestRender = () => <TestComponent />;
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 262,
                                 "end": 271
@@ -480,13 +479,13 @@ const TestRender = () => <TestComponent />;
                                                 "kind": 4260391,
                                                 "text": true,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 298,
                                                 "end": 303
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 283,
                                             "end": 304
@@ -494,13 +493,13 @@ const TestRender = () => <TestComponent />;
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 283,
                                     "end": 304
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 281,
                                 "end": 310
@@ -514,7 +513,7 @@ const TestRender = () => <TestComponent />;
                                     "text": "obj",
                                     "rawText": "obj",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 272,
                                     "end": 276
@@ -526,20 +525,20 @@ const TestRender = () => <TestComponent />;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 279,
                                         "end": 281
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 279,
                                     "end": 283
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 272,
                                 "end": 281
@@ -555,7 +554,7 @@ const TestRender = () => <TestComponent />;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 259,
                                             "end": 260
@@ -564,33 +563,33 @@ const TestRender = () => <TestComponent />;
                                         "defaultType": null,
                                         "expression": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 259,
                                         "end": 260
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 259,
                                 "end": 260
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 258,
                             "end": 310
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 184,
                         "end": 310
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 115,
                 "end": 312
@@ -598,7 +597,7 @@ const TestRender = () => <TestComponent />;
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 31,
             "end": 312
@@ -616,7 +615,7 @@ const TestRender = () => <TestComponent />;
                             "text": "TestRender",
                             "rawText": "TestRender",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 319,
                             "end": 330
@@ -633,7 +632,7 @@ const TestRender = () => <TestComponent />;
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 332,
                                 "end": 332
@@ -644,7 +643,7 @@ const TestRender = () => <TestComponent />;
                                     "kind": 129,
                                     "text": "TestComponent",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 340,
                                     "end": 353
@@ -653,39 +652,39 @@ const TestRender = () => <TestComponent />;
                                     "kind": 123,
                                     "attributesList": [],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 8192,
                                     "start": 353,
                                     "end": 353
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 338,
                                 "end": 356
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 332,
                             "end": 356
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 319,
                         "end": 356
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 319,
                 "end": 356
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 312,
             "end": 357
@@ -694,7 +693,6 @@ const TestRender = () => <TestComponent />;
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -704,17 +702,13 @@ const TestRender = () => <TestComponent />;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

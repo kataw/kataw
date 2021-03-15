@@ -10,10 +10,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x extends y {constructor(){    ({\"foo\": super}) => x    }}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -37,14 +36,14 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 17
@@ -66,7 +65,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 30
@@ -76,7 +75,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 31,
                                 "end": 32
@@ -111,7 +110,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 39,
                                                                                 "end": 44
@@ -121,7 +120,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "member": {
                                                                                     "kind": 4260561,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 45,
                                                                                     "end": 51
@@ -131,13 +130,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                     "text": "",
                                                                                     "rawText": "",
                                                                                     "flags": 1,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 51,
                                                                                     "end": 51
                                                                                 },
                                                                                 "flags": 45,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 1,
                                                                                 "end": 51
@@ -145,7 +144,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                             "accessModifier": null,
                                                                             "decorators": null,
                                                                             "flags": 1,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 39,
                                                                             "end": 51
@@ -154,13 +153,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                     "trailingComma": false,
                                                                     "multiline": false,
                                                                     "flags": 1,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 39,
                                                                     "end": 51
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 52
@@ -172,7 +171,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 33,
                                                             "end": 53
@@ -182,7 +181,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "accessModifier": null,
                                                     "trailingComma": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 53
@@ -192,19 +191,19 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 58
                                                 },
                                                 "flags": 1073741824,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 58
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 33,
                                             "end": 58
@@ -212,13 +211,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 33,
                                     "end": 58
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 63
@@ -228,20 +227,20 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 30,
                             "end": 63
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 19,
                         "end": 63
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 19,
                 "end": 64
@@ -249,7 +248,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 64
@@ -266,7 +265,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -276,17 +274,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

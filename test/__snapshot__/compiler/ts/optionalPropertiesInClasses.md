@@ -26,10 +26,9 @@ class C3 implements ifoo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface ifoo {\n\tx?:number;\n\ty:number;\n}\n\nclass C1 implements ifoo {\n\tpublic y:number;\n}\n\nclass C2 implements ifoo { // ERROR - still need 'y'\n\tpublic x:number;\n}\n\nclass C3 implements ifoo {\n\tpublic x:number;\n\tpublic y:number;\n}",
     "filename": "",
     "statements": [
@@ -40,7 +39,7 @@ class C3 implements ifoo {
                 "text": "ifoo",
                 "rawText": "ifoo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 14
@@ -57,7 +56,7 @@ class C3 implements ifoo {
                             "text": "x",
                             "rawText": "x",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 19
@@ -67,7 +66,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 21,
                             "end": 27
@@ -76,7 +75,7 @@ class C3 implements ifoo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 16,
                         "end": 28
@@ -88,7 +87,7 @@ class C3 implements ifoo {
                             "text": "y",
                             "rawText": "y",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 31
@@ -98,7 +97,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 32,
                             "end": 38
@@ -107,7 +106,7 @@ class C3 implements ifoo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 28,
                         "end": 39
@@ -115,13 +114,13 @@ class C3 implements ifoo {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 16,
                 "end": 39
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 41
@@ -133,7 +132,7 @@ class C3 implements ifoo {
                 "text": "C1",
                 "rawText": "C1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 48,
                 "end": 51
@@ -152,27 +151,27 @@ class C3 implements ifoo {
                                 "text": "ifoo",
                                 "rawText": "ifoo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 62,
                                 "end": 67
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 62,
                             "end": 69
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 62,
                         "end": 67
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 62,
                 "end": 67
@@ -187,7 +186,7 @@ class C3 implements ifoo {
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 77,
                             "end": 79
@@ -201,7 +200,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 80,
                             "end": 86
@@ -211,21 +210,21 @@ class C3 implements ifoo {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 69,
                             "end": 77
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 69,
                         "end": 87
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 69,
                 "end": 89
@@ -233,7 +232,7 @@ class C3 implements ifoo {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 41,
             "end": 89
@@ -245,7 +244,7 @@ class C3 implements ifoo {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 96,
                 "end": 99
@@ -264,27 +263,27 @@ class C3 implements ifoo {
                                 "text": "ifoo",
                                 "rawText": "ifoo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 110,
                                 "end": 115
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 110,
                             "end": 117
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 110,
                         "end": 115
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 110,
                 "end": 115
@@ -299,7 +298,7 @@ class C3 implements ifoo {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 151,
                             "end": 153
@@ -313,7 +312,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 154,
                             "end": 160
@@ -323,21 +322,21 @@ class C3 implements ifoo {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 117,
                             "end": 151
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 117,
                         "end": 161
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 117,
                 "end": 163
@@ -345,7 +344,7 @@ class C3 implements ifoo {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 89,
             "end": 163
@@ -357,7 +356,7 @@ class C3 implements ifoo {
                 "text": "C3",
                 "rawText": "C3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 170,
                 "end": 173
@@ -376,27 +375,27 @@ class C3 implements ifoo {
                                 "text": "ifoo",
                                 "rawText": "ifoo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 184,
                                 "end": 189
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 184,
                             "end": 191
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 184,
                         "end": 189
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 184,
                 "end": 189
@@ -411,7 +410,7 @@ class C3 implements ifoo {
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 199,
                             "end": 201
@@ -425,7 +424,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 202,
                             "end": 208
@@ -435,14 +434,14 @@ class C3 implements ifoo {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 191,
                             "end": 199
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 191,
                         "end": 209
@@ -454,7 +453,7 @@ class C3 implements ifoo {
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 217,
                             "end": 219
@@ -468,7 +467,7 @@ class C3 implements ifoo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 220,
                             "end": 226
@@ -478,21 +477,21 @@ class C3 implements ifoo {
                         "accessModifier": {
                             "kind": 4194494,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 209,
                             "end": 217
                         },
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 209,
                         "end": 227
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 191,
                 "end": 229
@@ -500,7 +499,7 @@ class C3 implements ifoo {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 163,
             "end": 229
@@ -509,7 +508,6 @@ class C3 implements ifoo {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -519,17 +517,13 @@ class C3 implements ifoo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

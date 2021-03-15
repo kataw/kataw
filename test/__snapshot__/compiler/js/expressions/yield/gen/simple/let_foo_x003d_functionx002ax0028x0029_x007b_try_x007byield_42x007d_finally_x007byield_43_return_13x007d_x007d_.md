@@ -14,10 +14,9 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let foo = function*() { try {yield 42} finally {yield 43; return 13} };",
     "filename": "",
     "statements": [
@@ -34,7 +33,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 7
@@ -49,7 +48,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
@@ -76,19 +75,19 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "text": 42,
                                                                     "rawText": "42",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 34,
                                                                     "end": 37
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 16393,
                                                                 "start": 29,
                                                                 "end": 37
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 37
@@ -96,13 +95,13 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 37
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 38
@@ -123,19 +122,19 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "text": 43,
                                                                     "rawText": "43",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 53,
                                                                     "end": 56
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 16393,
                                                                 "start": 48,
                                                                 "end": 56
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 48,
                                                             "end": 57
@@ -147,13 +146,13 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "text": 13,
                                                                 "rawText": "13",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 64,
                                                                 "end": 67
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 57,
                                                             "end": 67
@@ -161,19 +160,19 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 67
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 68
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 23,
                                             "end": 68
@@ -181,13 +180,13 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,
                                     "end": 68
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 21,
                                 "end": 70
@@ -195,26 +194,26 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 128,
                             "start": 9,
                             "end": 70
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 70
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 70
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 71
@@ -223,7 +222,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -233,17 +231,13 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

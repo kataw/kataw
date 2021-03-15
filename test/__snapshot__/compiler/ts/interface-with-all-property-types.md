@@ -23,10 +23,9 @@ interface Foo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface Foo {\n    baa: number;\n    bar?: number;\n    [bax]: string;\n    [baz]?: string;\n    [eee: number]: string;\n    [fff?: number]: string;\n    doo(): void;\n    doo?(a, b, c): void;\n    [loo]?(a, b, c): void;\n    boo<J>(a, b, c): void;\n    new (a, b?): string;\n    new <F>(a, b?): string;\n}",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ interface Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 13
@@ -54,7 +53,7 @@ interface Foo {
                             "text": "baa",
                             "rawText": "baa",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 23
@@ -64,7 +63,7 @@ interface Foo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 24,
                             "end": 31
@@ -73,7 +72,7 @@ interface Foo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 15,
                         "end": 32
@@ -85,7 +84,7 @@ interface Foo {
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 32,
                             "end": 40
@@ -95,7 +94,7 @@ interface Foo {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 42,
                             "end": 49
@@ -104,7 +103,7 @@ interface Foo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 32,
                         "end": 50
@@ -118,13 +117,13 @@ interface Foo {
                                 "text": "bax",
                                 "rawText": "bax",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 56,
                                 "end": 59
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 50,
                             "end": 60
@@ -134,7 +133,7 @@ interface Foo {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 61,
                             "end": 68
@@ -143,7 +142,7 @@ interface Foo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 50,
                         "end": 69
@@ -157,13 +156,13 @@ interface Foo {
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 75,
                                 "end": 78
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 69,
                             "end": 79
@@ -173,7 +172,7 @@ interface Foo {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 81,
                             "end": 88
@@ -182,7 +181,7 @@ interface Foo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 69,
                         "end": 89
@@ -201,7 +200,7 @@ interface Foo {
                                         "text": "eee",
                                         "rawText": "eee",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 95,
                                         "end": 98
@@ -210,7 +209,7 @@ interface Foo {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 99,
                                         "end": 106
@@ -219,7 +218,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 95,
                                     "end": 106
@@ -227,7 +226,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 95,
                             "end": 106
@@ -235,7 +234,7 @@ interface Foo {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 108,
                             "end": 115
@@ -243,7 +242,7 @@ interface Foo {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 95,
                         "end": 116
@@ -262,7 +261,7 @@ interface Foo {
                                         "text": "fff",
                                         "rawText": "fff",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 122,
                                         "end": 125
@@ -271,7 +270,7 @@ interface Foo {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 127,
                                         "end": 134
@@ -280,7 +279,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 122,
                                     "end": 134
@@ -288,7 +287,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 122,
                             "end": 134
@@ -296,7 +295,7 @@ interface Foo {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 136,
                             "end": 143
@@ -304,7 +303,7 @@ interface Foo {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 122,
                         "end": 144
@@ -316,7 +315,7 @@ interface Foo {
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 144,
                             "end": 152
@@ -331,7 +330,7 @@ interface Foo {
                             "parameterList": [],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 153,
                             "end": 153
@@ -339,13 +338,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 155,
                             "end": 160
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 144,
                         "end": 161
@@ -357,7 +356,7 @@ interface Foo {
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 161,
                             "end": 169
@@ -378,7 +377,7 @@ interface Foo {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 171,
                                         "end": 172
@@ -389,7 +388,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 171,
                                     "end": 172
@@ -402,7 +401,7 @@ interface Foo {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 173,
                                         "end": 175
@@ -413,7 +412,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 173,
                                     "end": 175
@@ -426,7 +425,7 @@ interface Foo {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 176,
                                         "end": 178
@@ -437,7 +436,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 176,
                                     "end": 178
@@ -445,7 +444,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 171,
                             "end": 178
@@ -453,13 +452,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 180,
                             "end": 185
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 161,
                         "end": 186
@@ -473,13 +472,13 @@ interface Foo {
                                 "text": "loo",
                                 "rawText": "loo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 192,
                                 "end": 195
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 131073,
                             "start": 186,
                             "end": 196
@@ -500,7 +499,7 @@ interface Foo {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 198,
                                         "end": 199
@@ -511,7 +510,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 198,
                                     "end": 199
@@ -524,7 +523,7 @@ interface Foo {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 200,
                                         "end": 202
@@ -535,7 +534,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 200,
                                     "end": 202
@@ -548,7 +547,7 @@ interface Foo {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 203,
                                         "end": 205
@@ -559,7 +558,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 203,
                                     "end": 205
@@ -567,7 +566,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 198,
                             "end": 205
@@ -575,13 +574,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 207,
                             "end": 212
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 186,
                         "end": 213
@@ -593,7 +592,7 @@ interface Foo {
                             "text": "boo",
                             "rawText": "boo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 213,
                             "end": 221
@@ -612,7 +611,7 @@ interface Foo {
                                         "text": "J",
                                         "rawText": "J",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 222,
                                         "end": 223
@@ -621,14 +620,14 @@ interface Foo {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 222,
                                     "end": 223
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 222,
                             "end": 223
@@ -644,7 +643,7 @@ interface Foo {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 225,
                                         "end": 226
@@ -655,7 +654,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 225,
                                     "end": 226
@@ -668,7 +667,7 @@ interface Foo {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 227,
                                         "end": 229
@@ -679,7 +678,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 227,
                                     "end": 229
@@ -692,7 +691,7 @@ interface Foo {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 230,
                                         "end": 232
@@ -703,7 +702,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 230,
                                     "end": 232
@@ -711,7 +710,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 225,
                             "end": 232
@@ -719,13 +718,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 234,
                             "end": 239
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 213,
                         "end": 240
@@ -746,7 +745,7 @@ interface Foo {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 250,
                                         "end": 251
@@ -757,7 +756,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 250,
                                     "end": 251
@@ -770,7 +769,7 @@ interface Foo {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 252,
                                         "end": 254
@@ -781,7 +780,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 252,
                                     "end": 255
@@ -789,7 +788,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 250,
                             "end": 255
@@ -797,13 +796,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 257,
                             "end": 264
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 248,
                         "end": 265
@@ -822,7 +821,7 @@ interface Foo {
                                         "text": "F",
                                         "rawText": "F",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 275,
                                         "end": 276
@@ -831,14 +830,14 @@ interface Foo {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 275,
                                     "end": 276
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 275,
                             "end": 276
@@ -854,7 +853,7 @@ interface Foo {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 278,
                                         "end": 279
@@ -865,7 +864,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 278,
                                     "end": 279
@@ -878,7 +877,7 @@ interface Foo {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 280,
                                         "end": 282
@@ -889,7 +888,7 @@ interface Foo {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 280,
                                     "end": 283
@@ -897,7 +896,7 @@ interface Foo {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 278,
                             "end": 283
@@ -905,13 +904,13 @@ interface Foo {
                         "returnType": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 285,
                             "end": 292
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 273,
                         "end": 293
@@ -919,13 +918,13 @@ interface Foo {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 15,
                 "end": 293
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 295
@@ -934,7 +933,6 @@ interface Foo {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -944,17 +942,13 @@ interface Foo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

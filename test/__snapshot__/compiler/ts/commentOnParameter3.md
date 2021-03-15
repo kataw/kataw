@@ -14,10 +14,9 @@ b /* parameter b */,
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function commentedParameters(\na /* parameter a */,\nb /* parameter b */,\n/* extra comment */\n) { }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ b /* parameter b */,
                 "text": "commentedParameters",
                 "rawText": "commentedParameters",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 28
@@ -44,7 +43,7 @@ b /* parameter b */,
                             "text": "a",
                             "rawText": "a",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 29,
                             "end": 31
@@ -56,7 +55,7 @@ b /* parameter b */,
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 29,
                         "end": 31
@@ -69,7 +68,7 @@ b /* parameter b */,
                             "text": "b",
                             "rawText": "b",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 50,
                             "end": 52
@@ -81,7 +80,7 @@ b /* parameter b */,
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 50,
                         "end": 52
@@ -89,7 +88,7 @@ b /* parameter b */,
                 ],
                 "trailingComma": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 93
@@ -102,20 +101,20 @@ b /* parameter b */,
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 95,
                     "end": 95
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 93,
                 "end": 97
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 97
@@ -124,7 +123,6 @@ b /* parameter b */,
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -134,17 +132,13 @@ b /* parameter b */,
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

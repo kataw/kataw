@@ -22,7 +22,7 @@ export function createLexicalDeclaration(
     isConst,
     binding,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       TransformFlags.HoistedDeclarationOrCompletion |
       (flags & NodeFlags.BlockScoped ? TransformFlags.ES2015 | TransformFlags.BlockScopedBinding : TransformFlags.None),

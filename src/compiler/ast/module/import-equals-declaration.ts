@@ -25,7 +25,7 @@ export function createImportEqualsDeclaration(
     moduleReference,
     isTypeOnly,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

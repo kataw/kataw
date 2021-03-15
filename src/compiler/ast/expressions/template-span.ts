@@ -1,7 +1,6 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Expression } from '.';
-import { TemplateExpression } from './template-expression';
 
 /**
  * Template span
@@ -26,7 +25,7 @@ export function createTemplateSpan(
     text,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

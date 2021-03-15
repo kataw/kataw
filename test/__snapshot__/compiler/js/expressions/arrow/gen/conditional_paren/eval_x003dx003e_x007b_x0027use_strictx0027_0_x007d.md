@@ -14,10 +14,9 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "bar ? baz : ( eval => { 'use strict'; 0 } );",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 3
@@ -40,7 +39,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
                     "end": 9
@@ -61,7 +60,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
@@ -73,7 +72,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 11,
                                     "end": 18
@@ -83,7 +82,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                             "accessModifier": null,
                             "trailingComma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 18
@@ -100,13 +99,13 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 33554432,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 23,
                                             "end": 36
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 23,
                                         "end": 37
@@ -118,13 +117,13 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 39
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 37,
                                         "end": 39
@@ -132,37 +131,37 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 23,
                                 "end": 39
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 41
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 11,
                         "end": 41
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 43
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 43
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 44
@@ -171,7 +170,6 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -181,17 +179,13 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

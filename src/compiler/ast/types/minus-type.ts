@@ -15,7 +15,7 @@ export function createMinusType(expression: Expression, flags: NodeFlags, start:
     kind: NodeKind.MinusType,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

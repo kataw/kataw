@@ -313,10 +313,9 @@ class x {static async * #(){}}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class # {}",
     "filename": "",
     "statements": [
@@ -327,7 +326,7 @@ class x {static async * #(){}}
                 "text": "#",
                 "rawText": "class",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -339,7 +338,7 @@ class x {static async * #(){}}
                 "kind": 50,
                 "elements": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 10
@@ -347,7 +346,7 @@ class x {static async * #(){}}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 10
@@ -371,7 +370,6 @@ class x {static async * #(){}}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -381,17 +379,13 @@ class x {static async * #(){}}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

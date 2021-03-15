@@ -10,10 +10,9 @@ foo: do { bar: do continue bar;while(z) } while(z)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo: do { bar: do continue bar;while(z) } while(z)",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
@@ -36,7 +35,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                     "text": "z",
                     "rawText": "z",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 48,
                     "end": 49
@@ -53,7 +52,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
@@ -65,7 +64,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 37,
                                         "end": 38
@@ -77,26 +76,26 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 30
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 17,
                                         "end": 31
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 39
                                 },
                                 "isWebCompat": true,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 9,
                                 "end": 39
@@ -104,26 +103,26 @@ foo: do { bar: do continue bar;while(z) } while(z)
                         ],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 39
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 41
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 50
             },
             "isWebCompat": true,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 50
@@ -132,7 +131,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -142,17 +140,13 @@ foo: do { bar: do continue bar;while(z) } while(z)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -22,10 +22,9 @@ load(function(z?) {}) // this shouldn't be an error
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface ICallback {\n    (x?: string):void;\n}\n\nfunction load(f: ICallback) {}\n\nvar f1: ICallback = function(z?) {}\nvar f2: ICallback = function(z?) {}\nload(f1) // ok\nload(f2) // ok\nload(function() {}) // this shouldn@{x2019}@t be an error\nload(function(z?) {}) // this shouldn't be an error\n",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ load(function(z?) {}) // this shouldn't be an error
                 "text": "ICallback",
                 "rawText": "ICallback",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 19
@@ -62,7 +61,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 27,
                                         "end": 28
@@ -71,7 +70,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 30,
                                         "end": 37
@@ -80,7 +79,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 27,
                                     "end": 37
@@ -88,7 +87,7 @@ load(function(z?) {}) // this shouldn't be an error
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 27,
                             "end": 37
@@ -96,13 +95,13 @@ load(function(z?) {}) // this shouldn't be an error
                         "returnType": {
                             "kind": 4202742,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 39,
                             "end": 43
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 21,
                         "end": 44
@@ -110,13 +109,13 @@ load(function(z?) {}) // this shouldn't be an error
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 21,
                 "end": 44
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 46
@@ -128,7 +127,7 @@ load(function(z?) {}) // this shouldn't be an error
                 "text": "load",
                 "rawText": "load",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 56,
                 "end": 61
@@ -144,7 +143,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "text": "f",
                             "rawText": "f",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 62,
                             "end": 63
@@ -157,14 +156,14 @@ load(function(z?) {}) // this shouldn't be an error
                                 "text": "ICallback",
                                 "rawText": "ICallback",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 64,
                                 "end": 74
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 64,
                             "end": 75
@@ -174,7 +173,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 62,
                         "end": 74
@@ -182,7 +181,7 @@ load(function(z?) {}) // this shouldn't be an error
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 62,
                 "end": 75
@@ -195,20 +194,20 @@ load(function(z?) {}) // this shouldn't be an error
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 77,
                     "end": 77
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 75,
                 "end": 78
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 46,
             "end": 78
@@ -225,7 +224,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "text": "f1",
                             "rawText": "f1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 83,
                             "end": 86
@@ -238,14 +237,14 @@ load(function(z?) {}) // this shouldn't be an error
                                 "text": "ICallback",
                                 "rawText": "ICallback",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 87,
                                 "end": 97
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 87,
                             "end": 99
@@ -264,7 +263,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 109,
                                             "end": 110
@@ -276,7 +275,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 109,
                                         "end": 111
@@ -284,7 +283,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 109,
                                 "end": 112
@@ -296,13 +295,13 @@ load(function(z?) {}) // this shouldn't be an error
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 114,
                                     "end": 114
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 112,
                                 "end": 115
@@ -310,26 +309,26 @@ load(function(z?) {}) // this shouldn't be an error
                             "typeParameters": null,
                             "type": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 99,
                             "end": 115
                         },
                         "flags": 83,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 32768,
                         "end": 115
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 83,
                 "end": 115
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 78,
             "end": 115
@@ -346,7 +345,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "text": "f2",
                             "rawText": "f2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 119,
                             "end": 122
@@ -359,14 +358,14 @@ load(function(z?) {}) // this shouldn't be an error
                                 "text": "ICallback",
                                 "rawText": "ICallback",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 123,
                                 "end": 133
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 123,
                             "end": 135
@@ -385,7 +384,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 145,
                                             "end": 146
@@ -397,7 +396,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 145,
                                         "end": 147
@@ -405,7 +404,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 145,
                                 "end": 148
@@ -417,13 +416,13 @@ load(function(z?) {}) // this shouldn't be an error
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 150,
                                     "end": 150
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 148,
                                 "end": 151
@@ -431,26 +430,26 @@ load(function(z?) {}) // this shouldn't be an error
                             "typeParameters": null,
                             "type": null,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 135,
                             "end": 151
                         },
                         "flags": 119,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 32768,
                         "end": 151
                     }
                 ],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 119,
                 "end": 151
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 115,
             "end": 151
@@ -464,7 +463,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "text": "load",
                     "rawText": "load",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 151,
                     "end": 156
@@ -478,7 +477,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "text": "f1",
                             "rawText": "f1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 157,
                             "end": 159
@@ -487,18 +486,18 @@ load(function(z?) {}) // this shouldn't be an error
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 159,
                     "end": 160
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 156,
                 "end": 160
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 151,
             "end": 160
@@ -512,7 +511,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "text": "load",
                     "rawText": "load",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 160,
                     "end": 171
@@ -526,7 +525,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "text": "f2",
                             "rawText": "f2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 172,
                             "end": 174
@@ -535,18 +534,18 @@ load(function(z?) {}) // this shouldn't be an error
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 174,
                     "end": 175
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 171,
                 "end": 175
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 160,
             "end": 175
@@ -560,7 +559,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "text": "load",
                     "rawText": "load",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 175,
                     "end": 186
@@ -577,7 +576,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 196,
                                 "end": 197
@@ -589,13 +588,13 @@ load(function(z?) {}) // this shouldn't be an error
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 199,
                                     "end": 199
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 197,
                                 "end": 200
@@ -603,7 +602,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 187,
                             "end": 200
@@ -612,18 +611,18 @@ load(function(z?) {}) // this shouldn't be an error
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 195,
                     "end": 201
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 186,
                 "end": 201
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 175,
             "end": 201
@@ -637,7 +636,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "text": "load",
                     "rawText": "load",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 201,
                     "end": 236
@@ -660,7 +659,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 246,
                                             "end": 247
@@ -672,7 +671,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 246,
                                         "end": 248
@@ -680,7 +679,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 246,
                                 "end": 249
@@ -692,13 +691,13 @@ load(function(z?) {}) // this shouldn't be an error
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 251,
                                     "end": 251
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 249,
                                 "end": 252
@@ -706,7 +705,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "typeParameters": null,
                             "type": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 237,
                             "end": 252
@@ -715,18 +714,18 @@ load(function(z?) {}) // this shouldn't be an error
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 245,
                     "end": 253
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 236,
                 "end": 253
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 201,
             "end": 253
@@ -735,7 +734,6 @@ load(function(z?) {}) // this shouldn't be an error
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -745,17 +743,13 @@ load(function(z?) {}) // this shouldn't be an error
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -10,10 +10,9 @@ type T<U extends object = { x: number }> = Array<U>;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type T<U extends object = { x: number }> = Array<U>;",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ type T<U extends object = { x: number }> = Array<U>;
                 "text": "T",
                 "rawText": "T",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 6
@@ -36,7 +35,7 @@ type T<U extends object = { x: number }> = Array<U>;
                     "text": "Array",
                     "rawText": "Array",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 42,
                     "end": 48
@@ -51,27 +50,27 @@ type T<U extends object = { x: number }> = Array<U>;
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 50
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 49,
                             "end": 51
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 49,
                     "end": 50
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 42,
                 "end": 52
@@ -86,7 +85,7 @@ type T<U extends object = { x: number }> = Array<U>;
                             "text": "U",
                             "rawText": "U",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 8
@@ -94,7 +93,7 @@ type T<U extends object = { x: number }> = Array<U>;
                         "constraint": {
                             "kind": 4202663,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 16,
                             "end": 23
@@ -111,7 +110,7 @@ type T<U extends object = { x: number }> = Array<U>;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
@@ -121,7 +120,7 @@ type T<U extends object = { x: number }> = Array<U>;
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 30,
                                             "end": 37
@@ -130,7 +129,7 @@ type T<U extends object = { x: number }> = Array<U>;
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 27,
                                         "end": 37
@@ -138,33 +137,33 @@ type T<U extends object = { x: number }> = Array<U>;
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 27,
                                 "end": 39
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 25,
                             "end": 39
                         },
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 7,
                         "end": 39
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 7,
                 "end": 39
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 52
@@ -173,7 +172,6 @@ type T<U extends object = { x: number }> = Array<U>;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -183,17 +181,13 @@ type T<U extends object = { x: number }> = Array<U>;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

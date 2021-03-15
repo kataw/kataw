@@ -35,7 +35,7 @@ export function createCallSignature(
     parameters,
     returnType,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

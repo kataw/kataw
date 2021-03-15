@@ -16,10 +16,9 @@ class C123 {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C123 {\n    [s: string]: number;\n    x: number;\n    y: string;\n    constructor() {\n    }\n}",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ class C123 {
                 "text": "C123",
                 "rawText": "C123",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 10
@@ -55,7 +54,7 @@ class C123 {
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 18,
                                         "end": 19
@@ -64,7 +63,7 @@ class C123 {
                                     "type": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 20,
                                         "end": 27
@@ -73,7 +72,7 @@ class C123 {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 18,
                                     "end": 27
@@ -81,7 +80,7 @@ class C123 {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 18,
                             "end": 27
@@ -89,7 +88,7 @@ class C123 {
                         "returnType": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 29,
                             "end": 36
@@ -97,7 +96,7 @@ class C123 {
                         "isStatic": false,
                         "isReadOnly": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 18,
                         "end": 37
@@ -109,7 +108,7 @@ class C123 {
                             "text": "x",
                             "rawText": "x",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 37,
                             "end": 43
@@ -123,7 +122,7 @@ class C123 {
                         "type": {
                             "kind": 4202657,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 44,
                             "end": 51
@@ -133,7 +132,7 @@ class C123 {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 37,
                         "end": 52
@@ -145,7 +144,7 @@ class C123 {
                             "text": "y",
                             "rawText": "y",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 52,
                             "end": 58
@@ -159,7 +158,7 @@ class C123 {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 59,
                             "end": 66
@@ -169,7 +168,7 @@ class C123 {
                         "accessModifier": null,
                         "isStatic": false,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 52,
                         "end": 67
@@ -187,7 +186,7 @@ class C123 {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 67,
                                 "end": 83
@@ -197,7 +196,7 @@ class C123 {
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 84,
                                 "end": 85
@@ -211,13 +210,13 @@ class C123 {
                                     "statements": [],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 87,
                                     "end": 87
                                 },
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 85,
                                 "end": 93
@@ -227,20 +226,20 @@ class C123 {
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 524288,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 83,
                             "end": 93
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 67,
                         "end": 93
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 12,
                 "end": 95
@@ -248,7 +247,7 @@ class C123 {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 95
@@ -257,7 +256,6 @@ class C123 {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -267,17 +265,13 @@ class C123 {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

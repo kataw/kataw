@@ -23,7 +23,7 @@ export function createImportCall(
     typeArguments,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2018 | TransformFlags.DynamicImport,
     start,
     end

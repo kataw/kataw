@@ -16,10 +16,9 @@ type Unpacked<T> =
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type TestReturnType<T extends (...args: any[]) => any> = T extends (...args: any[]) => infer R ? R : any;\n\ntype Unpacked<T> =\n  T extends (infer U)[] ? U :\n  T extends (...args: any[]) => infer U ? U :\n  T extends Promise<infer U> ? U :\n  T;",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ type Unpacked<T> =
                 "text": "TestReturnType",
                 "rawText": "TestReturnType",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 19
@@ -44,14 +43,14 @@ type Unpacked<T> =
                         "text": "T",
                         "rawText": "T",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 56,
                         "end": 58
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 56,
                     "end": 66
@@ -70,7 +69,7 @@ type Unpacked<T> =
                                     "text": "args",
                                     "rawText": "args",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1025,
                                     "start": 71,
                                     "end": 75
@@ -81,13 +80,13 @@ type Unpacked<T> =
                                     "elementType": {
                                         "kind": 4202498,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 76,
                                         "end": 80
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 76,
                                     "end": 83
@@ -96,7 +95,7 @@ type Unpacked<T> =
                                 "accessModifier": null,
                                 "isReadOnly": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 4097,
                                 "start": 68,
                                 "end": 82
@@ -104,7 +103,7 @@ type Unpacked<T> =
                         ],
                         "trailingcomma": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 68,
                         "end": 82
@@ -118,7 +117,7 @@ type Unpacked<T> =
                                 "text": "R",
                                 "rawText": "R",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 92,
                                 "end": 94
@@ -127,19 +126,19 @@ type Unpacked<T> =
                             "defaultType": null,
                             "expression": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 92,
                             "end": 94
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 86,
                         "end": 94
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 66,
                     "end": 94
@@ -151,14 +150,14 @@ type Unpacked<T> =
                         "text": "R",
                         "rawText": "R",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 96,
                         "end": 98
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 96,
                     "end": 100
@@ -166,13 +165,13 @@ type Unpacked<T> =
                 "falseType": {
                     "kind": 4202498,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 100,
                     "end": 104
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 56,
                 "end": 104
@@ -187,7 +186,7 @@ type Unpacked<T> =
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 21
@@ -206,7 +205,7 @@ type Unpacked<T> =
                                             "text": "args",
                                             "rawText": "args",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 34,
                                             "end": 38
@@ -217,13 +216,13 @@ type Unpacked<T> =
                                             "elementType": {
                                                 "kind": 4202498,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 39,
                                                 "end": 43
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 39,
                                             "end": 46
@@ -232,7 +231,7 @@ type Unpacked<T> =
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 4097,
                                         "start": 31,
                                         "end": 45
@@ -240,7 +239,7 @@ type Unpacked<T> =
                                 ],
                                 "trailingcomma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 31,
                                 "end": 45
@@ -248,13 +247,13 @@ type Unpacked<T> =
                             "returnType": {
                                 "kind": 4202498,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 49,
                                 "end": 53
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 29,
                             "end": 53
@@ -262,20 +261,20 @@ type Unpacked<T> =
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 20,
                         "end": 53
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 20,
                 "end": 53
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 105
@@ -287,7 +286,7 @@ type Unpacked<T> =
                 "text": "Unpacked",
                 "rawText": "Unpacked",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 111,
                 "end": 120
@@ -301,14 +300,14 @@ type Unpacked<T> =
                         "text": "T",
                         "rawText": "T",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 125,
                         "end": 129
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 125,
                     "end": 137
@@ -326,7 +325,7 @@ type Unpacked<T> =
                                     "text": "U",
                                     "rawText": "U",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 144,
                                     "end": 146
@@ -335,25 +334,25 @@ type Unpacked<T> =
                                 "defaultType": null,
                                 "expression": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 144,
                                 "end": 146
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 139,
                             "end": 146
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 137,
                         "end": 147
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 137,
                     "end": 151
@@ -365,14 +364,14 @@ type Unpacked<T> =
                         "text": "U",
                         "rawText": "U",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 151,
                         "end": 153
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 151,
                     "end": 155
@@ -386,14 +385,14 @@ type Unpacked<T> =
                             "text": "T",
                             "rawText": "T",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 155,
                             "end": 159
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 155,
                         "end": 167
@@ -412,7 +411,7 @@ type Unpacked<T> =
                                         "text": "args",
                                         "rawText": "args",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 172,
                                         "end": 176
@@ -423,13 +422,13 @@ type Unpacked<T> =
                                         "elementType": {
                                             "kind": 4202498,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 177,
                                             "end": 181
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 177,
                                         "end": 184
@@ -438,7 +437,7 @@ type Unpacked<T> =
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 4097,
                                     "start": 169,
                                     "end": 183
@@ -446,7 +445,7 @@ type Unpacked<T> =
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 169,
                             "end": 183
@@ -460,7 +459,7 @@ type Unpacked<T> =
                                     "text": "U",
                                     "rawText": "U",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 193,
                                     "end": 195
@@ -469,19 +468,19 @@ type Unpacked<T> =
                                 "defaultType": null,
                                 "expression": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 193,
                                 "end": 195
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 187,
                             "end": 195
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 167,
                         "end": 195
@@ -493,14 +492,14 @@ type Unpacked<T> =
                             "text": "U",
                             "rawText": "U",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 197,
                             "end": 199
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 197,
                         "end": 201
@@ -514,14 +513,14 @@ type Unpacked<T> =
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 201,
                                 "end": 205
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 201,
                             "end": 213
@@ -533,7 +532,7 @@ type Unpacked<T> =
                                 "text": "Promise",
                                 "rawText": "Promise",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 213,
                                 "end": 221
@@ -550,7 +549,7 @@ type Unpacked<T> =
                                                 "text": "U",
                                                 "rawText": "U",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 227,
                                                 "end": 229
@@ -559,26 +558,26 @@ type Unpacked<T> =
                                             "defaultType": null,
                                             "expression": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 227,
                                             "end": 229
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 222,
                                         "end": 229
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 222,
                                 "end": 229
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 213,
                             "end": 232
@@ -590,14 +589,14 @@ type Unpacked<T> =
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 232,
                                 "end": 234
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 232,
                             "end": 236
@@ -609,32 +608,32 @@ type Unpacked<T> =
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 236,
                                 "end": 240
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 236,
                             "end": 241
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 201,
                         "end": 240
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 155,
                     "end": 240
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 125,
                 "end": 240
@@ -649,7 +648,7 @@ type Unpacked<T> =
                             "text": "T",
                             "rawText": "T",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 121,
                             "end": 122
@@ -658,20 +657,20 @@ type Unpacked<T> =
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 121,
                         "end": 122
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 121,
                 "end": 122
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 105,
             "end": 241
@@ -680,7 +679,6 @@ type Unpacked<T> =
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -690,17 +688,13 @@ type Unpacked<T> =
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

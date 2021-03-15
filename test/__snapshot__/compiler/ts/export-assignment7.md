@@ -19,10 +19,9 @@ export = B;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export class C {\n}\n\nexport = B;",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ export = B;
                     "text": "C",
                     "rawText": "C",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 12,
                     "end": 14
@@ -47,7 +46,7 @@ export = B;
                     "kind": 50,
                     "elements": [],
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 16,
                     "end": 18
@@ -55,7 +54,7 @@ export = B;
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 6,
                 "end": 18
@@ -65,7 +64,7 @@ export = B;
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -77,13 +76,13 @@ export = B;
                 "text": "B",
                 "rawText": "B",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 26,
             "end": 31
@@ -107,7 +106,6 @@ export = B;
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -117,17 +115,13 @@ export = B;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

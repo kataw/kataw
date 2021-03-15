@@ -10,10 +10,9 @@ function test(abc: Map<symbol, string>) {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function test(abc: Map<symbol, string>) {}",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ function test(abc: Map<symbol, string>) {}
                 "text": "test",
                 "rawText": "test",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 13
@@ -40,7 +39,7 @@ function test(abc: Map<symbol, string>) {}
                             "text": "abc",
                             "rawText": "abc",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 14,
                             "end": 17
@@ -53,7 +52,7 @@ function test(abc: Map<symbol, string>) {}
                                 "text": "Map",
                                 "rawText": "Map",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
@@ -64,7 +63,7 @@ function test(abc: Map<symbol, string>) {}
                                     {
                                         "kind": 8403,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 23,
                                         "end": 29
@@ -72,20 +71,20 @@ function test(abc: Map<symbol, string>) {}
                                     {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 30,
                                         "end": 37
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 23,
                                 "end": 37
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 18,
                             "end": 39
@@ -95,7 +94,7 @@ function test(abc: Map<symbol, string>) {}
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 14,
                         "end": 38
@@ -103,7 +102,7 @@ function test(abc: Map<symbol, string>) {}
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 39
@@ -116,20 +115,20 @@ function test(abc: Map<symbol, string>) {}
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 42
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 42
@@ -138,7 +137,6 @@ function test(abc: Map<symbol, string>) {}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -148,17 +146,13 @@ function test(abc: Map<symbol, string>) {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

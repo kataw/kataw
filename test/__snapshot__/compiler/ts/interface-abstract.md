@@ -12,10 +12,9 @@ abstract interface Foo {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "abstract interface Foo {\n  foo: string;\n}",
     "filename": "",
     "statements": [
@@ -26,7 +25,7 @@ abstract interface Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 22
@@ -43,7 +42,7 @@ abstract interface Foo {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 24,
                             "end": 30
@@ -53,7 +52,7 @@ abstract interface Foo {
                         "type": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 31,
                             "end": 38
@@ -62,7 +61,7 @@ abstract interface Foo {
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 24,
                         "end": 39
@@ -70,13 +69,13 @@ abstract interface Foo {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 24,
                 "end": 39
             },
             "flags": 536870913,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 8,
             "end": 41
@@ -93,7 +92,6 @@ abstract interface Foo {
             "length": 8
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -103,17 +101,13 @@ abstract interface Foo {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

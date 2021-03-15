@@ -29,7 +29,7 @@ export function createJsxAttribute(
     name,
     initializer,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       name.transformFlags | (initializer ? initializer.transformFlags : NodeFlags.None) | TransformFlags.Jsx,
     start,

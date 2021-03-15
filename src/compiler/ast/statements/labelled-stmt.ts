@@ -26,7 +26,7 @@ export function createLabelledStatement(
     statement,
     isWebCompat,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

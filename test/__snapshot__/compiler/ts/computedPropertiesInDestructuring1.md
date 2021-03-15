@@ -42,10 +42,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let foo = \"bar\";\nlet {[foo]: bar} = {bar: \"bar\"};\n\nlet {[\"bar\"]: bar2} = {bar: \"bar\"};\n\nlet foo2 = () => \"bar\";\nlet {[foo2()]: bar3} = {bar: \"bar\"};\n\nlet [{[foo]: bar4}] = [{bar: \"bar\"}];\nlet [{[foo2()]: bar5}] = [{bar: \"bar\"}];\n\nfunction f1({[\"bar\"]: x}: { bar: number }) {}\nfunction f2({[foo]: x}: { bar: number }) {}\nfunction f3({[foo2()]: x}: { bar: number }) {}\nfunction f4([{[foo]: x}]: [{ bar: number }]) {}\nfunction f5([{[foo2()]: x}]: [{ bar: number }]) {}\n\n// report errors on type errors in computed properties used in destructuring\nlet [{[foo()]: bar6}] = [{bar: \"bar\"}];\nlet [{[foo.toExponential()]: bar7}] = [{bar: \"bar\"}];\n\n// destructuring assignment\n({[foo]: bar} = {bar: \"bar\"});\n\n({[\"bar\"]: bar2} = {bar: \"bar\"});\n\n({[foo2()]: bar3} = {bar: \"bar\"});\n\n[{[foo]: bar4}] = [{bar: \"bar\"}];\n[{[foo2()]: bar5}] = [{bar: \"bar\"}];\n\n[{[foo()]: bar4}] = [{bar: \"bar\"}];\n[{[(1 + {})]: bar4}] = [{bar: \"bar\"}];",
     "filename": "",
     "statements": [
@@ -62,7 +61,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 7
@@ -74,26 +73,26 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 15
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 3,
                         "end": 15
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 15
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 16
@@ -121,13 +120,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 26
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 22,
                                             "end": 27
@@ -140,20 +139,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 28,
                                                 "end": 32
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 28,
                                             "end": 32
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 22,
                                         "end": 32
@@ -163,12 +162,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 22,
                                 "end": 32
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 20,
                             "end": 33
@@ -187,7 +186,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 40
@@ -197,7 +196,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 41,
                                             "end": 47
@@ -205,7 +204,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 37,
                                         "end": 47
@@ -214,32 +213,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 47
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 35,
                             "end": 48
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 48
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 48
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 16,
             "end": 49
@@ -267,13 +266,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 62
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 56,
                                             "end": 63
@@ -286,20 +285,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar2",
                                                 "rawText": "bar2",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 64,
                                                 "end": 69
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 64,
                                             "end": 69
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 56,
                                         "end": 69
@@ -309,12 +308,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 56,
                                 "end": 69
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 54,
                             "end": 70
@@ -333,7 +332,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 74,
                                             "end": 77
@@ -343,7 +342,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 78,
                                             "end": 84
@@ -351,7 +350,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 74,
                                         "end": 84
@@ -360,32 +359,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 74,
                                 "end": 84
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 72,
                             "end": 85
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 54,
                         "end": 85
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 54,
                 "end": 85
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 49,
             "end": 86
@@ -403,7 +402,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "text": "foo2",
                             "rawText": "foo2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 91,
                             "end": 96
@@ -420,7 +419,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 98,
                                 "end": 98
@@ -430,32 +429,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 104,
                                 "end": 110
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 98,
                             "end": 110
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 91,
                         "end": 110
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 91,
                 "end": 110
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 86,
             "end": 111
@@ -485,7 +484,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "text": "foo2",
                                                     "rawText": "foo2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 118,
                                                     "end": 122
@@ -497,18 +496,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 124,
                                                     "end": 124
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 122,
                                                 "end": 124
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 117,
                                             "end": 125
@@ -521,20 +520,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar3",
                                                 "rawText": "bar3",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 126,
                                                 "end": 131
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 126,
                                             "end": 131
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 117,
                                         "end": 131
@@ -544,12 +543,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 117,
                                 "end": 131
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 115,
                             "end": 132
@@ -568,7 +567,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 136,
                                             "end": 139
@@ -578,7 +577,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 140,
                                             "end": 146
@@ -586,7 +585,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 136,
                                         "end": 146
@@ -595,32 +594,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 136,
                                 "end": 146
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 134,
                             "end": 147
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 115,
                         "end": 147
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 115,
                 "end": 147
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 111,
             "end": 148
@@ -656,13 +655,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 157,
                                                                 "end": 160
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 156,
                                                             "end": 161
@@ -675,20 +674,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "bar4",
                                                                 "rawText": "bar4",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 162,
                                                                 "end": 167
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 162,
                                                             "end": 167
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 156,
                                                         "end": 167
@@ -698,19 +697,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 156,
                                                 "end": 167
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 155,
                                             "end": 168
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 155,
                                         "end": 168
@@ -718,13 +717,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 155,
                                 "end": 168
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 153,
                             "end": 169
@@ -748,7 +747,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 174,
                                                         "end": 177
@@ -758,7 +757,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 178,
                                                         "end": 184
@@ -766,7 +765,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 174,
                                                     "end": 184
@@ -775,13 +774,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 174,
                                             "end": 184
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 173,
                                         "end": 185
@@ -790,32 +789,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 173,
                                 "end": 185
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 171,
                             "end": 186
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 153,
                         "end": 186
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 153,
                 "end": 186
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 148,
             "end": 187
@@ -853,7 +852,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "text": "foo2",
                                                                     "rawText": "foo2",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 195,
                                                                     "end": 199
@@ -865,18 +864,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 201,
                                                                     "end": 201
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 199,
                                                                 "end": 201
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 194,
                                                             "end": 202
@@ -889,20 +888,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "bar5",
                                                                 "rawText": "bar5",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 203,
                                                                 "end": 208
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 203,
                                                             "end": 208
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 194,
                                                         "end": 208
@@ -912,19 +911,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 194,
                                                 "end": 208
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 193,
                                             "end": 209
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 193,
                                         "end": 209
@@ -932,13 +931,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 193,
                                 "end": 209
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 191,
                             "end": 210
@@ -962,7 +961,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 215,
                                                         "end": 218
@@ -972,7 +971,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 219,
                                                         "end": 225
@@ -980,7 +979,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 215,
                                                     "end": 225
@@ -989,13 +988,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 215,
                                             "end": 225
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 214,
                                         "end": 226
@@ -1004,32 +1003,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 214,
                                 "end": 226
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 212,
                             "end": 227
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 191,
                         "end": 227
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 191,
                 "end": 227
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 187,
             "end": 228
@@ -1041,7 +1040,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 238,
                 "end": 241
@@ -1067,13 +1066,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 244,
                                                 "end": 249
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 243,
                                             "end": 250
@@ -1086,20 +1085,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 251,
                                                 "end": 253
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 251,
                                             "end": 253
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 243,
                                         "end": 253
@@ -1109,12 +1108,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 243,
                                 "end": 253
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 242,
                             "end": 254
@@ -1132,7 +1131,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 257,
                                             "end": 261
@@ -1142,7 +1141,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 262,
                                             "end": 269
@@ -1151,7 +1150,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 257,
                                         "end": 269
@@ -1159,13 +1158,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 257,
                                 "end": 271
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 255,
                             "end": 271
@@ -1175,7 +1174,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 242,
                         "end": 271
@@ -1183,7 +1182,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 242,
                 "end": 272
@@ -1196,20 +1195,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 274,
                     "end": 274
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 272,
                 "end": 275
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 228,
             "end": 275
@@ -1221,7 +1220,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 284,
                 "end": 287
@@ -1247,13 +1246,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 290,
                                                 "end": 293
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 289,
                                             "end": 294
@@ -1266,20 +1265,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 295,
                                                 "end": 297
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 295,
                                             "end": 297
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 289,
                                         "end": 297
@@ -1289,12 +1288,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 289,
                                 "end": 297
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 288,
                             "end": 298
@@ -1312,7 +1311,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 301,
                                             "end": 305
@@ -1322,7 +1321,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 306,
                                             "end": 313
@@ -1331,7 +1330,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 301,
                                         "end": 313
@@ -1339,13 +1338,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 301,
                                 "end": 315
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 299,
                             "end": 315
@@ -1355,7 +1354,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 288,
                         "end": 315
@@ -1363,7 +1362,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 288,
                 "end": 316
@@ -1376,20 +1375,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 318,
                     "end": 318
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 316,
                 "end": 319
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 275,
             "end": 319
@@ -1401,7 +1400,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 "text": "f3",
                 "rawText": "f3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 328,
                 "end": 331
@@ -1429,7 +1428,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "text": "foo2",
                                                     "rawText": "foo2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 334,
                                                     "end": 338
@@ -1441,18 +1440,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "start": 340,
                                                     "end": 340
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 338,
                                                 "end": 340
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 131073,
                                             "start": 333,
                                             "end": 341
@@ -1465,20 +1464,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 342,
                                                 "end": 344
                                             },
                                             "right": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 342,
                                             "end": 344
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 333,
                                         "end": 344
@@ -1488,12 +1487,12 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "transformFlags": 1025,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 333,
                                 "end": 344
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 332,
                             "end": 345
@@ -1511,7 +1510,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 348,
                                             "end": 352
@@ -1521,7 +1520,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 353,
                                             "end": 360
@@ -1530,7 +1529,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 348,
                                         "end": 360
@@ -1538,13 +1537,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 348,
                                 "end": 362
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 346,
                             "end": 362
@@ -1554,7 +1553,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 332,
                         "end": 362
@@ -1562,7 +1561,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 332,
                 "end": 363
@@ -1575,20 +1574,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 365,
                     "end": 365
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 363,
                 "end": 366
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 319,
             "end": 366
@@ -1600,7 +1599,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 "text": "f4",
                 "rawText": "f4",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 375,
                 "end": 378
@@ -1634,13 +1633,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 382,
                                                                 "end": 385
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 381,
                                                             "end": 386
@@ -1653,20 +1652,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 387,
                                                                 "end": 389
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 387,
                                                             "end": 389
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 381,
                                                         "end": 389
@@ -1676,19 +1675,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 381,
                                                 "end": 389
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 380,
                                             "end": 390
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 380,
                                         "end": 390
@@ -1696,13 +1695,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 380,
                                 "end": 390
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 379,
                             "end": 391
@@ -1723,7 +1722,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 395,
                                                     "end": 399
@@ -1733,7 +1732,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "type": {
                                                     "kind": 4202657,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 400,
                                                     "end": 407
@@ -1742,7 +1741,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 395,
                                                 "end": 407
@@ -1750,13 +1749,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 395,
                                         "end": 409
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 394,
                                     "end": 409
@@ -1764,7 +1763,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 392,
                             "end": 410
@@ -1774,7 +1773,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 379,
                         "end": 410
@@ -1782,7 +1781,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 379,
                 "end": 411
@@ -1795,20 +1794,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 413,
                     "end": 413
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 411,
                 "end": 414
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 366,
             "end": 414
@@ -1820,7 +1819,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 "text": "f5",
                 "rawText": "f5",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 423,
                 "end": 426
@@ -1856,7 +1855,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "text": "foo2",
                                                                     "rawText": "foo2",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 430,
                                                                     "end": 434
@@ -1868,18 +1867,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 436,
                                                                     "end": 436
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 434,
                                                                 "end": 436
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 429,
                                                             "end": 437
@@ -1892,20 +1891,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 438,
                                                                 "end": 440
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 438,
                                                             "end": 440
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 429,
                                                         "end": 440
@@ -1915,19 +1914,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 429,
                                                 "end": 440
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 428,
                                             "end": 441
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 428,
                                         "end": 441
@@ -1935,13 +1934,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 428,
                                 "end": 441
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 427,
                             "end": 442
@@ -1962,7 +1961,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 446,
                                                     "end": 450
@@ -1972,7 +1971,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "type": {
                                                     "kind": 4202657,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 451,
                                                     "end": 458
@@ -1981,7 +1980,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 446,
                                                 "end": 458
@@ -1989,13 +1988,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 446,
                                         "end": 460
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 445,
                                     "end": 460
@@ -2003,7 +2002,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 443,
                             "end": 461
@@ -2013,7 +2012,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 427,
                         "end": 461
@@ -2021,7 +2020,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 427,
                 "end": 462
@@ -2034,20 +2033,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                     "statements": [],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 464,
                     "end": 464
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 462,
                 "end": 465
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 414,
             "end": 465
@@ -2085,7 +2084,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 551,
                                                                     "end": 554
@@ -2097,18 +2096,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 556,
                                                                     "end": 556
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 554,
                                                                 "end": 556
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 550,
                                                             "end": 557
@@ -2121,20 +2120,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "bar6",
                                                                 "rawText": "bar6",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 558,
                                                                 "end": 563
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 558,
                                                             "end": 563
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 550,
                                                         "end": 563
@@ -2144,19 +2143,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 550,
                                                 "end": 563
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 549,
                                             "end": 564
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 549,
                                         "end": 564
@@ -2164,13 +2163,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 549,
                                 "end": 564
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 547,
                             "end": 565
@@ -2194,7 +2193,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 570,
                                                         "end": 573
@@ -2204,7 +2203,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 574,
                                                         "end": 580
@@ -2212,7 +2211,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 570,
                                                     "end": 580
@@ -2221,13 +2220,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 570,
                                             "end": 580
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 569,
                                         "end": 581
@@ -2236,32 +2235,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 569,
                                 "end": 581
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 567,
                             "end": 582
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 547,
                         "end": 582
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 547,
                 "end": 582
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 465,
             "end": 583
@@ -2301,7 +2300,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 591,
                                                                         "end": 594
@@ -2311,13 +2310,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                         "text": "toExponential",
                                                                         "rawText": "toExponential",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 595,
                                                                         "end": 608
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 594,
                                                                     "end": 608,
@@ -2334,18 +2333,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                     "trailingComma": false,
                                                                     "transformFlags": 0,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "start": 610,
                                                                     "end": 610
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 608,
                                                                 "end": 610
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 131073,
                                                             "start": 590,
                                                             "end": 611
@@ -2358,20 +2357,20 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "text": "bar7",
                                                                 "rawText": "bar7",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 612,
                                                                 "end": 617
                                                             },
                                                             "right": null,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 612,
                                                             "end": 617
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 590,
                                                         "end": 617
@@ -2381,19 +2380,19 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 1025,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 590,
                                                 "end": 617
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 589,
                                             "end": 618
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 589,
                                         "end": 618
@@ -2401,13 +2400,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 589,
                                 "end": 618
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 587,
                             "end": 619
@@ -2431,7 +2430,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 624,
                                                         "end": 627
@@ -2441,7 +2440,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 628,
                                                         "end": 634
@@ -2449,7 +2448,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 624,
                                                     "end": 634
@@ -2458,13 +2457,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 624,
                                             "end": 634
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 623,
                                         "end": 635
@@ -2473,32 +2472,32 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 623,
                                 "end": 635
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 621,
                             "end": 636
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 587,
                         "end": 636
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 587,
                 "end": 636
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 583,
             "end": 637
@@ -2523,13 +2522,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 670,
                                             "end": 673
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 131073,
                                         "start": 669,
                                         "end": 674
@@ -2539,7 +2538,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 675,
                                         "end": 679
@@ -2547,7 +2546,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 669,
                                     "end": 679
@@ -2556,13 +2555,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 669,
                             "end": 679
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 668,
                         "end": 680
@@ -2580,7 +2579,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 684,
                                         "end": 687
@@ -2590,7 +2589,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 688,
                                         "end": 694
@@ -2598,7 +2597,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 684,
                                     "end": 694
@@ -2607,31 +2606,31 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 684,
                             "end": 694
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 682,
                         "end": 695
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 637,
                     "end": 695
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 637,
                 "end": 696
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 637,
             "end": 697
@@ -2656,13 +2655,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 702,
                                             "end": 707
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 131073,
                                         "start": 701,
                                         "end": 708
@@ -2672,7 +2671,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar2",
                                         "rawText": "bar2",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 709,
                                         "end": 714
@@ -2680,7 +2679,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 701,
                                     "end": 714
@@ -2689,13 +2688,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 701,
                             "end": 714
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 700,
                         "end": 715
@@ -2713,7 +2712,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 719,
                                         "end": 722
@@ -2723,7 +2722,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 723,
                                         "end": 729
@@ -2731,7 +2730,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 719,
                                     "end": 729
@@ -2740,31 +2739,31 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 719,
                             "end": 729
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 717,
                         "end": 730
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 697,
                     "end": 730
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 697,
                 "end": 731
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 697,
             "end": 732
@@ -2791,7 +2790,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "foo2",
                                                 "rawText": "foo2",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 737,
                                                 "end": 741
@@ -2803,18 +2802,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 743,
                                                 "end": 743
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 741,
                                             "end": 743
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 131073,
                                         "start": 736,
                                         "end": 744
@@ -2824,7 +2823,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar3",
                                         "rawText": "bar3",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 745,
                                         "end": 750
@@ -2832,7 +2831,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 736,
                                     "end": 750
@@ -2841,13 +2840,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 736,
                             "end": 750
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 735,
                         "end": 751
@@ -2865,7 +2864,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 755,
                                         "end": 758
@@ -2875,7 +2874,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 759,
                                         "end": 765
@@ -2883,7 +2882,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "accessModifier": null,
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 755,
                                     "end": 765
@@ -2892,31 +2891,31 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 755,
                             "end": 765
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 753,
                         "end": 766
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 732,
                     "end": 766
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 732,
                 "end": 767
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 732,
             "end": 768
@@ -2944,13 +2943,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 773,
                                                     "end": 776
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 772,
                                                 "end": 777
@@ -2960,7 +2959,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar4",
                                                 "rawText": "bar4",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 778,
                                                 "end": 783
@@ -2968,7 +2967,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 772,
                                             "end": 783
@@ -2977,13 +2976,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 772,
                                     "end": 783
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 771,
                                 "end": 784
@@ -2992,13 +2991,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 771,
                         "end": 784
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 768,
                     "end": 785
@@ -3021,7 +3020,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 790,
                                                 "end": 793
@@ -3031,7 +3030,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 794,
                                                 "end": 800
@@ -3039,7 +3038,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 790,
                                             "end": 800
@@ -3048,13 +3047,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 790,
                                     "end": 800
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 789,
                                 "end": 801
@@ -3063,25 +3062,25 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 789,
                         "end": 801
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 787,
                     "end": 802
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 768,
                 "end": 802
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 768,
             "end": 803
@@ -3111,7 +3110,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "foo2",
                                                         "rawText": "foo2",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 807,
                                                         "end": 811
@@ -3123,18 +3122,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 813,
                                                         "end": 813
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 811,
                                                     "end": 813
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 806,
                                                 "end": 814
@@ -3144,7 +3143,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar5",
                                                 "rawText": "bar5",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 815,
                                                 "end": 820
@@ -3152,7 +3151,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 806,
                                             "end": 820
@@ -3161,13 +3160,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 806,
                                     "end": 820
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 805,
                                 "end": 821
@@ -3176,13 +3175,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 805,
                         "end": 821
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 803,
                     "end": 822
@@ -3205,7 +3204,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 827,
                                                 "end": 830
@@ -3215,7 +3214,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 831,
                                                 "end": 837
@@ -3223,7 +3222,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 827,
                                             "end": 837
@@ -3232,13 +3231,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 827,
                                     "end": 837
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 826,
                                 "end": 838
@@ -3247,25 +3246,25 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 826,
                         "end": 838
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 824,
                     "end": 839
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 803,
                 "end": 839
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 803,
             "end": 840
@@ -3295,7 +3294,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 845,
                                                         "end": 848
@@ -3307,18 +3306,18 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "start": 850,
                                                         "end": 850
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 848,
                                                     "end": 850
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 844,
                                                 "end": 851
@@ -3328,7 +3327,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar4",
                                                 "rawText": "bar4",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 852,
                                                 "end": 857
@@ -3336,7 +3335,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 844,
                                             "end": 857
@@ -3345,13 +3344,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 844,
                                     "end": 857
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 843,
                                 "end": 858
@@ -3360,13 +3359,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 843,
                         "end": 858
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 840,
                     "end": 859
@@ -3389,7 +3388,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 864,
                                                 "end": 867
@@ -3399,7 +3398,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 868,
                                                 "end": 874
@@ -3407,7 +3406,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 864,
                                             "end": 874
@@ -3416,13 +3415,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 864,
                                     "end": 874
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 863,
                                 "end": 875
@@ -3431,25 +3430,25 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 863,
                         "end": 875
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 861,
                     "end": 876
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 840,
                 "end": 876
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 840,
             "end": 877
@@ -3481,7 +3480,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 882,
                                                             "end": 883
@@ -3495,31 +3494,31 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                                 "trailingComma": false,
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 887,
                                                                 "end": 887
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 885,
                                                             "end": 888
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 882,
                                                         "end": 888
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 881,
                                                     "end": 889
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 131073,
                                                 "start": 880,
                                                 "end": 890
@@ -3529,7 +3528,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar4",
                                                 "rawText": "bar4",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 891,
                                                 "end": 896
@@ -3537,7 +3536,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 880,
                                             "end": 896
@@ -3546,13 +3545,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 880,
                                     "end": 896
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 879,
                                 "end": 897
@@ -3561,13 +3560,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 879,
                         "end": 897
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 877,
                     "end": 898
@@ -3590,7 +3589,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 903,
                                                 "end": 906
@@ -3600,7 +3599,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 907,
                                                 "end": 913
@@ -3608,7 +3607,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 903,
                                             "end": 913
@@ -3617,13 +3616,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 903,
                                     "end": 913
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 902,
                                 "end": 914
@@ -3632,25 +3631,25 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 902,
                         "end": 914
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 900,
                     "end": 915
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 877,
                 "end": 915
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 877,
             "end": 916
@@ -3659,7 +3658,6 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -3669,17 +3667,13 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

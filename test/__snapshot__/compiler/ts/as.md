@@ -15,10 +15,9 @@ x as boolean ?? y; // (x as boolean) ?? y;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x as T;\nx < y as boolean; // (x < y) as boolean;\nx as boolean <= y; // (x as boolean) <= y;\nx === 1 as number; // x === (1 as number);\nx as any as T;\nx as boolean ?? y; // (x as boolean) ?? y;",
     "filename": "",
     "statements": [
@@ -31,7 +30,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 1
@@ -43,26 +42,26 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "T",
                         "rawText": "T",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 4,
                     "end": 7
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 1,
                 "end": 6
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 7
@@ -78,7 +77,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 7,
                         "end": 9
@@ -89,13 +88,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "y",
                         "rawText": "y",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 13
@@ -103,19 +102,19 @@ x as boolean ?? y; // (x as boolean) ?? y;
                 "type": {
                     "kind": 4268070,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 16,
                     "end": 24
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 13,
                 "end": 24
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 7,
             "end": 25
@@ -131,7 +130,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 25,
                         "end": 50
@@ -139,13 +138,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "type": {
                         "kind": 4268070,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 53,
                         "end": 61
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 50,
                     "end": 61
@@ -156,19 +155,19 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 64,
                     "end": 66
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 25,
                 "end": 66
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 25,
             "end": 67
@@ -184,7 +183,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 67,
                         "end": 93
@@ -195,13 +194,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": 1,
                         "rawText": "1",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 97,
                         "end": 99
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 67,
                     "end": 99
@@ -209,19 +208,19 @@ x as boolean ?? y; // (x as boolean) ?? y;
                 "type": {
                     "kind": 4202657,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 102,
                     "end": 109
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 99,
                 "end": 109
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 67,
             "end": 110
@@ -237,7 +236,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 110,
                         "end": 136
@@ -245,13 +244,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "type": {
                         "kind": 4202498,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 139,
                         "end": 143
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 136,
                     "end": 143
@@ -263,26 +262,26 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "T",
                         "rawText": "T",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 146,
                         "end": 148
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 146,
                     "end": 149
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 143,
                 "end": 148
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 110,
             "end": 149
@@ -298,7 +297,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 149,
                         "end": 151
@@ -306,13 +305,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "type": {
                         "kind": 4268070,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 154,
                         "end": 162
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 151,
                     "end": 162
@@ -323,19 +322,19 @@ x as boolean ?? y; // (x as boolean) ?? y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 165,
                     "end": 167
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 34,
                 "start": 149,
                 "end": 167
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 149,
             "end": 168
@@ -344,7 +343,6 @@ x as boolean ?? y; // (x as boolean) ?? y;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -354,17 +352,13 @@ x as boolean ?? y; // (x as boolean) ?? y;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

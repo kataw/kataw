@@ -20,7 +20,7 @@ export function createAwaitExpression(
     kind: NodeKind.AwaitExpression,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2017 | TransformFlags.ES2018 | TransformFlags.Await,
     start,
     end

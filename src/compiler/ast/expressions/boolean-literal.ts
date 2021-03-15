@@ -12,7 +12,7 @@ export function createBooleanLiteral(text: boolean, flags: NodeFlags, start: num
     kind: NodeKind.BooleanLiteral,
     text,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

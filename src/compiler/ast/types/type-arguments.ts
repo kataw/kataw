@@ -20,7 +20,7 @@ export function createTypeArguments(
     kind: NodeKind.TypeArguments,
     typeArgumentsList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

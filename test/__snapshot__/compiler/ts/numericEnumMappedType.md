@@ -44,10 +44,9 @@ const x: E.ONE = e;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "enum E1 { ONE, TWO, THREE }\ndeclare enum E2 { ONE, TWO, THREE }\n\ntype Bins1 = { [k in E1]?: string; }\ntype Bins2 = { [k in E2]?: string; }\n\nconst b1: Bins1 = {};\nconst b2: Bins2 = {};\n\nconst e1: E1 = E1.ONE;\nconst e2: E2 = E2.ONE;\n\nb1[1] = \"a\";\nb1[e1] = \"b\";\n\nb2[1] = \"a\";\nb2[e2] = \"b\";\n\n// Multiple numeric enum types accrue to the same numeric index signature in a mapped type\n\ndeclare function val(): number;\n\nenum N1 { A = val(), B = val() }\nenum N2 { C = val(), D = val() }\n\ntype T1 = { [K in N1 | N2]: K };\n\n// Enum types with string valued members are always literal enum types and therefore\n// ONE and TWO below are not computed members but rather just numerically valued members\n// with auto-incremented values.\n\ndeclare enum E { ONE, TWO, THREE = 'x' }\nconst e: E = E.ONE;\nconst x: E.ONE = e;\n",
     "filename": "",
     "statements": [
@@ -58,7 +57,7 @@ const x: E.ONE = e;
                 "text": "E1",
                 "rawText": "E1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 7
@@ -73,14 +72,14 @@ const x: E.ONE = e;
                             "text": "ONE",
                             "rawText": "ONE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 9,
                         "end": 13
@@ -92,14 +91,14 @@ const x: E.ONE = e;
                             "text": "TWO",
                             "rawText": "TWO",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 18
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 14,
                         "end": 18
@@ -111,28 +110,28 @@ const x: E.ONE = e;
                             "text": "THREE",
                             "rawText": "THREE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 25
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 19,
                         "end": 25
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 9,
                 "end": 25
             },
             "isConst": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 27
@@ -144,7 +143,7 @@ const x: E.ONE = e;
                 "text": "E2",
                 "rawText": "E2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 40,
                 "end": 43
@@ -159,14 +158,14 @@ const x: E.ONE = e;
                             "text": "ONE",
                             "rawText": "ONE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 45,
                             "end": 49
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 45,
                         "end": 49
@@ -178,14 +177,14 @@ const x: E.ONE = e;
                             "text": "TWO",
                             "rawText": "TWO",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 50,
                             "end": 54
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 50,
                         "end": 54
@@ -197,28 +196,28 @@ const x: E.ONE = e;
                             "text": "THREE",
                             "rawText": "THREE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 55,
                             "end": 61
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 55,
                         "end": 61
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 45,
                 "end": 61
             },
             "isConst": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 35,
             "end": 63
@@ -230,7 +229,7 @@ const x: E.ONE = e;
                 "text": "Bins1",
                 "rawText": "Bins1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 69,
                 "end": 75
@@ -244,7 +243,7 @@ const x: E.ONE = e;
                         "text": "k",
                         "rawText": "k",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 81,
                         "end": 82
@@ -256,14 +255,14 @@ const x: E.ONE = e;
                             "text": "E1",
                             "rawText": "E1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 85,
                             "end": 88
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 85,
                         "end": 89
@@ -271,7 +270,7 @@ const x: E.ONE = e;
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 81,
                     "end": 88
@@ -284,20 +283,20 @@ const x: E.ONE = e;
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 91,
                     "end": 98
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 77,
                 "end": 101
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 63,
             "end": 101
@@ -309,7 +308,7 @@ const x: E.ONE = e;
                 "text": "Bins2",
                 "rawText": "Bins2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 106,
                 "end": 112
@@ -323,7 +322,7 @@ const x: E.ONE = e;
                         "text": "k",
                         "rawText": "k",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 118,
                         "end": 119
@@ -335,14 +334,14 @@ const x: E.ONE = e;
                             "text": "E2",
                             "rawText": "E2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 122,
                             "end": 125
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 122,
                         "end": 126
@@ -350,7 +349,7 @@ const x: E.ONE = e;
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 118,
                     "end": 125
@@ -363,20 +362,20 @@ const x: E.ONE = e;
                 "type": {
                     "kind": 4202702,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 128,
                     "end": 135
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 114,
                 "end": 138
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 101,
             "end": 138
@@ -394,7 +393,7 @@ const x: E.ONE = e;
                             "text": "b1",
                             "rawText": "b1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 145,
                             "end": 148
@@ -407,14 +406,14 @@ const x: E.ONE = e;
                                 "text": "Bins1",
                                 "rawText": "Bins1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 149,
                                 "end": 155
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 149,
                             "end": 157
@@ -427,32 +426,32 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 159,
                                 "end": 159
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 157,
                             "end": 160
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 145,
                         "end": 160
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 145,
                 "end": 160
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 138,
             "end": 161
@@ -470,7 +469,7 @@ const x: E.ONE = e;
                             "text": "b2",
                             "rawText": "b2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 167,
                             "end": 170
@@ -483,14 +482,14 @@ const x: E.ONE = e;
                                 "text": "Bins2",
                                 "rawText": "Bins2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 171,
                                 "end": 177
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 171,
                             "end": 179
@@ -503,32 +502,32 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 181,
                                 "end": 181
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 179,
                             "end": 182
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 167,
                         "end": 182
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 167,
                 "end": 182
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 161,
             "end": 183
@@ -546,7 +545,7 @@ const x: E.ONE = e;
                             "text": "e1",
                             "rawText": "e1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 190,
                             "end": 193
@@ -559,14 +558,14 @@ const x: E.ONE = e;
                                 "text": "E1",
                                 "rawText": "E1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 194,
                                 "end": 197
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 194,
                             "end": 199
@@ -578,7 +577,7 @@ const x: E.ONE = e;
                                 "text": "E1",
                                 "rawText": "E1",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 199,
                                 "end": 202
@@ -588,13 +587,13 @@ const x: E.ONE = e;
                                 "text": "ONE",
                                 "rawText": "ONE",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 203,
                                 "end": 206
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 202,
                             "end": 206,
@@ -605,20 +604,20 @@ const x: E.ONE = e;
                             }
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 190,
                         "end": 206
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 190,
                 "end": 206
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 183,
             "end": 207
@@ -636,7 +635,7 @@ const x: E.ONE = e;
                             "text": "e2",
                             "rawText": "e2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 213,
                             "end": 216
@@ -649,14 +648,14 @@ const x: E.ONE = e;
                                 "text": "E2",
                                 "rawText": "E2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 217,
                                 "end": 220
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 217,
                             "end": 222
@@ -668,7 +667,7 @@ const x: E.ONE = e;
                                 "text": "E2",
                                 "rawText": "E2",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 222,
                                 "end": 225
@@ -678,13 +677,13 @@ const x: E.ONE = e;
                                 "text": "ONE",
                                 "rawText": "ONE",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 226,
                                 "end": 229
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 225,
                             "end": 229,
@@ -695,20 +694,20 @@ const x: E.ONE = e;
                             }
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 213,
                         "end": 229
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 213,
                 "end": 229
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 207,
             "end": 230
@@ -724,7 +723,7 @@ const x: E.ONE = e;
                         "text": "b1",
                         "rawText": "b1",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 230,
                         "end": 234
@@ -734,13 +733,13 @@ const x: E.ONE = e;
                         "text": 1,
                         "rawText": "1",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 235,
                         "end": 236
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 234,
                     "end": 237
@@ -751,19 +750,19 @@ const x: E.ONE = e;
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 239,
                     "end": 243
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 230,
                 "end": 243
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 230,
             "end": 244
@@ -779,7 +778,7 @@ const x: E.ONE = e;
                         "text": "b1",
                         "rawText": "b1",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 244,
                         "end": 247
@@ -789,13 +788,13 @@ const x: E.ONE = e;
                         "text": "e1",
                         "rawText": "e1",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 248,
                         "end": 250
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 247,
                     "end": 251
@@ -806,19 +805,19 @@ const x: E.ONE = e;
                     "text": "b",
                     "rawText": "b",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 253,
                     "end": 257
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 244,
                 "end": 257
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 244,
             "end": 258
@@ -834,7 +833,7 @@ const x: E.ONE = e;
                         "text": "b2",
                         "rawText": "b2",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 258,
                         "end": 262
@@ -844,13 +843,13 @@ const x: E.ONE = e;
                         "text": 1,
                         "rawText": "1",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 263,
                         "end": 264
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 262,
                     "end": 265
@@ -861,19 +860,19 @@ const x: E.ONE = e;
                     "text": "a",
                     "rawText": "a",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 267,
                     "end": 271
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 258,
                 "end": 271
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 258,
             "end": 272
@@ -889,7 +888,7 @@ const x: E.ONE = e;
                         "text": "b2",
                         "rawText": "b2",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 272,
                         "end": 275
@@ -899,13 +898,13 @@ const x: E.ONE = e;
                         "text": "e2",
                         "rawText": "e2",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 276,
                         "end": 278
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 275,
                     "end": 279
@@ -916,19 +915,19 @@ const x: E.ONE = e;
                     "text": "b",
                     "rawText": "b",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 281,
                     "end": 285
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 272,
                 "end": 285
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 272,
             "end": 286
@@ -940,7 +939,7 @@ const x: E.ONE = e;
                 "text": "val",
                 "rawText": "val",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 396,
                 "end": 400
@@ -950,7 +949,7 @@ const x: E.ONE = e;
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 401,
                 "end": 402
@@ -958,7 +957,7 @@ const x: E.ONE = e;
             "type": {
                 "kind": 4202657,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 403,
                 "end": 410
@@ -966,7 +965,7 @@ const x: E.ONE = e;
             "contents": null,
             "typeParameters": null,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 387,
             "end": 411
@@ -978,7 +977,7 @@ const x: E.ONE = e;
                 "text": "N1",
                 "rawText": "N1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 417,
                 "end": 420
@@ -993,7 +992,7 @@ const x: E.ONE = e;
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 422,
                             "end": 424
@@ -1005,7 +1004,7 @@ const x: E.ONE = e;
                                 "text": "val",
                                 "rawText": "val",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 426,
                                 "end": 430
@@ -1017,18 +1016,18 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 432,
                                 "end": 432
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 430,
                             "end": 432
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 422,
                         "end": 432
@@ -1040,7 +1039,7 @@ const x: E.ONE = e;
                             "text": "B",
                             "rawText": "B",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 433,
                             "end": 435
@@ -1052,7 +1051,7 @@ const x: E.ONE = e;
                                 "text": "val",
                                 "rawText": "val",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 437,
                                 "end": 441
@@ -1064,32 +1063,32 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 443,
                                 "end": 443
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 441,
                             "end": 443
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 433,
                         "end": 443
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 422,
                 "end": 443
             },
             "isConst": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 411,
             "end": 445
@@ -1101,7 +1100,7 @@ const x: E.ONE = e;
                 "text": "N2",
                 "rawText": "N2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 450,
                 "end": 453
@@ -1116,7 +1115,7 @@ const x: E.ONE = e;
                             "text": "C",
                             "rawText": "C",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 455,
                             "end": 457
@@ -1128,7 +1127,7 @@ const x: E.ONE = e;
                                 "text": "val",
                                 "rawText": "val",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 459,
                                 "end": 463
@@ -1140,18 +1139,18 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 465,
                                 "end": 465
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 463,
                             "end": 465
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 455,
                         "end": 465
@@ -1163,7 +1162,7 @@ const x: E.ONE = e;
                             "text": "D",
                             "rawText": "D",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 466,
                             "end": 468
@@ -1175,7 +1174,7 @@ const x: E.ONE = e;
                                 "text": "val",
                                 "rawText": "val",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 470,
                                 "end": 474
@@ -1187,32 +1186,32 @@ const x: E.ONE = e;
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 476,
                                 "end": 476
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 474,
                             "end": 476
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 466,
                         "end": 476
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 455,
                 "end": 476
             },
             "isConst": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 445,
             "end": 478
@@ -1224,7 +1223,7 @@ const x: E.ONE = e;
                 "text": "T1",
                 "rawText": "T1",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 484,
                 "end": 487
@@ -1238,7 +1237,7 @@ const x: E.ONE = e;
                         "text": "K",
                         "rawText": "K",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 493,
                         "end": 494
@@ -1253,14 +1252,14 @@ const x: E.ONE = e;
                                     "text": "N1",
                                     "rawText": "N1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 497,
                                     "end": 500
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 497,
                                 "end": 502
@@ -1272,21 +1271,21 @@ const x: E.ONE = e;
                                     "text": "N2",
                                     "rawText": "N2",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 502,
                                     "end": 505
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 502,
                                 "end": 506
                             }
                         ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 500,
                         "end": 505
@@ -1294,7 +1293,7 @@ const x: E.ONE = e;
                     "defaultType": null,
                     "expression": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 493,
                     "end": 505
@@ -1311,27 +1310,27 @@ const x: E.ONE = e;
                         "text": "K",
                         "rawText": "K",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 507,
                         "end": 509
                     },
                     "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 507,
                     "end": 511
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 489,
                 "end": 511
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 478,
             "end": 512
@@ -1343,7 +1342,7 @@ const x: E.ONE = e;
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 734,
                 "end": 736
@@ -1358,14 +1357,14 @@ const x: E.ONE = e;
                             "text": "ONE",
                             "rawText": "ONE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 738,
                             "end": 742
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 738,
                         "end": 742
@@ -1377,14 +1376,14 @@ const x: E.ONE = e;
                             "text": "TWO",
                             "rawText": "TWO",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 743,
                             "end": 747
                         },
                         "initializer": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 743,
                         "end": 747
@@ -1396,7 +1395,7 @@ const x: E.ONE = e;
                             "text": "THREE",
                             "rawText": "THREE",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 748,
                             "end": 754
@@ -1406,27 +1405,27 @@ const x: E.ONE = e;
                             "text": "x",
                             "rawText": "x",
                             "flags": 33554432,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 756,
                             "end": 760
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 748,
                         "end": 760
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 738,
                 "end": 760
             },
             "isConst": false,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 729,
             "end": 762
@@ -1444,7 +1443,7 @@ const x: E.ONE = e;
                             "text": "e",
                             "rawText": "e",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 768,
                             "end": 770
@@ -1457,14 +1456,14 @@ const x: E.ONE = e;
                                 "text": "E",
                                 "rawText": "E",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 771,
                                 "end": 773
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 771,
                             "end": 775
@@ -1476,7 +1475,7 @@ const x: E.ONE = e;
                                 "text": "E",
                                 "rawText": "E",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 775,
                                 "end": 777
@@ -1486,13 +1485,13 @@ const x: E.ONE = e;
                                 "text": "ONE",
                                 "rawText": "ONE",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 778,
                                 "end": 781
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 777,
                             "end": 781,
@@ -1503,20 +1502,20 @@ const x: E.ONE = e;
                             }
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 768,
                         "end": 781
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 768,
                 "end": 781
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 762,
             "end": 782
@@ -1534,7 +1533,7 @@ const x: E.ONE = e;
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 788,
                             "end": 790
@@ -1549,7 +1548,7 @@ const x: E.ONE = e;
                                     "text": "E",
                                     "rawText": "E",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 791,
                                     "end": 793
@@ -1559,20 +1558,20 @@ const x: E.ONE = e;
                                     "text": "ONE",
                                     "rawText": "ONE",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 794,
                                     "end": 797
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 791,
                                 "end": 797
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 791,
                             "end": 799
@@ -1582,26 +1581,26 @@ const x: E.ONE = e;
                             "text": "e",
                             "rawText": "e",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 799,
                             "end": 801
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 788,
                         "end": 801
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 788,
                 "end": 801
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 782,
             "end": 802
@@ -1610,7 +1609,6 @@ const x: E.ONE = e;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1620,17 +1618,13 @@ const x: E.ONE = e;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

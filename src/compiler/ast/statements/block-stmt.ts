@@ -15,7 +15,7 @@ export function createBlockStatement(block: Block, flags: NodeFlags, start: numb
     kind: NodeKind.BlockStatement,
     block,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

@@ -32,10 +32,9 @@
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\"\\u0123\"\n;\n\"\\u4567\"\n;\n\"\\u89ab\"\n;\n\"\\ucdef\"\n;\n\"\\uABCD\"\n;\n\"\\uDE00\"\n;\n\"prefix \\u0123\"\n;\n\"\\u0123 postfix\"\n;\n\"\\u0123\\u4567\"",
     "filename": "",
     "statements": [
@@ -46,13 +45,13 @@
                 "text": "@{x123}@",
                 "rawText": "@{x123}@",
                 "flags": 8388608,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 10
@@ -64,13 +63,13 @@
                 "text": "@{x4567}@",
                 "rawText": "@{x4567}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 19
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 10,
             "end": 21
@@ -82,13 +81,13 @@
                 "text": "@{x89ab}@",
                 "rawText": "@{x89ab}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 30
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 21,
             "end": 32
@@ -100,13 +99,13 @@
                 "text": "@{xcdef}@",
                 "rawText": "@{xcdef}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 32,
             "end": 43
@@ -118,13 +117,13 @@
                 "text": "@{xabcd}@",
                 "rawText": "@{xabcd}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 43,
                 "end": 52
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 43,
             "end": 54
@@ -136,13 +135,13 @@
                 "text": "\ude00",
                 "rawText": "\ude00",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 54,
                 "end": 63
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 54,
             "end": 65
@@ -154,13 +153,13 @@
                 "text": "prefix @{x123}@",
                 "rawText": "prefix @{x123}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 65,
                 "end": 81
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 65,
             "end": 83
@@ -172,13 +171,13 @@
                 "text": "@{x123}@ postfix",
                 "rawText": "@{x123}@ postfix",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 83,
                 "end": 100
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 83,
             "end": 102
@@ -190,13 +189,13 @@
                 "text": "@{x123}@@{x4567}@",
                 "rawText": "@{x123}@@{x4567}@",
                 "flags": 8421376,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 102,
                 "end": 117
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 102,
             "end": 117
@@ -205,7 +204,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -215,17 +213,13 @@
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

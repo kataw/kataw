@@ -16,7 +16,7 @@ export function createNamedExports(
     kind: NodeKind.NamedExports,
     exportsList,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

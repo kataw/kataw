@@ -18,10 +18,9 @@ const thing = {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const thing = {\n    _size: 0,\n    get size(): number {\n        return this._size;\n    },\n    set size(value: string | number) {\n        this._size = typeof value === 'string' ? parseInt(value) : value;\n    }\n}",
     "filename": "",
     "statements": [
@@ -38,7 +37,7 @@ const thing = {
                             "text": "thing",
                             "rawText": "thing",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 11
@@ -57,7 +56,7 @@ const thing = {
                                             "text": "_size",
                                             "rawText": "_size",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 15,
                                             "end": 25
@@ -67,7 +66,7 @@ const thing = {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 28
@@ -75,7 +74,7 @@ const thing = {
                                         "accessModifier": null,
                                         "decorators": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 28
@@ -87,7 +86,7 @@ const thing = {
                                             "text": "size",
                                             "rawText": "size",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 37,
                                             "end": 42
@@ -97,7 +96,7 @@ const thing = {
                                             "formalParameterList": [],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 43,
                                             "end": 44
@@ -116,7 +115,7 @@ const thing = {
                                                             "member": {
                                                                 "kind": 4260571,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 74
@@ -126,13 +125,13 @@ const thing = {
                                                                 "text": "_size",
                                                                 "rawText": "_size",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 75,
                                                                 "end": 80
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 74,
                                                             "end": 80,
@@ -143,7 +142,7 @@ const thing = {
                                                             }
                                                         },
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 81
@@ -151,13 +150,13 @@ const thing = {
                                                 ],
                                                 "multiline": true,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 81
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 52,
                                             "end": 87
@@ -166,7 +165,7 @@ const thing = {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 45,
                                             "end": 52
@@ -174,7 +173,7 @@ const thing = {
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 42,
                                         "end": 87
@@ -186,7 +185,7 @@ const thing = {
                                             "text": "size",
                                             "rawText": "size",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 96,
                                             "end": 101
@@ -202,7 +201,7 @@ const thing = {
                                                         "text": "value",
                                                         "rawText": "value",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 102,
                                                         "end": 107
@@ -214,7 +213,7 @@ const thing = {
                                                             {
                                                                 "kind": 4202702,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 108,
                                                                 "end": 115
@@ -222,14 +221,14 @@ const thing = {
                                                             {
                                                                 "kind": 4202657,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 2097152,
                                                                 "start": 117,
                                                                 "end": 124
                                                             }
                                                         ],
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 115,
                                                         "end": 124
@@ -239,7 +238,7 @@ const thing = {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 102,
                                                     "end": 124
@@ -247,7 +246,7 @@ const thing = {
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 102,
                                             "end": 125
@@ -268,7 +267,7 @@ const thing = {
                                                                 "member": {
                                                                     "kind": 4260571,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 127,
                                                                     "end": 140
@@ -278,13 +277,13 @@ const thing = {
                                                                     "text": "_size",
                                                                     "rawText": "_size",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 141,
                                                                     "end": 146
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 140,
                                                                 "end": 146,
@@ -307,13 +306,13 @@ const thing = {
                                                                             "text": "value",
                                                                             "rawText": "value",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 155,
                                                                             "end": 161
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 148,
                                                                         "end": 161
@@ -324,13 +323,13 @@ const thing = {
                                                                         "text": "string",
                                                                         "rawText": "string",
                                                                         "flags": 33554432,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 165,
                                                                         "end": 174
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 148,
                                                                     "end": 174
@@ -342,7 +341,7 @@ const thing = {
                                                                         "text": "parseInt",
                                                                         "rawText": "parseInt",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 176,
                                                                         "end": 185
@@ -356,7 +355,7 @@ const thing = {
                                                                                 "text": "value",
                                                                                 "rawText": "value",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 186,
                                                                                 "end": 191
@@ -365,12 +364,12 @@ const thing = {
                                                                         "trailingComma": false,
                                                                         "transformFlags": 0,
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "start": 191,
                                                                         "end": 192
                                                                     },
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 185,
                                                                     "end": 192
@@ -380,25 +379,25 @@ const thing = {
                                                                     "text": "value",
                                                                     "rawText": "value",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 194,
                                                                     "end": 200
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 148,
                                                                 "end": 200
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 127,
                                                             "end": 200
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 127,
                                                         "end": 201
@@ -406,13 +405,13 @@ const thing = {
                                                 ],
                                                 "multiline": true,
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 127,
                                                 "end": 201
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 125,
                                             "end": 207
@@ -422,7 +421,7 @@ const thing = {
                                         "accessModifier": null,
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 101,
                                         "end": 207
@@ -431,32 +430,32 @@ const thing = {
                                 "trailingComma": false,
                                 "multiline": true,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 15,
                                 "end": 207
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 209
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 209
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 209
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 209
@@ -465,7 +464,6 @@ const thing = {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -475,17 +473,13 @@ const thing = {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -16,7 +16,7 @@ export function createExportsList(
     kind: NodeKind.ExportsList,
     specifiers,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

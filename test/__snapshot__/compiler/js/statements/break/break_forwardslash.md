@@ -10,10 +10,9 @@ for(x of 3)break/
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for(x of 3)break/",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ for(x of 3)break/
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 5
@@ -34,7 +33,7 @@ for(x of 3)break/
                 "text": 3,
                 "rawText": "3",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 10
@@ -45,20 +44,20 @@ for(x of 3)break/
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 1048577,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
             "isAwait": false,
             "flags": 1048577,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 16
@@ -69,13 +68,13 @@ for(x of 3)break/
                 "kind": 4260544,
                 "text": "/",
                 "flags": 1048577,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 16,
             "end": 18
@@ -99,7 +98,6 @@ for(x of 3)break/
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -109,17 +107,13 @@ for(x of 3)break/
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

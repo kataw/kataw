@@ -20,7 +20,7 @@ export function createExpressionStatement(
     kind: NodeKind.ExpressionStatement,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

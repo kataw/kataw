@@ -22,7 +22,7 @@ export function createOptionalChain(
     kind: NodeKind.OptionalChain,
     chain,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2020,
     start,
     end

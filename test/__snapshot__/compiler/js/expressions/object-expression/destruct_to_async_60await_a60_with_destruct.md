@@ -10,10 +10,9 @@ async function g() {   s = {"foo": await a = x} = x   }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function g() {   s = {\"foo\": await a = x} = x   }",
     "filename": "",
     "statements": [
@@ -24,7 +23,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -34,7 +33,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -54,7 +53,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
@@ -74,7 +73,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 33
@@ -88,13 +87,13 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 42
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 32780,
                                                             "start": 34,
                                                             "end": 42
@@ -105,13 +104,13 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 46
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 46
@@ -119,7 +118,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 46
@@ -128,13 +127,13 @@ async function g() {   s = {"foo": await a = x} = x   }
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 28,
                                             "end": 46
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 26,
                                         "end": 47
@@ -145,25 +144,25 @@ async function g() {   s = {"foo": await a = x} = x   }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 49,
                                         "end": 51
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 26,
                                     "end": 51
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 51
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 51
@@ -171,20 +170,20 @@ async function g() {   s = {"foo": await a = x} = x   }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 51
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 55
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 55
@@ -193,7 +192,6 @@ async function g() {   s = {"foo": await a = x} = x   }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -203,17 +201,13 @@ async function g() {   s = {"foo": await a = x} = x   }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

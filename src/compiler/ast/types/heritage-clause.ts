@@ -14,7 +14,7 @@ export function createHeritageClause(type: TypeNode, flags: NodeFlags, start: nu
     kind: NodeKind.HeritageClause,
     type,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

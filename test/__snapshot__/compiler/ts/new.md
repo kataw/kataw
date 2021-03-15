@@ -78,10 +78,9 @@ interface TimerConstructor {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "interface FooConstructor {\n  new (\n    a: number,\n    b: number,\n    c: number,\n    d: number,\n    e: number,\n    f: number,\n    g: number,\n    h: number\n  ): Foo;\n}\n\ninterface BarConstructor {\n  new <A, B, C>(\n    a: number,\n    b: number,\n    c: number,\n    d: number,\n    e: number,\n    f: number,\n    g: number,\n    h: number\n  ): Foo;\n}\n\ntype BazConstructor = {\n  new (\n    a: number,\n    b: number,\n    c: number,\n    d: number,\n    e: number,\n    f: number,\n    g: number,\n    h: number\n  ): Foo;\n}\n\n\ninterface ConstructorBigGenerics {\n  // comment\n  new <AAAAAAAAAAAAAAAAAAAAAAAA, AAAAAAAAAAAAAAAAAAAAAAAA, AAAAAAAAAAAAAAAAAAAAAAAA>(\n    a: number,\n    b: number,\n    c: number,\n    d: number,\n    e: number,\n    f: number,\n    g: number,\n    h: number\n  ): Foo;\n}\n\ninterface ConstructorInline {\n  // https://github.com/prettier/prettier/issues/2163\n  (i): any;\n}\n\ninterface TimerConstructor {\n  // Line-splitting comment\n  new (interval: number, callback: (handler: Timer) => void): Timer;\n}",
     "filename": "",
     "statements": [
@@ -92,7 +91,7 @@ interface TimerConstructor {
                 "text": "FooConstructor",
                 "rawText": "FooConstructor",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 24
@@ -118,7 +117,7 @@ interface TimerConstructor {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 34,
                                         "end": 40
@@ -127,7 +126,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 41,
                                         "end": 48
@@ -136,7 +135,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 34,
                                     "end": 48
@@ -149,7 +148,7 @@ interface TimerConstructor {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 49,
                                         "end": 55
@@ -158,7 +157,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 56,
                                         "end": 63
@@ -167,7 +166,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 49,
                                     "end": 63
@@ -180,7 +179,7 @@ interface TimerConstructor {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 64,
                                         "end": 70
@@ -189,7 +188,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 71,
                                         "end": 78
@@ -198,7 +197,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 64,
                                     "end": 78
@@ -211,7 +210,7 @@ interface TimerConstructor {
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 79,
                                         "end": 85
@@ -220,7 +219,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 86,
                                         "end": 93
@@ -229,7 +228,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 79,
                                     "end": 93
@@ -242,7 +241,7 @@ interface TimerConstructor {
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 94,
                                         "end": 100
@@ -251,7 +250,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 101,
                                         "end": 108
@@ -260,7 +259,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 94,
                                     "end": 108
@@ -273,7 +272,7 @@ interface TimerConstructor {
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 109,
                                         "end": 115
@@ -282,7 +281,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 116,
                                         "end": 123
@@ -291,7 +290,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 109,
                                     "end": 123
@@ -304,7 +303,7 @@ interface TimerConstructor {
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 124,
                                         "end": 130
@@ -313,7 +312,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 131,
                                         "end": 138
@@ -322,7 +321,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 124,
                                     "end": 138
@@ -335,7 +334,7 @@ interface TimerConstructor {
                                         "text": "h",
                                         "rawText": "h",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 139,
                                         "end": 145
@@ -344,7 +343,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 146,
                                         "end": 153
@@ -353,7 +352,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 139,
                                     "end": 153
@@ -361,7 +360,7 @@ interface TimerConstructor {
                             ],
                             "trailingcomma": false,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 34,
                             "end": 153
@@ -373,20 +372,20 @@ interface TimerConstructor {
                                 "text": "Foo",
                                 "rawText": "Foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 158,
                                 "end": 162
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 158,
                             "end": 163
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 32,
                         "end": 163
@@ -394,13 +393,13 @@ interface TimerConstructor {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 26,
                 "end": 163
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 165
@@ -412,7 +411,7 @@ interface TimerConstructor {
                 "text": "BarConstructor",
                 "rawText": "BarConstructor",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 176,
                 "end": 191
@@ -436,7 +435,7 @@ interface TimerConstructor {
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 201,
                                         "end": 202
@@ -445,7 +444,7 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 201,
                                     "end": 202
@@ -457,7 +456,7 @@ interface TimerConstructor {
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 203,
                                         "end": 205
@@ -466,7 +465,7 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 203,
                                     "end": 205
@@ -478,7 +477,7 @@ interface TimerConstructor {
                                         "text": "C",
                                         "rawText": "C",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 206,
                                         "end": 208
@@ -487,14 +486,14 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 206,
                                     "end": 208
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 201,
                             "end": 208
@@ -510,7 +509,7 @@ interface TimerConstructor {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 210,
                                         "end": 216
@@ -519,7 +518,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 217,
                                         "end": 224
@@ -528,7 +527,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 210,
                                     "end": 224
@@ -541,7 +540,7 @@ interface TimerConstructor {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 225,
                                         "end": 231
@@ -550,7 +549,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 232,
                                         "end": 239
@@ -559,7 +558,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 225,
                                     "end": 239
@@ -572,7 +571,7 @@ interface TimerConstructor {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 240,
                                         "end": 246
@@ -581,7 +580,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 247,
                                         "end": 254
@@ -590,7 +589,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 240,
                                     "end": 254
@@ -603,7 +602,7 @@ interface TimerConstructor {
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 255,
                                         "end": 261
@@ -612,7 +611,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 262,
                                         "end": 269
@@ -621,7 +620,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 255,
                                     "end": 269
@@ -634,7 +633,7 @@ interface TimerConstructor {
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 270,
                                         "end": 276
@@ -643,7 +642,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 277,
                                         "end": 284
@@ -652,7 +651,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 270,
                                     "end": 284
@@ -665,7 +664,7 @@ interface TimerConstructor {
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 285,
                                         "end": 291
@@ -674,7 +673,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 292,
                                         "end": 299
@@ -683,7 +682,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 285,
                                     "end": 299
@@ -696,7 +695,7 @@ interface TimerConstructor {
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 300,
                                         "end": 306
@@ -705,7 +704,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 307,
                                         "end": 314
@@ -714,7 +713,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 300,
                                     "end": 314
@@ -727,7 +726,7 @@ interface TimerConstructor {
                                         "text": "h",
                                         "rawText": "h",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 315,
                                         "end": 321
@@ -736,7 +735,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 322,
                                         "end": 329
@@ -745,7 +744,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 315,
                                     "end": 329
@@ -753,7 +752,7 @@ interface TimerConstructor {
                             ],
                             "trailingcomma": false,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 210,
                             "end": 329
@@ -765,20 +764,20 @@ interface TimerConstructor {
                                 "text": "Foo",
                                 "rawText": "Foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 334,
                                 "end": 338
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 334,
                             "end": 339
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 199,
                         "end": 339
@@ -786,13 +785,13 @@ interface TimerConstructor {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 193,
                 "end": 339
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 165,
             "end": 341
@@ -804,7 +803,7 @@ interface TimerConstructor {
                 "text": "BazConstructor",
                 "rawText": "BazConstructor",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 347,
                 "end": 362
@@ -830,7 +829,7 @@ interface TimerConstructor {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 374,
                                             "end": 380
@@ -839,7 +838,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 381,
                                             "end": 388
@@ -848,7 +847,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 374,
                                         "end": 388
@@ -861,7 +860,7 @@ interface TimerConstructor {
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 389,
                                             "end": 395
@@ -870,7 +869,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 396,
                                             "end": 403
@@ -879,7 +878,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 389,
                                         "end": 403
@@ -892,7 +891,7 @@ interface TimerConstructor {
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 404,
                                             "end": 410
@@ -901,7 +900,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 411,
                                             "end": 418
@@ -910,7 +909,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 404,
                                         "end": 418
@@ -923,7 +922,7 @@ interface TimerConstructor {
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 419,
                                             "end": 425
@@ -932,7 +931,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 426,
                                             "end": 433
@@ -941,7 +940,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 419,
                                         "end": 433
@@ -954,7 +953,7 @@ interface TimerConstructor {
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 434,
                                             "end": 440
@@ -963,7 +962,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 441,
                                             "end": 448
@@ -972,7 +971,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 434,
                                         "end": 448
@@ -985,7 +984,7 @@ interface TimerConstructor {
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 449,
                                             "end": 455
@@ -994,7 +993,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 456,
                                             "end": 463
@@ -1003,7 +1002,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 449,
                                         "end": 463
@@ -1016,7 +1015,7 @@ interface TimerConstructor {
                                             "text": "g",
                                             "rawText": "g",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 464,
                                             "end": 470
@@ -1025,7 +1024,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 471,
                                             "end": 478
@@ -1034,7 +1033,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 464,
                                         "end": 478
@@ -1047,7 +1046,7 @@ interface TimerConstructor {
                                             "text": "h",
                                             "rawText": "h",
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 479,
                                             "end": 485
@@ -1056,7 +1055,7 @@ interface TimerConstructor {
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 486,
                                             "end": 493
@@ -1065,7 +1064,7 @@ interface TimerConstructor {
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 479,
                                         "end": 493
@@ -1073,7 +1072,7 @@ interface TimerConstructor {
                                 ],
                                 "trailingcomma": false,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 374,
                                 "end": 493
@@ -1085,20 +1084,20 @@ interface TimerConstructor {
                                     "text": "Foo",
                                     "rawText": "Foo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 498,
                                     "end": 502
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 498,
                                 "end": 503
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 372,
                             "end": 503
@@ -1106,20 +1105,20 @@ interface TimerConstructor {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 366,
                     "end": 505
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 364,
                 "end": 505
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 341,
             "end": 505
@@ -1131,7 +1130,7 @@ interface TimerConstructor {
                 "text": "ConstructorBigGenerics",
                 "rawText": "ConstructorBigGenerics",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 517,
                 "end": 540
@@ -1155,7 +1154,7 @@ interface TimerConstructor {
                                         "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "rawText": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 563,
                                         "end": 587
@@ -1164,7 +1163,7 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 563,
                                     "end": 587
@@ -1176,7 +1175,7 @@ interface TimerConstructor {
                                         "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "rawText": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 588,
                                         "end": 613
@@ -1185,7 +1184,7 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 588,
                                     "end": 613
@@ -1197,7 +1196,7 @@ interface TimerConstructor {
                                         "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "rawText": "AAAAAAAAAAAAAAAAAAAAAAAA",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 614,
                                         "end": 639
@@ -1206,14 +1205,14 @@ interface TimerConstructor {
                                     "defaultType": null,
                                     "expression": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 614,
                                     "end": 639
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 563,
                             "end": 639
@@ -1229,7 +1228,7 @@ interface TimerConstructor {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 641,
                                         "end": 647
@@ -1238,7 +1237,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 648,
                                         "end": 655
@@ -1247,7 +1246,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 641,
                                     "end": 655
@@ -1260,7 +1259,7 @@ interface TimerConstructor {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 656,
                                         "end": 662
@@ -1269,7 +1268,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 663,
                                         "end": 670
@@ -1278,7 +1277,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 656,
                                     "end": 670
@@ -1291,7 +1290,7 @@ interface TimerConstructor {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 671,
                                         "end": 677
@@ -1300,7 +1299,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 678,
                                         "end": 685
@@ -1309,7 +1308,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 671,
                                     "end": 685
@@ -1322,7 +1321,7 @@ interface TimerConstructor {
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 686,
                                         "end": 692
@@ -1331,7 +1330,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 693,
                                         "end": 700
@@ -1340,7 +1339,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 686,
                                     "end": 700
@@ -1353,7 +1352,7 @@ interface TimerConstructor {
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 701,
                                         "end": 707
@@ -1362,7 +1361,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 708,
                                         "end": 715
@@ -1371,7 +1370,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 701,
                                     "end": 715
@@ -1384,7 +1383,7 @@ interface TimerConstructor {
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 716,
                                         "end": 722
@@ -1393,7 +1392,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 723,
                                         "end": 730
@@ -1402,7 +1401,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 716,
                                     "end": 730
@@ -1415,7 +1414,7 @@ interface TimerConstructor {
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 731,
                                         "end": 737
@@ -1424,7 +1423,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 738,
                                         "end": 745
@@ -1433,7 +1432,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 731,
                                     "end": 745
@@ -1446,7 +1445,7 @@ interface TimerConstructor {
                                         "text": "h",
                                         "rawText": "h",
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 746,
                                         "end": 752
@@ -1455,7 +1454,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 753,
                                         "end": 760
@@ -1464,7 +1463,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 746,
                                     "end": 760
@@ -1472,7 +1471,7 @@ interface TimerConstructor {
                             ],
                             "trailingcomma": false,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 641,
                             "end": 760
@@ -1484,20 +1483,20 @@ interface TimerConstructor {
                                 "text": "Foo",
                                 "rawText": "Foo",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 765,
                                 "end": 769
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 765,
                             "end": 770
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 561,
                         "end": 770
@@ -1505,13 +1504,13 @@ interface TimerConstructor {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 542,
                 "end": 770
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 505,
             "end": 772
@@ -1523,7 +1522,7 @@ interface TimerConstructor {
                 "text": "ConstructorInline",
                 "rawText": "ConstructorInline",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 783,
                 "end": 801
@@ -1549,7 +1548,7 @@ interface TimerConstructor {
                                         "text": "i",
                                         "rawText": "i",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 861,
                                         "end": 862
@@ -1560,7 +1559,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 861,
                                     "end": 862
@@ -1568,7 +1567,7 @@ interface TimerConstructor {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 861,
                             "end": 862
@@ -1576,13 +1575,13 @@ interface TimerConstructor {
                         "returnType": {
                             "kind": 4202498,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 864,
                             "end": 868
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 803,
                         "end": 869
@@ -1590,13 +1589,13 @@ interface TimerConstructor {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 803,
                 "end": 869
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 772,
             "end": 871
@@ -1608,7 +1607,7 @@ interface TimerConstructor {
                 "text": "TimerConstructor",
                 "rawText": "TimerConstructor",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 882,
                 "end": 899
@@ -1634,7 +1633,7 @@ interface TimerConstructor {
                                         "text": "interval",
                                         "rawText": "interval",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 937,
                                         "end": 945
@@ -1643,7 +1642,7 @@ interface TimerConstructor {
                                     "type": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 946,
                                         "end": 953
@@ -1652,7 +1651,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 937,
                                     "end": 953
@@ -1665,7 +1664,7 @@ interface TimerConstructor {
                                         "text": "callback",
                                         "rawText": "callback",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 954,
                                         "end": 963
@@ -1685,7 +1684,7 @@ interface TimerConstructor {
                                                         "text": "handler",
                                                         "rawText": "handler",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1025,
                                                         "start": 966,
                                                         "end": 973
@@ -1698,14 +1697,14 @@ interface TimerConstructor {
                                                             "text": "Timer",
                                                             "rawText": "Timer",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 974,
                                                             "end": 980
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 974,
                                                         "end": 981
@@ -1714,7 +1713,7 @@ interface TimerConstructor {
                                                     "accessModifier": null,
                                                     "isReadOnly": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
                                                     "start": 966,
                                                     "end": 980
@@ -1722,7 +1721,7 @@ interface TimerConstructor {
                                             ],
                                             "trailingcomma": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 966,
                                             "end": 980
@@ -1730,13 +1729,13 @@ interface TimerConstructor {
                                         "returnType": {
                                             "kind": 4202742,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 984,
                                             "end": 989
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 964,
                                         "end": 989
@@ -1745,7 +1744,7 @@ interface TimerConstructor {
                                     "accessModifier": null,
                                     "isReadOnly": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 954,
                                     "end": 989
@@ -1753,7 +1752,7 @@ interface TimerConstructor {
                             ],
                             "trailingcomma": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 937,
                             "end": 989
@@ -1765,20 +1764,20 @@ interface TimerConstructor {
                                 "text": "Timer",
                                 "rawText": "Timer",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 991,
                                 "end": 997
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 991,
                             "end": 998
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 935,
                         "end": 998
@@ -1786,13 +1785,13 @@ interface TimerConstructor {
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 901,
                 "end": 998
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 871,
             "end": 1000
@@ -1801,7 +1800,6 @@ interface TimerConstructor {
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1811,17 +1809,13 @@ interface TimerConstructor {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

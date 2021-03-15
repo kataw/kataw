@@ -15,10 +15,9 @@ class A {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {\n    @configurable(true) static prop1;\n\n    @configurable(false)\n    static prop2;\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -47,7 +46,7 @@ class A {
                             "text": "prop1",
                             "rawText": "prop1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
                             "end": 46
@@ -72,7 +71,7 @@ class A {
                                             "text": "configurable",
                                             "rawText": "configurable",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 15,
                                             "end": 27
@@ -85,7 +84,7 @@ class A {
                                                     "kind": 4260391,
                                                     "text": true,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 32
@@ -94,25 +93,25 @@ class A {
                                             "trailingComma": false,
                                             "transformFlags": 0,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "start": 32,
                                             "end": 33
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 27,
                                         "end": 33
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 15,
                                     "end": 33
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 15,
                             "end": 33
@@ -120,7 +119,7 @@ class A {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 9,
                         "end": 47
@@ -132,7 +131,7 @@ class A {
                             "text": "prop2",
                             "rawText": "prop2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 84,
                             "end": 90
@@ -157,7 +156,7 @@ class A {
                                             "text": "configurable",
                                             "rawText": "configurable",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 54,
                                             "end": 66
@@ -170,7 +169,7 @@ class A {
                                                     "kind": 4260391,
                                                     "text": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 67,
                                                     "end": 72
@@ -179,25 +178,25 @@ class A {
                                             "trailingComma": false,
                                             "transformFlags": 0,
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "start": 72,
                                             "end": 73
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 66,
                                         "end": 73
                                     },
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 54,
                                     "end": 73
                                 }
                             ],
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 54,
                             "end": 73
@@ -205,14 +204,14 @@ class A {
                         "accessModifier": null,
                         "isStatic": true,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 524352,
                         "start": 47,
                         "end": 91
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 93
@@ -220,7 +219,7 @@ class A {
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 93
@@ -229,7 +228,6 @@ class A {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -239,17 +237,13 @@ class A {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

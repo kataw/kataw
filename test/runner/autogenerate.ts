@@ -24,9 +24,12 @@ export async function autogen(files: string[], conservative: boolean) {
 
   files = files.filter((f: string) => f.endsWith('autogen.md'));
 
-  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
+  let list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
     throw new Error(e);
   });
+
+  // TODO: cleanup
+  list = list.map((it, idx) => ({ file: files[idx], data: it }));
 
   list.forEach((obj: any) => {
     const genDir = join(dirname(obj.file), 'gen');

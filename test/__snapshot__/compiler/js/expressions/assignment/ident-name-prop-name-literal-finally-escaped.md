@@ -10,10 +10,9 @@ var y = { \u0066inally: x } = { finally: 42 };
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var y = { \\u0066inally: x } = { finally: 42 };",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                             "text": "y",
                             "rawText": "y",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 5
@@ -50,7 +49,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "finally",
                                                 "rawText": " \\u0066inally",
                                                 "flags": 8388608,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 22
@@ -60,7 +59,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
@@ -68,7 +67,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 25
@@ -77,13 +76,13 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 9,
                                     "end": 25
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 27
@@ -101,7 +100,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "finally",
                                                 "rawText": "finally",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 39
@@ -111,7 +110,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 43
@@ -119,7 +118,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 31,
                                             "end": 43
@@ -128,38 +127,38 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "trailingComma": false,
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 43
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 29,
                                 "end": 45
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 45
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 45
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 45
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 46
@@ -168,7 +167,6 @@ var y = { \u0066inally: x } = { finally: 42 };
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -178,17 +176,13 @@ var y = { \u0066inally: x } = { finally: 42 };
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

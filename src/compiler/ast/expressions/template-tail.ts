@@ -1,5 +1,4 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { TemplateExpression } from './template-expression';
 
 /**
  * Template tail
@@ -24,7 +23,7 @@ export function createTemplateTail(
     text,
     literal,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015,
     start,
     end

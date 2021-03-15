@@ -1,23 +1,3 @@
-import { Script } from './ast/script';
-import { Module } from './ast/module';
-import { forEachChild } from './forEachChild';
-
-export function setParentReferences(root: Script | Module): Script | Module {
-  let parent: any = root;
-  forEachChild(root, visitor);
-  return root;
-  function visitor(node: any): any {
-    if (node.parent !== parent) {
-      node.parent = parent;
-
-      const saveParent = parent;
-      parent = node;
-      forEachChild(node, visitor);
-      parent = saveParent;
-    }
-  }
-}
-
 export function extractSingleNode(nodes: any[]): Node {
   return singleOrUndefined(nodes);
 }

@@ -28,7 +28,7 @@ export function createJsxFragment(
     children,
     closingFragment,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       openingFragment.transformFlags |
       closingFragment.transformFlags |

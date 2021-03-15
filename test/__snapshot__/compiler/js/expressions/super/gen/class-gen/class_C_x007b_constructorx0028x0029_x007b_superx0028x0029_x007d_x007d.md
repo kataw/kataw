@@ -14,10 +14,9 @@ class C { *method() { class C { constructor() { super(); } } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { *method() { class C { constructor() { super(); } } } }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 17
@@ -62,7 +61,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
@@ -81,7 +80,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 27,
                                                 "end": 29
@@ -105,7 +104,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                 "text": "constructor",
                                                                 "rawText": "constructor",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 31,
                                                                 "end": 43
@@ -115,7 +114,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 44,
                                                                 "end": 45
@@ -134,7 +133,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                                 "expression": {
                                                                                     "kind": 4260561,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 47,
                                                                                     "end": 53
@@ -146,18 +145,18 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                                     "trailingComma": false,
                                                                                     "transformFlags": 0,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "start": 55,
                                                                                     "end": 55
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 65536,
                                                                                 "start": 53,
                                                                                 "end": 55
                                                                             },
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 47,
                                                                             "end": 56
@@ -165,13 +164,13 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                     ],
                                                                     "multiline": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 47,
                                                                     "end": 56
                                                                 },
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 45,
                                                                 "end": 58
@@ -181,20 +180,20 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                             "accessModifier": null,
                                                             "typeParameters": null,
                                                             "flags": 524288,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 43,
                                                             "end": 58
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 1,
                                                         "start": 31,
                                                         "end": 58
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 31,
                                                 "end": 60
@@ -202,7 +201,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                             "decorators": null,
                                             "isAbstract": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 21,
                                             "end": 60
@@ -210,13 +209,13 @@ class C { *method() { class C { constructor() { super(); } } } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 21,
                                     "end": 60
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 62
@@ -226,20 +225,20 @@ class C { *method() { class C { constructor() { super(); } } } }
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 17,
                             "end": 62
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 62
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 64
@@ -247,7 +246,7 @@ class C { *method() { class C { constructor() { super(); } } } }
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 64
@@ -256,7 +255,6 @@ class C { *method() { class C { constructor() { super(); } } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -266,17 +264,13 @@ class C { *method() { class C { constructor() { super(); } } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

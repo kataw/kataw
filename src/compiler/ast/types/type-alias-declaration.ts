@@ -28,7 +28,7 @@ export function createTypeAliasDeclaration(
     type,
     typeParameters,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

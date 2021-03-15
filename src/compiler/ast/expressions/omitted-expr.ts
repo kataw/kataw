@@ -10,7 +10,7 @@ export function createOmittedExpression(flags: NodeFlags, start: number, end: nu
   return {
     kind: NodeKind.OmittedExpression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

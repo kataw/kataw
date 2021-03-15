@@ -18,10 +18,9 @@ var o = Object.create(<object>{});
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\ndeclare var union: null | { a: number, b: string };\n\nvar n = Object.create(null);             // any\nvar t = Object.create({ a: 1, b: \"\" });  // {a: number, b: string }\nvar u = Object.create(union);            // {a: number, b: string }\nvar e = Object.create({});               // {}\nvar o = Object.create(<object>{});\n",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ var o = Object.create(<object>{});
                             "text": "union",
                             "rawText": "union",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 12,
                             "end": 18
@@ -49,7 +48,7 @@ var o = Object.create(<object>{});
                                 {
                                     "kind": 4202655,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 19,
                                     "end": 24
@@ -66,7 +65,7 @@ var o = Object.create(<object>{});
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 30
@@ -76,7 +75,7 @@ var o = Object.create(<object>{});
                                                 "type": {
                                                     "kind": 4202657,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 31,
                                                     "end": 38
@@ -85,7 +84,7 @@ var o = Object.create(<object>{});
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 28,
                                                 "end": 39
@@ -97,7 +96,7 @@ var o = Object.create(<object>{});
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 41
@@ -107,7 +106,7 @@ var o = Object.create(<object>{});
                                                 "type": {
                                                     "kind": 4202702,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 42,
                                                     "end": 49
@@ -116,7 +115,7 @@ var o = Object.create(<object>{});
                                                 "isReadOnly": false,
                                                 "initializer": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 39,
                                                 "end": 49
@@ -124,40 +123,40 @@ var o = Object.create(<object>{});
                                         ],
                                         "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 28,
                                         "end": 51
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 26,
                                     "end": 51
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 24,
                             "end": 51
                         },
                         "initializer": null,
                         "flags": 12,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 51
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 12,
                 "end": 51
             },
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 8,
             "end": 52
@@ -174,7 +173,7 @@ var o = Object.create(<object>{});
                             "text": "n",
                             "rawText": "n",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 57,
                             "end": 59
@@ -190,7 +189,7 @@ var o = Object.create(<object>{});
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 61,
                                     "end": 68
@@ -200,13 +199,13 @@ var o = Object.create(<object>{});
                                     "text": "create",
                                     "rawText": "create",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 69,
                                     "end": 75
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 68,
                                 "end": 75,
@@ -224,7 +223,7 @@ var o = Object.create(<object>{});
                                         "kind": 4260512,
                                         "text": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 76,
                                         "end": 80
@@ -233,31 +232,31 @@ var o = Object.create(<object>{});
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 80,
                                 "end": 81
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 75,
                             "end": 81
                         },
                         "flags": 57,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 81
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 57,
                 "end": 81
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 52,
             "end": 82
@@ -274,7 +273,7 @@ var o = Object.create(<object>{});
                             "text": "t",
                             "rawText": "t",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 105,
                             "end": 107
@@ -290,7 +289,7 @@ var o = Object.create(<object>{});
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 109,
                                     "end": 116
@@ -300,13 +299,13 @@ var o = Object.create(<object>{});
                                     "text": "create",
                                     "rawText": "create",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 117,
                                     "end": 123
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 116,
                                 "end": 123,
@@ -332,7 +331,7 @@ var o = Object.create(<object>{});
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 125,
                                                         "end": 127
@@ -342,7 +341,7 @@ var o = Object.create(<object>{});
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 128,
                                                         "end": 130
@@ -350,7 +349,7 @@ var o = Object.create(<object>{});
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 125,
                                                     "end": 130
@@ -362,7 +361,7 @@ var o = Object.create(<object>{});
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 131,
                                                         "end": 133
@@ -372,7 +371,7 @@ var o = Object.create(<object>{});
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 134,
                                                         "end": 137
@@ -380,7 +379,7 @@ var o = Object.create(<object>{});
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 131,
                                                     "end": 137
@@ -389,13 +388,13 @@ var o = Object.create(<object>{});
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 125,
                                             "end": 137
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 124,
                                         "end": 139
@@ -404,31 +403,31 @@ var o = Object.create(<object>{});
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 125,
                                 "end": 140
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 123,
                             "end": 140
                         },
                         "flags": 105,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 140
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 105,
                 "end": 140
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 82,
             "end": 141
@@ -445,7 +444,7 @@ var o = Object.create(<object>{});
                             "text": "u",
                             "rawText": "u",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 173,
                             "end": 175
@@ -461,7 +460,7 @@ var o = Object.create(<object>{});
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 177,
                                     "end": 184
@@ -471,13 +470,13 @@ var o = Object.create(<object>{});
                                     "text": "create",
                                     "rawText": "create",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 185,
                                     "end": 191
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 184,
                                 "end": 191,
@@ -496,7 +495,7 @@ var o = Object.create(<object>{});
                                         "text": "union",
                                         "rawText": "union",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 192,
                                         "end": 197
@@ -505,31 +504,31 @@ var o = Object.create(<object>{});
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 197,
                                 "end": 198
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 191,
                             "end": 198
                         },
                         "flags": 173,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 198
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 173,
                 "end": 198
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 141,
             "end": 199
@@ -546,7 +545,7 @@ var o = Object.create(<object>{});
                             "text": "e",
                             "rawText": "e",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 241,
                             "end": 243
@@ -562,7 +561,7 @@ var o = Object.create(<object>{});
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 245,
                                     "end": 252
@@ -572,13 +571,13 @@ var o = Object.create(<object>{});
                                     "text": "create",
                                     "rawText": "create",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 253,
                                     "end": 259
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 252,
                                 "end": 259,
@@ -600,13 +599,13 @@ var o = Object.create(<object>{});
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 261,
                                             "end": 261
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 260,
                                         "end": 262
@@ -615,31 +614,31 @@ var o = Object.create(<object>{});
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 261,
                                 "end": 263
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 259,
                             "end": 263
                         },
                         "flags": 241,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 263
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 241,
                 "end": 263
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 199,
             "end": 264
@@ -656,7 +655,7 @@ var o = Object.create(<object>{});
                             "text": "o",
                             "rawText": "o",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 288,
                             "end": 290
@@ -672,7 +671,7 @@ var o = Object.create(<object>{});
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 292,
                                     "end": 299
@@ -682,13 +681,13 @@ var o = Object.create(<object>{});
                                     "text": "create",
                                     "rawText": "create",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 300,
                                     "end": 306
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 299,
                                 "end": 306,
@@ -707,7 +706,7 @@ var o = Object.create(<object>{});
                                         "type": {
                                             "kind": 4202663,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 308,
                                             "end": 314
@@ -720,19 +719,19 @@ var o = Object.create(<object>{});
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 316,
                                                 "end": 316
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 315,
                                             "end": 317
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 307,
                                         "end": 317
@@ -741,31 +740,31 @@ var o = Object.create(<object>{});
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 308,
                                 "end": 318
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 306,
                             "end": 318
                         },
                         "flags": 288,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 318
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 288,
                 "end": 318
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 264,
             "end": 319
@@ -774,7 +773,6 @@ var o = Object.create(<object>{});
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -784,17 +782,13 @@ var o = Object.create(<object>{});
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

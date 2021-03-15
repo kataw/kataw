@@ -10,7 +10,7 @@ export function createThisType(flags: NodeFlags, start: number, end: number): Th
   return {
     kind: NodeKind.ThisType,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

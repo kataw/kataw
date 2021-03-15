@@ -18,10 +18,9 @@ function __Bar() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var __test = 'ff';\n\nclass __Foo {\n\n}\n\nfunction __Bar() {\n\n}",
     "filename": "",
     "statements": [
@@ -37,7 +36,7 @@ function __Bar() {
                             "text": "__test",
                             "rawText": "__test",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 10
@@ -49,26 +48,26 @@ function __Bar() {
                             "text": "ff",
                             "rawText": "ff",
                             "flags": 33554432,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 17
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 17
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 18
@@ -80,7 +79,7 @@ function __Bar() {
                 "text": "__Foo",
                 "rawText": "__Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 25,
                 "end": 31
@@ -92,7 +91,7 @@ function __Bar() {
                 "kind": 50,
                 "elements": [],
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 33,
                 "end": 36
@@ -100,7 +99,7 @@ function __Bar() {
             "decorators": null,
             "isAbstract": false,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 18,
             "end": 36
@@ -112,7 +111,7 @@ function __Bar() {
                 "text": "__Bar",
                 "rawText": "__Bar",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 46,
                 "end": 52
@@ -122,7 +121,7 @@ function __Bar() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 53,
                 "end": 54
@@ -135,20 +134,20 @@ function __Bar() {
                     "statements": [],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 56,
                     "end": 56
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 54,
                 "end": 59
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 36,
             "end": 59
@@ -157,7 +156,6 @@ function __Bar() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -167,17 +165,13 @@ function __Bar() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

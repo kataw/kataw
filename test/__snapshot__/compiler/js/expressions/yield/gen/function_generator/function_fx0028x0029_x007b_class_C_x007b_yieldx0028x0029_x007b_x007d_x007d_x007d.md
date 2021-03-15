@@ -14,10 +14,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function * gen() { function not_gen() { function f() { class C { yield() { } } } }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 10,
                 "end": 14
@@ -38,7 +37,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 16
@@ -56,7 +55,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 27,
                                 "end": 35
@@ -66,7 +65,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
@@ -84,7 +83,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 48,
                                                 "end": 50
@@ -94,7 +93,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 52
@@ -112,7 +111,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                 "text": "C",
                                                                 "rawText": "C",
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1025,
                                                                 "start": 60,
                                                                 "end": 62
@@ -136,7 +135,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                 "text": "yield",
                                                                                 "rawText": "yield",
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 64,
                                                                                 "end": 70
@@ -146,7 +145,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                 "formalParameterList": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 71,
                                                                                 "end": 72
@@ -160,13 +159,13 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                     "statements": [],
                                                                                     "multiline": false,
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 74,
                                                                                     "end": 74
                                                                                 },
                                                                                 "flags": 0,
-                                                                                "intersects": false,
+                                                                                "symbol": null,
                                                                                 "transformFlags": 0,
                                                                                 "start": 72,
                                                                                 "end": 76
@@ -176,20 +175,20 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                             "accessModifier": null,
                                                                             "typeParameters": null,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 70,
                                                                             "end": 76
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1,
                                                                         "start": 64,
                                                                         "end": 76
                                                                     }
                                                                 ],
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 1,
                                                                 "start": 64,
                                                                 "end": 78
@@ -197,7 +196,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                             "decorators": null,
                                                             "isAbstract": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1,
                                                             "start": 54,
                                                             "end": 78
@@ -205,20 +204,20 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                     ],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 78
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 80
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 256,
                                             "start": 39,
                                             "end": 80
@@ -226,20 +225,20 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 39,
                                     "end": 80
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 37,
                                 "end": 82
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 256,
                             "start": 18,
                             "end": 82
@@ -247,20 +246,20 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 18,
                     "end": 82
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 83
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 384,
             "start": 0,
             "end": 83
@@ -269,7 +268,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -279,17 +277,13 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

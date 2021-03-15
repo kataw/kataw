@@ -23,7 +23,7 @@ export function createPrefixUpdateExpression(
     operator,
     operand,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: 0,
     start,
     end

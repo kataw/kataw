@@ -10,10 +10,9 @@ xxx\u0065xxx
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "xxx\\u0065xxx",
     "filename": "",
     "statements": [
@@ -24,13 +23,13 @@ xxx\u0065xxx
                 "text": "xxxexxx",
                 "rawText": "xxx\\u0065xxx",
                 "flags": 8388608,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 12
@@ -39,7 +38,6 @@ xxx\u0065xxx
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -49,17 +47,13 @@ xxx\u0065xxx
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

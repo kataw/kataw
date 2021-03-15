@@ -16,10 +16,9 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];",
     "filename": "",
     "statements": [
@@ -30,7 +29,7 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                 "text": "TupleWithRest",
                 "rawText": "TupleWithRest",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 18
@@ -41,7 +40,7 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                     {
                         "kind": 4202657,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 22,
                         "end": 28
@@ -57,7 +56,7 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 34,
                                     "end": 35
@@ -67,7 +66,7 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 43,
                                     "end": 45
@@ -77,13 +76,13 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     "elementType": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 47,
                                         "end": 54
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 47,
                                     "end": 58
@@ -93,31 +92,31 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     "elementType": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 58,
                                         "end": 65
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 58,
                                     "end": 68
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 34,
                                 "end": 67
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 33,
                             "end": 68
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 29,
                         "end": 68
@@ -125,14 +124,14 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                 ],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 20,
                 "end": 69
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
             "end": 70
@@ -141,7 +140,6 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -151,17 +149,13 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

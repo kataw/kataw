@@ -1,8 +1,6 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Expression } from '.';
-import { ArrayLiteral } from './array-literal';
-import { ArgumentList } from './argument-list';
 
 /**
  * Spread element
@@ -16,7 +14,7 @@ export function createSpreadElement(argument: Expression, flags: NodeFlags, star
     kind: NodeKind.SpreadElement,
     argument,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2016,
     start,
     end

@@ -21,10 +21,9 @@ export namespace E {}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "export var a;\nexport function b() {}\nexport class C {}\n\nexport enum D {}\nexport namespace E {}",
     "filename": "",
     "statements": [
@@ -42,7 +41,7 @@ export namespace E {}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 10,
                                 "end": 12
@@ -51,20 +50,20 @@ export namespace E {}
                             "type": null,
                             "initializer": null,
                             "flags": 10,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 0,
                             "end": 12
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 13
@@ -74,7 +73,7 @@ export namespace E {}
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 13
@@ -88,7 +87,7 @@ export namespace E {}
                     "text": "b",
                     "rawText": "b",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 29,
                     "end": 31
@@ -98,7 +97,7 @@ export namespace E {}
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 32,
                     "end": 33
@@ -111,20 +110,20 @@ export namespace E {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 35,
                         "end": 35
                     },
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 33,
                     "end": 36
                 },
                 "typeParameters": null,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 256,
                 "start": 20,
                 "end": 36
@@ -134,7 +133,7 @@ export namespace E {}
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 13,
             "end": 36
@@ -148,7 +147,7 @@ export namespace E {}
                     "text": "C",
                     "rawText": "C",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1025,
                     "start": 49,
                     "end": 51
@@ -160,7 +159,7 @@ export namespace E {}
                     "kind": 50,
                     "elements": [],
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 53,
                     "end": 54
@@ -168,7 +167,7 @@ export namespace E {}
                 "decorators": null,
                 "isAbstract": false,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 43,
                 "end": 54
@@ -178,7 +177,7 @@ export namespace E {}
             "fromClause": null,
             "isTypeOnly": false,
             "flags": 32769,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 36,
             "end": 54
@@ -190,7 +189,7 @@ export namespace E {}
                 "text": "D",
                 "rawText": "D",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 67,
                 "end": 69
@@ -199,14 +198,14 @@ export namespace E {}
                 "kind": 8265,
                 "enumMembersList": [],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 71,
                 "end": 71
             },
             "isConst": false,
             "flags": 32832,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 62,
             "end": 72
@@ -218,7 +217,7 @@ export namespace E {}
                 "text": "E",
                 "rawText": "E",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 89,
                 "end": 91
@@ -228,13 +227,13 @@ export namespace E {}
                 "statements": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 93,
                 "end": 93
             },
             "flags": 64,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 79,
             "end": 94
@@ -279,7 +278,6 @@ export namespace E {}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -289,17 +287,13 @@ export namespace E {}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

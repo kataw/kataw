@@ -14,10 +14,9 @@ return /)finally return
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return /)finally return",
     "filename": "",
     "statements": [
@@ -27,13 +26,13 @@ return /)finally return
                 "kind": 4260544,
                 "text": "/)finally return",
                 "flags": 1048576,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 23
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 23
@@ -50,7 +49,6 @@ return /)finally return
             "length": 1
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -60,17 +58,13 @@ return /)finally return
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

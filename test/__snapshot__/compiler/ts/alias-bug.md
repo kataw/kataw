@@ -15,10 +15,9 @@ function use() {
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function use() {\n  var p1: provide.Provide;\n  var p2: foo.Provide;\n  var p3:booz.bar;\n  var p22 = new provide.Provide();\n}",
     "filename": "",
     "statements": [
@@ -29,7 +28,7 @@ function use() {
                 "text": "use",
                 "rawText": "use",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 12
@@ -39,7 +38,7 @@ function use() {
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 14
@@ -62,7 +61,7 @@ function use() {
                                             "text": "p1",
                                             "rawText": "p1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 22,
                                             "end": 25
@@ -77,7 +76,7 @@ function use() {
                                                     "text": "provide",
                                                     "rawText": "provide",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 34
@@ -87,40 +86,40 @@ function use() {
                                                     "text": "Provide",
                                                     "rawText": "Provide",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 42
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 26,
                                                 "end": 42
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 26,
                                             "end": 43
                                         },
                                         "initializer": null,
                                         "flags": 22,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 42
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 42
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 43
@@ -137,7 +136,7 @@ function use() {
                                             "text": "p2",
                                             "rawText": "p2",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 49,
                                             "end": 52
@@ -152,7 +151,7 @@ function use() {
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 53,
                                                     "end": 57
@@ -162,40 +161,40 @@ function use() {
                                                     "text": "Provide",
                                                     "rawText": "Provide",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 65
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 53,
                                                 "end": 65
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 53,
                                             "end": 66
                                         },
                                         "initializer": null,
                                         "flags": 49,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 65
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 49,
                                 "end": 65
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 43,
                             "end": 66
@@ -212,7 +211,7 @@ function use() {
                                             "text": "p3",
                                             "rawText": "p3",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 72,
                                             "end": 75
@@ -227,7 +226,7 @@ function use() {
                                                     "text": "booz",
                                                     "rawText": "booz",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 76,
                                                     "end": 80
@@ -237,40 +236,40 @@ function use() {
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 81,
                                                     "end": 84
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 76,
                                                 "end": 84
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 76,
                                             "end": 85
                                         },
                                         "initializer": null,
                                         "flags": 72,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 84
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 72,
                                 "end": 84
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 66,
                             "end": 85
@@ -287,7 +286,7 @@ function use() {
                                             "text": "p22",
                                             "rawText": "p22",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 91,
                                             "end": 95
@@ -303,7 +302,7 @@ function use() {
                                                     "text": "provide",
                                                     "rawText": "provide",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 101,
                                                     "end": 109
@@ -313,13 +312,13 @@ function use() {
                                                     "text": "Provide",
                                                     "rawText": "Provide",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 110,
                                                     "end": 117
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 109,
                                                 "end": 117,
@@ -336,31 +335,31 @@ function use() {
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "start": 118,
                                                 "end": 118
                                             },
                                             "flags": 97,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 32,
                                             "start": 0,
                                             "end": 119
                                         },
                                         "flags": 91,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 0,
                                         "end": 119
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 91,
                                 "end": 119
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 85,
                             "end": 120
@@ -368,20 +367,20 @@ function use() {
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 16,
                     "end": 120
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 122
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 122
@@ -390,7 +389,6 @@ function use() {
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -400,17 +398,13 @@ function use() {
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -23,10 +23,9 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "this.firebase.object(`/shops/${shopLocation.shop}`)\n  // keep distance info\n  .first((shop: ShopQueryResult, index: number, source: Observable<ShopQueryResult>): any => {\n      // add distance to result\n      const s = shop;\n      s.distance = shopLocation.distance;\n      return s;\n  });",
     "filename": "",
     "statements": [
@@ -45,7 +44,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "member": {
                                     "kind": 4260571,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 0,
                                     "end": 4
@@ -55,13 +54,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     "text": "firebase",
                                     "rawText": "firebase",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 5,
                                     "end": 13
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 4,
                                 "end": 13,
@@ -76,13 +75,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "text": "object",
                                 "rawText": "object",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 13,
                             "end": 20,
@@ -110,7 +109,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "text": "shopLocation",
                                                     "rawText": "shopLocation",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 43
@@ -120,13 +119,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "text": "shop",
                                                     "rawText": "shop",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 48
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 48,
@@ -137,7 +136,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 }
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1,
                                             "start": 21,
                                             "end": 48
@@ -149,13 +148,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "text": "",
                                         "literal": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 48,
                                         "end": 50
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 21,
                                     "end": 50
@@ -164,12 +163,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                             "trailingComma": false,
                             "transformFlags": 0,
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "start": 31,
                             "end": 51
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 20,
                         "end": 51
@@ -179,13 +178,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                         "text": "first",
                         "rawText": "first",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 79,
                         "end": 84
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 51,
                     "end": 84,
@@ -213,7 +212,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "text": "source",
                                             "rawText": "source",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 123,
                                             "end": 130
@@ -226,7 +225,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "text": "Observable",
                                                 "rawText": "Observable",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 131,
                                                 "end": 142
@@ -241,27 +240,27 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "text": "ShopQueryResult",
                                                             "rawText": "ShopQueryResult",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 143,
                                                             "end": 158
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 143,
                                                         "end": 159
                                                     }
                                                 ],
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 143,
                                                 "end": 158
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 131,
                                             "end": 160
@@ -271,7 +270,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 122,
                                         "end": 159
@@ -284,7 +283,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "text": "index",
                                             "rawText": "index",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 108,
                                             "end": 114
@@ -293,7 +292,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 115,
                                             "end": 122
@@ -303,7 +302,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 107,
                                         "end": 122
@@ -316,7 +315,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "text": "shop",
                                             "rawText": "shop",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 86,
                                             "end": 90
@@ -329,14 +328,14 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "text": "ShopQueryResult",
                                                 "rawText": "ShopQueryResult",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 107
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 91,
                                             "end": 108
@@ -346,7 +345,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 85,
                                         "end": 107
@@ -355,7 +354,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "type": {
                                     "kind": 4202498,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 161,
                                     "end": 165
@@ -363,7 +362,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 86,
                                 "end": 159
@@ -386,7 +385,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "text": "s",
                                                             "rawText": "s",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 1025,
                                                             "start": 214,
                                                             "end": 216
@@ -398,26 +397,26 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "text": "shop",
                                                             "rawText": "shop",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 218,
                                                             "end": 223
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 214,
                                                         "end": 223
                                                     }
                                                 ],
                                                 "flags": 8,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 214,
                                                 "end": 223
                                             },
                                             "flags": 32776,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 769,
                                             "start": 170,
                                             "end": 224
@@ -433,7 +432,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "text": "s",
                                                         "rawText": "s",
                                                         "flags": 32768,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 224,
                                                         "end": 232
@@ -443,13 +442,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "text": "distance",
                                                         "rawText": "distance",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 233,
                                                         "end": 241
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 232,
                                                     "end": 241,
@@ -467,7 +466,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "text": "shopLocation",
                                                         "rawText": "shopLocation",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 243,
                                                         "end": 256
@@ -477,13 +476,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "text": "distance",
                                                         "rawText": "distance",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 257,
                                                         "end": 265
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 256,
                                                     "end": 265,
@@ -494,13 +493,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     }
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 224,
                                                 "end": 265
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 224,
                                             "end": 266
@@ -512,13 +511,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "text": "s",
                                                 "rawText": "s",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 279,
                                                 "end": 281
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 266,
                                             "end": 282
@@ -526,19 +525,19 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     ],
                                     "multiline": true,
                                     "flags": 32768,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 170,
                                     "end": 282
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 168,
                                 "end": 286
                             },
                             "flags": 1073741824,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 85,
                             "end": 286
@@ -547,18 +546,18 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 86,
                     "end": 287
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 84,
                 "end": 287
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 288
@@ -567,7 +566,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -577,17 +575,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

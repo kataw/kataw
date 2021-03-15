@@ -14,10 +14,9 @@ function not_gen() { (class { static async method(...await) {} }) }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { (class { static async method(...await) {} }) }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -75,7 +74,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                         "text": "method",
                                                         "rawText": "method",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 49
@@ -91,7 +90,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                     "text": "await",
                                                                     "rawText": "await",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1025,
                                                                     "start": 53,
                                                                     "end": 58
@@ -103,7 +102,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                 "accessModifier": null,
                                                                 "isReadOnly": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 4097,
                                                                 "start": 50,
                                                                 "end": 58
@@ -111,7 +110,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 59
@@ -125,13 +124,13 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "statements": [],
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 61
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 62
@@ -141,39 +140,39 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     "accessModifier": null,
                                                     "typeParameters": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 4,
                                                     "start": 49,
                                                     "end": 62
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1,
                                                 "start": 29,
                                                 "end": 62
                                             }
                                         ],
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 29,
                                         "end": 64
                                     },
                                     "decorators": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 22,
                                     "end": 64
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 20,
                                 "end": 65
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
                             "end": 65
@@ -181,20 +180,20 @@ function not_gen() { (class { static async method(...await) {} }) }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 65
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 67
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 67
@@ -211,7 +210,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -221,17 +219,13 @@ function not_gen() { (class { static async method(...await) {} }) }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

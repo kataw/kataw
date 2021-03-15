@@ -23,7 +23,7 @@ export function createJsxNamespacedName(
     name,
     namespace,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

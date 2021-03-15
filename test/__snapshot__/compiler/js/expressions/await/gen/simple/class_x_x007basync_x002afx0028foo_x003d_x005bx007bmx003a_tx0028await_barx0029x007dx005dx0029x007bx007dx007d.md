@@ -14,10 +14,9 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x {async *f(foo = [{m: t(await bar)}]){}}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 5,
                 "end": 7
@@ -52,7 +51,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
@@ -68,7 +67,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 18,
                                             "end": 21
@@ -92,7 +91,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                         "text": "m",
                                                                         "rawText": "m",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 26,
                                                                         "end": 27
@@ -104,7 +103,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                             "text": "t",
                                                                             "rawText": "t",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 28,
                                                                             "end": 30
@@ -120,13 +119,13 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                         "text": "bar",
                                                                                         "rawText": "bar",
                                                                                         "flags": 0,
-                                                                                        "intersects": false,
+                                                                                        "symbol": null,
                                                                                         "transformFlags": 0,
                                                                                         "start": 36,
                                                                                         "end": 40
                                                                                     },
                                                                                     "flags": 0,
-                                                                                    "intersects": false,
+                                                                                    "symbol": null,
                                                                                     "transformFlags": 32780,
                                                                                     "start": 31,
                                                                                     "end": 40
@@ -135,12 +134,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                             "trailingComma": false,
                                                                             "transformFlags": 0,
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "start": 36,
                                                                             "end": 41
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 0,
                                                                         "start": 30,
                                                                         "end": 41
@@ -148,7 +147,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                     "accessModifier": null,
                                                                     "decorators": null,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 26,
                                                                     "end": 41
@@ -157,13 +156,13 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                             "trailingComma": false,
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 26,
                                                             "end": 41
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 42
@@ -172,13 +171,13 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 42
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 23,
                                             "end": 43
@@ -187,7 +186,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                         "accessModifier": null,
                                         "isReadOnly": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 18,
                                         "end": 43
@@ -195,7 +194,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
                                 "end": 44
@@ -209,13 +208,13 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 44,
                                 "end": 46
@@ -225,20 +224,20 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                             "accessModifier": null,
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097160,
                             "start": 17,
                             "end": 46
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 46
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 47
@@ -246,7 +245,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
             "decorators": null,
             "isAbstract": false,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 1,
             "start": 0,
             "end": 47
@@ -255,7 +254,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -265,17 +263,13 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -38,10 +38,9 @@ var c2 = temp1.concat(temp);
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var a0: [any, any, any] = [];\nvar a1: [boolean, string, number] = [\"string\", 1, true];\n\nvar [b1, b2]: [number, number] = [1, 2, \"string\", true];\n\nvar temp = [\"s\", \"t\", \"r\"];\nvar temp1 = [1, 2, 3];\nvar temp2: [number[], string[]] = [[1, 2, 3], [\"hello\", \"string\"]];\n\ninterface tup {\n    0: number[]|string[];\n    1: number[]|string[];\n}\ninterface myArray extends Array<Number> { }\ninterface myArray2 extends Array<Number|String> { }\nvar c0: tup = [...temp2];\nvar c1: [number, number, number] = [...temp1];\nvar c2: myArray = [...temp1, ...temp];\n\nvar a0 = [];\nvar a1 = [\"string\", 1, true];\n\nvar temp = [\"s\", \"t\", \"r\"];\nvar temp1 = [1, 2, 3];\nvar temp2 = [[1, 2, 3], [\"hello\", \"string\"]];\nvar c0 = temp2.slice();\nvar c1 = temp1.slice();\nvar c2 = temp1.concat(temp);\n",
     "filename": "",
     "statements": [
@@ -57,7 +56,7 @@ var c2 = temp1.concat(temp);
                             "text": "a0",
                             "rawText": "a0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 3,
                             "end": 6
@@ -69,7 +68,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202498,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 9,
                                     "end": 12
@@ -77,7 +76,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202498,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 13,
                                     "end": 17
@@ -85,7 +84,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202498,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 18,
                                     "end": 22
@@ -93,7 +92,7 @@ var c2 = temp1.concat(temp);
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 7,
                             "end": 23
@@ -106,32 +105,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
                         "flags": 3,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 28
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 29
@@ -148,7 +147,7 @@ var c2 = temp1.concat(temp);
                             "text": "a1",
                             "rawText": "a1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 33,
                             "end": 36
@@ -160,7 +159,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4268070,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 39,
                                     "end": 46
@@ -168,7 +167,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202702,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 47,
                                     "end": 54
@@ -176,7 +175,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 55,
                                     "end": 62
@@ -184,7 +183,7 @@ var c2 = temp1.concat(temp);
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 37,
                             "end": 63
@@ -199,7 +198,7 @@ var c2 = temp1.concat(temp);
                                         "text": "string",
                                         "rawText": "string",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 67,
                                         "end": 75
@@ -209,7 +208,7 @@ var c2 = temp1.concat(temp);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 76,
                                         "end": 78
@@ -218,7 +217,7 @@ var c2 = temp1.concat(temp);
                                         "kind": 4260391,
                                         "text": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 79,
                                         "end": 84
@@ -227,32 +226,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 67,
                                 "end": 84
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 65,
                             "end": 85
                         },
                         "flags": 33,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 85
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 33,
                 "end": 85
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 29,
             "end": 86
@@ -277,14 +276,14 @@ var c2 = temp1.concat(temp);
                                             "text": "b1",
                                             "rawText": "b1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 93,
                                             "end": 95
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 93,
                                         "end": 95
@@ -297,14 +296,14 @@ var c2 = temp1.concat(temp);
                                             "text": "b2",
                                             "rawText": "b2",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 96,
                                             "end": 99
                                         },
                                         "right": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 1,
                                         "start": 96,
                                         "end": 99
@@ -312,13 +311,13 @@ var c2 = temp1.concat(temp);
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 93,
                                 "end": 99
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 91,
                             "end": 100
@@ -330,7 +329,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 103,
                                     "end": 109
@@ -338,7 +337,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 110,
                                     "end": 117
@@ -346,7 +345,7 @@ var c2 = temp1.concat(temp);
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 101,
                             "end": 118
@@ -361,7 +360,7 @@ var c2 = temp1.concat(temp);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 122,
                                         "end": 123
@@ -371,7 +370,7 @@ var c2 = temp1.concat(temp);
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 124,
                                         "end": 126
@@ -381,7 +380,7 @@ var c2 = temp1.concat(temp);
                                         "text": "string",
                                         "rawText": "string",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 127,
                                         "end": 136
@@ -390,7 +389,7 @@ var c2 = temp1.concat(temp);
                                         "kind": 4260391,
                                         "text": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 137,
                                         "end": 142
@@ -399,32 +398,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 122,
                                 "end": 142
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 120,
                             "end": 143
                         },
                         "flags": 91,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 143
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 91,
                 "end": 143
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 86,
             "end": 144
@@ -441,7 +440,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp",
                             "rawText": "temp",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 149,
                             "end": 154
@@ -458,7 +457,7 @@ var c2 = temp1.concat(temp);
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 158,
                                         "end": 161
@@ -468,7 +467,7 @@ var c2 = temp1.concat(temp);
                                         "text": "t",
                                         "rawText": "t",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 162,
                                         "end": 166
@@ -478,7 +477,7 @@ var c2 = temp1.concat(temp);
                                         "text": "r",
                                         "rawText": "r",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 167,
                                         "end": 171
@@ -487,32 +486,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 158,
                                 "end": 171
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 156,
                             "end": 172
                         },
                         "flags": 149,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 172
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 149,
                 "end": 172
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 144,
             "end": 173
@@ -529,7 +528,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp1",
                             "rawText": "temp1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 177,
                             "end": 183
@@ -546,7 +545,7 @@ var c2 = temp1.concat(temp);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 187,
                                         "end": 188
@@ -556,7 +555,7 @@ var c2 = temp1.concat(temp);
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 189,
                                         "end": 191
@@ -566,7 +565,7 @@ var c2 = temp1.concat(temp);
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 192,
                                         "end": 194
@@ -575,32 +574,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 187,
                                 "end": 194
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 185,
                             "end": 195
                         },
                         "flags": 177,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 195
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 177,
                 "end": 195
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 173,
             "end": 196
@@ -617,7 +616,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp2",
                             "rawText": "temp2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 200,
                             "end": 206
@@ -631,13 +630,13 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 209,
                                         "end": 215
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 209,
                                     "end": 218
@@ -647,13 +646,13 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 218,
                                         "end": 225
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 218,
                                     "end": 228
@@ -661,7 +660,7 @@ var c2 = temp1.concat(temp);
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 207,
                             "end": 228
@@ -681,7 +680,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 233,
                                                     "end": 234
@@ -691,7 +690,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 235,
                                                     "end": 237
@@ -701,7 +700,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 238,
                                                     "end": 240
@@ -710,13 +709,13 @@ var c2 = temp1.concat(temp);
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 233,
                                             "end": 240
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 232,
                                         "end": 241
@@ -731,7 +730,7 @@ var c2 = temp1.concat(temp);
                                                     "text": "hello",
                                                     "rawText": "hello",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 244,
                                                     "end": 251
@@ -741,7 +740,7 @@ var c2 = temp1.concat(temp);
                                                     "text": "string",
                                                     "rawText": "string",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 252,
                                                     "end": 261
@@ -750,13 +749,13 @@ var c2 = temp1.concat(temp);
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 244,
                                             "end": 261
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 242,
                                         "end": 262
@@ -765,32 +764,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 232,
                                 "end": 262
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 230,
                             "end": 263
                         },
                         "flags": 200,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 263
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 200,
                 "end": 263
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 196,
             "end": 264
@@ -802,7 +801,7 @@ var c2 = temp1.concat(temp);
                 "text": "tup",
                 "rawText": "tup",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 275,
                 "end": 279
@@ -819,7 +818,7 @@ var c2 = temp1.concat(temp);
                             "text": 0,
                             "rawText": "0",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 281,
                             "end": 287
@@ -834,13 +833,13 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 288,
                                         "end": 295
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 288,
                                     "end": 298
@@ -850,20 +849,20 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 298,
                                         "end": 304
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 298,
                                     "end": 307
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 297,
                             "end": 306
@@ -872,7 +871,7 @@ var c2 = temp1.concat(temp);
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 281,
                         "end": 307
@@ -884,7 +883,7 @@ var c2 = temp1.concat(temp);
                             "text": 1,
                             "rawText": "1",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 307,
                             "end": 313
@@ -899,13 +898,13 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202657,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 314,
                                         "end": 321
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 314,
                                     "end": 324
@@ -915,20 +914,20 @@ var c2 = temp1.concat(temp);
                                     "elementType": {
                                         "kind": 4202702,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 324,
                                         "end": 330
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 324,
                                     "end": 333
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 323,
                             "end": 332
@@ -937,7 +936,7 @@ var c2 = temp1.concat(temp);
                         "isReadOnly": false,
                         "initializer": null,
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 307,
                         "end": 333
@@ -945,13 +944,13 @@ var c2 = temp1.concat(temp);
                 ],
                 "multiline": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 281,
                 "end": 333
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 264,
             "end": 335
@@ -963,7 +962,7 @@ var c2 = temp1.concat(temp);
                 "text": "myArray",
                 "rawText": "myArray",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 345,
                 "end": 353
@@ -981,7 +980,7 @@ var c2 = temp1.concat(temp);
                                 "text": "Array",
                                 "rawText": "Array",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 361,
                                 "end": 367
@@ -996,40 +995,40 @@ var c2 = temp1.concat(temp);
                                             "text": "Number",
                                             "rawText": "Number",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 368,
                                             "end": 374
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 368,
                                         "end": 375
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 368,
                                 "end": 374
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 361,
                             "end": 377
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 361,
                         "end": 375
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 361,
                 "end": 375
@@ -1039,13 +1038,13 @@ var c2 = temp1.concat(temp);
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 377,
                 "end": 377
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 335,
             "end": 379
@@ -1057,7 +1056,7 @@ var c2 = temp1.concat(temp);
                 "text": "myArray2",
                 "rawText": "myArray2",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 389,
                 "end": 398
@@ -1075,7 +1074,7 @@ var c2 = temp1.concat(temp);
                                 "text": "Array",
                                 "rawText": "Array",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 406,
                                 "end": 412
@@ -1093,14 +1092,14 @@ var c2 = temp1.concat(temp);
                                                     "text": "Number",
                                                     "rawText": "Number",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 413,
                                                     "end": 419
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 413,
                                                 "end": 420
@@ -1112,47 +1111,47 @@ var c2 = temp1.concat(temp);
                                                     "text": "String",
                                                     "rawText": "String",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 420,
                                                     "end": 426
                                                 },
                                                 "typeArguments": null,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 2097152,
                                                 "start": 420,
                                                 "end": 427
                                             }
                                         ],
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 419,
                                         "end": 426
                                     }
                                 ],
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 413,
                                 "end": 426
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 406,
                             "end": 429
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 406,
                         "end": 427
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 406,
                 "end": 427
@@ -1162,13 +1161,13 @@ var c2 = temp1.concat(temp);
                 "members": [],
                 "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 429,
                 "end": 429
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 379,
             "end": 431
@@ -1185,7 +1184,7 @@ var c2 = temp1.concat(temp);
                             "text": "c0",
                             "rawText": "c0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 435,
                             "end": 438
@@ -1198,14 +1197,14 @@ var c2 = temp1.concat(temp);
                                 "text": "tup",
                                 "rawText": "tup",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 439,
                                 "end": 443
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 439,
                             "end": 445
@@ -1222,13 +1221,13 @@ var c2 = temp1.concat(temp);
                                             "text": "temp2",
                                             "rawText": "temp2",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 450,
                                             "end": 455
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2,
                                         "start": 447,
                                         "end": 455
@@ -1237,32 +1236,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 447,
                                 "end": 455
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 445,
                             "end": 456
                         },
                         "flags": 435,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 456
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 435,
                 "end": 456
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 431,
             "end": 457
@@ -1279,7 +1278,7 @@ var c2 = temp1.concat(temp);
                             "text": "c1",
                             "rawText": "c1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 461,
                             "end": 464
@@ -1291,7 +1290,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 467,
                                     "end": 473
@@ -1299,7 +1298,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 474,
                                     "end": 481
@@ -1307,7 +1306,7 @@ var c2 = temp1.concat(temp);
                                 {
                                     "kind": 4202657,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 482,
                                     "end": 489
@@ -1315,7 +1314,7 @@ var c2 = temp1.concat(temp);
                             ],
                             "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 465,
                             "end": 490
@@ -1332,13 +1331,13 @@ var c2 = temp1.concat(temp);
                                             "text": "temp1",
                                             "rawText": "temp1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 497,
                                             "end": 502
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2,
                                         "start": 494,
                                         "end": 502
@@ -1347,32 +1346,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 494,
                                 "end": 502
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 492,
                             "end": 503
                         },
                         "flags": 461,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 503
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 461,
                 "end": 503
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 457,
             "end": 504
@@ -1389,7 +1388,7 @@ var c2 = temp1.concat(temp);
                             "text": "c2",
                             "rawText": "c2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 508,
                             "end": 511
@@ -1402,14 +1401,14 @@ var c2 = temp1.concat(temp);
                                 "text": "myArray",
                                 "rawText": "myArray",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 512,
                                 "end": 520
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 512,
                             "end": 522
@@ -1426,13 +1425,13 @@ var c2 = temp1.concat(temp);
                                             "text": "temp1",
                                             "rawText": "temp1",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 527,
                                             "end": 532
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2,
                                         "start": 524,
                                         "end": 532
@@ -1444,13 +1443,13 @@ var c2 = temp1.concat(temp);
                                             "text": "temp",
                                             "rawText": "temp",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 537,
                                             "end": 541
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2,
                                         "start": 533,
                                         "end": 541
@@ -1459,32 +1458,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 524,
                                 "end": 541
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 522,
                             "end": 542
                         },
                         "flags": 508,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 542
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 508,
                 "end": 542
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 504,
             "end": 543
@@ -1501,7 +1500,7 @@ var c2 = temp1.concat(temp);
                             "text": "a0",
                             "rawText": "a0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 548,
                             "end": 551
@@ -1516,32 +1515,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 555,
                                 "end": 555
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 553,
                             "end": 556
                         },
                         "flags": 548,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 556
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 548,
                 "end": 556
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 543,
             "end": 557
@@ -1558,7 +1557,7 @@ var c2 = temp1.concat(temp);
                             "text": "a1",
                             "rawText": "a1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 561,
                             "end": 564
@@ -1575,7 +1574,7 @@ var c2 = temp1.concat(temp);
                                         "text": "string",
                                         "rawText": "string",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 568,
                                         "end": 576
@@ -1585,7 +1584,7 @@ var c2 = temp1.concat(temp);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 577,
                                         "end": 579
@@ -1594,7 +1593,7 @@ var c2 = temp1.concat(temp);
                                         "kind": 4260391,
                                         "text": true,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 580,
                                         "end": 585
@@ -1603,32 +1602,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 568,
                                 "end": 585
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 566,
                             "end": 586
                         },
                         "flags": 561,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 586
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 561,
                 "end": 586
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 557,
             "end": 587
@@ -1645,7 +1644,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp",
                             "rawText": "temp",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 592,
                             "end": 597
@@ -1662,7 +1661,7 @@ var c2 = temp1.concat(temp);
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 601,
                                         "end": 604
@@ -1672,7 +1671,7 @@ var c2 = temp1.concat(temp);
                                         "text": "t",
                                         "rawText": "t",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 605,
                                         "end": 609
@@ -1682,7 +1681,7 @@ var c2 = temp1.concat(temp);
                                         "text": "r",
                                         "rawText": "r",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 610,
                                         "end": 614
@@ -1691,32 +1690,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 601,
                                 "end": 614
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 599,
                             "end": 615
                         },
                         "flags": 592,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 615
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 592,
                 "end": 615
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 587,
             "end": 616
@@ -1733,7 +1732,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp1",
                             "rawText": "temp1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 620,
                             "end": 626
@@ -1750,7 +1749,7 @@ var c2 = temp1.concat(temp);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 630,
                                         "end": 631
@@ -1760,7 +1759,7 @@ var c2 = temp1.concat(temp);
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 632,
                                         "end": 634
@@ -1770,7 +1769,7 @@ var c2 = temp1.concat(temp);
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 635,
                                         "end": 637
@@ -1779,32 +1778,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 630,
                                 "end": 637
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 628,
                             "end": 638
                         },
                         "flags": 620,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 638
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 620,
                 "end": 638
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 616,
             "end": 639
@@ -1821,7 +1820,7 @@ var c2 = temp1.concat(temp);
                             "text": "temp2",
                             "rawText": "temp2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 643,
                             "end": 649
@@ -1843,7 +1842,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 654,
                                                     "end": 655
@@ -1853,7 +1852,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 656,
                                                     "end": 658
@@ -1863,7 +1862,7 @@ var c2 = temp1.concat(temp);
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 659,
                                                     "end": 661
@@ -1872,13 +1871,13 @@ var c2 = temp1.concat(temp);
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 654,
                                             "end": 661
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 653,
                                         "end": 662
@@ -1893,7 +1892,7 @@ var c2 = temp1.concat(temp);
                                                     "text": "hello",
                                                     "rawText": "hello",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 665,
                                                     "end": 672
@@ -1903,7 +1902,7 @@ var c2 = temp1.concat(temp);
                                                     "text": "string",
                                                     "rawText": "string",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 673,
                                                     "end": 682
@@ -1912,13 +1911,13 @@ var c2 = temp1.concat(temp);
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 665,
                                             "end": 682
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 663,
                                         "end": 683
@@ -1927,32 +1926,32 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 653,
                                 "end": 683
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 651,
                             "end": 684
                         },
                         "flags": 643,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 684
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 643,
                 "end": 684
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 639,
             "end": 685
@@ -1969,7 +1968,7 @@ var c2 = temp1.concat(temp);
                             "text": "c0",
                             "rawText": "c0",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 689,
                             "end": 692
@@ -1985,7 +1984,7 @@ var c2 = temp1.concat(temp);
                                     "text": "temp2",
                                     "rawText": "temp2",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 694,
                                     "end": 700
@@ -1995,13 +1994,13 @@ var c2 = temp1.concat(temp);
                                     "text": "slice",
                                     "rawText": "slice",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 701,
                                     "end": 706
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 700,
                                 "end": 706,
@@ -2018,31 +2017,31 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 708,
                                 "end": 708
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 706,
                             "end": 708
                         },
                         "flags": 689,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 708
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 689,
                 "end": 708
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 685,
             "end": 709
@@ -2059,7 +2058,7 @@ var c2 = temp1.concat(temp);
                             "text": "c1",
                             "rawText": "c1",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 713,
                             "end": 716
@@ -2075,7 +2074,7 @@ var c2 = temp1.concat(temp);
                                     "text": "temp1",
                                     "rawText": "temp1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 718,
                                     "end": 724
@@ -2085,13 +2084,13 @@ var c2 = temp1.concat(temp);
                                     "text": "slice",
                                     "rawText": "slice",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 725,
                                     "end": 730
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 724,
                                 "end": 730,
@@ -2108,31 +2107,31 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 732,
                                 "end": 732
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 730,
                             "end": 732
                         },
                         "flags": 713,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 732
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 713,
                 "end": 732
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 709,
             "end": 733
@@ -2149,7 +2148,7 @@ var c2 = temp1.concat(temp);
                             "text": "c2",
                             "rawText": "c2",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 737,
                             "end": 740
@@ -2165,7 +2164,7 @@ var c2 = temp1.concat(temp);
                                     "text": "temp1",
                                     "rawText": "temp1",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 742,
                                     "end": 748
@@ -2175,13 +2174,13 @@ var c2 = temp1.concat(temp);
                                     "text": "concat",
                                     "rawText": "concat",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 749,
                                     "end": 755
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 748,
                                 "end": 755,
@@ -2200,7 +2199,7 @@ var c2 = temp1.concat(temp);
                                         "text": "temp",
                                         "rawText": "temp",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 756,
                                         "end": 760
@@ -2209,31 +2208,31 @@ var c2 = temp1.concat(temp);
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 760,
                                 "end": 761
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 755,
                             "end": 761
                         },
                         "flags": 737,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
                         "end": 761
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 737,
                 "end": 761
             },
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 733,
             "end": 762
@@ -2242,7 +2241,6 @@ var c2 = temp1.concat(temp);
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -2252,17 +2250,13 @@ var c2 = temp1.concat(temp);
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ function not_gen() { async function wrap() { async function await() { } }; }}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { async function wrap() { async function await() { } }; }}",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 8,
                 "end": 16
@@ -38,7 +37,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -56,7 +55,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "text": "wrap",
                                 "rawText": "wrap",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1025,
                                 "start": 35,
                                 "end": 40
@@ -66,7 +65,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 41,
                                 "end": 42
@@ -84,7 +83,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "text": "await",
                                                 "rawText": "await",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 1025,
                                                 "start": 59,
                                                 "end": 65
@@ -94,7 +93,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 67
@@ -107,20 +106,20 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                     "statements": [],
                                                     "multiline": false,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 69
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 67,
                                                 "end": 71
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 260,
                                             "start": 44,
                                             "end": 71
@@ -128,20 +127,20 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                     ],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 44,
                                     "end": 71
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 42,
                                 "end": 73
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 260,
                             "start": 20,
                             "end": 73
@@ -149,7 +148,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                         {
                             "kind": 6291526,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 73,
                             "end": 74
@@ -157,20 +156,20 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
                     "end": 74
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 76
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 0,
             "end": 76
@@ -187,7 +186,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             "length": 0
         }
     ],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -197,17 +195,13 @@ function not_gen() { async function wrap() { async function await() { } }; }}
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

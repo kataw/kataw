@@ -21,10 +21,9 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function fn(\n  currentRequest: {a: number},\n  // TODO this is a very very very very long comment that makes it go > 80 columns\n): number;\n\ndeclare function /* foo */ f( /* baz */ a /* taz */) /* bar */;",
     "filename": "",
     "statements": [
@@ -35,7 +34,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 16,
                 "end": 19
@@ -51,7 +50,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                             "text": "currentRequest",
                             "rawText": "currentRequest",
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 20,
                             "end": 37
@@ -69,7 +68,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
@@ -79,7 +78,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                         "type": {
                                             "kind": 4202657,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 42,
                                             "end": 49
@@ -88,7 +87,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 40,
                                         "end": 49
@@ -96,13 +95,13 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 40,
                                 "end": 50
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 38,
                             "end": 50
@@ -112,7 +111,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 50
@@ -120,7 +119,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 ],
                 "trailingComma": true,
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 136
@@ -128,7 +127,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
             "type": {
                 "kind": 4202657,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 137,
                 "end": 144
@@ -136,7 +135,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
             "contents": null,
             "typeParameters": null,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 7,
             "end": 145
@@ -148,7 +147,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 "text": "f",
                 "rawText": "f",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 163,
                 "end": 175
@@ -164,7 +163,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 176,
                             "end": 188
@@ -176,7 +175,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 176,
                         "end": 188
@@ -184,7 +183,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 176,
                 "end": 199
@@ -193,7 +192,7 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
             "contents": null,
             "typeParameters": null,
             "flags": 402653184,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 154,
             "end": 210
@@ -202,7 +201,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
     "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -212,17 +210,13 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

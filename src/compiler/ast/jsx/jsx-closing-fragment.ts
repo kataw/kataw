@@ -11,7 +11,7 @@ export function createJsxClosingFragment(flags: NodeFlags, start: number, end: n
   return {
     kind: NodeKind.JsxClosingFragment,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

@@ -20,7 +20,7 @@ export function createDefaultClause(
     kind: NodeKind.DefaultClause,
     statements,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

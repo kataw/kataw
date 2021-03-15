@@ -49,10 +49,9 @@ bifornCringerMoshedPerplexSawder =
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n    ? baaaaaaaaaaaaaaaaaaaaar\n    : baaaaaaaaaaaaaaaaaaaaaz) as Fooooooooooo;\n\nfoo = (condition ? firstValue : secondValue) as SomeType;\n\nconst foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n  ? baaaaaaaaaaaaaaaaaaaaar\n  : baaaaaaaaaaaaaaaaaaaaaz) as Fooooooooooo;\n\nfunction foo() {\n  return (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n    ? baaaaaaaaaaaaaaaaaaaaar\n    : baaaaaaaaaaaaaaaaaaaaaz) as Fooooooooooo;\n}\n\nfunction foo() {\n  throw (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n      ? baaaaaaaaaaaaaaaaaaaaar\n      : baaaaaaaaaaaaaaaaaaaaaz) as Fooooooooooo;\n}\n\nfunction foo() {\n  void ((coooooooooooooooooooooooooooooooooooooooooooooooooooond\n    ? baaaaaaaaaaaaaaaaaaaaar\n    : baaaaaaaaaaaaaaaaaaaaaz) as Fooooooooooo);\n}\n\nbifornCringerMoshedPerplexSawder =\n  askTrovenaBeenaDependsRowans +\n  ((glimseGlyphsHazardNoopsTieTie === 0\n    ? averredBathersBoxroomBuggyNurl\n    : anodyneCondosMalateOverateRetinol) as AnnularCooeedSplicesWalksWayWay);\n\nbifornCringerMoshedPerplexSawder =\n  askTrovenaBeenaDependsRowans +\n  ((glimseGlyphsHazardNoopsTieTie === 0 &&\n  kochabCooieGameOnOboleUnweave === Math.PI\n    ? averredBathersBoxroomBuggyNurl\n    : anodyneCondosMalateOverateRetinol) as AnnularCooeedSplicesWalksWayWay);",
     "filename": "",
     "statements": [
@@ -65,7 +64,7 @@ bifornCringerMoshedPerplexSawder =
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
                     "end": 3
@@ -82,7 +81,7 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                 "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 7,
                                 "end": 62
@@ -92,7 +91,7 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "baaaaaaaaaaaaaaaaaaaaar",
                                 "rawText": "baaaaaaaaaaaaaaaaaaaaar",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 68,
                                 "end": 92
@@ -102,19 +101,19 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "baaaaaaaaaaaaaaaaaaaaaz",
                                 "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 98,
                                 "end": 122
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 5,
                             "end": 122
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 123
@@ -126,32 +125,32 @@ bifornCringerMoshedPerplexSawder =
                             "text": "Fooooooooooo",
                             "rawText": "Fooooooooooo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 126,
                             "end": 139
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 126,
                         "end": 140
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 123,
                     "end": 139
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 139
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 0,
             "end": 140
@@ -165,7 +164,7 @@ bifornCringerMoshedPerplexSawder =
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 140,
                     "end": 145
@@ -182,7 +181,7 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "condition",
                                 "rawText": "condition",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 149,
                                 "end": 158
@@ -192,7 +191,7 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "firstValue",
                                 "rawText": "firstValue",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 160,
                                 "end": 171
@@ -202,19 +201,19 @@ bifornCringerMoshedPerplexSawder =
                                 "text": "secondValue",
                                 "rawText": "secondValue",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 173,
                                 "end": 185
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 147,
                             "end": 185
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 147,
                         "end": 186
@@ -226,32 +225,32 @@ bifornCringerMoshedPerplexSawder =
                             "text": "SomeType",
                             "rawText": "SomeType",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 189,
                             "end": 198
                         },
                         "typeArguments": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 189,
                         "end": 199
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 186,
                     "end": 198
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 140,
                 "end": 198
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 140,
             "end": 199
@@ -269,7 +268,7 @@ bifornCringerMoshedPerplexSawder =
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 206,
                             "end": 210
@@ -287,7 +286,7 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                         "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 214,
                                         "end": 269
@@ -297,7 +296,7 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "baaaaaaaaaaaaaaaaaaaaar",
                                         "rawText": "baaaaaaaaaaaaaaaaaaaaar",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 273,
                                         "end": 297
@@ -307,19 +306,19 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "baaaaaaaaaaaaaaaaaaaaaz",
                                         "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 301,
                                         "end": 325
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 212,
                                     "end": 325
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 212,
                                 "end": 326
@@ -331,39 +330,39 @@ bifornCringerMoshedPerplexSawder =
                                     "text": "Fooooooooooo",
                                     "rawText": "Fooooooooooo",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 329,
                                     "end": 342
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 329,
                                 "end": 343
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 326,
                             "end": 342
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 206,
                         "end": 342
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 206,
                 "end": 342
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 199,
             "end": 343
@@ -375,7 +374,7 @@ bifornCringerMoshedPerplexSawder =
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 353,
                 "end": 357
@@ -385,7 +384,7 @@ bifornCringerMoshedPerplexSawder =
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 358,
                 "end": 359
@@ -409,7 +408,7 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                             "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 372,
                                             "end": 427
@@ -419,7 +418,7 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "baaaaaaaaaaaaaaaaaaaaar",
                                             "rawText": "baaaaaaaaaaaaaaaaaaaaar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 433,
                                             "end": 457
@@ -429,19 +428,19 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "baaaaaaaaaaaaaaaaaaaaaz",
                                             "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 463,
                                             "end": 487
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 370,
                                         "end": 487
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 370,
                                     "end": 488
@@ -453,26 +452,26 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "Fooooooooooo",
                                         "rawText": "Fooooooooooo",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 491,
                                         "end": 504
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 491,
                                     "end": 505
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 488,
                                 "end": 504
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 361,
                             "end": 505
@@ -480,20 +479,20 @@ bifornCringerMoshedPerplexSawder =
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 361,
                     "end": 505
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 359,
                 "end": 507
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 343,
             "end": 507
@@ -505,7 +504,7 @@ bifornCringerMoshedPerplexSawder =
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 517,
                 "end": 521
@@ -515,7 +514,7 @@ bifornCringerMoshedPerplexSawder =
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 522,
                 "end": 523
@@ -539,7 +538,7 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                             "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 535,
                                             "end": 590
@@ -549,7 +548,7 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "baaaaaaaaaaaaaaaaaaaaar",
                                             "rawText": "baaaaaaaaaaaaaaaaaaaaar",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 598,
                                             "end": 622
@@ -559,19 +558,19 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "baaaaaaaaaaaaaaaaaaaaaz",
                                             "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 630,
                                             "end": 654
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 533,
                                         "end": 654
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 533,
                                     "end": 655
@@ -583,26 +582,26 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "Fooooooooooo",
                                         "rawText": "Fooooooooooo",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 658,
                                         "end": 671
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 658,
                                     "end": 672
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 655,
                                 "end": 671
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 525,
                             "end": 672
@@ -610,20 +609,20 @@ bifornCringerMoshedPerplexSawder =
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 525,
                     "end": 672
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 523,
                 "end": 674
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 507,
             "end": 674
@@ -635,7 +634,7 @@ bifornCringerMoshedPerplexSawder =
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 684,
                 "end": 688
@@ -645,7 +644,7 @@ bifornCringerMoshedPerplexSawder =
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 689,
                 "end": 690
@@ -674,7 +673,7 @@ bifornCringerMoshedPerplexSawder =
                                                     "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                                     "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 702,
                                                     "end": 757
@@ -684,7 +683,7 @@ bifornCringerMoshedPerplexSawder =
                                                     "text": "baaaaaaaaaaaaaaaaaaaaar",
                                                     "rawText": "baaaaaaaaaaaaaaaaaaaaar",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 763,
                                                     "end": 787
@@ -694,19 +693,19 @@ bifornCringerMoshedPerplexSawder =
                                                     "text": "baaaaaaaaaaaaaaaaaaaaaz",
                                                     "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 793,
                                                     "end": 817
                                                 },
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 701,
                                                 "end": 817
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 701,
                                             "end": 818
@@ -718,38 +717,38 @@ bifornCringerMoshedPerplexSawder =
                                                 "text": "Fooooooooooo",
                                                 "rawText": "Fooooooooooo",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 821,
                                                 "end": 834
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 821,
                                             "end": 835
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 818,
                                         "end": 834
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 699,
                                     "end": 835
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 692,
                                 "end": 835
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 692,
                             "end": 836
@@ -757,20 +756,20 @@ bifornCringerMoshedPerplexSawder =
                     ],
                     "multiline": true,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 692,
                     "end": 836
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 690,
                 "end": 838
             },
             "typeParameters": null,
             "flags": 32768,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 256,
             "start": 674,
             "end": 838
@@ -784,7 +783,7 @@ bifornCringerMoshedPerplexSawder =
                     "text": "bifornCringerMoshedPerplexSawder",
                     "rawText": "bifornCringerMoshedPerplexSawder",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 838,
                     "end": 872
@@ -797,7 +796,7 @@ bifornCringerMoshedPerplexSawder =
                         "text": "askTrovenaBeenaDependsRowans",
                         "rawText": "askTrovenaBeenaDependsRowans",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 874,
                         "end": 905
@@ -818,7 +817,7 @@ bifornCringerMoshedPerplexSawder =
                                             "text": "glimseGlyphsHazardNoopsTieTie",
                                             "rawText": "glimseGlyphsHazardNoopsTieTie",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 912,
                                             "end": 941
@@ -829,13 +828,13 @@ bifornCringerMoshedPerplexSawder =
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 945,
                                             "end": 947
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 911,
                                         "end": 947
@@ -845,7 +844,7 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "averredBathersBoxroomBuggyNurl",
                                         "rawText": "averredBathersBoxroomBuggyNurl",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 953,
                                         "end": 984
@@ -855,19 +854,19 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "anodyneCondosMalateOverateRetinol",
                                         "rawText": "anodyneCondosMalateOverateRetinol",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 990,
                                         "end": 1024
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 911,
                                     "end": 1024
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 911,
                                 "end": 1025
@@ -879,44 +878,44 @@ bifornCringerMoshedPerplexSawder =
                                     "text": "AnnularCooeedSplicesWalksWayWay",
                                     "rawText": "AnnularCooeedSplicesWalksWayWay",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 1028,
                                     "end": 1060
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1028,
                                 "end": 1061
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 1025,
                             "end": 1060
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 907,
                         "end": 1061
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 874,
                     "end": 1061
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 838,
                 "end": 1061
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 838,
             "end": 1062
@@ -930,7 +929,7 @@ bifornCringerMoshedPerplexSawder =
                     "text": "bifornCringerMoshedPerplexSawder",
                     "rawText": "bifornCringerMoshedPerplexSawder",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 1062,
                     "end": 1096
@@ -943,7 +942,7 @@ bifornCringerMoshedPerplexSawder =
                         "text": "askTrovenaBeenaDependsRowans",
                         "rawText": "askTrovenaBeenaDependsRowans",
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1098,
                         "end": 1129
@@ -966,7 +965,7 @@ bifornCringerMoshedPerplexSawder =
                                                 "text": "glimseGlyphsHazardNoopsTieTie",
                                                 "rawText": "glimseGlyphsHazardNoopsTieTie",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 1136,
                                                 "end": 1165
@@ -977,13 +976,13 @@ bifornCringerMoshedPerplexSawder =
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 1169,
                                                 "end": 1171
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 1135,
                                             "end": 1171
@@ -996,7 +995,7 @@ bifornCringerMoshedPerplexSawder =
                                                 "text": "kochabCooieGameOnOboleUnweave",
                                                 "rawText": "kochabCooieGameOnOboleUnweave",
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 1174,
                                                 "end": 1206
@@ -1009,7 +1008,7 @@ bifornCringerMoshedPerplexSawder =
                                                     "text": "Math",
                                                     "rawText": "Math",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 1210,
                                                     "end": 1215
@@ -1019,13 +1018,13 @@ bifornCringerMoshedPerplexSawder =
                                                     "text": "PI",
                                                     "rawText": "PI",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 1216,
                                                     "end": 1218
                                                 },
                                                 "flags": 32768,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 1215,
                                                 "end": 1218,
@@ -1036,13 +1035,13 @@ bifornCringerMoshedPerplexSawder =
                                                 }
                                             },
                                             "flags": 32768,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 1206,
                                             "end": 1218
                                         },
                                         "flags": 32768,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 1135,
                                         "end": 1218
@@ -1052,7 +1051,7 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "averredBathersBoxroomBuggyNurl",
                                         "rawText": "averredBathersBoxroomBuggyNurl",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 1224,
                                         "end": 1255
@@ -1062,19 +1061,19 @@ bifornCringerMoshedPerplexSawder =
                                         "text": "anodyneCondosMalateOverateRetinol",
                                         "rawText": "anodyneCondosMalateOverateRetinol",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 1261,
                                         "end": 1295
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 1135,
                                     "end": 1295
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 1135,
                                 "end": 1296
@@ -1086,44 +1085,44 @@ bifornCringerMoshedPerplexSawder =
                                     "text": "AnnularCooeedSplicesWalksWayWay",
                                     "rawText": "AnnularCooeedSplicesWalksWayWay",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 1299,
                                     "end": 1331
                                 },
                                 "typeArguments": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 1299,
                                 "end": 1332
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 1296,
                             "end": 1331
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1131,
                         "end": 1332
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 1098,
                     "end": 1332
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 1062,
                 "end": 1332
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 1062,
             "end": 1333
@@ -1132,7 +1131,6 @@ bifornCringerMoshedPerplexSawder =
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1142,17 +1140,13 @@ bifornCringerMoshedPerplexSawder =
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,10 +14,9 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async function g(){let o = {async *f(foo = await bar){}}    }",
     "filename": "",
     "statements": [
@@ -28,7 +27,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "text": "g",
                 "rawText": "g",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 14,
                 "end": 16
@@ -38,7 +37,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 18
@@ -62,7 +61,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                             "text": "o",
                                             "rawText": "o",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 22,
                                             "end": 24
@@ -81,7 +80,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 36
@@ -97,7 +96,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 1025,
                                                                         "start": 37,
                                                                         "end": 40
@@ -111,13 +110,13 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                             "text": "bar",
                                                                             "rawText": "bar",
                                                                             "flags": 0,
-                                                                            "intersects": false,
+                                                                            "symbol": null,
                                                                             "transformFlags": 0,
                                                                             "start": 48,
                                                                             "end": 52
                                                                         },
                                                                         "flags": 0,
-                                                                        "intersects": false,
+                                                                        "symbol": null,
                                                                         "transformFlags": 32780,
                                                                         "start": 42,
                                                                         "end": 52
@@ -126,7 +125,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                     "accessModifier": null,
                                                                     "isReadOnly": false,
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 1,
                                                                     "start": 37,
                                                                     "end": 52
@@ -134,7 +133,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 53
@@ -148,13 +147,13 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                 "statements": [],
                                                                 "multiline": false,
                                                                 "flags": 0,
-                                                                "intersects": false,
+                                                                "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 54,
                                                                 "end": 54
                                                             },
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 53,
                                                             "end": 55
@@ -164,7 +163,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                         "accessModifier": null,
                                                         "typeParameters": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097160,
                                                         "start": 36,
                                                         "end": 55
@@ -173,32 +172,32 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "trailingComma": false,
                                                 "multiline": false,
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 55
                                             },
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 26,
                                             "end": 56
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 22,
                                         "end": 56
                                     }
                                 ],
                                 "flags": 8,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 56
                             },
                             "flags": 8,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 769,
                             "start": 19,
                             "end": 56
@@ -206,20 +205,20 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                     ],
                     "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
                     "end": 56
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "typeParameters": null,
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 260,
             "start": 0,
             "end": 61
@@ -228,7 +227,6 @@ async function g(){let o = {async *f(foo = await bar){}}    }
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -238,17 +236,13 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

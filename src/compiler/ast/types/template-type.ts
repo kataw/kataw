@@ -24,7 +24,7 @@ export function createTemplateLiteralType(
     spans,
     tail,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

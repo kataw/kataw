@@ -25,7 +25,7 @@ export function createJsxTagNamePropertyAccess(
     member,
     expression,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags:
       expression.transformFlags |
       (member.kind === NodeKind.IdentifierName ? member.transformFlags : NodeFlags.None) |

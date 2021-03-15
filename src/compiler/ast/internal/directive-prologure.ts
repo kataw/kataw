@@ -16,7 +16,7 @@ export function createPrologueDirective(expression: StringLiteral, start: number
     kind: NodeKind.PrologueDirective,
     expression,
     flags: NodeFlags.None,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.Jsx,
     start,
     end

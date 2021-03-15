@@ -23,7 +23,7 @@ export function createNamespaceBlock(
     statements,
     multiline,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.TypeScript,
     start,
     end

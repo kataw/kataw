@@ -20,7 +20,7 @@ export function createBreakStatement(
     kind: NodeKind.BreakStatement,
     label,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

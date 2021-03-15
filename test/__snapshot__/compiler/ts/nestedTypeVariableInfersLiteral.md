@@ -28,10 +28,9 @@ hasZField(nestedUnionArray) // ok
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "// https://github.com/Microsoft/TypeScript/issues/19632\ndeclare function direct<A extends string>(a: A | A[]): Record<A, string>\ndeclare function nested<A extends string>(a: { fields: A }): Record<A, string>\ndeclare function nestedUnion<A extends string>(a: { fields: A | A[] }): Record<A, string>\n\nconst directUnionSingle = direct(\"z\")\nconst directUnionArray = direct([\"z\", \"y\"])\nconst nestedSingle = nested({fields: \"z\"})\nconst nestedUnionSingle = nestedUnion({fields: \"z\"})\nconst nestedUnionArray = nestedUnion({fields: [\"z\", \"y\"]})\n\ndeclare function hasZField(arg: { z: string }): void\n\nhasZField(directUnionSingle) // ok\nhasZField(directUnionArray) // ok\nhasZField(nestedSingle) // ok\nhasZField(nestedUnionSingle) // ok\nhasZField(nestedUnionArray) // ok\n",
     "filename": "",
     "statements": [
@@ -42,7 +41,7 @@ hasZField(nestedUnionArray) // ok
                 "text": "direct",
                 "rawText": "direct",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 72,
                 "end": 79
@@ -58,7 +57,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 98,
                             "end": 99
@@ -74,14 +73,14 @@ hasZField(nestedUnionArray) // ok
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 100,
                                         "end": 102
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 100,
                                     "end": 104
@@ -95,27 +94,27 @@ hasZField(nestedUnionArray) // ok
                                             "text": "A",
                                             "rawText": "A",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 104,
                                             "end": 106
                                         },
                                         "typeArguments": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 104,
                                         "end": 107
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
                                     "start": 104,
                                     "end": 109
                                 }
                             ],
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 102,
                             "end": 108
@@ -125,7 +124,7 @@ hasZField(nestedUnionArray) // ok
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 98,
                         "end": 108
@@ -133,7 +132,7 @@ hasZField(nestedUnionArray) // ok
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 98,
                 "end": 109
@@ -145,7 +144,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "Record",
                     "rawText": "Record",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 110,
                     "end": 117
@@ -160,14 +159,14 @@ hasZField(nestedUnionArray) // ok
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 118,
                                 "end": 119
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 118,
                             "end": 120
@@ -175,20 +174,20 @@ hasZField(nestedUnionArray) // ok
                         {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 120,
                             "end": 127
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 118,
                     "end": 127
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 110,
                 "end": 136
@@ -204,7 +203,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 80,
                             "end": 81
@@ -212,7 +211,7 @@ hasZField(nestedUnionArray) // ok
                         "constraint": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 89,
                             "end": 96
@@ -220,20 +219,20 @@ hasZField(nestedUnionArray) // ok
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 80,
                         "end": 96
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 80,
                 "end": 96
             },
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 63,
             "end": 128
@@ -245,7 +244,7 @@ hasZField(nestedUnionArray) // ok
                 "text": "nested",
                 "rawText": "nested",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 145,
                 "end": 152
@@ -261,7 +260,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 171,
                             "end": 172
@@ -279,7 +278,7 @@ hasZField(nestedUnionArray) // ok
                                             "text": "fields",
                                             "rawText": "fields",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 175,
                                             "end": 182
@@ -293,14 +292,14 @@ hasZField(nestedUnionArray) // ok
                                                 "text": "A",
                                                 "rawText": "A",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 183,
                                                 "end": 185
                                             },
                                             "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 183,
                                             "end": 187
@@ -309,7 +308,7 @@ hasZField(nestedUnionArray) // ok
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 175,
                                         "end": 185
@@ -317,13 +316,13 @@ hasZField(nestedUnionArray) // ok
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 175,
                                 "end": 187
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 173,
                             "end": 187
@@ -333,7 +332,7 @@ hasZField(nestedUnionArray) // ok
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 171,
                         "end": 187
@@ -341,7 +340,7 @@ hasZField(nestedUnionArray) // ok
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 171,
                 "end": 188
@@ -353,7 +352,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "Record",
                     "rawText": "Record",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 189,
                     "end": 196
@@ -368,14 +367,14 @@ hasZField(nestedUnionArray) // ok
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 197,
                                 "end": 198
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 197,
                             "end": 199
@@ -383,20 +382,20 @@ hasZField(nestedUnionArray) // ok
                         {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 199,
                             "end": 206
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 197,
                     "end": 206
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 189,
                 "end": 215
@@ -412,7 +411,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 153,
                             "end": 154
@@ -420,7 +419,7 @@ hasZField(nestedUnionArray) // ok
                         "constraint": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 162,
                             "end": 169
@@ -428,20 +427,20 @@ hasZField(nestedUnionArray) // ok
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 153,
                         "end": 169
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 153,
                 "end": 169
             },
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 136,
             "end": 207
@@ -453,7 +452,7 @@ hasZField(nestedUnionArray) // ok
                 "text": "nestedUnion",
                 "rawText": "nestedUnion",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 224,
                 "end": 236
@@ -469,7 +468,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "a",
                             "rawText": "a",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 255,
                             "end": 256
@@ -487,7 +486,7 @@ hasZField(nestedUnionArray) // ok
                                             "text": "fields",
                                             "rawText": "fields",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 259,
                                             "end": 266
@@ -504,14 +503,14 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "A",
                                                         "rawText": "A",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 267,
                                                         "end": 269
                                                     },
                                                     "typeArguments": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 267,
                                                     "end": 271
@@ -525,27 +524,27 @@ hasZField(nestedUnionArray) // ok
                                                             "text": "A",
                                                             "rawText": "A",
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 271,
                                                             "end": 273
                                                         },
                                                         "typeArguments": null,
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 271,
                                                         "end": 274
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 2097152,
                                                     "start": 271,
                                                     "end": 277
                                                 }
                                             ],
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 269,
                                             "end": 275
@@ -554,7 +553,7 @@ hasZField(nestedUnionArray) // ok
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 259,
                                         "end": 275
@@ -562,13 +561,13 @@ hasZField(nestedUnionArray) // ok
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 259,
                                 "end": 277
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 257,
                             "end": 277
@@ -578,7 +577,7 @@ hasZField(nestedUnionArray) // ok
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 255,
                         "end": 277
@@ -586,7 +585,7 @@ hasZField(nestedUnionArray) // ok
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 255,
                 "end": 278
@@ -598,7 +597,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "Record",
                     "rawText": "Record",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 279,
                     "end": 286
@@ -613,14 +612,14 @@ hasZField(nestedUnionArray) // ok
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 287,
                                 "end": 288
                             },
                             "typeArguments": null,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 287,
                             "end": 289
@@ -628,20 +627,20 @@ hasZField(nestedUnionArray) // ok
                         {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 289,
                             "end": 296
                         }
                     ],
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 2097152,
                     "start": 287,
                     "end": 296
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 279,
                 "end": 304
@@ -657,7 +656,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "A",
                             "rawText": "A",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 237,
                             "end": 238
@@ -665,7 +664,7 @@ hasZField(nestedUnionArray) // ok
                         "constraint": {
                             "kind": 4202702,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 246,
                             "end": 253
@@ -673,20 +672,20 @@ hasZField(nestedUnionArray) // ok
                         "defaultType": null,
                         "expression": null,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 2097152,
                         "start": 237,
                         "end": 253
                     }
                 ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 237,
                 "end": 253
             },
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 215,
             "end": 297
@@ -704,7 +703,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "directUnionSingle",
                             "rawText": "directUnionSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 304,
                             "end": 322
@@ -718,7 +717,7 @@ hasZField(nestedUnionArray) // ok
                                 "text": "direct",
                                 "rawText": "direct",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 324,
                                 "end": 331
@@ -732,7 +731,7 @@ hasZField(nestedUnionArray) // ok
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 332,
                                         "end": 335
@@ -741,31 +740,31 @@ hasZField(nestedUnionArray) // ok
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 335,
                                 "end": 336
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 331,
                             "end": 336
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 304,
                         "end": 336
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 304,
                 "end": 336
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 297,
             "end": 336
@@ -783,7 +782,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "directUnionArray",
                             "rawText": "directUnionArray",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 342,
                             "end": 359
@@ -797,7 +796,7 @@ hasZField(nestedUnionArray) // ok
                                 "text": "direct",
                                 "rawText": "direct",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 361,
                                 "end": 368
@@ -816,7 +815,7 @@ hasZField(nestedUnionArray) // ok
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 370,
                                                     "end": 373
@@ -826,7 +825,7 @@ hasZField(nestedUnionArray) // ok
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 374,
                                                     "end": 378
@@ -835,13 +834,13 @@ hasZField(nestedUnionArray) // ok
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 370,
                                             "end": 378
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 369,
                                         "end": 379
@@ -850,31 +849,31 @@ hasZField(nestedUnionArray) // ok
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 370,
                                 "end": 380
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 368,
                             "end": 380
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 342,
                         "end": 380
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 342,
                 "end": 380
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 336,
             "end": 380
@@ -892,7 +891,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedSingle",
                             "rawText": "nestedSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 386,
                             "end": 399
@@ -906,7 +905,7 @@ hasZField(nestedUnionArray) // ok
                                 "text": "nested",
                                 "rawText": "nested",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 401,
                                 "end": 408
@@ -927,7 +926,7 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "fields",
                                                         "rawText": "fields",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 410,
                                                         "end": 416
@@ -937,7 +936,7 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 417,
                                                         "end": 421
@@ -945,7 +944,7 @@ hasZField(nestedUnionArray) // ok
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 410,
                                                     "end": 421
@@ -954,13 +953,13 @@ hasZField(nestedUnionArray) // ok
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 410,
                                             "end": 421
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 409,
                                         "end": 422
@@ -969,31 +968,31 @@ hasZField(nestedUnionArray) // ok
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 410,
                                 "end": 423
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 408,
                             "end": 423
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 386,
                         "end": 423
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 386,
                 "end": 423
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 380,
             "end": 423
@@ -1011,7 +1010,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedUnionSingle",
                             "rawText": "nestedUnionSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 429,
                             "end": 447
@@ -1025,7 +1024,7 @@ hasZField(nestedUnionArray) // ok
                                 "text": "nestedUnion",
                                 "rawText": "nestedUnion",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 449,
                                 "end": 461
@@ -1046,7 +1045,7 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "fields",
                                                         "rawText": "fields",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 463,
                                                         "end": 469
@@ -1056,7 +1055,7 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 470,
                                                         "end": 474
@@ -1064,7 +1063,7 @@ hasZField(nestedUnionArray) // ok
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 463,
                                                     "end": 474
@@ -1073,13 +1072,13 @@ hasZField(nestedUnionArray) // ok
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 463,
                                             "end": 474
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 462,
                                         "end": 475
@@ -1088,31 +1087,31 @@ hasZField(nestedUnionArray) // ok
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 463,
                                 "end": 476
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 461,
                             "end": 476
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 429,
                         "end": 476
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 429,
                 "end": 476
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 423,
             "end": 476
@@ -1130,7 +1129,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedUnionArray",
                             "rawText": "nestedUnionArray",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 482,
                             "end": 499
@@ -1144,7 +1143,7 @@ hasZField(nestedUnionArray) // ok
                                 "text": "nestedUnion",
                                 "rawText": "nestedUnion",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 501,
                                 "end": 513
@@ -1165,7 +1164,7 @@ hasZField(nestedUnionArray) // ok
                                                         "text": "fields",
                                                         "rawText": "fields",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 515,
                                                         "end": 521
@@ -1180,7 +1179,7 @@ hasZField(nestedUnionArray) // ok
                                                                     "text": "z",
                                                                     "rawText": "z",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 524,
                                                                     "end": 527
@@ -1190,7 +1189,7 @@ hasZField(nestedUnionArray) // ok
                                                                     "text": "y",
                                                                     "rawText": "y",
                                                                     "flags": 0,
-                                                                    "intersects": false,
+                                                                    "symbol": null,
                                                                     "transformFlags": 0,
                                                                     "start": 528,
                                                                     "end": 532
@@ -1199,13 +1198,13 @@ hasZField(nestedUnionArray) // ok
                                                             "trailingComma": false,
                                                             "multiline": false,
                                                             "flags": 0,
-                                                            "intersects": false,
+                                                            "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 524,
                                                             "end": 532
                                                         },
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 522,
                                                         "end": 533
@@ -1213,7 +1212,7 @@ hasZField(nestedUnionArray) // ok
                                                     "accessModifier": null,
                                                     "decorators": null,
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 515,
                                                     "end": 533
@@ -1222,13 +1221,13 @@ hasZField(nestedUnionArray) // ok
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 515,
                                             "end": 533
                                         },
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 514,
                                         "end": 534
@@ -1237,31 +1236,31 @@ hasZField(nestedUnionArray) // ok
                                 "trailingComma": false,
                                 "transformFlags": 0,
                                 "flags": 32768,
-                                "intersects": false,
+                                "symbol": null,
                                 "start": 515,
                                 "end": 535
                             },
                             "flags": 32768,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 513,
                             "end": 535
                         },
                         "flags": 32768,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 482,
                         "end": 535
                     }
                 ],
                 "flags": 32776,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 482,
                 "end": 535
             },
             "flags": 32776,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 476,
             "end": 535
@@ -1273,7 +1272,7 @@ hasZField(nestedUnionArray) // ok
                 "text": "hasZField",
                 "rawText": "hasZField",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1025,
                 "start": 553,
                 "end": 563
@@ -1289,7 +1288,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 564,
                             "end": 567
@@ -1307,7 +1306,7 @@ hasZField(nestedUnionArray) // ok
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 0,
                                             "start": 570,
                                             "end": 572
@@ -1317,7 +1316,7 @@ hasZField(nestedUnionArray) // ok
                                         "type": {
                                             "kind": 4202702,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 573,
                                             "end": 580
@@ -1326,7 +1325,7 @@ hasZField(nestedUnionArray) // ok
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 570,
                                         "end": 580
@@ -1334,13 +1333,13 @@ hasZField(nestedUnionArray) // ok
                                 ],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
                                 "start": 570,
                                 "end": 582
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 2097152,
                             "start": 568,
                             "end": 582
@@ -1350,7 +1349,7 @@ hasZField(nestedUnionArray) // ok
                         "accessModifier": null,
                         "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
                         "start": 564,
                         "end": 582
@@ -1358,7 +1357,7 @@ hasZField(nestedUnionArray) // ok
                 ],
                 "trailingComma": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 564,
                 "end": 583
@@ -1366,7 +1365,7 @@ hasZField(nestedUnionArray) // ok
             "type": {
                 "kind": 4202742,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 2097152,
                 "start": 584,
                 "end": 589
@@ -1374,7 +1373,7 @@ hasZField(nestedUnionArray) // ok
             "contents": null,
             "typeParameters": null,
             "flags": 402685952,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 2097152,
             "start": 544,
             "end": 589
@@ -1388,7 +1387,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "hasZField",
                     "rawText": "hasZField",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 589,
                     "end": 600
@@ -1402,7 +1401,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "directUnionSingle",
                             "rawText": "directUnionSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 601,
                             "end": 618
@@ -1411,18 +1410,18 @@ hasZField(nestedUnionArray) // ok
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 618,
                     "end": 619
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 600,
                 "end": 619
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 589,
             "end": 619
@@ -1436,7 +1435,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "hasZField",
                     "rawText": "hasZField",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 619,
                     "end": 635
@@ -1450,7 +1449,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "directUnionArray",
                             "rawText": "directUnionArray",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 636,
                             "end": 652
@@ -1459,18 +1458,18 @@ hasZField(nestedUnionArray) // ok
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 652,
                     "end": 653
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 635,
                 "end": 653
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 619,
             "end": 653
@@ -1484,7 +1483,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "hasZField",
                     "rawText": "hasZField",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 653,
                     "end": 669
@@ -1498,7 +1497,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedSingle",
                             "rawText": "nestedSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 670,
                             "end": 682
@@ -1507,18 +1506,18 @@ hasZField(nestedUnionArray) // ok
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 682,
                     "end": 683
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 669,
                 "end": 683
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 653,
             "end": 683
@@ -1532,7 +1531,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "hasZField",
                     "rawText": "hasZField",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 683,
                     "end": 699
@@ -1546,7 +1545,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedUnionSingle",
                             "rawText": "nestedUnionSingle",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 700,
                             "end": 717
@@ -1555,18 +1554,18 @@ hasZField(nestedUnionArray) // ok
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 717,
                     "end": 718
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 699,
                 "end": 718
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 683,
             "end": 718
@@ -1580,7 +1579,7 @@ hasZField(nestedUnionArray) // ok
                     "text": "hasZField",
                     "rawText": "hasZField",
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 718,
                     "end": 734
@@ -1594,7 +1593,7 @@ hasZField(nestedUnionArray) // ok
                             "text": "nestedUnionArray",
                             "rawText": "nestedUnionArray",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 735,
                             "end": 751
@@ -1603,18 +1602,18 @@ hasZField(nestedUnionArray) // ok
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 32768,
-                    "intersects": false,
+                    "symbol": null,
                     "start": 751,
                     "end": 752
                 },
                 "flags": 32768,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 734,
                 "end": 752
             },
             "flags": 0,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 0,
             "start": 718,
             "end": 752
@@ -1623,7 +1622,6 @@ hasZField(nestedUnionArray) // ok
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -1633,17 +1631,13 @@ hasZField(nestedUnionArray) // ok
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

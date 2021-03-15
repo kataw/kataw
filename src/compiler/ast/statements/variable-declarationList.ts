@@ -21,7 +21,7 @@ export function createVariableDeclarationList(
     kind: NodeKind.VariableDeclarationList,
     declarations,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

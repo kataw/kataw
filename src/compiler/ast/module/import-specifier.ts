@@ -24,7 +24,7 @@ export function createImportSpecifier(
     name,
     binding,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

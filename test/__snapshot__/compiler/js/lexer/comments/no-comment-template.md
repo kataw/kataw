@@ -16,10 +16,9 @@ const str = `${__dirname}/test/*.js`;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const str = `${__dirname}/test/*.js`;",
     "filename": "",
     "statements": [
@@ -36,7 +35,7 @@ const str = `${__dirname}/test/*.js`;
                             "text": "str",
                             "rawText": "str",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1025,
                             "start": 5,
                             "end": 9
@@ -55,13 +54,13 @@ const str = `${__dirname}/test/*.js`;
                                         "text": "__dirname",
                                         "rawText": "__dirname",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 24
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 1,
                                     "start": 11,
                                     "end": 24
@@ -73,32 +72,32 @@ const str = `${__dirname}/test/*.js`;
                                 "text": "/test/*.js",
                                 "literal": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 1,
                                 "start": 24,
                                 "end": 36
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 1,
                             "start": 11,
                             "end": 36
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
                         "end": 36
                     }
                 ],
                 "flags": 8,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 36
             },
             "flags": 8,
-            "intersects": false,
+            "symbol": null,
             "transformFlags": 769,
             "start": 0,
             "end": 37
@@ -107,7 +106,6 @@ const str = `${__dirname}/test/*.js`;
     "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "intersects": false,
     "original": null,
     "symbol": null,
     "flags": 0,
@@ -117,17 +115,13 @@ const str = `${__dirname}/test/*.js`;
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

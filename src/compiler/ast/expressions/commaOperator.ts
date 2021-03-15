@@ -20,7 +20,7 @@ export function createCommaOperator(
     kind: NodeKind.CommaOperator,
     expressions,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

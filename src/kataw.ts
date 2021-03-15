@@ -218,7 +218,6 @@ export { createTemplateExpression, updateTemplateExpression } from './compiler/a
 export { createVariableStatement, updateVariableStatement } from './compiler/ast/statements/variable-stmt';
 export { createMinusType, updateMinusType } from './compiler/ast/types/minus-type';
 export { createConstructSignature, updateConstructSignature } from './compiler/ast/types/construct-signature';
-export { setParentReferences } from './compiler/utils';
 export { visitNode, visitNodes, visitEachChild } from './compiler/visitor';
 export { createContext } from './compiler/transform/context';
 export { parseScript, parseModule } from './compiler/browser';

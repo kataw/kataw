@@ -23,7 +23,7 @@ export function createJsxClosingElement(
     kind: NodeKind.JsxClosingElement,
     tagName,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: tagName.transformFlags | TransformFlags.Jsx,
     start,
     end

@@ -20,7 +20,7 @@ export function createBindingIdentifier(
     text,
     rawText,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
     start,
     end

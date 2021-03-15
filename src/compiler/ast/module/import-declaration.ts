@@ -25,7 +25,7 @@ export function createImportDeclaration(
     moduleSpecifier,
     importClause,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end

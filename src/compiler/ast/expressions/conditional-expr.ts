@@ -26,7 +26,7 @@ export function createConditionalExpression(
     consequent,
     alternate,
     flags,
-    intersects: false,
+    symbol: null,
     transformFlags: TransformFlags.None,
     start,
     end
