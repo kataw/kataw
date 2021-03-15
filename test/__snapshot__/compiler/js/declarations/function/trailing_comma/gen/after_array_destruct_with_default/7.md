@@ -13,7 +13,6 @@ function f([x] = y,){}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -22,140 +21,134 @@ function f([x] = y,){}
     "kind": 196,
     "source": "function f([x] = y,){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 10
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
-                        {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 33554437,
-                                "elementList": {
-                                    "kind": 29,
-                                    "elements": [
-                                        {
-                                            "kind": 134217756,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 12,
-                                                "end": 13
-                                            },
-                                            "right": null,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 12,
-                                            "end": 13
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 11,
-                                "end": 14
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 196712,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 18
-                            },
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 11,
-                            "end": 18
-                        }
-                    ],
-                    "trailingComma": true,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 20
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 22
-                },
-                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 33554437,
+                            "elementList": {
+                                "kind": 29,
+                                "elements": [
+                                    {
+                                        "kind": 16412,
+                                        "ellipsis": false,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1025,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        "right": null,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 1,
+                                        "start": 12,
+                                        "end": 13
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1,
+                                "start": 12,
+                                "end": 13
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "isOptional": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 196712,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 16,
+                            "end": 18
+                        },
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 11,
+                        "end": 18
+                    }
+                ],
+                "trailingComma": true,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 20
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 21,
+                    "end": 21
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 20,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -163,6 +156,7 @@ function f([x] = y,){}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

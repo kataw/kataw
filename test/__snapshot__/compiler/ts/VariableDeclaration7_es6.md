@@ -8,7 +8,6 @@ let a
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,68 +16,62 @@ let a
     "kind": 196,
     "source": "let a",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 5
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": false,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "a",
+                            "rawText": "a",
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
+                            "transformFlags": 1025,
                             "start": 3,
                             "end": 5
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 5
-                },
-                "flags": 16,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 5
+                    }
+                ],
+                "flags": 8,
                 "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 3,
                 "end": 5
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 5
-    },
-    "jsx": false,
+            },
+            "flags": 8,
+            "intersects": false,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 5
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 5
 }
 ```
 
+  
 ### Printed
 
 
@@ -86,6 +79,7 @@ let a
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

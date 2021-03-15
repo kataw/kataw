@@ -14,7 +14,6 @@ function *P(){
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,148 +22,142 @@ function *P(){
     "kind": 196,
     "source": "function *P(){\n  class D extends fooo`bar` {}\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 788576,
-                "name": {
-                    "kind": 131102,
-                    "text": "P",
-                    "rawText": "P",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 10,
-                    "end": 11
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 13
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 48,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "D",
-                                    "rawText": "D",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 22,
-                                    "end": 24
-                                },
-                                "typeParameters": null,
-                                "classHeritage": {
-                                    "kind": 52,
-                                    "expression": {
-                                        "kind": 66260,
-                                        "member": {
-                                            "kind": 196712,
-                                            "text": "fooo",
-                                            "rawText": "fooo",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 32,
-                                            "end": 37
-                                        },
-                                        "typeArguments": null,
-                                        "template": {
-                                            "kind": 4260568,
-                                            "rawText": "bar",
-                                            "text": "bar",
-                                            "literal": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 37,
-                                            "end": 42
-                                        },
-                                        "optional": false,
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "P",
+                "rawText": "P",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 10,
+                "end": 11
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 13
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 48,
+                            "name": {
+                                "kind": 131102,
+                                "text": "D",
+                                "rawText": "D",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 22,
+                                "end": 24
+                            },
+                            "typeParameters": null,
+                            "classHeritage": {
+                                "kind": 52,
+                                "expression": {
+                                    "kind": 66260,
+                                    "member": {
+                                        "kind": 196712,
+                                        "text": "fooo",
+                                        "rawText": "fooo",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 32,
+                                        "end": 37
+                                    },
+                                    "typeArguments": null,
+                                    "template": {
+                                        "kind": 4260568,
+                                        "rawText": "bar",
+                                        "text": "bar",
+                                        "literal": false,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "start": 37,
                                         "end": 42
                                     },
-                                    "typeArguments": null,
+                                    "optional": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 32,
+                                    "transformFlags": 1,
+                                    "start": 37,
                                     "end": 42
                                 },
-                                "implementClauses": null,
-                                "members": {
-                                    "kind": 50,
-                                    "elements": [],
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 44,
-                                    "end": 45
-                                },
-                                "decorators": null,
-                                "isAbstract": false,
-                                "flags": 16384,
+                                "typeArguments": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 32,
+                                "end": 42
+                            },
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
+                                "flags": 32768,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "start": 14,
+                                "start": 44,
                                 "end": 45
-                            }
-                        ],
-                        "multiline": true,
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 45
-                    },
-                    "flags": 0,
+                            },
+                            "decorators": null,
+                            "isAbstract": false,
+                            "flags": 32768,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 14,
+                            "end": 45
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 32768,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 47
+                    "start": 14,
+                    "end": 45
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 384,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 13,
                 "end": 47
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 47
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 47
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 47
 }
 ```
 
+  
 ### Printed
 
 
@@ -172,6 +165,7 @@ function *P(){
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

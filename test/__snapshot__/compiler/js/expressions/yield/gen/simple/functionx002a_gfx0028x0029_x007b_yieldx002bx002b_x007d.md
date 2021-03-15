@@ -12,7 +12,6 @@ function* gf() { yield++; }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,101 +20,93 @@ function* gf() { yield++; }
     "kind": 196,
     "source": "function* gf() { yield++; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 788576,
-                "name": {
-                    "kind": 131102,
-                    "text": "gf",
-                    "rawText": "gf",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 9,
-                    "end": 12
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 14
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65785,
-                                    "delegate": false,
-                                    "expression": {
-                                        "kind": 65715,
-                                        "operator": "++",
-                                        "operand": {
-                                            "kind": 131322,
-                                            "text": "",
-                                            "flags": 6,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 24,
-                                            "end": 24
-                                        },
-                                        "flags": 2,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 16393,
-                                    "start": 16,
-                                    "end": 24
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 25
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 16,
-                        "end": 25
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 27
-                },
-                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "gf",
+                "rawText": "gf",
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 384,
-                "start": 0,
+                "transformFlags": 1025,
+                "start": 9,
+                "end": 12
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 14
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65785,
+                                "delegate": false,
+                                "expression": {
+                                    "kind": 65715,
+                                    "operator": "++",
+                                    "operand": {
+                                        "kind": 131322,
+                                        "text": "",
+                                        "flags": 3,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 24,
+                                        "end": 24
+                                    },
+                                    "flags": 1,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 22,
+                                    "end": 24
+                                },
+                                "flags": 1,
+                                "intersects": false,
+                                "transformFlags": 16393,
+                                "start": 16,
+                                "end": 24
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 16,
+                            "end": 25
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 16,
+                    "end": 25
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 14,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -126,15 +117,17 @@ function* gf() { yield++; }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -142,6 +135,7 @@ function* gf() { yield++; }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

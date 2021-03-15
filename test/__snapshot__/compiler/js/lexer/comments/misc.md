@@ -31,7 +31,6 @@ var /* y = 1;*/
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -40,45 +39,39 @@ var /* y = 1;*/
     "kind": 196,
     "source": "/* x = 1;*/\n\nvar /* y = 1;*/\n\n/*CHECK#5*/\n/*var x = 1;\n\n/* Test262Error.thrower('#10: Correct interpretation multi line comments');\n**/\n\n\n/*CHECK#11*/\n/****** Test262Error.thrower('#11: Correct interpretation multi line comments');*********\n***********\n*\n**********\n**/\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [],
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 16
-                },
-                "flags": 16384,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [],
+                "flags": 32768,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 16,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 16384,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": true,
+            },
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 270
 }
 ```
 
+  
 ### Printed
 
 
@@ -86,6 +79,7 @@ var /* y = 1;*/
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

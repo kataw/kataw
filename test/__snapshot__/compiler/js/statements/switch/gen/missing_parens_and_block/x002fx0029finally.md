@@ -12,7 +12,6 @@ switch case /)finally
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,62 +20,54 @@ switch case /)finally
     "kind": 196,
     "source": "switch case /)finally",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 46,
-                            "expression": {
-                                "kind": 4260544,
-                                "text": "/)finally",
-                                "flags": 524288,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 21
-                            },
-                            "statements": [],
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 21
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 21
-                },
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
+                "end": 6
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 46,
+                        "expression": {
+                            "kind": 4260544,
+                            "text": "/)finally",
+                            "flags": 1048576,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 11,
+                            "end": 21
+                        },
+                        "statements": [],
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 6,
+                        "end": 21
+                    }
+                ],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
                 "end": 21
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 21
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 21
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -101,15 +92,17 @@ switch case /)finally
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 21
 }
 ```
 
+  
 ### Printed
 
 
@@ -117,6 +110,7 @@ switch case /)finally
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

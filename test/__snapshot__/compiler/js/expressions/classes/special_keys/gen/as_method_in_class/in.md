@@ -12,7 +12,6 @@ class x {in(){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,125 +20,119 @@ class x {in(){}}
     "kind": 196,
     "source": "class x {in(){}}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "in",
-                                    "rawText": "in",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 11
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                "isSetter": false,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 14
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 13,
-                                    "end": 15
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": null,
-                                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 49,
+                        "isStatic": false,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "method": {
+                            "kind": 16844946,
+                            "name": {
+                                "kind": 196711,
+                                "text": "in",
+                                "rawText": "in",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 11,
+                                "start": 9,
+                                "end": 11
+                            },
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 13
+                            },
+                            "isSetter": false,
+                            "isGetter": false,
+                            "contents": {
+                                "kind": 91,
+                                "functionStatementList": {
+                                    "kind": 94,
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 14,
+                                    "end": 14
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 13,
                                 "end": 15
                             },
+                            "decorators": null,
+                            "type": null,
+                            "accessModifier": null,
+                            "typeParameters": null,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 1,
-                            "start": 9,
+                            "transformFlags": 0,
+                            "start": 11,
                             "end": 15
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 16
-                },
-                "decorators": null,
-                "isAbstract": false,
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 9,
+                        "end": 15
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 16
 }
 ```
 
+  
 ### Printed
 
 
@@ -147,6 +140,7 @@ class x {in(){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

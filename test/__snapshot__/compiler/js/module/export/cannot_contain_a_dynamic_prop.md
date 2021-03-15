@@ -14,134 +14,132 @@ var foo; export {[foo]}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var foo; export {[foo]}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 7
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 3,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 65536,
+                            "transformFlags": 1025,
+                            "start": 3,
                             "end": 7
-                        }
-                    ],
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 7
-                },
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 8
-            },
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [],
-                        "flags": 65536,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 3,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 17,
-                        "end": 17
-                    },
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 17
-                },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
+                        "start": 0,
+                        "end": 7
+                    }
+                ],
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 8,
-                "end": 17
+                "start": 3,
+                "end": 7
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
-                                "kind": 196712,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 18,
-                                "end": 21
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 21
-                    },
-                    "flags": 65536,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [],
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 17,
-                    "end": 22
+                    "end": 17
+                },
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 17
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 8,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 196712,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 18,
+                            "end": 21
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 18,
+                    "end": 21
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 22
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 9,
+            "length": 0
+        },
         {
             "kind": 2,
             "source": 2,
@@ -157,15 +155,17 @@ var foo; export {[foo]}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 23
 }
 ```
 
+  
 ### Printed
 
 
@@ -173,6 +173,7 @@ var foo; export {[foo]}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

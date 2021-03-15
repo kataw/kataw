@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,50 +20,42 @@
     "kind": 196,
     "source": "{( /false//a",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 66224,
                             "expression": {
-                                "kind": 66224,
-                                "expression": {
-                                    "kind": 65563,
-                                    "left": {
-                                        "kind": 4260544,
-                                        "text": "/false/",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 2,
-                                        "end": 10
-                                    },
-                                    "operator": "/",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 12
-                                    },
+                                "kind": 65563,
+                                "left": {
+                                    "kind": 4260544,
+                                    "text": "/false/",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "start": 2,
+                                    "end": 10
+                                },
+                                "operator": "/",
+                                "right": {
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 11,
                                     "end": 12
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 2,
                                 "end": 12
                             },
                             "flags": 0,
@@ -72,29 +63,29 @@
                             "transformFlags": 0,
                             "start": 1,
                             "end": 12
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 12
-                },
-                "flags": 2,
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 12
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -105,15 +96,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 12
 }
 ```
 
+  
 ### Printed
 
 
@@ -121,6 +114,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

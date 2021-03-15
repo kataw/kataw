@@ -14,7 +14,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,80 +22,74 @@
     "kind": 196,
     "source": "<>Fragment</>",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66176,
-                    "openingFragment": {
-                        "kind": 133,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 0,
-                        "end": 2
-                    },
-                    "children": {
-                        "kind": 124,
-                        "children": [
-                            {
-                                "kind": 137,
-                                "text": "Fragment",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 8192,
-                                "parent": null,
-                                "start": 2,
-                                "end": 10
-                            }
-                        ],
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 2,
-                        "end": 10
-                    },
-                    "closingFragment": {
-                        "kind": 638,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 10,
-                        "end": 13
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66176,
+                "openingFragment": {
+                    "kind": 133,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 8192,
                     "start": 0,
+                    "end": 2
+                },
+                "children": {
+                    "kind": 124,
+                    "children": [
+                        {
+                            "kind": 137,
+                            "text": "Fragment",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 8192,
+                            "parent": null,
+                            "start": 2,
+                            "end": 10
+                        }
+                    ],
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 8192,
+                    "start": 2,
+                    "end": 10
+                },
+                "closingFragment": {
+                    "kind": 638,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 8192,
+                    "start": 10,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 0,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -104,6 +97,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

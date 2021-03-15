@@ -14,7 +14,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,82 +22,76 @@
     "kind": 196,
     "source": "<input disabled />",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 69766,
-                    "tagName": {
-                        "kind": 129,
-                        "text": "input",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 1,
-                        "end": 6
-                    },
-                    "attributes": {
-                        "kind": 123,
-                        "attributesList": [
-                            {
-                                "kind": 122,
-                                "name": {
-                                    "kind": 129,
-                                    "text": "disabled",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 8192,
-                                    "start": 6,
-                                    "end": 15
-                                },
-                                "initializer": null,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 69766,
+                "tagName": {
+                    "kind": 129,
+                    "text": "input",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 8192,
+                    "start": 1,
+                    "end": 6
+                },
+                "attributes": {
+                    "kind": 123,
+                    "attributesList": [
+                        {
+                            "kind": 122,
+                            "name": {
+                                "kind": 129,
+                                "text": "disabled",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 8192,
                                 "start": 6,
                                 "end": 15
-                            }
-                        ],
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 6,
-                        "end": 15
-                    },
-                    "typeArguments": null,
+                            },
+                            "initializer": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 8192,
+                            "start": 6,
+                            "end": 15
+                        }
+                    ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 8192,
-                    "start": 0,
-                    "end": 18
+                    "start": 6,
+                    "end": 15
                 },
+                "typeArguments": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 0,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -106,6 +99,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

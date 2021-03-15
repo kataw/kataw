@@ -12,7 +12,6 @@ do {} while (x) { false
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,89 +20,81 @@ do {} while (x) { false
     "kind": 196,
     "source": "do {} while (x) { false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 14
+            },
+            "statement": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 14
-                },
-                "statement": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 5
+                    "start": 4,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 15
+                "start": 2,
+                "end": 5
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 4260391,
-                                "text": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 23
-                            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 4260391,
+                            "text": false,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 23
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 23
-                },
-                "flags": 2,
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 17,
+                        "end": 23
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 15,
+                "start": 17,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -114,15 +105,17 @@ do {} while (x) { false
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 23
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ do {} while (x) { false
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

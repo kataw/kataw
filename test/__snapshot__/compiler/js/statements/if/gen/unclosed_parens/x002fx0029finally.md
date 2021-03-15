@@ -12,7 +12,6 @@ if( /)finally
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,53 +20,45 @@ if( /)finally
     "kind": 196,
     "source": "if( /)finally",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 4260544,
+                "text": "/)finally",
+                "flags": 1048576,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 3,
+                "end": 13
+            },
+            "consequent": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 4260544,
-                    "text": "/)finally",
-                    "flags": 524288,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 13
-                },
-                "consequent": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 13
-                    },
-                    "flags": 0,
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
-                "alternate": null,
-                "isWebCompat": true,
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 13,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -85,15 +76,17 @@ if( /)finally
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -101,6 +94,7 @@ if( /)finally
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

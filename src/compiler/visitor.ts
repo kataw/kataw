@@ -1,10 +1,7 @@
 import { createNodeArray, concatenate, updateNode, extractSingleNode } from './utils';
 import { LexicalEnvironmentFlags } from './transform/context';
 import { Node, NodeFlags, NodeKind, TransformFlags } from './ast/node';
-import { updateScript } from './ast/script';
-import { updateModule } from './ast/module';
-import { updateScriptBody } from './ast/scriptBody';
-import { updateModuleBody } from './ast/moduleBody';
+import { updateRootNode } from './ast/rootNode';
 import { updateExpressionStatement } from './ast/statements/expr-stmt';
 import { updateBinaryExpression } from './ast/expressions/binary-expr';
 import { updateArgumentList } from './ast/expressions/argument-list';
@@ -284,15 +281,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
   // Switch - Frequently used nodes first
   switch (kind) {
     case NodeKind.Script:
-      return updateScript(node, visitNode(node.scriptBody, visitor));
-    case NodeKind.Module:
-      return updateModule(node, visitNode(node.moduleBody, visitor));
-    case NodeKind.ScriptBody:
       context.startLexicalEnvironment();
-      return updateScriptBody(node, visitLexicalEnvironment(node.statements, visitor, context));
-    case NodeKind.ModuleBody:
-      context.startLexicalEnvironment();
-      return updateModuleBody(node, visitLexicalEnvironment(node.statements, visitor, context));
+      return updateRootNode(node, visitNode(node.statements, visitor));
     case NodeKind.FunctionStatementList:
       return updateFunctionStatementList(node, visitNodes(node.statements, visitor), node.multiline);
     case NodeKind.FunctionBody:

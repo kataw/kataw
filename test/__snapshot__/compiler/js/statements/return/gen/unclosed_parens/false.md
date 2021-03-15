@@ -12,7 +12,6 @@ return( false
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,53 +20,47 @@ return( false
     "kind": 196,
     "source": "return( false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 4260391,
-                        "text": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 13
-                    },
+                    "kind": 4260391,
+                    "text": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 7,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -75,6 +68,7 @@ return( false
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ class const {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,89 +20,81 @@ class const {}
     "kind": 196,
     "source": "class const {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 33554598,
-                                "propertyList": {
-                                    "kind": 33,
-                                    "properties": [],
-                                    "multiline": false,
-                                    "trailingComma": false,
-                                    "transformFlags": 1025,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "start": 13,
-                                    "end": 13
-                                },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 142,
+            "isConst": true,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 33554598,
+                            "propertyList": {
+                                "kind": 33,
+                                "properties": [],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "transformFlags": 1025,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 11,
-                                "end": 14
+                                "start": 13,
+                                "end": 13
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
+                            "transformFlags": 1025,
                             "start": 11,
                             "end": 14
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 14
-                },
-                "flags": 18,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 14
+                    }
+                ],
+                "flags": 8,
                 "intersects": false,
-                "transformFlags": 769,
-                "start": 5,
+                "transformFlags": 0,
+                "start": 11,
                 "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+            },
+            "flags": 9,
+            "intersects": false,
+            "transformFlags": 769,
+            "start": 5,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -114,15 +105,17 @@ class const {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ class const {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

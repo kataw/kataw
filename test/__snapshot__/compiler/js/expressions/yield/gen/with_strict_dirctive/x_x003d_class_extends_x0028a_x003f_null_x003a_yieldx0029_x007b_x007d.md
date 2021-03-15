@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,121 +20,113 @@
     "kind": 196,
     "source": "'use strict'; x = class extends (a ? null : yield) { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "use strict",
-                    "rawText": "use strict",
-                    "flags": 16777216,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 33554432,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 15
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 82483,
-                        "name": null,
-                        "typeParameters": null,
-                        "classHeritage": {
-                            "kind": 52,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 13,
+                    "end": 15
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 66099,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": {
+                        "kind": 52,
+                        "expression": {
+                            "kind": 66224,
                             "expression": {
-                                "kind": 66224,
-                                "expression": {
-                                    "kind": 65592,
-                                    "shortCircuit": {
-                                        "kind": 196712,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 33,
-                                        "end": 34
-                                    },
-                                    "consequent": {
-                                        "kind": 4260512,
-                                        "text": null,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 36,
-                                        "end": 41
-                                    },
-                                    "alternate": {
-                                        "kind": 196712,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 43,
-                                        "end": 49
-                                    },
+                                "kind": 65592,
+                                "shortCircuit": {
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 31,
+                                    "start": 33,
+                                    "end": 34
+                                },
+                                "consequent": {
+                                    "kind": 4260512,
+                                    "text": null,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 36,
+                                    "end": 41
+                                },
+                                "alternate": {
+                                    "kind": 196712,
+                                    "text": "yield",
+                                    "rawText": "yield",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 43,
                                     "end": 49
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 31,
-                                "end": 50
+                                "end": 49
                             },
-                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 31,
                             "end": 50
                         },
-                        "implementClauses": null,
-                        "members": {
-                            "kind": 50,
-                            "elements": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 52,
-                            "end": 54
-                        },
-                        "decorators": null,
+                        "typeArguments": null,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 31,
+                        "end": 50
+                    },
+                    "implementClauses": null,
+                    "members": {
+                        "kind": 50,
+                        "elements": [],
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "start": 17,
+                        "start": 52,
                         "end": 54
                     },
+                    "decorators": null,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
+                    "transformFlags": 1,
+                    "start": 17,
                     "end": 54
                 },
                 "flags": 0,
@@ -143,26 +134,28 @@
                 "transformFlags": 0,
                 "start": 13,
                 "end": 54
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 54
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 54
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 54
 }
 ```
 
+  
 ### Printed
 
 
@@ -170,6 +163,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

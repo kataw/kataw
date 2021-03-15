@@ -12,7 +12,6 @@ switch( false case
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,62 +20,54 @@ switch( false case
     "kind": 196,
     "source": "switch( false case",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 4260391,
-                    "text": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 7,
-                    "end": 13
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 46,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 18,
-                                "end": 18
-                            },
-                            "statements": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 18
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 18
-                },
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 4260391,
+                "text": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 7,
+                "end": 13
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 46,
+                        "expression": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 18,
+                            "end": 18
+                        },
+                        "statements": [],
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 18
+                    }
+                ],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -87,15 +78,17 @@ switch( false case
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -103,6 +96,7 @@ switch( false case
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

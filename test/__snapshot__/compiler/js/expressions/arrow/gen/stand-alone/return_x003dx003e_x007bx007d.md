@@ -12,7 +12,6 @@ return => {} ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,89 +20,81 @@ return => {} ;
     "kind": 196,
     "source": "return => {} ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67592,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "",
-                                    "flags": 6,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 6,
-                                    "end": 6
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "",
+                                "flags": 3,
                                 "intersects": false,
-                                "transformFlags": 1,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 6
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 6
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 11,
-                            "end": 11
-                        },
+                            "transformFlags": 1,
+                            "start": 6,
+                            "end": 6
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 1,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 6,
+                    "end": 6
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 9,
-                        "end": 12
+                        "start": 11,
+                        "end": 11
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 9,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+                "start": 6,
+                "end": 12
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -114,15 +105,17 @@ return => {} ;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ return => {} ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

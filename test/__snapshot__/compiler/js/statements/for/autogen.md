@@ -145,7 +145,6 @@ for ((a in b).x in {});
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -154,121 +153,115 @@ for ((a in b).x in {});
     "kind": 196,
     "source": "for ([...x,] in [[]]);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
-                                "kind": 65740,
-                                "argument": {
-                                    "kind": 196712,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 10
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2,
-                                "start": 6,
-                                "end": 10
-                            }
-                        ],
-                        "trailingComma": true,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 11
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 12
-                },
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
-                                "kind": 67207686,
-                                "elementList": {
-                                    "kind": 65605,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 18
-                                },
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 65740,
+                            "argument": {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 17,
-                                "end": 19
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 19
-                    },
+                                "start": 9,
+                                "end": 10
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2,
+                            "start": 6,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": true,
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 15,
-                    "end": 20
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 22
+                    "start": 6,
+                    "end": 11
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 12
+            },
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 98822,
+                            "elementList": {
+                                "kind": 65605,
+                                "elements": [],
+                                "trailingComma": false,
+                                "multiline": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 18,
+                                "end": 18
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 17,
+                            "end": 19
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 19
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 20
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 21,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -276,6 +269,7 @@ for ((a in b).x in {});
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

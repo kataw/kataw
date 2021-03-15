@@ -12,7 +12,6 @@ class static {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,60 +20,54 @@ class static {}
     "kind": 196,
     "source": "class static {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "static",
-                    "rawText": "static",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 12
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 14,
-                    "end": 15
-                },
-                "decorators": null,
-                "isAbstract": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "static",
+                "rawText": "static",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 12
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 14,
                 "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 15
 }
 ```
 
+  
 ### Printed
 
 
@@ -82,6 +75,7 @@ class static {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

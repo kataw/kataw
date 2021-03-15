@@ -12,7 +12,6 @@ switch case class x {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,84 +20,76 @@ switch case class x {}
     "kind": 196,
     "source": "switch case class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 46,
-                            "expression": {
-                                "kind": 82483,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 17,
-                                    "end": 19
-                                },
-                                "typeParameters": null,
-                                "classHeritage": null,
-                                "implementClauses": null,
-                                "members": {
-                                    "kind": 50,
-                                    "elements": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 21,
-                                    "end": 22
-                                },
-                                "decorators": null,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 46,
+                        "expression": {
+                            "kind": 66099,
+                            "name": {
+                                "kind": 131102,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "typeParameters": null,
+                            "classHeritage": null,
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "start": 11,
+                                "start": 21,
                                 "end": 22
                             },
-                            "statements": [],
-                            "flags": 2,
+                            "decorators": null,
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
+                            "transformFlags": 1,
+                            "start": 11,
                             "end": 22
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 22
-                },
-                "flags": 2,
+                        },
+                        "statements": [],
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 6,
+                        "end": 22
+                    }
+                ],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -116,15 +107,17 @@ switch case class x {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -132,6 +125,7 @@ switch case class x {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

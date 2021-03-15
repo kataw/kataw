@@ -12,7 +12,6 @@ do {} while (x) { async funcion switch!!
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,152 +20,144 @@ do {} while (x) { async funcion switch!!
     "kind": 196,
     "source": "do {} while (x) { async funcion switch!!",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 14
+            },
+            "statement": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 14
-                },
-                "statement": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 5
+                    "start": 4,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 15
+                "start": 2,
+                "end": 5
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 23
-                            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
-                        {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "funcion",
-                                "rawText": "funcion",
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 23,
-                                "end": 31
-                            },
-                            "flags": 0,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 17,
+                        "end": 23
+                    },
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "funcion",
+                            "rawText": "funcion",
+                            "flags": 1,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 31
                         },
-                        {
-                            "kind": 2097362,
-                            "expression": {
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 23,
+                        "end": 31
+                    },
+                    {
+                        "kind": 2097362,
+                        "expression": {
+                            "kind": 65774,
+                            "operator": "!",
+                            "operand": {
                                 "kind": 65774,
                                 "operator": "!",
                                 "operand": {
-                                    "kind": 65774,
-                                    "operator": "!",
-                                    "operand": {
-                                        "kind": 131322,
-                                        "text": "",
-                                        "flags": 6,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 40,
-                                        "end": 40
-                                    },
-                                    "flags": 2,
+                                    "kind": 131322,
+                                    "text": "",
+                                    "flags": 3,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 39,
+                                    "start": 40,
                                     "end": 40
                                 },
-                                "flags": 2,
+                                "flags": 1,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 38,
+                                "start": 39,
                                 "end": 40
                             },
-                            "caseBlock": {
-                                "kind": 2093,
-                                "clauses": [],
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 40,
-                                "end": 40
-                            },
-                            "flags": 2,
+                            "flags": 1,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 31,
+                            "start": 38,
                             "end": 40
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 40
-                },
-                "flags": 2,
+                        },
+                        "caseBlock": {
+                            "kind": 2093,
+                            "clauses": [],
+                            "flags": 1,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 40,
+                            "end": 40
+                        },
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 31,
+                        "end": 40
+                    }
+                ],
+                "multiline": false,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 15,
+                "start": 17,
                 "end": 40
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 40
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 40
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -198,15 +189,17 @@ do {} while (x) { async funcion switch!!
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 40
 }
 ```
 
+  
 ### Printed
 
 
@@ -214,6 +207,7 @@ do {} while (x) { async funcion switch!!
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ return try { !xxx
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,52 +20,44 @@ return try { !xxx
     "kind": 196,
     "source": "return try { !xxx",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 6
             },
-            {
-                "kind": 2097375,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65774,
-                                    "operator": "!",
-                                    "operand": {
-                                        "kind": 196712,
-                                        "text": "xxx",
-                                        "rawText": "xxx",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 17
-                                    },
+                    "kind": 2084,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65774,
+                                "operator": "!",
+                                "operand": {
+                                    "kind": 196712,
+                                    "text": "xxx",
+                                    "rawText": "xxx",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 12,
+                                    "start": 14,
                                     "end": 17
                                 },
                                 "flags": 0,
@@ -74,54 +65,54 @@ return try { !xxx
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 17
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 12,
-                        "end": 17
-                    },
-                    "flags": 2,
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 12,
+                            "end": 17
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 10,
+                    "start": 12,
                     "end": 17
                 },
-                "catchClause": null,
-                "finallyBlock": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 17
-                    },
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 10,
+                "end": 17
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 6,
+                "start": 17,
                 "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -139,15 +130,17 @@ return try { !xxx
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 17
 }
 ```
 
+  
 ### Printed
 
 
@@ -155,6 +148,7 @@ return try { !xxx
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

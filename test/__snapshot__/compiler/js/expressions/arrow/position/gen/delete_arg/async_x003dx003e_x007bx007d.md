@@ -12,7 +12,6 @@ delete async => {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,28 +20,20 @@ delete async => {}
     "kind": 196,
     "source": "delete async => {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65774,
-                    "operator": "delete",
-                    "operand": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 12
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "delete",
+                "operand": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 6,
                     "end": 12
                 },
                 "flags": 0,
@@ -51,32 +42,32 @@ delete async => {}
                 "start": 0,
                 "end": 12
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 17
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 15,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+                "start": 17,
+                "end": 17
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -87,15 +78,17 @@ delete async => {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -103,6 +96,7 @@ delete async => {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

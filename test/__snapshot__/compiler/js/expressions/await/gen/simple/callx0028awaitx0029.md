@@ -12,7 +12,6 @@ call(await)
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,76 +20,70 @@ call(await)
     "kind": 196,
     "source": "call(await)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "call",
-                        "rawText": "call",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 4
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [
-                            {
-                                "kind": 196712,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 5,
-                                "end": 10
-                            }
-                        ],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 10,
-                        "end": 11
-                    },
+                    "kind": 196712,
+                    "text": "call",
+                    "rawText": "call",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 4,
+                    "start": 0,
+                    "end": 4
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [
+                        {
+                            "kind": 196712,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 5,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
+                    "transformFlags": 0,
+                    "flags": 0,
+                    "intersects": false,
+                    "start": 10,
                     "end": 11
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 4,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 11
 }
 ```
 
+  
 ### Printed
 
 
@@ -98,6 +91,7 @@ call(await)
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

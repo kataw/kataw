@@ -15,36 +15,29 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "#!\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [],
-        "transformFlags": 0,
-        "flags": 81920,
-        "intersects": false,
-        "start": 2,
-        "end": 2
-    },
-    "jsx": false,
+    "statements": [],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 3
 }
 ```
 
+  
 ### Printed
 
 
@@ -52,6 +45,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

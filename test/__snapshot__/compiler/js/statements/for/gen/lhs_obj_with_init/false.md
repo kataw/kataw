@@ -12,7 +12,6 @@ for ({x} = 0 in {});
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,112 +20,106 @@ for ({x} = 0 in {});
     "kind": 196,
     "source": "for ({x} = 0 in {});",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 67224232,
-                        "propertyList": {
-                            "kind": 65722,
-                            "properties": [
-                                {
-                                    "kind": 196712,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 6,
-                                    "end": 7
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 7
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 8
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 4261540,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 10,
-                        "end": 12
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 12
-                },
-                "expression": {
-                    "kind": 67224232,
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 65550,
+                "left": {
+                    "kind": 98984,
                     "propertyList": {
                         "kind": 65722,
-                        "properties": [],
+                        "properties": [
+                            {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 6,
+                                "end": 7
+                            }
+                        ],
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 17,
-                        "end": 17
+                        "start": 6,
+                        "end": 7
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 15,
-                    "end": 18
+                    "start": 5,
+                    "end": 8
                 },
-                "statement": {
-                    "kind": 6291526,
+                "operator": "=",
+                "right": {
+                    "kind": 4261540,
+                    "text": 0,
+                    "rawText": "0",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 19,
-                    "end": 20
+                    "start": 10,
+                    "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 12
+            },
+            "expression": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 17
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 18
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 19,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -134,6 +127,7 @@ for ({x} = 0 in {});
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

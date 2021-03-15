@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,96 +20,90 @@
     "kind": 196,
     "source": "'use strict'; class C extends yield { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "use strict",
-                    "rawText": "use strict",
-                    "flags": 16777216,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 33554432,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "C",
-                    "rawText": "C",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 19,
-                    "end": 21
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 29,
-                        "end": 35
-                    },
-                    "typeArguments": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 19,
+                "end": 21
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 196712,
+                    "text": "yield",
+                    "rawText": "yield",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 29,
                     "end": 35
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 37,
-                    "end": 39
-                },
-                "decorators": null,
-                "isAbstract": false,
+                "typeArguments": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 29,
+                "end": 35
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 13,
+                "start": 37,
                 "end": 39
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 39
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 13,
+            "end": 39
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 39
 }
 ```
 
+  
 ### Printed
 
 
@@ -118,6 +111,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

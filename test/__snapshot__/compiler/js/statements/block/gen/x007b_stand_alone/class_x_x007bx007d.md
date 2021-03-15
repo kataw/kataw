@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,68 +20,60 @@
     "kind": 196,
     "source": "{ class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 48,
-                            "name": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 7,
-                                "end": 9
-                            },
-                            "typeParameters": null,
-                            "classHeritage": null,
-                            "implementClauses": null,
-                            "members": {
-                                "kind": 50,
-                                "elements": [],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "decorators": null,
-                            "isAbstract": false,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 48,
+                        "name": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 7,
+                            "end": 9
+                        },
+                        "typeParameters": null,
+                        "classHeritage": null,
+                        "implementClauses": null,
+                        "members": {
+                            "kind": 50,
+                            "elements": [],
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "start": 1,
+                            "start": 11,
                             "end": 12
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 12
-                },
-                "flags": 2,
+                        },
+                        "decorators": null,
+                        "isAbstract": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 1,
+                        "end": 12
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -93,15 +84,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 12
 }
 ```
 
+  
 ### Printed
 
 
@@ -109,6 +102,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

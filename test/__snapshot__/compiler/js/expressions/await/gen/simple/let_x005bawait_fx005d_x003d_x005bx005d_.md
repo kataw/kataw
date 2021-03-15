@@ -12,7 +12,6 @@ let [await f] = [];
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,124 +20,116 @@ let [await f] = [];
     "kind": 196,
     "source": "let [await f] = [];",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 33554437,
-                                "elementList": {
-                                    "kind": 29,
-                                    "elements": [
-                                        {
-                                            "kind": 134217756,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 5,
-                                                "end": 10
-                                            },
-                                            "right": null,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": false,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 33554437,
+                            "elementList": {
+                                "kind": 29,
+                                "elements": [
+                                    {
+                                        "kind": 16412,
+                                        "ellipsis": false,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "await",
+                                            "rawText": "await",
                                             "flags": 0,
                                             "intersects": false,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 5,
                                             "end": 10
                                         },
-                                        {
-                                            "kind": 134217756,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "f",
-                                                "rawText": "f",
-                                                "flags": 2,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 10,
-                                                "end": 12
-                                            },
-                                            "right": null,
-                                            "flags": 0,
+                                        "right": null,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 1,
+                                        "start": 5,
+                                        "end": 10
+                                    },
+                                    {
+                                        "kind": 16412,
+                                        "ellipsis": false,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 1,
                                             "intersects": false,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 10,
                                             "end": 12
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 5,
-                                    "end": 12
-                                },
+                                        },
+                                        "right": null,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 1,
+                                        "start": 10,
+                                        "end": 12
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 13
+                                "transformFlags": 1,
+                                "start": 5,
+                                "end": 12
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 67207686,
-                                "elementList": {
-                                    "kind": 65605,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 17,
-                                    "end": 17
-                                },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 3,
+                            "end": 13
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 98822,
+                            "elementList": {
+                                "kind": 65605,
+                                "elements": [],
+                                "trailingComma": false,
+                                "multiline": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 15,
-                                "end": 18
+                                "start": 17,
+                                "end": 17
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 3,
+                            "start": 15,
                             "end": 18
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 18
-                },
-                "flags": 16,
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 18
+                    }
+                ],
+                "flags": 8,
                 "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
-                "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+                "transformFlags": 0,
+                "start": 3,
+                "end": 18
+            },
+            "flags": 8,
+            "intersects": false,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -149,15 +140,17 @@ let [await f] = [];
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -165,6 +158,7 @@ let [await f] = [];
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

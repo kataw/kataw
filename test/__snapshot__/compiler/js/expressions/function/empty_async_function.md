@@ -14,85 +14,78 @@ async function f(){}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "async function f(){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 1312785,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 14,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 19,
-                        "end": 19
-                    },
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 18,
-                    "end": 20
-                },
-                "typeParameters": null,
-                "flags": 65536,
+    "statements": [
+        {
+            "kind": 1312785,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 260,
-                "start": 0,
+                "transformFlags": 1025,
+                "start": 14,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 19,
+                    "end": 19
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 260,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -100,6 +93,7 @@ async function f(){}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

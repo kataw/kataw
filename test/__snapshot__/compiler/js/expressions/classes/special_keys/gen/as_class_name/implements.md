@@ -12,7 +12,6 @@ class implements {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,59 +20,53 @@ class implements {}
     "kind": 196,
     "source": "class implements {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": {
-                    "kind": 107,
-                    "clauses": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 16,
-                    "end": 16
-                },
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 18,
-                    "end": 19
-                },
-                "decorators": null,
-                "isAbstract": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": {
+                "kind": 107,
+                "clauses": [],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "start": 16,
+                "end": 16
+            },
+            "members": {
+                "kind": 50,
+                "elements": [],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 18,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -81,6 +74,7 @@ class implements {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

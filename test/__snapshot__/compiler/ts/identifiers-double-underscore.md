@@ -16,7 +16,6 @@ function __Bar() {
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -25,156 +24,150 @@ function __Bar() {
     "kind": 196,
     "source": "var __test = 'ff';\n\nclass __Foo {\n\n}\n\nfunction __Bar() {\n\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "__test",
-                                "rawText": "__test",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 10
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261583,
-                                "text": "ff",
-                                "rawText": "ff",
-                                "flags": 16777216,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 17
-                            },
-                            "flags": 3,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "__test",
+                            "rawText": "__test",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 3,
+                            "end": 10
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261583,
+                            "text": "ff",
+                            "rawText": "ff",
+                            "flags": 33554432,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 12,
                             "end": 17
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 17
-                },
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 18
-            },
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "__Foo",
-                    "rawText": "__Foo",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 25,
-                    "end": 31
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 33,
-                    "end": 36
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 1,
-                "start": 18,
-                "end": 36
-            },
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "__Bar",
-                    "rawText": "__Bar",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 46,
-                    "end": 52
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 53,
-                    "end": 54
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [],
-                        "multiline": true,
-                        "flags": 16384,
+                        },
+                        "flags": 3,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 56,
-                        "end": 56
-                    },
-                    "flags": 0,
+                        "start": 0,
+                        "end": 17
+                    }
+                ],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 3,
+                "end": 17
+            },
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        },
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "__Foo",
+                "rawText": "__Foo",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 25,
+                "end": 31
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 32768,
+                "intersects": false,
+                "transformFlags": 1,
+                "start": 33,
+                "end": 36
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 18,
+            "end": 36
+        },
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "__Bar",
+                "rawText": "__Bar",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 46,
+                "end": 52
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 53,
+                "end": 54
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [],
+                    "multiline": true,
+                    "flags": 32768,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 54,
-                    "end": 59
+                    "start": 56,
+                    "end": 56
                 },
-                "typeParameters": null,
-                "flags": 16384,
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 256,
-                "start": 36,
+                "transformFlags": 0,
+                "start": 54,
                 "end": 59
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 59
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 256,
+            "start": 36,
+            "end": 59
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 59
 }
 ```
 
+  
 ### Printed
 
 
@@ -182,6 +175,7 @@ function __Bar() {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

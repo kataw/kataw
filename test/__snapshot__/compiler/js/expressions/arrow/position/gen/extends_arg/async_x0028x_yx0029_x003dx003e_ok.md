@@ -12,7 +12,6 @@ class A extends async (x, y) => ok {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,175 +20,167 @@ class A extends async (x, y) => ok {}
     "kind": 196,
     "source": "class A extends async (x, y) => ok {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "typeArguments": null,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+                "typeArguments": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 21
+                "end": 0
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 67592,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 25,
-                                    "end": 27
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 21
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "y",
+                                "rawText": "y",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1,
-                                "start": 21,
-                                "end": 28
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 27
                             },
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 23,
-                                    "end": 24
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 21,
+                            "end": 28
+                        },
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1,
-                                "start": 21,
-                                "end": 28
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 27
-                    },
-                    "contents": {
-                        "kind": 196712,
-                        "text": "ok",
-                        "rawText": "ok",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 31,
-                        "end": 34
-                    },
-                    "flags": 536870912,
+                                "transformFlags": 0,
+                                "start": 23,
+                                "end": 24
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 21,
+                            "end": 28
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 21,
+                    "start": 23,
+                    "end": 27
+                },
+                "contents": {
+                    "kind": 196712,
+                    "text": "ok",
+                    "rawText": "ok",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 31,
                     "end": 34
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 34
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 36,
-                    "end": 36
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 21,
+            "end": 34
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 34,
-                "end": 37
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 37
-    },
-    "jsx": false,
+                "start": 36,
+                "end": 36
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 34,
+            "end": 37
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -207,15 +198,17 @@ class A extends async (x, y) => ok {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 37
 }
 ```
 
+  
 ### Printed
 
 
@@ -223,6 +216,7 @@ class A extends async (x, y) => ok {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

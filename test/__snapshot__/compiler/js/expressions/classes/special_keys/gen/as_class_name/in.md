@@ -12,7 +12,6 @@ class in {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,60 +20,52 @@ class in {}
     "kind": 196,
     "source": "class in {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65774,
-                    "operator": "in",
-                    "operand": {
-                        "kind": 67224232,
-                        "propertyList": {
-                            "kind": 65722,
-                            "properties": [],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 10,
-                            "end": 10
-                        },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "in",
+                "operand": {
+                    "kind": 98984,
+                    "propertyList": {
+                        "kind": 65722,
+                        "properties": [],
+                        "trailingComma": false,
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 8,
-                        "end": 11
+                        "start": 10,
+                        "end": 10
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 5,
+                    "start": 8,
                     "end": 11
                 },
                 "flags": 0,
@@ -82,15 +73,15 @@ class in {}
                 "transformFlags": 0,
                 "start": 5,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -101,15 +92,17 @@ class in {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 11
 }
 ```
 
+  
 ### Printed
 
 
@@ -117,6 +110,7 @@ class in {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

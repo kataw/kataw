@@ -14,7 +14,6 @@ function *f(){
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,114 +22,108 @@ function *f(){
     "kind": 196,
     "source": "function *f(){\n  \\u0070ublic = x\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 788576,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 10,
-                    "end": 11
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 13
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65550,
-                                    "left": {
-                                        "kind": 196712,
-                                        "text": "public",
-                                        "rawText": "\n  \\u0070ublic",
-                                        "flags": 4210688,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 28
-                                    },
-                                    "operator": "=",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 30,
-                                        "end": 32
-                                    },
-                                    "flags": 16384,
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 10,
+                "end": 11
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 13
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65550,
+                                "left": {
+                                    "kind": 196712,
+                                    "text": "public",
+                                    "rawText": "\n  \\u0070ublic",
+                                    "flags": 8421376,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "start": 14,
+                                    "end": 28
+                                },
+                                "operator": "=",
+                                "right": {
+                                    "kind": 196712,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 30,
                                     "end": 32
                                 },
-                                "flags": 0,
+                                "flags": 32768,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 14,
                                 "end": 32
-                            }
-                        ],
-                        "multiline": true,
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 32
-                    },
-                    "flags": 0,
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 14,
+                            "end": 32
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 32768,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 34
+                    "start": 14,
+                    "end": 32
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 384,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 13,
                 "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 34
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -138,6 +131,7 @@ function *f(){
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

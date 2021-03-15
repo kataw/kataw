@@ -12,7 +12,6 @@ return /false//a return
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,62 +20,54 @@ return /false//a return
     "kind": 196,
     "source": "return /false//a return",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 4260544,
-                        "text": "/false/",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 14
-                    },
-                    "operator": "/",
-                    "right": {
-                        "kind": 196712,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 16
-                    },
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 4260544,
+                    "text": "/false/",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 6,
+                    "end": 14
+                },
+                "operator": "/",
+                "right": {
+                    "kind": 196712,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 15,
                     "end": 16
                 },
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 16
-            },
-            {
-                "kind": 2097346,
-                "expression": null,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 16,
-                "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+                "start": 6,
+                "end": 16
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 2097346,
+            "expression": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 16,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -87,15 +78,17 @@ return /false//a return
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 23
 }
 ```
 
+  
 ### Printed
 
 
@@ -103,6 +96,7 @@ return /false//a return
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

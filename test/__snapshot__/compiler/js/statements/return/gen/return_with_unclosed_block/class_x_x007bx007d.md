@@ -12,7 +12,6 @@ return {} return(x) { class x {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,121 +20,113 @@ return {} return(x) { class x {}
     "kind": 196,
     "source": "return {} return(x) { class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 9
-                },
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 9
-            },
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 18
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 19
-                },
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 9,
-                "end": 19
-            },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 48,
-                            "name": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 27,
-                                "end": 29
-                            },
-                            "typeParameters": null,
-                            "classHeritage": null,
-                            "implementClauses": null,
-                            "members": {
-                                "kind": 50,
-                                "elements": [],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 31,
-                                "end": 32
-                            },
-                            "decorators": null,
-                            "isAbstract": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 21,
-                            "end": 32
-                        }
-                    ],
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
                     "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 21,
-                    "end": 32
+                    "start": 8,
+                    "end": 8
                 },
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 19,
+                "start": 6,
+                "end": 9
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 66224,
+                "expression": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 18
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 16,
+                "end": 19
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 9,
+            "end": 19
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 48,
+                        "name": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 27,
+                            "end": 29
+                        },
+                        "typeParameters": null,
+                        "classHeritage": null,
+                        "implementClauses": null,
+                        "members": {
+                            "kind": 50,
+                            "elements": [],
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 31,
+                            "end": 32
+                        },
+                        "decorators": null,
+                        "isAbstract": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 21,
+                        "end": 32
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 21,
                 "end": 32
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 32
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 19,
+            "end": 32
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -160,15 +151,17 @@ return {} return(x) { class x {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 32
 }
 ```
 
+  
 ### Printed
 
 
@@ -176,6 +169,7 @@ return {} return(x) { class x {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

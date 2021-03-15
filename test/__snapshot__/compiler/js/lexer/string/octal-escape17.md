@@ -14,7 +14,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,46 +22,40 @@
     "kind": 196,
     "source": "\"\\012\"",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "\u000012",
-                    "rawText": "\u000012",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 6
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "\u000012",
+                "rawText": "\u000012",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 6
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 6
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 6
 }
 ```
 
+  
 ### Printed
 
 
@@ -70,6 +63,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

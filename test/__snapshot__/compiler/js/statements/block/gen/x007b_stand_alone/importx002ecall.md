@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,75 +20,67 @@
     "kind": 196,
     "source": "{ import.call",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 67175096,
+                            "member": {
+                                "kind": 4194416,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 32,
+                                "start": 1,
+                                "end": 8
+                            },
                             "expression": {
-                                "kind": 66232,
-                                "member": {
-                                    "kind": 4194416,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 32,
-                                    "start": 1,
-                                    "end": 8
-                                },
-                                "expression": {
-                                    "kind": 196711,
-                                    "text": "call",
-                                    "rawText": "call",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 13
-                                },
+                                "kind": 196711,
+                                "text": "call",
+                                "rawText": "call",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 8,
-                                "end": 13,
-                                "period": {
-                                    "kind": 254,
-                                    "pos": 8,
-                                    "end": 9
-                                }
+                                "start": 9,
+                                "end": 13
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 1,
-                            "end": 13
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 13
-                },
-                "flags": 2,
+                            "start": 8,
+                            "end": 13,
+                            "period": {
+                                "kind": 255,
+                                "pos": 8,
+                                "end": 9
+                            }
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 13
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -100,15 +91,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -116,6 +109,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

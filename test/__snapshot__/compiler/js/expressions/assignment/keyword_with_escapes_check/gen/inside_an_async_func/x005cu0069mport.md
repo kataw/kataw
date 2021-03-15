@@ -20,94 +20,86 @@ async () => {  \u0069mport = x  }
     "kind": 196,
     "source": "async () => {  \\u0069mport = x  }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65552,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [
-                                {
-                                    "kind": 110,
-                                    "fromClause": null,
-                                    "moduleSpecifier": null,
-                                    "importClause": null,
-                                    "flags": 4194304,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 13,
-                                    "end": 26
-                                }
-                            ],
-                            "multiline": false,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 26
-                        },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 26
-                    },
-                    "flags": 536870914,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 81936,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 8,
+                    "end": 8
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [
+                            {
+                                "kind": 110,
+                                "fromClause": null,
+                                "moduleSpecifier": null,
+                                "importClause": null,
+                                "flags": 8388608,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 13,
+                                "end": 26
+                            }
+                        ],
+                        "multiline": false,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 26
+                    },
+                    "flags": 1,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 11,
                     "end": 26
                 },
-                "flags": 0,
+                "flags": 1073741825,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 30
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 26
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 30
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 28,
+            "end": 30
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -125,9 +117,10 @@ async () => {  \u0069mport = x  }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 33

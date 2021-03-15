@@ -12,7 +12,6 @@ foo(x,y,);
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,86 +20,80 @@ foo(x,y,);
     "kind": 196,
     "source": "foo(x,y,);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 3
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [
-                            {
-                                "kind": 196712,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 4,
-                                "end": 5
-                            },
-                            {
-                                "kind": 196712,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 6,
-                                "end": 7
-                            }
-                        ],
-                        "trailingComma": true,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 5,
-                        "end": 9
-                    },
+                    "kind": 196712,
+                    "text": "foo",
+                    "rawText": "foo",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 3,
+                    "start": 0,
+                    "end": 3
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [
+                        {
+                            "kind": 196712,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 4,
+                            "end": 5
+                        },
+                        {
+                            "kind": 196712,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 6,
+                            "end": 7
+                        }
+                    ],
+                    "trailingComma": true,
+                    "transformFlags": 0,
+                    "flags": 0,
+                    "intersects": false,
+                    "start": 5,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 10
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 10
-    },
-    "jsx": false,
+                "start": 3,
+                "end": 9
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 10
 }
 ```
 
+  
 ### Printed
 
 
@@ -108,6 +101,7 @@ foo(x,y,);
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

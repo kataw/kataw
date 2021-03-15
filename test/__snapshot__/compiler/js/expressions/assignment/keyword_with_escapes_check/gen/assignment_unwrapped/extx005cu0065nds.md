@@ -12,7 +12,6 @@ ext\u0065nds = x;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,35 +20,27 @@ ext\u0065nds = x;
     "kind": 196,
     "source": "ext\\u0065nds = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 16
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 14,
-                "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+                "end": 16
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 14,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -67,15 +58,17 @@ ext\u0065nds = x;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 17
 }
 ```
 
+  
 ### Printed
 
 
@@ -83,6 +76,7 @@ ext\u0065nds = x;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

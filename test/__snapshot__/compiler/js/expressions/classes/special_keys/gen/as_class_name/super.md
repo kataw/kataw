@@ -12,7 +12,6 @@ class super {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,92 +20,84 @@ class super {}
     "kind": 196,
     "source": "class super {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66232,
-                    "member": {
-                        "kind": 4260561,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 11
-                    },
-                    "expression": {
-                        "kind": 196711,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "flags": 5,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 11
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 11
-            },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 67175096,
+                "member": {
+                    "kind": 4260561,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
+                    "start": 5,
+                    "end": 11
                 },
+                "expression": {
+                    "kind": 196711,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 1,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 11,
+                    "end": 11
+                },
+                "flags": 5,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1,
+                "end": 11
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 11
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 11,
-                "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -124,15 +115,17 @@ class super {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -140,6 +133,7 @@ class super {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

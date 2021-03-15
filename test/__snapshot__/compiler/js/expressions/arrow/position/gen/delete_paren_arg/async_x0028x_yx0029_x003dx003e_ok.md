@@ -12,7 +12,6 @@ delete (async (x, y) => ok)
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,108 +20,100 @@ delete (async (x, y) => ok)
     "kind": 196,
     "source": "delete (async (x, y) => ok)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65774,
-                    "operator": "delete",
-                    "operand": {
-                        "kind": 66224,
-                        "expression": {
-                            "kind": 65552,
-                            "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 65545,
-                                "elements": [
-                                    {
-                                        "kind": 89,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "delete",
+                "operand": {
+                    "kind": 66224,
+                    "expression": {
+                        "kind": 81936,
+                        "typeParameters": null,
+                        "arrowParameters": {
+                            "kind": 81929,
+                            "elements": [
+                                {
+                                    "kind": 16473,
+                                    "ellipsis": false,
+                                    "binding": {
+                                        "kind": 4325406,
+                                        "text": "y",
+                                        "rawText": "y",
                                         "flags": 0,
                                         "intersects": false,
-                                        "transformFlags": 1,
+                                        "transformFlags": 0,
                                         "start": 17,
-                                        "end": 20
+                                        "end": 19
                                     },
-                                    {
-                                        "kind": 89,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 15,
-                                            "end": 16
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
+                                    "isOptional": false,
+                                    "type": null,
+                                    "initializer": null,
+                                    "decorators": null,
+                                    "accessModifier": null,
+                                    "isReadOnly": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 1,
+                                    "start": 17,
+                                    "end": 20
+                                },
+                                {
+                                    "kind": 16473,
+                                    "ellipsis": false,
+                                    "binding": {
+                                        "kind": 4325406,
+                                        "text": "x",
+                                        "rawText": "x",
                                         "flags": 0,
                                         "intersects": false,
-                                        "transformFlags": 1,
-                                        "start": 17,
-                                        "end": 20
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 20
-                            },
-                            "contents": {
-                                "kind": 196712,
-                                "text": "ok",
-                                "rawText": "ok",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 23,
-                                "end": 26
-                            },
-                            "flags": 536870912,
+                                        "transformFlags": 0,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    "isOptional": false,
+                                    "type": null,
+                                    "initializer": null,
+                                    "decorators": null,
+                                    "accessModifier": null,
+                                    "isReadOnly": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 1,
+                                    "start": 17,
+                                    "end": 20
+                                }
+                            ],
+                            "type": null,
+                            "accessModifier": null,
+                            "trailingComma": false,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 6,
+                            "start": 16,
+                            "end": 20
+                        },
+                        "contents": {
+                            "kind": 196712,
+                            "text": "ok",
+                            "rawText": "ok",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 23,
                             "end": 26
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 6,
-                        "end": 27
+                        "end": 26
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 6,
                     "end": 27
                 },
                 "flags": 0,
@@ -130,26 +121,28 @@ delete (async (x, y) => ok)
                 "transformFlags": 0,
                 "start": 0,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -157,6 +150,7 @@ delete (async (x, y) => ok)
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

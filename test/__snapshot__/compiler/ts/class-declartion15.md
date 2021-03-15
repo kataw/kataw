@@ -11,7 +11,6 @@ class C {
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -20,172 +19,166 @@ class C {
     "kind": 196,
     "source": "class C {\n   foo();\n   constructor() { }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "C",
-                    "rawText": "C",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 16
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 17,
-                                    "end": 18
-                                },
-                                "isSetter": false,
-                                "isGetter": false,
-                                "contents": null,
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": null,
-                                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 49,
+                        "isStatic": false,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "method": {
+                            "kind": 16844946,
+                            "name": {
+                                "kind": 196711,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 32768,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 16,
-                                "end": 19
+                                "start": 17,
+                                "end": 18
                             },
-                            "flags": 16384,
+                            "isSetter": false,
+                            "isGetter": false,
+                            "contents": null,
+                            "decorators": null,
+                            "type": null,
+                            "accessModifier": null,
+                            "typeParameters": null,
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 1,
-                            "start": 9,
+                            "transformFlags": 0,
+                            "start": 16,
                             "end": 19
                         },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "constructor",
-                                    "rawText": "constructor",
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 19,
-                                    "end": 34
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
+                        "flags": 32768,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 9,
+                        "end": 19
+                    },
+                    {
+                        "kind": 49,
+                        "isStatic": false,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "method": {
+                            "kind": 16844946,
+                            "name": {
+                                "kind": 196711,
+                                "text": "constructor",
+                                "rawText": "constructor",
+                                "flags": 32768,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 19,
+                                "end": 34
+                            },
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 35,
+                                "end": 36
+                            },
+                            "isSetter": false,
+                            "isGetter": false,
+                            "contents": {
+                                "kind": 91,
+                                "functionStatementList": {
+                                    "kind": 94,
+                                    "statements": [],
+                                    "multiline": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 35,
-                                    "end": 36
+                                    "start": 38,
+                                    "end": 38
                                 },
-                                "isSetter": false,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 38,
-                                        "end": 38
-                                    },
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 36,
-                                    "end": 40
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": null,
-                                "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 32768,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 36,
                                 "end": 40
                             },
-                            "flags": 16384,
+                            "decorators": null,
+                            "type": null,
+                            "accessModifier": null,
+                            "typeParameters": null,
+                            "flags": 524288,
                             "intersects": false,
-                            "transformFlags": 1,
-                            "start": 19,
+                            "transformFlags": 0,
+                            "start": 34,
                             "end": 40
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 42
-                },
-                "decorators": null,
-                "isAbstract": false,
+                        },
+                        "flags": 32768,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 19,
+                        "end": 40
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 42
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 42
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 42
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 42
 }
 ```
 
+  
 ### Printed
 
 
@@ -193,6 +186,7 @@ class C {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

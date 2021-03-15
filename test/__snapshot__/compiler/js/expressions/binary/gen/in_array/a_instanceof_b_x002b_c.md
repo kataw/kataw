@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,104 +20,98 @@
     "kind": 196,
     "source": "[ a instanceof b + c ]",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 65563,
+                            "left": {
+                                "kind": 196712,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 3
+                            },
+                            "operator": "instanceof",
+                            "right": {
                                 "kind": 65563,
                                 "left": {
                                     "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
+                                    "text": "b",
+                                    "rawText": "b",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 1,
-                                    "end": 3
+                                    "start": 14,
+                                    "end": 16
                                 },
-                                "operator": "instanceof",
+                                "operator": "+",
                                 "right": {
-                                    "kind": 65563,
-                                    "left": {
-                                        "kind": 196712,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 16
-                                    },
-                                    "operator": "+",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 18,
-                                        "end": 20
-                                    },
+                                    "kind": 196712,
+                                    "text": "c",
+                                    "rawText": "c",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 16,
+                                    "start": 18,
                                     "end": 20
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 16,
                                 "end": 20
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 20
-                    },
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 20
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 22
+                    "start": 1,
+                    "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -126,6 +119,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

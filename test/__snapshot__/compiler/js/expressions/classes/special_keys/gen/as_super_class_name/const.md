@@ -12,7 +12,6 @@ class x extends const {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,115 +20,107 @@ class x extends const {}
     "kind": 196,
     "source": "class x extends const {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "typeArguments": null,
-                    "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+                "typeArguments": null,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 15
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 15
+                "end": 0
             },
-            {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 33554598,
-                                "propertyList": {
-                                    "kind": 33,
-                                    "properties": [],
-                                    "multiline": false,
-                                    "trailingComma": false,
-                                    "transformFlags": 1025,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "start": 23,
-                                    "end": 23
-                                },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 142,
+            "isConst": true,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 33554598,
+                            "propertyList": {
+                                "kind": 33,
+                                "properties": [],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "transformFlags": 1025,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 21,
-                                "end": 24
+                                "start": 23,
+                                "end": 23
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
+                            "transformFlags": 1025,
                             "start": 21,
                             "end": 24
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 24
-                },
-                "flags": 18,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 24
+                    }
+                ],
+                "flags": 8,
                 "intersects": false,
-                "transformFlags": 769,
-                "start": 15,
+                "transformFlags": 0,
+                "start": 21,
                 "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "flags": 9,
+            "intersects": false,
+            "transformFlags": 769,
+            "start": 15,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -140,15 +131,17 @@ class x extends const {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 24
 }
 ```
 
+  
 ### Printed
 
 
@@ -156,6 +149,7 @@ class x extends const {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

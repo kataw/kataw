@@ -12,7 +12,6 @@ async function f() { await 3; }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,103 +20,97 @@ async function f() { await 3; }
     "kind": 196,
     "source": "async function f() { await 3; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 1312785,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 14,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 1312785,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 14,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65559,
                                 "expression": {
-                                    "kind": 65559,
-                                    "expression": {
-                                        "kind": 4261540,
-                                        "text": 3,
-                                        "rawText": "3",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 26,
-                                        "end": 28
-                                    },
+                                    "kind": 4261540,
+                                    "text": 3,
+                                    "rawText": "3",
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 32780,
-                                    "start": 20,
+                                    "transformFlags": 0,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 32780,
                                 "start": 20,
-                                "end": 29
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 29
-                    },
+                                "end": 28
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 20,
+                            "end": 29
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 31
+                    "start": 20,
+                    "end": 29
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 260,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 31
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 31
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 260,
+            "start": 0,
+            "end": 31
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 31
 }
 ```
 
+  
 ### Printed
 
 
@@ -125,6 +118,7 @@ async function f() { await 3; }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

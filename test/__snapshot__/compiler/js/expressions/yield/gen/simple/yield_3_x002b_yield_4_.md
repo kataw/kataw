@@ -12,7 +12,6 @@ yield 3 + yield 4;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,56 +20,48 @@ yield 3 + yield 4;
     "kind": 196,
     "source": "yield 3 + yield 4;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 5
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "yield",
+                "rawText": "yield",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 4261540,
-                        "text": 3,
-                        "rawText": "3",
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 7
-                    },
-                    "operator": "+",
-                    "right": {
-                        "kind": 196712,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 15
-                    },
-                    "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 4261540,
+                    "text": 3,
+                    "rawText": "3",
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 5,
+                    "end": 7
+                },
+                "operator": "+",
+                "right": {
+                    "kind": 196712,
+                    "text": "yield",
+                    "rawText": "yield",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 9,
                     "end": 15
                 },
                 "flags": 0,
@@ -79,32 +70,32 @@ yield 3 + yield 4;
                 "start": 5,
                 "end": 15
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261540,
-                    "text": 4,
-                    "rawText": "4",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 17
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 15
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261540,
+                "text": 4,
+                "rawText": "4",
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 15,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+                "end": 17
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -122,15 +113,17 @@ yield 3 + yield 4;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -138,6 +131,7 @@ yield 3 + yield 4;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

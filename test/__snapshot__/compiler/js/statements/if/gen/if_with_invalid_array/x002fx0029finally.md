@@ -12,7 +12,6 @@ if [else] /)finally
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,96 +20,88 @@ if [else] /)finally
     "kind": 196,
     "source": "if [else] /)finally",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 4
-                },
-                "consequent": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
-                "alternate": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "flags": 0,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 4
+            },
+            "consequent": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 4,
+                    "end": 4
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 4
+            },
+            "alternate": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
-                "isWebCompat": true,
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 8,
                 "end": 8
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/)finally",
-                    "flags": 524288,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 19
-                },
-                "flags": 0,
+            "isWebCompat": true,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/)finally",
+                "flags": 1048576,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 9,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -142,15 +133,17 @@ if [else] /)finally
             "length": 1
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -158,6 +151,7 @@ if [else] /)finally
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

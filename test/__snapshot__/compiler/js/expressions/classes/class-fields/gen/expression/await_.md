@@ -12,7 +12,6 @@ class C extends Base { await; }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,108 +20,102 @@ class C extends Base { await; }
     "kind": 196,
     "source": "class C extends Base { await; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "C",
-                    "rawText": "C",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "Base",
-                        "rawText": "Base",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 20
-                    },
-                    "typeArguments": null,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 196712,
+                    "text": "Base",
+                    "rawText": "Base",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 84,
-                            "key": {
-                                "kind": 196711,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 22,
-                                "end": 28
-                            },
-                            "isInKeyword": false,
-                            "expression": null,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isStatic": false,
+                "typeArguments": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 20
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 16468,
+                        "key": {
+                            "kind": 196711,
+                            "text": "await",
+                            "rawText": "await",
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 524352,
+                            "transformFlags": 0,
                             "start": 22,
-                            "end": 29
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 22,
-                    "end": 31
-                },
-                "decorators": null,
-                "isAbstract": false,
+                            "end": 28
+                        },
+                        "isInKeyword": false,
+                        "expression": null,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isStatic": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 524352,
+                        "start": 22,
+                        "end": 29
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 22,
                 "end": 31
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 31
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 31
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 31
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ class C extends Base { await; }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

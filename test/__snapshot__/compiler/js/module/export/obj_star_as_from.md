@@ -14,96 +14,87 @@ export {bar}, * as foo from 'bar';
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export {bar}, * as foo from 'bar';",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [
-                            {
-                                "kind": 79,
-                                "moduleExportName": null,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "bar",
-                                    "rawText": "bar",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 11
-                                },
-                                "binding": null,
-                                "flags": 65536,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [
+                        {
+                            "kind": 79,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 196711,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
-                            }
-                        ],
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 11
-                    },
-                    "flags": 65536,
+                            },
+                            "binding": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 11
+                        }
+                    ],
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
-                    "end": 12
+                    "start": 8,
+                    "end": 11
                 },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 13
-                    },
-                    "operator": "*",
-                    "right": {
-                        "kind": 196712,
-                        "text": "as",
-                        "rawText": "as",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 18
-                    },
-                    "flags": 65536,
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 13,
+                    "end": 13
+                },
+                "operator": "*",
+                "right": {
+                    "kind": 196712,
+                    "text": "as",
+                    "rawText": "as",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 15,
                     "end": 18
                 },
                 "flags": 0,
@@ -112,70 +103,77 @@ export {bar}, * as foo from 'bar';
                 "start": 13,
                 "end": 18
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 18,
-                    "end": 22
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "from",
-                    "rawText": "from",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 22,
-                    "end": 27
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 18,
+            "end": 22
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "from",
+                "rawText": "from",
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 16842754,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 27,
-                    "end": 33
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 22,
+            "end": 27
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "bar",
+                "rawText": "bar",
+                "flags": 33554433,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 27,
-                "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": true,
+                "end": 33
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 27,
+            "end": 34
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        },
         {
             "kind": 2,
             "source": 2,
@@ -212,15 +210,17 @@ export {bar}, * as foo from 'bar';
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -228,6 +228,7 @@ export {bar}, * as foo from 'bar';
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

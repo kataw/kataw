@@ -12,7 +12,6 @@ class x extends export {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,95 +20,87 @@ class x extends export {}
     "kind": 196,
     "source": "class x extends export {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "typeArguments": null,
-                    "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 1,
-                "start": 0,
-                "end": 15
-            },
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [],
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 24
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 22,
-                    "end": 25
-                },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 2,
+                "typeArguments": null,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 15,
+                "end": 15
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 1,
+                "start": 0,
+                "end": 0
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [],
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 24,
+                    "end": 24
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 22,
                 "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -120,15 +111,17 @@ class x extends export {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -136,6 +129,7 @@ class x extends export {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -15,144 +15,125 @@ class Test {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "@decorator<string>()\nclass Test {}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": null,
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "Test",
+                "rawText": "Test",
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 1
+                "transformFlags": 1025,
+                "start": 26,
+                "end": 31
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "decorator",
-                        "rawText": "decorator",
-                        "flags": 65538,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 10
-                    },
-                    "typeArguments": {
-                        "kind": 8419,
-                        "typeArgumentsList": [
-                            {
-                                "kind": 4202702,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1,
+                "start": 33,
+                "end": 34
+            },
+            "decorators": {
+                "kind": 64,
+                "decoratorList": [
+                    {
+                        "kind": 63,
+                        "expression": {
+                            "kind": 1073807915,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "decorator",
+                                "rawText": "decorator",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 10
+                            },
+                            "typeArguments": {
+                                "kind": 8419,
+                                "typeArgumentsList": [
+                                    {
+                                        "kind": 4202702,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "start": 11,
+                                        "end": 17
+                                    }
+                                ],
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "start": 11,
-                                "end": 17
-                            }
-                        ],
-                        "flags": 65536,
+                                "end": 18
+                            },
+                            "argumentList": {
+                                "kind": 3,
+                                "elements": [],
+                                "trailingComma": false,
+                                "transformFlags": 0,
+                                "flags": 0,
+                                "intersects": false,
+                                "start": 19,
+                                "end": 19
+                            },
+                            "flags": 32768,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 10,
+                            "end": 20
+                        },
+                        "flags": 32768,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "start": 11,
-                        "end": 18
-                    },
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 65536,
-                        "intersects": false,
-                        "start": 19,
-                        "end": 19
-                    },
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 10,
-                    "end": 20
-                },
-                "flags": 0,
+                        "start": 1,
+                        "end": 20
+                    }
+                ],
+                "flags": 32768,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 2097152,
                 "start": 1,
                 "end": 20
             },
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "Test",
-                    "rawText": "Test",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 26,
-                    "end": 31
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 33,
-                    "end": 34
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 81920,
-                "intersects": false,
-                "transformFlags": 1,
-                "start": 20,
-                "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": true,
-    "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 1,
-            "length": 0
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 34
         }
     ],
-    "incremental": false,
-    "flags": 0,
+    "isModule": true,
+    "printable": true,
+    "diagnostics": [],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -160,6 +141,7 @@ class Test {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

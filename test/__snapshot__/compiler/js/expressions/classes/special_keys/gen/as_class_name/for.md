@@ -12,7 +12,6 @@ class for {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,103 +20,95 @@ class for {}
     "kind": 196,
     "source": "class for {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2099288,
-                "initializer": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 11
-                    },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2099288,
+            "initializer": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 9,
-                    "end": 12
+                    "start": 11,
+                    "end": 11
                 },
-                "condition": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 12
-                },
-                "incrementor": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 12
-                },
-                "isVariableDeclarationList": false,
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 12,
-                        "end": 12
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 9,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "condition": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 12
+            },
+            "incrementor": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 12
+            },
+            "isVariableDeclarationList": false,
+            "statement": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 12,
+                    "end": 12
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 12
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -142,15 +133,17 @@ class for {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 12
 }
 ```
 
+  
 ### Printed
 
 
@@ -158,6 +151,7 @@ class for {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

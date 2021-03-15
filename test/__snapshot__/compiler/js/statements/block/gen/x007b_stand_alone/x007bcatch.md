@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,21 +20,40 @@
     "kind": 196,
     "source": "{ {catch",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2099237,
-                            "block": {
-                                "kind": 2084,
-                                "statements": [
-                                    {
-                                        "kind": 2097375,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2099237,
+                        "block": {
+                            "kind": 2084,
+                            "statements": [
+                                {
+                                    "kind": 2097375,
+                                    "block": {
+                                        "kind": 2099237,
+                                        "block": {
+                                            "kind": 2084,
+                                            "statements": [],
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 3,
+                                            "end": 3
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 3,
+                                        "end": 3
+                                    },
+                                    "catchClause": {
+                                        "kind": 2095,
+                                        "catchParameter": null,
                                         "block": {
                                             "kind": 2099237,
                                             "block": {
@@ -45,85 +63,58 @@
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 3,
-                                                "end": 3
-                                            },
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 3,
-                                            "end": 3
-                                        },
-                                        "catchClause": {
-                                            "kind": 2095,
-                                            "catchParameter": null,
-                                            "block": {
-                                                "kind": 2099237,
-                                                "block": {
-                                                    "kind": 2084,
-                                                    "statements": [],
-                                                    "multiline": false,
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 8,
-                                                    "end": 8
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 8
                                             },
                                             "flags": 0,
                                             "intersects": false,
-                                            "transformFlags": 16,
-                                            "start": 3,
+                                            "transformFlags": 0,
+                                            "start": 8,
                                             "end": 8
                                         },
-                                        "finallyBlock": null,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 16,
                                         "start": 3,
                                         "end": 8
-                                    }
-                                ],
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 3,
-                                "end": 8
-                            },
+                                    },
+                                    "finallyBlock": null,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 16,
+                                    "start": 3,
+                                    "end": 8
+                                }
+                            ],
+                            "multiline": false,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 1,
+                            "start": 3,
                             "end": 8
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 8
-                },
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 8
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 8
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 8
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -134,15 +125,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 8
 }
 ```
 
+  
 ### Printed
 
 
@@ -150,6 +143,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

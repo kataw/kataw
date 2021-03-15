@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,111 +20,103 @@
     "kind": 196,
     "source": "'use strict'; var foob\\\\v1234r = 0;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "use strict",
-                    "rawText": "use strict",
-                    "flags": 16777216,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 33554432,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "foob",
-                                "rawText": "foob",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 17,
-                                "end": 22
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 17,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "foob",
+                            "rawText": "foob",
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "transformFlags": 1025,
+                            "start": 17,
                             "end": 22
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 22
-                },
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 17,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 22
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 13,
+                "start": 17,
                 "end": 22
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "v1234r",
-                        "rawText": "v1234r",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 30
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 4261540,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 32,
-                        "end": 34
-                    },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 22
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "v1234r",
+                    "rawText": "v1234r",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 24,
+                    "end": 30
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 4261540,
+                    "text": 0,
+                    "rawText": "0",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 34
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 24,
-                "end": 35
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 35
-    },
-    "jsx": false,
+                "end": 34
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 24,
+            "end": 35
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -150,15 +141,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 35
 }
 ```
 
+  
 ### Printed
 
 
@@ -166,6 +159,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -14,96 +14,97 @@ export {foo as bar};
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export {foo as bar};",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [
-                            {
-                                "kind": 79,
-                                "moduleExportName": null,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 11
-                                },
-                                "binding": {
-                                    "kind": 196711,
-                                    "text": "bar",
-                                    "rawText": "bar",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 14,
-                                    "end": 18
-                                },
-                                "flags": 65536,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [
+                        {
+                            "kind": 79,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 196711,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 8,
+                                "end": 11
+                            },
+                            "binding": {
+                                "kind": 196711,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 14,
                                 "end": 18
-                            }
-                        ],
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 18
-                    },
-                    "flags": 65536,
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 18
+                        }
+                    ],
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
-                    "end": 19
+                    "start": 8,
+                    "end": 18
                 },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 19
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -111,6 +112,7 @@ export {foo as bar};
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

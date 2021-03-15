@@ -12,7 +12,6 @@ unction* gf() { var a = yield 'foo'; }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,57 +20,49 @@ unction* gf() { var a = yield 'foo'; }
     "kind": 196,
     "source": "unction* gf() { var a = yield 'foo'; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 196712,
+                    "text": "unction",
+                    "rawText": "unction",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 7
+                },
+                "operator": "*",
+                "right": {
+                    "kind": 1073807915,
+                    "expression": {
                         "kind": 196712,
-                        "text": "unction",
-                        "rawText": "unction",
+                        "text": "gf",
+                        "rawText": "gf",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 0,
-                        "end": 7
+                        "start": 8,
+                        "end": 11
                     },
-                    "operator": "*",
-                    "right": {
-                        "kind": 66091,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "gf",
-                            "rawText": "gf",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 11
-                        },
-                        "typeArguments": null,
-                        "argumentList": {
-                            "kind": 3,
-                            "elements": [],
-                            "trailingComma": false,
-                            "transformFlags": 0,
-                            "flags": 0,
-                            "intersects": false,
-                            "start": 13,
-                            "end": 13
-                        },
+                    "typeArguments": null,
+                    "argumentList": {
+                        "kind": 3,
+                        "elements": [],
+                        "trailingComma": false,
+                        "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
+                        "start": 13,
                         "end": 13
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 11,
                     "end": 13
                 },
                 "flags": 0,
@@ -80,99 +71,99 @@ unction* gf() { var a = yield 'foo'; }
                 "start": 0,
                 "end": 13
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097397,
-                            "declarationList": {
-                                "kind": 244,
-                                "declarations": [
-                                    {
-                                        "kind": 243,
-                                        "binding": {
-                                            "kind": 131102,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1025,
-                                            "start": 19,
-                                            "end": 21
-                                        },
-                                        "exclamation": false,
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 196712,
-                                            "text": "yield",
-                                            "rawText": "yield",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 23,
-                                            "end": 29
-                                        },
-                                        "flags": 19,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097397,
+                        "declarationList": {
+                            "kind": 244,
+                            "declarations": [
+                                {
+                                    "kind": 16627,
+                                    "binding": {
+                                        "kind": 131102,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 1025,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "exclamation": false,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 196712,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 16777216,
+                                        "start": 23,
                                         "end": 29
-                                    }
-                                ],
-                                "flags": 16777218,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 19,
-                                "end": 29
-                            },
-                            "flags": 16777218,
+                                    },
+                                    "flags": 19,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 33554432,
+                                    "end": 29
+                                }
+                            ],
+                            "flags": 33554433,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 15,
+                            "start": 19,
                             "end": 29
                         },
-                        {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 4261583,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 16777218,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 29,
-                                "end": 35
-                            },
-                            "flags": 0,
+                        "flags": 33554433,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 29
+                    },
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 4261583,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 33554433,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 29,
-                            "end": 36
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 36
-                },
+                            "end": 35
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 29,
+                        "end": 36
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 13,
-                "end": 38
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 38
-    },
-    "jsx": false,
+                "start": 15,
+                "end": 36
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 38
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -190,15 +181,17 @@ unction* gf() { var a = yield 'foo'; }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 38
 }
 ```
 
+  
 ### Printed
 
 
@@ -206,6 +199,7 @@ unction* gf() { var a = yield 'foo'; }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

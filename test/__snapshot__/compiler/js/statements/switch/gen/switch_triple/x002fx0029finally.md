@@ -12,7 +12,6 @@ switch switch switch /)finally
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,138 +20,130 @@ switch switch switch /)finally
     "kind": 196,
     "source": "switch switch switch /)finally",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 6
-            },
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 6,
-                "end": 13
+                "end": 6
             },
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 20
-                    },
-                    "operator": "/",
-                    "right": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 22,
-                        "end": 22
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 22
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 23,
-                    "end": 23
-                },
-                "flags": 2,
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 13,
+                "end": 13
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 20,
+                    "end": 20
+                },
+                "operator": "/",
+                "right": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 20,
+                "end": 22
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 23,
                 "end": 23
             },
-            {
-                "kind": 2097375,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 23
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 23
-                    },
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
-                "catchClause": null,
-                "finallyBlock": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 30,
-                        "end": 30
-                    },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 23,
+                "end": 23
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
@@ -162,17 +153,17 @@ switch switch switch /)finally
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 23,
+                "start": 30,
                 "end": 30
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 30
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 23,
+            "end": 30
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -211,15 +202,17 @@ switch switch switch /)finally
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 30
 }
 ```
 
+  
 ### Printed
 
 
@@ -227,6 +220,7 @@ switch switch switch /)finally
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

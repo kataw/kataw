@@ -10,7 +10,6 @@ async function hope(future) {
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -19,129 +18,123 @@ async function hope(future) {
     "kind": 196,
     "source": "async function hope(future) {\n    await future;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 1312785,
-                "name": {
-                    "kind": 131102,
-                    "text": "hope",
-                    "rawText": "hope",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 14,
-                    "end": 19
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
-                        {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "future",
-                                "rawText": "future",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 20,
-                                "end": 26
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 1312785,
+            "name": {
+                "kind": 131102,
+                "text": "hope",
+                "rawText": "hope",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 14,
+                "end": 19
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "future",
+                            "rawText": "future",
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 1,
+                            "transformFlags": 1025,
                             "start": 20,
                             "end": 26
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 27
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
+                        },
+                        "isOptional": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 20,
+                        "end": 26
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 20,
+                "end": 27
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65559,
                                 "expression": {
-                                    "kind": 65559,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "future",
-                                        "rawText": "future",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 39,
-                                        "end": 46
-                                    },
+                                    "kind": 196712,
+                                    "text": "future",
+                                    "rawText": "future",
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 32780,
-                                    "start": 29,
+                                    "transformFlags": 0,
+                                    "start": 39,
                                     "end": 46
                                 },
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 32780,
                                 "start": 29,
-                                "end": 47
-                            }
-                        ],
-                        "multiline": true,
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 29,
-                        "end": 47
-                    },
-                    "flags": 0,
+                                "end": 46
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 29,
+                            "end": 47
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 32768,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 27,
-                    "end": 49
+                    "start": 29,
+                    "end": 47
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 260,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 27,
                 "end": 49
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 49
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 260,
+            "start": 0,
+            "end": 49
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 49
 }
 ```
 
+  
 ### Printed
 
 
@@ -149,6 +142,7 @@ async function hope(future) {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -8,7 +8,6 @@ for (x of 3) continue/x/
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,80 +16,72 @@ for (x of 3) continue/x/
     "kind": 196,
     "source": "for (x of 3) continue/x/",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099287,
-                "initializer": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 6
-                },
-                "expression": {
-                    "kind": 4261540,
-                    "text": 3,
-                    "rawText": "3",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 11
-                },
-                "statement": {
-                    "kind": 2097212,
-                    "label": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 21
-                },
-                "isAwait": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 2099287,
+            "initializer": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 1,
-                "start": 0,
-                "end": 21
+                "transformFlags": 0,
+                "start": 5,
+                "end": 6
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/x/",
-                    "flags": 2,
+            "expression": {
+                "kind": 4261540,
+                "text": 3,
+                "rawText": "3",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 11
+            },
+            "statement": {
+                "kind": 2097212,
+                "label": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 21,
-                    "end": 24
+                    "end": 21
                 },
-                "flags": 0,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 21
+            },
+            "isAwait": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 21
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/x/",
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 21,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -101,15 +92,17 @@ for (x of 3) continue/x/
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 24
 }
 ```
 
+  
 ### Printed
 
 
@@ -117,6 +110,7 @@ for (x of 3) continue/x/
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

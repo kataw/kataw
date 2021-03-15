@@ -12,7 +12,6 @@ bar, return => {};
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,126 +20,118 @@ bar, return => {};
     "kind": 196,
     "source": "bar, return => {};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65590,
-                    "expressions": [
-                        {
-                            "kind": 196712,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 3
-                        },
-                        {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 4,
-                            "end": 4
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 4
-                },
-                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65590,
+                "expressions": [
+                    {
+                        "kind": 196712,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 3
+                    },
+                    {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 4,
+                        "end": 4
+                    }
+                ],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67592,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "",
-                                    "flags": 6,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 11,
-                                    "end": 11
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 4
+        },
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "",
+                                "flags": 3,
                                 "intersects": false,
-                                "transformFlags": 1,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 16,
-                            "end": 16
-                        },
+                            "transformFlags": 1,
+                            "start": 11,
+                            "end": 11
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 1,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 11,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 14,
-                        "end": 17
+                        "start": 16,
+                        "end": 16
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 11,
+                    "start": 14,
                     "end": 17
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 4,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+                "start": 11,
+                "end": 17
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 4,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -158,15 +149,17 @@ bar, return => {};
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -174,6 +167,7 @@ bar, return => {};
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

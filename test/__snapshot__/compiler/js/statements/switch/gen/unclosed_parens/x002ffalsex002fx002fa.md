@@ -12,7 +12,6 @@ switch( /false//a case
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,81 +20,73 @@ switch( /false//a case
     "kind": 196,
     "source": "switch( /false//a case",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 4260544,
-                        "text": "/false/",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 15
-                    },
-                    "operator": "/",
-                    "right": {
-                        "kind": 196712,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 16,
-                        "end": 17
-                    },
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 4260544,
+                    "text": "/false/",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 7,
-                    "end": 17
+                    "end": 15
                 },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 46,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 22,
-                                "end": 22
-                            },
-                            "statements": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 17,
-                            "end": 22
-                        }
-                    ],
+                "operator": "/",
+                "right": {
+                    "kind": 196712,
+                    "text": "a",
+                    "rawText": "a",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 17,
-                    "end": 22
+                    "start": 16,
+                    "end": 17
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 7,
+                "end": 17
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 46,
+                        "expression": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 22,
+                            "end": 22
+                        },
+                        "statements": [],
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 17,
+                        "end": 22
+                    }
+                ],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 17,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -106,15 +97,17 @@ switch( /false//a case
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -122,6 +115,7 @@ switch( /false//a case
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

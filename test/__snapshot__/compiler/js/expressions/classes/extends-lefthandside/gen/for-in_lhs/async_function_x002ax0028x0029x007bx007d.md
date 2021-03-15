@@ -12,7 +12,6 @@ for (async function *(){} in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,93 +20,87 @@ for (async function *(){} in x) ;
     "kind": 196,
     "source": "for (async function *(){} in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 9963540,
-                    "name": null,
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 22,
-                        "end": 23
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 24,
-                            "end": 24
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 25
-                    },
-                    "typeParameters": null,
-                    "type": null,
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 9963540,
+                "name": null,
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 8,
-                    "start": 5,
+                    "transformFlags": 0,
+                    "start": 22,
+                    "end": 23
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 24,
+                        "end": 24
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 23,
                     "end": 25
                 },
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 30
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 31,
-                    "end": 33
-                },
+                "typeParameters": null,
+                "type": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 8,
+                "start": 5,
+                "end": 25
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 28,
+                "end": 30
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 31,
                 "end": 33
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 33
 }
 ```
 
+  
 ### Printed
 
 
@@ -115,6 +108,7 @@ for (async function *(){} in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

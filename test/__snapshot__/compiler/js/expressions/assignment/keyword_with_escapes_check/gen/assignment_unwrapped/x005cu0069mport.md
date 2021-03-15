@@ -20,46 +20,38 @@
     "kind": 196,
     "source": "\\u0069mport = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": null,
-                "moduleSpecifier": null,
-                "importClause": null,
-                "flags": 4194304,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 11
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
-                },
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": null,
+            "moduleSpecifier": null,
+            "importClause": null,
+            "flags": 8388608,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 13,
-                "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+                "end": 15
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -70,9 +62,10 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 16

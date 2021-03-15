@@ -12,7 +12,6 @@ for (a of b) function f(){}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,94 +20,86 @@ for (a of b) function f(){}
     "kind": 196,
     "source": "for (a of b) function f(){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099287,
-                "initializer": {
-                    "kind": 196712,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 6
-                },
-                "expression": {
-                    "kind": 196712,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 11
-                },
-                "statement": {
-                    "kind": 264284,
-                    "name": {
-                        "kind": 131102,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 21,
-                        "end": 23
-                    },
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 25
-                    },
-                    "type": null,
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 26,
-                            "end": 26
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 25,
-                        "end": 27
-                    },
-                    "typeParameters": null,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 256,
-                    "start": 12,
-                    "end": 27
-                },
-                "isAwait": false,
+    "statements": [
+        {
+            "kind": 2099287,
+            "initializer": {
+                "kind": 196712,
+                "text": "a",
+                "rawText": "a",
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 1,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 6
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "b",
+                "rawText": "b",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 11
+            },
+            "statement": {
+                "kind": 264284,
+                "name": {
+                    "kind": 131102,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 21,
+                    "end": 23
+                },
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 24,
+                    "end": 25
+                },
+                "type": null,
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 26,
+                        "end": 26
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 25,
+                    "end": 27
+                },
+                "typeParameters": null,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 256,
+                "start": 12,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "isAwait": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -119,15 +110,17 @@ for (a of b) function f(){}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -135,6 +128,7 @@ for (a of b) function f(){}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

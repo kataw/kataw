@@ -12,7 +12,6 @@ async () => {  def\u0061ult = x  }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,82 +20,74 @@ async () => {  def\u0061ult = x  }
     "kind": 196,
     "source": "async () => {  def\\u0061ult = x  }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65552,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 37748736,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 13
-                        },
-                        "flags": 37748738,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 13
-                    },
-                    "flags": 574619650,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 81936,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 8,
+                    "end": 8
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 75497472,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 13
+                    },
+                    "flags": 75497473,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 11,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 1149239297,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 29,
-                    "end": 31
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 31
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 29,
+            "end": 31
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -121,15 +112,17 @@ async () => {  def\u0061ult = x  }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -137,6 +130,7 @@ async () => {  def\u0061ult = x  }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

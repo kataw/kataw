@@ -15,7 +15,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -24,27 +23,21 @@
     "kind": 196,
     "source": "#! this comment ends with a Paragraph Separator (U+2029)@{x2029}@{\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [],
-        "transformFlags": 0,
-        "flags": 16384,
-        "intersects": false,
-        "start": 56,
-        "end": 56
-    },
-    "jsx": false,
+    "statements": [],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 60
 }
 ```
 
+  
 ### Printed
 
 
@@ -52,6 +45,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

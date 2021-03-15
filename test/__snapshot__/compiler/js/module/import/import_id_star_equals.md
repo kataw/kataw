@@ -14,102 +14,93 @@ import a, *= from 'f';
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "import a, *= from 'f';",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 9
-                    },
-                    "operator": "*=",
-                    "right": {
-                        "kind": 196712,
-                        "text": "from",
-                        "rawText": "from",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 12,
-                        "end": 17
-                    },
-                    "flags": 16842752,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 65550,
+                "left": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 9,
-                    "end": 17
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": {
-                        "kind": 131102,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 6,
-                        "end": 8
-                    },
-                    "nameSpaceImport": null,
-                    "namedImports": null,
-                    "isTypeOnly": false,
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
                     "end": 9
                 },
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 17
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 16842754,
+                "operator": "*=",
+                "right": {
+                    "kind": 196712,
+                    "text": "from",
+                    "rawText": "from",
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 17,
-                    "end": 21
+                    "start": 12,
+                    "end": 17
                 },
-                "flags": 0,
+                "flags": 33554432,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 17
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": {
+                    "kind": 131102,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 6,
+                    "end": 8
+                },
+                "nameSpaceImport": null,
+                "namedImports": null,
+                "isTypeOnly": false,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 9
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "f",
+                "rawText": "f",
+                "flags": 33554433,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 17,
-                "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": true,
+                "end": 21
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 22
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -127,15 +118,17 @@ import a, *= from 'f';
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -143,6 +136,7 @@ import a, *= from 'f';
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

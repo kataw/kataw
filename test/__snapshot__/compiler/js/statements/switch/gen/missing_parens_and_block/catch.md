@@ -12,7 +12,6 @@ switch case catch
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,37 +20,56 @@ switch case catch
     "kind": 196,
     "source": "switch case catch",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 46,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 11
-                            },
-                            "statements": [
-                                {
-                                    "kind": 2097375,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 46,
+                        "expression": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 11,
+                            "end": 11
+                        },
+                        "statements": [
+                            {
+                                "kind": 2097375,
+                                "block": {
+                                    "kind": 2099237,
+                                    "block": {
+                                        "kind": 2084,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 11,
+                                        "end": 11
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 11,
+                                    "end": 11
+                                },
+                                "catchClause": {
+                                    "kind": 2095,
+                                    "catchParameter": null,
                                     "block": {
                                         "kind": 2099237,
                                         "block": {
@@ -61,77 +79,50 @@ switch case catch
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "start": 11,
-                                            "end": 11
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 11
-                                    },
-                                    "catchClause": {
-                                        "kind": 2095,
-                                        "catchParameter": null,
-                                        "block": {
-                                            "kind": 2099237,
-                                            "block": {
-                                                "kind": 2084,
-                                                "statements": [],
-                                                "multiline": false,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 17,
-                                                "end": 17
-                                            },
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 17
                                         },
                                         "flags": 0,
                                         "intersects": false,
-                                        "transformFlags": 16,
-                                        "start": 11,
+                                        "transformFlags": 0,
+                                        "start": 17,
                                         "end": 17
                                     },
-                                    "finallyBlock": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 16,
                                     "start": 11,
                                     "end": 17
-                                }
-                            ],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 17
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 17
-                },
+                                },
+                                "finallyBlock": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 16,
+                                "start": 11,
+                                "end": 17
+                            }
+                        ],
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 6,
+                        "end": 17
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -149,15 +140,17 @@ switch case catch
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 17
 }
 ```
 
+  
 ### Printed
 
 
@@ -165,6 +158,7 @@ switch case catch
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

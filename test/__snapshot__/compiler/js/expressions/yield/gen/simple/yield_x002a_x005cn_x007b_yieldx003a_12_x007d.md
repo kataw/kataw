@@ -12,7 +12,6 @@ yield * \n { yield: 12 }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,37 +20,29 @@ yield * \n { yield: 12 }
     "kind": 196,
     "source": "yield * \\n { yield: 12 }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 196712,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 5
-                    },
-                    "operator": "*",
-                    "right": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 7
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 196712,
+                    "text": "yield",
+                    "rawText": "yield",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 5
+                },
+                "operator": "*",
+                "right": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 7,
                     "end": 7
                 },
                 "flags": 0,
@@ -60,88 +51,88 @@ yield * \n { yield: 12 }
                 "start": 0,
                 "end": 7
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "n",
-                    "rawText": "n",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 10
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "n",
+                "rawText": "n",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097292,
-                            "label": {
-                                "kind": 196712,
-                                "text": "yield",
-                                "rawText": "yield",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 18
-                            },
-                            "statement": {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 4261540,
-                                    "text": 12,
-                                    "rawText": "12",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 19,
-                                    "end": 22
-                                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 9,
+            "end": 10
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097292,
+                        "label": {
+                            "kind": 196712,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 12,
+                            "end": 18
+                        },
+                        "statement": {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 4261540,
+                                "text": 12,
+                                "rawText": "12",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
-                            "isWebCompat": true,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 12,
+                            "start": 19,
                             "end": 22
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 22
-                },
+                        },
+                        "isWebCompat": true,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 22
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 10,
-                "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+                "start": 12,
+                "end": 22
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 10,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -159,15 +150,17 @@ yield * \n { yield: 12 }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 24
 }
 ```
 
+  
 ### Printed
 
 
@@ -175,6 +168,7 @@ yield * \n { yield: 12 }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,113 +20,105 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
     "kind": 196,
     "source": "function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 788576,
-                "name": {
-                    "kind": 131102,
-                    "text": "gen",
-                    "rawText": "gen",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 10,
-                    "end": 14
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 16
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 264284,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "not_gen",
-                                    "rawText": "not_gen",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 27,
-                                    "end": 35
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 36,
-                                    "end": 37
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097233,
-                                                "expression": {
-                                                    "kind": 65563,
-                                                    "left": {
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "gen",
+                "rawText": "gen",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 10,
+                "end": 14
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 16
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 264284,
+                            "name": {
+                                "kind": 131102,
+                                "text": "not_gen",
+                                "rawText": "not_gen",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 27,
+                                "end": 35
+                            },
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 36,
+                                "end": 37
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 91,
+                                "functionStatementList": {
+                                    "kind": 94,
+                                    "statements": [
+                                        {
+                                            "kind": 2097233,
+                                            "expression": {
+                                                "kind": 65563,
+                                                "left": {
+                                                    "kind": 196712,
+                                                    "text": "unction",
+                                                    "rawText": "unction",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 39,
+                                                    "end": 47
+                                                },
+                                                "operator": "*",
+                                                "right": {
+                                                    "kind": 1073807915,
+                                                    "expression": {
                                                         "kind": 196712,
-                                                        "text": "unction",
-                                                        "rawText": "unction",
+                                                        "text": "gf",
+                                                        "rawText": "gf",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "start": 39,
-                                                        "end": 47
+                                                        "start": 48,
+                                                        "end": 51
                                                     },
-                                                    "operator": "*",
-                                                    "right": {
-                                                        "kind": 66091,
-                                                        "expression": {
-                                                            "kind": 196712,
-                                                            "text": "gf",
-                                                            "rawText": "gf",
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 48,
-                                                            "end": 51
-                                                        },
-                                                        "typeArguments": null,
-                                                        "argumentList": {
-                                                            "kind": 3,
-                                                            "elements": [],
-                                                            "trailingComma": false,
-                                                            "transformFlags": 0,
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "start": 53,
-                                                            "end": 53
-                                                        },
+                                                    "typeArguments": null,
+                                                    "argumentList": {
+                                                        "kind": 3,
+                                                        "elements": [],
+                                                        "trailingComma": false,
+                                                        "transformFlags": 0,
                                                         "flags": 0,
                                                         "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 51,
+                                                        "start": 53,
                                                         "end": 53
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 39,
+                                                    "start": 51,
                                                     "end": 53
                                                 },
                                                 "flags": 0,
@@ -136,141 +127,141 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                 "start": 39,
                                                 "end": 53
                                             },
-                                            {
-                                                "kind": 2099237,
-                                                "block": {
-                                                    "kind": 2084,
-                                                    "statements": [
-                                                        {
-                                                            "kind": 2097397,
-                                                            "declarationList": {
-                                                                "kind": 244,
-                                                                "declarations": [
-                                                                    {
-                                                                        "kind": 243,
-                                                                        "binding": {
-                                                                            "kind": 131102,
-                                                                            "text": "a",
-                                                                            "rawText": "a",
-                                                                            "flags": 0,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 1025,
-                                                                            "start": 59,
-                                                                            "end": 61
-                                                                        },
-                                                                        "exclamation": false,
-                                                                        "type": null,
-                                                                        "initializer": {
-                                                                            "kind": 196712,
-                                                                            "text": "yield",
-                                                                            "rawText": "yield",
-                                                                            "flags": 0,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "start": 63,
-                                                                            "end": 69
-                                                                        },
-                                                                        "flags": 59,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 39,
+                                            "end": 53
+                                        },
+                                        {
+                                            "kind": 2099237,
+                                            "block": {
+                                                "kind": 2084,
+                                                "statements": [
+                                                    {
+                                                        "kind": 2097397,
+                                                        "declarationList": {
+                                                            "kind": 244,
+                                                            "declarations": [
+                                                                {
+                                                                    "kind": 16627,
+                                                                    "binding": {
+                                                                        "kind": 131102,
+                                                                        "text": "a",
+                                                                        "rawText": "a",
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 1025,
+                                                                        "start": 59,
+                                                                        "end": 61
+                                                                    },
+                                                                    "exclamation": false,
+                                                                    "type": null,
+                                                                    "initializer": {
+                                                                        "kind": 196712,
+                                                                        "text": "yield",
+                                                                        "rawText": "yield",
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "start": 16777216,
+                                                                        "start": 63,
                                                                         "end": 69
-                                                                    }
-                                                                ],
-                                                                "flags": 16777218,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "start": 59,
-                                                                "end": 69
-                                                            },
-                                                            "flags": 16777218,
+                                                                    },
+                                                                    "flags": 59,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 33554432,
+                                                                    "end": 69
+                                                                }
+                                                            ],
+                                                            "flags": 33554433,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "start": 55,
+                                                            "start": 59,
                                                             "end": 69
                                                         },
-                                                        {
-                                                            "kind": 2097233,
-                                                            "expression": {
-                                                                "kind": 4261583,
-                                                                "text": "foo",
-                                                                "rawText": "foo",
-                                                                "flags": 16777218,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "start": 69,
-                                                                "end": 75
-                                                            },
-                                                            "flags": 0,
+                                                        "flags": 33554433,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 55,
+                                                        "end": 69
+                                                    },
+                                                    {
+                                                        "kind": 2097233,
+                                                        "expression": {
+                                                            "kind": 4261583,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 33554433,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "start": 69,
-                                                            "end": 76
-                                                        }
-                                                    ],
-                                                    "multiline": false,
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 55,
-                                                    "end": 76
-                                                },
+                                                            "end": 75
+                                                        },
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 69,
+                                                        "end": 76
+                                                    }
+                                                ],
+                                                "multiline": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 53,
-                                                "end": 78
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 39,
-                                        "end": 78
-                                    },
+                                                "start": 55,
+                                                "end": 76
+                                            },
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 53,
+                                            "end": 78
+                                        }
+                                    ],
+                                    "multiline": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 37,
-                                    "end": 80
+                                    "start": 39,
+                                    "end": 78
                                 },
-                                "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 256,
-                                "start": 18,
+                                "transformFlags": 0,
+                                "start": 37,
                                 "end": 80
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 80
-                    },
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 256,
+                            "start": 18,
+                            "end": 80
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 16,
-                    "end": 81
+                    "start": 18,
+                    "end": 80
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 384,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 16,
                 "end": 81
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 81
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 81
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -288,15 +279,17 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 81
 }
 ```
 
+  
 ### Printed
 
 
@@ -304,6 +297,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

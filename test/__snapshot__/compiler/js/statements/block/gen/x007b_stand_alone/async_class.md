@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,77 +20,69 @@
     "kind": 196,
     "source": "{ async class",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 1,
-                                "end": 7
-                            },
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
-                        {
-                            "kind": 48,
-                            "name": null,
-                            "typeParameters": null,
-                            "classHeritage": null,
-                            "implementClauses": null,
-                            "members": {
-                                "kind": 50,
-                                "elements": [],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 7,
-                                "end": 7
-                            },
-                            "decorators": null,
-                            "isAbstract": false,
-                            "flags": 2,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 7
+                    },
+                    {
+                        "kind": 48,
+                        "name": null,
+                        "typeParameters": null,
+                        "classHeritage": null,
+                        "implementClauses": null,
+                        "members": {
+                            "kind": 50,
+                            "elements": [],
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 7,
-                            "end": 13
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 13
-                },
+                            "end": 7
+                        },
+                        "decorators": null,
+                        "isAbstract": false,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 1,
+                        "start": 7,
+                        "end": 13
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -102,15 +93,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -118,6 +111,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

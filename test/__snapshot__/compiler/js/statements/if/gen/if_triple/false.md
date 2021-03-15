@@ -12,7 +12,6 @@ if if if false
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,65 +20,55 @@ if if if false
     "kind": 196,
     "source": "if if if false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 2
+            },
+            "consequent": {
                 "kind": 2097257,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
-                    "end": 2
+                    "start": 5,
+                    "end": 5
                 },
                 "consequent": {
                     "kind": 2097257,
                     "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
+                        "kind": 4260391,
+                        "text": false,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 5,
-                        "end": 5
+                        "start": 8,
+                        "end": 14
                     },
                     "consequent": {
-                        "kind": 2097257,
+                        "kind": 2097233,
                         "expression": {
-                            "kind": 4260391,
-                            "text": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 14
-                        },
-                        "consequent": {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 14
-                            },
-                            "flags": 0,
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
-                        "alternate": null,
-                        "isWebCompat": true,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 5,
+                        "start": 14,
                         "end": 14
                     },
                     "alternate": null,
@@ -87,7 +76,7 @@ if if if false
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 14
                 },
                 "alternate": null,
@@ -95,17 +84,19 @@ if if if false
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -130,15 +121,17 @@ if if if false
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -146,6 +139,7 @@ if if if false
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

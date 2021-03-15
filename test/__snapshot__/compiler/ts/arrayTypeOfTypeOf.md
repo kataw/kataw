@@ -18,7 +18,6 @@ var xs4 = ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -27,593 +26,585 @@ var xs4 = ;
     "kind": 196,
     "source": "var x = 1;\nvar xs: typeof x[];\nvar xs2: typeof Array;\nvar xs3: typeof Array<number>;\nvar xs4: typeof Array<typeof x>;\n\nvar x = 1;\nvar xs;\nvar xs2;\nvar xs3 = ;\nvar xs4 = ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 5
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 9
-                            },
-                            "flags": 3,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 3,
+                            "end": 5
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 1,
+                            "rawText": "1",
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 7,
                             "end": 9
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 9
-                },
-                "flags": 16384,
+                        },
+                        "flags": 3,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 9
+                    }
+                ],
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 10
+                "start": 3,
+                "end": 9
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs",
-                                "rawText": "xs",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 14,
-                                "end": 17
-                            },
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8199,
-                                "elementType": {
-                                    "kind": 8427,
-                                    "exprName": {
-                                        "kind": 196711,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 25,
-                                        "end": 27
-                                    },
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs",
+                            "rawText": "xs",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 14,
+                            "end": 17
+                        },
+                        "exclamation": false,
+                        "type": {
+                            "kind": 8199,
+                            "elementType": {
+                                "kind": 8427,
+                                "exprName": {
+                                    "kind": 196711,
+                                    "text": "x",
+                                    "rawText": "x",
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "start": 18,
+                                    "transformFlags": 0,
+                                    "start": 25,
                                     "end": 27
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "start": 18,
-                                "end": 30
+                                "end": 27
                             },
-                            "initializer": null,
-                            "flags": 14,
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 29
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 29
-                },
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 10,
-                "end": 30
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs2",
-                                "rawText": "xs2",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 34,
-                                "end": 38
-                            },
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8427,
-                                "exprName": {
-                                    "kind": 196711,
-                                    "text": "Array",
-                                    "rawText": "Array",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 46,
-                                    "end": 52
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 39,
-                                "end": 52
-                            },
-                            "initializer": null,
-                            "flags": 34,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 52
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 34,
-                    "end": 52
-                },
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 30,
-                "end": 53
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs3",
-                                "rawText": "xs3",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 57,
-                                "end": 61
-                            },
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8427,
-                                "exprName": {
-                                    "kind": 196711,
-                                    "text": "Array",
-                                    "rawText": "Array",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 69,
-                                    "end": 75
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 62,
-                                "end": 75
-                            },
-                            "initializer": null,
-                            "flags": 57,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 75
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 57,
-                    "end": 75
-                },
-                "flags": 16386,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 53,
-                "end": 75
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 73956,
-                    "type": {
-                        "kind": 4202657,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 2097152,
-                        "start": 76,
-                        "end": 82
-                    },
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
+                            "transformFlags": 2097152,
+                            "start": 18,
+                            "end": 30
+                        },
+                        "initializer": null,
+                        "flags": 14,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 83,
-                        "end": 83
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 75,
-                    "end": 83
-                },
+                        "start": 0,
+                        "end": 29
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 75,
-                "end": 84
+                "start": 14,
+                "end": 29
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs4",
-                                "rawText": "xs4",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 88,
-                                "end": 92
-                            },
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8427,
-                                "exprName": {
-                                    "kind": 196711,
-                                    "text": "Array",
-                                    "rawText": "Array",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 100,
-                                    "end": 106
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 93,
-                                "end": 106
-                            },
-                            "initializer": null,
-                            "flags": 88,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 10,
+            "end": 30
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs2",
+                            "rawText": "xs2",
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 106
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 88,
-                    "end": 106
-                },
-                "flags": 16386,
+                            "transformFlags": 1025,
+                            "start": 34,
+                            "end": 38
+                        },
+                        "exclamation": false,
+                        "type": {
+                            "kind": 8427,
+                            "exprName": {
+                                "kind": 196711,
+                                "text": "Array",
+                                "rawText": "Array",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 46,
+                                "end": 52
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 39,
+                            "end": 52
+                        },
+                        "initializer": null,
+                        "flags": 34,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 52
+                    }
+                ],
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 84,
+                "start": 34,
+                "end": 52
+            },
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 30,
+            "end": 53
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs3",
+                            "rawText": "xs3",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 57,
+                            "end": 61
+                        },
+                        "exclamation": false,
+                        "type": {
+                            "kind": 8427,
+                            "exprName": {
+                                "kind": 196711,
+                                "text": "Array",
+                                "rawText": "Array",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 69,
+                                "end": 75
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 62,
+                            "end": 75
+                        },
+                        "initializer": null,
+                        "flags": 57,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 75
+                    }
+                ],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 57,
+                "end": 75
+            },
+            "flags": 32769,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 53,
+            "end": 75
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 134291684,
+                "type": {
+                    "kind": 4202657,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "start": 76,
+                    "end": 82
+                },
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 83,
+                    "end": 83
+                },
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "start": 75,
+                "end": 83
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 75,
+            "end": 84
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs4",
+                            "rawText": "xs4",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 88,
+                            "end": 92
+                        },
+                        "exclamation": false,
+                        "type": {
+                            "kind": 8427,
+                            "exprName": {
+                                "kind": 196711,
+                                "text": "Array",
+                                "rawText": "Array",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 100,
+                                "end": 106
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 93,
+                            "end": 106
+                        },
+                        "initializer": null,
+                        "flags": 88,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 106
+                    }
+                ],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 88,
                 "end": 106
             },
-            {
-                "kind": 2097233,
+            "flags": 32769,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 84,
+            "end": 106
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 134291684,
+                "type": {
+                    "kind": 8427,
+                    "exprName": {
+                        "kind": 196711,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 113,
+                        "end": 115
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "start": 107,
+                    "end": 115
+                },
                 "expression": {
-                    "kind": 73956,
-                    "type": {
-                        "kind": 8427,
-                        "exprName": {
-                            "kind": 196711,
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 116,
+                    "end": 116
+                },
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "start": 106,
+                "end": 116
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 106,
+            "end": 117
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
                             "text": "x",
                             "rawText": "x",
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 113,
-                            "end": 115
+                            "transformFlags": 1025,
+                            "start": 122,
+                            "end": 124
                         },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 2097152,
-                        "start": 107,
-                        "end": 115
-                    },
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 1,
+                            "rawText": "1",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 126,
+                            "end": 128
+                        },
+                        "flags": 122,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 116,
-                        "end": 116
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 106,
-                    "end": 116
-                },
+                        "start": 0,
+                        "end": 128
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 106,
-                "end": 117
+                "start": 122,
+                "end": 128
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 122,
-                                "end": 124
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 126,
-                                "end": 128
-                            },
-                            "flags": 122,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 117,
+            "end": 129
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs",
+                            "rawText": "xs",
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 128
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 122,
-                    "end": 128
-                },
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 117,
-                "end": 129
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs",
-                                "rawText": "xs",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 133,
-                                "end": 136
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 133,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "transformFlags": 1025,
+                            "start": 133,
                             "end": 136
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 133,
-                    "end": 136
-                },
-                "flags": 16384,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 133,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 136
+                    }
+                ],
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 129,
-                "end": 137
+                "start": 133,
+                "end": 136
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs2",
-                                "rawText": "xs2",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 141,
-                                "end": 145
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 141,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 129,
+            "end": 137
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs2",
+                            "rawText": "xs2",
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "transformFlags": 1025,
+                            "start": 141,
                             "end": 145
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 141,
-                    "end": 145
-                },
-                "flags": 16384,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 141,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 145
+                    }
+                ],
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 137,
-                "end": 146
+                "start": 141,
+                "end": 145
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs3",
-                                "rawText": "xs3",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 150,
-                                "end": 154
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 156,
-                                "end": 156
-                            },
-                            "flags": 150,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 137,
+            "end": 146
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs3",
+                            "rawText": "xs3",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 150,
+                            "end": 154
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 2,
+                            "start": 156,
                             "end": 156
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 150,
-                    "end": 156
-                },
-                "flags": 16384,
+                        },
+                        "flags": 150,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 156
+                    }
+                ],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 146,
-                "end": 158
+                "start": 150,
+                "end": 156
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "xs4",
-                                "rawText": "xs4",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 162,
-                                "end": 166
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 168,
-                                "end": 168
-                            },
-                            "flags": 162,
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 146,
+            "end": 158
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "xs4",
+                            "rawText": "xs4",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 162,
+                            "end": 166
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 2,
+                            "start": 168,
                             "end": 168
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 162,
-                    "end": 168
-                },
-                "flags": 16384,
+                        },
+                        "flags": 162,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 168
+                    }
+                ],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 158,
-                "end": 170
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 170
-    },
-    "jsx": false,
+                "start": 162,
+                "end": 168
+            },
+            "flags": 32768,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 158,
+            "end": 170
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -659,15 +650,17 @@ var xs4 = ;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 170
 }
 ```
 
+  
 ### Printed
 
 
@@ -675,6 +668,7 @@ var xs4 = ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ do async function f(){} while (x);
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,91 +20,83 @@ do async function f(){} while (x);
     "kind": 196,
     "source": "do async function f(){} while (x);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 31,
+                "end": 32
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 31,
-                    "end": 32
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 9439250,
-                        "name": {
-                            "kind": 131102,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1025,
-                            "start": 17,
-                            "end": 19
-                        },
-                        "formalParameters": {
-                            "kind": 90,
-                            "formalParameterList": [],
-                            "trailingComma": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 20,
-                            "end": 21
-                        },
-                        "contents": {
-                            "kind": 91,
-                            "functionStatementList": {
-                                "kind": 94,
-                                "statements": [],
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 22,
-                                "end": 22
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 21,
-                            "end": 23
-                        },
-                        "typeParameters": null,
-                        "type": null,
+                    "kind": 9439250,
+                    "name": {
+                        "kind": 131102,
+                        "text": "f",
+                        "rawText": "f",
                         "flags": 0,
                         "intersects": false,
-                        "transformFlags": 4,
-                        "start": 2,
+                        "transformFlags": 1025,
+                        "start": 17,
+                        "end": 19
+                    },
+                    "formalParameters": {
+                        "kind": 90,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 20,
+                        "end": 21
+                    },
+                    "contents": {
+                        "kind": 91,
+                        "functionStatementList": {
+                            "kind": 94,
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 22,
+                            "end": 22
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 21,
                         "end": 23
                     },
+                    "typeParameters": null,
+                    "type": null,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 0,
+                    "transformFlags": 4,
                     "start": 2,
                     "end": 23
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": false,
+                "start": 2,
+                "end": 23
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 34
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -116,15 +107,17 @@ do async function f(){} while (x);
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -132,6 +125,7 @@ do async function f(){} while (x);
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

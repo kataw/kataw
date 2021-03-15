@@ -8,7 +8,6 @@ do wow: while (x) while (x) continue wow;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,31 +16,41 @@ do wow: while (x) while (x) continue wow;
     "kind": 196,
     "source": "do wow: while (x) while (x) continue wow;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 41,
+                "end": 41
+            },
+            "statement": {
+                "kind": 2097292,
+                "label": {
+                    "kind": 196712,
+                    "text": "wow",
+                    "rawText": "wow",
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 41,
-                    "end": 41
+                    "start": 2,
+                    "end": 6
                 },
                 "statement": {
-                    "kind": 2097292,
-                    "label": {
+                    "kind": 2097399,
+                    "expression": {
                         "kind": 196712,
-                        "text": "wow",
-                        "rawText": "wow",
+                        "text": "x",
+                        "rawText": "x",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 2,
-                        "end": 6
+                        "start": 15,
+                        "end": 16
                     },
                     "statement": {
                         "kind": 2097399,
@@ -52,72 +61,54 @@ do wow: while (x) while (x) continue wow;
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 15,
-                            "end": 16
+                            "start": 25,
+                            "end": 26
                         },
                         "statement": {
-                            "kind": 2097399,
-                            "expression": {
+                            "kind": 2097212,
+                            "label": {
                                 "kind": 196712,
-                                "text": "x",
-                                "rawText": "x",
+                                "text": "wow",
+                                "rawText": "wow",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 25,
-                                "end": 26
-                            },
-                            "statement": {
-                                "kind": 2097212,
-                                "label": {
-                                    "kind": 196712,
-                                    "text": "wow",
-                                    "rawText": "wow",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 36,
-                                    "end": 40
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 27,
-                                "end": 41
+                                "start": 36,
+                                "end": 40
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 17,
+                            "start": 27,
                             "end": 41
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 7,
+                        "start": 17,
                         "end": 41
                     },
-                    "isWebCompat": true,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 7,
                     "end": 41
                 },
-                "flags": 2,
+                "isWebCompat": true,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 41
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 41
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 41
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -128,15 +119,17 @@ do wow: while (x) while (x) continue wow;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 41
 }
 ```
 
+  
 ### Printed
 
 
@@ -144,6 +137,7 @@ do wow: while (x) while (x) continue wow;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

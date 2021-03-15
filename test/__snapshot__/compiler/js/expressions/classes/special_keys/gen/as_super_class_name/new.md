@@ -12,7 +12,6 @@ class x extends new {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,86 +20,78 @@ class x extends new {}
     "kind": 196,
     "source": "class x extends new {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 66204,
                     "expression": {
-                        "kind": 66204,
-                        "expression": {
-                            "kind": 67224232,
-                            "propertyList": {
-                                "kind": 65722,
-                                "properties": [],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 21
-                            },
+                        "kind": 98984,
+                        "propertyList": {
+                            "kind": 65722,
+                            "properties": [],
+                            "trailingComma": false,
+                            "multiline": false,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 19,
-                            "end": 22
+                            "start": 21,
+                            "end": 21
                         },
-                        "typeArguments": null,
-                        "argumentList": null,
-                        "flags": 15,
+                        "flags": 0,
                         "intersects": false,
-                        "transformFlags": 32,
-                        "start": 0,
+                        "transformFlags": 0,
+                        "start": 19,
                         "end": 22
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "argumentList": null,
+                    "flags": 15,
                     "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
+                    "transformFlags": 32,
+                    "start": 0,
                     "end": 22
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+                "typeArguments": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 22
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+                "end": 0
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -111,15 +102,17 @@ class x extends new {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -127,6 +120,7 @@ class x extends new {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

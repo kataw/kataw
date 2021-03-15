@@ -12,7 +12,6 @@ do do do function while while while while
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,15 +20,24 @@ do do do function while while while while
     "kind": 196,
     "source": "do do do function while while while while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 41,
+                "end": 41
+            },
+            "statement": {
                 "kind": 2097218,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 41,
@@ -40,96 +48,79 @@ do do do function while while while while
                     "expression": {
                         "kind": 131322,
                         "text": "",
-                        "flags": 6,
+                        "flags": 3,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 41,
                         "end": 41
                     },
                     "statement": {
-                        "kind": 2097218,
-                        "expression": {
-                            "kind": 131322,
+                        "kind": 264284,
+                        "name": {
+                            "kind": 131102,
                             "text": "",
-                            "flags": 6,
+                            "rawText": "",
+                            "flags": 1,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 17,
+                            "end": 17
+                        },
+                        "formalParameters": {
+                            "kind": 90,
+                            "formalParameterList": [],
+                            "trailingComma": false,
+                            "flags": 1,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 41,
-                            "end": 41
+                            "start": 17,
+                            "end": 17
                         },
-                        "statement": {
-                            "kind": 264284,
-                            "name": {
-                                "kind": 131102,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "formalParameters": {
-                                "kind": 90,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 91,
-                                "functionStatementList": {
-                                    "kind": 94,
-                                    "statements": [
-                                        {
+                        "type": null,
+                        "contents": {
+                            "kind": 91,
+                            "functionStatementList": {
+                                "kind": 94,
+                                "statements": [
+                                    {
+                                        "kind": 2097399,
+                                        "expression": {
+                                            "kind": 131322,
+                                            "text": "",
+                                            "flags": 3,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 29,
+                                            "end": 29
+                                        },
+                                        "statement": {
                                             "kind": 2097399,
                                             "expression": {
                                                 "kind": 131322,
                                                 "text": "",
-                                                "flags": 6,
+                                                "flags": 3,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 29,
-                                                "end": 29
+                                                "start": 35,
+                                                "end": 35
                                             },
                                             "statement": {
                                                 "kind": 2097399,
                                                 "expression": {
                                                     "kind": 131322,
                                                     "text": "",
-                                                    "flags": 6,
+                                                    "flags": 3,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 35,
-                                                    "end": 35
+                                                    "start": 41,
+                                                    "end": 41
                                                 },
                                                 "statement": {
-                                                    "kind": 2097399,
+                                                    "kind": 2097233,
                                                     "expression": {
                                                         "kind": 131322,
                                                         "text": "",
-                                                        "flags": 6,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 41,
-                                                        "end": 41
-                                                    },
-                                                    "statement": {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 131322,
-                                                            "text": "",
-                                                            "flags": 6,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 41,
-                                                            "end": 41
-                                                        },
-                                                        "flags": 0,
+                                                        "flags": 3,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "start": 41,
@@ -138,68 +129,68 @@ do do do function while while while while
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 35,
+                                                    "start": 41,
                                                     "end": 41
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 29,
+                                                "start": 35,
                                                 "end": 41
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "start": 23,
+                                            "start": 29,
                                             "end": 41
-                                        }
-                                    ],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 23,
-                                    "end": 41
-                                },
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 23,
+                                        "end": 41
+                                    }
+                                ],
+                                "multiline": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 17,
+                                "start": 23,
                                 "end": 41
                             },
-                            "typeParameters": null,
-                            "flags": 2,
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 256,
-                            "start": 8,
+                            "transformFlags": 0,
+                            "start": 17,
                             "end": 41
                         },
-                        "flags": 0,
+                        "typeParameters": null,
+                        "flags": 1,
                         "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
+                        "transformFlags": 256,
+                        "start": 8,
                         "end": 41
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 41
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 41
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 41
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 41
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -231,15 +222,17 @@ do do do function while while while while
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 41
 }
 ```
 
+  
 ### Printed
 
 
@@ -247,6 +240,7 @@ do do do function while while while while
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

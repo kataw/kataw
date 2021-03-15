@@ -9,7 +9,6 @@ typeof class{}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -18,93 +17,85 @@ typeof class{}
     "kind": 196,
     "source": "typeof class{}\n/foo/",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 65774,
-                            "operator": "typeof",
-                            "operand": {
-                                "kind": 82483,
-                                "name": null,
-                                "typeParameters": null,
-                                "classHeritage": null,
-                                "implementClauses": null,
-                                "members": {
-                                    "kind": 50,
-                                    "elements": [],
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 13,
-                                    "end": 14
-                                },
-                                "decorators": null,
-                                "flags": 16384,
+                        "kind": 65774,
+                        "operator": "typeof",
+                        "operand": {
+                            "kind": 66099,
+                            "name": null,
+                            "typeParameters": null,
+                            "classHeritage": null,
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
+                                "flags": 32768,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "start": 6,
+                                "start": 13,
                                 "end": 14
                             },
-                            "flags": 16384,
+                            "decorators": null,
+                            "flags": 32768,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "transformFlags": 1,
+                            "start": 6,
                             "end": 14
                         },
-                        "operator": "/",
-                        "right": {
-                            "kind": 196712,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 16,
-                            "end": 19
-                        },
-                        "flags": 0,
+                        "flags": 32768,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 0,
-                        "end": 19
+                        "end": 14
                     },
                     "operator": "/",
                     "right": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 20,
-                        "end": 20
+                        "start": 16,
+                        "end": 19
                     },
-                    "flags": 2,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 19
+                },
+                "operator": "/",
+                "right": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 20,
                     "end": 20
                 },
-                "flags": 0,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -115,15 +106,17 @@ typeof class{}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -131,6 +124,7 @@ typeof class{}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

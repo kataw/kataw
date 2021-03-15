@@ -12,7 +12,6 @@ async function f(){ await await foo; }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,111 +20,105 @@ async function f(){ await await foo; }
     "kind": 196,
     "source": "async function f(){ await await foo; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 1312785,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 14,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 1312785,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 14,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65559,
                                 "expression": {
                                     "kind": 65559,
                                     "expression": {
-                                        "kind": 65559,
-                                        "expression": {
-                                            "kind": 196712,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 31,
-                                            "end": 35
-                                        },
+                                        "kind": 196712,
+                                        "text": "foo",
+                                        "rawText": "foo",
                                         "flags": 0,
                                         "intersects": false,
-                                        "transformFlags": 32780,
-                                        "start": 25,
+                                        "transformFlags": 0,
+                                        "start": 31,
                                         "end": 35
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 32780,
-                                    "start": 19,
+                                    "start": 25,
                                     "end": 35
                                 },
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 32780,
                                 "start": 19,
-                                "end": 36
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 19,
-                        "end": 36
-                    },
+                                "end": 35
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 19,
+                            "end": 36
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 38
+                    "start": 19,
+                    "end": 36
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 260,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 38
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 38
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 260,
+            "start": 0,
+            "end": 38
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 38
 }
 ```
 
+  
 ### Printed
 
 
@@ -133,6 +126,7 @@ async function f(){ await await foo; }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

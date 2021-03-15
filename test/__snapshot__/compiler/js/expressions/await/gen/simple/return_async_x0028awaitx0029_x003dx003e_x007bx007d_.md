@@ -12,7 +12,6 @@ return async (await) => {};
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,101 +20,95 @@ return async (await) => {};
     "kind": 196,
     "source": "return async (await) => {};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 65552,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 14,
-                                    "end": 19
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 81936,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "await",
+                                "rawText": "await",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1,
+                                "transformFlags": 0,
                                 "start": 14,
-                                "end": 20
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 19,
-                        "end": 20
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
+                                "end": 19
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 25
-                        },
+                            "transformFlags": 1,
+                            "start": 14,
+                            "end": 20
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 19,
+                    "end": 20
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 23,
-                        "end": 26
+                        "start": 25,
+                        "end": 25
                     },
-                    "flags": 536870912,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 23,
                     "end": 26
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+                "start": 6,
+                "end": 26
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -123,6 +116,7 @@ return async (await) => {};
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

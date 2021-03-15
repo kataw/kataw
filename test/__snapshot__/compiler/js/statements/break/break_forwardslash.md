@@ -8,7 +8,6 @@ for(x of 3)break/
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,80 +16,72 @@ for(x of 3)break/
     "kind": 196,
     "source": "for(x of 3)break/",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099287,
-                "initializer": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 5
-                },
-                "expression": {
-                    "kind": 4261540,
-                    "text": 3,
-                    "rawText": "3",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 10
-                },
-                "statement": {
-                    "kind": 2097193,
-                    "label": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 16,
-                        "end": 16
-                    },
-                    "flags": 524290,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 16
-                },
-                "isAwait": false,
-                "flags": 524290,
+    "statements": [
+        {
+            "kind": 2099287,
+            "initializer": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 1,
-                "start": 0,
-                "end": 16
+                "transformFlags": 0,
+                "start": 4,
+                "end": 5
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/",
-                    "flags": 524290,
+            "expression": {
+                "kind": 4261540,
+                "text": 3,
+                "rawText": "3",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 8,
+                "end": 10
+            },
+            "statement": {
+                "kind": 2097193,
+                "label": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 16,
-                    "end": 18
+                    "end": 16
                 },
-                "flags": 0,
+                "flags": 1048577,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 16
+            },
+            "isAwait": false,
+            "flags": 1048577,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/",
+                "flags": 1048577,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 16,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -108,15 +99,17 @@ for(x of 3)break/
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 17
 }
 ```
 
+  
 ### Printed
 
 
@@ -124,6 +117,7 @@ for(x of 3)break/
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

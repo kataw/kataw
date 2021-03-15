@@ -12,7 +12,6 @@ class A extends fooo[bar] {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,96 +20,90 @@ class A extends fooo[bar] {}
     "kind": 196,
     "source": "class A extends fooo[bar] {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 66116,
-                        "member": {
-                            "kind": 196712,
-                            "text": "fooo",
-                            "rawText": "fooo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 20
-                        },
-                        "expression": {
-                            "kind": 196712,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 21,
-                            "end": 24
-                        },
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 67174980,
+                    "member": {
+                        "kind": 196712,
+                        "text": "fooo",
+                        "rawText": "fooo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 20,
-                        "end": 25
+                        "start": 15,
+                        "end": 20
                     },
-                    "typeArguments": null,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 24
+                    },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 15,
+                    "start": 20,
                     "end": 25
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 27,
-                    "end": 28
-                },
-                "decorators": null,
-                "isAbstract": false,
+                "typeArguments": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 25
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 27,
                 "end": 28
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 28
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 28
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 28
 }
 ```
 
+  
 ### Printed
 
 
@@ -118,6 +111,7 @@ class A extends fooo[bar] {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

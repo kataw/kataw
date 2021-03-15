@@ -12,7 +12,6 @@ for (async a => b in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,111 +20,105 @@ for (async a => b in x) ;
     "kind": 196,
     "source": "for (async a => b in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 65552,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 10,
-                                    "end": 12
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 81936,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "a",
+                                "rawText": "a",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 1,
-                                "start": 15,
+                                "transformFlags": 1025,
+                                "start": 10,
                                 "end": 12
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 12
-                    },
-                    "contents": {
-                        "kind": 196712,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 17
-                    },
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 15,
+                            "end": 12
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 5,
-                    "end": 17
+                    "end": 12
                 },
-                "expression": {
+                "contents": {
                     "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "b",
+                    "rawText": "b",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 20,
-                    "end": 22
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 23,
-                    "end": 25
+                    "start": 15,
+                    "end": 17
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 17
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 20,
+                "end": 22
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 23,
                 "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -133,6 +126,7 @@ for (async a => b in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

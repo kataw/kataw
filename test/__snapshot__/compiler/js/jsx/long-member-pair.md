@@ -14,7 +14,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,371 +22,363 @@
     "kind": 196,
     "source": "<SolarSystem.Earth.America.USA.California.mountain-view></SolarSystem.Earth.America.USA.California.mountain-view>",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 69766,
-                            "tagName": {
-                                "kind": 136,
+                        "kind": 69766,
+                        "tagName": {
+                            "kind": 67109000,
+                            "member": {
+                                "kind": 129,
+                                "text": "mountain",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 8192,
+                                "start": 42,
+                                "end": 50
+                            },
+                            "expression": {
+                                "kind": 67109000,
                                 "member": {
                                     "kind": 129,
-                                    "text": "mountain",
+                                    "text": "California",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 8192,
-                                    "start": 42,
-                                    "end": 50
+                                    "start": 31,
+                                    "end": 41
                                 },
                                 "expression": {
-                                    "kind": 136,
+                                    "kind": 67109000,
                                     "member": {
                                         "kind": 129,
-                                        "text": "California",
+                                        "text": "USA",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8192,
-                                        "start": 31,
-                                        "end": 41
+                                        "start": 27,
+                                        "end": 30
                                     },
                                     "expression": {
-                                        "kind": 136,
+                                        "kind": 67109000,
                                         "member": {
                                             "kind": 129,
-                                            "text": "USA",
+                                            "text": "America",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 8192,
-                                            "start": 27,
-                                            "end": 30
+                                            "start": 19,
+                                            "end": 26
                                         },
                                         "expression": {
-                                            "kind": 136,
+                                            "kind": 67109000,
                                             "member": {
                                                 "kind": 129,
-                                                "text": "America",
+                                                "text": "Earth",
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 8192,
-                                                "start": 19,
-                                                "end": 26
+                                                "start": 13,
+                                                "end": 18
                                             },
                                             "expression": {
-                                                "kind": 136,
-                                                "member": {
-                                                    "kind": 129,
-                                                    "text": "Earth",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 8192,
-                                                    "start": 13,
-                                                    "end": 18
-                                                },
-                                                "expression": {
-                                                    "kind": 129,
-                                                    "text": "SolarSystem",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 8192,
-                                                    "start": 1,
-                                                    "end": 12
-                                                },
+                                                "kind": 129,
+                                                "text": "SolarSystem",
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 8192,
                                                 "start": 1,
-                                                "end": 18
+                                                "end": 12
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 8192,
                                             "start": 1,
-                                            "end": 26
+                                            "end": 18
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8192,
                                         "start": 1,
-                                        "end": 30
+                                        "end": 26
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 8192,
                                     "start": 1,
-                                    "end": 41
+                                    "end": 30
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 8192,
                                 "start": 1,
-                                "end": 50
+                                "end": 41
                             },
-                            "attributes": {
-                                "kind": 123,
-                                "attributesList": [],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 8192,
-                                "start": 50,
-                                "end": 50
-                            },
-                            "typeArguments": null,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 8192,
-                            "start": 0,
-                            "end": 50
-                        },
-                        "operator": "-",
-                        "right": {
-                            "kind": 196712,
-                            "text": "view",
-                            "rawText": "view",
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 0,
-                            "start": 51,
-                            "end": 55
+                            "transformFlags": 8192,
+                            "start": 1,
+                            "end": 50
                         },
+                        "attributes": {
+                            "kind": 123,
+                            "attributesList": [],
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 8192,
+                            "start": 50,
+                            "end": 50
+                        },
+                        "typeArguments": null,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 8192,
+                        "start": 0,
+                        "end": 50
+                    },
+                    "operator": "-",
+                    "right": {
+                        "kind": 196712,
+                        "text": "view",
+                        "rawText": "view",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 0,
+                        "start": 51,
                         "end": 55
                     },
-                    "operator": ">",
-                    "right": {
-                        "kind": 67592,
-                        "typeParameters": {
-                            "kind": 8425,
-                            "typeParameterList": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 2097152,
-                            "start": 57,
-                            "end": 57
-                        },
-                        "arrowParameters": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 57,
-                            "end": 57
-                        },
-                        "contents": {
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 55
+                },
+                "operator": ">",
+                "right": {
+                    "kind": 83976,
+                    "typeParameters": {
+                        "kind": 134226153,
+                        "typeParameterList": [],
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 57,
+                        "end": 57
+                    },
+                    "arrowParameters": {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 57,
+                        "end": 57
+                    },
+                    "contents": {
+                        "kind": 65563,
+                        "left": {
                             "kind": 65563,
                             "left": {
                                 "kind": 65563,
                                 "left": {
-                                    "kind": 65563,
-                                    "left": {
-                                        "kind": 131322,
-                                        "text": "",
-                                        "flags": 6,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 57,
-                                        "end": 57
-                                    },
-                                    "operator": "/",
-                                    "right": {
-                                        "kind": 66232,
+                                    "kind": 131322,
+                                    "text": "",
+                                    "flags": 3,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 57,
+                                    "end": 57
+                                },
+                                "operator": "/",
+                                "right": {
+                                    "kind": 67175096,
+                                    "member": {
+                                        "kind": 67175096,
                                         "member": {
-                                            "kind": 66232,
+                                            "kind": 67175096,
                                             "member": {
-                                                "kind": 66232,
+                                                "kind": 67175096,
                                                 "member": {
-                                                    "kind": 66232,
+                                                    "kind": 67175096,
                                                     "member": {
-                                                        "kind": 66232,
-                                                        "member": {
-                                                            "kind": 196712,
-                                                            "text": "SolarSystem",
-                                                            "rawText": "SolarSystem",
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 58,
-                                                            "end": 69
-                                                        },
-                                                        "expression": {
-                                                            "kind": 196711,
-                                                            "text": "Earth",
-                                                            "rawText": "Earth",
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 70,
-                                                            "end": 75
-                                                        },
+                                                        "kind": 196712,
+                                                        "text": "SolarSystem",
+                                                        "rawText": "SolarSystem",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "start": 69,
-                                                        "end": 75,
-                                                        "period": {
-                                                            "kind": 254,
-                                                            "pos": 69,
-                                                            "end": 70
-                                                        }
+                                                        "start": 58,
+                                                        "end": 69
                                                     },
                                                     "expression": {
                                                         "kind": 196711,
-                                                        "text": "America",
-                                                        "rawText": "America",
+                                                        "text": "Earth",
+                                                        "rawText": "Earth",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "start": 76,
-                                                        "end": 83
+                                                        "start": 70,
+                                                        "end": 75
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 75,
-                                                    "end": 83,
+                                                    "start": 69,
+                                                    "end": 75,
                                                     "period": {
-                                                        "kind": 254,
-                                                        "pos": 75,
-                                                        "end": 76
+                                                        "kind": 255,
+                                                        "pos": 69,
+                                                        "end": 70
                                                     }
                                                 },
                                                 "expression": {
                                                     "kind": 196711,
-                                                    "text": "USA",
-                                                    "rawText": "USA",
+                                                    "text": "America",
+                                                    "rawText": "America",
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 84,
-                                                    "end": 87
+                                                    "start": 76,
+                                                    "end": 83
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 83,
-                                                "end": 87,
+                                                "start": 75,
+                                                "end": 83,
                                                 "period": {
-                                                    "kind": 254,
-                                                    "pos": 83,
-                                                    "end": 84
+                                                    "kind": 255,
+                                                    "pos": 75,
+                                                    "end": 76
                                                 }
                                             },
                                             "expression": {
                                                 "kind": 196711,
-                                                "text": "California",
-                                                "rawText": "California",
+                                                "text": "USA",
+                                                "rawText": "USA",
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 88,
-                                                "end": 98
+                                                "start": 84,
+                                                "end": 87
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "start": 87,
-                                            "end": 98,
+                                            "start": 83,
+                                            "end": 87,
                                             "period": {
-                                                "kind": 254,
-                                                "pos": 87,
-                                                "end": 88
+                                                "kind": 255,
+                                                "pos": 83,
+                                                "end": 84
                                             }
                                         },
                                         "expression": {
                                             "kind": 196711,
-                                            "text": "mountain",
-                                            "rawText": "mountain",
+                                            "text": "California",
+                                            "rawText": "California",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "start": 99,
-                                            "end": 107
+                                            "start": 88,
+                                            "end": 98
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 98,
-                                        "end": 107,
+                                        "start": 87,
+                                        "end": 98,
                                         "period": {
-                                            "kind": 254,
-                                            "pos": 98,
-                                            "end": 99
+                                            "kind": 255,
+                                            "pos": 87,
+                                            "end": 88
                                         }
+                                    },
+                                    "expression": {
+                                        "kind": 196711,
+                                        "text": "mountain",
+                                        "rawText": "mountain",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 99,
+                                        "end": 107
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 57,
-                                    "end": 107
-                                },
-                                "operator": "-",
-                                "right": {
-                                    "kind": 196712,
-                                    "text": "view",
-                                    "rawText": "view",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 108,
-                                    "end": 112
+                                    "start": 98,
+                                    "end": 107,
+                                    "period": {
+                                        "kind": 255,
+                                        "pos": 98,
+                                        "end": 99
+                                    }
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 57,
-                                "end": 112
+                                "end": 107
                             },
-                            "operator": ">",
+                            "operator": "-",
                             "right": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
+                                "kind": 196712,
+                                "text": "view",
+                                "rawText": "view",
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 113,
-                                "end": 113
+                                "start": 108,
+                                "end": 112
                             },
-                            "flags": 2,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 57,
+                            "end": 112
+                        },
+                        "operator": ">",
+                        "right": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 113,
                             "end": 113
                         },
-                        "flags": 2,
+                        "flags": 1,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 56,
+                        "start": 57,
                         "end": 113
                     },
-                    "flags": 2,
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 56,
                     "end": 113
                 },
-                "flags": 0,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 113
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 113
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 113
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -405,15 +396,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 113
 }
 ```
 
+  
 ### Printed
 
 
@@ -421,6 +414,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

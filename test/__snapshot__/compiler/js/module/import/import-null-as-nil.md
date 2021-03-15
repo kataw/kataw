@@ -14,114 +14,107 @@ import { null as nil } from "bar"
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "import { null as nil } from \"bar\"",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 4261583,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 27,
-                    "end": 33
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": null,
-                    "nameSpaceImport": null,
-                    "namedImports": {
-                        "kind": 153,
-                        "importsList": {
-                            "kind": 115,
-                            "specifiers": [
-                                {
-                                    "kind": 113,
-                                    "moduleExportName": null,
-                                    "name": {
-                                        "kind": 196711,
-                                        "text": "null",
-                                        "rawText": "null",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 13
-                                    },
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "nil",
-                                        "rawText": "nil",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "start": 16,
-                                        "end": 20
-                                    },
-                                    "flags": 65536,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 4261583,
+                "text": "bar",
+                "rawText": "bar",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 27,
+                "end": 33
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": {
+                    "kind": 153,
+                    "importsList": {
+                        "kind": 115,
+                        "specifiers": [
+                            {
+                                "kind": 113,
+                                "moduleExportName": null,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "null",
+                                    "rawText": "null",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "start": 8,
+                                    "end": 13
+                                },
+                                "binding": {
+                                    "kind": 131102,
+                                    "text": "nil",
+                                    "rawText": "nil",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 1025,
+                                    "start": 16,
                                     "end": 20
-                                }
-                            ],
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 20
-                        },
-                        "flags": 65536,
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 20
+                            }
+                        ],
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 6,
-                        "end": 22
+                        "start": 8,
+                        "end": 20
                     },
-                    "isTypeOnly": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 22
                 },
-                "flags": 65536,
+                "isTypeOnly": false,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 33
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 22
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 33
 }
 ```
 
+  
 ### Printed
 
 
@@ -129,6 +122,7 @@ import { null as nil } from "bar"
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

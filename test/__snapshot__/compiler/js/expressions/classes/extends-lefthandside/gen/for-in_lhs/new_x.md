@@ -12,7 +12,6 @@ for (new x in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,31 +20,11 @@ for (new x in x) ;
     "kind": 196,
     "source": "for (new x in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 10
-                    },
-                    "typeArguments": null,
-                    "argumentList": null,
-                    "flags": 5,
-                    "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
-                    "end": 10
-                },
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 66204,
                 "expression": {
                     "kind": 196712,
                     "text": "x",
@@ -53,42 +32,56 @@ for (new x in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
+                    "start": 8,
+                    "end": 10
                 },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 18
-                },
+                "typeArguments": null,
+                "argumentList": null,
+                "flags": 5,
+                "intersects": false,
+                "transformFlags": 32,
+                "start": 0,
+                "end": 10
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 13,
+                "end": 15
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 16,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -96,6 +89,7 @@ for (new x in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

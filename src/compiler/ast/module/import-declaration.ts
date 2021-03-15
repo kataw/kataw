@@ -2,8 +2,6 @@ import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { StringLiteral } from '../expressions/string-literal';
 import { Expression } from '../expressions';
 import { ImportClause } from './import-clause';
-import { Script } from '../script';
-import { Module } from '../module';
 import { updateNode } from '../../utils';
 
 export interface ImportDeclaration extends Node {

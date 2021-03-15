@@ -8,7 +8,6 @@ xxx\Axxx
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,53 +16,45 @@ xxx\Axxx
     "kind": 196,
     "source": "xxx\\Axxx",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "xxx",
-                    "rawText": "xxx",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 3
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "xxx",
+                "rawText": "xxx",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "Axxx",
-                    "rawText": "Axxx",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 8
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "Axxx",
+                "rawText": "Axxx",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 8
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 8
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 4,
+            "end": 8
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -81,15 +72,17 @@ xxx\Axxx
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 8
 }
 ```
 
+  
 ### Printed
 
 
@@ -97,6 +90,7 @@ xxx\Axxx
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

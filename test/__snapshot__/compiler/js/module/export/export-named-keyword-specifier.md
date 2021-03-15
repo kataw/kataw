@@ -14,87 +14,88 @@ export {try};
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export {try};",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [
-                            {
-                                "kind": 79,
-                                "moduleExportName": null,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "try",
-                                    "rawText": "try",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 11
-                                },
-                                "binding": null,
-                                "flags": 65536,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [
+                        {
+                            "kind": 79,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 196711,
+                                "text": "try",
+                                "rawText": "try",
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
-                            }
-                        ],
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 11
-                    },
-                    "flags": 65536,
+                            },
+                            "binding": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 11
+                        }
+                    ],
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
-                    "end": 12
+                    "start": 8,
+                    "end": 11
                 },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 12
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -102,6 +103,7 @@ export {try};
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

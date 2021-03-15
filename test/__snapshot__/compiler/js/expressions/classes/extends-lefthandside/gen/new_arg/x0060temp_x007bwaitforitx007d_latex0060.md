@@ -12,7 +12,6 @@ new `temp {waitforit} late`
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,57 +20,51 @@ new `temp {waitforit} late`
     "kind": 196,
     "source": "new `temp {waitforit} late`",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 4260568,
-                        "rawText": "temp {waitforit} late",
-                        "text": "temp {waitforit} late",
-                        "literal": true,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1,
-                        "start": 3,
-                        "end": 27
-                    },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "kind": 4260568,
+                    "rawText": "temp {waitforit} late",
+                    "text": "temp {waitforit} late",
+                    "literal": true,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 1,
+                    "start": 3,
                     "end": 27
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -79,6 +72,7 @@ new `temp {waitforit} late`
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

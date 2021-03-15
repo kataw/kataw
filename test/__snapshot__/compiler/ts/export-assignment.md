@@ -14,55 +14,56 @@ export = foo;
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export = foo;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 8267,
-                "expression": {
-                    "kind": 196712,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 12
-                },
-                "flags": 65536,
+    "statements": [
+        {
+            "kind": 8267,
+            "expression": {
+                "kind": 196712,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 6,
-                "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+                "start": 8,
+                "end": 12
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -70,6 +71,7 @@ export = foo;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

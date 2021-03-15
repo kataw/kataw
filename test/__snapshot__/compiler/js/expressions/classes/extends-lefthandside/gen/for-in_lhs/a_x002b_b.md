@@ -12,7 +12,6 @@ for (a + b in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,83 +20,77 @@ for (a + b in x) ;
     "kind": 196,
     "source": "for (a + b in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 196712,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 6
-                    },
-                    "operator": "+",
-                    "right": {
-                        "kind": 196712,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 10
-                    },
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 65563,
+                "left": {
+                    "kind": 196712,
+                    "text": "a",
+                    "rawText": "a",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 5,
-                    "end": 10
+                    "end": 6
                 },
-                "expression": {
+                "operator": "+",
+                "right": {
                     "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "b",
+                    "rawText": "b",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 18
+                    "start": 8,
+                    "end": 10
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 10
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 15
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 16,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -105,6 +98,7 @@ for (a + b in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

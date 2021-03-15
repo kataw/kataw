@@ -14,77 +14,70 @@ import * as foo from "foo";
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "import * as foo from \"foo\";",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 4261583,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 26
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": null,
-                    "nameSpaceImport": {
-                        "kind": 131102,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 11,
-                        "end": 15
-                    },
-                    "namedImports": null,
-                    "isTypeOnly": false,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 15
-                },
-                "flags": 65536,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 4261583,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": true,
+                "start": 20,
+                "end": 26
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": null,
+                "nameSpaceImport": {
+                    "kind": 131102,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 11,
+                    "end": 15
+                },
+                "namedImports": null,
+                "isTypeOnly": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 15
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 27
 }
 ```
 
+  
 ### Printed
 
 
@@ -92,6 +85,7 @@ import * as foo from "foo";
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

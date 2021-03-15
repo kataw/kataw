@@ -12,7 +12,6 @@ for (await x in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,74 +20,66 @@ for (await x in x) ;
     "kind": 196,
     "source": "for (await x in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099288,
-                "initializer": {
+    "statements": [
+        {
+            "kind": 2099288,
+            "initializer": {
+                "kind": 196712,
+                "text": "await",
+                "rawText": "await",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 10
+            },
+            "condition": null,
+            "incrementor": {
+                "kind": 65563,
+                "left": {
                     "kind": 196712,
-                    "text": "await",
-                    "rawText": "await",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 10
-                },
-                "condition": null,
-                "incrementor": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 10,
-                        "end": 12
-                    },
-                    "operator": "in",
-                    "right": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "flags": 0,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 10,
-                    "end": 17
+                    "end": 12
                 },
-                "isVariableDeclarationList": false,
-                "statement": {
-                    "kind": 6291526,
+                "operator": "in",
+                "right": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 20
+                    "start": 15,
+                    "end": 17
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 10,
+                "end": 17
+            },
+            "isVariableDeclarationList": false,
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -106,15 +97,17 @@ for (await x in x) ;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -122,6 +115,7 @@ for (await x in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ return[ catch
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,38 +20,57 @@ return[ catch
     "kind": 196,
     "source": "return[ catch",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 7
-                    },
-                    "flags": 2,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 7,
                     "end": 7
                 },
-                "flags": 2,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 7
             },
-            {
-                "kind": 2097375,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 7
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 7,
+                "end": 7
+            },
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -62,57 +80,30 @@ return[ catch
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 7,
-                        "end": 7
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 7,
-                    "end": 7
-                },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 13
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 16,
-                    "start": 7,
+                    "transformFlags": 0,
+                    "start": 13,
                     "end": 13
                 },
-                "finallyBlock": null,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 16,
                 "start": 7,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "finallyBlock": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 16,
+            "start": 7,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -123,15 +114,17 @@ return[ catch
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -139,6 +132,7 @@ return[ catch
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

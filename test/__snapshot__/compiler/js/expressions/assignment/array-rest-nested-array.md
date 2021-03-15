@@ -19,129 +19,122 @@ result = [...[x]] = vals;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "result = [...[x]] = vals;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "result",
-                        "rawText": "result",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 6
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 67207686,
-                            "elementList": {
-                                "kind": 65605,
-                                "elements": [
-                                    {
-                                        "kind": 65740,
-                                        "argument": {
-                                            "kind": 67207686,
-                                            "elementList": {
-                                                "kind": 65605,
-                                                "elements": [
-                                                    {
-                                                        "kind": 196712,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 14,
-                                                        "end": 15
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 14,
-                                                "end": 15
-                                            },
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 13,
-                                            "end": 16
-                                        },
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 2,
-                                        "start": 10,
-                                        "end": 16
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 16
-                            },
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 17
-                        },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "vals",
-                            "rawText": "vals",
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 19,
-                            "end": 24
-                        },
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 24
-                    },
-                    "flags": 65536,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "result",
+                    "rawText": "result",
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 6
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 98822,
+                        "elementList": {
+                            "kind": 65605,
+                            "elements": [
+                                {
+                                    "kind": 65740,
+                                    "argument": {
+                                        "kind": 98822,
+                                        "elementList": {
+                                            "kind": 65605,
+                                            "elements": [
+                                                {
+                                                    "kind": 196712,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 14,
+                                                    "end": 15
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 13,
+                                        "end": 16
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 2,
+                                    "start": 10,
+                                    "end": 16
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 10,
+                            "end": 16
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 17
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 196712,
+                        "text": "vals",
+                        "rawText": "vals",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 24
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 8,
                     "end": 24
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+                "end": 24
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 25

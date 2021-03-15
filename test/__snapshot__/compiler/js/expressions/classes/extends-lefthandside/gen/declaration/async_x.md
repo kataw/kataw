@@ -14,7 +14,6 @@ x {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,103 +22,95 @@ x {}
     "kind": 196,
     "source": "class A extends async\nx {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "typeArguments": null,
-                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 16386,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 16386,
+                "typeArguments": null,
+                "flags": 32768,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 32769,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 21
+                "end": 0
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 16386,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 23
-                },
-                "flags": 0,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 32769,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 21
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 32769,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 25
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 21,
+            "end": 23
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 23,
-                "end": 26
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 26
-    },
-    "jsx": false,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 23,
+            "end": 26
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -137,15 +128,17 @@ x {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 26
 }
 ```
 
+  
 ### Printed
 
 
@@ -153,6 +146,7 @@ x {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

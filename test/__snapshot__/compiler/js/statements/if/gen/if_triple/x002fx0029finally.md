@@ -12,7 +12,6 @@ if if if /)finally
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,93 +20,85 @@ if if if /)finally
     "kind": 196,
     "source": "if if if /)finally",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 2
+            },
+            "consequent": {
                 "kind": 2097257,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
-                    "end": 2
+                    "start": 5,
+                    "end": 5
                 },
                 "consequent": {
                     "kind": 2097257,
                     "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 5
-                    },
-                    "consequent": {
-                        "kind": 2097257,
-                        "expression": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 8
-                            },
-                            "operator": "/",
-                            "right": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 10
-                            },
-                            "flags": 2,
+                        "kind": 65563,
+                        "left": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 8,
+                            "end": 8
+                        },
+                        "operator": "/",
+                        "right": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 10,
                             "end": 10
                         },
-                        "consequent": {
-                            "kind": 2097375,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 10
+                    },
+                    "consequent": {
+                        "kind": 2097375,
+                        "block": {
+                            "kind": 2099237,
                             "block": {
-                                "kind": 2099237,
-                                "block": {
-                                    "kind": 2084,
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 11,
-                                    "end": 11
-                                },
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
                             },
-                            "catchClause": null,
-                            "finallyBlock": {
-                                "kind": 2099237,
-                                "block": {
-                                    "kind": 2084,
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 18
-                                },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 11,
+                            "end": 11
+                        },
+                        "catchClause": null,
+                        "finallyBlock": {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
@@ -117,15 +108,13 @@ if if if /)finally
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 11,
+                            "start": 18,
                             "end": 18
                         },
-                        "alternate": null,
-                        "isWebCompat": true,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 5,
+                        "start": 11,
                         "end": 18
                     },
                     "alternate": null,
@@ -133,7 +122,7 @@ if if if /)finally
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 18
                 },
                 "alternate": null,
@@ -141,17 +130,19 @@ if if if /)finally
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -190,15 +181,17 @@ if if if /)finally
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -206,6 +199,7 @@ if if if /)finally
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

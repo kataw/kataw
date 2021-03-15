@@ -12,7 +12,6 @@ c\u006fnst = x;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,53 +20,45 @@ c\u006fnst = x;
     "kind": 196,
     "source": "c\\u006fnst = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 10,
-                    "end": 10
-                },
-                "flags": 37748754,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": true,
+            "binding": {
+                "kind": 31,
+                "bindingList": [],
+                "flags": 8,
                 "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 10,
                 "end": 10
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 14
-                },
+            "flags": 75497481,
+            "intersects": false,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 12,
-                "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": false,
+                "end": 14
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 12,
+            "end": 15
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -78,15 +69,17 @@ c\u006fnst = x;
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 15
 }
 ```
 
+  
 ### Printed
 
 
@@ -94,6 +87,7 @@ c\u006fnst = x;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

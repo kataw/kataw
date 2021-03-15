@@ -12,7 +12,6 @@ class new {}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,77 +20,69 @@ class new {}
     "kind": 196,
     "source": "class new {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2097233,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 67224232,
-                        "propertyList": {
-                            "kind": 65722,
-                            "properties": [],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 11,
-                            "end": 11
-                        },
+                    "kind": 98984,
+                    "propertyList": {
+                        "kind": 65722,
+                        "properties": [],
+                        "trailingComma": false,
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 9,
-                        "end": 12
+                        "start": 11,
+                        "end": 11
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
-                    "flags": 5,
+                    "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 0,
+                    "start": 9,
                     "end": 12
                 },
-                "flags": 0,
+                "typeArguments": null,
+                "argumentList": null,
+                "flags": 5,
                 "intersects": false,
-                "transformFlags": 0,
-                "start": 5,
+                "transformFlags": 32,
+                "start": 0,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -102,15 +93,17 @@ class new {}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 12
 }
 ```
 
+  
 ### Printed
 
 
@@ -118,6 +111,7 @@ class new {}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -10,7 +10,6 @@ var v = a ?
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -19,104 +18,98 @@ var v = a ?
     "kind": 196,
     "source": "var v = a ?\n  b :\n  c;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "v",
-                                "rawText": "v",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 5
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 65592,
-                                "shortCircuit": {
-                                    "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 7,
-                                    "end": 9
-                                },
-                                "consequent": {
-                                    "kind": 196712,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 11,
-                                    "end": 15
-                                },
-                                "alternate": {
-                                    "kind": 196712,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 17,
-                                    "end": 21
-                                },
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "v",
+                            "rawText": "v",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 3,
+                            "end": 5
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 65592,
+                            "shortCircuit": {
+                                "kind": 196712,
+                                "text": "a",
+                                "rawText": "a",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 7,
+                                "end": 9
+                            },
+                            "consequent": {
+                                "kind": 196712,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 32768,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 11,
+                                "end": 15
+                            },
+                            "alternate": {
+                                "kind": 196712,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 32768,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 17,
                                 "end": 21
                             },
-                            "flags": 3,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 7,
                             "end": 21
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 21
-                },
+                        },
+                        "flags": 3,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 21
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+                "start": 3,
+                "end": 21
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -124,6 +117,7 @@ var v = a ?
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

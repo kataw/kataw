@@ -15,7 +15,6 @@ x*/
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -24,37 +23,29 @@ x*/
     "kind": 196,
     "source": "// var /*\nx*/",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 11
-                    },
-                    "operator": "*",
-                    "right": {
-                        "kind": 4260544,
-                        "text": "/",
-                        "flags": 524288,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 12,
-                        "end": 14
-                    },
-                    "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 32768,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 11
+                },
+                "operator": "*",
+                "right": {
+                    "kind": 4260544,
+                    "text": "/",
+                    "flags": 1048576,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 12,
                     "end": 14
                 },
                 "flags": 0,
@@ -62,15 +53,15 @@ x*/
                 "transformFlags": 0,
                 "start": 0,
                 "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -81,15 +72,17 @@ x*/
             "length": 1
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -97,6 +90,7 @@ x*/
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

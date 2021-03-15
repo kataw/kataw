@@ -12,7 +12,6 @@ import(y=x)
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,74 +20,68 @@ import(y=x)
     "kind": 196,
     "source": "import(y=x)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66156,
+                "typeArguments": null,
                 "expression": {
-                    "kind": 66156,
-                    "typeArguments": null,
-                    "expression": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 196712,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 10
-                        },
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "y",
+                        "rawText": "y",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 7,
+                        "end": 8
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 9,
                         "end": 10
                     },
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 262152,
-                    "start": 0,
-                    "end": 11
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 10
                 },
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 262152,
                 "start": 0,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 11
 }
 ```
 
+  
 ### Printed
 
 
@@ -96,6 +89,7 @@ import(y=x)
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

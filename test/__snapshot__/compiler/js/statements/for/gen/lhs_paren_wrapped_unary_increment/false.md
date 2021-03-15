@@ -12,7 +12,6 @@ for ((a++) in c);
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,81 +20,75 @@ for ((a++) in c);
     "kind": 196,
     "source": "for ((a++) in c);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 65714,
-                        "operator": "++",
-                        "operand": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 7
-                        },
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 66224,
+                "expression": {
+                    "kind": 65714,
+                    "operator": "++",
+                    "operand": {
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 6,
-                        "end": 9
+                        "end": 7
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 5,
-                    "end": 10
-                },
-                "expression": {
-                    "kind": 196712,
-                    "text": "c",
-                    "rawText": "c",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 17
+                    "start": 6,
+                    "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 10
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "c",
+                "rawText": "c",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 15
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 16,
                 "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 17
 }
 ```
 
+  
 ### Printed
 
 
@@ -103,6 +96,7 @@ for ((a++) in c);
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

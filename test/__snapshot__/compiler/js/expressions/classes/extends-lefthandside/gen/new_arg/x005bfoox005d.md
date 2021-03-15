@@ -12,7 +12,6 @@ new [foo]
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,76 +20,70 @@ new [foo]
     "kind": 196,
     "source": "new [foo]",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 67207686,
-                        "elementList": {
-                            "kind": 65605,
-                            "elements": [
-                                {
-                                    "kind": 196712,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 5,
-                                    "end": 8
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 5,
-                            "end": 8
-                        },
+                    "kind": 98822,
+                    "elementList": {
+                        "kind": 65605,
+                        "elements": [
+                            {
+                                "kind": 196712,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 5,
+                                "end": 8
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 3,
-                        "end": 9
+                        "start": 5,
+                        "end": 8
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 9
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 9
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 9
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 9
 }
 ```
 
+  
 ### Printed
 
 
@@ -98,6 +91,7 @@ new [foo]
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

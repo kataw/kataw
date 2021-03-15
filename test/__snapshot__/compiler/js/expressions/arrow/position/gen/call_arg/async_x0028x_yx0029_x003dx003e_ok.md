@@ -12,7 +12,6 @@ foo(async (x, y) => ok)
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,86 +20,80 @@ foo(async (x, y) => ok)
     "kind": 196,
     "source": "foo(async (x, y) => ok)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 3
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [
-                            {
-                                "kind": 65552,
-                                "typeParameters": null,
-                                "arrowParameters": [],
-                                "contents": {
-                                    "kind": 196712,
-                                    "text": "ok",
-                                    "rawText": "ok",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 19,
-                                    "end": 22
-                                },
-                                "flags": 536870912,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 4,
-                                "end": 22
-                            }
-                        ],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 9,
-                        "end": 23
-                    },
+                    "kind": 196712,
+                    "text": "foo",
+                    "rawText": "foo",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 3,
+                    "start": 0,
+                    "end": 3
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [
+                        {
+                            "kind": 81936,
+                            "typeParameters": null,
+                            "arrowParameters": [],
+                            "contents": {
+                                "kind": 196712,
+                                "text": "ok",
+                                "rawText": "ok",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 19,
+                                "end": 22
+                            },
+                            "flags": 1073741824,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 4,
+                            "end": 22
+                        }
+                    ],
+                    "trailingComma": false,
+                    "transformFlags": 0,
+                    "flags": 0,
+                    "intersects": false,
+                    "start": 9,
                     "end": 23
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 3,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 23
 }
 ```
 
+  
 ### Printed
 
 
@@ -108,6 +101,7 @@ foo(async (x, y) => ok)
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -12,7 +12,6 @@ st\u0061tic = x;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,65 +20,59 @@ st\u0061tic = x;
     "kind": 196,
     "source": "st\\u0061tic = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "static",
-                        "rawText": "st\\u0061tic",
-                        "flags": 37748736,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 11
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 15
-                    },
-                    "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "static",
+                    "rawText": "st\\u0061tic",
+                    "flags": 75497472,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 11
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 13,
                     "end": 15
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+                "end": 15
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 16
 }
 ```
 
+  
 ### Printed
 
 
@@ -87,6 +80,7 @@ st\u0061tic = x;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

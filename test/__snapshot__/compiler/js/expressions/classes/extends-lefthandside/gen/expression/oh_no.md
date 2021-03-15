@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,120 +20,112 @@
     "kind": 196,
     "source": "(class B extends oh,no {})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 65590,
-                        "expressions": [
-                            {
-                                "kind": 82483,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 6,
-                                    "end": 8
-                                },
-                                "typeParameters": null,
-                                "classHeritage": {
-                                    "kind": 52,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "oh",
-                                        "rawText": "oh",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 16,
-                                        "end": 19
-                                    },
-                                    "typeArguments": null,
+                    "kind": 65590,
+                    "expressions": [
+                        {
+                            "kind": 66099,
+                            "name": {
+                                "kind": 131102,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 6,
+                                "end": 8
+                            },
+                            "typeParameters": null,
+                            "classHeritage": {
+                                "kind": 52,
+                                "expression": {
+                                    "kind": 196712,
+                                    "text": "oh",
+                                    "rawText": "oh",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
-                                "implementClauses": null,
-                                "members": {
-                                    "kind": 50,
-                                    "elements": [],
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 1,
-                                    "end": 1
-                                },
-                                "decorators": null,
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 1,
-                                "end": 19
-                            },
-                            {
-                                "kind": 196712,
-                                "text": "no",
-                                "rawText": "no",
+                                "typeArguments": null,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 20,
-                                "end": 22
-                            }
-                        ],
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 22
-                    },
-                    "flags": 2,
+                                "start": 16,
+                                "end": 19
+                            },
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
+                                "flags": 1,
+                                "intersects": false,
+                                "transformFlags": 1,
+                                "start": 1,
+                                "end": 1
+                            },
+                            "decorators": null,
+                            "flags": 1,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 1,
+                            "end": 19
+                        },
+                        {
+                            "kind": 196712,
+                            "text": "no",
+                            "rawText": "no",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 20,
+                            "end": 22
+                        }
+                    ],
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 1,
                     "end": 22
                 },
-                "flags": 0,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 24,
-                    "end": 24
-                },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 22,
-                "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 26
-    },
-    "jsx": false,
+                "start": 24,
+                "end": 24
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 22,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -159,15 +150,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 26
 }
 ```
 
+  
 ### Printed
 
 
@@ -175,6 +168,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

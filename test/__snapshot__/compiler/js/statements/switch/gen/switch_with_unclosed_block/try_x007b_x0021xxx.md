@@ -12,7 +12,6 @@ switch {} default(x) { try { !xxx
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,55 +20,47 @@ switch {} default(x) { try { !xxx
     "kind": 196,
     "source": "switch {} default(x) { try { !xxx",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
-                    "end": 9
+                    "start": 8,
+                    "end": 8
                 },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [
-                        {
-                            "kind": 65,
-                            "statements": [
-                                {
-                                    "kind": 2097233,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 9
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [
+                    {
+                        "kind": 65,
+                        "statements": [
+                            {
+                                "kind": 2097233,
+                                "expression": {
+                                    "kind": 66224,
                                     "expression": {
-                                        "kind": 66224,
-                                        "expression": {
-                                            "kind": 196712,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 18,
-                                            "end": 19
-                                        },
+                                        "kind": 196712,
+                                        "text": "x",
+                                        "rawText": "x",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 17,
-                                        "end": 20
+                                        "start": 18,
+                                        "end": 19
                                     },
                                     "flags": 0,
                                     "intersects": false,
@@ -77,37 +68,37 @@ switch {} default(x) { try { !xxx
                                     "start": 17,
                                     "end": 20
                                 },
-                                {
-                                    "kind": 2099237,
-                                    "block": {
-                                        "kind": 2084,
-                                        "statements": [
-                                            {
-                                                "kind": 2097375,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 17,
+                                "end": 20
+                            },
+                            {
+                                "kind": 2099237,
+                                "block": {
+                                    "kind": 2084,
+                                    "statements": [
+                                        {
+                                            "kind": 2097375,
+                                            "block": {
+                                                "kind": 2099237,
                                                 "block": {
-                                                    "kind": 2099237,
-                                                    "block": {
-                                                        "kind": 2084,
-                                                        "statements": [
-                                                            {
-                                                                "kind": 2097233,
-                                                                "expression": {
-                                                                    "kind": 65774,
-                                                                    "operator": "!",
-                                                                    "operand": {
-                                                                        "kind": 196712,
-                                                                        "text": "xxx",
-                                                                        "rawText": "xxx",
-                                                                        "flags": 0,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "start": 30,
-                                                                        "end": 33
-                                                                    },
+                                                    "kind": 2084,
+                                                    "statements": [
+                                                        {
+                                                            "kind": 2097233,
+                                                            "expression": {
+                                                                "kind": 65774,
+                                                                "operator": "!",
+                                                                "operand": {
+                                                                    "kind": 196712,
+                                                                    "text": "xxx",
+                                                                    "rawText": "xxx",
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "start": 28,
+                                                                    "start": 30,
                                                                     "end": 33
                                                                 },
                                                                 "flags": 0,
@@ -115,88 +106,88 @@ switch {} default(x) { try { !xxx
                                                                 "transformFlags": 0,
                                                                 "start": 28,
                                                                 "end": 33
-                                                            }
-                                                        ],
-                                                        "multiline": false,
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 28,
-                                                        "end": 33
-                                                    },
-                                                    "flags": 2,
+                                                            },
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 28,
+                                                            "end": 33
+                                                        }
+                                                    ],
+                                                    "multiline": false,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "start": 26,
+                                                    "start": 28,
                                                     "end": 33
                                                 },
-                                                "catchClause": null,
-                                                "finallyBlock": {
-                                                    "kind": 2099237,
-                                                    "block": {
-                                                        "kind": 2084,
-                                                        "statements": [],
-                                                        "multiline": false,
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 33,
-                                                        "end": 33
-                                                    },
+                                                "flags": 1,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 26,
+                                                "end": 33
+                                            },
+                                            "catchClause": null,
+                                            "finallyBlock": {
+                                                "kind": 2099237,
+                                                "block": {
+                                                    "kind": 2084,
+                                                    "statements": [],
+                                                    "multiline": false,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 33
                                                 },
-                                                "flags": 2,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "start": 22,
+                                                "start": 33,
                                                 "end": 33
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 2,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 33
-                                    },
-                                    "flags": 2,
+                                            },
+                                            "flags": 1,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 22,
+                                            "end": 33
+                                        }
+                                    ],
+                                    "multiline": false,
+                                    "flags": 1,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 20,
+                                    "start": 22,
                                     "end": 33
-                                }
-                            ],
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 33
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 33
-                },
-                "flags": 2,
+                                },
+                                "flags": 1,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 20,
+                                "end": 33
+                            }
+                        ],
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 33
+                    }
+                ],
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 9,
                 "end": 33
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -235,15 +226,17 @@ switch {} default(x) { try { !xxx
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 33
 }
 ```
 
+  
 ### Printed
 
 
@@ -251,6 +244,7 @@ switch {} default(x) { try { !xxx
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

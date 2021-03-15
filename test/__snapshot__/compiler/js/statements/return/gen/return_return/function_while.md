@@ -12,7 +12,6 @@ return function while return
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,90 +20,82 @@ return function while return
     "kind": 196,
     "source": "return function while return",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 8456285,
-                    "name": null,
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 15
-                        },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "typeParameters": null,
-                    "type": null,
-                    "flags": 2,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 8456285,
+                "name": null,
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 15,
                     "end": 15
                 },
-                "flags": 2,
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 15
+                    },
+                    "flags": 1,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 15,
+                    "end": 15
+                },
+                "typeParameters": null,
+                "type": null,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 15
             },
-            {
-                "kind": 2097399,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 21
-                },
-                "statement": {
-                    "kind": 2097346,
-                    "expression": null,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 28
-                },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2097399,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 21,
+                "end": 21
+            },
+            "statement": {
+                "kind": 2097346,
+                "expression": null,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 15,
+                "start": 21,
                 "end": 28
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 28
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 28
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -122,15 +113,17 @@ return function while return
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 28
 }
 ```
 
+  
 ### Printed
 
 
@@ -138,6 +131,7 @@ return function while return
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

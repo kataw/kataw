@@ -12,7 +12,6 @@ do async funcion switch!!
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,97 +20,89 @@ do async funcion switch!!
     "kind": 196,
     "source": "do async funcion switch!!",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 196712,
+                "text": "funcion",
+                "rawText": "funcion",
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 8,
+                "end": 16
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
                     "kind": 196712,
-                    "text": "funcion",
-                    "rawText": "funcion",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 16
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 2,
-                        "end": 8
-                    },
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 16
+                "start": 2,
+                "end": 8
             },
-            {
-                "kind": 2097362,
-                "expression": {
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 65774,
+                "operator": "!",
+                "operand": {
                     "kind": 65774,
                     "operator": "!",
                     "operand": {
-                        "kind": 65774,
-                        "operator": "!",
-                        "operand": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 25
-                        },
-                        "flags": 2,
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 24,
+                        "start": 25,
                         "end": 25
                     },
-                    "flags": 2,
+                    "flags": 1,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 23,
+                    "start": 24,
                     "end": 25
                 },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 25
-                },
-                "flags": 2,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 16,
+                "start": 23,
                 "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 16,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -143,15 +134,17 @@ do async funcion switch!!
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -159,6 +152,7 @@ do async funcion switch!!
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

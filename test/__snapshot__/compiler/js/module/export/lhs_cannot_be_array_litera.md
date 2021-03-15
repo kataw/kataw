@@ -14,94 +14,95 @@ export default [x] = y
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export default [x] = y",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 77,
-                "declaration": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 67207686,
-                        "elementList": {
-                            "kind": 65605,
-                            "elements": [
-                                {
-                                    "kind": 196712,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 17
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 16,
-                            "end": 17
-                        },
-                        "flags": 65536,
+    "statements": [
+        {
+            "kind": 77,
+            "declaration": {
+                "kind": 65550,
+                "left": {
+                    "kind": 98822,
+                    "elementList": {
+                        "kind": 65605,
+                        "elements": [
+                            {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 16,
+                                "end": 17
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 14,
-                        "end": 18
+                        "start": 16,
+                        "end": 17
                     },
-                    "operator": "=",
-                    "right": {
-                        "kind": 196712,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 22
-                    },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 14,
+                    "end": 18
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 196712,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 20,
                     "end": 22
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 14,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -109,6 +110,7 @@ export default [x] = y
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

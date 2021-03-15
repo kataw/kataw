@@ -12,7 +12,6 @@ do false while
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,31 +20,23 @@ do false while
     "kind": 196,
     "source": "do false while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 14,
+                "end": 14
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 14
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 4260391,
-                        "text": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 2,
-                        "end": 8
-                    },
+                    "kind": 4260391,
+                    "text": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
@@ -55,17 +46,17 @@ do false while
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+                "start": 2,
+                "end": 8
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -76,15 +67,17 @@ do false while
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -92,6 +85,7 @@ do false while
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

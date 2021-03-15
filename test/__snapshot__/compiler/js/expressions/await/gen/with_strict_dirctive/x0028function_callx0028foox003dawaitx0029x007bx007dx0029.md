@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,145 +20,139 @@
     "kind": 196,
     "source": "'use strict'; (function call(foo=await){})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "use strict",
-                    "rawText": "use strict",
-                    "flags": 16777216,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 33554432,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
-            {
-                "kind": 2097233,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 8456285,
-                        "name": {
-                            "kind": 131102,
-                            "text": "call",
-                            "rawText": "call",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1025,
-                            "start": 23,
-                            "end": 28
-                        },
-                        "formalParameters": {
-                            "kind": 90,
-                            "formalParameterList": [
-                                {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "start": 29,
-                                        "end": 32
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": {
-                                        "kind": 196712,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 33,
-                                        "end": 38
-                                    },
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                    "kind": 8456285,
+                    "name": {
+                        "kind": 131102,
+                        "text": "call",
+                        "rawText": "call",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 1025,
+                        "start": 23,
+                        "end": 28
+                    },
+                    "formalParameters": {
+                        "kind": 90,
+                        "formalParameterList": [
+                            {
+                                "kind": 16473,
+                                "ellipsis": false,
+                                "binding": {
+                                    "kind": 131102,
+                                    "text": "foo",
+                                    "rawText": "foo",
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 1025,
                                     "start": 29,
+                                    "end": 32
+                                },
+                                "isOptional": false,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 196712,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 33,
                                     "end": 38
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 29,
-                            "end": 39
-                        },
-                        "contents": {
-                            "kind": 91,
-                            "functionStatementList": {
-                                "kind": 94,
-                                "statements": [],
-                                "multiline": false,
+                                },
+                                "decorators": null,
+                                "accessModifier": null,
+                                "isReadOnly": false,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
-                                "start": 40,
-                                "end": 40
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 39,
-                            "end": 41
-                        },
-                        "typeParameters": null,
-                        "type": null,
+                                "transformFlags": 1,
+                                "start": 29,
+                                "end": 38
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 15,
+                        "start": 29,
+                        "end": 39
+                    },
+                    "contents": {
+                        "kind": 91,
+                        "functionStatementList": {
+                            "kind": 94,
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 40,
+                            "end": 40
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 39,
                         "end": 41
                     },
+                    "typeParameters": null,
+                    "type": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 42
+                    "start": 15,
+                    "end": 41
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 42
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 42
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 42
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 42
 }
 ```
 
+  
 ### Printed
 
 
@@ -167,6 +160,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

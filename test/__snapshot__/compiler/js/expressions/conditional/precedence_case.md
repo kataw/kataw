@@ -8,7 +8,6 @@ a === b ? c : d % e;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -17,112 +16,106 @@ a === b ? c : d % e;
     "kind": 196,
     "source": "a === b ? c : d % e;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65592,
-                    "shortCircuit": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 1
-                        },
-                        "operator": "===",
-                        "right": {
-                            "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 5,
-                            "end": 7
-                        },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65592,
+                "shortCircuit": {
+                    "kind": 65563,
+                    "left": {
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 0,
-                        "end": 7
+                        "end": 1
                     },
-                    "consequent": {
+                    "operator": "===",
+                    "right": {
                         "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 9,
-                        "end": 11
-                    },
-                    "alternate": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "d",
-                            "rawText": "d",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 15
-                        },
-                        "operator": "%",
-                        "right": {
-                            "kind": 196712,
-                            "text": "e",
-                            "rawText": "e",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 17,
-                            "end": 19
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 19
+                        "start": 5,
+                        "end": 7
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 7
+                },
+                "consequent": {
+                    "kind": 196712,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 9,
+                    "end": 11
+                },
+                "alternate": {
+                    "kind": 65563,
+                    "left": {
+                        "kind": 196712,
+                        "text": "d",
+                        "rawText": "d",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 15
+                    },
+                    "operator": "%",
+                    "right": {
+                        "kind": 196712,
+                        "text": "e",
+                        "rawText": "e",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 17,
+                        "end": 19
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 13,
                     "end": 19
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+                "end": 19
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 20
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ a === b ? c : d % e;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

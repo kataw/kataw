@@ -16,7 +16,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -25,118 +24,112 @@
     "kind": 196,
     "source": "\"\"\n;\n\"some content\"\n;\n\"var\"\n;\n\"x / y\"\n;\n\"raw lower unicode @{x200}\"",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 2
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "",
+                "rawText": "",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 4
+                "end": 2
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "some content",
-                    "rawText": "some content",
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 19
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 4
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "some content",
+                "rawText": "some content",
+                "flags": 32768,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 4,
-                "end": 21
+                "end": 19
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "var",
-                    "rawText": "var",
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 27
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 4,
+            "end": 21
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "var",
+                "rawText": "var",
+                "flags": 32768,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 21,
-                "end": 29
+                "end": 27
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "x / y",
-                    "rawText": "x / y",
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 29,
-                    "end": 37
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 21,
+            "end": 29
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "x / y",
+                "rawText": "x / y",
+                "flags": 32768,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 29,
-                "end": 39
+                "end": 37
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "raw lower unicode @{x200}",
-                    "rawText": "raw lower unicode @{x200}",
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 39,
-                    "end": 67
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 29,
+            "end": 39
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "raw lower unicode @{x200}",
+                "rawText": "raw lower unicode @{x200}",
+                "flags": 32768,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 67
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 67
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 39,
+            "end": 67
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 67
 }
 ```
 
+  
 ### Printed
 
 
@@ -144,6 +137,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

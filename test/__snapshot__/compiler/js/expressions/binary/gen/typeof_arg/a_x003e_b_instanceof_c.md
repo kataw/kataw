@@ -12,7 +12,6 @@ typeof a > b instanceof c
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,66 +20,58 @@ typeof a > b instanceof c
     "kind": 196,
     "source": "typeof a > b instanceof c",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 65774,
-                            "operator": "typeof",
-                            "operand": {
-                                "kind": 196712,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 6,
-                                "end": 8
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 8
-                        },
-                        "operator": ">",
-                        "right": {
+                        "kind": 65774,
+                        "operator": "typeof",
+                        "operand": {
                             "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
+                            "text": "a",
+                            "rawText": "a",
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 10,
-                            "end": 12
+                            "start": 6,
+                            "end": 8
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 0,
-                        "end": 12
+                        "end": 8
                     },
-                    "operator": "instanceof",
+                    "operator": ">",
                     "right": {
                         "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 23,
-                        "end": 25
+                        "start": 10,
+                        "end": 12
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 12
+                },
+                "operator": "instanceof",
+                "right": {
+                    "kind": 196712,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 23,
                     "end": 25
                 },
                 "flags": 0,
@@ -88,26 +79,28 @@ typeof a > b instanceof c
                 "transformFlags": 0,
                 "start": 0,
                 "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -115,6 +108,7 @@ typeof a > b instanceof c
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

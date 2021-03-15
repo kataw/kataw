@@ -12,7 +12,6 @@ if if if catch
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,44 +20,63 @@ if if if catch
     "kind": 196,
     "source": "if if if catch",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 2
+            },
+            "consequent": {
                 "kind": 2097257,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
-                    "end": 2
+                    "start": 5,
+                    "end": 5
                 },
                 "consequent": {
                     "kind": 2097257,
                     "expression": {
                         "kind": 131322,
                         "text": "",
-                        "flags": 6,
+                        "flags": 3,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 5,
-                        "end": 5
+                        "start": 8,
+                        "end": 8
                     },
                     "consequent": {
-                        "kind": 2097257,
-                        "expression": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
+                        "kind": 2097375,
+                        "block": {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 8
+                            },
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
-                        "consequent": {
-                            "kind": 2097375,
+                        "catchClause": {
+                            "kind": 2095,
+                            "catchParameter": null,
                             "block": {
                                 "kind": 2099237,
                                 "block": {
@@ -68,55 +86,26 @@ if if if catch
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 8
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 8
-                            },
-                            "catchClause": {
-                                "kind": 2095,
-                                "catchParameter": null,
-                                "block": {
-                                    "kind": 2099237,
-                                    "block": {
-                                        "kind": 2084,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 14
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 14
                                 },
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 16,
-                                "start": 8,
+                                "transformFlags": 0,
+                                "start": 14,
                                 "end": 14
                             },
-                            "finallyBlock": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 16,
                             "start": 8,
                             "end": 14
                         },
-                        "alternate": null,
-                        "isWebCompat": true,
+                        "finallyBlock": null,
                         "flags": 0,
                         "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
+                        "transformFlags": 16,
+                        "start": 8,
                         "end": 14
                     },
                     "alternate": null,
@@ -124,7 +113,7 @@ if if if catch
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 14
                 },
                 "alternate": null,
@@ -132,17 +121,19 @@ if if if catch
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -167,15 +158,17 @@ if if if catch
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -183,6 +176,7 @@ if if if catch
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

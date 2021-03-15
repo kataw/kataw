@@ -1,8 +1,6 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { StringLiteral } from '../expressions/string-literal';
 import { NamedExports } from './named-exports';
-import { Script } from '../script';
-import { Module } from '../module';
 import { Statement } from '../statements';
 import { AssignmentExpression } from '../expressions/assignment-expr';
 import { VariableStatement } from '../statements/variable-stmt';

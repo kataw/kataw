@@ -12,7 +12,6 @@ for ([] = 0 in {});
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,101 +20,95 @@ for ([] = 0 in {});
     "kind": 196,
     "source": "for ([] = 0 in {});",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 67207686,
-                        "elementList": {
-                            "kind": 65605,
-                            "elements": [],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 6
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 7
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 4261540,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 11
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 11
-                },
-                "expression": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 65550,
+                "left": {
+                    "kind": 98822,
+                    "elementList": {
+                        "kind": 65605,
+                        "elements": [],
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 16,
-                        "end": 16
+                        "start": 6,
+                        "end": 6
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 14,
-                    "end": 17
+                    "start": 5,
+                    "end": 7
                 },
-                "statement": {
-                    "kind": 6291526,
+                "operator": "=",
+                "right": {
+                    "kind": 4261540,
+                    "text": 0,
+                    "rawText": "0",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 19
+                    "start": 9,
+                    "end": 11
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 11
+            },
+            "expression": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 16,
+                    "end": 16
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 14,
+                "end": 17
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -123,6 +116,7 @@ for ([] = 0 in {});
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

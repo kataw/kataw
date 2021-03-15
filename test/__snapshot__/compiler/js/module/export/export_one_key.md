@@ -14,126 +14,127 @@ export {x}; var x;
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "export {x}; var x;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [
-                            {
-                                "kind": 79,
-                                "moduleExportName": null,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "binding": null,
-                                "flags": 65536,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [
+                        {
+                            "kind": 79,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 196711,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
-                            }
-                        ],
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 9
-                    },
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 10
-                },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 11
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 15,
-                                "end": 17
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 15,
+                            "binding": null,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 65536,
-                            "end": 17
+                            "start": 8,
+                            "end": 9
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 15,
-                    "end": 17
+                    "start": 8,
+                    "end": 9
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 11,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 10
+            },
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1025,
+                            "start": 15,
+                            "end": 17
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 15,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 17
+                    }
+                ],
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 17
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 18
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -141,6 +142,7 @@ export {x}; var x;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

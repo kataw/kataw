@@ -169,7 +169,6 @@ if[ #
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -178,70 +177,62 @@ if[ #
     "kind": 196,
     "source": "if else #",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 2
+            },
+            "consequent": {
+                "kind": 2097233,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
+                    "flags": 3,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
-                "consequent": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 2,
-                        "end": 2
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 2
-                },
-                "alternate": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "#",
-                        "rawText": "else",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 9
-                    },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 2
+            },
+            "alternate": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 196712,
+                    "text": "#",
+                    "rawText": "else",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
-                "isWebCompat": true,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 7,
                 "end": 9
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 9
-    },
-    "jsx": false,
+            },
+            "isWebCompat": true,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -259,15 +250,17 @@ if[ #
             "length": 1
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 9
 }
 ```
 
+  
 ### Printed
 
 
@@ -275,6 +268,7 @@ if[ #
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

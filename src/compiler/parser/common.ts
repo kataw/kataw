@@ -131,7 +131,6 @@ export function tagNamesAreEquivalent(lhs: any, rhs: any): boolean {
 }
 
 export function reinterpretToPattern(node: any, parser: ParserState, context: Context): any {
-
   switch (node.kind) {
     case NodeKind.ArrowParameters:
     case NodeKind.FormalParameter:
@@ -172,7 +171,7 @@ export function reinterpretToPattern(node: any, parser: ParserState, context: Co
       return node;
     }
     case NodeKind.PropertyDefinition: {
-      node.kind = NodeKind.BindingElement | NodeKind.IsArrayBindingElement;
+      node.kind = NodeKind.BindingElement;
       reinterpretToPattern(node.left, parser, context);
       return node;
     }
@@ -183,13 +182,13 @@ export function reinterpretToPattern(node: any, parser: ParserState, context: Co
       return node;
     }
     case NodeKind.AssignmentExpression: {
-      node.kind = NodeKind.BindingElement | NodeKind.IsArrayBindingElement;
+      node.kind = NodeKind.BindingElement;
       delete node.operator;
       reinterpretToPattern(node.left, parser, context);
       return node;
     }
     case NodeKind.SpreadElement:
-      node.kind = NodeKind.BindingElement | NodeKind.IsArrayBindingElement;
+      node.kind = NodeKind.BindingElement;
       node.ellipsis = true;
       if (node.argument === NodeKind.AssignmentExpression) {
         reinterpretToPattern(node.argument, parser, context);

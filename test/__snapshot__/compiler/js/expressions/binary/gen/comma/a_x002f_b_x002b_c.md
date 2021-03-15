@@ -12,7 +12,6 @@ x, a / b + c
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,104 +20,98 @@ x, a / b + c
     "kind": 196,
     "source": "x, a / b + c",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65590,
-                    "expressions": [
-                        {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 1
-                        },
-                        {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65590,
+                "expressions": [
+                    {
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 1
+                    },
+                    {
+                        "kind": 65563,
+                        "left": {
                             "kind": 65563,
                             "left": {
-                                "kind": 65563,
-                                "left": {
-                                    "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 2,
-                                    "end": 4
-                                },
-                                "operator": "/",
-                                "right": {
-                                    "kind": 196712,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 6,
-                                    "end": 8
-                                },
+                                "kind": 196712,
+                                "text": "a",
+                                "rawText": "a",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 2,
-                                "end": 8
+                                "end": 4
                             },
-                            "operator": "+",
+                            "operator": "/",
                             "right": {
                                 "kind": 196712,
-                                "text": "c",
-                                "rawText": "c",
+                                "text": "b",
+                                "rawText": "b",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 10,
-                                "end": 12
+                                "start": 6,
+                                "end": 8
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "start": 2,
+                            "end": 8
+                        },
+                        "operator": "+",
+                        "right": {
+                            "kind": 196712,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 10,
                             "end": 12
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 2,
+                        "end": 12
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 12
 }
 ```
 
+  
 ### Printed
 
 
@@ -126,6 +119,7 @@ x, a / b + c
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

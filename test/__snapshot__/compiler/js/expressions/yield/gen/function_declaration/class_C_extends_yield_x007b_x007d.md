@@ -12,7 +12,6 @@ function not_gen() { class C extends yield { } }}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,116 +20,108 @@ function not_gen() { class C extends yield { } }}
     "kind": 196,
     "source": "function not_gen() { class C extends yield { } }}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "not_gen",
-                    "rawText": "not_gen",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 48,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "C",
-                                    "rawText": "C",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 26,
-                                    "end": 28
-                                },
-                                "typeParameters": null,
-                                "classHeritage": {
-                                    "kind": 52,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 36,
-                                        "end": 42
-                                    },
-                                    "typeArguments": null,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "not_gen",
+                "rawText": "not_gen",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 48,
+                            "name": {
+                                "kind": 131102,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 26,
+                                "end": 28
+                            },
+                            "typeParameters": null,
+                            "classHeritage": {
+                                "kind": 52,
+                                "expression": {
+                                    "kind": 196712,
+                                    "text": "yield",
+                                    "rawText": "yield",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "start": 36,
                                     "end": 42
                                 },
-                                "implementClauses": null,
-                                "members": {
-                                    "kind": 50,
-                                    "elements": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 44,
-                                    "end": 46
-                                },
-                                "decorators": null,
-                                "isAbstract": false,
+                                "typeArguments": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 36,
+                                "end": 42
+                            },
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "start": 20,
+                                "start": 44,
                                 "end": 46
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 46
-                    },
+                            },
+                            "decorators": null,
+                            "isAbstract": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 20,
+                            "end": 46
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 48
+                    "start": 20,
+                    "end": 46
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 48
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 49
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 48
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -141,15 +132,17 @@ function not_gen() { class C extends yield { } }}
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 49
 }
 ```
 
+  
 ### Printed
 
 
@@ -157,6 +150,7 @@ function not_gen() { class C extends yield { } }}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

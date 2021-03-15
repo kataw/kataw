@@ -12,7 +12,6 @@ new await x
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,63 +20,55 @@ new await x
     "kind": 196,
     "source": "new await x",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 9
-                    },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "kind": 196712,
+                    "text": "await",
+                    "rawText": "await",
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 9
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 9
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 11
-                },
-                "flags": 0,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 9,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -88,15 +79,17 @@ new await x
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 11
 }
 ```
 
+  
 ### Printed
 
 
@@ -104,6 +97,7 @@ new await x
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

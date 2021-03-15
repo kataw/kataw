@@ -1,6 +1,4 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { Script } from '../script';
-import { Module } from '../module';
 import { Expression } from '../expressions';
 import { updateNode } from '../../utils';
 

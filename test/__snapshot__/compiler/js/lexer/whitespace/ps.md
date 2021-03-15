@@ -14,7 +14,6 @@ left@{x2029}@right
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -23,46 +22,40 @@ left@{x2029}@right
     "kind": 196,
     "source": "left@{x2029}@right",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "left",
-                    "rawText": "left",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 4
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "left",
+                "rawText": "left",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 4
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 16384,
-        "intersects": false,
-        "start": 0,
-        "end": 4
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 4
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 10
 }
 ```
 
+  
 ### Printed
 
 
@@ -70,6 +63,7 @@ left@{x2029}@right
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

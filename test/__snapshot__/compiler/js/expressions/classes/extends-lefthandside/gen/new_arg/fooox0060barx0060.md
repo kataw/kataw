@@ -12,7 +12,6 @@ new fooo`bar`
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,77 +20,71 @@ new fooo`bar`
     "kind": 196,
     "source": "new fooo`bar`",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 66260,
-                        "member": {
-                            "kind": 196712,
-                            "text": "fooo",
-                            "rawText": "fooo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 8
-                        },
-                        "typeArguments": null,
-                        "template": {
-                            "kind": 4260568,
-                            "rawText": "bar",
-                            "text": "bar",
-                            "literal": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 8,
-                            "end": 13
-                        },
-                        "optional": false,
+                    "kind": 66260,
+                    "member": {
+                        "kind": 196712,
+                        "text": "fooo",
+                        "rawText": "fooo",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 8
+                    },
+                    "typeArguments": null,
+                    "template": {
+                        "kind": 4260568,
+                        "rawText": "bar",
+                        "text": "bar",
+                        "literal": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
                         "start": 8,
                         "end": 13
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "optional": false,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 1,
+                    "start": 8,
                     "end": 13
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 13
 }
 ```
 
+  
 ### Printed
 
 
@@ -99,6 +92,7 @@ new fooo`bar`
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

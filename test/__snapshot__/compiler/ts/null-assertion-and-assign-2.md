@@ -14,55 +14,46 @@ x! *= 1
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "x! *= 1",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 74398,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 1
-                        },
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 2097152,
-                        "start": 1,
-                        "end": 2
-                    },
-                    "operator": "*=",
-                    "right": {
-                        "kind": 4261540,
-                        "text": 1,
-                        "rawText": "1",
-                        "flags": 65536,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 74398,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 5,
-                        "end": 7
+                        "start": 0,
+                        "end": 1
                     },
-                    "flags": 65536,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "start": 1,
+                    "end": 2
+                },
+                "operator": "*=",
+                "right": {
+                    "kind": 4261540,
+                    "text": 1,
+                    "rawText": "1",
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 5,
                     "end": 7
                 },
                 "flags": 0,
@@ -70,26 +61,28 @@ x! *= 1
                 "transformFlags": 0,
                 "start": 0,
                 "end": 7
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 7
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 7
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 7
 }
 ```
 
+  
 ### Printed
 
 
@@ -97,6 +90,7 @@ x! *= 1
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

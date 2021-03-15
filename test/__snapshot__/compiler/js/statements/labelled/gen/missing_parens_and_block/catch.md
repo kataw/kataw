@@ -12,7 +12,6 @@ try catch catch
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,65 +20,30 @@ try catch catch
     "kind": 196,
     "source": "try catch catch",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097375,
+    "statements": [
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 9
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 9
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 3,
-                    "end": 9
-                },
-                "finallyBlock": null,
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 16,
-                "start": 0,
-                "end": 9
+                "transformFlags": 0,
+                "start": 3,
+                "end": 3
             },
-            {
-                "kind": 2097375,
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -98,21 +62,48 @@ try catch catch
                     "start": 9,
                     "end": 9
                 },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
+                "flags": 1,
+                "intersects": false,
+                "transformFlags": 16,
+                "start": 3,
+                "end": 9
+            },
+            "finallyBlock": null,
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 16,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 9,
+                    "end": 9
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 9
+            },
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
+                "block": {
+                    "kind": 2099237,
                     "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 15
-                        },
+                        "kind": 2084,
+                        "statements": [],
+                        "multiline": false,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
@@ -121,25 +112,25 @@ try catch catch
                     },
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 16,
-                    "start": 9,
+                    "transformFlags": 0,
+                    "start": 15,
                     "end": 15
                 },
-                "finallyBlock": null,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 16,
                 "start": 9,
                 "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": false,
+            },
+            "finallyBlock": null,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 16,
+            "start": 9,
+            "end": 15
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -157,15 +148,17 @@ try catch catch
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 15
 }
 ```
 
+  
 ### Printed
 
 
@@ -173,6 +166,7 @@ try catch catch
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

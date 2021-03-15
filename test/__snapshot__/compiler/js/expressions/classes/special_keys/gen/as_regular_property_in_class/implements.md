@@ -12,7 +12,6 @@ class x {implements: x}
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,108 +20,102 @@ class x {implements: x}
     "kind": 196,
     "source": "class x {implements: x}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 84,
-                            "key": {
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 16468,
+                        "key": {
+                            "kind": 196711,
+                            "text": "implements",
+                            "rawText": "implements",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 9,
+                            "end": 19
+                        },
+                        "isInKeyword": false,
+                        "expression": null,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "exclamation": false,
+                        "type": {
+                            "kind": 134226156,
+                            "typeName": {
                                 "kind": 196711,
-                                "text": "implements",
-                                "rawText": "implements",
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 9,
-                                "end": 19
-                            },
-                            "isInKeyword": false,
-                            "expression": null,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8428,
-                                "typeName": {
-                                    "kind": 196711,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 22
-                                },
-                                "typeArguments": null,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
                                 "start": 20,
-                                "end": 23
+                                "end": 22
                             },
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isStatic": false,
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 524352,
-                            "start": 9,
-                            "end": 22
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 23
-                },
-                "decorators": null,
-                "isAbstract": false,
+                            "transformFlags": 2097152,
+                            "start": 20,
+                            "end": 23
+                        },
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isStatic": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 524352,
+                        "start": 9,
+                        "end": 22
+                    }
+                ],
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 23
 }
 ```
 
+  
 ### Printed
 
 
@@ -130,6 +123,7 @@ class x {implements: x}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

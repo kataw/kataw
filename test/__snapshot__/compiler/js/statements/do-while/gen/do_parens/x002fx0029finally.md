@@ -12,7 +12,6 @@ do( /)finally while
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,37 +20,29 @@ do( /)finally while
     "kind": 196,
     "source": "do( /)finally while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 19,
+                "end": 19
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 19
-                },
-                "statement": {
-                    "kind": 2097233,
+                    "kind": 66224,
                     "expression": {
-                        "kind": 66224,
-                        "expression": {
-                            "kind": 4260544,
-                            "text": "/)finally while",
-                            "flags": 524288,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 19
-                        },
-                        "flags": 0,
+                        "kind": 4260544,
+                        "text": "/)finally while",
+                        "flags": 1048576,
                         "intersects": false,
                         "transformFlags": 0,
-                        "start": 2,
+                        "start": 3,
                         "end": 19
                     },
                     "flags": 0,
@@ -60,20 +51,20 @@ do( /)finally while
                     "start": 2,
                     "end": 19
                 },
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -91,15 +82,17 @@ do( /)finally while
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -107,6 +100,7 @@ do( /)finally while
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

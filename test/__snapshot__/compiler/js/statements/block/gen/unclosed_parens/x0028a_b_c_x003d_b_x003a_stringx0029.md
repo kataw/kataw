@@ -12,7 +12,6 @@
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,40 +20,32 @@
     "kind": 196,
     "source": "{( (a b, c = b : string)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 66224,
                             "expression": {
                                 "kind": 66224,
                                 "expression": {
-                                    "kind": 66224,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 4,
-                                        "end": 5
-                                    },
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 2,
+                                    "start": 4,
                                     "end": 5
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 2,
                                 "end": 5
                             },
                             "flags": 0,
@@ -63,104 +54,104 @@
                             "start": 1,
                             "end": 5
                         },
-                        {
-                            "kind": 2097292,
-                            "label": {
-                                "kind": 65590,
-                                "expressions": [
-                                    {
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 5
+                    },
+                    {
+                        "kind": 2097292,
+                        "label": {
+                            "kind": 65590,
+                            "expressions": [
+                                {
+                                    "kind": 196712,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 1,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 5,
+                                    "end": 7
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
                                         "kind": 196712,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 2,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 5,
-                                        "end": 7
-                                    },
-                                    {
-                                        "kind": 65550,
-                                        "left": {
-                                            "kind": 196712,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 8,
-                                            "end": 10
-                                        },
-                                        "operator": "=",
-                                        "right": {
-                                            "kind": 196712,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 12,
-                                            "end": 14
-                                        },
+                                        "text": "c",
+                                        "rawText": "c",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "start": 8,
+                                        "end": 10
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 196712,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 12,
                                         "end": 14
-                                    }
-                                ],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 5,
-                                "end": 14
-                            },
-                            "statement": {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 196712,
-                                    "text": "string",
-                                    "rawText": "string",
+                                    },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 23
-                                },
+                                    "start": 8,
+                                    "end": 14
+                                }
+                            ],
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 5,
+                            "end": 14
+                        },
+                        "statement": {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "string",
+                                "rawText": "string",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 23
                             },
-                            "isWebCompat": true,
-                            "flags": 2,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 5,
+                            "start": 16,
                             "end": 23
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 23
-                },
-                "flags": 2,
+                        },
+                        "isWebCompat": true,
+                        "flags": 1,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 5,
+                        "end": 23
+                    }
+                ],
+                "multiline": false,
+                "flags": 1,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -178,15 +169,17 @@
             "length": 0
         }
     ],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 24
 }
 ```
 
+  
 ### Printed
 
 
@@ -194,6 +187,7 @@
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

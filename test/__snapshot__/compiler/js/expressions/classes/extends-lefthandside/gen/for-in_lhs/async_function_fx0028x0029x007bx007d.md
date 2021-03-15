@@ -12,7 +12,6 @@ for (async function f(){} in x) ;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,102 +20,96 @@ for (async function f(){} in x) ;
     "kind": 196,
     "source": "for (async function f(){} in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 9439250,
-                    "name": {
-                        "kind": 131102,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 19,
-                        "end": 21
-                    },
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 22,
-                        "end": 23
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 24,
-                            "end": 24
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 25
-                    },
-                    "typeParameters": null,
-                    "type": null,
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 9439250,
+                "name": {
+                    "kind": 131102,
+                    "text": "f",
+                    "rawText": "f",
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 4,
-                    "start": 5,
+                    "transformFlags": 1025,
+                    "start": 19,
+                    "end": 21
+                },
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 22,
+                    "end": 23
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 24,
+                        "end": 24
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 23,
                     "end": 25
                 },
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 30
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 31,
-                    "end": 33
-                },
+                "typeParameters": null,
+                "type": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 4,
+                "start": 5,
+                "end": 25
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 28,
+                "end": 30
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 31,
                 "end": 33
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 33
 }
 ```
 
+  
 ### Printed
 
 
@@ -124,6 +117,7 @@ for (async function f(){} in x) ;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

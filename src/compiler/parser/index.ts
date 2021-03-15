@@ -1,5 +1,6 @@
 import { ParserState } from '../types';
 import { Token, KeywordDescTable } from '../ast/token';
+import { createRootNode, RootNode } from '../ast/rootNode';
 import { NodeKind, NodeFlags, AccessModifierTypes, AccessModifiers } from '../ast/node';
 import { TypeNode } from '../ast/types';
 import { Statement } from '../ast/statements/index';
@@ -191,9 +192,6 @@ import { createSpreadElement, SpreadElement } from '../ast/expressions/spread-el
 import { ArgumentList, createArgumentList } from '../ast/expressions/argument-list';
 import { createPrefixUpdateExpression, PrefixUpdateExpression, UpdateOp } from '../ast/expressions/prefix-update-expr';
 import { createPostfixUpdateExpression, PostfixUpdateExpression } from '../ast/expressions/postfix-update-expr';
-import { createScriptBody, ScriptBody } from '../ast/scriptBody';
-import { createModuleBody, ModuleBody } from '../ast/moduleBody';
-import { getCurrentNode } from './incremental';
 import { DiagnosticCode } from '../diagnostics/diagnosticMessages.generated';
 import { parseErrorAtPosition, reportErrorDiagnostic, reportWarningDiagnostic } from '../diagnostics/diagnostic';
 import { createTemplateSpan, TemplateSpan } from '../ast/expressions/template-span';
@@ -207,6 +205,8 @@ import { Constants } from './constants';
 import { createConstructSignature, ConstructSignature } from '../ast/types/construct-signature';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
+import { isLineTerminator } from './scanner/common';
+import { Char } from './scanner/char';
 import {
   createNamespaceExportDeclaration,
   NamespaceExportDeclaration
@@ -236,20 +236,65 @@ const enum Tristate {
   Unknown // There *might* be a parenthesized arrow function here.
 }
 
-// ScriptBody : StatementList
-// ModuleBody :
-//   ModuleItemList
-export function parseScriptOrModuleBody(
-  parser: ParserState,
-  context: Context,
-  pos: number,
-  cb: any,
-  factory: any
-): ScriptBody | ModuleBody {
+export function createParser(source: string, pos: number, isModule: boolean, nodeCursor?: any): ParserState {
+  return {
+    source,
+    // Current position (end position of text of current token)
+    pos,
+    curPos: pos,
+    tokenPos: pos,
+    // end of text
+    end: source.length,
+    token: Token.Unknown,
+    tokenValue: undefined!,
+    nodeFlags: isModule ? NodeFlags.Module | NodeFlags.Strict : NodeFlags.None,
+    uniqueId: 0,
+    templateRaw: '',
+    raw: '',
+    diagnostics: [],
+    nodeCursor
+  };
+}
+
+export function parseRoot(source: string, isModule: boolean, options?: any, nodeCursor?: any): RootNode {
+  let pos = 0;
+  let context = Context.None;
+  if (options != null) {
+    if (options.next) context |= Context.OptionsNext;
+    if (options.jsx) context |= Context.OptionsJSX;
+    if (options.impliedStrict) context |= Context.Strict;
+    if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
+  }
+  // Hashbang Grammar
+  // https://github.com/tc39/proposal-hashbang
+  if (source.charCodeAt(0) === Char.Hash) {
+    if (source.charCodeAt(1) === Char.Exclamation) {
+      pos = 2; // '#!...'
+      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+        pos++;
+      }
+    }
+  }
+
+  // HTML close
+  // https://tc39.es/ecma262/#sec-html-like-comments
+  if (source.charCodeAt(0) === Char.Hyphen) {
+    if (source.charCodeAt(2) === Char.GreaterThan && source.charCodeAt(1) === Char.Hyphen) {
+      pos = 3;
+      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+        pos++;
+      }
+    }
+  }
+
+  const parser = createParser(source, pos, /* isModule */ false, nodeCursor);
+
+  // Prime the scanner
+  nextToken(parser, context | Context.AllowRegExp);
   const statements: Statement[] = [];
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
-      statements.push(getCurrentNode(parser, context, cb));
+      statements.push(isModule ? parseModuleItemList(parser, context) : parseStatementListItem(parser, context));
       continue;
     }
 
@@ -264,7 +309,13 @@ export function parseScriptOrModuleBody(
     // '/' in an statement position should be parsed as an unterminated regular expression
     nextToken(parser, context | Context.AllowRegExp);
   }
-  return factory(statements, parser.nodeFlags, pos, parser.curPos);
+  return createRootNode(
+    source,
+    /* filename */ '',
+    statements,
+    (context & Context.OptionsJSX) === Context.OptionsJSX,
+    parser.diagnostics
+  );
 }
 
 export function parseModuleItemList(parser: ParserState, context: Context): Statement {
@@ -277,11 +328,6 @@ export function parseModuleItemList(parser: ParserState, context: Context): Stat
     default:
       return parseStatementListItem(parser, context);
   }
-}
-
-function nextTokenIsFunctionKeywordOnSameLine(parser: ParserState, context: Context): boolean {
-  nextToken(parser, context);
-  return parser.token === Token.FunctionKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0;
 }
 
 // StatementListItem :
@@ -338,6 +384,11 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     default:
       return parseStatement(parser, context, /* allowFunction */ true);
   }
+}
+
+function nextTokenIsFunctionKeywordOnSameLine(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return parser.token === Token.FunctionKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0;
 }
 
 // prettier-ignore
@@ -551,9 +602,7 @@ function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBl
     const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
     const statements = [];
     while (parser.token & Constants.SourceElements) {
-      statements.push(
-        getCurrentNode(parser, context, context & Context.Module ? parseModuleItemList : parseStatementListItem)
-      );
+      statements.push(parseModuleItemList(parser, context));
     }
     const result = createNamespaceBlock(statements, multiline, parser.nodeFlags, curPos, parser.curPos);
 
@@ -664,7 +713,7 @@ function parseEnumMembersList(parser: ParserState, context: Context): EnumMember
   const pos = parser.curPos;
   const members = [];
   while (parser.token & Constants.EnumMembers) {
-    members.push(getCurrentNode(parser, context, parseEnumMember));
+    members.push(parseEnumMember(parser, context));
     if (parser.token === Token.RightBrace) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
     reportErrorDiagnostic(parser, 0, DiagnosticCode.An_enum_member_name_must_be_followed_by_a_or);
@@ -813,7 +862,7 @@ function parseBindingList(parser: ParserState, context: Context, inForStatement:
   const declarations = [];
   const pos = parser.curPos;
   while (parser.token & 0b00000000000010000101000000000000) {
-    declarations.push(getCurrentNode(parser, context, parseLexicalBinding));
+    declarations.push(parseLexicalBinding(parser, context));
     if (inForStatement && parser.token & Token.IsInOrOf) break;
     if (canParseSemicolon(parser)) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
@@ -860,7 +909,7 @@ function parseVariableDeclarationList(
   const pos = parser.curPos;
   const declarations = [];
   while (parser.token & 0b00000000000010000101000000000000) {
-    declarations.push(getCurrentNode(parser, context, parseVariableDeclaration));
+    declarations.push(parseVariableDeclaration(parser, context));
     if (canParseSemicolon(parser)) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
     if (inForStatement && parser.token & Token.IsInOrOf) break;
@@ -967,7 +1016,7 @@ function parseBlock(parser: ParserState, context: Context): Block {
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   const statements = [];
   while (parser.token & Constants.BlockStatements) {
-    statements.push(getCurrentNode(parser, context, parseStatementListItem));
+    statements.push(parseStatementListItem(parser, context));
   }
   return createBlock(statements, multiline, parser.nodeFlags, pos, parser.curPos);
 }
@@ -1045,7 +1094,7 @@ function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
   consume(parser, context, Token.LeftBrace);
   const clauses = [];
   while (isCaseOrDefaultClause(parser.token)) {
-    clauses.push(getCurrentNode(parser, context, parseCaseOrDefaultClause));
+    clauses.push(parseCaseOrDefaultClause(parser, context));
   }
 
   consume(parser, context | Context.AllowRegExp, Token.RightBrace);
@@ -1071,7 +1120,7 @@ function parseCaseOrDefaultClause(parser: ParserState, context: Context): CaseCl
     const expression = parseExpression(parser, context);
     consume(parser, context | Context.AllowRegExp, Token.Colon);
     while (parser.token & (Token.IsBinaryOp | Token.IsUnaryOp | 0b00000000000000110101000000000000)) {
-      statements.push(getCurrentNode(parser, context, parseStatementListItem));
+      statements.push(parseStatementListItem(parser, context));
     }
     return createCaseClause(expression, statements, parser.nodeFlags, pos, parser.curPos);
   }
@@ -1080,7 +1129,7 @@ function parseCaseOrDefaultClause(parser: ParserState, context: Context): CaseCl
   consume(parser, context | Context.AllowRegExp, Token.Colon);
 
   while (parser.token & (Token.IsBinaryOp | Token.IsUnaryOp | 0b00000000000000110101000000000000)) {
-    statements.push(getCurrentNode(parser, context, parseStatementListItem));
+    statements.push(parseStatementListItem(parser, context));
   }
   return createDefaultClause(statements, parser.nodeFlags, pos, parser.curPos);
 }
@@ -2198,7 +2247,7 @@ function parseTypeArgumentsInExpression(parser: ParserState, context: Context): 
   const pos = parser.curPos;
   const typeArguments = [];
   while (parser.token & 0b01100000000010000101000000000000) {
-    typeArguments.push(getCurrentNode(parser, context, parseType));
+    typeArguments.push(parseType(parser, context));
     if (parser.token === Token.GreaterThan) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
   }
@@ -2381,7 +2430,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
   const elements = [];
 
   while (parser.token & 0b00000110001001100101000000000000) {
-    elements.push(getCurrentNode(parser, context, parseArgumentOrArrayLiteralElement));
+    elements.push(parseArgumentOrArrayLiteralElement(parser, context));
 
     if (parser.token === Token.RightParen) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
@@ -2396,7 +2445,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createArgumentList(elements, trailingComma, parser.nodeFlags, pos, parser.curPos);
+  return createArgumentList(elements as any, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseSpreadElement(parser: ParserState, context: Context): SpreadElement {
@@ -2461,7 +2510,7 @@ function parseElementList(parser: ParserState, context: Context): ElementList {
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   let trailingComma = false;
   while (parser.token & Constants.ArrayLiteralMembers) {
-    elements.push(getCurrentNode(parser, context, parseArgumentOrArrayLiteralElement));
+    elements.push(parseArgumentOrArrayLiteralElement(parser, context));
     if (parser.token === Token.RightBracket) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
       if (parser.token === Token.RightBracket) {
@@ -2501,7 +2550,7 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context): Pro
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   const trailingComma = false;
   while (parser.token & 0b00010100000000000111000000000000) {
-    properties.push(getCurrentNode(parser, context, parsePropertyDefinition));
+    properties.push(parsePropertyDefinition(parser, context));
     if (parser.token === Token.RightBrace) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) continue;
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
@@ -3803,11 +3852,7 @@ function parseFunctionStatementList(parser: ParserState, context: Context): Func
     // We may be in a [Decorator] context when parsing a function expression or
     // arrow function. The body of the function is not in [Decorator] context.
     statements.push(
-      getCurrentNode(
-        parser,
-        (context | Context.InDecoratorContext) ^ Context.InDecoratorContext,
-        parseStatementListItem
-      )
+      parseStatementListItem(parser, (context | Context.InDecoratorContext) ^ Context.InDecoratorContext)
     );
   }
   return createFunctionStatementList(statements, multiline, parser.nodeFlags, pos, parser.curPos);
@@ -3819,7 +3864,7 @@ function parseFormalParameterList(parser: ParserState, context: Context): Formal
     const curpPos = parser.curPos;
     let trailingComma = false;
     while (parser.token & 0b00000100000010000101000000000000 || parser.token === Token.Decorator) {
-      parameters.push(getCurrentNode(parser, context, parseFormalParameter));
+      parameters.push(parseFormalParameter(parser, context));
       if (parser.token === Token.RightParen) break;
       if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
         if (parser.token === Token.RightParen) {
@@ -3926,7 +3971,7 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   let trailingComma = false;
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   while (parser.token & (Token.IsEllipsis | Token.IsIdentifier | Token.FutureReserved | Token.IsProperty)) {
-    properties.push(getCurrentNode(parser, context, parseBindingProperty));
+    properties.push(parseBindingProperty(parser, context));
     if (parser.token === Token.RightBrace) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
       if (parser.token === Token.RightBrace) {
@@ -3937,7 +3982,7 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
     }
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
-  return createBindingPropertyList(properties, multiline, trailingComma, parser.nodeFlags, pos, parser.curPos);
+  return createBindingPropertyList(properties as any, multiline, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
@@ -4010,7 +4055,7 @@ function parseBindingElementList(parser: ParserState, context: Context): Binding
   let trailingComma = false;
 
   while (parser.token & 0b01000100000010000101000000000000) {
-    elements.push(getCurrentNode(parser, context, parseArrayBindingElement));
+    elements.push(parseArrayBindingElement(parser, context));
     if (parser.token === Token.RightBracket) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
       if (parser.token === Token.RightBracket) {
@@ -4442,7 +4487,7 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
   }
 
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
-    specifiers.push(getCurrentNode(parser, context, parseImportSpecifier));
+    specifiers.push(parseImportSpecifier(parser, context));
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }
@@ -4660,7 +4705,7 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const pos = parser.curPos;
   const specifiers = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
-    specifiers.push(getCurrentNode(parser, context, parseExportSpecifier));
+    specifiers.push(parseExportSpecifier(parser, context));
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }
@@ -4840,7 +4885,7 @@ function parseClassElementList(parser: ParserState, context: Context, isDecl: bo
     parser.token &
     (Token.IsIdentifier | Token.Keyword | Token.FutureReserved | Token.IsProperty | Token.IsSemicolon)
   ) {
-    elements.push(getCurrentNode(parser, context, parseClassElement));
+    elements.push(parseClassElement(parser, context));
     consumeOpt(parser, context, Token.Comma);
     if (parser.token === Token.RightBrace) break;
   }
@@ -5310,7 +5355,7 @@ function parseUnionType(parser: ParserState, context: Context): TypeNode | Union
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, Token.BitwiseOr)) {
-      types.push(getCurrentNode(parser, context, parseIntersectionType));
+      types.push(parseIntersectionType(parser, context));
     }
     return createUnionType(types, parser.nodeFlags, pos, parser.curPos);
   }
@@ -5324,7 +5369,7 @@ function parseIntersectionType(parser: ParserState, context: Context): TypeNode 
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, Token.BitwiseAnd)) {
-      types.push(getCurrentNode(parser, context, parsePostfixType));
+      types.push(parsePostfixType(parser, context));
     }
     return createIntersectionType(types, parser.nodeFlags, pos, parser.curPos);
   }
@@ -5634,7 +5679,7 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
   const innerPos = parser.curPos;
   const members = [];
   while (parser.token & 0b00110000000000000111000000000000) {
-    members.push(getCurrentNode(parser, context, parseTypeMember));
+    members.push(parseTypeMember(parser, context));
   }
 
   consume(parser, context, Token.RightBrace);
@@ -5676,7 +5721,7 @@ function parseObjectType(parser: ParserState, context: Context): ObjectTypeMembe
     const members = [];
     pos = parser.curPos;
     while (parser.token & 0b00110000000000000111000000000000) {
-      members.push(getCurrentNode(parser, context, parseTypeMember));
+      members.push(parseTypeMember(parser, context));
     }
     const result = createObjectTypeMembers(members, multiline, parser.nodeFlags, pos, parser.curPos);
     consume(parser, context, Token.RightBrace);
@@ -5829,7 +5874,7 @@ function parseBracketList(parser: ParserState, context: Context): Parameters {
   const parameters = [];
   let trailingComma = false;
   while (parser.token & 0b00000100000010000101000000000000) {
-    parameters.push(getCurrentNode(parser, context, parseParameter));
+    parameters.push(parseParameter(parser, context));
     if (parser.token === Token.RightBracket) break;
     if (consumeOpt(parser, context, Token.Comma)) {
       if (parser.token === Token.RightBracket) {
@@ -5933,7 +5978,7 @@ function parseParameterList(parser: ParserState, context: Context): Parameters {
     const parameters = [];
     let trailingComma = false;
     while (parser.token & 0b00000100000010000101000000000000) {
-      parameters.push(getCurrentNode(parser, context, parseParameter));
+      parameters.push(parseParameter(parser, context));
       if (parser.token === Token.RightParen) break;
       if (consumeOpt(parser, context, Token.Comma)) {
         if (parser.token === Token.RightBracket) {
@@ -6044,7 +6089,7 @@ function parseTypeParameters(parser: ParserState, context: Context): TypeParamet
   const pos = parser.curPos;
   const params = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
-    params.push(getCurrentNode(parser, context, parseTypeParameter));
+    params.push(parseTypeParameter(parser, context));
     if (isTypeParametersTerminator(parser.token)) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
@@ -6150,7 +6195,7 @@ function parseFunctionTypeParams(parser: ParserState, context: Context): Paramet
   const parameters = [];
   let trailingComma = false;
   while (parser.token & (Token.IsEllipsis | Token.IsPatternStart | Token.IsIdentifier | Token.FutureReserved)) {
-    parameters.push(getCurrentNode(parser, context, parseParameter));
+    parameters.push(parseParameter(parser, context));
     if (parser.token === Token.RightParen) break;
     if (consumeOpt(parser, context, Token.Comma)) {
       if (parser.token === Token.RightParen) {
@@ -6190,7 +6235,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   nextToken(parser, context);
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   while (parser.token & 0b01100100000010000101000000000000) {
-    elements.push(getCurrentNode(parser, context, parseTupleElementNameOrTupleElementType));
+    elements.push(parseTupleElementNameOrTupleElementType(parser, context));
     if (parser.token === Token.RightBracket) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
   }
@@ -6372,7 +6417,7 @@ function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context
     const pos = parser.curPos;
     const typeArguments = [];
     while (parser.token & 0b01100000000010000101000000000000) {
-      typeArguments.push(getCurrentNode(parser, context, parseType));
+      typeArguments.push(parseType(parser, context));
       if (parser.token === Token.GreaterThan) break;
       if (consumeOpt(parser, context, Token.Comma)) continue;
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');

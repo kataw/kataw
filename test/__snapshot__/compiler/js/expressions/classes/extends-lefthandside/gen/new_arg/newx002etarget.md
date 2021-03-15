@@ -12,7 +12,6 @@ new new.target
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -21,64 +20,58 @@ new new.target
     "kind": 196,
     "source": "new new.target",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 4194973,
-                        "name": {
-                            "kind": 196711,
-                            "text": "target",
-                            "rawText": "target",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 14
-                        },
+                    "kind": 4194973,
+                    "name": {
+                        "kind": 196711,
+                        "text": "target",
+                        "rawText": "target",
                         "flags": 0,
                         "intersects": false,
-                        "transformFlags": 1,
-                        "start": 3,
+                        "transformFlags": 0,
+                        "start": 8,
                         "end": 14
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "transformFlags": 1,
+                    "start": 3,
                     "end": 14
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 14
 }
 ```
 
+  
 ### Printed
 
 
@@ -86,6 +79,7 @@ new new.target
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

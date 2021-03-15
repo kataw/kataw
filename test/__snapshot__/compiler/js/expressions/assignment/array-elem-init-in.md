@@ -16,145 +16,138 @@ result = [ x = 'x' in {} ] = vals;
     "kind": 196,
     "source": "result = [ x = 'x' in {} ] = vals;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "result",
+                    "rawText": "result",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 6
+                },
+                "operator": "=",
+                "right": {
                     "kind": 65550,
                     "left": {
-                        "kind": 196712,
-                        "text": "result",
-                        "rawText": "result",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 6
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 67207686,
-                            "elementList": {
-                                "kind": 65605,
-                                "elements": [
-                                    {
-                                        "kind": 65550,
+                        "kind": 98822,
+                        "elementList": {
+                            "kind": 65605,
+                            "elements": [
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
                                         "left": {
-                                            "kind": 196712,
+                                            "kind": 4261583,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 10,
-                                            "end": 12
-                                        },
-                                        "operator": "=",
-                                        "right": {
-                                            "kind": 65563,
-                                            "left": {
-                                                "kind": 4261583,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 16777216,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 14,
-                                                "end": 18
-                                            },
-                                            "operator": "in",
-                                            "right": {
-                                                "kind": 67224232,
-                                                "propertyList": {
-                                                    "kind": 65722,
-                                                    "properties": [],
-                                                    "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 23,
-                                                    "end": 23
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 21,
-                                                "end": 24
-                                            },
-                                            "flags": 0,
+                                            "flags": 33554432,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "start": 14,
+                                            "end": 18
+                                        },
+                                        "operator": "in",
+                                        "right": {
+                                            "kind": 98984,
+                                            "propertyList": {
+                                                "kind": 65722,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "multiline": false,
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 23,
+                                                "end": 23
+                                            },
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 21,
                                             "end": 24
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 10,
+                                        "start": 14,
                                         "end": 24
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 24
-                            },
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 10,
+                                    "end": 24
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "start": 8,
-                            "end": 26
-                        },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "vals",
-                            "rawText": "vals",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 28,
-                            "end": 33
+                            "start": 10,
+                            "end": 24
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "start": 8,
+                        "end": 26
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 196712,
+                        "text": "vals",
+                        "rawText": "vals",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 28,
                         "end": 33
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 8,
                     "end": 33
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": false,
+                "end": 33
+            },
+            "flags": 0,
+            "intersects": false,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 34
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
-    "flags": 0,
     "intersects": false,
+    "original": null,
+    "symbol": null,
+    "flags": 0,
     "transformFlags": 0,
     "start": 0,
     "end": 34
