@@ -11,7 +11,7 @@ function makeKey(text) {
 sb.push('/* @internal */\nexport const enum DiagnosticCode {\n');
 
 var first = true;
-Object.keys(messages).forEach(text => {
+Object.keys(messages).forEach((text) => {
   var key = makeKey(text);
   if (first) first = false;
   else {
@@ -22,7 +22,7 @@ Object.keys(messages).forEach(text => {
 
 sb.push('\n}\n\nexport const diagnosticMap: { [key: number]: string; } = {\n');
 
-Object.keys(messages).forEach(text => {
+Object.keys(messages).forEach((text) => {
   sb.push('[' + messages[text] + ']: ' + JSON.stringify(text) + ',\n');
 });
 
