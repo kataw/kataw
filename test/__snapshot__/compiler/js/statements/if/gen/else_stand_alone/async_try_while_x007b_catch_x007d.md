@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\if\gen\else_stand_alone
+- From: kataw/test/__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/if/gen/else_stand_alone
 > :: test: else stand alone
 > :: case: async try while { catch }
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/for-of/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\for-of\gen\unclosed_parens
+- From: kataw/test/__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/for-of/gen/unclosed_parens
 > :: test: unclosed parens
 > :: case: while try this and !foo
 ## Input
