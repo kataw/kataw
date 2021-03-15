@@ -14,62 +14,52 @@ xxx\x61
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "xxx\\x61",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "xxx",
-                    "rawText": "xxx",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 3
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "xxx",
+                "rawText": "xxx",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x61",
-                    "rawText": "x61",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 7
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x61",
+                "rawText": "x61",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 7
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 7
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 4,
+            "end": 7
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -87,9 +77,9 @@ xxx\x61
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 7
@@ -98,13 +88,11 @@ xxx\x61
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

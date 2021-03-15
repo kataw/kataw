@@ -12,25 +12,32 @@ do do do catch try {} while while while
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do do do catch try {} while while while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 14,
+                "end": 14
+            },
+            "statement": {
                 "kind": 2097218,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
-                    "intersects": false,
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 14
@@ -40,25 +47,35 @@ do do do catch try {} while while while
                     "expression": {
                         "kind": 131322,
                         "text": "",
-                        "flags": 6,
-                        "intersects": false,
+                        "flags": 3,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
                     "statement": {
-                        "kind": 2097218,
-                        "expression": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
+                        "kind": 2097375,
+                        "block": {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 8
+                            },
+                            "flags": 0,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 14,
-                            "end": 14
+                            "start": 8,
+                            "end": 8
                         },
-                        "statement": {
-                            "kind": 2097375,
+                        "catchClause": {
+                            "kind": 2095,
+                            "catchParameter": null,
                             "block": {
                                 "kind": 2099237,
                                 "block": {
@@ -66,190 +83,163 @@ do do do catch try {} while while while
                                     "statements": [],
                                     "multiline": false,
                                     "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 8
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 8
-                            },
-                            "catchClause": {
-                                "kind": 2095,
-                                "catchParameter": null,
-                                "block": {
-                                    "kind": 2099237,
-                                    "block": {
-                                        "kind": 2084,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 14
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 14
                                 },
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 16,
-                                "start": 8,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 14,
                                 "end": 14
                             },
-                            "finallyBlock": null,
-                            "flags": 2,
-                            "intersects": false,
+                            "flags": 1,
+                            "symbol": null,
                             "transformFlags": 16,
                             "start": 8,
                             "end": 14
                         },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
+                        "finallyBlock": null,
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 16,
+                        "start": 8,
                         "end": 14
                     },
-                    "flags": 2,
-                    "intersects": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 14
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 14
             },
-            {
-                "kind": 2097375,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 20
-                    },
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 18,
-                    "end": 21
+                    "start": 20,
+                    "end": 20
                 },
-                "catchClause": null,
-                "finallyBlock": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 21,
-                        "end": 21
-                    },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 18,
+                "end": 21
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 14,
+                "start": 21,
                 "end": 21
             },
-            {
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 14,
+            "end": 21
+        },
+        {
+            "kind": 2097399,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 27,
+                "end": 27
+            },
+            "statement": {
                 "kind": 2097399,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
-                    "intersects": false,
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 27,
-                    "end": 27
+                    "start": 33,
+                    "end": 33
                 },
                 "statement": {
                     "kind": 2097399,
                     "expression": {
                         "kind": 131322,
                         "text": "",
-                        "flags": 6,
-                        "intersects": false,
+                        "flags": 3,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 33,
-                        "end": 33
+                        "start": 39,
+                        "end": 39
                     },
                     "statement": {
-                        "kind": 2097399,
+                        "kind": 2097233,
                         "expression": {
                             "kind": 131322,
                             "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 39,
-                            "end": 39
-                        },
-                        "statement": {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 39,
-                                "end": 39
-                            },
-                            "flags": 0,
-                            "intersects": false,
+                            "flags": 3,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 39,
                             "end": 39
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 39,
                         "end": 39
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 27,
+                    "start": 33,
                     "end": 39
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 21,
+                "start": 27,
                 "end": 39
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 39
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 21,
+            "end": 39
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -288,9 +278,9 @@ do do do catch try {} while while while
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 39
@@ -299,13 +289,11 @@ do do do catch try {} while while while
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -8,87 +8,77 @@ x = z();
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x = z();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 1
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 1073807915,
+                    "expression": {
                         "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
+                        "text": "z",
+                        "rawText": "z",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
+                        "start": 3,
+                        "end": 5
                     },
-                    "operator": "=",
-                    "right": {
-                        "kind": 66091,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "z",
-                            "rawText": "z",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 5
-                        },
-                        "typeArguments": null,
-                        "argumentList": {
-                            "kind": 3,
-                            "elements": [],
-                            "trailingComma": false,
-                            "transformFlags": 0,
-                            "flags": 0,
-                            "intersects": false,
-                            "start": 7,
-                            "end": 7
-                        },
-                        "flags": 0,
-                        "intersects": false,
+                    "typeArguments": null,
+                    "argumentList": {
+                        "kind": 3,
+                        "elements": [],
+                        "trailingComma": false,
                         "transformFlags": 0,
-                        "start": 5,
+                        "flags": 0,
+                        "symbol": null,
+                        "start": 7,
                         "end": 7
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 5,
                     "end": 7
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 8
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 8
-    },
-    "jsx": false,
+                "end": 7
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 8
@@ -97,13 +87,11 @@ x = z();
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

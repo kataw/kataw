@@ -12,152 +12,142 @@ function not_gen() { await.b[c] => async }}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { await.b[c] => async }}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "not_gen",
-                    "rawText": "not_gen",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 66116,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "not_gen",
+                "rawText": "not_gen",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 67174980,
+                                "member": {
+                                    "kind": 67175096,
                                     "member": {
-                                        "kind": 66232,
-                                        "member": {
-                                            "kind": 196712,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 20,
-                                            "end": 26
-                                        },
-                                        "expression": {
-                                            "kind": 196711,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 27,
-                                            "end": 28
-                                        },
+                                        "kind": 196712,
+                                        "text": "await",
+                                        "rawText": "await",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 26,
-                                        "end": 28,
-                                        "period": {
-                                            "kind": 254,
-                                            "pos": 26,
-                                            "end": 27
-                                        }
+                                        "start": 20,
+                                        "end": 26
                                     },
                                     "expression": {
-                                        "kind": 196712,
-                                        "text": "c",
-                                        "rawText": "c",
+                                        "kind": 196711,
+                                        "text": "b",
+                                        "rawText": "b",
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 29,
-                                        "end": 30
+                                        "start": 27,
+                                        "end": 28
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 28,
-                                    "end": 31
+                                    "start": 26,
+                                    "end": 28,
+                                    "period": {
+                                        "kind": 255,
+                                        "pos": 26,
+                                        "end": 27
+                                    }
+                                },
+                                "expression": {
+                                    "kind": 196712,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 29,
+                                    "end": 30
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 20,
+                                "start": 28,
                                 "end": 31
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 31
-                    },
-                    "flags": 2,
-                    "intersects": false,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 20,
+                            "end": 31
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 18,
+                    "start": 20,
                     "end": 31
                 },
-                "typeParameters": null,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 31
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 34,
-                    "end": 40
-                },
+            "typeParameters": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 31
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "async",
+                "rawText": "async",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 40
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 43
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 34,
+            "end": 40
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -175,9 +165,9 @@ function not_gen() { await.b[c] => async }}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 43
@@ -186,13 +176,11 @@ function not_gen() { await.b[c] => async }}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

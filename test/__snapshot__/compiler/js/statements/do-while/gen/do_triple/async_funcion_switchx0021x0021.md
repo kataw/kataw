@@ -12,25 +12,32 @@ do do do async funcion switch!! while while while
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do do do async funcion switch!! while while while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 22,
+                "end": 22
+            },
+            "statement": {
                 "kind": 2097218,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
-                    "intersects": false,
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 22
@@ -38,182 +45,165 @@ do do do async funcion switch!! while while while
                 "statement": {
                     "kind": 2097218,
                     "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
+                        "kind": 196712,
+                        "text": "funcion",
+                        "rawText": "funcion",
+                        "flags": 1,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 22,
+                        "start": 14,
                         "end": 22
                     },
                     "statement": {
-                        "kind": 2097218,
+                        "kind": 2097233,
                         "expression": {
                             "kind": 196712,
-                            "text": "funcion",
-                            "rawText": "funcion",
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 14,
-                            "end": 22
-                        },
-                        "statement": {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 14
-                            },
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
-                        "flags": 2,
-                        "intersects": false,
+                        "flags": 0,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 5,
-                        "end": 22
+                        "start": 8,
+                        "end": 14
                     },
-                    "flags": 2,
-                    "intersects": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 2,
+                    "start": 5,
                     "end": 22
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 22
             },
-            {
-                "kind": 2097362,
-                "expression": {
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 65774,
+                "operator": "!",
+                "operand": {
                     "kind": 65774,
                     "operator": "!",
                     "operand": {
-                        "kind": 65774,
-                        "operator": "!",
-                        "operand": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "flags": 2,
-                        "intersects": false,
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 30,
+                        "start": 31,
                         "end": 31
                     },
-                    "flags": 2,
-                    "intersects": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 29,
+                    "start": 30,
                     "end": 31
                 },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 31,
-                    "end": 31
-                },
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 22,
+                "start": 29,
                 "end": 31
             },
-            {
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 31,
+                "end": 31
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 22,
+            "end": 31
+        },
+        {
+            "kind": 2097399,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 37,
+                "end": 37
+            },
+            "statement": {
                 "kind": 2097399,
                 "expression": {
                     "kind": 131322,
                     "text": "",
-                    "flags": 6,
-                    "intersects": false,
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 37,
-                    "end": 37
+                    "start": 43,
+                    "end": 43
                 },
                 "statement": {
                     "kind": 2097399,
                     "expression": {
                         "kind": 131322,
                         "text": "",
-                        "flags": 6,
-                        "intersects": false,
+                        "flags": 3,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 43,
-                        "end": 43
+                        "start": 49,
+                        "end": 49
                     },
                     "statement": {
-                        "kind": 2097399,
+                        "kind": 2097233,
                         "expression": {
                             "kind": 131322,
                             "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 49,
-                            "end": 49
-                        },
-                        "statement": {
-                            "kind": 2097233,
-                            "expression": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 49,
-                                "end": 49
-                            },
-                            "flags": 0,
-                            "intersects": false,
+                            "flags": 3,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 49,
                             "end": 49
                         },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 43,
+                        "start": 49,
                         "end": 49
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 37,
+                    "start": 43,
                     "end": 49
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 31,
+                "start": 37,
                 "end": 49
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 49
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 31,
+            "end": 49
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -259,9 +249,9 @@ do do do async funcion switch!! while while while
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 49
@@ -270,13 +260,11 @@ do do do async funcion switch!! while while while
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

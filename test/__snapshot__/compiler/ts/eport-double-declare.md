@@ -14,83 +14,73 @@ export declare declare var name;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "export declare declare var name;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "declare",
-                    "rawText": "declare",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 14
-                },
-                "flags": 32,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "declare",
+                "rawText": "declare",
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "name",
-                                "rawText": "name",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 26,
-                                "end": 31
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 26,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 65536,
+            "flags": 64,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 14
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "name",
+                            "rawText": "name",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 26,
                             "end": 31
-                        }
-                    ],
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 26,
-                    "end": 31
-                },
-                "flags": 201392128,
-                "intersects": false,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 26,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 31
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 22,
-                "end": 32
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 32
-    },
-    "jsx": false,
+                "start": 26,
+                "end": 31
+            },
+            "flags": 402653184,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 22,
+            "end": 32
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -101,9 +91,9 @@ export declare declare var name;
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 32
@@ -112,13 +102,11 @@ export declare declare var name;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

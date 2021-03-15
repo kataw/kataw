@@ -8,119 +8,109 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": " let map: { -readonly [P in string]-?: number };",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "map",
-                                "rawText": "map",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 4,
-                                "end": 8
-                            },
-                            "exclamation": false,
-                            "type": {
-                                "kind": 8335,
-                                "typeParameter": {
-                                    "kind": 8424,
-                                    "name": {
-                                        "kind": 196711,
-                                        "text": "P",
-                                        "rawText": "P",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 23,
-                                        "end": 24
-                                    },
-                                    "constraint": {
-                                        "kind": 4202702,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 2097152,
-                                        "start": 27,
-                                        "end": 34
-                                    },
-                                    "defaultType": null,
-                                    "expression": null,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": false,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "map",
+                            "rawText": "map",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 4,
+                            "end": 8
+                        },
+                        "exclamation": false,
+                        "type": {
+                            "kind": 8335,
+                            "typeParameter": {
+                                "kind": 134226152,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "P",
+                                    "rawText": "P",
                                     "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
+                                    "symbol": null,
+                                    "transformFlags": 0,
                                     "start": 23,
+                                    "end": 24
+                                },
+                                "constraint": {
+                                    "kind": 4202702,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 2097152,
+                                    "start": 27,
                                     "end": 34
                                 },
-                                "nameType": null,
-                                "isReadOnly": true,
-                                "plus": false,
-                                "minus": true,
-                                "isOptional": true,
-                                "type": {
-                                    "kind": 4202657,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "start": 38,
-                                    "end": 45
-                                },
+                                "defaultType": null,
+                                "expression": null,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 2097152,
-                                "start": 9,
-                                "end": 47
+                                "start": 23,
+                                "end": 34
                             },
-                            "initializer": null,
+                            "nameType": null,
+                            "isReadOnly": true,
+                            "plus": false,
+                            "minus": true,
+                            "isOptional": true,
+                            "type": {
+                                "kind": 4202657,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 2097152,
+                                "start": 38,
+                                "end": 45
+                            },
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 4,
+                            "symbol": null,
+                            "transformFlags": 2097152,
+                            "start": 9,
                             "end": 47
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 47
-                },
-                "flags": 16,
-                "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
-                "end": 48
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 48
-    },
-    "jsx": false,
+                        },
+                        "initializer": null,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 4,
+                        "end": 47
+                    }
+                ],
+                "flags": 8,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 47
+            },
+            "flags": 8,
+            "symbol": null,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 48
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 48
@@ -129,13 +119,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

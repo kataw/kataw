@@ -8,44 +8,34 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\"\\u{}\"",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "}",
-                    "rawText": "}",
-                    "flags": 2097152,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 6
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "}",
+                "rawText": "}",
+                "flags": 4194304,
+                "symbol": null,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 6
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 6
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -56,9 +46,9 @@
             "length": 1
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 6
@@ -67,13 +57,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

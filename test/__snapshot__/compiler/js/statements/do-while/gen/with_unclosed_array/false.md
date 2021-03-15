@@ -12,80 +12,70 @@ do[ false
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do[ false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 9
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 9
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 67207686,
-                        "elementList": {
-                            "kind": 65605,
-                            "elements": [
-                                {
-                                    "kind": 4260391,
-                                    "text": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 3,
-                                    "end": 9
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 9
-                        },
-                        "flags": 2,
-                        "intersects": false,
+                    "kind": 98822,
+                    "elementList": {
+                        "kind": 65605,
+                        "elements": [
+                            {
+                                "kind": 4260391,
+                                "text": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 3,
+                                "end": 9
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "flags": 1,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 2,
+                        "start": 3,
                         "end": 9
                     },
-                    "flags": 0,
-                    "intersects": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 9
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 9
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 9
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -96,9 +86,9 @@ do[ false
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 9
@@ -107,13 +97,11 @@ do[ false
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

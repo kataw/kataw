@@ -12,135 +12,125 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class B extends --x {})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 65714,
-                        "operator": "--",
-                        "operand": {
-                            "kind": 82483,
-                            "name": {
-                                "kind": 131102,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 6,
-                                "end": 8
-                            },
-                            "typeParameters": null,
-                            "classHeritage": {
-                                "kind": 52,
-                                "expression": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 16
-                                },
-                                "typeArguments": null,
-                                "flags": 2,
-                                "intersects": false,
+                    "kind": 65714,
+                    "operator": "--",
+                    "operand": {
+                        "kind": 66099,
+                        "name": {
+                            "kind": 131102,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 6,
+                            "end": 8
+                        },
+                        "typeParameters": null,
+                        "classHeritage": {
+                            "kind": 52,
+                            "expression": {
+                                "kind": 131322,
+                                "text": "",
+                                "flags": 3,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
-                            "implementClauses": null,
-                            "members": {
-                                "kind": 50,
-                                "elements": [],
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 1,
-                                "end": 1
-                            },
-                            "decorators": null,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 1,
+                            "typeArguments": null,
+                            "flags": 1,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 16,
                             "end": 16
                         },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
+                        "implementClauses": null,
+                        "members": {
+                            "kind": 50,
+                            "elements": [],
+                            "flags": 1,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 1,
+                            "end": 1
+                        },
+                        "decorators": null,
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 1,
                         "start": 1,
-                        "end": 19
+                        "end": 16
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 1,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 20
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 22,
-                    "end": 22
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 19,
+            "end": 20
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 20,
-                "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+                "start": 22,
+                "end": 22
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 20,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -172,9 +162,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 24
@@ -183,13 +173,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,79 +12,69 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(inst\\u0061nceof = x);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 65774,
-                            "operator": "instanceof",
-                            "operand": {
-                                "kind": 131322,
-                                "text": "",
-                                "flags": 6,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 16
-                            },
-                            "flags": 2,
-                            "intersects": false,
+                    "kind": 65550,
+                    "left": {
+                        "kind": 65774,
+                        "operator": "instanceof",
+                        "operand": {
+                            "kind": 131322,
+                            "text": "",
+                            "flags": 3,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 1,
+                            "start": 16,
                             "end": 16
                         },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 18,
-                            "end": 20
-                        },
-                        "flags": 0,
-                        "intersects": false,
+                        "flags": 1,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 1,
+                        "end": 16
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 18,
                         "end": 20
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 21
+                    "start": 1,
+                    "end": 20
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+                "end": 21
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -95,9 +85,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 22
@@ -106,13 +96,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,20 +12,37 @@ try catch false
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "try catch false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097375,
+    "statements": [
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
+                    "end": 3
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 3,
+                "end": 3
+            },
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -33,76 +50,49 @@ try catch false
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 3
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 3
-                },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 9
-                        },
-                        "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 3,
-                    "end": 9
-                },
-                "finallyBlock": null,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 16,
-                "start": 0,
-                "end": 9
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260391,
-                    "text": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 9,
-                    "end": 15
+                    "end": 9
                 },
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 16,
+                "start": 3,
+                "end": 9
+            },
+            "finallyBlock": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 16,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260391,
+                "text": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 9,
+            "end": 15
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -120,9 +110,9 @@ try catch false
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 15
@@ -131,13 +121,11 @@ try catch false
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

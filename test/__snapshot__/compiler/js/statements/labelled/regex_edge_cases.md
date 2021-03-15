@@ -9,51 +9,41 @@ debugger
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "debugger\n/bar",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 6291518,
-                "flags": 540672,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 8
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/bar",
-                    "flags": 540672,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 13
-                },
-                "flags": 0,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 6291518,
+            "flags": 1081344,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/bar",
+                "flags": 1081344,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 8,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 8,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -64,9 +54,9 @@ debugger
             "length": 1
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 13
@@ -75,13 +65,11 @@ debugger
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

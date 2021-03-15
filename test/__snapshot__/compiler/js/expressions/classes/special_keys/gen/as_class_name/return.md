@@ -12,76 +12,66 @@ class return {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class return {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 14
-                    },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 98984,
+                "propertyList": {
+                    "kind": 65722,
+                    "properties": [],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
-                    "end": 15
+                    "start": 14,
+                    "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 12,
                 "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 15
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -92,9 +82,9 @@ class return {}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 15
@@ -103,13 +93,11 @@ class return {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

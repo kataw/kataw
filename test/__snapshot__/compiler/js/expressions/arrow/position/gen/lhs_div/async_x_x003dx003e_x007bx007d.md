@@ -12,116 +12,106 @@ async x => {} / x
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "async x => {} / x",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65552,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 5,
-                                    "end": 7
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 81936,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1,
-                                "start": 10,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 5,
                                 "end": 7
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 7
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 12
-                        },
-                        "flags": 524288,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 10,
-                        "end": 13
-                    },
-                    "flags": 524288,
-                    "intersects": false,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 10,
+                            "end": 7
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 7
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 12
+                    },
+                    "flags": 1048576,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 10,
                     "end": 13
                 },
-                "flags": 0,
-                "intersects": false,
+                "flags": 1048576,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/ x",
-                    "flags": 524290,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 17
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/ x",
+                "flags": 1048577,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -139,9 +129,9 @@ async x => {} / x
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 17
@@ -150,13 +140,11 @@ async x => {} / x
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

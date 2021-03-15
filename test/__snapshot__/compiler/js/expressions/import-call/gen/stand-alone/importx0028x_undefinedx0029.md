@@ -12,73 +12,63 @@ import(x,undefined)
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "import(x,undefined)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65590,
-                    "expressions": [
-                        {
-                            "kind": 66156,
-                            "typeArguments": null,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 262152,
-                            "start": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65590,
+                "expressions": [
+                    {
+                        "kind": 66156,
+                        "typeArguments": null,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 7,
                             "end": 8
                         },
-                        {
-                            "kind": 196712,
-                            "text": "undefined",
-                            "rawText": "undefined",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 18
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 18
-                },
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 262152,
+                        "start": 0,
+                        "end": 8
+                    },
+                    {
+                        "kind": 196712,
+                        "text": "undefined",
+                        "rawText": "undefined",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 18
+                    }
+                ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -96,9 +86,9 @@ import(x,undefined)
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 19
@@ -107,13 +97,11 @@ import(x,undefined)
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

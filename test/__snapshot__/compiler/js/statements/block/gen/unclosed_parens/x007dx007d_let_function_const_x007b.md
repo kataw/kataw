@@ -12,155 +12,145 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "{( }} let function const {",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 66224,
                             "expression": {
-                                "kind": 66224,
-                                "expression": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 2,
-                                    "end": 2
-                                },
-                                "flags": 2,
-                                "intersects": false,
+                                "kind": 131322,
+                                "text": "",
+                                "flags": 3,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 2,
                                 "end": 2
                             },
-                            "flags": 0,
-                            "intersects": false,
+                            "flags": 1,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 1,
                             "end": 2
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 2
-                },
-                "flags": 0,
-                "intersects": false,
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 2
+                    }
+                ],
+                "multiline": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 4
+                "start": 1,
+                "end": 2
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "let",
-                    "rawText": "let",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 9
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 4
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "let",
+                "rawText": "let",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 18,
-                    "end": 18
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 18,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2099237,
-                                "block": {
-                                    "kind": 2084,
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 26,
-                                    "end": 26
-                                },
-                                "flags": 2,
-                                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 9
+        },
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "",
+                "rawText": "",
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 18,
+                "end": 18
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 18,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 0,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 24,
+                                "start": 26,
                                 "end": 26
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 26
-                    },
-                    "flags": 2,
-                    "intersects": false,
+                            },
+                            "flags": 1,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 24,
+                            "end": 26
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 18,
+                    "start": 24,
                     "end": 26
                 },
-                "typeParameters": null,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 9,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 26
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 26
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 9,
+            "end": 26
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -185,9 +175,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 26
@@ -196,13 +186,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -18,89 +18,79 @@ function a() {
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function a() {\n    /* before */\n    return;\n    /* after */\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 10
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 12
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097346,
-                                "expression": null,
-                                "flags": 16384,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 43
-                            }
-                        ],
-                        "multiline": true,
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 43
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 61
-                },
-                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "a",
+                "rawText": "a",
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 12
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097346,
+                            "expression": null,
+                            "flags": 32768,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 14,
+                            "end": 43
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 32768,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 14,
+                    "end": 43
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
                 "end": 61
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 61
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 61
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 61
@@ -109,13 +99,11 @@ function a() {
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

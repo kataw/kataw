@@ -12,132 +12,122 @@ var [...await f] = [];
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var [...await f] = [];",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 33554437,
-                                "elementList": {
-                                    "kind": 29,
-                                    "elements": [
-                                        {
-                                            "kind": 134217756,
-                                            "ellipsis": true,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 8,
-                                                "end": 13
-                                            },
-                                            "right": null,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 33554437,
+                            "elementList": {
+                                "kind": 29,
+                                "elements": [
+                                    {
+                                        "kind": 16412,
+                                        "ellipsis": true,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "await",
+                                            "rawText": "await",
                                             "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 4097,
-                                            "start": 5,
+                                            "symbol": null,
+                                            "transformFlags": 1025,
+                                            "start": 8,
                                             "end": 13
                                         },
-                                        {
-                                            "kind": 134217756,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "f",
-                                                "rawText": "f",
-                                                "flags": 2,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 13,
-                                                "end": 15
-                                            },
-                                            "right": null,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
+                                        "right": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 4097,
+                                        "start": 5,
+                                        "end": 13
+                                    },
+                                    {
+                                        "kind": 16412,
+                                        "ellipsis": false,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 1,
+                                            "symbol": null,
+                                            "transformFlags": 1025,
                                             "start": 13,
                                             "end": 15
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1,
-                                    "start": 5,
-                                    "end": 15
-                                },
+                                        },
+                                        "right": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1,
+                                        "start": 13,
+                                        "end": 15
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 16
+                                "symbol": null,
+                                "transformFlags": 1,
+                                "start": 5,
+                                "end": 15
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 67207686,
-                                "elementList": {
-                                    "kind": 65605,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 20
-                                },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 3,
+                            "end": 16
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 98822,
+                            "elementList": {
+                                "kind": 65605,
+                                "elements": [],
+                                "trailingComma": false,
+                                "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 18,
-                                "end": 21
+                                "start": 20,
+                                "end": 20
                             },
-                            "flags": 3,
-                            "intersects": false,
+                            "flags": 0,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 18,
                             "end": 21
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 21
-                },
+                        },
+                        "flags": 3,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 21
+                    }
+                ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+                "start": 3,
+                "end": 21
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -148,9 +138,9 @@ var [...await f] = [];
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 22
@@ -159,13 +149,11 @@ var [...await f] = [];
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

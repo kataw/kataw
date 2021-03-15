@@ -12,37 +12,54 @@ return catch catch try {
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return catch catch try {",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 6
             },
-            {
-                "kind": 2097375,
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -50,107 +67,53 @@ return catch catch try {
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 6
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 12
-                        },
-                        "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 6,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 12,
                     "end": 12
                 },
-                "finallyBlock": null,
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 6,
                 "end": 12
             },
-            {
-                "kind": 2097375,
+            "finallyBlock": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 16,
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 12,
-                        "end": 12
-                    },
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 18,
-                            "end": 18
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 12,
-                    "end": 18
-                },
-                "finallyBlock": null,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 16,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
                 "start": 12,
-                "end": 18
+                "end": 12
             },
-            {
-                "kind": 2097375,
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -158,50 +121,77 @@ return catch catch try {
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 24,
-                        "end": 24
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 22,
-                    "end": 24
-                },
-                "catchClause": null,
-                "finallyBlock": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 24
+                        "start": 18,
+                        "end": 18
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 18,
+                    "end": 18
+                },
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 16,
+                "start": 12,
+                "end": 18
+            },
+            "finallyBlock": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 16,
+            "start": 12,
+            "end": 18
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 18,
+                "start": 22,
                 "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 24,
+                    "end": 24
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 24,
+                "end": 24
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 18,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -233,9 +223,9 @@ return catch catch try {
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 24
@@ -244,13 +234,11 @@ return catch catch try {
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

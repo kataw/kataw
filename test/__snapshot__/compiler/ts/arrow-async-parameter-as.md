@@ -14,127 +14,117 @@ async (a as T) => {};
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "async (a as T) => {};",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 5
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [
-                            {
-                                "kind": 73738,
-                                "expression": {
-                                    "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                "type": {
-                                    "kind": 8428,
-                                    "typeName": {
-                                        "kind": 196711,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 13
-                                    },
-                                    "typeArguments": null,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "start": 11,
-                                    "end": 14
-                                },
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 8,
-                                "end": 13
-                            }
-                        ],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 65536,
-                        "intersects": false,
-                        "start": 8,
-                        "end": 14
-                    },
-                    "flags": 65536,
-                    "intersects": false,
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 5,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [
+                        {
+                            "kind": 73738,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "type": {
+                                "kind": 134226156,
+                                "typeName": {
+                                    "kind": 196711,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 11,
+                                    "end": 13
+                                },
+                                "typeArguments": null,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 2097152,
+                                "start": 11,
+                                "end": 14
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 2097152,
+                            "start": 8,
+                            "end": 13
+                        }
+                    ],
+                    "trailingComma": false,
+                    "transformFlags": 0,
+                    "flags": 0,
+                    "symbol": null,
+                    "start": 8,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
                 "end": 14
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 19
-                },
-                "flags": 65536,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 17,
-                "end": 20
+                "start": 19,
+                "end": 19
             },
-            {
-                "kind": 6291526,
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 20,
-                "end": 21
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 21
-    },
-    "jsx": true,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 20
+        },
+        {
+            "kind": 6291526,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 20,
+            "end": 21
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -145,9 +135,9 @@ async (a as T) => {};
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 21
@@ -156,13 +146,11 @@ async (a as T) => {};
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

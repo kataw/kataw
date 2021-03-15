@@ -12,168 +12,158 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "({ method() { y = super } })",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 67224232,
-                        "propertyList": {
-                            "kind": 65722,
-                            "properties": [
-                                {
-                                    "kind": 16844946,
-                                    "name": {
-                                        "kind": 196711,
-                                        "text": "method",
-                                        "rawText": "method",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 2,
-                                        "end": 9
-                                    },
-                                    "formalParameters": {
-                                        "kind": 90,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    "isSetter": false,
-                                    "isGetter": false,
-                                    "contents": {
-                                        "kind": 91,
-                                        "functionStatementList": {
-                                            "kind": 94,
-                                            "statements": [
-                                                {
-                                                    "kind": 2097233,
-                                                    "expression": {
-                                                        "kind": 65550,
-                                                        "left": {
-                                                            "kind": 196712,
-                                                            "text": "y",
-                                                            "rawText": "y",
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 13,
-                                                            "end": 15
-                                                        },
-                                                        "operator": "=",
-                                                        "right": {
-                                                            "kind": 66232,
-                                                            "member": {
-                                                                "kind": 4260561,
-                                                                "flags": 0,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "start": 17,
-                                                                "end": 23
-                                                            },
-                                                            "expression": {
-                                                                "kind": 196711,
-                                                                "text": "",
-                                                                "rawText": "",
-                                                                "flags": 2,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "start": 23,
-                                                                "end": 23
-                                                            },
-                                                            "flags": 17,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 2,
-                                                            "end": 23
-                                                        },
-                                                        "flags": 2,
-                                                        "intersects": false,
+                    "kind": 98984,
+                    "propertyList": {
+                        "kind": 65722,
+                        "properties": [
+                            {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "method",
+                                    "rawText": "method",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 2,
+                                    "end": 9
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 10,
+                                    "end": 11
+                                },
+                                "isSetter": false,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [
+                                            {
+                                                "kind": 2097233,
+                                                "expression": {
+                                                    "kind": 65550,
+                                                    "left": {
+                                                        "kind": 196712,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 0,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 13,
+                                                        "end": 15
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                        "kind": 67175096,
+                                                        "member": {
+                                                            "kind": 4260561,
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 17,
+                                                            "end": 23
+                                                        },
+                                                        "expression": {
+                                                            "kind": 196711,
+                                                            "text": "",
+                                                            "rawText": "",
+                                                            "flags": 1,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 23,
+                                                            "end": 23
+                                                        },
+                                                        "flags": 17,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 1,
                                                         "end": 23
                                                     },
-                                                    "flags": 0,
-                                                    "intersects": false,
+                                                    "flags": 1,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 23
-                                                }
-                                            ],
-                                            "multiline": false,
-                                            "flags": 2,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 13,
-                                            "end": 23
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 13,
+                                                "end": 23
+                                            }
+                                        ],
+                                        "multiline": false,
+                                        "flags": 1,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 25
+                                        "start": 13,
+                                        "end": 23
                                     },
-                                    "decorators": null,
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "typeParameters": null,
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 9,
+                                    "start": 11,
                                     "end": 25
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 2,
-                            "end": 25
-                        },
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 9,
+                                "end": 25
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 1,
-                        "end": 27
+                        "start": 2,
+                        "end": 25
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 28
+                    "start": 1,
+                    "end": 27
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 28
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 28
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -184,9 +174,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 28
@@ -195,13 +185,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,72 +12,62 @@ switch[ false
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch[ false",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
-                                "kind": 4260391,
-                                "text": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 13
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 13
-                    },
-                    "flags": 2,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 4260391,
+                            "text": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 13
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 6,
+                    "start": 7,
                     "end": 13
                 },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -95,9 +85,9 @@ switch[ false
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 13
@@ -106,13 +96,11 @@ switch[ false
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

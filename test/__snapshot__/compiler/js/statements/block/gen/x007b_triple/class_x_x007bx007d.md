@@ -12,115 +12,105 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "{ { { class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2099237,
-                            "block": {
-                                "kind": 2084,
-                                "statements": [
-                                    {
-                                        "kind": 2099237,
-                                        "block": {
-                                            "kind": 2084,
-                                            "statements": [
-                                                {
-                                                    "kind": 48,
-                                                    "name": {
-                                                        "kind": 131102,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 1025,
-                                                        "start": 11,
-                                                        "end": 13
-                                                    },
-                                                    "typeParameters": null,
-                                                    "classHeritage": null,
-                                                    "implementClauses": null,
-                                                    "members": {
-                                                        "kind": 50,
-                                                        "elements": [],
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 1,
-                                                        "start": 15,
-                                                        "end": 16
-                                                    },
-                                                    "decorators": null,
-                                                    "isAbstract": false,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2099237,
+                        "block": {
+                            "kind": 2084,
+                            "statements": [
+                                {
+                                    "kind": 2099237,
+                                    "block": {
+                                        "kind": 2084,
+                                        "statements": [
+                                            {
+                                                "kind": 48,
+                                                "name": {
+                                                    "kind": 131102,
+                                                    "text": "x",
+                                                    "rawText": "x",
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
+                                                    "transformFlags": 1025,
+                                                    "start": 11,
+                                                    "end": 13
+                                                },
+                                                "typeParameters": null,
+                                                "classHeritage": null,
+                                                "implementClauses": null,
+                                                "members": {
+                                                    "kind": 50,
+                                                    "elements": [],
+                                                    "flags": 0,
+                                                    "symbol": null,
                                                     "transformFlags": 1,
-                                                    "start": 5,
+                                                    "start": 15,
                                                     "end": 16
-                                                }
-                                            ],
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 5,
-                                            "end": 16
-                                        },
-                                        "flags": 2,
-                                        "intersects": false,
+                                                },
+                                                "decorators": null,
+                                                "isAbstract": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1,
+                                                "start": 5,
+                                                "end": 16
+                                            }
+                                        ],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 3,
+                                        "start": 5,
                                         "end": 16
-                                    }
-                                ],
-                                "multiline": false,
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 3,
-                                "end": 16
-                            },
-                            "flags": 2,
-                            "intersects": false,
+                                    },
+                                    "flags": 1,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 3,
+                                    "end": 16
+                                }
+                            ],
+                            "multiline": false,
+                            "flags": 1,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 1,
+                            "start": 3,
                             "end": 16
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 16
-                },
-                "flags": 2,
-                "intersects": false,
+                        },
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 16
+                    }
+                ],
+                "multiline": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -131,9 +121,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 16
@@ -142,13 +132,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

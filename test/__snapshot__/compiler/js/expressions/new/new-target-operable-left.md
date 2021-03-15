@@ -10,139 +10,126 @@ function f(){ new.target + foo }
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function f(){ new.target + foo }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 10
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 12
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65563,
-                                    "left": {
-                                        "kind": 4194973,
-                                        "name": {
-                                            "kind": 196711,
-                                            "text": "target",
-                                            "rawText": "target",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 18,
-                                            "end": 24
-                                        },
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 12
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65563,
+                                "left": {
+                                    "kind": 4194973,
+                                    "name": {
+                                        "kind": 196711,
+                                        "text": "target",
+                                        "rawText": "target",
                                         "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1,
-                                        "start": 13,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 18,
                                         "end": 24
                                     },
-                                    "operator": "+",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 26,
-                                        "end": 30
-                                    },
                                     "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 1,
                                     "start": 13,
+                                    "end": 24
+                                },
+                                "operator": "+",
+                                "right": {
+                                    "kind": 196712,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 26,
                                     "end": 30
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 13,
                                 "end": 30
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 30
-                    },
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 30
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
-                    "end": 32
+                    "start": 13,
+                    "end": 30
                 },
-                "typeParameters": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
                 "end": 32
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 32
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 32
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 32
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

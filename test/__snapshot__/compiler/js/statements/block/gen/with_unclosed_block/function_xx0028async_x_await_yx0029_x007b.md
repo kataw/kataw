@@ -12,302 +12,292 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "{ {} finally(x) { function x(async x, await y) {",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2099237,
+                        "block": {
+                            "kind": 2084,
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 3,
+                            "end": 3
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "kind": 2097375,
+                        "block": {
                             "kind": 2099237,
                             "block": {
                                 "kind": 2084,
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 3,
-                                "end": 3
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 1,
-                            "end": 4
-                        },
-                        {
-                            "kind": 2097375,
-                            "block": {
-                                "kind": 2099237,
-                                "block": {
-                                    "kind": 2084,
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 4,
-                                    "end": 4
-                                },
-                                "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 4,
                                 "end": 4
                             },
-                            "catchClause": null,
-                            "finallyBlock": {
-                                "kind": 2099237,
-                                "block": {
-                                    "kind": 2084,
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 12,
-                                    "end": 12
-                                },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 4,
+                            "end": 4
+                        },
+                        "catchClause": null,
+                        "finallyBlock": {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 2,
-                            "intersects": false,
+                            "flags": 0,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 4,
+                            "start": 12,
                             "end": 12
                         },
-                        {
-                            "kind": 2097233,
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 4,
+                        "end": 12
+                    },
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 66224,
                             "expression": {
-                                "kind": 66224,
-                                "expression": {
-                                    "kind": 196712,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 13,
-                                    "end": 14
-                                },
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 12,
-                                "end": 15
+                                "start": 13,
+                                "end": 14
                             },
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
-                        {
-                            "kind": 2099237,
-                            "block": {
-                                "kind": 2084,
-                                "statements": [
-                                    {
-                                        "kind": 264284,
-                                        "name": {
-                                            "kind": 131102,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1025,
-                                            "start": 26,
-                                            "end": 28
-                                        },
-                                        "formalParameters": {
-                                            "kind": 90,
-                                            "formalParameterList": [
-                                                {
-                                                    "kind": 89,
-                                                    "ellipsis": false,
-                                                    "binding": {
-                                                        "kind": 131102,
-                                                        "text": "async",
-                                                        "rawText": "async",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 1025,
-                                                        "start": 29,
-                                                        "end": 34
-                                                    },
-                                                    "isOptional": false,
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "decorators": null,
-                                                    "accessModifier": null,
-                                                    "isReadOnly": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 15
+                    },
+                    {
+                        "kind": 2099237,
+                        "block": {
+                            "kind": 2084,
+                            "statements": [
+                                {
+                                    "kind": 264284,
+                                    "name": {
+                                        "kind": 131102,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1025,
+                                        "start": 26,
+                                        "end": 28
+                                    },
+                                    "formalParameters": {
+                                        "kind": 90,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 16473,
+                                                "ellipsis": false,
+                                                "binding": {
+                                                    "kind": 131102,
+                                                    "text": "async",
+                                                    "rawText": "async",
                                                     "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 1025,
                                                     "start": 29,
                                                     "end": 34
                                                 },
-                                                {
-                                                    "kind": 89,
-                                                    "ellipsis": false,
-                                                    "binding": {
-                                                        "kind": 131102,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 2,
-                                                        "intersects": false,
-                                                        "transformFlags": 1025,
-                                                        "start": 34,
-                                                        "end": 36
-                                                    },
-                                                    "isOptional": false,
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "decorators": null,
-                                                    "accessModifier": null,
-                                                    "isReadOnly": false,
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1,
+                                                "isOptional": false,
+                                                "type": null,
+                                                "initializer": null,
+                                                "decorators": null,
+                                                "accessModifier": null,
+                                                "isReadOnly": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1,
+                                                "start": 29,
+                                                "end": 34
+                                            },
+                                            {
+                                                "kind": 16473,
+                                                "ellipsis": false,
+                                                "binding": {
+                                                    "kind": 131102,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 1025,
                                                     "start": 34,
                                                     "end": 36
                                                 },
-                                                {
-                                                    "kind": 89,
-                                                    "ellipsis": false,
-                                                    "binding": {
-                                                        "kind": 131102,
-                                                        "text": "await",
-                                                        "rawText": "await",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 1025,
-                                                        "start": 37,
-                                                        "end": 43
-                                                    },
-                                                    "isOptional": false,
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "decorators": null,
-                                                    "accessModifier": null,
-                                                    "isReadOnly": false,
+                                                "isOptional": false,
+                                                "type": null,
+                                                "initializer": null,
+                                                "decorators": null,
+                                                "accessModifier": null,
+                                                "isReadOnly": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1,
+                                                "start": 34,
+                                                "end": 36
+                                            },
+                                            {
+                                                "kind": 16473,
+                                                "ellipsis": false,
+                                                "binding": {
+                                                    "kind": 131102,
+                                                    "text": "await",
+                                                    "rawText": "await",
                                                     "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 1025,
                                                     "start": 37,
                                                     "end": 43
                                                 },
-                                                {
-                                                    "kind": 89,
-                                                    "ellipsis": false,
-                                                    "binding": {
-                                                        "kind": 131102,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 2,
-                                                        "intersects": false,
-                                                        "transformFlags": 1025,
-                                                        "start": 43,
-                                                        "end": 45
-                                                    },
-                                                    "isOptional": false,
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "decorators": null,
-                                                    "accessModifier": null,
-                                                    "isReadOnly": false,
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1,
+                                                "isOptional": false,
+                                                "type": null,
+                                                "initializer": null,
+                                                "decorators": null,
+                                                "accessModifier": null,
+                                                "isReadOnly": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1,
+                                                "start": 37,
+                                                "end": 43
+                                            },
+                                            {
+                                                "kind": 16473,
+                                                "ellipsis": false,
+                                                "binding": {
+                                                    "kind": 131102,
+                                                    "text": "y",
+                                                    "rawText": "y",
+                                                    "flags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 1025,
                                                     "start": 43,
                                                     "end": 45
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 29,
-                                            "end": 46
-                                        },
-                                        "type": null,
-                                        "contents": {
-                                            "kind": 91,
-                                            "functionStatementList": {
-                                                "kind": 94,
-                                                "statements": [],
-                                                "multiline": false,
+                                                },
+                                                "isOptional": false,
+                                                "type": null,
+                                                "initializer": null,
+                                                "decorators": null,
+                                                "accessModifier": null,
+                                                "isReadOnly": false,
                                                 "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 48,
-                                                "end": 48
-                                            },
-                                            "flags": 2,
-                                            "intersects": false,
+                                                "symbol": null,
+                                                "transformFlags": 1,
+                                                "start": 43,
+                                                "end": 45
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 29,
+                                        "end": 46
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 91,
+                                        "functionStatementList": {
+                                            "kind": 94,
+                                            "statements": [],
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "symbol": null,
                                             "transformFlags": 0,
-                                            "start": 46,
+                                            "start": 48,
                                             "end": 48
                                         },
-                                        "typeParameters": null,
-                                        "flags": 2,
-                                        "intersects": false,
-                                        "transformFlags": 256,
-                                        "start": 17,
+                                        "flags": 1,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 46,
                                         "end": 48
-                                    }
-                                ],
-                                "multiline": false,
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 48
-                            },
-                            "flags": 2,
-                            "intersects": false,
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 1,
+                                    "symbol": null,
+                                    "transformFlags": 256,
+                                    "start": 17,
+                                    "end": 48
+                                }
+                            ],
+                            "multiline": false,
+                            "flags": 1,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 15,
+                            "start": 17,
                             "end": 48
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 48
-                },
-                "flags": 2,
-                "intersects": false,
+                        },
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 48
+                    }
+                ],
+                "multiline": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 48
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 48
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 48
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -353,9 +343,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 48
@@ -364,13 +354,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

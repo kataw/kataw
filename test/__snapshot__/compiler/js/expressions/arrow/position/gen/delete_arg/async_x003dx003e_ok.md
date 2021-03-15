@@ -12,71 +12,61 @@ delete async => ok
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "delete async => ok",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65774,
-                    "operator": "delete",
-                    "operand": {
-                        "kind": 196712,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 12
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "delete",
+                "operand": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 6,
                     "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "ok",
-                    "rawText": "ok",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 18
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "ok",
+                "rawText": "ok",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -87,9 +77,9 @@ delete async => ok
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 18
@@ -98,13 +88,11 @@ delete async => ok
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,85 +12,75 @@ for (fooo[bar] in x) ;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (fooo[bar] in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 66116,
-                    "member": {
-                        "kind": 196712,
-                        "text": "fooo",
-                        "rawText": "fooo",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 9
-                    },
-                    "expression": {
-                        "kind": 196712,
-                        "text": "bar",
-                        "rawText": "bar",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 10,
-                        "end": 13
-                    },
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 67174980,
+                "member": {
+                    "kind": 196712,
+                    "text": "fooo",
+                    "rawText": "fooo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 9,
-                    "end": 14
+                    "start": 5,
+                    "end": 9
                 },
                 "expression": {
                     "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "bar",
+                    "rawText": "bar",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 17,
-                    "end": 19
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 22
+                    "start": 10,
+                    "end": 13
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 9,
+                "end": 14
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 19
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 20,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 22
@@ -99,13 +89,11 @@ for (fooo[bar] in x) ;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

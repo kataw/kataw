@@ -12,159 +12,149 @@ bar ? baz : ( return => {} );
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "bar ? baz : ( return => {} );",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65592,
-                    "shortCircuit": {
-                        "kind": 196712,
-                        "text": "bar",
-                        "rawText": "bar",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 3
-                    },
-                    "consequent": {
-                        "kind": 196712,
-                        "text": "baz",
-                        "rawText": "baz",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 5,
-                        "end": 9
-                    },
-                    "alternate": {
-                        "kind": 66224,
-                        "expression": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 13
-                        },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 13
-                    },
-                    "flags": 2,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65592,
+                "shortCircuit": {
+                    "kind": 196712,
+                    "text": "bar",
+                    "rawText": "bar",
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 3
+                },
+                "consequent": {
+                    "kind": 196712,
+                    "text": "baz",
+                    "rawText": "baz",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 5,
+                    "end": 9
+                },
+                "alternate": {
+                    "kind": 66224,
+                    "expression": {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 13
+                    },
+                    "flags": 1,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 11,
                     "end": 13
                 },
-                "flags": 0,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 67592,
-                    "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 65545,
-                        "elements": [
-                            {
-                                "kind": 89,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "",
-                                    "flags": 6,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 20
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "",
+                                "flags": 3,
+                                "symbol": null,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 20
-                    },
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 25
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 26
-                    },
-                    "flags": 0,
-                    "intersects": false,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 20,
+                            "end": 20
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 20,
+                    "end": 20
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 25,
+                        "end": 25
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 23,
                     "end": 26
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 13,
+                "start": 20,
                 "end": 26
             },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 28,
-                "end": 29
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 29
-    },
-    "jsx": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 26
+        },
+        {
+            "kind": 6291526,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 28,
+            "end": 29
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -189,9 +179,9 @@ bar ? baz : ( return => {} );
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 29
@@ -200,13 +190,11 @@ bar ? baz : ( return => {} );
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

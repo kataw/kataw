@@ -14,99 +14,97 @@ export {a \u0061s b} from "x";
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "export {a \\u0061s b} from \"x\";",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": {
-                    "kind": 152,
-                    "exportsList": {
-                        "kind": 80,
-                        "specifiers": [
-                            {
-                                "kind": 79,
-                                "moduleExportName": null,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "binding": {
-                                    "kind": 196711,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 17,
-                                    "end": 19
-                                },
-                                "flags": 65536,
-                                "intersects": false,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": {
+                "kind": 152,
+                "exportsList": {
+                    "kind": 80,
+                    "specifiers": [
+                        {
+                            "kind": 79,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 196711,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 0,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 8,
+                                "end": 9
+                            },
+                            "binding": {
+                                "kind": 196711,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 17,
                                 "end": 19
-                            }
-                        ],
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 19
-                    },
-                    "flags": 65536,
-                    "intersects": false,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 19
+                        }
+                    ],
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 6,
-                    "end": 20
+                    "start": 8,
+                    "end": 19
                 },
-                "exportFromClause": null,
-                "fromClause": {
-                    "kind": 4261583,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 29
-                },
-                "isTypeOnly": false,
-                "flags": 65536,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 30
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 30
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 20
+            },
+            "exportFromClause": null,
+            "fromClause": {
+                "kind": 4261583,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 25,
+                "end": 29
+            },
+            "isTypeOnly": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 30
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 30
@@ -115,13 +113,11 @@ export {a \u0061s b} from "x";
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

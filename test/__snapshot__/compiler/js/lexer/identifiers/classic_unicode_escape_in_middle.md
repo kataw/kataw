@@ -8,49 +8,39 @@ xxx\u0065xxx
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "xxx\\u0065xxx",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "xxxexxx",
-                    "rawText": "xxx\\u0065xxx",
-                    "flags": 4194304,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "xxxexxx",
+                "rawText": "xxx\\u0065xxx",
+                "flags": 8388608,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -59,13 +49,11 @@ xxx\u0065xxx
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

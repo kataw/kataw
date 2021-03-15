@@ -12,91 +12,81 @@ do function while
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do function while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
-                "expression": {
-                    "kind": 131322,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 17
+            },
+            "statement": {
+                "kind": 264284,
+                "name": {
+                    "kind": 131102,
                     "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 17
+                    "rawText": "",
+                    "flags": 1,
+                    "symbol": null,
+                    "transformFlags": 1025,
+                    "start": 11,
+                    "end": 11
                 },
-                "statement": {
-                    "kind": 264284,
-                    "name": {
-                        "kind": 131102,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 11
-                    },
-                    "type": null,
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 17,
-                            "end": 17
-                        },
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 1,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 11,
+                    "end": 11
+                },
+                "type": null,
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 11,
+                        "start": 17,
                         "end": 17
                     },
-                    "typeParameters": null,
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 256,
-                    "start": 2,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 11,
                     "end": 17
                 },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
+                "typeParameters": null,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 256,
+                "start": 2,
                 "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -114,9 +104,9 @@ do function while
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 17
@@ -125,13 +115,11 @@ do function while
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

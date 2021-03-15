@@ -12,165 +12,155 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "{ { { if I switch while I sleep",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2099237,
-                            "block": {
-                                "kind": 2084,
-                                "statements": [
-                                    {
-                                        "kind": 2099237,
-                                        "block": {
-                                            "kind": 2084,
-                                            "statements": [
-                                                {
-                                                    "kind": 2097257,
+    "statements": [
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2099237,
+                        "block": {
+                            "kind": 2084,
+                            "statements": [
+                                {
+                                    "kind": 2099237,
+                                    "block": {
+                                        "kind": 2084,
+                                        "statements": [
+                                            {
+                                                "kind": 2097257,
+                                                "expression": {
+                                                    "kind": 196712,
+                                                    "text": "I",
+                                                    "rawText": "I",
+                                                    "flags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 8,
+                                                    "end": 10
+                                                },
+                                                "consequent": {
+                                                    "kind": 2097362,
                                                     "expression": {
-                                                        "kind": 196712,
-                                                        "text": "I",
-                                                        "rawText": "I",
-                                                        "flags": 2,
-                                                        "intersects": false,
+                                                        "kind": 131322,
+                                                        "text": "",
+                                                        "flags": 3,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
-                                                        "start": 8,
-                                                        "end": 10
-                                                    },
-                                                    "consequent": {
-                                                        "kind": 2097362,
-                                                        "expression": {
-                                                            "kind": 131322,
-                                                            "text": "",
-                                                            "flags": 6,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 17,
-                                                            "end": 17
-                                                        },
-                                                        "caseBlock": {
-                                                            "kind": 2093,
-                                                            "clauses": [],
-                                                            "flags": 2,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 17,
-                                                            "end": 17
-                                                        },
-                                                        "flags": 2,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 10,
+                                                        "start": 17,
                                                         "end": 17
                                                     },
-                                                    "alternate": null,
-                                                    "isWebCompat": true,
-                                                    "flags": 2,
-                                                    "intersects": false,
+                                                    "caseBlock": {
+                                                        "kind": 2093,
+                                                        "clauses": [],
+                                                        "flags": 1,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 17,
+                                                        "end": 17
+                                                    },
+                                                    "flags": 1,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 5,
+                                                    "start": 10,
                                                     "end": 17
                                                 },
-                                                {
-                                                    "kind": 2097399,
+                                                "alternate": null,
+                                                "isWebCompat": true,
+                                                "flags": 1,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 5,
+                                                "end": 17
+                                            },
+                                            {
+                                                "kind": 2097399,
+                                                "expression": {
+                                                    "kind": 196712,
+                                                    "text": "I",
+                                                    "rawText": "I",
+                                                    "flags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 23,
+                                                    "end": 25
+                                                },
+                                                "statement": {
+                                                    "kind": 2097233,
                                                     "expression": {
                                                         "kind": 196712,
-                                                        "text": "I",
-                                                        "rawText": "I",
-                                                        "flags": 2,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 23,
-                                                        "end": 25
-                                                    },
-                                                    "statement": {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 196712,
-                                                            "text": "sleep",
-                                                            "rawText": "sleep",
-                                                            "flags": 2,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 25,
-                                                            "end": 31
-                                                        },
-                                                        "flags": 0,
-                                                        "intersects": false,
+                                                        "text": "sleep",
+                                                        "rawText": "sleep",
+                                                        "flags": 1,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 31
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 17,
+                                                    "start": 25,
                                                     "end": 31
-                                                }
-                                            ],
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 5,
-                                            "end": 31
-                                        },
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 17,
+                                                "end": 31
+                                            }
+                                        ],
+                                        "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 3,
+                                        "start": 5,
                                         "end": 31
-                                    }
-                                ],
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 3,
-                                "end": 31
-                            },
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 3,
+                                    "end": 31
+                                }
+                            ],
+                            "multiline": false,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 1,
+                            "start": 3,
                             "end": 31
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 1,
-                    "end": 31
-                },
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 1,
+                        "end": 31
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 31
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 31
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 31
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -209,9 +199,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 31
@@ -220,13 +210,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

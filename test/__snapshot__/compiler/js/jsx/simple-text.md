@@ -14,111 +14,101 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "<b>Hello</b>",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66175,
-                    "openingElement": {
-                        "kind": 4228,
-                        "tagName": {
-                            "kind": 129,
-                            "text": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 8192,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "attributes": {
-                            "kind": 123,
-                            "attributesList": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 8192,
-                            "start": 2,
-                            "end": 2
-                        },
-                        "typeArguments": null,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66175,
+                "openingElement": {
+                    "kind": 4228,
+                    "tagName": {
+                        "kind": 129,
+                        "text": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
-                        "start": 0,
-                        "end": 3
+                        "start": 1,
+                        "end": 2
                     },
-                    "children": {
-                        "kind": 124,
-                        "children": [
-                            {
-                                "kind": 137,
-                                "text": "Hello",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 8192,
-                                "parent": null,
-                                "start": 3,
-                                "end": 8
-                            }
-                        ],
+                    "attributes": {
+                        "kind": 123,
+                        "attributesList": [],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 8192,
-                        "start": 3,
-                        "end": 8
+                        "start": 2,
+                        "end": 2
                     },
-                    "closingElement": {
-                        "kind": 4221,
-                        "tagName": {
-                            "kind": 129,
-                            "text": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 8192,
-                            "start": 10,
-                            "end": 11
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 8,
-                        "end": 12
-                    },
+                    "typeArguments": null,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 8192,
                     "start": 0,
+                    "end": 3
+                },
+                "children": {
+                    "kind": 124,
+                    "children": [
+                        {
+                            "kind": 137,
+                            "text": "Hello",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 8192,
+                            "parent": null,
+                            "start": 3,
+                            "end": 8
+                        }
+                    ],
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 8192,
+                    "start": 3,
+                    "end": 8
+                },
+                "closingElement": {
+                    "kind": 4221,
+                    "tagName": {
+                        "kind": 129,
+                        "text": "b",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 8192,
+                        "start": 10,
+                        "end": 11
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 8192,
+                    "start": 8,
                     "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "symbol": null,
+                "transformFlags": 8192,
                 "start": 0,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -127,13 +117,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

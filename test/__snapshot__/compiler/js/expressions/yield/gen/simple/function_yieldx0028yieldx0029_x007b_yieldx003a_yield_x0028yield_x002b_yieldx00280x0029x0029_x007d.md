@@ -12,222 +12,212 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function yield(yield) { yield: yield (yield + yield(0)); }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 14
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 14
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 15,
+                            "end": 20
+                        },
+                        "isOptional": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 15,
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
                         {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
+                            "kind": 2097292,
+                            "label": {
+                                "kind": 196712,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 15,
-                                "end": 20
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 23,
+                                "end": 29
                             },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 15,
-                            "end": 20
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 21
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 2097292,
-                                "label": {
-                                    "kind": 196712,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 23,
-                                    "end": 29
-                                },
-                                "statement": {
-                                    "kind": 2097233,
+                            "statement": {
+                                "kind": 2097233,
+                                "expression": {
+                                    "kind": 1073807915,
                                     "expression": {
-                                        "kind": 66091,
-                                        "expression": {
-                                            "kind": 196712,
-                                            "text": "yield",
-                                            "rawText": "yield",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 30,
-                                            "end": 36
-                                        },
-                                        "typeArguments": null,
-                                        "argumentList": {
-                                            "kind": 3,
-                                            "elements": [
-                                                {
-                                                    "kind": 65563,
-                                                    "left": {
+                                        "kind": 196712,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 30,
+                                        "end": 36
+                                    },
+                                    "typeArguments": null,
+                                    "argumentList": {
+                                        "kind": 3,
+                                        "elements": [
+                                            {
+                                                "kind": 65563,
+                                                "left": {
+                                                    "kind": 196712,
+                                                    "text": "yield",
+                                                    "rawText": "yield",
+                                                    "flags": 0,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 38,
+                                                    "end": 43
+                                                },
+                                                "operator": "+",
+                                                "right": {
+                                                    "kind": 1073807915,
+                                                    "expression": {
                                                         "kind": 196712,
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 0,
-                                                        "intersects": false,
+                                                        "symbol": null,
                                                         "transformFlags": 0,
-                                                        "start": 38,
-                                                        "end": 43
+                                                        "start": 45,
+                                                        "end": 51
                                                     },
-                                                    "operator": "+",
-                                                    "right": {
-                                                        "kind": 66091,
-                                                        "expression": {
-                                                            "kind": 196712,
-                                                            "text": "yield",
-                                                            "rawText": "yield",
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 45,
-                                                            "end": 51
-                                                        },
-                                                        "typeArguments": null,
-                                                        "argumentList": {
-                                                            "kind": 3,
-                                                            "elements": [
-                                                                {
-                                                                    "kind": 4261540,
-                                                                    "text": 0,
-                                                                    "rawText": "0",
-                                                                    "flags": 0,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "start": 52,
-                                                                    "end": 53
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "transformFlags": 0,
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "start": 53,
-                                                            "end": 54
-                                                        },
-                                                        "flags": 0,
-                                                        "intersects": false,
+                                                    "typeArguments": null,
+                                                    "argumentList": {
+                                                        "kind": 3,
+                                                        "elements": [
+                                                            {
+                                                                "kind": 4261540,
+                                                                "text": 0,
+                                                                "rawText": "0",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 0,
+                                                                "start": 52,
+                                                                "end": 53
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "start": 51,
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "start": 53,
                                                         "end": 54
                                                     },
                                                     "flags": 0,
-                                                    "intersects": false,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 38,
+                                                    "start": 51,
                                                     "end": 54
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "transformFlags": 0,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "start": 43,
-                                            "end": 55
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 38,
+                                                "end": 54
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "transformFlags": 0,
-                                        "start": 36,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "start": 43,
                                         "end": 55
                                     },
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 30,
-                                    "end": 56
+                                    "start": 36,
+                                    "end": 55
                                 },
-                                "isWebCompat": true,
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 23,
+                                "start": 30,
                                 "end": 56
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 23,
-                        "end": 56
-                    },
+                            },
+                            "isWebCompat": true,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 23,
+                            "end": 56
+                        }
+                    ],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 21,
-                    "end": 58
+                    "start": 23,
+                    "end": 56
                 },
-                "typeParameters": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 21,
                 "end": 58
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 58
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 58
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 58
@@ -236,13 +226,11 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

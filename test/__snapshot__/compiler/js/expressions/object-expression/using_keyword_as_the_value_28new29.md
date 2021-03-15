@@ -8,112 +8,102 @@ s = {s: new}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "s = {s: new}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "s",
-                        "rawText": "s",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 67224232,
-                        "propertyList": {
-                            "kind": 65722,
-                            "properties": [
-                                {
-                                    "kind": 65721,
-                                    "left": {
-                                        "kind": 196711,
-                                        "text": "s",
-                                        "rawText": "s",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 5,
-                                        "end": 6
-                                    },
-                                    "right": {
-                                        "kind": 66204,
-                                        "expression": {
-                                            "kind": 131322,
-                                            "text": "",
-                                            "flags": 6,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 11,
-                                            "end": 11
-                                        },
-                                        "typeArguments": null,
-                                        "argumentList": null,
-                                        "flags": 7,
-                                        "intersects": false,
-                                        "transformFlags": 32,
-                                        "start": 2,
-                                        "end": 11
-                                    },
-                                    "accessModifier": null,
-                                    "decorators": null,
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 5,
-                                    "end": 11
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 5,
-                            "end": 11
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 12
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "s",
+                    "rawText": "s",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 1
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 98984,
+                    "propertyList": {
+                        "kind": 65722,
+                        "properties": [
+                            {
+                                "kind": 65721,
+                                "left": {
+                                    "kind": 196711,
+                                    "text": "s",
+                                    "rawText": "s",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 5,
+                                    "end": 6
+                                },
+                                "right": {
+                                    "kind": 66204,
+                                    "expression": {
+                                        "kind": 131322,
+                                        "text": "",
+                                        "flags": 3,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 11,
+                                        "end": 11
+                                    },
+                                    "typeArguments": null,
+                                    "argumentList": null,
+                                    "flags": 7,
+                                    "symbol": null,
+                                    "transformFlags": 32,
+                                    "start": 1,
+                                    "end": 11
+                                },
+                                "accessModifier": null,
+                                "decorators": null,
+                                "flags": 1,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 5,
+                                "end": 11
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "flags": 1,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 5,
+                        "end": 11
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -124,9 +114,9 @@ s = {s: new}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -135,13 +125,11 @@ s = {s: new}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

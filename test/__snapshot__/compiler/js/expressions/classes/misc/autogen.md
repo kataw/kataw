@@ -146,94 +146,84 @@ class C extends Base { # }
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class { # });",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 82483,
-                        "name": null,
-                        "typeParameters": null,
-                        "classHeritage": null,
-                        "implementClauses": null,
-                        "members": {
-                            "kind": 50,
-                            "elements": [
-                                {
-                                    "kind": 84,
-                                    "key": {
-                                        "kind": 131252,
-                                        "text": "#",
-                                        "rawText": "class",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 524288,
-                                        "start": 8,
-                                        "end": 10
-                                    },
-                                    "isInKeyword": false,
-                                    "expression": null,
-                                    "isAbstract": false,
-                                    "isReadOnly": false,
-                                    "isOptional": false,
-                                    "exclamation": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isStatic": false,
+                    "kind": 66099,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "implementClauses": null,
+                    "members": {
+                        "kind": 50,
+                        "elements": [
+                            {
+                                "kind": 16468,
+                                "key": {
+                                    "kind": 131252,
+                                    "text": "#",
+                                    "rawText": "class",
                                     "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 524352,
+                                    "symbol": null,
+                                    "transformFlags": 524288,
                                     "start": 8,
                                     "end": 10
-                                }
-                            ],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 8,
-                            "end": 12
-                        },
-                        "decorators": null,
+                                },
+                                "isInKeyword": false,
+                                "expression": null,
+                                "isAbstract": false,
+                                "isReadOnly": false,
+                                "isOptional": false,
+                                "exclamation": false,
+                                "type": null,
+                                "initializer": null,
+                                "decorators": null,
+                                "accessModifier": null,
+                                "isStatic": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 524352,
+                                "start": 8,
+                                "end": 10
+                            }
+                        ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
-                        "start": 1,
+                        "start": 8,
                         "end": 12
                     },
+                    "decorators": null,
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 13
+                    "symbol": null,
+                    "transformFlags": 1,
+                    "start": 1,
+                    "end": 12
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 14
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 14
-    },
-    "jsx": false,
+                "end": 13
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 14
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -244,9 +234,9 @@ class C extends Base { # }
             "length": 1
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 14
@@ -255,13 +245,11 @@ class C extends Base { # }
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

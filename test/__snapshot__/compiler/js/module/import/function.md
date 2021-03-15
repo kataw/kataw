@@ -16,162 +16,149 @@ function f(){import {x} from "y";}
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "function f(){import {x} from \"y\";}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 10
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 12
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 110,
-                                "fromClause": {
-                                    "kind": 4261583,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 28,
-                                    "end": 32
-                                },
-                                "moduleSpecifier": null,
-                                "importClause": {
-                                    "kind": 109,
-                                    "defaultBinding": null,
-                                    "nameSpaceImport": null,
-                                    "namedImports": {
-                                        "kind": 153,
-                                        "importsList": {
-                                            "kind": 115,
-                                            "specifiers": [
-                                                {
-                                                    "kind": 113,
-                                                    "moduleExportName": null,
-                                                    "name": null,
-                                                    "binding": {
-                                                        "kind": 4325406,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 21,
-                                                        "end": 22
-                                                    },
-                                                    "flags": 65536,
-                                                    "intersects": false,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "f",
+                "rawText": "f",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 12
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 110,
+                            "fromClause": {
+                                "kind": 4261583,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 28,
+                                "end": 32
+                            },
+                            "moduleSpecifier": null,
+                            "importClause": {
+                                "kind": 109,
+                                "defaultBinding": null,
+                                "nameSpaceImport": null,
+                                "namedImports": {
+                                    "kind": 153,
+                                    "importsList": {
+                                        "kind": 115,
+                                        "specifiers": [
+                                            {
+                                                "kind": 113,
+                                                "moduleExportName": null,
+                                                "name": null,
+                                                "binding": {
+                                                    "kind": 4325406,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 0,
+                                                    "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 22
-                                                }
-                                            ],
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 21,
-                                            "end": 22
-                                        },
-                                        "flags": 65536,
-                                        "intersects": false,
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 21,
+                                                "end": 22
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 19,
-                                        "end": 23
+                                        "start": 21,
+                                        "end": 22
                                     },
-                                    "isTypeOnly": false,
-                                    "flags": 65536,
-                                    "intersects": false,
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 23
                                 },
-                                "flags": 65536,
-                                "intersects": false,
+                                "isTypeOnly": false,
+                                "flags": 0,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 13,
-                                "end": 33
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 33
-                    },
-                    "flags": 65536,
-                    "intersects": false,
+                                "start": 19,
+                                "end": 23
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 33
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
-                    "end": 34
+                    "start": 13,
+                    "end": 33
                 },
-                "typeParameters": null,
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
                 "end": 34
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 34
-    },
-    "jsx": true,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 34
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 34
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

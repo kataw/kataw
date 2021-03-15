@@ -14,99 +14,89 @@ import {x} from "y"
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "import {x} from \"y\"",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 4261583,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 19
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": null,
-                    "nameSpaceImport": null,
-                    "namedImports": {
-                        "kind": 153,
-                        "importsList": {
-                            "kind": 115,
-                            "specifiers": [
-                                {
-                                    "kind": 113,
-                                    "moduleExportName": null,
-                                    "name": null,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
-                                    "flags": 65536,
-                                    "intersects": false,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 4261583,
+                "text": "y",
+                "rawText": "y",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 19
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": {
+                    "kind": 153,
+                    "importsList": {
+                        "kind": 115,
+                        "specifiers": [
+                            {
+                                "kind": 113,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 4325406,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
-                                }
-                            ],
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "flags": 65536,
-                        "intersects": false,
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 9
+                            }
+                        ],
+                        "flags": 0,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 6,
-                        "end": 10
+                        "start": 8,
+                        "end": 9
                     },
-                    "isTypeOnly": false,
-                    "flags": 65536,
-                    "intersects": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
-                "flags": 65536,
-                "intersects": false,
+                "isTypeOnly": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 10
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 19
@@ -115,13 +105,11 @@ import {x} from "y"
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

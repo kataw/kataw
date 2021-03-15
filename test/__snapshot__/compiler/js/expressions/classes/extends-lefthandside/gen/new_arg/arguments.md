@@ -12,59 +12,49 @@ new arguments
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new arguments",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "arguments",
-                        "rawText": "arguments",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 13
-                    },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "kind": 196712,
+                    "text": "arguments",
+                    "rawText": "arguments",
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 13
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "symbol": null,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 13
@@ -73,13 +63,11 @@ new arguments
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

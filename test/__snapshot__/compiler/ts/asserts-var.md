@@ -8,114 +8,104 @@ declare function assertIsString(value: unknown): asserts value;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function assertIsString(value: unknown): asserts value;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "assertIsString",
-                    "rawText": "assertIsString",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 16,
-                    "end": 31
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
-                        {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "value",
-                                "rawText": "value",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 32,
-                                "end": 37
-                            },
-                            "isOptional": false,
-                            "type": {
-                                "kind": 4202738,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 38,
-                                "end": 46
-                            },
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "assertIsString",
+                "rawText": "assertIsString",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 16,
+                "end": 31
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "value",
+                            "rawText": "value",
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
+                            "symbol": null,
+                            "transformFlags": 1025,
                             "start": 32,
+                            "end": 37
+                        },
+                        "isOptional": false,
+                        "type": {
+                            "kind": 4202738,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 2097152,
+                            "start": 38,
                             "end": 46
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 32,
-                    "end": 47
-                },
-                "type": {
-                    "kind": 8426,
-                    "asserts": true,
-                    "parameterName": {
-                        "kind": 196712,
-                        "text": "value",
-                        "rawText": "value",
+                        },
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
                         "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 56,
-                        "end": 62
-                    },
-                    "type": null,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 32,
+                        "end": 46
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 32,
+                "end": 47
+            },
+            "type": {
+                "kind": 8426,
+                "asserts": true,
+                "parameterName": {
+                    "kind": 196712,
+                    "text": "value",
+                    "rawText": "value",
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 48,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 56,
                     "end": 62
                 },
-                "contents": null,
-                "typeParameters": null,
-                "flags": 201326592,
-                "intersects": false,
+                "type": null,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 2097152,
-                "start": 7,
-                "end": 63
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 63
-    },
-    "jsx": false,
+                "start": 48,
+                "end": 62
+            },
+            "contents": null,
+            "typeParameters": null,
+            "flags": 402653184,
+            "symbol": null,
+            "transformFlags": 2097152,
+            "start": 7,
+            "end": 63
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 63
@@ -124,13 +114,11 @@ declare function assertIsString(value: unknown): asserts value;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

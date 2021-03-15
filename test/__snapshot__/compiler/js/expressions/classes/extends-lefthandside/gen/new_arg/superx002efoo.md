@@ -12,80 +12,70 @@ new super.foo
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new super.foo",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 66232,
-                        "member": {
-                            "kind": 4260561,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 9
-                        },
-                        "expression": {
-                            "kind": 196711,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 10,
-                            "end": 13
-                        },
+                    "kind": 67175096,
+                    "member": {
+                        "kind": 4260561,
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 9,
-                        "end": 13,
-                        "period": {
-                            "kind": 254,
-                            "pos": 9,
-                            "end": 10
-                        }
+                        "start": 3,
+                        "end": 9
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "expression": {
+                        "kind": 196711,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 10,
+                        "end": 13
+                    },
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
-                    "end": 13
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 9,
+                    "end": 13,
+                    "period": {
+                        "kind": 255,
+                        "pos": 9,
+                        "end": 10
+                    }
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "symbol": null,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 13
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 13
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 13
@@ -94,13 +84,11 @@ new super.foo
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

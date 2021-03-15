@@ -12,67 +12,57 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "'use strict'; yield",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "use strict",
-                    "rawText": "use strict",
-                    "flags": 16777216,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
-                "flags": 0,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 33554432,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 13
+                "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 19
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "yield",
+                "rawText": "yield",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 19
@@ -81,13 +71,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

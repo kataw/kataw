@@ -12,96 +12,86 @@ typeof a + b / c
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "typeof a + b / c",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 65774,
-                        "operator": "typeof",
-                        "operand": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 8
-                        },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 65774,
+                    "operator": "typeof",
+                    "operand": {
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 0,
+                        "start": 6,
                         "end": 8
                     },
-                    "operator": "+",
-                    "right": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 10,
-                            "end": 12
-                        },
-                        "operator": "/",
-                        "right": {
-                            "kind": 196712,
-                            "text": "c",
-                            "rawText": "c",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 14,
-                            "end": 16
-                        },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 8
+                },
+                "operator": "+",
+                "right": {
+                    "kind": 65563,
+                    "left": {
+                        "kind": 196712,
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 12,
+                        "start": 10,
+                        "end": 12
+                    },
+                    "operator": "/",
+                    "right": {
+                        "kind": 196712,
+                        "text": "c",
+                        "rawText": "c",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 14,
                         "end": 16
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 12,
                     "end": 16
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 16
@@ -110,13 +100,11 @@ typeof a + b / c
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

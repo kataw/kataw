@@ -14,64 +14,61 @@ export default yield x
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "export default yield x",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 77,
-                "declaration": {
-                    "kind": 196712,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 20
-                },
-                "flags": 65538,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 77,
+            "declaration": {
+                "kind": 196712,
+                "text": "yield",
+                "rawText": "yield",
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 14,
                 "end": 20
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 22
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 20,
+            "end": 22
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        },
         {
             "kind": 2,
             "source": 2,
@@ -80,9 +77,9 @@ export default yield x
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 22
@@ -91,13 +88,11 @@ export default yield x
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

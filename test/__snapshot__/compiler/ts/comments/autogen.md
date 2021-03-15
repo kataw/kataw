@@ -144,100 +144,90 @@ a, # b, # c
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function x(\n  #\n) {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 10
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
-                        {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "#",
-                                "rawText": "x",
-                                "flags": 16384,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 11,
-                                "end": 15
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 16384,
-                            "intersects": false,
-                            "transformFlags": 1,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "#",
+                            "rawText": "x",
+                            "flags": 32768,
+                            "symbol": null,
+                            "transformFlags": 1025,
                             "start": 11,
                             "end": 15
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 17
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 19,
-                        "end": 19
-                    },
+                        },
+                        "isOptional": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
+                        "flags": 32768,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 11,
+                        "end": 15
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32768,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 17
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 17,
-                    "end": 20
+                    "start": 19,
+                    "end": 19
                 },
-                "typeParameters": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -255,9 +245,9 @@ a, # b, # c
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 20
@@ -266,13 +256,11 @@ a, # b, # c
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

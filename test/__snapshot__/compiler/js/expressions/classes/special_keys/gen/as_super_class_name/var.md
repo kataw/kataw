@@ -12,123 +12,113 @@ class x extends var {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class x extends var {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "typeArguments": null,
-                    "flags": 2,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 1,
-                "start": 0,
-                "end": 15
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 33554598,
-                                "propertyList": {
-                                    "kind": 33,
-                                    "properties": [],
-                                    "multiline": false,
-                                    "trailingComma": false,
-                                    "transformFlags": 1025,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "start": 21,
-                                    "end": 21
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 19,
-                                "end": 22
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 19,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 22
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 22
-                },
-                "flags": 2,
-                "intersects": false,
+                "typeArguments": null,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
+                "end": 15
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 1,
+                "start": 0,
+                "end": 0
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 33554598,
+                            "propertyList": {
+                                "kind": 33,
+                                "properties": [],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "transformFlags": 1025,
+                                "flags": 0,
+                                "symbol": null,
+                                "start": 21,
+                                "end": 21
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 19,
+                            "end": 22
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 19,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 22
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 19,
                 "end": 22
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 22
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 22
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -139,9 +129,9 @@ class x extends var {}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 22
@@ -150,13 +140,11 @@ class x extends var {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

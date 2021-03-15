@@ -8,121 +8,111 @@ call({[x]})
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "call({[x]})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "call",
-                        "rawText": "call",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 4
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [
-                            {
-                                "kind": 67224232,
-                                "propertyList": {
-                                    "kind": 65722,
-                                    "properties": [
-                                        {
-                                            "kind": 65721,
-                                            "left": {
-                                                "kind": 65591,
-                                                "expression": {
-                                                    "kind": 196712,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 7,
-                                                    "end": 8
-                                                },
+                    "kind": 196712,
+                    "text": "call",
+                    "rawText": "call",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 4
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [
+                        {
+                            "kind": 98984,
+                            "propertyList": {
+                                "kind": 65722,
+                                "properties": [
+                                    {
+                                        "kind": 65721,
+                                        "left": {
+                                            "kind": 65591,
+                                            "expression": {
+                                                "kind": 196712,
+                                                "text": "x",
+                                                "rawText": "x",
                                                 "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 131073,
-                                                "start": 6,
-                                                "end": 9
-                                            },
-                                            "right": {
-                                                "kind": 131322,
-                                                "text": "",
-                                                "flags": 6,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 9,
-                                                "end": 9
+                                                "start": 7,
+                                                "end": 8
                                             },
-                                            "accessModifier": null,
-                                            "decorators": null,
-                                            "flags": 2,
-                                            "intersects": false,
-                                            "transformFlags": 0,
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 131073,
                                             "start": 6,
                                             "end": 9
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 6,
-                                    "end": 9
-                                },
-                                "flags": 0,
-                                "intersects": false,
+                                        },
+                                        "right": {
+                                            "kind": 131322,
+                                            "text": "",
+                                            "flags": 3,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 9,
+                                            "end": 9
+                                        },
+                                        "accessModifier": null,
+                                        "decorators": null,
+                                        "flags": 1,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 6,
+                                        "end": 9
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "multiline": false,
+                                "flags": 1,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 5,
-                                "end": 10
-                            }
-                        ],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 6,
-                        "end": 11
-                    },
-                    "flags": 0,
-                    "intersects": false,
+                                "start": 6,
+                                "end": 9
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 5,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
                     "transformFlags": 0,
-                    "start": 4,
+                    "flags": 0,
+                    "symbol": null,
+                    "start": 6,
                     "end": 11
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 4,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -133,9 +123,9 @@ call({[x]})
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 11
@@ -144,13 +134,11 @@ call({[x]})
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

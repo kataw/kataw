@@ -24,206 +24,196 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "\" a \" b \"\n;\n\" a \" b \" c \"\n;\n\" a ' b \"\n;\n\" a ' b ' c \"\n;\n\" a ` b \"\n;\n\" a ` b ` c \"",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ",
-                    "rawText": " a ",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 5
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ",
+                "rawText": " a ",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 7
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "b",
+                "rawText": "b",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "",
-                    "rawText": " \"",
-                    "flags": 589826,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 7,
-                    "end": 9
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 7
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "",
+                "rawText": " \"",
+                "flags": 1048577,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 7,
-                "end": 11
+                "end": 9
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ",
-                    "rawText": " a ",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 17
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 7,
+            "end": 11
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ",
+                "rawText": " a ",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 19
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "b",
+                "rawText": "b",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " c ",
-                    "rawText": " c ",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 25
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 19
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " c ",
+                "rawText": " c ",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
-                "end": 27
+                "end": 25
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ' b ",
-                    "rawText": " a ' b ",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 27,
-                    "end": 37
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 19,
+            "end": 27
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ' b ",
+                "rawText": " a ' b ",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 27,
-                "end": 39
+                "end": 37
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ' b ' c ",
-                    "rawText": " a ' b ' c ",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 39,
-                    "end": 53
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 27,
+            "end": 39
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ' b ' c ",
+                "rawText": " a ' b ' c ",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 39,
-                "end": 55
+                "end": 53
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ` b ",
-                    "rawText": " a ` b ",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 55,
-                    "end": 65
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 39,
+            "end": 55
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ` b ",
+                "rawText": " a ` b ",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 55,
-                "end": 67
+                "end": 65
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": " a ` b ` c ",
-                    "rawText": " a ` b ` c ",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 67,
-                    "end": 81
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 55,
+            "end": 67
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": " a ` b ` c ",
+                "rawText": " a ` b ` c ",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 67,
                 "end": 81
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 81
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 67,
+            "end": 81
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -262,9 +252,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 81
@@ -273,13 +263,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,79 +12,69 @@ do /false//a
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do /false//a",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 12
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 12
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 4260544,
-                            "text": "/false/",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 2,
-                            "end": 10
-                        },
-                        "operator": "/",
-                        "right": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 11,
-                            "end": 12
-                        },
+                    "kind": 65563,
+                    "left": {
+                        "kind": 4260544,
+                        "text": "/false/",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 2,
+                        "end": 10
+                    },
+                    "operator": "/",
+                    "right": {
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 11,
                         "end": 12
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 12
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -95,9 +85,9 @@ do /false//a
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -106,13 +96,11 @@ do /false//a
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

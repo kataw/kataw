@@ -12,108 +12,98 @@ await.b[c] => async
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "await.b[c] => async",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66116,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 67174980,
+                "member": {
+                    "kind": 67175096,
                     "member": {
-                        "kind": 66232,
-                        "member": {
-                            "kind": 196712,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 5
-                        },
-                        "expression": {
-                            "kind": 196711,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 6,
-                            "end": 7
-                        },
+                        "kind": 196712,
+                        "text": "await",
+                        "rawText": "await",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 5,
-                        "end": 7,
-                        "period": {
-                            "kind": 254,
-                            "pos": 5,
-                            "end": 6
-                        }
+                        "start": 0,
+                        "end": 5
                     },
                     "expression": {
-                        "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "kind": 196711,
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 8,
-                        "end": 9
+                        "start": 6,
+                        "end": 7
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 7,
-                    "end": 10
+                    "start": 5,
+                    "end": 7,
+                    "period": {
+                        "kind": 255,
+                        "pos": 5,
+                        "end": 6
+                    }
                 },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 10
-            },
-            {
-                "kind": 2097233,
                 "expression": {
                     "kind": 196712,
-                    "text": "async",
-                    "rawText": "async",
+                    "text": "c",
+                    "rawText": "c",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 19
+                    "start": 8,
+                    "end": 9
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 7,
+                "end": 10
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "async",
+                "rawText": "async",
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 19
@@ -122,13 +112,11 @@ await.b[c] => async
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

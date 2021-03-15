@@ -12,76 +12,66 @@ for (void x in x) ;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for (void x in x) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099286,
-                "initializer": {
-                    "kind": 65774,
-                    "operator": "void",
-                    "operand": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 11
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 11
-                },
-                "expression": {
+    "statements": [
+        {
+            "kind": 2099286,
+            "initializer": {
+                "kind": 65774,
+                "operator": "void",
+                "operand": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 14,
-                    "end": 16
-                },
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 19
+                    "start": 9,
+                    "end": 11
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 11
+            },
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 14,
+                "end": 16
+            },
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 19
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 19
@@ -90,13 +80,11 @@ for (void x in x) ;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -8,96 +8,86 @@ foo: for (x in y) continue foo
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo: for (x in y) continue foo",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097292,
-                "label": {
+    "statements": [
+        {
+            "kind": 2097292,
+            "label": {
+                "kind": 196712,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 3
+            },
+            "statement": {
+                "kind": 2099286,
+                "initializer": {
                     "kind": 196712,
-                    "text": "foo",
-                    "rawText": "foo",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 3
+                    "start": 10,
+                    "end": 11
+                },
+                "expression": {
+                    "kind": 196712,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 14,
+                    "end": 16
                 },
                 "statement": {
-                    "kind": 2099286,
-                    "initializer": {
+                    "kind": 2097212,
+                    "label": {
                         "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 10,
-                        "end": 11
-                    },
-                    "expression": {
-                        "kind": 196712,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 16
-                    },
-                    "statement": {
-                        "kind": 2097212,
-                        "label": {
-                            "kind": 196712,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 26,
-                            "end": 30
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
+                        "start": 26,
                         "end": 30
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 4,
+                    "start": 17,
                     "end": 30
                 },
-                "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 4,
                 "end": 30
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 30
-    },
-    "jsx": false,
+            },
+            "isWebCompat": true,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 30
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 30
@@ -106,13 +96,11 @@ foo: for (x in y) continue foo
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

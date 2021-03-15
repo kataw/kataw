@@ -12,138 +12,128 @@ var foob\\u{}ar = 0;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "var foob\\\\u{}ar = 0;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "foob",
-                                "rawText": "foob",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 8
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 3,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+    "statements": [
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "foob",
+                            "rawText": "foob",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 3,
                             "end": 8
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 8
-                },
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 3,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 8
+                    }
+                ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 3,
                 "end": 8
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "u",
-                    "rawText": "u",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 10,
-                    "end": 11
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "u",
+                "rawText": "u",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 12,
-                    "end": 12
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 10,
+            "end": 11
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "ar",
-                        "rawText": "ar",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 13,
-                        "end": 15
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 4261540,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 19
-                    },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "ar",
+                    "rawText": "ar",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 13,
+                    "end": 15
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 4261540,
+                    "text": 0,
+                    "rawText": "0",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 17,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
-                "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+                "end": 19
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -175,9 +165,9 @@ var foob\\u{}ar = 0;
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 20
@@ -186,13 +176,11 @@ var foob\\u{}ar = 0;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

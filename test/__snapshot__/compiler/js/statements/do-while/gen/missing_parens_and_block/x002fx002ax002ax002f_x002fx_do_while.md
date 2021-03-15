@@ -12,60 +12,50 @@ do /**/ /x do while while
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "do /**/ /x do while while",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097218,
+    "statements": [
+        {
+            "kind": 2097218,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 25,
+                "end": 25
+            },
+            "statement": {
+                "kind": 2097233,
                 "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 25
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 4260544,
-                        "text": "/x do while while",
-                        "flags": 524288,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 2,
-                        "end": 25
-                    },
-                    "flags": 0,
-                    "intersects": false,
+                    "kind": 4260544,
+                    "text": "/x do while while",
+                    "flags": 1048576,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 2,
                     "end": 25
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 2,
                 "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -83,9 +73,9 @@ do /**/ /x do while while
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 25
@@ -94,13 +84,11 @@ do /**/ /x do while while
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

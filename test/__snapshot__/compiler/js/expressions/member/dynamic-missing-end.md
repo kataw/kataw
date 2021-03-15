@@ -16,59 +16,50 @@ x[a
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x[a",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66116,
-                    "member": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "expression": {
-                        "kind": 196712,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 2,
-                        "end": 3
-                    },
-                    "flags": 2,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 67174980,
+                "member": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 1,
+                    "start": 0,
+                    "end": 1
+                },
+                "expression": {
+                    "kind": 196712,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 2,
                     "end": 3
                 },
-                "flags": 0,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 1,
                 "end": 3
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 3
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 3
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -79,26 +70,22 @@ x[a
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 3
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

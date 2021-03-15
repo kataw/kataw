@@ -14,91 +14,81 @@ export async function f(){}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "export async function f(){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": {
-                    "kind": 1312785,
-                    "name": {
-                        "kind": 131102,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 21,
-                        "end": 23
-                    },
-                    "formalParameters": {
-                        "kind": 90,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 65536,
-                        "intersects": false,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": {
+                "kind": 1312785,
+                "name": {
+                    "kind": 131102,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 1025,
+                    "start": 21,
+                    "end": 23
+                },
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 24,
+                    "end": 25
+                },
+                "type": null,
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 24,
-                        "end": 25
+                        "start": 26,
+                        "end": 26
                     },
-                    "type": null,
-                    "contents": {
-                        "kind": 91,
-                        "functionStatementList": {
-                            "kind": 94,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 26,
-                            "end": 26
-                        },
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 25,
-                        "end": 27
-                    },
-                    "typeParameters": null,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 260,
-                    "start": 6,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 25,
                     "end": 27
                 },
-                "namedExports": null,
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
+                "typeParameters": null,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 260,
+                "start": 6,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": true,
+            },
+            "namedExports": null,
+            "exportFromClause": null,
+            "fromClause": null,
+            "isTypeOnly": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 27
@@ -107,13 +97,11 @@ export async function f(){}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

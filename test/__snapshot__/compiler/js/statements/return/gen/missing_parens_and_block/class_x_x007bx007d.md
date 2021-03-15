@@ -12,37 +12,54 @@ return catch class x {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "return catch class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097346,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097346,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 6
             },
-            {
-                "kind": 2097375,
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
                 "block": {
                     "kind": 2099237,
                     "block": {
@@ -50,91 +67,64 @@ return catch class x {}
                         "statements": [],
                         "multiline": false,
                         "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 6
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
-                    "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 12
-                        },
-                        "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 6,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 12,
                     "end": 12
                 },
-                "finallyBlock": null,
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 6,
                 "end": 12
             },
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 18,
-                    "end": 20
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 22,
-                    "end": 23
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
+            "finallyBlock": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 16,
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 18,
+                "end": 20
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 12,
+                "start": 22,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 12,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -152,9 +142,9 @@ return catch class x {}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 23
@@ -163,13 +153,11 @@ return catch class x {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

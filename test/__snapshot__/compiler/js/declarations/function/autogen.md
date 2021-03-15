@@ -210,64 +210,54 @@ with (x) #
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if (x) #",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 5
+            },
+            "consequent": {
+                "kind": 2097233,
                 "expression": {
                     "kind": 196712,
-                    "text": "x",
+                    "text": "#",
                     "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 4,
-                    "end": 5
-                },
-                "consequent": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "#",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 6,
-                        "end": 8
-                    },
-                    "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
-                "alternate": null,
-                "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 8
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 8
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -278,9 +268,9 @@ with (x) #
             "length": 1
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 8
@@ -289,13 +279,11 @@ with (x) #
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

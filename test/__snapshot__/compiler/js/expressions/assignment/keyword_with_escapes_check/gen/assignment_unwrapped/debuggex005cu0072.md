@@ -12,52 +12,42 @@ debugge\u0072 = x;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "debugge\\u0072 = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 6291518,
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 13
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 17
-                },
+    "statements": [
+        {
+            "kind": 6291518,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 15,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+                "end": 17
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 15,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -68,9 +58,9 @@ debugge\u0072 = x;
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 18
@@ -79,13 +69,11 @@ debugge\u0072 = x;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

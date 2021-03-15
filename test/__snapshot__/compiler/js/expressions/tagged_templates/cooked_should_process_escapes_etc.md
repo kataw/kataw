@@ -8,70 +8,60 @@ foo`H\x45Y`
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo`H\\x45Y`",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66260,
-                    "member": {
-                        "kind": 196712,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 3
-                    },
-                    "typeArguments": null,
-                    "template": {
-                        "kind": 4260568,
-                        "rawText": "H\\x45Y",
-                        "text": "HEY",
-                        "literal": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1,
-                        "start": 3,
-                        "end": 11
-                    },
-                    "optional": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66260,
+                "member": {
+                    "kind": 196712,
+                    "text": "foo",
+                    "rawText": "foo",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 3
+                },
+                "typeArguments": null,
+                "template": {
+                    "kind": 4260568,
+                    "rawText": "H\\x45Y",
+                    "text": "HEY",
+                    "literal": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 1,
                     "start": 3,
                     "end": 11
                 },
+                "optional": false,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 1,
+                "start": 3,
                 "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 11
@@ -80,13 +70,11 @@ foo`H\x45Y`
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,65 +14,55 @@ import foo;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "import foo;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 10,
-                    "end": 10
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": {
-                        "kind": 131102,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 1025,
-                        "start": 6,
-                        "end": 10
-                    },
-                    "nameSpaceImport": null,
-                    "namedImports": null,
-                    "isTypeOnly": false,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 10,
+                "end": 10
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": {
+                    "kind": 131102,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 1025,
                     "start": 6,
                     "end": 10
                 },
-                "flags": 65536,
-                "intersects": false,
+                "nameSpaceImport": null,
+                "namedImports": null,
+                "isTypeOnly": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 11
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 11
-    },
-    "jsx": true,
+                "start": 6,
+                "end": 10
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -83,9 +73,9 @@ import foo;
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 11
@@ -94,13 +84,11 @@ import foo;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

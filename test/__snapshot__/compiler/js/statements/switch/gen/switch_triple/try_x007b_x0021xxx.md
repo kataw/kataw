@@ -12,177 +12,167 @@ switch switch switch try { !xxx
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "switch switch switch try { !xxx",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 6
-                },
-                "flags": 2,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 6
-            },
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 2,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
-                "end": 13
+                "end": 6
             },
-            {
-                "kind": 2097362,
-                "expression": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 20
-                },
-                "caseBlock": {
-                    "kind": 2093,
-                    "clauses": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 20,
-                    "end": 20
-                },
-                "flags": 2,
-                "intersects": false,
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 6
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
+                "end": 13
+            },
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2097362,
+            "expression": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 20,
                 "end": 20
             },
-            {
-                "kind": 2097375,
+            "caseBlock": {
+                "kind": 2093,
+                "clauses": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 20,
+                "end": 20
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65774,
-                                    "operator": "!",
-                                    "operand": {
-                                        "kind": 196712,
-                                        "text": "xxx",
-                                        "rawText": "xxx",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 28,
-                                        "end": 31
-                                    },
+                    "kind": 2084,
+                    "statements": [
+                        {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 65774,
+                                "operator": "!",
+                                "operand": {
+                                    "kind": 196712,
+                                    "text": "xxx",
+                                    "rawText": "xxx",
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 26,
+                                    "start": 28,
                                     "end": 31
                                 },
                                 "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 26,
                                 "end": 31
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 26,
-                        "end": 31
-                    },
-                    "flags": 2,
-                    "intersects": false,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 26,
+                            "end": 31
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 24,
+                    "start": 26,
                     "end": 31
                 },
-                "catchClause": null,
-                "finallyBlock": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 31,
-                        "end": 31
-                    },
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 24,
+                "end": 31
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 20,
+                "start": 31,
                 "end": 31
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 2,
-        "intersects": false,
-        "start": 0,
-        "end": 31
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 20,
+            "end": 31
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -214,9 +204,9 @@ switch switch switch try { !xxx
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 31
@@ -225,13 +215,11 @@ switch switch switch try { !xxx
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

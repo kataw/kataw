@@ -14,147 +14,137 @@ import {a: b} from "bar";
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "import {a: b} from \"bar\";",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 9
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": null,
-                    "nameSpaceImport": null,
-                    "namedImports": {
-                        "kind": 153,
-                        "importsList": {
-                            "kind": 115,
-                            "specifiers": [
-                                {
-                                    "kind": 113,
-                                    "moduleExportName": null,
-                                    "name": null,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
-                                    "flags": 65536,
-                                    "intersects": false,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 131322,
+                "text": "",
+                "flags": 3,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 9,
+                "end": 9
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": {
+                    "kind": 153,
+                    "importsList": {
+                        "kind": 115,
+                        "specifiers": [
+                            {
+                                "kind": 113,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 4325406,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
-                                }
-                            ],
-                            "flags": 65538,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "flags": 65538,
-                        "intersects": false,
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 9
+                            }
+                        ],
+                        "flags": 1,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 6,
+                        "start": 8,
                         "end": 9
                     },
-                    "isTypeOnly": false,
-                    "flags": 65538,
-                    "intersects": false,
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
-                "flags": 65536,
-                "intersects": false,
+                "isTypeOnly": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 6,
                 "end": 9
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 10,
-                    "end": 12
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "b",
+                "rawText": "b",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "from",
-                    "rawText": "from",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 18
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 10,
+            "end": 12
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "from",
+                "rawText": "from",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 18,
-                    "end": 24
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "bar",
+                "rawText": "bar",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 18,
-                "end": 25
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 25
-    },
-    "jsx": true,
+                "end": 24
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 18,
+            "end": 25
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -179,9 +169,9 @@ import {a: b} from "bar";
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 25
@@ -190,13 +180,11 @@ import {a: b} from "bar";
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

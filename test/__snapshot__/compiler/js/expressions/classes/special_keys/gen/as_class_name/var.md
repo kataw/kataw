@@ -12,97 +12,87 @@ class var {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class var {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 0
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 0
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 33554598,
-                                "propertyList": {
-                                    "kind": 33,
-                                    "properties": [],
-                                    "multiline": false,
-                                    "trailingComma": false,
-                                    "transformFlags": 1025,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "start": 11,
-                                    "end": 11
-                                },
-                                "flags": 0,
-                                "intersects": false,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 33554598,
+                            "propertyList": {
+                                "kind": 33,
+                                "properties": [],
+                                "multiline": false,
+                                "trailingComma": false,
                                 "transformFlags": 1025,
-                                "start": 9,
-                                "end": 12
+                                "flags": 0,
+                                "symbol": null,
+                                "start": 11,
+                                "end": 11
                             },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 9,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 9,
                             "end": 12
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 12
-                },
-                "flags": 2,
-                "intersects": false,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 9,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 12
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 9,
                 "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+            },
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -113,9 +103,9 @@ class var {}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -124,13 +114,11 @@ class var {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

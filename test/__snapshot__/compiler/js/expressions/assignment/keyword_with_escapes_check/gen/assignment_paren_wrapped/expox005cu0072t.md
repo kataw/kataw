@@ -12,77 +12,67 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(expo\\u0072t = x);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 1
-                    },
-                    "flags": 37748738,
-                    "intersects": false,
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 1,
                     "end": 1
                 },
-                "flags": 0,
-                "intersects": false,
+                "flags": 75497473,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
-            {
-                "kind": 8267,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 16
-                },
-                "flags": 2,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 1
+        },
+        {
+            "kind": 8267,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 12,
+                "start": 14,
                 "end": 16
             },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 17,
-                "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 12,
+            "end": 16
+        },
+        {
+            "kind": 6291526,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -100,9 +90,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 18
@@ -111,13 +101,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

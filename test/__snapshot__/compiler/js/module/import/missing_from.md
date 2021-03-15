@@ -14,132 +14,122 @@ import {a, b} fromx "c"
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "import {a, b} fromx \"c\"",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": {
-                    "kind": 196712,
-                    "text": "fromx",
-                    "rawText": "fromx",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 19
-                },
-                "moduleSpecifier": null,
-                "importClause": {
-                    "kind": 109,
-                    "defaultBinding": null,
-                    "nameSpaceImport": null,
-                    "namedImports": {
-                        "kind": 153,
-                        "importsList": {
-                            "kind": 115,
-                            "specifiers": [
-                                {
-                                    "kind": 113,
-                                    "moduleExportName": null,
-                                    "name": null,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
-                                    "flags": 65536,
-                                    "intersects": false,
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": {
+                "kind": 196712,
+                "text": "fromx",
+                "rawText": "fromx",
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 19
+            },
+            "moduleSpecifier": null,
+            "importClause": {
+                "kind": 109,
+                "defaultBinding": null,
+                "nameSpaceImport": null,
+                "namedImports": {
+                    "kind": 153,
+                    "importsList": {
+                        "kind": 115,
+                        "specifiers": [
+                            {
+                                "kind": 113,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 4325406,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
-                                {
-                                    "kind": 113,
-                                    "moduleExportName": null,
-                                    "name": null,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 12
-                                    },
-                                    "flags": 65536,
-                                    "intersects": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 9
+                            },
+                            {
+                                "kind": 113,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 4325406,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
-                                }
-                            ],
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 12
-                        },
-                        "flags": 65536,
-                        "intersects": false,
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 10,
+                                "end": 12
+                            }
+                        ],
+                        "flags": 0,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 6,
-                        "end": 13
+                        "start": 8,
+                        "end": 12
                     },
-                    "isTypeOnly": false,
-                    "flags": 65536,
-                    "intersects": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 19
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "c",
-                    "rawText": "c",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 23
-                },
+                "isTypeOnly": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 6,
+                "end": 13
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 19
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "c",
+                "rawText": "c",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 19,
+            "end": 23
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -157,9 +147,9 @@ import {a, b} fromx "c"
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 23
@@ -168,13 +158,11 @@ import {a, b} fromx "c"
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

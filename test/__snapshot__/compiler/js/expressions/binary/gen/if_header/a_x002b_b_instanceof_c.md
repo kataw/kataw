@@ -12,97 +12,87 @@ if ( a + b instanceof c ) ;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if ( a + b instanceof c ) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 4,
-                            "end": 6
-                        },
-                        "operator": "+",
-                        "right": {
-                            "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 10
-                        },
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 4,
-                        "end": 10
+                        "end": 6
                     },
-                    "operator": "instanceof",
+                    "operator": "+",
                     "right": {
                         "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 21,
-                        "end": 23
+                        "start": 8,
+                        "end": 10
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
+                    "end": 10
+                },
+                "operator": "instanceof",
+                "right": {
+                    "kind": 196712,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 21,
                     "end": 23
                 },
-                "consequent": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 27
-                },
-                "alternate": null,
-                "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 4,
+                "end": 23
+            },
+            "consequent": {
+                "kind": 6291526,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 25,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 27
@@ -111,13 +101,11 @@ if ( a + b instanceof c ) ;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

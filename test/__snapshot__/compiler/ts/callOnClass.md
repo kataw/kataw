@@ -11,130 +11,120 @@ var c = C();
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { }\nvar c = C();\n\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "C",
-                    "rawText": "C",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 16384,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 11
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 16384,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 11
             },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "c",
-                                "rawText": "c",
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 32768,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 2097397,
+            "declarationList": {
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 15,
+                            "end": 17
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 1073807915,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "C",
+                                "rawText": "C",
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 15,
-                                "end": 17
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 66091,
-                                "expression": {
-                                    "kind": 196712,
-                                    "text": "C",
-                                    "rawText": "C",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 19,
-                                    "end": 21
-                                },
-                                "typeArguments": null,
-                                "argumentList": {
-                                    "kind": 3,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "transformFlags": 0,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "start": 23,
-                                    "end": 23
-                                },
-                                "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
-                                "start": 21,
+                                "start": 19,
+                                "end": 21
+                            },
+                            "typeArguments": null,
+                            "argumentList": {
+                                "kind": 3,
+                                "elements": [],
+                                "trailingComma": false,
+                                "transformFlags": 0,
+                                "flags": 0,
+                                "symbol": null,
+                                "start": 23,
                                 "end": 23
                             },
-                            "flags": 15,
-                            "intersects": false,
+                            "flags": 0,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 21,
                             "end": 23
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 23
-                },
-                "flags": 16384,
-                "intersects": false,
+                        },
+                        "flags": 15,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 23
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 11,
-                "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 16384,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+                "start": 15,
+                "end": 23
+            },
+            "flags": 32768,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 26
@@ -143,13 +133,11 @@ var c = C();
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

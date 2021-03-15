@@ -14,79 +14,69 @@ function* await() {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "function* await() {}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 788576,
-                "name": {
-                    "kind": 131102,
-                    "text": "await",
-                    "rawText": "await",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 9,
-                    "end": 15
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 65536,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "await",
+                "rawText": "await",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 9,
+                "end": 15
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 16,
+                "end": 17
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 16,
-                    "end": 17
+                    "start": 19,
+                    "end": 19
                 },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 19,
-                        "end": 19
-                    },
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 20
-                },
-                "typeParameters": null,
-                "flags": 65536,
-                "intersects": false,
-                "transformFlags": 384,
-                "start": 0,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 20
@@ -95,13 +85,11 @@ function* await() {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

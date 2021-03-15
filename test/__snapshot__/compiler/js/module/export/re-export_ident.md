@@ -14,62 +14,60 @@ export * from x
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "export * from x",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": null,
-                "exportFromClause": {
-                    "kind": 78,
-                    "moduleExportName": null,
-                    "namedBinding": null,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 8
-                },
-                "fromClause": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
-                },
-                "isTypeOnly": false,
-                "flags": 65536,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 76,
+            "declaration": null,
+            "namedExports": null,
+            "exportFromClause": {
+                "kind": 78,
+                "moduleExportName": null,
+                "namedBinding": null,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
+                "end": 8
+            },
+            "fromClause": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 13,
                 "end": 15
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 15
-    },
-    "jsx": true,
+            },
+            "isTypeOnly": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 15
+        }
+    ],
+    "isModule": true,
     "printable": true,
-    "diagnostics": [],
-    "incremental": false,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 0,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 15
@@ -78,13 +76,11 @@ export * from x
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

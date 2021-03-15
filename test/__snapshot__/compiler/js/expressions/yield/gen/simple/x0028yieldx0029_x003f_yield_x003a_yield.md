@@ -12,85 +12,75 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(yield) ? yield : yield",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65592,
-                    "shortCircuit": {
-                        "kind": 66224,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 1,
-                            "end": 6
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 7
-                    },
-                    "consequent": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65592,
+                "shortCircuit": {
+                    "kind": 66224,
+                    "expression": {
                         "kind": 196712,
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 9,
-                        "end": 15
-                    },
-                    "alternate": {
-                        "kind": 196712,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 23
+                        "start": 1,
+                        "end": 6
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 7
+                },
+                "consequent": {
+                    "kind": 196712,
+                    "text": "yield",
+                    "rawText": "yield",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 9,
+                    "end": 15
+                },
+                "alternate": {
+                    "kind": 196712,
+                    "text": "yield",
+                    "rawText": "yield",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 17,
                     "end": 23
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 23
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 23
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 23
@@ -99,13 +89,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,112 +12,102 @@ foo(async (x, y) => ok).bar
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo(async (x, y) => ok).bar",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66232,
-                    "member": {
-                        "kind": 66091,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 0,
-                            "end": 3
-                        },
-                        "typeArguments": null,
-                        "argumentList": {
-                            "kind": 3,
-                            "elements": [
-                                {
-                                    "kind": 65552,
-                                    "typeParameters": null,
-                                    "arrowParameters": [],
-                                    "contents": {
-                                        "kind": 196712,
-                                        "text": "ok",
-                                        "rawText": "ok",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 19,
-                                        "end": 22
-                                    },
-                                    "flags": 536870912,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 4,
-                                    "end": 22
-                                }
-                            ],
-                            "trailingComma": false,
-                            "transformFlags": 0,
-                            "flags": 0,
-                            "intersects": false,
-                            "start": 9,
-                            "end": 23
-                        },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 67175096,
+                "member": {
+                    "kind": 1073807915,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 3,
+                        "start": 0,
+                        "end": 3
+                    },
+                    "typeArguments": null,
+                    "argumentList": {
+                        "kind": 3,
+                        "elements": [
+                            {
+                                "kind": 81936,
+                                "typeParameters": null,
+                                "arrowParameters": [],
+                                "contents": {
+                                    "kind": 196712,
+                                    "text": "ok",
+                                    "rawText": "ok",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 19,
+                                    "end": 22
+                                },
+                                "flags": 1073741824,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 4,
+                                "end": 22
+                            }
+                        ],
+                        "trailingComma": false,
+                        "transformFlags": 0,
+                        "flags": 0,
+                        "symbol": null,
+                        "start": 9,
                         "end": 23
                     },
-                    "expression": {
-                        "kind": 196711,
-                        "text": "bar",
-                        "rawText": "bar",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 24,
-                        "end": 27
-                    },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 23,
-                    "end": 27,
-                    "period": {
-                        "kind": 254,
-                        "pos": 23,
-                        "end": 24
-                    }
+                    "start": 3,
+                    "end": 23
+                },
+                "expression": {
+                    "kind": 196711,
+                    "text": "bar",
+                    "rawText": "bar",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 24,
+                    "end": 27
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
-                "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+                "start": 23,
+                "end": 27,
+                "period": {
+                    "kind": 255,
+                    "pos": 23,
+                    "end": 24
+                }
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 27
@@ -126,13 +116,11 @@ foo(async (x, y) => ok).bar
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

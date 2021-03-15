@@ -12,163 +12,153 @@ function not_gen() { function* gf() { var yield; } }}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "function not_gen() { function* gf() { var yield; } }}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "not_gen",
-                    "rawText": "not_gen",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 8,
-                    "end": 16
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 18
-                },
-                "type": null,
-                "contents": {
-                    "kind": 91,
-                    "functionStatementList": {
-                        "kind": 94,
-                        "statements": [
-                            {
-                                "kind": 788576,
-                                "name": {
-                                    "kind": 131102,
-                                    "text": "gf",
-                                    "rawText": "gf",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 1025,
-                                    "start": 30,
-                                    "end": 33
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 34,
-                                    "end": 35
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097397,
-                                                "declarationList": {
-                                                    "kind": 244,
-                                                    "declarations": [
-                                                        {
-                                                            "kind": 243,
-                                                            "binding": {
-                                                                "kind": 131102,
-                                                                "text": "yield",
-                                                                "rawText": "yield",
-                                                                "flags": 0,
-                                                                "intersects": false,
-                                                                "transformFlags": 1025,
-                                                                "start": 41,
-                                                                "end": 47
-                                                            },
-                                                            "exclamation": false,
-                                                            "type": null,
-                                                            "initializer": null,
-                                                            "flags": 41,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "start": 0,
-                                                            "end": 47
-                                                        }
-                                                    ],
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 41,
-                                                    "end": 47
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 37,
-                                                "end": 48
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 37,
-                                        "end": 48
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 35,
-                                    "end": 50
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 384,
-                                "start": 20,
-                                "end": 50
-                            }
-                        ],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 50
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 18,
-                    "end": 52
-                },
-                "typeParameters": null,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "not_gen",
+                "rawText": "not_gen",
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 256,
-                "start": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 8,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 18
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 788576,
+                            "name": {
+                                "kind": 131102,
+                                "text": "gf",
+                                "rawText": "gf",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 30,
+                                "end": 33
+                            },
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 34,
+                                "end": 35
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 91,
+                                "functionStatementList": {
+                                    "kind": 94,
+                                    "statements": [
+                                        {
+                                            "kind": 2097397,
+                                            "declarationList": {
+                                                "kind": 244,
+                                                "declarations": [
+                                                    {
+                                                        "kind": 16627,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "yield",
+                                                            "rawText": "yield",
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 1025,
+                                                            "start": 41,
+                                                            "end": 47
+                                                        },
+                                                        "exclamation": false,
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "flags": 41,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 0,
+                                                        "end": 47
+                                                    }
+                                                ],
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 41,
+                                                "end": 47
+                                            },
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 37,
+                                            "end": 48
+                                        }
+                                    ],
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 37,
+                                    "end": 48
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 35,
+                                "end": 50
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 384,
+                            "start": 20,
+                            "end": 50
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 20,
+                    "end": 50
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 18,
                 "end": 52
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 53
-    },
-    "jsx": false,
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 0,
+            "end": 52
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -179,9 +169,9 @@ function not_gen() { function* gf() { var yield; } }}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 53
@@ -190,13 +180,11 @@ function not_gen() { function* gf() { var yield; } }}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

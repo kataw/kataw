@@ -12,126 +12,116 @@ case catch { try default
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "case catch { try default",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097375,
+    "statements": [
+        {
+            "kind": 2097375,
+            "block": {
+                "kind": 2099237,
                 "block": {
-                    "kind": 2099237,
-                    "block": {
-                        "kind": 2084,
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
+                    "kind": 2084,
+                    "statements": [],
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
-                "catchClause": {
-                    "kind": 2095,
-                    "catchParameter": null,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 4
+            },
+            "catchClause": {
+                "kind": 2095,
+                "catchParameter": null,
+                "block": {
+                    "kind": 2099237,
                     "block": {
-                        "kind": 2099237,
-                        "block": {
-                            "kind": 2084,
-                            "statements": [
-                                {
-                                    "kind": 2097375,
+                        "kind": 2084,
+                        "statements": [
+                            {
+                                "kind": 2097375,
+                                "block": {
+                                    "kind": 2099237,
                                     "block": {
-                                        "kind": 2099237,
-                                        "block": {
-                                            "kind": 2084,
-                                            "statements": [],
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 16,
-                                            "end": 16
-                                        },
+                                        "kind": 2084,
+                                        "statements": [],
+                                        "multiline": false,
                                         "flags": 0,
-                                        "intersects": false,
+                                        "symbol": null,
                                         "transformFlags": 0,
                                         "start": 16,
                                         "end": 16
                                     },
-                                    "catchClause": null,
-                                    "finallyBlock": {
-                                        "kind": 2099237,
-                                        "block": {
-                                            "kind": 2084,
-                                            "statements": [],
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 16,
-                                            "end": 16
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 16,
-                                        "end": 16
-                                    },
-                                    "flags": 2,
-                                    "intersects": false,
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 12,
+                                    "start": 16,
                                     "end": 16
-                                }
-                            ],
-                            "multiline": false,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 16
-                        },
-                        "flags": 2,
-                        "intersects": false,
+                                },
+                                "catchClause": null,
+                                "finallyBlock": {
+                                    "kind": 2099237,
+                                    "block": {
+                                        "kind": 2084,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 16,
+                                        "end": 16
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 16,
+                                    "end": 16
+                                },
+                                "flags": 1,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 16
+                            }
+                        ],
+                        "multiline": false,
+                        "flags": 1,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 10,
+                        "start": 12,
                         "end": 16
                     },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 16,
-                    "start": 4,
+                    "flags": 1,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 10,
                     "end": 16
                 },
-                "finallyBlock": null,
-                "flags": 2,
-                "intersects": false,
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 16,
                 "start": 4,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "finallyBlock": null,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 16,
+            "start": 4,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -156,9 +146,9 @@ case catch { try default
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 24
@@ -167,13 +157,11 @@ case catch { try default
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

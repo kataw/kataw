@@ -10,246 +10,236 @@ const fn = function* <T>(input: T): Generator<number> {
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const fn = function* <T>(input: T): Generator<number> {\n  yield 2;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "fn",
-                                "rawText": "fn",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 5,
-                                "end": 8
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 8915041,
-                                "name": null,
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "input",
-                                                "rawText": "input",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 25,
-                                                "end": 30
-                                            },
-                                            "isOptional": false,
-                                            "type": {
-                                                "kind": 8428,
-                                                "typeName": {
-                                                    "kind": 196711,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "start": 31,
-                                                    "end": 33
-                                                },
-                                                "typeArguments": null,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 2097152,
-                                                "start": 31,
-                                                "end": 34
-                                            },
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": true,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "fn",
+                            "rawText": "fn",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 5,
+                            "end": 8
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 8915041,
+                            "name": null,
+                            "formalParameters": {
+                                "kind": 90,
+                                "formalParameterList": [
+                                    {
+                                        "kind": 16473,
+                                        "ellipsis": false,
+                                        "binding": {
+                                            "kind": 131102,
+                                            "text": "input",
+                                            "rawText": "input",
                                             "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
+                                            "symbol": null,
+                                            "transformFlags": 1025,
                                             "start": 25,
-                                            "end": 33
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 25,
-                                    "end": 34
-                                },
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097233,
-                                                "expression": {
-                                                    "kind": 65785,
-                                                    "delegate": false,
-                                                    "expression": {
-                                                        "kind": 4261540,
-                                                        "text": 2,
-                                                        "rawText": "2",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "start": 63,
-                                                        "end": 65
-                                                    },
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 16393,
-                                                    "start": 55,
-                                                    "end": 65
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "start": 55,
-                                                "end": 66
-                                            }
-                                        ],
-                                        "multiline": true,
-                                        "flags": 16384,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 55,
-                                        "end": 66
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 53,
-                                    "end": 68
-                                },
-                                "typeParameters": {
-                                    "kind": 8425,
-                                    "typeParameterList": [
-                                        {
-                                            "kind": 8424,
-                                            "name": {
+                                            "end": 30
+                                        },
+                                        "isOptional": false,
+                                        "type": {
+                                            "kind": 134226156,
+                                            "typeName": {
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 0,
-                                                "intersects": false,
+                                                "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 22,
-                                                "end": 23
+                                                "start": 31,
+                                                "end": 33
                                             },
-                                            "constraint": null,
-                                            "defaultType": null,
-                                            "expression": null,
+                                            "typeArguments": null,
                                             "flags": 0,
-                                            "intersects": false,
+                                            "symbol": null,
                                             "transformFlags": 2097152,
+                                            "start": 31,
+                                            "end": 34
+                                        },
+                                        "initializer": null,
+                                        "decorators": null,
+                                        "accessModifier": null,
+                                        "isReadOnly": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1,
+                                        "start": 25,
+                                        "end": 33
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 34
+                            },
+                            "contents": {
+                                "kind": 91,
+                                "functionStatementList": {
+                                    "kind": 94,
+                                    "statements": [
+                                        {
+                                            "kind": 2097233,
+                                            "expression": {
+                                                "kind": 65785,
+                                                "delegate": false,
+                                                "expression": {
+                                                    "kind": 4261540,
+                                                    "text": 2,
+                                                    "rawText": "2",
+                                                    "flags": 0,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 63,
+                                                    "end": 65
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 16393,
+                                                "start": 55,
+                                                "end": 65
+                                            },
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 55,
+                                            "end": 66
+                                        }
+                                    ],
+                                    "multiline": true,
+                                    "flags": 32768,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 55,
+                                    "end": 66
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 53,
+                                "end": 68
+                            },
+                            "typeParameters": {
+                                "kind": 134226153,
+                                "typeParameterList": [
+                                    {
+                                        "kind": 134226152,
+                                        "name": {
+                                            "kind": 196711,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
+                                        },
+                                        "constraint": null,
+                                        "defaultType": null,
+                                        "expression": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 2097152,
+                                        "start": 22,
+                                        "end": 23
+                                    }
+                                ],
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 2097152,
+                                "start": 22,
+                                "end": 23
+                            },
+                            "type": {
+                                "kind": 134226156,
+                                "typeName": {
+                                    "kind": 196711,
+                                    "text": "Generator",
+                                    "rawText": "Generator",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 35,
+                                    "end": 45
+                                },
+                                "typeArguments": {
+                                    "kind": 8419,
+                                    "typeArgumentsList": [
+                                        {
+                                            "kind": 4202657,
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 2097152,
+                                            "start": 46,
+                                            "end": 52
                                         }
                                     ],
                                     "flags": 0,
-                                    "intersects": false,
+                                    "symbol": null,
                                     "transformFlags": 2097152,
-                                    "start": 22,
-                                    "end": 23
-                                },
-                                "type": {
-                                    "kind": 8428,
-                                    "typeName": {
-                                        "kind": 196711,
-                                        "text": "Generator",
-                                        "rawText": "Generator",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 35,
-                                        "end": 45
-                                    },
-                                    "typeArguments": {
-                                        "kind": 8419,
-                                        "typeArgumentsList": [
-                                            {
-                                                "kind": 4202657,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 2097152,
-                                                "start": 46,
-                                                "end": 52
-                                            }
-                                        ],
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 2097152,
-                                        "start": 46,
-                                        "end": 52
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "start": 35,
-                                    "end": 55
+                                    "start": 46,
+                                    "end": 52
                                 },
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 128,
-                                "start": 10,
-                                "end": 68
+                                "symbol": null,
+                                "transformFlags": 2097152,
+                                "start": 35,
+                                "end": 55
                             },
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 5,
+                            "symbol": null,
+                            "transformFlags": 128,
+                            "start": 10,
                             "end": 68
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 68
-                },
-                "flags": 16,
-                "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 5,
+                        "end": 68
+                    }
+                ],
+                "flags": 8,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 5,
                 "end": 68
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 68
-    },
-    "jsx": false,
+            },
+            "flags": 8,
+            "symbol": null,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 68
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 68
@@ -258,13 +248,11 @@ const fn = function* <T>(input: T): Generator<number> {
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,68 +12,58 @@ p\u0072ivate = x;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "p\\u0072ivate = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "private",
-                        "rawText": "p\\u0072ivate",
-                        "flags": 37748736,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 12
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 14,
-                        "end": 16
-                    },
-                    "flags": 0,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "private",
+                    "rawText": "p\\u0072ivate",
+                    "flags": 75497472,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 12
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 14,
                     "end": 16
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 17
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+                "end": 16
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 17
@@ -82,13 +72,11 @@ p\u0072ivate = x;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,100 +12,90 @@ yield /* comment */ { yield: 12 }
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "yield /* comment */ { yield: 12 }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 5
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "yield",
+                "rawText": "yield",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [
-                        {
-                            "kind": 2097292,
-                            "label": {
-                                "kind": 196712,
-                                "text": "yield",
-                                "rawText": "yield",
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097292,
+                        "label": {
+                            "kind": 196712,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 21,
+                            "end": 27
+                        },
+                        "statement": {
+                            "kind": 2097233,
+                            "expression": {
+                                "kind": 4261540,
+                                "text": 12,
+                                "rawText": "12",
                                 "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 27
-                            },
-                            "statement": {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 4261540,
-                                    "text": 12,
-                                    "rawText": "12",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 28,
-                                    "end": 31
-                                },
-                                "flags": 0,
-                                "intersects": false,
+                                "symbol": null,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
-                            "isWebCompat": true,
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 21,
+                            "start": 28,
                             "end": 31
-                        }
-                    ],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 31
-                },
+                        },
+                        "isWebCompat": true,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 31
+                    }
+                ],
+                "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
-                "end": 33
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 33
-    },
-    "jsx": false,
+                "start": 21,
+                "end": 31
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 5,
+            "end": 33
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -116,9 +106,9 @@ yield /* comment */ { yield: 12 }
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 33
@@ -127,13 +117,11 @@ yield /* comment */ { yield: 12 }
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

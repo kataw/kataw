@@ -14,68 +14,58 @@ x@{x9}@+@{x9}@y
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "x\t+\ty",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "operator": "+",
-                    "right": {
-                        "kind": 196712,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 5
-                    },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65563,
+                "left": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 1
+                },
+                "operator": "+",
+                "right": {
+                    "kind": 196712,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 5
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 5
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 5
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 5
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 5
@@ -84,13 +74,11 @@ x@{x9}@+@{x9}@y
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

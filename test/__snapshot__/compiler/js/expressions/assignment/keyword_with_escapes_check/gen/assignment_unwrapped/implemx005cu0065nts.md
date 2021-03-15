@@ -12,68 +12,58 @@ implem\u0065nts = x;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "implem\\u0065nts = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65550,
-                    "left": {
-                        "kind": 196712,
-                        "text": "implements",
-                        "rawText": "implem\\u0065nts",
-                        "flags": 37748736,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 15
-                    },
-                    "operator": "=",
-                    "right": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 17,
-                        "end": 19
-                    },
-                    "flags": 0,
-                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "implements",
+                    "rawText": "implem\\u0065nts",
+                    "flags": 75497472,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
+                    "end": 15
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 17,
                     "end": 19
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+                "end": 19
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 20
@@ -82,13 +72,11 @@ implem\u0065nts = x;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

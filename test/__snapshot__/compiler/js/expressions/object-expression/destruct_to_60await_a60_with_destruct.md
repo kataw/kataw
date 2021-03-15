@@ -8,153 +8,143 @@ s = {"foo": await a = x} = x
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "s = {\"foo\": await a = x} = x",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "s",
+                    "rawText": "s",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 1
+                },
+                "operator": "=",
+                "right": {
                     "kind": 65550,
                     "left": {
-                        "kind": 196712,
-                        "text": "s",
-                        "rawText": "s",
+                        "kind": 98984,
+                        "propertyList": {
+                            "kind": 65722,
+                            "properties": [
+                                {
+                                    "kind": 65721,
+                                    "left": {
+                                        "kind": 4261583,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 5,
+                                        "end": 10
+                                    },
+                                    "right": {
+                                        "kind": 196712,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 11,
+                                        "end": 17
+                                    },
+                                    "accessModifier": null,
+                                    "decorators": null,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 5,
+                                    "end": 17
+                                },
+                                {
+                                    "kind": 65597,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 1,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 17,
+                                        "end": 19
+                                    },
+                                    "isOptional": false,
+                                    "exclamation": false,
+                                    "right": {
+                                        "kind": 196712,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 21,
+                                        "end": 23
+                                    },
+                                    "accessModifier": null,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 1,
+                                    "start": 17,
+                                    "end": 23
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 5,
+                            "end": 23
+                        },
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
+                        "start": 3,
+                        "end": 24
                     },
                     "operator": "=",
                     "right": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 67224232,
-                            "propertyList": {
-                                "kind": 65722,
-                                "properties": [
-                                    {
-                                        "kind": 65721,
-                                        "left": {
-                                            "kind": 4261583,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 5,
-                                            "end": 10
-                                        },
-                                        "right": {
-                                            "kind": 196712,
-                                            "text": "await",
-                                            "rawText": "await",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 11,
-                                            "end": 17
-                                        },
-                                        "accessModifier": null,
-                                        "decorators": null,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 5,
-                                        "end": 17
-                                    },
-                                    {
-                                        "kind": 65597,
-                                        "left": {
-                                            "kind": 196712,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 2,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "isOptional": false,
-                                        "exclamation": false,
-                                        "right": {
-                                            "kind": 196712,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 21,
-                                            "end": 23
-                                        },
-                                        "accessModifier": null,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1,
-                                        "start": 17,
-                                        "end": 23
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 5,
-                                "end": 23
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 3,
-                            "end": 24
-                        },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 26,
-                            "end": 28
-                        },
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 3,
+                        "start": 26,
                         "end": 28
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
+                    "start": 3,
                     "end": 28
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 28
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 28
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 28
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -165,9 +155,9 @@ s = {"foo": await a = x} = x
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 28
@@ -176,13 +166,11 @@ s = {"foo": await a = x} = x
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

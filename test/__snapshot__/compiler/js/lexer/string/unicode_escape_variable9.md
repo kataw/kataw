@@ -14,49 +14,39 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "\"\\u{0000000000000000000010ffff}\"",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4261583,
-                    "text": "@{x43f}@@{x3ff}@",
-                    "rawText": "@{x43f}@@{x3ff}@",
-                    "flags": 2097152,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 0,
-                    "end": 32
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4261583,
+                "text": "@{x43f}@@{x3ff}@",
+                "rawText": "@{x43f}@@{x3ff}@",
+                "flags": 4194304,
+                "symbol": null,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 32
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 32
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 32
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 32
@@ -65,13 +55,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

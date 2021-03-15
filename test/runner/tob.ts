@@ -43,7 +43,9 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
-    tob.$printed === '✖ Soon to be open sourced' ? '' : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
+    tob.$printed === '✖ Soon to be open sourced'
+      ? ''
+      : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }

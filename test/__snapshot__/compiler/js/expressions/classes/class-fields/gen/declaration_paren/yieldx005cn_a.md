@@ -12,156 +12,146 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "(class extends Base { yield\\n a });",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
                 "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 82483,
-                        "name": null,
-                        "typeParameters": null,
-                        "classHeritage": {
-                            "kind": 52,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "Base",
-                                "rawText": "Base",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 19
-                            },
-                            "typeArguments": null,
+                    "kind": 66099,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": {
+                        "kind": 52,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "Base",
+                            "rawText": "Base",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         },
-                        "implementClauses": null,
-                        "members": {
-                            "kind": 50,
-                            "elements": [
-                                {
-                                    "kind": 84,
-                                    "key": {
-                                        "kind": 196711,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 33554432,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 21,
-                                        "end": 27
-                                    },
-                                    "isInKeyword": false,
-                                    "expression": null,
-                                    "isAbstract": false,
-                                    "isReadOnly": false,
-                                    "isOptional": false,
-                                    "exclamation": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isStatic": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 524352,
+                        "typeArguments": null,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 14,
+                        "end": 19
+                    },
+                    "implementClauses": null,
+                    "members": {
+                        "kind": 50,
+                        "elements": [
+                            {
+                                "kind": 16468,
+                                "key": {
+                                    "kind": 196711,
+                                    "text": "yield",
+                                    "rawText": "yield",
+                                    "flags": 67108864,
+                                    "symbol": null,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 27
-                                }
-                            ],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "start": 21,
-                            "end": 27
-                        },
-                        "decorators": null,
+                                },
+                                "isInKeyword": false,
+                                "expression": null,
+                                "isAbstract": false,
+                                "isReadOnly": false,
+                                "isOptional": false,
+                                "exclamation": false,
+                                "type": null,
+                                "initializer": null,
+                                "decorators": null,
+                                "accessModifier": null,
+                                "isStatic": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 524352,
+                                "start": 21,
+                                "end": 27
+                            }
+                        ],
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 1,
-                        "start": 1,
+                        "start": 21,
                         "end": 27
                     },
+                    "decorators": null,
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
+                    "symbol": null,
+                    "transformFlags": 1,
+                    "start": 1,
                     "end": 27
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "n",
-                    "rawText": "n",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 29
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "n",
+                "rawText": "n",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 29,
-                    "end": 31
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 28,
+            "end": 29
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "a",
+                "rawText": "a",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 34,
-                "end": 35
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 35
-    },
-    "jsx": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 29,
+            "end": 31
+        },
+        {
+            "kind": 6291526,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 34,
+            "end": 35
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -200,9 +190,9 @@
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 35
@@ -211,13 +201,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -12,98 +12,88 @@ for ( a > b instanceof c ;;);
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "for ( a > b instanceof c ;;);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2099288,
-                "initializer": {
+    "statements": [
+        {
+            "kind": 2099288,
+            "initializer": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 5,
-                            "end": 7
-                        },
-                        "operator": ">",
-                        "right": {
-                            "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 9,
-                            "end": 11
-                        },
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 5,
-                        "end": 11
+                        "end": 7
                     },
-                    "operator": "instanceof",
+                    "operator": ">",
                     "right": {
                         "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 22,
-                        "end": 24
+                        "start": 9,
+                        "end": 11
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 5,
+                    "end": 11
+                },
+                "operator": "instanceof",
+                "right": {
+                    "kind": 196712,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 22,
                     "end": 24
                 },
-                "condition": null,
-                "incrementor": null,
-                "isVariableDeclarationList": false,
-                "statement": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 29
-                },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 5,
+                "end": 24
+            },
+            "condition": null,
+            "incrementor": null,
+            "isVariableDeclarationList": false,
+            "statement": {
+                "kind": 6291526,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 28,
                 "end": 29
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 29
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 29
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 29
@@ -112,13 +102,11 @@ for ( a > b instanceof c ;;);
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

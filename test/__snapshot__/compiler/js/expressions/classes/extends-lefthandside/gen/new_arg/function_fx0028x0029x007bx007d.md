@@ -12,97 +12,87 @@ new function f(){}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new function f(){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 8456285,
-                        "name": {
-                            "kind": 131102,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1025,
-                            "start": 12,
-                            "end": 14
-                        },
-                        "formalParameters": {
-                            "kind": 90,
-                            "formalParameterList": [],
-                            "trailingComma": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 16
-                        },
-                        "contents": {
-                            "kind": 91,
-                            "functionStatementList": {
-                                "kind": 94,
-                                "statements": [],
-                                "multiline": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 16,
-                            "end": 18
-                        },
-                        "typeParameters": null,
-                        "type": null,
+                    "kind": 8456285,
+                    "name": {
+                        "kind": 131102,
+                        "text": "f",
+                        "rawText": "f",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
+                        "transformFlags": 1025,
+                        "start": 12,
+                        "end": 14
+                    },
+                    "formalParameters": {
+                        "kind": 90,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 3,
+                        "start": 15,
+                        "end": 16
+                    },
+                    "contents": {
+                        "kind": 91,
+                        "functionStatementList": {
+                            "kind": 94,
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 17,
+                            "end": 17
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 16,
                         "end": 18
                     },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "typeParameters": null,
+                    "type": null,
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 18
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "symbol": null,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 18
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 18
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 18
@@ -111,13 +101,11 @@ new function f(){}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

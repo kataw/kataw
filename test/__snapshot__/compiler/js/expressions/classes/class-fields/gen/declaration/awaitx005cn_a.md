@@ -12,124 +12,114 @@ class C { await\n a }
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class C { await\\n a }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "C",
-                    "rawText": "C",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 84,
-                            "key": {
-                                "kind": 196711,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 33554432,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 15
-                            },
-                            "isInKeyword": false,
-                            "expression": null,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isStatic": false,
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 524352,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 16468,
+                        "key": {
+                            "kind": 196711,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 67108864,
+                            "symbol": null,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 15
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 15
-                },
-                "decorators": null,
-                "isAbstract": false,
+                        },
+                        "isInKeyword": false,
+                        "expression": null,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isStatic": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 524352,
+                        "start": 9,
+                        "end": 15
+                    }
+                ],
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 15
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "n",
-                    "rawText": "n",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 17
-                },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "n",
+                "rawText": "n",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 19
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 16,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "a",
+                "rawText": "a",
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 17,
                 "end": 19
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 21
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 19
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -161,9 +151,9 @@ class C { await\n a }
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 21
@@ -172,13 +162,11 @@ class C { await\n a }
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

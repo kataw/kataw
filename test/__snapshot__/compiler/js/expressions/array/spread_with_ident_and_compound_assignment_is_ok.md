@@ -15,96 +15,86 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "[...x += y];",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [
-                            {
-                                "kind": 65740,
-                                "argument": {
-                                    "kind": 65550,
-                                    "left": {
-                                        "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 4,
-                                        "end": 5
-                                    },
-                                    "operator": "+=",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 10
-                                    },
-                                    "flags": 65536,
-                                    "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 65740,
+                            "argument": {
+                                "kind": 65550,
+                                "left": {
+                                    "kind": 196712,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 0,
+                                    "symbol": null,
                                     "transformFlags": 0,
                                     "start": 4,
+                                    "end": 5
+                                },
+                                "operator": "+=",
+                                "right": {
+                                    "kind": 196712,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 8,
                                     "end": 10
                                 },
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2,
-                                "start": 1,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 4,
                                 "end": 10
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 10
-                    },
-                    "flags": 65536,
-                    "intersects": false,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 2,
+                            "start": 1,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 11
+                    "start": 1,
+                    "end": 10
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 12
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 12
-    },
-    "jsx": false,
+                "end": 11
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 12
@@ -113,13 +103,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

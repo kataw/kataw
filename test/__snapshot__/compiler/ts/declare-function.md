@@ -8,102 +8,92 @@ declare function foo(bar: string): string;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "declare function foo(bar: string): string;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 264284,
-                "name": {
-                    "kind": 131102,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 16,
-                    "end": 20
-                },
-                "formalParameters": {
-                    "kind": 90,
-                    "formalParameterList": [
-                        {
-                            "kind": 89,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "bar",
-                                "rawText": "bar",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 21,
-                                "end": 24
-                            },
-                            "isOptional": false,
-                            "type": {
-                                "kind": 4202702,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 25,
-                                "end": 32
-                            },
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
+    "statements": [
+        {
+            "kind": 264284,
+            "name": {
+                "kind": 131102,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 16,
+                "end": 20
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [
+                    {
+                        "kind": 16473,
+                        "ellipsis": false,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "bar",
+                            "rawText": "bar",
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1,
+                            "symbol": null,
+                            "transformFlags": 1025,
                             "start": 21,
+                            "end": 24
+                        },
+                        "isOptional": false,
+                        "type": {
+                            "kind": 4202702,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 2097152,
+                            "start": 25,
                             "end": 32
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 33
-                },
-                "type": {
-                    "kind": 4202702,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 34,
-                    "end": 41
-                },
-                "contents": null,
-                "typeParameters": null,
-                "flags": 201326592,
-                "intersects": false,
+                        },
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isReadOnly": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 21,
+                        "end": 32
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 21,
+                "end": 33
+            },
+            "type": {
+                "kind": 4202702,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 2097152,
-                "start": 7,
-                "end": 42
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 42
-    },
-    "jsx": false,
+                "start": 34,
+                "end": 41
+            },
+            "contents": null,
+            "typeParameters": null,
+            "flags": 402653184,
+            "symbol": null,
+            "transformFlags": 2097152,
+            "start": 7,
+            "end": 42
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 42
@@ -112,13 +102,11 @@ declare function foo(bar: string): string;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

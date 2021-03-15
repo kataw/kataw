@@ -10,109 +10,99 @@ class Foo {
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class Foo {\n    public readonly foo = 'string';\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "Foo",
-                    "rawText": "Foo",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 9
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 84,
-                            "key": {
-                                "kind": 196711,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 31,
-                                "end": 35
-                            },
-                            "isInKeyword": false,
-                            "expression": null,
-                            "isAbstract": false,
-                            "isReadOnly": true,
-                            "isOptional": false,
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261583,
-                                "text": "string",
-                                "rawText": "string",
-                                "flags": 16777216,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 37,
-                                "end": 46
-                            },
-                            "decorators": null,
-                            "accessModifier": {
-                                "kind": 4194494,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "start": 11,
-                                "end": 22
-                            },
-                            "isStatic": false,
-                            "flags": 16384,
-                            "intersects": false,
-                            "transformFlags": 524352,
-                            "start": 11,
-                            "end": 47
-                        }
-                    ],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 11,
-                    "end": 49
-                },
-                "decorators": null,
-                "isAbstract": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 9
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 16468,
+                        "key": {
+                            "kind": 196711,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 31,
+                            "end": 35
+                        },
+                        "isInKeyword": false,
+                        "expression": null,
+                        "isAbstract": false,
+                        "isReadOnly": true,
+                        "isOptional": false,
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261583,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 33554432,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 37,
+                            "end": 46
+                        },
+                        "decorators": null,
+                        "accessModifier": {
+                            "kind": 4194494,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 2097152,
+                            "start": 11,
+                            "end": 22
+                        },
+                        "isStatic": false,
+                        "flags": 32768,
+                        "symbol": null,
+                        "transformFlags": 524352,
+                        "start": 11,
+                        "end": 47
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 11,
                 "end": 49
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 49
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 49
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 49
@@ -121,13 +111,11 @@ class Foo {
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

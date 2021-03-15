@@ -12,91 +12,81 @@ class A extends new x {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A extends new x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 66204,
                     "expression": {
-                        "kind": 66204,
-                        "expression": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 19,
-                            "end": 21
-                        },
-                        "typeArguments": null,
-                        "argumentList": null,
-                        "flags": 15,
-                        "intersects": false,
-                        "transformFlags": 32,
-                        "start": 0,
+                        "kind": 196712,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 19,
                         "end": 21
                     },
                     "typeArguments": null,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
+                    "argumentList": null,
+                    "flags": 15,
+                    "symbol": null,
+                    "transformFlags": 32,
+                    "start": 0,
                     "end": 21
                 },
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 23,
-                    "end": 24
-                },
-                "decorators": null,
-                "isAbstract": false,
+                "typeArguments": null,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 23,
                 "end": 24
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 24
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 24
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 24
@@ -105,13 +95,11 @@ class A extends new x {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

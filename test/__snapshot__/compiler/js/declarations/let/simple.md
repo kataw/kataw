@@ -8,80 +8,70 @@ let x = y;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "let x = y;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 3,
-                                "end": 5
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 196712,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 9
-                            },
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": false,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
                             "start": 3,
+                            "end": 5
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 196712,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 7,
                             "end": 9
-                        }
-                    ],
-                    "flags": 16,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 9
-                },
-                "flags": 16,
-                "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
-                "end": 10
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 10
-    },
-    "jsx": false,
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 9
+                    }
+                ],
+                "flags": 8,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 3,
+                "end": 9
+            },
+            "flags": 8,
+            "symbol": null,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 10
@@ -90,13 +80,11 @@ let x = y;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

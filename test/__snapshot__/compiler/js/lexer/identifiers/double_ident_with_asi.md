@@ -15,67 +15,57 @@ bar
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 2243,
     "source": "foo\nbar",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 3
-                },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "foo",
+                "rawText": "foo",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 3,
-                    "end": 7
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "bar",
+                "rawText": "bar",
+                "flags": 32768,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
                 "end": 7
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 65536,
-        "intersects": false,
-        "start": 0,
-        "end": 7
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 3,
+            "end": 7
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 7
@@ -84,13 +74,11 @@ bar
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

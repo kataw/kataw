@@ -12,101 +12,91 @@ foo(a,,);
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "foo(a,,);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65590,
-                    "expressions": [
-                        {
-                            "kind": 66091,
-                            "expression": {
-                                "kind": 196712,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 0,
-                                "end": 3
-                            },
-                            "typeArguments": null,
-                            "argumentList": {
-                                "kind": 3,
-                                "elements": [
-                                    {
-                                        "kind": 196712,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 4,
-                                        "end": 5
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "transformFlags": 0,
-                                "flags": 0,
-                                "intersects": false,
-                                "start": 5,
-                                "end": 6
-                            },
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65590,
+                "expressions": [
+                    {
+                        "kind": 1073807915,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "foo",
+                            "rawText": "foo",
                             "flags": 0,
-                            "intersects": false,
+                            "symbol": null,
                             "transformFlags": 0,
-                            "start": 3,
+                            "start": 0,
+                            "end": 3
+                        },
+                        "typeArguments": null,
+                        "argumentList": {
+                            "kind": 3,
+                            "elements": [
+                                {
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 4,
+                                    "end": 5
+                                }
+                            ],
+                            "trailingComma": false,
+                            "transformFlags": 0,
+                            "flags": 0,
+                            "symbol": null,
+                            "start": 5,
                             "end": 6
                         },
-                        {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 7,
-                            "end": 7
-                        }
-                    ],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 7
-                },
-                "flags": 0,
-                "intersects": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 6
+                    },
+                    {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 7,
+                        "end": 7
+                    }
+                ],
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 8,
-                "end": 9
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 9
-    },
-    "jsx": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 6291526,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 8,
+            "end": 9
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -117,9 +107,9 @@ foo(a,,);
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 9
@@ -128,13 +118,11 @@ foo(a,,);
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

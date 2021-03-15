@@ -12,58 +12,48 @@ new /more crap/g
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "new /more crap/g",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66204,
                 "expression": {
-                    "kind": 66204,
-                    "expression": {
-                        "kind": 4260544,
-                        "text": "/more crap/g",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 3,
-                        "end": 16
-                    },
-                    "typeArguments": null,
-                    "argumentList": null,
+                    "kind": 4260544,
+                    "text": "/more crap/g",
                     "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 32,
-                    "start": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
                     "end": 16
                 },
+                "typeArguments": null,
+                "argumentList": null,
                 "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "symbol": null,
+                "transformFlags": 32,
                 "start": 0,
                 "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 16
@@ -72,13 +62,11 @@ new /more crap/g
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -14,97 +14,87 @@
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "<a b=: />",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 69766,
-                    "tagName": {
-                        "kind": 129,
-                        "text": "a",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 1,
-                        "end": 2
-                    },
-                    "attributes": {
-                        "kind": 123,
-                        "attributesList": [
-                            {
-                                "kind": 122,
-                                "name": {
-                                    "kind": 129,
-                                    "text": "b",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 8192,
-                                    "start": 2,
-                                    "end": 4
-                                },
-                                "initializer": null,
-                                "flags": 2,
-                                "intersects": false,
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 69766,
+                "tagName": {
+                    "kind": 129,
+                    "text": "a",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 8192,
+                    "start": 1,
+                    "end": 2
+                },
+                "attributes": {
+                    "kind": 123,
+                    "attributesList": [
+                        {
+                            "kind": 122,
+                            "name": {
+                                "kind": 129,
+                                "text": "b",
+                                "flags": 0,
+                                "symbol": null,
                                 "transformFlags": 8192,
                                 "start": 2,
-                                "end": 5
-                            }
-                        ],
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 8192,
-                        "start": 2,
-                        "end": 5
-                    },
-                    "typeArguments": null,
-                    "flags": 2,
-                    "intersects": false,
+                                "end": 4
+                            },
+                            "initializer": null,
+                            "flags": 1,
+                            "symbol": null,
+                            "transformFlags": 8192,
+                            "start": 2,
+                            "end": 5
+                        }
+                    ],
+                    "flags": 1,
+                    "symbol": null,
                     "transformFlags": 8192,
-                    "start": 0,
+                    "start": 2,
                     "end": 5
                 },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
+                "typeArguments": null,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 8192,
                 "start": 0,
                 "end": 5
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 4260544,
-                    "text": "/>",
-                    "flags": 524288,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 9
-                },
-                "flags": 0,
-                "intersects": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 4260544,
+                "text": "/>",
+                "flags": 1048576,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
                 "end": 9
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 9
-    },
-    "jsx": true,
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 6,
+            "end": 9
+        }
+    ],
+    "isModule": true,
     "printable": true,
     "diagnostics": [
         {
@@ -122,9 +112,9 @@
             "length": 1
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 9
@@ -133,13 +123,11 @@
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

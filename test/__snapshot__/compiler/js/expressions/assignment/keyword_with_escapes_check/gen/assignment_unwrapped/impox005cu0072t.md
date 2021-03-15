@@ -14,52 +14,43 @@ impo\u0072t = x;
 
 ### Hybrid CST
 
-
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "impo\\u0072t = x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 110,
-                "fromClause": null,
-                "moduleSpecifier": null,
-                "importClause": null,
-                "flags": 37748736,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 11
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 15
-                },
+    "statements": [
+        {
+            "kind": 110,
+            "fromClause": null,
+            "moduleSpecifier": null,
+            "importClause": null,
+            "flags": 75497472,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
-                "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 16
-    },
-    "jsx": false,
+                "end": 15
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 13,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -70,26 +61,22 @@ impo\u0072t = x;
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 16
 }
 ```
 
-  
 ### Printed
-
 
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
-  
 ### Diagnostics
-
 
 ```javascript
 

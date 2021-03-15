@@ -11,107 +11,97 @@ x++;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "const x = 0\n\n// @Filename: file2.ts\nx++;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 141,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "start": 5,
-                                "end": 7
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 11
-                            },
-                            "flags": 16384,
-                            "intersects": false,
-                            "transformFlags": 0,
+    "statements": [
+        {
+            "kind": 142,
+            "isConst": true,
+            "binding": {
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
                             "start": 5,
+                            "end": 7
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 9,
                             "end": 11
-                        }
-                    ],
-                    "flags": 16400,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 5,
-                    "end": 11
-                },
-                "flags": 16400,
-                "intersects": false,
-                "transformFlags": 769,
-                "start": 0,
+                        },
+                        "flags": 32768,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 5,
+                        "end": 11
+                    }
+                ],
+                "flags": 32776,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 5,
                 "end": 11
             },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65714,
-                    "operator": "++",
-                    "operand": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 16384,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 37
-                    },
-                    "flags": 0,
-                    "intersects": false,
+            "flags": 32776,
+            "symbol": null,
+            "transformFlags": 769,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65714,
+                "operator": "++",
+                "operand": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 32768,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
-                    "end": 39
+                    "end": 37
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
                 "start": 11,
-                "end": 40
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 40
-    },
-    "jsx": false,
+                "end": 39
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 40
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 40
@@ -120,13 +110,11 @@ x++;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

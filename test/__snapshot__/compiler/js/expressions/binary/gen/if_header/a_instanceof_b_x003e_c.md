@@ -12,97 +12,87 @@ if ( a instanceof b > c ) ;
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if ( a instanceof b > c ) ;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
-                "expression": {
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 65563,
+                "left": {
                     "kind": 65563,
                     "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 196712,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 4,
-                            "end": 6
-                        },
-                        "operator": "instanceof",
-                        "right": {
-                            "kind": 196712,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 17,
-                            "end": 19
-                        },
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
                         "start": 4,
-                        "end": 19
+                        "end": 6
                     },
-                    "operator": ">",
+                    "operator": "instanceof",
                     "right": {
                         "kind": 196712,
-                        "text": "c",
-                        "rawText": "c",
+                        "text": "b",
+                        "rawText": "b",
                         "flags": 0,
-                        "intersects": false,
+                        "symbol": null,
                         "transformFlags": 0,
-                        "start": 21,
-                        "end": 23
+                        "start": 17,
+                        "end": 19
                     },
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
+                    "end": 19
+                },
+                "operator": ">",
+                "right": {
+                    "kind": 196712,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 21,
                     "end": 23
                 },
-                "consequent": {
-                    "kind": 6291526,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 25,
-                    "end": 27
-                },
-                "alternate": null,
-                "isWebCompat": true,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 4,
+                "end": 23
+            },
+            "consequent": {
+                "kind": 6291526,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 25,
                 "end": 27
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 27
-    },
-    "jsx": false,
+            },
+            "alternate": null,
+            "isWebCompat": true,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 27
@@ -111,13 +101,11 @@ if ( a instanceof b > c ) ;
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

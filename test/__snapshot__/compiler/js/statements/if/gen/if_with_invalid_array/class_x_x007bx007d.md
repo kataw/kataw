@@ -12,120 +12,110 @@ if [else] class x {}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "if [else] class x {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 2097257,
-                "expression": {
-                    "kind": 67207686,
-                    "elementList": {
-                        "kind": 65605,
-                        "elements": [],
-                        "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 2,
-                    "end": 4
-                },
-                "consequent": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 4,
-                        "end": 4
-                    },
+    "statements": [
+        {
+            "kind": 2097257,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [],
+                    "trailingComma": false,
+                    "multiline": false,
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
-                "alternate": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 8
-                    },
-                    "flags": 0,
-                    "intersects": false,
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 2,
+                "end": 4
+            },
+            "consequent": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 4,
+                    "end": 4
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 4
+            },
+            "alternate": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "symbol": null,
                     "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
-                "isWebCompat": true,
-                "flags": 2,
-                "intersects": false,
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 0,
+                "start": 8,
                 "end": 8
             },
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 15,
-                    "end": 17
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 19,
-                    "end": 20
-                },
-                "decorators": null,
-                "isAbstract": false,
+            "isWebCompat": true,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "x",
+                "rawText": "x",
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 15,
+                "end": 17
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 0,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 9,
+                "start": 19,
                 "end": 20
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 20
-    },
-    "jsx": false,
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 9,
+            "end": 20
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -150,9 +140,9 @@ if [else] class x {}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 20
@@ -161,13 +151,11 @@ if [else] class x {}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 

@@ -8,113 +8,103 @@ class A {*=f(){}}
 
 ## Output
 
-
 ### Hybrid CST
-
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 2243,
     "source": "class A {*=f(){}}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
-        "statements": [
-            {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "start": 5,
-                    "end": 7
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [],
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "start": 9,
-                    "end": 9
-                },
-                "decorators": null,
-                "isAbstract": false,
-                "flags": 2,
-                "intersects": false,
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "symbol": null,
                 "transformFlags": 1,
-                "start": 0,
+                "start": 9,
                 "end": 9
             },
-            {
-                "kind": 2097233,
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 1073807915,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 12
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 14,
-                        "end": 14
-                    },
+                    "kind": 196712,
+                    "text": "f",
+                    "rawText": "f",
                     "flags": 0,
-                    "intersects": false,
+                    "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
+                    "start": 11,
+                    "end": 12
+                },
+                "typeArguments": null,
+                "argumentList": {
+                    "kind": 3,
+                    "elements": [],
+                    "trailingComma": false,
+                    "transformFlags": 0,
+                    "flags": 0,
+                    "symbol": null,
+                    "start": 14,
                     "end": 14
                 },
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 11,
+                "start": 12,
                 "end": 14
             },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 15
-                },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 11,
+            "end": 14
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
                 "flags": 0,
-                "intersects": false,
+                "symbol": null,
                 "transformFlags": 0,
-                "start": 14,
-                "end": 16
-            }
-        ],
-        "transformFlags": 0,
-        "flags": 0,
-        "intersects": false,
-        "start": 0,
-        "end": 17
-    },
-    "jsx": false,
+                "start": 15,
+                "end": 15
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 14,
+            "end": 16
+        }
+    ],
+    "isModule": false,
     "printable": true,
     "diagnostics": [
         {
@@ -139,9 +129,9 @@ class A {*=f(){}}
             "length": 0
         }
     ],
-    "incremental": false,
+    "original": null,
+    "symbol": null,
     "flags": 0,
-    "intersects": false,
     "transformFlags": 0,
     "start": 0,
     "end": 17
@@ -150,13 +140,11 @@ class A {*=f(){}}
 
 ### Printed
 
-
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
-
 
 ```javascript
 
