@@ -194,14 +194,6 @@ https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
 `````js
 while (x) #
 `````
-
-#### in with
-
-It's actually never allowed here. The `with` sub statement can not be a declaration and
-annex B has no exception for `with`, either.
-
-https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
-
 ## Output
 
 ### Hybrid CST

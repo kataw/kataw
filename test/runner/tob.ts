@@ -109,15 +109,17 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
-    Constants.JavascriptEnd
-  }
+${Constants.JavascriptStart}${
+  JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)
+}${Constants.JavascriptEnd}
 ### Printed
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${
+  updateItems.includes('printer') ? tob.$printed : tob.printed
+}${Constants.JavascriptEnd}
 ### Diagnostics
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
-    Constants.JavascriptEnd
-  }
+${Constants.JavascriptStart}${
+  updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics
+}${Constants.JavascriptEnd}
 `;
 }
 
