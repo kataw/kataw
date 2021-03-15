@@ -3,7 +3,7 @@
 // exitcode: 2 => bad argv
 // exitcode: 3 => unknown error(bug)
 
-import { getTestFiles, ColorCodes } from './runner/utils';
+import { report, snapshotsFolderName, getTestFiles, ColorCodes } from './runner/utils';
 import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
 import { file2Tob, updateTob } from './runner/tob';
@@ -71,7 +71,7 @@ export function cliOpts() {
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
     files: getTestFiles(
-      process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/__snapshot__'),
+      process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/' + snapshotsFolderName),
       '',
       gen
     )

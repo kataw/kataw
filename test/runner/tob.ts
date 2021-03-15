@@ -1,6 +1,6 @@
 import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
-import { promiseToReadFile, promiseToWriteFile, Constants, deepEqual } from './utils';
+import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
 
 // testing object
 export interface Tob {
@@ -85,8 +85,11 @@ function md2printerOptions(str: string) {
 
 function md2cst(str: string) {
   const offset = str.indexOf(Constants.Header);
+  if (offset === 0) report('Missing input header');
   const start = str.indexOf(Constants.JavascriptStart, offset);
+  if (start === 0) report('Should have the start of a test case');
   const end = str.indexOf(Constants.JavascriptEnd, offset);
+  if (end === 0) report('Should have the end of a test case');
   const t = str.slice(start + Constants.JavascriptStart.length, end);
   try {
     return offset === -1 ? {} : JSON.parse(t);
@@ -98,8 +101,11 @@ function md2cst(str: string) {
 
 function md2printed(str: string) {
   const cstOffset = str.indexOf(Constants.Printed);
+  if (cstOffset === 0) report('should have an input header');
   const start = str.indexOf(Constants.JavascriptStart, cstOffset);
+  if (start === 0) report('Should have the start of a test case');
   const end = str.indexOf(Constants.JavascriptEnd, cstOffset);
+  if (end === 0) report('Should have the end of a test case');
   return str.slice(start + Constants.JavascriptStart.length, end);
 }
 
