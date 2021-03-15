@@ -220,4 +220,13 @@ export { createMinusType, updateMinusType } from './compiler/ast/types/minus-typ
 export { createConstructSignature, updateConstructSignature } from './compiler/ast/types/construct-signature';
 export { visitNode, visitNodes, visitEachChild } from './compiler/visitor';
 export { createContext } from './compiler/transform/context';
-export { parseScript, parseModule } from './compiler/browser';
+import { RootNode } from './compiler/ast/rootNode';
+import { parseRoot } from './compiler/parser';
+
+export function parseScript(source: string, options?: any): RootNode {
+  return parseRoot(source, false, options);
+}
+
+export function parseModule(source: string, options?: any): RootNode {
+  return parseRoot(source, false, options);
+}
