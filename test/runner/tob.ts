@@ -1,4 +1,4 @@
-import { printSourceFile } from '../../src/compiler/printer';
+import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, deepEqual } from './utils';
 
@@ -21,7 +21,8 @@ export interface Tob {
 export function updateTob(tob: any, updateItems: any): void {
   const outputIndex = tob.content.indexOf(Constants.Output);
   const output = outputBlock(tob, updateItems);
-  tob.content = tob.content.slice(0, outputIndex) + output;
+  const header = outputIndex > -1 ? tob.content.slice(0, outputIndex) : tob.content;
+  tob.content = header + output;
   return promiseToWriteFile(tob.filename, tob.content);
 }
 
