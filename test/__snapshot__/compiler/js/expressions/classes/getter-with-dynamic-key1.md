@@ -14,14 +14,13 @@ class x {static *[y](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async set 11(x){}}",
+    "source": "class x {static *[y](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -30,8 +29,8 @@ class x {static *[y](){}}
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -46,59 +45,41 @@ class x {static *[y](){}}
                     "elements": [
                         {
                             "kind": 49,
-                            "isStatic": false,
+                            "isStatic": true,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 17827862,
+                                "kind": 17303650,
                                 "name": {
-                                    "kind": 4261540,
-                                    "text": 11,
-                                    "rawText": "11",
+                                    "kind": 65591,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 18,
+                                        "end": 19
+                                    },
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 21
+                                    "transformFlags": 131073,
+                                    "start": 9,
+                                    "end": 20
                                 },
                                 "formalParameters": {
                                     "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 22,
-                                                "end": 23
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 22,
-                                            "end": 23
-                                        }
-                                    ],
+                                    "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 22,
-                                    "end": 24
+                                    "start": 21,
+                                    "end": 22
                                 },
-                                "isSetter": true,
+                                "isSetter": false,
                                 "isGetter": false,
                                 "contents": {
                                     "kind": 91,
@@ -109,14 +90,14 @@ class x {static *[y](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 25,
-                                        "end": 25
+                                        "start": 23,
+                                        "end": 23
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 24,
-                                    "end": 26
+                                    "start": 22,
+                                    "end": 24
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -124,22 +105,22 @@ class x {static *[y](){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 4,
-                                "start": 21,
-                                "end": 26
+                                "transformFlags": 2097152,
+                                "start": 20,
+                                "end": 24
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 26
+                            "end": 24
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 27
+                    "end": 25
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -147,14 +128,14 @@ class x {static *[y](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 27
+                "end": 25
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 27
+        "end": 25
     },
     "jsx": true,
     "printable": true,
@@ -164,10 +145,11 @@ class x {static *[y](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 27
+    "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -175,6 +157,7 @@ class x {static *[y](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -8,14 +8,13 @@ class x { async *[y](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class x {[x](){}}",
+    "source": "class x { async *[y](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -45,24 +44,24 @@ class x { async *[y](){}}
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 16844946,
+                                "kind": 18352149,
                                 "name": {
                                     "kind": 65591,
                                     "expression": {
                                         "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
+                                        "text": "y",
+                                        "rawText": "y",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 11
+                                        "start": 18,
+                                        "end": 19
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 131073,
-                                    "start": 9,
-                                    "end": 12
+                                    "start": 17,
+                                    "end": 20
                                 },
                                 "formalParameters": {
                                     "kind": 90,
@@ -71,8 +70,8 @@ class x { async *[y](){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 13,
-                                    "end": 14
+                                    "start": 21,
+                                    "end": 22
                                 },
                                 "isSetter": false,
                                 "isGetter": false,
@@ -85,14 +84,14 @@ class x { async *[y](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 15,
-                                        "end": 15
+                                        "start": 23,
+                                        "end": 23
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 14,
-                                    "end": 16
+                                    "start": 22,
+                                    "end": 24
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -100,22 +99,22 @@ class x { async *[y](){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 16
+                                "transformFlags": 2097160,
+                                "start": 20,
+                                "end": 24
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 16
+                            "end": 24
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 17
+                    "end": 25
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -123,14 +122,14 @@ class x { async *[y](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 17
+                "end": 25
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 17
+        "end": 25
     },
     "jsx": false,
     "printable": true,
@@ -140,10 +139,11 @@ class x { async *[y](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 17
+    "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -151,6 +151,7 @@ class x { async *[y](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

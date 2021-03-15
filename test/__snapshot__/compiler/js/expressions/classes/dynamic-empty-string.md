@@ -16,14 +16,13 @@ class X {
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async set 11(x){}}",
+    "source": "class X {\n  ''() { }\n}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -32,8 +31,8 @@ class X {
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+                    "text": "X",
+                    "rawText": "X",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -53,54 +52,28 @@ class X {
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 17827862,
+                                "kind": 16844946,
                                 "name": {
-                                    "kind": 4261540,
-                                    "text": 11,
-                                    "rawText": "11",
-                                    "flags": 0,
+                                    "kind": 4261583,
+                                    "text": "",
+                                    "rawText": "",
+                                    "flags": 16793600,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 21
+                                    "start": 9,
+                                    "end": 14
                                 },
                                 "formalParameters": {
                                     "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 22,
-                                                "end": 23
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 22,
-                                            "end": 23
-                                        }
-                                    ],
+                                    "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 22,
-                                    "end": 24
+                                    "start": 15,
+                                    "end": 16
                                 },
-                                "isSetter": true,
+                                "isSetter": false,
                                 "isGetter": false,
                                 "contents": {
                                     "kind": 91,
@@ -111,14 +84,14 @@ class X {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 25,
-                                        "end": 25
+                                        "start": 18,
+                                        "end": 18
                                     },
-                                    "flags": 0,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 24,
-                                    "end": 26
+                                    "start": 16,
+                                    "end": 20
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -126,22 +99,22 @@ class X {
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 4,
-                                "start": 21,
-                                "end": 26
+                                "transformFlags": 0,
+                                "start": 14,
+                                "end": 20
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 26
+                            "end": 20
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 27
+                    "end": 22
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -149,14 +122,14 @@ class X {
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 27
+                "end": 22
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 27
+        "end": 22
     },
     "jsx": true,
     "printable": true,
@@ -166,10 +139,11 @@ class X {
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 27
+    "end": 22
 }
 ```
 
+  
 ### Printed
 
 
@@ -177,6 +151,7 @@ class X {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

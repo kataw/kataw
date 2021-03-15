@@ -8,14 +8,13 @@ class x { async *prototype(){} }
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A { [x=y](foo) {} }",
+    "source": "class x { async *prototype(){} }",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -24,8 +23,8 @@ class x { async *prototype(){} }
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -45,79 +44,26 @@ class x { async *prototype(){} }
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 16844946,
+                                "kind": 18352149,
                                 "name": {
-                                    "kind": 65591,
-                                    "expression": {
-                                        "kind": 65550,
-                                        "left": {
-                                            "kind": 196712,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 11,
-                                            "end": 12
-                                        },
-                                        "operator": "=",
-                                        "right": {
-                                            "kind": 196712,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "start": 13,
-                                            "end": 14
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 14
-                                    },
+                                    "kind": 196711,
+                                    "text": "prototype",
+                                    "rawText": "prototype",
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 131073,
-                                    "start": 9,
-                                    "end": 15
+                                    "transformFlags": 0,
+                                    "start": 17,
+                                    "end": 26
                                 },
                                 "formalParameters": {
                                     "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 16,
-                                                "end": 19
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 16,
-                                            "end": 19
-                                        }
-                                    ],
+                                    "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 20
+                                    "start": 27,
+                                    "end": 28
                                 },
                                 "isSetter": false,
                                 "isGetter": false,
@@ -130,14 +76,14 @@ class x { async *prototype(){} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 22
+                                        "start": 29,
+                                        "end": 29
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 23
+                                    "start": 28,
+                                    "end": 30
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -145,22 +91,22 @@ class x { async *prototype(){} }
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
-                                "start": 15,
-                                "end": 23
+                                "transformFlags": 2097160,
+                                "start": 26,
+                                "end": 30
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 23
+                            "end": 30
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 25
+                    "end": 32
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -168,14 +114,14 @@ class x { async *prototype(){} }
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 25
+                "end": 32
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 25
+        "end": 32
     },
     "jsx": false,
     "printable": true,
@@ -185,10 +131,11 @@ class x { async *prototype(){} }
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 25
+    "end": 32
 }
 ```
 
+  
 ### Printed
 
 
@@ -196,6 +143,7 @@ class x { async *prototype(){} }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -8,71 +8,146 @@ class A {static set foo(x){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "(class X {})",
+    "source": "class A {static set foo(x){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
         "statements": [
             {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 82483,
-                        "name": {
-                            "kind": 131102,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1025,
-                            "start": 6,
-                            "end": 8
-                        },
-                        "typeParameters": null,
-                        "classHeritage": null,
-                        "implementClauses": null,
-                        "members": {
-                            "kind": 50,
-                            "elements": [],
+                "kind": 48,
+                "name": {
+                    "kind": 131102,
+                    "text": "A",
+                    "rawText": "A",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 5,
+                    "end": 7
+                },
+                "typeParameters": null,
+                "classHeritage": null,
+                "implementClauses": null,
+                "members": {
+                    "kind": 50,
+                    "elements": [
+                        {
+                            "kind": 49,
+                            "isStatic": true,
+                            "isAbstract": false,
+                            "isReadOnly": false,
+                            "isOptional": false,
+                            "method": {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 19,
+                                    "end": 23
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "start": 24,
+                                                "end": 25
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "start": 24,
+                                            "end": 25
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 24,
+                                    "end": 26
+                                },
+                                "isSetter": true,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 27,
+                                        "end": 27
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 26,
+                                    "end": 28
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 23,
+                                "end": 28
+                            },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "start": 10,
-                            "end": 11
-                        },
-                        "decorators": null,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1,
-                        "start": 1,
-                        "end": 11
-                    },
+                            "start": 9,
+                            "end": 28
+                        }
+                    ],
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
+                    "transformFlags": 1,
+                    "start": 9,
+                    "end": 29
                 },
+                "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 12
+                "end": 29
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 12
+        "end": 29
     },
     "jsx": false,
     "printable": true,
@@ -82,10 +157,11 @@ class A {static set foo(x){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 12
+    "end": 29
 }
 ```
 
+  
 ### Printed
 
 
@@ -93,6 +169,7 @@ class A {static set foo(x){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

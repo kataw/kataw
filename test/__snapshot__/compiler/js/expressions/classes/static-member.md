@@ -14,14 +14,13 @@ class A {static set [foo](x){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async **=f(){}}",
+    "source": "class A {static set [foo](x){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -45,145 +44,138 @@ class A {static set [foo](x){}}
                     "kind": 50,
                     "elements": [
                         {
-                            "kind": 84,
-                            "key": {
-                                "kind": 196712,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 14
-                            },
-                            "isInKeyword": false,
-                            "expression": null,
+                            "kind": 49,
+                            "isStatic": true,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isStatic": false,
-                            "flags": 2,
+                            "method": {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 65591,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 21,
+                                        "end": 24
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 131073,
+                                    "start": 19,
+                                    "end": 25
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "start": 26,
+                                                "end": 27
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "start": 26,
+                                            "end": 27
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 26,
+                                    "end": 28
+                                },
+                                "isSetter": true,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 29,
+                                        "end": 29
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 28,
+                                    "end": 30
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 30
+                            },
+                            "flags": 0,
                             "intersects": false,
-                            "transformFlags": 524352,
+                            "transformFlags": 1,
                             "start": 9,
-                            "end": 14
+                            "end": 30
                         }
                     ],
-                    "flags": 2,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 14
+                    "end": 31
                 },
                 "decorators": null,
                 "isAbstract": false,
-                "flags": 2,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 14
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 19
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 19,
-                    "end": 21
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 18,
-                "end": 21
-            },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 22,
-                    "end": 22
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 21,
-                "end": 23
+                "end": 31
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 24
+        "end": 31
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 15,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 21,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 23,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "incremental": false,
     "flags": 0,
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 24
+    "end": 31
 }
 ```
 
+  
 ### Printed
 
 
@@ -191,6 +183,7 @@ class A {static set [foo](x){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

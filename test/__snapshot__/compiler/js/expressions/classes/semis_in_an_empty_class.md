@@ -8,14 +8,13 @@ class A {; ;; ;}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async * 34(){}}",
+    "source": "class A {; ;; ;}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -39,75 +38,43 @@ class A {; ;; ;}
                     "kind": 50,
                     "elements": [
                         {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 18352149,
-                                "name": {
-                                    "kind": 4261540,
-                                    "text": 34,
-                                    "rawText": "34",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 19
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 21
-                                },
-                                "isSetter": false,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 22
-                                    },
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 21,
-                                    "end": 23
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": null,
-                                "typeParameters": null,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097160,
-                                "start": 19,
-                                "end": 23
-                            },
+                            "kind": 4194502,
                             "flags": 0,
                             "intersects": false,
-                            "transformFlags": 1,
+                            "transformFlags": 0,
                             "start": 9,
-                            "end": 23
+                            "end": 10
+                        },
+                        {
+                            "kind": 4194502,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 10,
+                            "end": 12
+                        },
+                        {
+                            "kind": 4194502,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 12,
+                            "end": 13
+                        },
+                        {
+                            "kind": 4194502,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 15
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 24
+                    "end": 16
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -115,14 +82,14 @@ class A {; ;; ;}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 24
+                "end": 16
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 24
+        "end": 16
     },
     "jsx": false,
     "printable": true,
@@ -132,10 +99,11 @@ class A {; ;; ;}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 24
+    "end": 16
 }
 ```
 
+  
 ### Printed
 
 
@@ -143,6 +111,7 @@ class A {; ;; ;}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

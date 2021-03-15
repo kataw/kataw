@@ -14,14 +14,13 @@ class x{ constructor(){} 9(){} }
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class x { async *prototype(){} }",
+    "source": "class x{ constructor(){} 9(){} }",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -51,15 +50,79 @@ class x{ constructor(){} 9(){} }
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 18352149,
+                                "kind": 16844946,
                                 "name": {
                                     "kind": 196711,
-                                    "text": "prototype",
-                                    "rawText": "prototype",
+                                    "text": "constructor",
+                                    "rawText": "constructor",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 17,
+                                    "start": 8,
+                                    "end": 20
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 21,
+                                    "end": 22
+                                },
+                                "isSetter": false,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 23,
+                                        "end": 23
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 22,
+                                    "end": 24
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 262144,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 20,
+                                "end": 24
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 8,
+                            "end": 24
+                        },
+                        {
+                            "kind": 49,
+                            "isStatic": false,
+                            "isAbstract": false,
+                            "isReadOnly": false,
+                            "isOptional": false,
+                            "method": {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 4261540,
+                                    "text": 9,
+                                    "rawText": "9",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 24,
                                     "end": 26
                                 },
                                 "formalParameters": {
@@ -98,21 +161,21 @@ class x{ constructor(){} 9(){} }
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 2097160,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "start": 9,
+                            "start": 24,
                             "end": 30
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "start": 9,
+                    "start": 8,
                     "end": 32
                 },
                 "decorators": null,
@@ -142,6 +205,7 @@ class x{ constructor(){} 9(){} }
 }
 ```
 
+  
 ### Printed
 
 
@@ -149,6 +213,7 @@ class x{ constructor(){} 9(){} }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

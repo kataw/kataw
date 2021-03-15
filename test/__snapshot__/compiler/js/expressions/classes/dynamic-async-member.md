@@ -8,14 +8,13 @@ class A {async [foo](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async * 34(){}}",
+    "source": "class A {async [foo](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -45,16 +44,24 @@ class A {async [foo](){}}
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 18352149,
+                                "kind": 17827862,
                                 "name": {
-                                    "kind": 4261540,
-                                    "text": 34,
-                                    "rawText": "34",
+                                    "kind": 65591,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 16,
+                                        "end": 19
+                                    },
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 19
+                                    "transformFlags": 131073,
+                                    "start": 14,
+                                    "end": 20
                                 },
                                 "formalParameters": {
                                     "kind": 90,
@@ -63,8 +70,8 @@ class A {async [foo](){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 21
+                                    "start": 21,
+                                    "end": 22
                                 },
                                 "isSetter": false,
                                 "isGetter": false,
@@ -77,14 +84,14 @@ class A {async [foo](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 22
+                                        "start": 23,
+                                        "end": 23
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 21,
-                                    "end": 23
+                                    "start": 22,
+                                    "end": 24
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -92,22 +99,22 @@ class A {async [foo](){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 2097160,
-                                "start": 19,
-                                "end": 23
+                                "transformFlags": 4,
+                                "start": 20,
+                                "end": 24
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 23
+                            "end": 24
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 24
+                    "end": 25
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -115,14 +122,14 @@ class A {async [foo](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 24
+                "end": 25
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 24
+        "end": 25
     },
     "jsx": false,
     "printable": true,
@@ -132,10 +139,11 @@ class A {async [foo](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 24
+    "end": 25
 }
 ```
 
+  
 ### Printed
 
 
@@ -143,6 +151,7 @@ class A {async [foo](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

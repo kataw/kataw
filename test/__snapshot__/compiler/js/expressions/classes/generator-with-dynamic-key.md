@@ -8,14 +8,13 @@ class x { *[y](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async * 34(){}}",
+    "source": "class x { *[y](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -24,8 +23,8 @@ class x { *[y](){}}
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -45,16 +44,24 @@ class x { *[y](){}}
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 18352149,
+                                "kind": 17303650,
                                 "name": {
-                                    "kind": 4261540,
-                                    "text": 34,
-                                    "rawText": "34",
+                                    "kind": 65591,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 12,
+                                        "end": 13
+                                    },
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 19
+                                    "transformFlags": 131073,
+                                    "start": 9,
+                                    "end": 14
                                 },
                                 "formalParameters": {
                                     "kind": 90,
@@ -63,8 +70,8 @@ class x { *[y](){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 21
+                                    "start": 15,
+                                    "end": 16
                                 },
                                 "isSetter": false,
                                 "isGetter": false,
@@ -77,14 +84,14 @@ class x { *[y](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 22
+                                        "start": 17,
+                                        "end": 17
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 21,
-                                    "end": 23
+                                    "start": 16,
+                                    "end": 18
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -92,22 +99,22 @@ class x { *[y](){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 2097160,
-                                "start": 19,
-                                "end": 23
+                                "transformFlags": 2097152,
+                                "start": 14,
+                                "end": 18
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 23
+                            "end": 18
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 24
+                    "end": 19
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -115,14 +122,14 @@ class x { *[y](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 24
+                "end": 19
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 24
+        "end": 19
     },
     "jsx": false,
     "printable": true,
@@ -132,10 +139,11 @@ class x { *[y](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 24
+    "end": 19
 }
 ```
 
+  
 ### Printed
 
 
@@ -143,6 +151,7 @@ class x { *[y](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

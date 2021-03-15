@@ -8,101 +8,120 @@ class x { "construct\u{6f}r"(){} }
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "(class X { a; })",
+    "source": "class x { \"construct\\u{6f}r\"(){} }",
     "filename": "",
     "scriptBody": {
         "kind": 197,
         "statements": [
             {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 66224,
-                    "expression": {
-                        "kind": 82483,
-                        "name": {
-                            "kind": 131102,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 1025,
-                            "start": 6,
-                            "end": 8
-                        },
-                        "typeParameters": null,
-                        "classHeritage": null,
-                        "implementClauses": null,
-                        "members": {
-                            "kind": 50,
-                            "elements": [
-                                {
-                                    "kind": 84,
-                                    "key": {
-                                        "kind": 196711,
-                                        "text": "a",
-                                        "rawText": "a",
+                "kind": 48,
+                "name": {
+                    "kind": 131102,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 5,
+                    "end": 7
+                },
+                "typeParameters": null,
+                "classHeritage": null,
+                "implementClauses": null,
+                "members": {
+                    "kind": 50,
+                    "elements": [
+                        {
+                            "kind": 49,
+                            "isStatic": false,
+                            "isAbstract": false,
+                            "isReadOnly": false,
+                            "isOptional": false,
+                            "method": {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 4261583,
+                                    "text": "constructor",
+                                    "rawText": "constructor",
+                                    "flags": 2097152,
+                                    "intersects": false,
+                                    "transformFlags": 1,
+                                    "start": 9,
+                                    "end": 28
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 29,
+                                    "end": 30
+                                },
+                                "isSetter": false,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [],
+                                        "multiline": false,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 12
+                                        "start": 31,
+                                        "end": 31
                                     },
-                                    "isInKeyword": false,
-                                    "expression": null,
-                                    "isAbstract": false,
-                                    "isReadOnly": false,
-                                    "isOptional": false,
-                                    "exclamation": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isStatic": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 524352,
-                                    "start": 10,
-                                    "end": 13
-                                }
-                            ],
+                                    "transformFlags": 0,
+                                    "start": 30,
+                                    "end": 32
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 262144,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 28,
+                                "end": 32
+                            },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "start": 10,
-                            "end": 15
-                        },
-                        "decorators": null,
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 1,
-                        "start": 1,
-                        "end": 15
-                    },
+                            "start": 9,
+                            "end": 32
+                        }
+                    ],
                     "flags": 0,
                     "intersects": false,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 16
+                    "transformFlags": 1,
+                    "start": 9,
+                    "end": 34
                 },
+                "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 16
+                "end": 34
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 16
+        "end": 34
     },
     "jsx": false,
     "printable": true,
@@ -112,10 +131,11 @@ class x { "construct\u{6f}r"(){} }
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 16
+    "end": 34
 }
 ```
 
+  
 ### Printed
 
 
@@ -123,6 +143,7 @@ class x { "construct\u{6f}r"(){} }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

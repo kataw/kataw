@@ -8,14 +8,13 @@ class x { static get [y](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {a(){}}",
+    "source": "class x { static get [y](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -24,8 +23,8 @@ class x { static get [y](){}}
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "A",
-                    "rawText": "A",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -40,21 +39,29 @@ class x { static get [y](){}}
                     "elements": [
                         {
                             "kind": 49,
-                            "isStatic": false,
+                            "isStatic": true,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
                                 "kind": 16844946,
                                 "name": {
-                                    "kind": 196711,
-                                    "text": "a",
-                                    "rawText": "a",
+                                    "kind": 65591,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 22,
+                                        "end": 23
+                                    },
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 10
+                                    "transformFlags": 131073,
+                                    "start": 20,
+                                    "end": 24
                                 },
                                 "formalParameters": {
                                     "kind": 90,
@@ -63,11 +70,11 @@ class x { static get [y](){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 11,
-                                    "end": 12
+                                    "start": 25,
+                                    "end": 26
                                 },
                                 "isSetter": false,
-                                "isGetter": false,
+                                "isGetter": true,
                                 "contents": {
                                     "kind": 91,
                                     "functionStatementList": {
@@ -77,14 +84,14 @@ class x { static get [y](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 13,
-                                        "end": 13
+                                        "start": 27,
+                                        "end": 27
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 26,
+                                    "end": 28
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -93,21 +100,21 @@ class x { static get [y](){}}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "start": 10,
-                                "end": 14
+                                "start": 24,
+                                "end": 28
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 14
+                            "end": 28
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 15
+                    "end": 29
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -115,14 +122,14 @@ class x { static get [y](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 15
+                "end": 29
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 15
+        "end": 29
     },
     "jsx": false,
     "printable": true,
@@ -132,10 +139,11 @@ class x { static get [y](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 15
+    "end": 29
 }
 ```
 
+  
 ### Printed
 
 
@@ -143,6 +151,7 @@ class x { static get [y](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

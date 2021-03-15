@@ -15,14 +15,13 @@ class x { \u0063onstructor(){} }
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 149,
-    "source": "class n extends ([] = x) {}",
+    "source": "class x { \\u0063onstructor(){} }",
     "filename": "",
     "moduleBody": {
         "kind": 150,
@@ -31,8 +30,8 @@ class x { \u0063onstructor(){} }
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "n",
-                    "rawText": "n",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -40,70 +39,81 @@ class x { \u0063onstructor(){} }
                     "end": 7
                 },
                 "typeParameters": null,
-                "classHeritage": {
-                    "kind": 52,
-                    "expression": {
-                        "kind": 66224,
-                        "expression": {
-                            "kind": 65550,
-                            "left": {
-                                "kind": 67207686,
-                                "elementList": {
-                                    "kind": 65605,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 18
-                                },
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 17,
-                                "end": 19
-                            },
-                            "operator": "=",
-                            "right": {
-                                "kind": 196712,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 23
-                        },
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 15,
-                        "end": 24
-                    },
-                    "typeArguments": null,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 15,
-                    "end": 24
-                },
+                "classHeritage": null,
                 "implementClauses": null,
                 "members": {
                     "kind": 50,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 49,
+                            "isStatic": false,
+                            "isAbstract": false,
+                            "isReadOnly": false,
+                            "isOptional": false,
+                            "method": {
+                                "kind": 16844946,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "constructor",
+                                    "rawText": " \\u0063onstructor",
+                                    "flags": 4259840,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 9,
+                                    "end": 26
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 27,
+                                    "end": 28
+                                },
+                                "isSetter": false,
+                                "isGetter": false,
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [],
+                                        "multiline": false,
+                                        "flags": 65536,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 29,
+                                        "end": 29
+                                    },
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 28,
+                                    "end": 30
+                                },
+                                "decorators": null,
+                                "type": null,
+                                "accessModifier": null,
+                                "typeParameters": null,
+                                "flags": 327680,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 26,
+                                "end": 30
+                            },
+                            "flags": 65536,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 9,
+                            "end": 30
+                        }
+                    ],
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "start": 26,
-                    "end": 27
+                    "start": 9,
+                    "end": 32
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -111,14 +121,14 @@ class x { \u0063onstructor(){} }
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 27
+                "end": 32
             }
         ],
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
         "start": 0,
-        "end": 27
+        "end": 32
     },
     "jsx": false,
     "printable": true,
@@ -128,10 +138,11 @@ class x { \u0063onstructor(){} }
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 27
+    "end": 32
 }
 ```
 
+  
 ### Printed
 
 
@@ -139,6 +150,7 @@ class x { \u0063onstructor(){} }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

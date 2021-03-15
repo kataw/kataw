@@ -8,14 +8,13 @@ class A {async get [foo](){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class x {[x](){}}",
+    "source": "class A {async get [foo](){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -24,8 +23,8 @@ class A {async get [foo](){}}
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "x",
-                    "rawText": "x",
+                    "text": "A",
+                    "rawText": "A",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
@@ -45,24 +44,24 @@ class A {async get [foo](){}}
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 16844946,
+                                "kind": 17827862,
                                 "name": {
                                     "kind": 65591,
                                     "expression": {
                                         "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
+                                        "text": "foo",
+                                        "rawText": "foo",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 11
+                                        "start": 20,
+                                        "end": 23
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 131073,
-                                    "start": 9,
-                                    "end": 12
+                                    "start": 18,
+                                    "end": 24
                                 },
                                 "formalParameters": {
                                     "kind": 90,
@@ -71,11 +70,11 @@ class A {async get [foo](){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 13,
-                                    "end": 14
+                                    "start": 25,
+                                    "end": 26
                                 },
                                 "isSetter": false,
-                                "isGetter": false,
+                                "isGetter": true,
                                 "contents": {
                                     "kind": 91,
                                     "functionStatementList": {
@@ -85,14 +84,14 @@ class A {async get [foo](){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 15,
-                                        "end": 15
+                                        "start": 27,
+                                        "end": 27
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 14,
-                                    "end": 16
+                                    "start": 26,
+                                    "end": 28
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -100,22 +99,22 @@ class A {async get [foo](){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 16
+                                "transformFlags": 4,
+                                "start": 24,
+                                "end": 28
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 16
+                            "end": 28
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 17
+                    "end": 29
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -123,14 +122,14 @@ class A {async get [foo](){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 17
+                "end": 29
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 17
+        "end": 29
     },
     "jsx": false,
     "printable": true,
@@ -140,10 +139,11 @@ class A {async get [foo](){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 17
+    "end": 29
 }
 ```
 
+  
 ### Printed
 
 
@@ -151,6 +151,7 @@ class A {async get [foo](){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

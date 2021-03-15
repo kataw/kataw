@@ -14,14 +14,13 @@ class A {*foo(){}}
 
 ## Output
 
-
 ### Hybrid CST
 
 
 ```javascript
 {
     "kind": 196,
-    "source": "class A {async set 11(x){}}",
+    "source": "class A {*foo(){}}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -51,54 +50,28 @@ class A {*foo(){}}
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
-                                "kind": 17827862,
+                                "kind": 17303650,
                                 "name": {
-                                    "kind": 4261540,
-                                    "text": 11,
-                                    "rawText": "11",
+                                    "kind": 196711,
+                                    "text": "foo",
+                                    "rawText": "foo",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 21
+                                    "start": 10,
+                                    "end": 13
                                 },
                                 "formalParameters": {
                                     "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "start": 22,
-                                                "end": 23
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "start": 22,
-                                            "end": 23
-                                        }
-                                    ],
+                                    "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 22,
-                                    "end": 24
+                                    "start": 14,
+                                    "end": 15
                                 },
-                                "isSetter": true,
+                                "isSetter": false,
                                 "isGetter": false,
                                 "contents": {
                                     "kind": 91,
@@ -109,14 +82,14 @@ class A {*foo(){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "start": 25,
-                                        "end": 25
+                                        "start": 16,
+                                        "end": 16
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "start": 24,
-                                    "end": 26
+                                    "start": 15,
+                                    "end": 17
                                 },
                                 "decorators": null,
                                 "type": null,
@@ -124,22 +97,22 @@ class A {*foo(){}}
                                 "typeParameters": null,
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 4,
-                                "start": 21,
-                                "end": 26
+                                "transformFlags": 2097152,
+                                "start": 13,
+                                "end": 17
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "start": 9,
-                            "end": 26
+                            "end": 17
                         }
                     ],
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 9,
-                    "end": 27
+                    "end": 18
                 },
                 "decorators": null,
                 "isAbstract": false,
@@ -147,14 +120,14 @@ class A {*foo(){}}
                 "intersects": false,
                 "transformFlags": 1,
                 "start": 0,
-                "end": 27
+                "end": 18
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 27
+        "end": 18
     },
     "jsx": true,
     "printable": true,
@@ -164,10 +137,11 @@ class A {*foo(){}}
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 27
+    "end": 18
 }
 ```
 
+  
 ### Printed
 
 
@@ -175,6 +149,7 @@ class A {*foo(){}}
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 
