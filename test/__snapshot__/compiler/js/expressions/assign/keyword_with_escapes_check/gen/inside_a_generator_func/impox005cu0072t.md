@@ -14,7 +14,6 @@ function *f(){
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -138,6 +137,7 @@ function *f(){
 }
 ```
 
+  
 ### Printed
 
 
@@ -145,6 +145,7 @@ function *f(){
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

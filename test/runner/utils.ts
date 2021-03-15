@@ -69,8 +69,33 @@ export function promiseToReadFile(file: any) {
   let res: any;
   let rej: any;
   const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
-  readFile(file, 'utf8', (err, data) =>
-    err ? rej(err) : res({ file, previous: decodeUnicode(data), data: decodeUnicode(data) })
-  );
+  readFile(file, 'utf8', (err, data) => (err ? rej(err) : res(decodeUnicode(data))));
   return p;
+}
+
+// deep comparison plain objects
+const toString = {}.toString;
+export function deepEqual(obj1: any, obj2: any): boolean {
+  // NaN, Infinity was stringified to null.
+  // refs: https://github.com/kataw/kataw/issues/23
+  // v !== v (v = NaN)
+  obj1 = obj1 === Infinity || obj1 !== obj1 ? null : obj1;
+  obj2 = obj2 === Infinity || obj2 !== obj2 ? null : obj2;
+
+  const type1 = toString.call(obj1);
+  const type2 = toString.call(obj2);
+
+  if (type1 !== type2) return false;
+
+  if (type1 === '[object Array]') {
+    return obj1.every((_: any, idx: number) => deepEqual(obj1[idx], obj2[idx]));
+  }
+
+  if (type1 === '[object Object]') {
+    const keys1 = Object.keys(obj1);
+
+    return keys1.every((k) => deepEqual(obj1[k], obj2[k]));
+  }
+
+  return obj1 === obj2;
 }

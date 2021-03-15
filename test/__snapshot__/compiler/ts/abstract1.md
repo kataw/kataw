@@ -20,7 +20,6 @@ abstract class B extends A { abstract bar(); }
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -968,6 +967,7 @@ abstract class B extends A { abstract bar(); }
 }
 ```
 
+  
 ### Printed
 
 
@@ -975,6 +975,7 @@ abstract class B extends A { abstract bar(); }
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

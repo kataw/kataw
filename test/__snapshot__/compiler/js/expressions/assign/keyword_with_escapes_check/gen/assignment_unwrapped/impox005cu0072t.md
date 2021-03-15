@@ -12,7 +12,6 @@ impo\u0072t = x;
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -80,6 +79,7 @@ impo\u0072t = x;
 }
 ```
 
+  
 ### Printed
 
 
@@ -87,6 +87,7 @@ impo\u0072t = x;
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

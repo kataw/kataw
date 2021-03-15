@@ -46,7 +46,6 @@ abstract class Test {
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -1079,6 +1078,7 @@ abstract class Test {
 }
 ```
 
+  
 ### Printed
 
 
@@ -1086,6 +1086,7 @@ abstract class Test {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 

@@ -10,3 +10,4 @@ src/parser/nodeFlags.ts
 src/compiler/constants.ts
 src/parser/constants.ts
 package-lock.json
+test/__snapshot__/**/*.md

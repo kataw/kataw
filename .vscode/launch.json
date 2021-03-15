@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "node",
             "request": "launch",
@@ -24,6 +25,19 @@
           ],
           "cwd": "${workspaceRoot}",
           "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+          "name": "runner",
+          "type": "node",
+          "request": "launch",
+          "runtimeExecutable": "node",
+          "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+    
+          "args": ["test/cli.ts", "-f", "/home/weiran/repo/kataw/test/__snapshot__/compiler/ts/modifiers-accessors.md"],
+          
+          "cwd": "${workspaceRoot}",
+          "internalConsoleOptions": "openOnSessionStart",
+          "skipFiles": ["<node_internals>/**", "node_modules/**"]
         }
     ]
 }
