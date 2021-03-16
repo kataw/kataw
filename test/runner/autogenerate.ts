@@ -1,6 +1,6 @@
 import { join, dirname } from 'path';
 import { writeFileSync, unlinkSync, rmdirSync, mkdirSync } from 'fs';
-import { promiseToReadFile, getTestFiles, san, ColorCodes, Constants, report } from './utils';
+import { promiseToReadFile, loadSnaps, san, ColorCodes, Constants, report } from './utils';
 
 /**
  * Autogenerate files in the runner
@@ -34,7 +34,7 @@ export async function autogen(files: string[], conservative: boolean) {
   list.forEach((obj: any) => {
     const genDir = join(dirname(obj.file), 'gen');
     if (!conservative) {
-      const oldFiles: string[] = getTestFiles(genDir, '', true, true);
+      const oldFiles: string[] = loadSnaps(genDir, '', true, true);
       // Note: the folder should only contain generated files and folders which should delete just fine
       oldFiles.forEach((file: string) => {
         try {

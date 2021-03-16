@@ -1,6 +1,6 @@
 import { readFile, statSync, readdirSync, writeFile, existsSync } from 'fs';
-import { inspect } from 'util';
-var PrettyError = require('pretty-error');
+
+const PrettyError = require('pretty-error');
 
 export const snapshotsFolderName = '__snapshots__'
 
@@ -36,7 +36,7 @@ export function san(dir: any) {
     .replace(/[^a-zA-Z0-9_-]/g, (s: any) => 'x' + s.charCodeAt(0).toString(16).padStart(4, '0'));
 }
 
-export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): any {
+export function loadSnaps(path: any, file: any, silent: any, dirsToo?: any): any {
   const files: string[] = [];
   const combo = path + file;
   if (existsSync(combo)) {
@@ -45,9 +45,11 @@ export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): 
         files.push(combo);
       }
     } else {
-      readdirSync(combo + '/').forEach((s) => files.push(...getTestFiles(combo + '/', s, silent, dirsToo)));
+      readdirSync(combo + '/').forEach((s) => files.push(...loadSnaps(combo + '/', s, silent, dirsToo)));
       if (dirsToo) files.push(combo);
     }
+  } else {
+    report('Could not load file: ' + combo);
   }
   return files;
 }

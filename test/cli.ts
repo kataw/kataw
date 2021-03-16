@@ -3,7 +3,7 @@
 // exitcode: 2 => bad argv
 // exitcode: 3 => unknown error(bug)
 
-import { report, snapshotsFolderName, getTestFiles, ColorCodes } from './runner/utils';
+import { report, snapshotsFolderName, loadSnaps, ColorCodes } from './runner/utils';
 import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
 import { file2Tob, updateTob } from './runner/tob';
@@ -58,6 +58,7 @@ export async function runCli() {
   }
 }
 
+
 export function cliOpts() {
   const help = process.argv.includes('-?') || process.argv.includes('--help');
   help && showHelp();
@@ -70,7 +71,7 @@ export function cliOpts() {
     updateItems: update === 'all' ? fn : update === false ? [] : [update],
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
-    files: getTestFiles(
+    files: loadSnaps(
       process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/' + snapshotsFolderName),
       '',
       gen
