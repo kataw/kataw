@@ -1,8 +1,8 @@
 import { readFile, statSync, readdirSync, writeFile, existsSync } from 'fs';
 
-const PrettyError = require('pretty-error');
+import PrettyError from 'pretty-error';
 
-export const snapshotsFolderName = '__snapshots__'
+export const snapshotsFolderName = '__snapshot__'
 
 export const enum ColorCodes {
   BOLD = '\x1b[;1;1m',
@@ -108,7 +108,8 @@ export function deepEqual(obj1: any, obj2: any): boolean {
   return obj1 === obj2;
 }
 
-export function report(err: any) {
-  var pe = new PrettyError();
-  console.log(pe.render(new Error(err)));
+export function report(err: Error | string): void {
+  err = typeof err === 'string' ? new Error(err) : err;
+  const pe = new PrettyError();
+  console.log(pe.render(err));
 }
