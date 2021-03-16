@@ -11,7 +11,7 @@
 
 /*eslint no-process-exit:0*/
 const chalk = require('chalk');
-const glob = require('glob');
+const glob = require('globby');
 const prettier = require('prettier');
 const fs = require('fs');
 const listChangedFiles = require('./list-changed-files');
@@ -27,7 +27,7 @@ let didWarn = false;
 let didError = false;
 
 const files = glob
-  .sync('**/*.{ts,js}', { ignore: '**/node_modules/**' })
+  .sync('**/*.{ts,js}', { gitignore: true })
   .filter((f) => !onlyChanged || changedFiles.has(f));
 
 if (!files.length) {
