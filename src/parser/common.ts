@@ -195,11 +195,11 @@ export function reinterpretToPattern(node: any, parser: ParserState, context: Co
         node.left = node.argument.left;
         node.right = node.argument.right;
         delete node.argument;
-        return;
+        return node;
       }
       node.left = node.argument;
       node.right = null;
       delete node.argument;
-      return;
+      return node;
   }
 }
