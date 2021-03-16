@@ -144,7 +144,7 @@ function ( export class C { ) {export class C {}
                         "exportFromClause": null,
                         "fromClause": null,
                         "isTypeOnly": false,
-                        "flags": 1,
+                        "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 31,
@@ -187,13 +187,6 @@ function ( export class C { ) {export class C {}
             "source": 2,
             "message": "'}' expected.",
             "start": 28,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 31,
             "length": 0
         },
         {

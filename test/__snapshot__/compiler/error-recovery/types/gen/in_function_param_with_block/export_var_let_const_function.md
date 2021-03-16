@@ -336,13 +336,6 @@ function ( export var let const function ) {export var let const function}
         {
             "kind": 2,
             "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 44,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "',' expected.",
             "start": 59,
             "length": 0

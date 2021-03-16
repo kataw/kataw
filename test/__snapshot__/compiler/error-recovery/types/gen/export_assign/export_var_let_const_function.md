@@ -258,13 +258,6 @@ export export var let const function = export var let const function
         {
             "kind": 2,
             "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "Unexpected token.",
             "start": 7,
             "length": 0
@@ -288,13 +281,6 @@ export export var let const function = export var let const function
             "source": 2,
             "message": "Identifier expected",
             "start": 37,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 39,
             "length": 0
         },
         {

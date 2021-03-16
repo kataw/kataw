@@ -204,7 +204,6 @@ import { Constants } from './constants';
 import { createConstructSignature, ConstructSignature } from '../ast/types/construct-signature';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
-
 import { Char } from './scanner/char';
 import {
   createNamespaceExportDeclaration,
@@ -242,7 +241,6 @@ export function createParser(source: string, pos: number, isModule: boolean, nod
     pos,
     curPos: pos,
     tokenPos: pos,
-    // end of text
     end: source.length,
     token: Token.Unknown,
     tokenValue: undefined!,
@@ -286,14 +284,14 @@ export function parseRoot(source: string, isModule: boolean, options?: any, node
     }
   }
 
-  const parser = createParser(source, pos, /* isModule */ false, nodeCursor);
+  const parser = createParser(source, pos, isModule, nodeCursor);
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);
   const statements: Statement[] = [];
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
-      statements.push(isModule ? parseModuleItemList(parser, context) : parseStatementListItem(parser, context));
+      statements.push(parseStatementListItem(parser, context));
       continue;
     }
 
@@ -317,18 +315,6 @@ export function parseRoot(source: string, isModule: boolean, options?: any, node
   );
 }
 
-export function parseModuleItemList(parser: ParserState, context: Context): Statement {
-  switch (parser.token) {
-    case Token.ImportKeyword:
-      return parseImportDeclaration(parser, context);
-    case Token.Decorator:
-    case Token.ExportKeyword:
-      return parseExportDeclaration(parser, context);
-    default:
-      return parseStatementListItem(parser, context);
-  }
-}
-
 // StatementListItem :
 //   Statement
 //   Declaration
@@ -339,8 +325,6 @@ export function parseModuleItemList(parser: ParserState, context: Context): Stat
 //   LexicalDeclaration
 export function parseStatementListItem(parser: ParserState, context: Context): Statement {
   switch (parser.token) {
-    case Token.NamespaceKeyword:
-      return parseNameSpaceDeclaration(parser, context);
     case Token.FunctionKeyword:
       return parseFunctionDeclaration(parser, context, false);
     case Token.Decorator:
@@ -348,14 +332,6 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       return parseClassDeclaration(parser, context);
     case Token.AbstractKeyword:
       return parseAbstractDeclaration(parser, context);
-    case Token.ConstKeyword:
-      return parseLexicalOrEnumDeclaration(parser, context);
-    case Token.AsyncKeyword: {
-      if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {
-        return parseFunctionDeclaration(parser, context, false);
-      }
-      return parseStatement(parser, context, /* allowFunction */ true);
-    }
     case Token.LetKeyword: {
       const pos = parser.curPos;
       const flags = parser.nodeFlags;
@@ -364,6 +340,16 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       }
       return parseStatement(parser, context, /* allowFunction */ true);
     }
+    case Token.ConstKeyword:
+      return parseLexicalOrEnumDeclaration(parser, context);
+    case Token.AsyncKeyword: {
+      if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {
+        return parseFunctionDeclaration(parser, context, false);
+      }
+      return parseStatement(parser, context, /* allowFunction */ true);
+    }
+    case Token.NamespaceKeyword:
+      return parseNameSpaceDeclaration(parser, context);
     case Token.DeclareKeyword:
       return parseDeclareDeclaration(parser, context);
     case Token.TypeKeyword:
@@ -377,8 +363,8 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       return parseStatement(parser, context, /* allowFunction */ true);
     case Token.ImportKeyword:
       return parseImportDeclaration(parser, context);
+    case Token.Decorator:
     case Token.ExportKeyword:
-      reportErrorDiagnostic(parser, 0, DiagnosticCode.The_export_keyword_can_only_be_used_with_the_module_goal);
       return parseExportDeclaration(parser, context);
     default:
       return parseStatement(parser, context, /* allowFunction */ true);
@@ -601,7 +587,7 @@ function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBl
     const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
     const statements = [];
     while (parser.token & Constants.SourceElements) {
-      statements.push(parseModuleItemList(parser, context));
+      statements.push(parseStatementListItem(parser, context));
     }
     const result = createNamespaceBlock(statements, multiline, parser.nodeFlags, curPos, parser.curPos);
 
@@ -627,7 +613,7 @@ function parseDeclareDeclaration(parser: ParserState, context: Context): any {
       return parseClassDeclaration(parser, context);
     }
     // No match for 'abstract', but we got a 'match for 'declare, so we continue parsing as normal
-    return context & Context.Module ? parseModuleItemList(parser, context) : parseStatementListItem(parser, context);
+    return parseStatementListItem(parser, context);
   }
   return parseStatement(parser, context, /* allowFunction */ true);
 }
@@ -641,7 +627,7 @@ function parseAbstractDeclaration(parser: ParserState, context: Context) {
         8,
         DiagnosticCode._abstract_modifier_can_only_appear_on_a_class_method_or_property_declaration
       );
-      return parseModuleItemList(parser, context);
+      return parseStatementListItem(parser, context);
     }
     return parseClassDeclaration(parser, context);
   }

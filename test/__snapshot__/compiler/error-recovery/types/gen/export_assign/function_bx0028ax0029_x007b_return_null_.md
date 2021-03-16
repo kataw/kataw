@@ -223,13 +223,6 @@ export function b(a) { return null; = function b(a) { return null;
         {
             "kind": 2,
             "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "'}' expected.",
             "start": 36,
             "length": 0

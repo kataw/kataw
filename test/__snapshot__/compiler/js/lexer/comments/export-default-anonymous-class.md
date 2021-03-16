@@ -130,15 +130,7 @@ export default class {
     ],
     "isModule": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 36,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

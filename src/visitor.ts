@@ -282,7 +282,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
   switch (kind) {
     case NodeKind.RootNode:
       context.startLexicalEnvironment();
-      return updateRootNode(node, visitNode(node.statements, visitor));
+      return updateRootNode(node, visitNodes(node.statements, visitor));
     case NodeKind.FunctionStatementList:
       return updateFunctionStatementList(node, visitNodes(node.statements, visitor), node.multiline);
     case NodeKind.FunctionBody:

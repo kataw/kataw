@@ -1090,7 +1090,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 276,
@@ -1181,7 +1181,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 340,
@@ -1442,7 +1442,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 371,
@@ -1451,29 +1451,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 278,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 342,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 373,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

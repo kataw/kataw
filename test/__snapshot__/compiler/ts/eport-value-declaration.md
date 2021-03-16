@@ -72,7 +72,7 @@ export namespace E {}
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
@@ -132,7 +132,7 @@ export namespace E {}
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 13,
@@ -176,7 +176,7 @@ export namespace E {}
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 32769,
+            "flags": 32768,
             "symbol": null,
             "transformFlags": 0,
             "start": 36,
@@ -241,43 +241,7 @@ export namespace E {}
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 14,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 37,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 56,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 73,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

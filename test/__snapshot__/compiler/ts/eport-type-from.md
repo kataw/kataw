@@ -75,7 +75,7 @@ export type { T } from './mod';
                 "end": 30
             },
             "isTypeOnly": true,
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
@@ -84,15 +84,7 @@ export type { T } from './mod';
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

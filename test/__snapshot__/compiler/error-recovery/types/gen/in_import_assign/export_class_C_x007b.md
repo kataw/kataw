@@ -149,13 +149,6 @@ import export class C { = export class C { ;
         {
             "kind": 2,
             "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 26,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "'}' expected.",
             "start": 43,
             "length": 0

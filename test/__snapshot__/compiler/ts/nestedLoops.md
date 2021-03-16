@@ -957,7 +957,7 @@ export class Test  {
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,

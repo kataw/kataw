@@ -414,7 +414,7 @@ class C {
                         "exportFromClause": null,
                         "fromClause": null,
                         "isTypeOnly": false,
-                        "flags": 32769,
+                        "flags": 32768,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
@@ -820,13 +820,6 @@ class C {
             "source": 2,
             "message": "';' expected.",
             "start": 12,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 19,
             "length": 0
         }
     ],

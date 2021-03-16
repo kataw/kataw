@@ -89,15 +89,7 @@ async () => {  expo\u0072t = x  }
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 15,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

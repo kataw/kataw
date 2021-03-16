@@ -399,13 +399,6 @@ export var let const function class export var let const function { field: expor
         {
             "kind": 2,
             "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "',' expected.",
             "start": 15,
             "length": 0
@@ -422,13 +415,6 @@ export var let const function class export var let const function { field: expor
             "source": 2,
             "message": "Identifier expected 'class' is a reserved word that cannot be used here",
             "start": 30,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 36,
             "length": 0
         },
         {
