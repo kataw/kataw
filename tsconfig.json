@@ -13,6 +13,7 @@
     "noUnusedParameters": false,
     "outDir": "dist",
     // "preserveConstEnums": false,
+    "esModuleInterop": true,
     "preserveWatchOutput": true,
     "pretty": true,
     "removeComments": true,

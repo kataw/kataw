@@ -1,6 +1,6 @@
 import { join, dirname } from 'path';
 import { writeFileSync, unlinkSync, rmdirSync, mkdirSync } from 'fs';
-import { promiseToReadFile, getTestFiles, san, ColorCodes, Constants } from './utils';
+import { promiseToReadFile, loadSnaps, san, ColorCodes, Constants, report } from './utils';
 
 /**
  * Autogenerate files in the runner
@@ -34,7 +34,7 @@ export async function autogen(files: string[], conservative: boolean) {
   list.forEach((obj: any) => {
     const genDir = join(dirname(obj.file), 'gen');
     if (!conservative) {
-      const oldFiles: string[] = getTestFiles(genDir, '', true, true);
+      const oldFiles: string[] = loadSnaps(genDir, '', true, true);
       // Note: the folder should only contain generated files and folders which should delete just fine
       oldFiles.forEach((file: string) => {
         try {
@@ -51,6 +51,11 @@ export async function autogen(files: string[], conservative: boolean) {
     const templateOffset = obj.data.indexOf(Constants.Templates, Constants.Cases);
     const outputOffset = obj.data.indexOf(Constants.AutoGenOutput, Constants.Templates);
 
+    if (caseOffset >= 0 || templateOffset >= 0 || outputOffset >= 0) {
+      report('missing required parts of autogen' + obj.file);
+    }
+
+
     const cases = obj.data
       .slice(caseOffset + Constants.Cases.length, templateOffset)
       .split('> `````js\n')
@@ -60,6 +65,9 @@ export async function autogen(files: string[], conservative: boolean) {
           .split('\n> `````')[0]
           .split('\n')
           .map((s: any) => {
+            if(s[0] === '>' && s[1] === ' ') {
+              report('cases should be md quoted entirely, with one space' + obj.file);
+            }
             return s.slice(2);
           })
           .join('\n');
@@ -74,6 +82,9 @@ export async function autogen(files: string[], conservative: boolean) {
       .map((s: any) => s.trim())
       .filter((s: any) => s[0] === '-')
       .reduce((obj: any, s: any) => {
+        if(s[1] === ' ' && s[2] === '`' && s[s.length - 1] === '`') {
+          report('param composition' + obj.file);
+        }
         let [k, v] = s.slice(2, -1).split(' = ');
         if (String(parseInt(v, 10)) === v) v = parseInt(k, 10);
         else if (v === 'true') v = true;

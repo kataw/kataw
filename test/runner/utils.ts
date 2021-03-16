@@ -1,5 +1,9 @@
 import { readFile, statSync, readdirSync, writeFile, existsSync } from 'fs';
 
+import PrettyError from 'pretty-error';
+
+export const snapshotsFolderName = '__snapshot__'
+
 export const enum ColorCodes {
   BOLD = '\x1b[;1;1m',
   BLINK = '\x1b[;5;1m',
@@ -32,7 +36,7 @@ export function san(dir: any) {
     .replace(/[^a-zA-Z0-9_-]/g, (s: any) => 'x' + s.charCodeAt(0).toString(16).padStart(4, '0'));
 }
 
-export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): any {
+export function loadSnaps(path: any, file: any, silent: any, dirsToo?: any): any {
   const files: string[] = [];
   const combo = path + file;
   if (existsSync(combo)) {
@@ -41,9 +45,11 @@ export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): 
         files.push(combo);
       }
     } else {
-      readdirSync(combo + '/').forEach((s) => files.push(...getTestFiles(combo + '/', s, silent, dirsToo)));
+      readdirSync(combo + '/').forEach((s) => files.push(...loadSnaps(combo + '/', s, silent, dirsToo)));
       if (dirsToo) files.push(combo);
     }
+  } else {
+    report('Could not load file: ' + combo);
   }
   return files;
 }
@@ -100,4 +106,10 @@ export function deepEqual(obj1: any, obj2: any): boolean {
   }
 
   return obj1 === obj2;
+}
+
+export function report(err: Error | string): void {
+  err = typeof err === 'string' ? new Error(err) : err;
+  const pe = new PrettyError();
+  console.log(pe.render(err));
 }
