@@ -55,9 +55,7 @@ Then insert the tests after `template`
 
 #### in array
 
-`````js
 [ # ]
-`````
 
 ```
 
