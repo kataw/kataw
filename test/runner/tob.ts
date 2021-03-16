@@ -23,6 +23,9 @@ export function updateTob(tob: any, updateItems: any): void {
   const output = outputBlock(tob, updateItems);
   const header = outputIndex > -1 ? tob.content.slice(0, outputIndex) : tob.content;
   tob.content = header + output;
+  if (!tob.content.includes('\n###\n')) {
+    report('Expected format: \n###\n');
+  }
   return promiseToWriteFile(tob.filename, tob.content);
 }
 
