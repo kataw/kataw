@@ -51,8 +51,8 @@ export async function runCli() {
     );
 
     // Only show mismatch if it exist
-    if (cnt > 0 ) {
-      console.log(ColorCodes.RED + 'Mismatch: ' + ColorCodes.yellow + `${cnt}/${opts.files.length}` +  ColorCodes.RESET);
+    if (cnt > 0) {
+      console.log(ColorCodes.RED + 'Mismatch: ' + ColorCodes.yellow + `${cnt}/${opts.files.length}` + ColorCodes.RESET);
       if (opts.updateItems.length === 0) process.exitCode = 1;
     }
   }
