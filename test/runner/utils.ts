@@ -110,7 +110,8 @@ export function deepEqual(obj1: any, obj2: any): boolean {
 }
 
 export function report(err: Error | string): void {
-  err = typeof err === 'string' ? new Error(err) : err;
-  const pe = new PrettyError();
-  console.log(pe.render(err));
+  // TODO: skip it for now, as it is breaking auto-gen
+  // err = typeof err === 'string' ? new Error(err) : err;
+  // const pe = new PrettyError();
+  // console.log(pe.render(err));
 }

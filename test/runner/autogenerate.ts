@@ -112,7 +112,8 @@ export async function autogen(files: string[], conservative: boolean) {
       const caseDir = join(genDir, san(String(title)));
       mkdirSync(caseDir, { recursive: true });
       cases.forEach((c: any) => {
-        const testFile = join(caseDir, san(String(c)) + '.md');
+        // macos filename path has a limit(255 chars). as of now, we use the slice(0, 128).
+        const testFile = join(caseDir, san(String(c)).slice(0, 128) + '.md');
 
         // immediately generate a test case for it, as well
         writeFileSync(
