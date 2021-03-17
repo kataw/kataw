@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/gen/just_commas_is_error
 > :: test: just commas is error

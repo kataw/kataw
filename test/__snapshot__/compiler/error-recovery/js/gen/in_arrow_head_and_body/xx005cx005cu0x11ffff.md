@@ -1,0 +1,256 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-03-17
+- From: kataw/test/__snapshot__/compiler/error-recovery/js/autogen.md
+- Path: kataw/test/__snapshot__/compiler/error-recovery/js/gen/in_arrow_head_and_body
+> :: test: in arrow head and body
+> :: case: x\\u0x11ffff
+## Input
+
+`````js
+(x\\u0x11ffff) => {x = {x\\u0x11ffff}}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "(x\\\\u0x11ffff) => {x = {x\\\\u0x11ffff}}",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
+                "expression": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 1,
+                    "end": 2
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 2
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 2
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "u0x11ffff",
+                "rawText": "u0x11ffff",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 4,
+                "end": 13
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 4,
+            "end": 13
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 65550,
+                            "left": {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 19,
+                                "end": 20
+                            },
+                            "operator": "=",
+                            "right": {
+                                "kind": 98984,
+                                "propertyList": {
+                                    "kind": 65722,
+                                    "properties": [
+                                        {
+                                            "kind": 196711,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 24,
+                                            "end": 25
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 24,
+                                    "end": 25
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 22,
+                                "end": 25
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 19,
+                            "end": 25
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 25
+                    }
+                ],
+                "multiline": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 19,
+                "end": 25
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 25
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "u0x11ffff",
+                "rawText": "u0x11ffff",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 27,
+                "end": 36
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 27,
+            "end": 36
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 2,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 2,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 3,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 13,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 15,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 25,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 25,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 26,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 36,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 37,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 38
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/expressions/import-call/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/import-call/gen/stand-alone
 > :: test: stand-alone

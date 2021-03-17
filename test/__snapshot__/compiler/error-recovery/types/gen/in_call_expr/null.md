@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/error-recovery/types/autogen.md
 - Path: kataw/test/__snapshot__/compiler/error-recovery/types/gen/in_call_expr
 > :: test: in call expr

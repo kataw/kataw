@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/gen/rest_cant_even_have_an_default
 > :: test: rest cant even have an default

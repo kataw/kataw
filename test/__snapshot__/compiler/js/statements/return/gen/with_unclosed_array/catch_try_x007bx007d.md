@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/statements/return/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/statements/return/gen/with_unclosed_array
 > :: test: with unclosed array

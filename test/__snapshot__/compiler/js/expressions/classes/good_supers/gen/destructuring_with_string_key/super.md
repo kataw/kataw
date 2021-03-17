@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/expressions/classes/good_supers/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/classes/good_supers/gen/destructuring_with_string_key
 > :: test: destructuring with string key

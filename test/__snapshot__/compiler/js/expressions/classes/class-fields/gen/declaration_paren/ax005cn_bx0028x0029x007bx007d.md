@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/expressions/classes/class-fields/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/classes/class-fields/gen/declaration_paren
 > :: test: declaration_paren

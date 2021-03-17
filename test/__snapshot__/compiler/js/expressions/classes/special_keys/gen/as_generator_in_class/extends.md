@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/gen/as_generator_in_class
 > :: test: as generator in class

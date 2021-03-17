@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
+- Regenerated: 2021-03-17
 - From: kataw/test/__snapshot__/compiler/js/expressions/arrow/position/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/arrow/position/gen/group_lhs_asi
 > :: test: group lhs asi
