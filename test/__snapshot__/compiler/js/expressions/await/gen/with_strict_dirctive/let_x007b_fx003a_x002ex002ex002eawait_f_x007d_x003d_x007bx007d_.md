@@ -64,29 +64,39 @@
                                             "end": 22
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": true,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 26,
-                                                "end": 31
-                                            },
-                                            "right": null,
-                                            "flags": 0,
+                                            "kind": 131102,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 4097,
+                                            "transformFlags": 1025,
                                             "start": 22,
-                                            "end": 31
+                                            "end": 22
                                         },
-                                        "flags": 0,
+                                        "flags": 1,
                                         "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 19,
+                                        "end": 22
+                                    },
+                                    {
+                                        "kind": 203,
+                                        "ellipsis": true,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 1025,
+                                            "start": 22,
+                                            "end": 31
+                                        },
+                                        "right": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1024,
+                                        "start": 22,
                                         "end": 31
                                     },
                                     {
@@ -171,7 +181,14 @@
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "Identifier expected",
+            "start": 23,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
             "start": 32,
             "length": 0
         }

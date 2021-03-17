@@ -42,61 +42,51 @@ var { ...{ x = 5 } } = {x : 1};
                                             "end": 9
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 33554598,
-                                                "propertyList": {
-                                                    "kind": 33,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 203,
-                                                            "ellipsis": false,
-                                                            "left": {
-                                                                "kind": 131102,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 1025,
-                                                                "start": 10,
-                                                                "end": 12
-                                                            },
-                                                            "right": {
-                                                                "kind": 4261540,
-                                                                "text": 5,
-                                                                "rawText": "5",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 0,
-                                                                "start": 14,
-                                                                "end": 16
-                                                            },
+                                            "kind": 33554598,
+                                            "propertyList": {
+                                                "kind": 33,
+                                                "properties": [
+                                                    {
+                                                        "kind": 203,
+                                                        "ellipsis": false,
+                                                        "left": {
+                                                            "kind": 131102,
+                                                            "text": "x",
+                                                            "rawText": "x",
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1024,
+                                                            "transformFlags": 1025,
                                                             "start": 10,
+                                                            "end": 12
+                                                        },
+                                                        "right": {
+                                                            "kind": 4261540,
+                                                            "text": 5,
+                                                            "rawText": "5",
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 14,
                                                             "end": 16
-                                                        }
-                                                    ],
-                                                    "multiline": false,
-                                                    "trailingComma": false,
-                                                    "transformFlags": 1025,
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "start": 10,
-                                                    "end": 16
-                                                },
+                                                        },
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 1024,
+                                                        "start": 10,
+                                                        "end": 16
+                                                    }
+                                                ],
+                                                "multiline": false,
+                                                "trailingComma": false,
+                                                "transformFlags": 1025,
                                                 "flags": 0,
                                                 "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 9,
-                                                "end": 18
+                                                "start": 10,
+                                                "end": 16
                                             },
-                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 9,
                                             "end": 18
                                         },

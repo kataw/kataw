@@ -114,22 +114,12 @@
                                                             "end": 54
                                                         },
                                                         "value": {
-                                                            "kind": 16412,
-                                                            "ellipsis": false,
-                                                            "left": {
-                                                                "kind": 131102,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 1025,
-                                                                "start": 55,
-                                                                "end": 57
-                                                            },
-                                                            "right": null,
+                                                            "kind": 131102,
+                                                            "text": "a",
+                                                            "rawText": "a",
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1,
+                                                            "transformFlags": 1025,
                                                             "start": 55,
                                                             "end": 57
                                                         },

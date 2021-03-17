@@ -220,14 +220,14 @@ let x: interface string { interface string {
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 36,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 43,
             "length": 0
         }

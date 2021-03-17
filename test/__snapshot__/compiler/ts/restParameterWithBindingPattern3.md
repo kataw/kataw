@@ -352,22 +352,12 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "end": 108
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 109,
-                                                "end": 111
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "a",
+                                            "rawText": "a",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 109,
                                             "end": 111
                                         },
@@ -411,22 +401,12 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "end": 122
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "d",
-                                                "rawText": "d",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 123,
-                                                "end": 125
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "d",
+                                            "rawText": "d",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 123,
                                             "end": 125
                                         },
@@ -741,178 +721,48 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "end": 234
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 235,
-                                                "end": 237
-                                            },
-                                            "right": {
-                                                "kind": 4261540,
-                                                "text": 1,
-                                                "rawText": "1",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 239,
-                                                "end": 241
-                                            },
+                                            "kind": 131102,
+                                            "text": "a",
+                                            "rawText": "a",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 235,
-                                            "end": 241
+                                            "end": 237
                                         },
                                         "flags": 0,
                                         "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 233,
-                                        "end": 241
-                                    },
-                                    {
-                                        "kind": 32,
-                                        "ellipsis": false,
-                                        "key": {
-                                            "kind": 4261540,
-                                            "text": 1,
-                                            "rawText": "1",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 242,
-                                            "end": 244
-                                        },
-                                        "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 245,
-                                                "end": 247
-                                            },
-                                            "right": {
-                                                "kind": 4260391,
-                                                "text": true,
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 249,
-                                                "end": 254
-                                            },
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 245,
-                                            "end": 254
-                                        },
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1025,
-                                        "start": 242,
-                                        "end": 254
-                                    },
-                                    {
-                                        "kind": 32,
-                                        "ellipsis": true,
-                                        "key": {
-                                            "kind": 196711,
-                                            "text": "rest",
-                                            "rawText": "rest",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 255,
-                                            "end": 264
-                                        },
-                                        "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "rest",
-                                                "rawText": "rest",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 264,
-                                                "end": 269
-                                            },
-                                            "right": null,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 264,
-                                            "end": 269
-                                        },
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1025,
-                                        "start": 255,
-                                        "end": 269
+                                        "end": 237
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
                                 "transformFlags": 1025,
-                                "flags": 0,
+                                "flags": 1,
                                 "symbol": null,
                                 "start": 233,
-                                "end": 269
+                                "end": 237
                             },
-                            "flags": 0,
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 1025,
                             "start": 232,
-                            "end": 270
+                            "end": 237
                         },
                         "isOptional": false,
-                        "type": {
-                            "kind": 134226144,
-                            "elementTypes": [
-                                {
-                                    "kind": 4268070,
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 2097152,
-                                    "start": 273,
-                                    "end": 280
-                                },
-                                {
-                                    "kind": 4202702,
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 2097152,
-                                    "start": 281,
-                                    "end": 288
-                                },
-                                {
-                                    "kind": 4202657,
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 2097152,
-                                    "start": 289,
-                                    "end": 296
-                                }
-                            ],
-                            "multiline": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 1,
+                            "rawText": "1",
                             "flags": 0,
                             "symbol": null,
-                            "transformFlags": 2097152,
-                            "start": 271,
-                            "end": 297
+                            "transformFlags": 0,
+                            "start": 239,
+                            "end": 241
                         },
-                        "initializer": null,
                         "decorators": null,
                         "accessModifier": null,
                         "isReadOnly": false,
@@ -920,7 +770,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "symbol": null,
                         "transformFlags": 4097,
                         "start": 229,
-                        "end": 297
+                        "end": 241
                     }
                 ],
                 "trailingComma": false,
@@ -928,7 +778,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 229,
-                "end": 298
+                "end": 244
             },
             "type": null,
             "contents": {
@@ -940,26 +790,244 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 300,
-                    "end": 300
+                    "start": 244,
+                    "end": 244
+                },
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 242,
+                "end": 244
+            },
+            "typeParameters": null,
+            "flags": 32769,
+            "symbol": null,
+            "transformFlags": 256,
+            "start": 216,
+            "end": 244
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65590,
+                "expressions": [
+                    {
+                        "kind": 65550,
+                        "left": {
+                            "kind": 196712,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 245,
+                            "end": 247
+                        },
+                        "operator": "=",
+                        "right": {
+                            "kind": 4260391,
+                            "text": true,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 249,
+                            "end": 254
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 245,
+                        "end": 254
+                    },
+                    {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 3,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 255,
+                        "end": 255
+                    }
+                ],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 245,
+                "end": 255
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 245,
+            "end": 255
+        },
+        {
+            "kind": 2097292,
+            "label": {
+                "kind": 196712,
+                "text": "rest",
+                "rawText": "rest",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 259,
+                "end": 263
+            },
+            "statement": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 196712,
+                    "text": "rest",
+                    "rawText": "rest",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 264,
+                    "end": 269
                 },
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 298,
-                "end": 302
+                "start": 264,
+                "end": 269
             },
-            "typeParameters": null,
-            "flags": 32768,
+            "isWebCompat": true,
+            "flags": 0,
             "symbol": null,
-            "transformFlags": 256,
-            "start": 216,
+            "transformFlags": 0,
+            "start": 259,
+            "end": 269
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 98822,
+                "elementList": {
+                    "kind": 65605,
+                    "elements": [
+                        {
+                            "kind": 196712,
+                            "text": "boolean",
+                            "rawText": "boolean",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 273,
+                            "end": 280
+                        },
+                        {
+                            "kind": 196712,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 281,
+                            "end": 288
+                        },
+                        {
+                            "kind": 196712,
+                            "text": "number",
+                            "rawText": "number",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 289,
+                            "end": 296
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 273,
+                    "end": 296
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 271,
+                "end": 297
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 271,
+            "end": 297
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 300,
+                "end": 300
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 298,
             "end": 302
         }
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
+            "start": 238,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "')' expected.",
+            "start": 243,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'}' expected.",
+            "start": 244,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected",
+            "start": 256,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 269,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 270,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 297,
+            "length": 0
+        }
+    ],
     "original": null,
     "symbol": null,
     "flags": 0,

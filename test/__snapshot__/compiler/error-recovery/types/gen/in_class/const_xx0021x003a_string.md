@@ -143,22 +143,12 @@ const x!: string class const x!: string { field: const x!: string}
                                             "end": 48
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "",
-                                                "rawText": "",
-                                                "flags": 1,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 48,
-                                                "end": 48
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "",
+                                            "rawText": "",
                                             "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 48,
                                             "end": 48
                                         },

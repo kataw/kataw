@@ -50,22 +50,12 @@ var {[2]: y} = {2:3}
                                             "end": 8
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 9,
-                                                "end": 11
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "y",
+                                            "rawText": "y",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 9,
                                             "end": 11
                                         },

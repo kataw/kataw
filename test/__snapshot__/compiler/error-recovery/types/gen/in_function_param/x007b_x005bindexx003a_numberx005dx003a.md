@@ -65,22 +65,12 @@ function ( { [index: number]: ) ;
                                             "end": 19
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "number",
-                                                "rawText": "number",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 20,
-                                                "end": 27
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "number",
+                                            "rawText": "number",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 20,
                                             "end": 27
                                         },
@@ -180,7 +170,7 @@ function ( { [index: number]: ) ;
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 27,
             "length": 0
         },

@@ -161,7 +161,7 @@ let x:  string {  string {
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 25,
             "length": 0
         }

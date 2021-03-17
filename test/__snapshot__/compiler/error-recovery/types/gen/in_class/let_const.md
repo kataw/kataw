@@ -113,22 +113,12 @@ let const class let const { field: let const}
                                             "end": 34
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "let",
-                                                "rawText": "let",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 34,
-                                                "end": 38
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "let",
+                                            "rawText": "let",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 34,
                                             "end": 38
                                         },

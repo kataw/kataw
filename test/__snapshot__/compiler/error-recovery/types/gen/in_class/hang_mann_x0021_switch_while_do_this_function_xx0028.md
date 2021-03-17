@@ -315,22 +315,12 @@ hang mann ! switch while do this function x( class hang mann ! switch while do t
                                                         "end": 104
                                                     },
                                                     "value": {
-                                                        "kind": 16412,
-                                                        "ellipsis": false,
-                                                        "left": {
-                                                            "kind": 131102,
-                                                            "text": "hang",
-                                                            "rawText": "hang",
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 1025,
-                                                            "start": 104,
-                                                            "end": 109
-                                                        },
-                                                        "right": null,
+                                                        "kind": 131102,
+                                                        "text": "hang",
+                                                        "rawText": "hang",
                                                         "flags": 0,
                                                         "symbol": null,
-                                                        "transformFlags": 1,
+                                                        "transformFlags": 1025,
                                                         "start": 104,
                                                         "end": 109
                                                     },
@@ -654,14 +644,14 @@ hang mann ! switch while do this function x( class hang mann ! switch while do t
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 110,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 115,
             "length": 0
         },

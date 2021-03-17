@@ -186,22 +186,12 @@ x function y (string: void class x function y (string: void { field: x function 
                                                             "end": 68
                                                         },
                                                         "value": {
-                                                            "kind": 16412,
-                                                            "ellipsis": false,
-                                                            "left": {
-                                                                "kind": 131102,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 1025,
-                                                                "start": 68,
-                                                                "end": 70
-                                                            },
-                                                            "right": null,
+                                                            "kind": 131102,
+                                                            "text": "x",
+                                                            "rawText": "x",
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1,
+                                                            "transformFlags": 1025,
                                                             "start": 68,
                                                             "end": 70
                                                         },

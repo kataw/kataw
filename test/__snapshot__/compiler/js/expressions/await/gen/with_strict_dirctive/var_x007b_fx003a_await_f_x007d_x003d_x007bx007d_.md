@@ -64,22 +64,12 @@
                                             "end": 22
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 22,
-                                                "end": 28
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "await",
+                                            "rawText": "await",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -171,7 +161,7 @@
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 29,
             "length": 0
         }

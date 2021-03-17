@@ -1,6 +1,8 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import { BindingElement } from './binding-element';
+import { ArrayBindingPattern } from './array-binding-pattern';
+import { ObjectBindingPattern } from './object-binding-pattern';
+import { BindingIdentifier } from './binding-identifier';
 import { SingleNameBinding } from './singleNameBinding';
 import { IdentifierName } from './identifier-name';
 import { NumericLiteral } from './numeric-literal';
@@ -23,13 +25,13 @@ export type PropertyKey =
 export interface BindingProperty extends Node {
   readonly ellipsis: boolean;
   readonly key: PropertyKey;
-  readonly value: BindingElement | SingleNameBinding;
+  readonly value: ArrayBindingPattern | ObjectBindingPattern | BindingIdentifier | SingleNameBinding;
 }
 
 export function createBindingProperty(
   ellipsis: boolean,
   key: PropertyKey,
-  value: BindingElement | SingleNameBinding,
+  value: ArrayBindingPattern | ObjectBindingPattern | BindingIdentifier | SingleNameBinding,
   flags: NodeFlags,
   start: number,
   end: number
@@ -51,7 +53,7 @@ export function updateBindingProperty(
   ellipsis: boolean,
   node: BindingProperty,
   key: PropertyKey,
-  value: BindingElement | SingleNameBinding
+  value: ArrayBindingPattern | ObjectBindingPattern | BindingIdentifier | SingleNameBinding
 ): BindingProperty {
   return node.ellipsis !== ellipsis || node.key !== key || node.value !== value
     ? updateNode(createBindingProperty(ellipsis, key, value, node.flags, node.start, node.end), node)

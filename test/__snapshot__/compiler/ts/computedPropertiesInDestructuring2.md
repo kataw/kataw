@@ -139,22 +139,12 @@ let {[foo2()]: bar3} = {};
                                             "end": 37
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "bar3",
-                                                "rawText": "bar3",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 38,
-                                                "end": 43
-                                            },
-                                            "right": null,
+                                            "kind": 131102,
+                                            "text": "bar3",
+                                            "rawText": "bar3",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 38,
                                             "end": 43
                                         },

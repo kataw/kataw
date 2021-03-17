@@ -46,29 +46,39 @@ let { f: ...await f } = {};
                                             "end": 8
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": true,
-                                            "left": {
-                                                "kind": 131102,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 12,
-                                                "end": 17
-                                            },
-                                            "right": null,
-                                            "flags": 0,
+                                            "kind": 131102,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 4097,
+                                            "transformFlags": 1025,
                                             "start": 8,
-                                            "end": 17
+                                            "end": 8
                                         },
-                                        "flags": 0,
+                                        "flags": 1,
                                         "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 5,
+                                        "end": 8
+                                    },
+                                    {
+                                        "kind": 203,
+                                        "ellipsis": true,
+                                        "left": {
+                                            "kind": 131102,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 1025,
+                                            "start": 8,
+                                            "end": 17
+                                        },
+                                        "right": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1024,
+                                        "start": 8,
                                         "end": 17
                                     },
                                     {
@@ -153,7 +163,14 @@ let { f: ...await f } = {};
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "Identifier expected",
+            "start": 9,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
             "start": 18,
             "length": 0
         }

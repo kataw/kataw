@@ -53,31 +53,21 @@ function test({...{}}) {}
                                             "end": 18
                                         },
                                         "value": {
-                                            "kind": 16412,
-                                            "ellipsis": false,
-                                            "left": {
-                                                "kind": 33554598,
-                                                "propertyList": {
-                                                    "kind": 33,
-                                                    "properties": [],
-                                                    "multiline": false,
-                                                    "trailingComma": false,
-                                                    "transformFlags": 1025,
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "start": 19,
-                                                    "end": 19
-                                                },
+                                            "kind": 33554598,
+                                            "propertyList": {
+                                                "kind": 33,
+                                                "properties": [],
+                                                "multiline": false,
+                                                "trailingComma": false,
+                                                "transformFlags": 1025,
                                                 "flags": 0,
                                                 "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 18,
-                                                "end": 20
+                                                "start": 19,
+                                                "end": 19
                                             },
-                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1,
+                                            "transformFlags": 1025,
                                             "start": 18,
                                             "end": 20
                                         },

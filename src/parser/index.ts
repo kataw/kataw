@@ -3950,7 +3950,7 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
       }
       continue;
     }
-    reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
+    reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
   return createBindingPropertyList(properties as any, multiline, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
@@ -3965,7 +3965,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
       return createBindingProperty(
         ellipsis,
         createIdentifierName(tokenValue, raw, nodeFlags, pos, parser.curPos),
-        parseBindingElement(parser, context),
+        parseIdentifierOrPattern(parser, context),
         parser.nodeFlags,
         pos,
         parser.curPos
@@ -3985,7 +3985,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
   return createBindingProperty(
     ellipsis,
     key,
-    parseBindingElement(parser, context),
+    parseIdentifierOrPattern(parser, context),
     parser.nodeFlags,
     pos,
     parser.curPos
