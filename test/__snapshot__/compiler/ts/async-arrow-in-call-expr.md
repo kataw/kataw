@@ -1,13 +1,9 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-03-14
-- From: kataw/test/__snapshot__/compiler/js/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/expressions/arrow/position/gen/call_arg
-> :: test: call arg
-> :: case: async () => ok
+# Kataw parser test case
+
 ## Input
 
 `````js
-foo(async () => ok)
+x(async (x) => y);
 `````
 
 ## Output
@@ -17,7 +13,7 @@ foo(async () => ok)
 ```javascript
 {
     "kind": 2243,
-    "source": "foo(async () => ok)",
+    "source": "x(async (x) => y);",
     "filename": "",
     "statements": [
         {
@@ -26,13 +22,13 @@ foo(async () => ok)
                 "kind": 1073807915,
                 "expression": {
                     "kind": 196712,
-                    "text": "foo",
-                    "rawText": "foo",
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 0,
-                    "end": 3
+                    "end": 1
                 },
                 "typeArguments": null,
                 "argumentList": {
@@ -43,51 +39,77 @@ foo(async () => ok)
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 81929,
-                                "elements": [],
+                                "elements": [
+                                    {
+                                        "kind": 16473,
+                                        "ellipsis": false,
+                                        "binding": {
+                                            "kind": 4325406,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 9,
+                                            "end": 10
+                                        },
+                                        "isOptional": false,
+                                        "type": null,
+                                        "initializer": null,
+                                        "decorators": null,
+                                        "accessModifier": null,
+                                        "isReadOnly": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1,
+                                        "start": 9,
+                                        "end": 11
+                                    }
+                                ],
                                 "type": null,
                                 "accessModifier": null,
                                 "trailingComma": false,
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 12,
-                                "end": 12
+                                "start": 10,
+                                "end": 11
                             },
                             "contents": {
                                 "kind": 196712,
-                                "text": "ok",
-                                "rawText": "ok",
+                                "text": "y",
+                                "rawText": "y",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 15,
-                                "end": 18
+                                "start": 14,
+                                "end": 16
                             },
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 4,
-                            "end": 18
+                            "start": 2,
+                            "end": 16
                         }
                     ],
                     "trailingComma": false,
                     "transformFlags": 0,
                     "flags": 0,
                     "symbol": null,
-                    "start": 9,
-                    "end": 19
+                    "start": 7,
+                    "end": 17
                 },
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
-                "end": 19
+                "start": 1,
+                "end": 17
             },
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
-            "end": 19
+            "end": 18
         }
     ],
     "isModule": false,
@@ -98,7 +120,7 @@ foo(async () => ok)
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 19
+    "end": 18
 }
 ```
 

@@ -21,7 +21,7 @@ export function createArrowFunction(
   start: number,
   end: number
 ): ArrowFunction {
-  if (parameters.kind & NodeKind.IsIdentifier) flags |= NodeFlags.NoParenthesizedArrow;
+  if (parameters.kind & NodeKind.IsIdentifier) flags |= NodeFlags.NoneParenthesizedArrow;
 
   return {
     kind: isAsync

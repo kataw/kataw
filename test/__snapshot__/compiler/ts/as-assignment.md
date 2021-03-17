@@ -696,7 +696,18 @@ this.intervalID = (setInterval(() => {
                                         {
                                             "kind": 81936,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "parameters": {
+                                                "kind": 81929,
+                                                "elements": [],
+                                                "type": null,
+                                                "accessModifier": null,
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 415,
+                                                "end": 415
+                                            },
                                             "contents": {
                                                 "kind": 91,
                                                 "functionStatementList": {

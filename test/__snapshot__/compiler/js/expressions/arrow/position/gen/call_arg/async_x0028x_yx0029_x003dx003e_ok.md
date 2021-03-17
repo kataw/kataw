@@ -41,7 +41,69 @@ foo(async (x, y) => ok)
                         {
                             "kind": 81936,
                             "typeParameters": null,
-                            "parameters": [],
+                            "parameters": {
+                                "kind": 81929,
+                                "elements": [
+                                    {
+                                        "kind": 16473,
+                                        "ellipsis": false,
+                                        "binding": {
+                                            "kind": 4325406,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 13,
+                                            "end": 15
+                                        },
+                                        "isOptional": false,
+                                        "type": null,
+                                        "initializer": null,
+                                        "decorators": null,
+                                        "accessModifier": null,
+                                        "isReadOnly": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1,
+                                        "start": 13,
+                                        "end": 16
+                                    },
+                                    {
+                                        "kind": 16473,
+                                        "ellipsis": false,
+                                        "binding": {
+                                            "kind": 4325406,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        "isOptional": false,
+                                        "type": null,
+                                        "initializer": null,
+                                        "decorators": null,
+                                        "accessModifier": null,
+                                        "isReadOnly": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1,
+                                        "start": 13,
+                                        "end": 16
+                                    }
+                                ],
+                                "type": null,
+                                "accessModifier": null,
+                                "trailingComma": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 16
+                            },
                             "contents": {
                                 "kind": 196712,
                                 "text": "ok",

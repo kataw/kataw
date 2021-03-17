@@ -1718,6 +1718,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
       } else {
         const token = parser.token;
         expression = parseBinaryExpression(parser, context, parseUnaryExpression(parser, context), 4, innerPos);
+
         if (expression.kind & (NodeKind.IsIdentifier | NodeKind.IsArrayOrObjectLiteral)) {
           // If we have "async (a?:" or "async (a?," or "async (a?=" or "async (a?)" then this must be a optional
           // type-annotated parameter in an arrow function expression or a conditional expression
@@ -1840,18 +1841,23 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           expression = parseConditionalExpression(parser, context, expression, innerPos);
         }
 
-        if (
-          parser.token === Token.Arrow &&
-          (token & (Token.FutureReserved | Token.IsIdentifier) || expression.kind === NodeKind.ArrowParameters)
-        ) {
-          expression = parseArrowFunction(
-            parser,
-            context,
-            null,
-            convertToArrowParams(parser, context, elements, innerPos),
-            token === Token.AsyncKeyword,
-            innerPos
-          );
+        if (parser.token === Token.Arrow) {
+          if (expression.kind === NodeKind.ArrowParameters) {
+            state = Tristate.True;
+            expression = parseArrowFunction(parser, context, null, expression, token === Token.AsyncKeyword, innerPos);
+          } else if (
+            token & (Token.FutureReserved | Token.IsIdentifier) ||
+            expression.kind === NodeKind.ArrowParameters
+          ) {
+            expression = parseArrowFunction(
+              parser,
+              context,
+              null,
+              convertToArrowParams(parser, context, elements, innerPos),
+              token === Token.AsyncKeyword,
+              innerPos
+            );
+          }
         }
       }
     } else if (parser.token & Token.IsEllipsis) {
