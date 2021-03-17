@@ -25,7 +25,6 @@ for (;;) function f(){}
             "initializer": null,
             "condition": null,
             "incrementor": null,
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 264284,
                 "name": {

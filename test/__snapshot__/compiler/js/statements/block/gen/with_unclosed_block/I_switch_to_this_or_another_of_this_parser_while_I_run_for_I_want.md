@@ -335,7 +335,6 @@
                                         "start": 78,
                                         "end": 83
                                     },
-                                    "isVariableDeclarationList": false,
                                     "statement": {
                                         "kind": 2097233,
                                         "expression": {

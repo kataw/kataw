@@ -104,7 +104,6 @@
                 "start": 10,
                 "end": 10
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {
@@ -157,7 +156,6 @@
                 "start": 15,
                 "end": 15
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

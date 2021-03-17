@@ -233,7 +233,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "start": 22,
                 "end": 28
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {
@@ -561,7 +560,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 144,
                                             "end": 150
                                         },
-                                        "isVariableDeclarationList": false,
                                         "statement": {
                                             "kind": 2099237,
                                             "block": {
@@ -988,7 +986,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "start": 380,
                 "end": 386
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {
@@ -1316,7 +1313,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 505,
                                             "end": 511
                                         },
-                                        "isVariableDeclarationList": false,
                                         "statement": {
                                             "kind": 2099237,
                                             "block": {
@@ -1755,7 +1751,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 751,
                     "end": 757
                 },
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097233,
                     "expression": {
@@ -2111,7 +2106,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 894,
                                                 "end": 900
                                             },
-                                            "isVariableDeclarationList": false,
                                             "statement": {
                                                 "kind": 2099237,
                                                 "block": {
@@ -2584,7 +2578,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 1171,
                     "end": 1177
                 },
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097233,
                     "expression": {
@@ -2940,7 +2933,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 1317,
                                                 "end": 1323
                                             },
-                                            "isVariableDeclarationList": false,
                                             "statement": {
                                                 "kind": 2099237,
                                                 "block": {

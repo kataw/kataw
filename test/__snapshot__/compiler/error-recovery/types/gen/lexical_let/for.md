@@ -107,7 +107,6 @@ let x: for for
                 "start": 14,
                 "end": 14
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

@@ -102,7 +102,6 @@ function ( for ) {for}
                             "start": 21,
                             "end": 21
                         },
-                        "isVariableDeclarationList": false,
                         "statement": {
                             "kind": 2097233,
                             "expression": {

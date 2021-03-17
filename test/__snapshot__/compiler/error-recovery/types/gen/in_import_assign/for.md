@@ -78,7 +78,6 @@ import for = for ;
                 "start": 12,
                 "end": 12
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2099288,
                 "initializer": null,
@@ -100,7 +99,6 @@ import for = for ;
                     "start": 18,
                     "end": 18
                 },
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097233,
                     "expression": {

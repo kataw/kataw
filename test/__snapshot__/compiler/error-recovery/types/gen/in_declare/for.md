@@ -67,7 +67,6 @@ declare for
                 "start": 11,
                 "end": 11
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

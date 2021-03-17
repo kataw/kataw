@@ -100,7 +100,6 @@ for(t`${x in y}`;;);
             },
             "condition": null,
             "incrementor": null,
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 6291526,
                 "flags": 0,

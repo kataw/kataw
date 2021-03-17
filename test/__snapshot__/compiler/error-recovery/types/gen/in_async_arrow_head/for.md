@@ -126,7 +126,6 @@ async ([ for , x: for ]) => {}
                 "start": 16,
                 "end": 16
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {
@@ -179,7 +178,6 @@ async ([ for , x: for ]) => {}
                 "start": 21,
                 "end": 21
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

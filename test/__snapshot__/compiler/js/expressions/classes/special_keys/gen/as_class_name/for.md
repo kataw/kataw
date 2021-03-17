@@ -82,7 +82,6 @@ class for {}
                 "start": 12,
                 "end": 12
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

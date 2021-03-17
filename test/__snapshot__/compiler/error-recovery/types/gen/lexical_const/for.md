@@ -165,7 +165,6 @@ const x: for= {x:for}:for
                 "start": 25,
                 "end": 25
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

@@ -88,7 +88,6 @@ for(;;)x
             "initializer": null,
             "condition": null,
             "incrementor": null,
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

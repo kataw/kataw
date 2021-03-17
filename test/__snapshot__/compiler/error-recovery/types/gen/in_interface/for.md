@@ -77,7 +77,6 @@ interface for {}
                 "start": 16,
                 "end": 16
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

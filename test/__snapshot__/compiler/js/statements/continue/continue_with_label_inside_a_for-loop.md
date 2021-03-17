@@ -33,7 +33,6 @@ foo: for (;;) continue foo
                 "initializer": null,
                 "condition": null,
                 "incrementor": null,
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097212,
                     "label": {

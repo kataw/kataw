@@ -34,7 +34,6 @@ x: for(;;) continue x
                 "initializer": null,
                 "condition": null,
                 "incrementor": null,
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097212,
                     "label": {

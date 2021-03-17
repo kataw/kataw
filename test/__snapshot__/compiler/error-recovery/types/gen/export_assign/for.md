@@ -80,7 +80,6 @@ export for = for
                 "start": 12,
                 "end": 12
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2099288,
                 "initializer": {
@@ -110,7 +109,6 @@ export for = for
                     "start": 16,
                     "end": 16
                 },
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097233,
                     "expression": {

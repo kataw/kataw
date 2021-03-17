@@ -20,42 +20,34 @@ foo in x);
         {
             "kind": 2099286,
             "initializer": {
-                "kind": 16469,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 16627,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 32768,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 8,
-                                "end": 12
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 8,
+                "kind": 244,
+                "declarations": [
+                    {
+                        "kind": 16627,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 32768,
                             "symbol": null,
-                            "transformFlags": 0,
-                            "start": 0,
+                            "transformFlags": 1025,
+                            "start": 8,
                             "end": 12
-                        }
-                    ],
-                    "flags": 0,
-                    "symbol": null,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 12
-                },
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 8,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 12
+                    }
+                ],
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 8,
                 "end": 12
             },
             "expression": {

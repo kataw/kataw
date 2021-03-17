@@ -78,7 +78,6 @@ x(for)
                 "start": 5,
                 "end": 5
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {

@@ -62,7 +62,6 @@ for class for { field: for}
                 "start": 9,
                 "end": 9
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2099288,
                 "initializer": {
@@ -142,7 +141,6 @@ for class for { field: for}
                     "start": 27,
                     "end": 27
                 },
-                "isVariableDeclarationList": false,
                 "statement": {
                     "kind": 2097233,
                     "expression": {

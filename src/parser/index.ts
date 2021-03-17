@@ -288,7 +288,9 @@ export function parseRoot(source: string, isModule: boolean, options?: any, node
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);
+
   const statements: Statement[] = [];
+
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
       statements.push(parseStatementListItem(parser, context));
@@ -336,7 +338,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       const pos = parser.curPos;
       const flags = parser.nodeFlags;
       if (tryParse(parser, context, nextKeywordCanFollowLexicalLet)) {
-        return parseLexicalDeclaration(parser, context, /* isConst */ false, flags, pos);
+        return parseLexicalDeclaration(parser, context, /* isConst */ false, /* inForStatement */ false, flags, pos);
       }
       return parseStatement(parser, context, /* allowFunction */ true);
     }
@@ -456,7 +458,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
     case Token.ForKeyword:
       return parseForStatement(parser, context);
     case Token.VarKeyword:
-      return parseVariableStatement(parser, context);
+      return parseVariableStatement(parser, context, /* inForStatement */ false);
     case Token.ContinueKeyword:
       return parseBreakOrContinueStatement(parser, context, /* isContinue */ true);
     case Token.BreakKeyword:
@@ -676,7 +678,7 @@ function parseLexicalOrEnumDeclaration(parser: ParserState, context: Context): E
   if (consumeOpt(parser, context, Token.EnumKeyword)) {
     return parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, pos);
   }
-  return parseLexicalDeclaration(parser, context, /* isConst */ true, nodeFlags, pos);
+  return parseLexicalDeclaration(parser, context, /* isConst */ true, /* inForStatement */ false, nodeFlags, pos);
 }
 
 // at 'enum': Identifier '{' (EnumValueDeclaration (',' EnumValueDeclaration )*)? '}' ';'?
@@ -790,10 +792,10 @@ function parseCatchParameter(parser: ParserState, context: Context): CatchParame
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
-function parseVariableStatement(parser: ParserState, context: Context): VariableStatement {
+function parseVariableStatement(parser: ParserState, context: Context, inForStatement: boolean): VariableStatement {
   const { curPos, nodeFlags } = parser;
   nextToken(parser, context | Context.AllowRegExp);
-  const declarationList = parseVariableDeclarationList(parser, context, /* inForStatement */ false);
+  const declarationList = parseVariableDeclarationList(parser, context, inForStatement);
   parseSemicolon(parser, context);
   return createVariableStatement(declarationList, nodeFlags | parser.nodeFlags, curPos, parser.curPos);
 }
@@ -822,10 +824,11 @@ function parseLexicalDeclaration(
   parser: ParserState,
   context: Context,
   isConst: boolean,
+  inForStatement: boolean,
   nodeFlags: NodeFlags,
   pos: number
 ): LexicalDeclaration {
-  const bindingList = parseBindingList(parser, context, /* inForStatement */ false);
+  const bindingList = parseBindingList(parser, context, inForStatement);
   parseSemicolon(parser, context);
   return createLexicalDeclaration(
     isConst,
@@ -1161,76 +1164,42 @@ function canFollowContextualOfKeyword(parser: ParserState, context: Context) {
 // `for` `await` `(` `var` ForBinding `of` AssignmentExpression `)` Statement
 // `for` `await` `(` ForDeclaration `of` AssignmentExpression `)` Statement
 
-function parseForStatement(parser: ParserState, context: Context): ForStatement | ForInStatement | ForOfStatement {
+function parseForStatement(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
-  let isVariableDeclarationList = false;
   consume(parser, context, Token.ForKeyword);
 
   const isAwait = consumeOpt(parser, context, Token.AwaitKeyword);
 
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
 
-  if (consumeOpt(parser, context, Token.Semicolon)) {
-    const initializer = null;
-    let incrementor = null;
-    let condition = null;
-
-    if (parser.token !== Token.Semicolon) condition = parseAssignmentExpression(parser, context);
-
-    consume(parser, context, Token.Semicolon);
-
-    if (parser.token !== Token.RightParen) incrementor = parseAssignmentExpression(parser, context);
-
-    consume(parser, context, Token.RightParen);
-
-    return createForStatement(
-      initializer,
-      incrementor,
-      condition,
-      isVariableDeclarationList,
-      parseStatement(parser, context, /* allowFunction */ false),
-      parser.nodeFlags,
-      pos,
-      parser.curPos
-    );
-  }
-
-  let initializer!: Expression;
-
-  const innerPos = parser.curPos;
-
-  // 'var', 'let', 'const'
-  if (parser.token === Token.VarKeyword || parser.token === Token.LetKeyword || parser.token === Token.ConstKeyword) {
-    if (parser.token === Token.LetKeyword) {
-      if (lookAhead(parser, context, nextKeywordCanFollowLexicalLet)) {
-        nextToken(parser, context);
-        const bindingList =
-          parser.token === Token.OfKeyword && lookAhead(parser, context, canFollowContextualOfKeyword)
-            ? createBindingList([], NodeFlags.None, pos, parser.curPos)
-            : parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true);
-
-        initializer = createLexicalDeclaration(false, bindingList, parser.nodeFlags, innerPos, parser.curPos);
-      } else {
-        initializer = parseExpression(parser, context | Context.DisallowIn);
-      }
-    } else if (consumeOpt(parser, context, Token.ConstKeyword)) {
-      const bindingList =
-        parser.token === Token.OfKeyword && lookAhead(parser, context, canFollowContextualOfKeyword)
-          ? createBindingList([], NodeFlags.None, pos, parser.curPos)
-          : parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true);
-      initializer = createLexicalDeclaration(true, bindingList, parser.nodeFlags, innerPos, parser.curPos);
-    } else {
+  let initializer = null;
+  if (parser.token !== Token.Semicolon) {
+    if (parser.token === Token.VarKeyword) {
       nextToken(parser, context);
-      initializer = parseVariableDeclarationList(parser, context, /* inForStatement */ true);
-
-      if (parser.token & Token.IsInOrOf) {
-        initializer = createForBinding(initializer as any, parser.nodeFlags, innerPos, parser.curPos);
-      }
-
-      isVariableDeclarationList = true;
+      initializer = parseVariableDeclarationList(parser, context | Context.DisallowIn, /* inForStatement */ true);
+    } else if (parser.token === Token.ConstKeyword) {
+      const innerPos = parser.curPos;
+      nextToken(parser, context);
+      initializer = createLexicalDeclaration(
+        /* isConst */ true,
+        parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true),
+        NodeFlags.None,
+        innerPos,
+        parser.curPos
+      );
+    } else if (parser.token === Token.LetKeyword && lookAhead(parser, context, nextKeywordCanFollowLexicalLet)) {
+      const innerPos = parser.curPos;
+      nextToken(parser, context);
+      initializer = createLexicalDeclaration(
+        /* isConst */ false,
+        parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true),
+        NodeFlags.None,
+        innerPos,
+        parser.curPos
+      );
+    } else {
+      initializer = parseExpression(parser, context | Context.DisallowIn);
     }
-  } else {
-    initializer = parseExpression(parser, context | Context.DisallowIn);
   }
 
   if (
@@ -1240,6 +1209,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
   ) {
     const expression = parseAssignmentExpression(parser, context);
     consume(parser, context | Context.AllowRegExp, Token.RightParen);
+
     return createForOfStatement(
       initializer,
       expression,
@@ -1263,7 +1233,6 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       parser.curPos
     );
   }
-
   consume(parser, context, Token.Semicolon);
 
   const condition = parser.token === Token.Semicolon ? null : parseAssignmentExpression(parser, context);
@@ -1278,7 +1247,6 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     initializer,
     incrementor,
     condition,
-    isVariableDeclarationList,
     parseStatement(parser, context, /* allowFunction */ false),
     parser.nodeFlags,
     pos,
@@ -4550,14 +4518,28 @@ function parseExportDeclaration(
       return parseExportDefault(parser, context, pos);
     case Token.LetKeyword:
       nextToken(parser, context);
-      declaration = parseLexicalDeclaration(parser, context, /* isConst */ false, parser.nodeFlags, pos);
+      declaration = parseLexicalDeclaration(
+        parser,
+        context,
+        /* isConst */ false,
+        /* inForStatement */ false,
+        parser.nodeFlags,
+        pos
+      );
       break;
     case Token.ConstKeyword: {
       const { curPos, nodeFlags } = parser;
       nextToken(parser, context);
       declaration = consumeOpt(parser, context, Token.EnumKeyword)
         ? parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, curPos)
-        : parseLexicalDeclaration(parser, context, /* isConst */ true, parser.nodeFlags, pos);
+        : parseLexicalDeclaration(
+            parser,
+            context,
+            /* isConst */ true,
+            /* inForStatement */ false,
+            parser.nodeFlags,
+            pos
+          );
       break;
     }
     case Token.LeftBrace: {
@@ -4580,7 +4562,7 @@ function parseExportDeclaration(
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
       break;
     case Token.VarKeyword:
-      declaration = parseVariableStatement(parser, context);
+      declaration = parseVariableStatement(parser, context, /* inForStatement */ false);
       break;
     case Token.AsyncKeyword:
       if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {

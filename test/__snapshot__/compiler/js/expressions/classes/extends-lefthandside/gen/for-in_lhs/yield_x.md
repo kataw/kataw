@@ -64,7 +64,6 @@ x in x) ;
                 "start": 10,
                 "end": 17
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 6291526,
                 "flags": 0,

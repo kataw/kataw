@@ -14,8 +14,6 @@ export interface ForStatement extends Node {
   readonly condition: Expression | null;
   // Incrementor expression, if present
   readonly incrementor: Expression | null;
-  // Set to 'true' if 'Initializer' is a `VariableDeclarationList`
-  readonly isVariableDeclarationList: boolean;
   // Statement being looped over
   readonly statement: Statement;
 }
@@ -24,7 +22,6 @@ export function createForStatement(
   initializer: Expression | VariableDeclarationList | null,
   condition: Expression | null,
   incrementor: Expression | null,
-  isVariableDeclarationList: boolean,
   statement: Statement,
   flags: NodeFlags,
   start: number,
@@ -35,7 +32,6 @@ export function createForStatement(
     initializer,
     condition,
     incrementor,
-    isVariableDeclarationList,
     statement,
     flags,
     symbol: null,
@@ -57,16 +53,7 @@ export function updateForStatement(
     node.incrementor !== incrementor ||
     node.statement !== statement
     ? updateNode(
-        createForStatement(
-          initializer,
-          condition,
-          incrementor,
-          node.isVariableDeclarationList,
-          statement,
-          node.flags,
-          node.start,
-          node.end
-        ),
+        createForStatement(initializer, condition, incrementor, statement, node.flags, node.start, node.end),
         node
       )
     : node;

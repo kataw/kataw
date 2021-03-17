@@ -108,7 +108,6 @@ class x extends for {}
                 "start": 22,
                 "end": 22
             },
-            "isVariableDeclarationList": false,
             "statement": {
                 "kind": 2097233,
                 "expression": {
