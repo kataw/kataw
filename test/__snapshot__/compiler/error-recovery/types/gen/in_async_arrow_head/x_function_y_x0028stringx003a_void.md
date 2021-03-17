@@ -306,7 +306,7 @@ async ([ x function y (string: void , x: x function y (string: void ]) => {}
                     "start": 73,
                     "end": 76
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

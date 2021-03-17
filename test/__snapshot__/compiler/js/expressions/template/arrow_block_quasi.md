@@ -29,37 +29,9 @@
                             "kind": 83976,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 3,
-                                            "end": 4
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 4,
-                                        "end": 4
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                                "kind": 4325406,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,

@@ -95,7 +95,7 @@ let x = () => import {x} from "y"
                                 "start": 13,
                                 "end": 24
                             },
-                            "flags": 1073741825,
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,

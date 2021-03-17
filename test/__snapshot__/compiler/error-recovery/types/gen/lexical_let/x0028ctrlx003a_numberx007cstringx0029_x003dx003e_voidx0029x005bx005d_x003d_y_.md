@@ -267,7 +267,7 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
                     "start": 69,
                     "end": 74
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 44,

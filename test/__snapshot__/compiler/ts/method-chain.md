@@ -535,7 +535,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "start": 168,
                                 "end": 286
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 85,

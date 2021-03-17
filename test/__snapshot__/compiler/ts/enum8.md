@@ -234,7 +234,7 @@ enum T1 {
                                         "start": 77,
                                         "end": 83
                                     },
-                                    "flags": 1073741824,
+                                    "flags": 0,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 72,
@@ -526,7 +526,7 @@ enum T1 {
                                         "start": 179,
                                         "end": 185
                                     },
-                                    "flags": 1073741824,
+                                    "flags": 0,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 174,

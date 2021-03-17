@@ -433,7 +433,7 @@ foo(
                                 "start": 158,
                                 "end": 162
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 146,
@@ -578,7 +578,7 @@ foo(
                                 "start": 225,
                                 "end": 229
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 213,
@@ -731,7 +731,7 @@ foo(
                                 "start": 295,
                                 "end": 299
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 279,

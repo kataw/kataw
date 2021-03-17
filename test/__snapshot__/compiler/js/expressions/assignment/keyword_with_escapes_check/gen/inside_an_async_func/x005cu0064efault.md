@@ -55,7 +55,7 @@ async () => {  \u0064efault = x  }
                     "start": 11,
                     "end": 13
                 },
-                "flags": 1082130433,
+                "flags": 8388609,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

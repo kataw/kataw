@@ -73,7 +73,7 @@ async () => {  c\u006fntinue = x  }
                     "start": 11,
                     "end": 28
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

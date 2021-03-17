@@ -86,7 +86,7 @@ var a = (b) => c;
                                 "start": 14,
                                 "end": 16
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,

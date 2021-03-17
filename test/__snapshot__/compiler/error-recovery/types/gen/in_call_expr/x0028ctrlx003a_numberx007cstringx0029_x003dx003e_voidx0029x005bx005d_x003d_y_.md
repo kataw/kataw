@@ -126,7 +126,7 @@ x((ctrl: number|string) => void)[] = y;)
                                         "start": 26,
                                         "end": 31
                                     },
-                                    "flags": 1073741825,
+                                    "flags": 1,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 2,

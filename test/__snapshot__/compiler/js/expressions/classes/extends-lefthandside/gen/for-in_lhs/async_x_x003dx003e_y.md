@@ -28,41 +28,13 @@ x => y in x) ;
                 "kind": 81936,
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 32768,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 10,
-                                "end": 12
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 15,
-                            "end": 12
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
-                    "flags": 0,
+                    "kind": 131102,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 32768,
                     "symbol": null,
-                    "transformFlags": 0,
-                    "start": 5,
+                    "transformFlags": 1025,
+                    "start": 10,
                     "end": 12
                 },
                 "contents": {

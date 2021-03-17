@@ -59,37 +59,9 @@ function *f() {
                                     "kind": 83976,
                                     "typeParameters": null,
                                     "parameters": {
-                                        "kind": 81929,
-                                        "elements": [
-                                            {
-                                                "kind": 16473,
-                                                "ellipsis": false,
-                                                "binding": {
-                                                    "kind": 4325406,
-                                                    "text": "async",
-                                                    "rawText": "async",
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 23,
-                                                    "end": 29
-                                                },
-                                                "isOptional": false,
-                                                "type": null,
-                                                "initializer": null,
-                                                "decorators": null,
-                                                "accessModifier": null,
-                                                "isReadOnly": false,
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1,
-                                                "start": 29,
-                                                "end": 29
-                                            }
-                                        ],
-                                        "type": null,
-                                        "accessModifier": null,
-                                        "trailingComma": false,
+                                        "kind": 4325406,
+                                        "text": "async",
+                                        "rawText": "async",
                                         "flags": 0,
                                         "symbol": null,
                                         "transformFlags": 0,

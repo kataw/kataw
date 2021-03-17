@@ -131,7 +131,7 @@ f(((a, b) => a + b));
                                     "start": 12,
                                     "end": 18
                                 },
-                                "flags": 1073741824,
+                                "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 3,

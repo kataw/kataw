@@ -123,7 +123,7 @@ async () => {  \u0066unction = x  }
                     "start": 11,
                     "end": 35
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

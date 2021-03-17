@@ -93,7 +93,7 @@ async () => {  \u0070ackage = x  }
                     "start": 11,
                     "end": 34
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

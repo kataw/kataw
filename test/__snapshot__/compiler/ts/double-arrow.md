@@ -87,7 +87,7 @@ const fn2 = () => {
                                 "start": 17,
                                 "end": 31
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
@@ -174,7 +174,7 @@ const fn2 = () => {
                                 "start": 61,
                                 "end": 75
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 55,

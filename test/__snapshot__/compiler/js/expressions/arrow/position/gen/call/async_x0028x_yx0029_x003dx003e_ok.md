@@ -117,7 +117,7 @@ async (x, y) => ok()
                     "start": 18,
                     "end": 20
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

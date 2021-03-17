@@ -193,7 +193,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                                     "start": 74,
                                                                     "end": 77
                                                                 },
-                                                                "flags": 1073741824,
+                                                                "flags": 0,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 55,

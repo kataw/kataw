@@ -551,7 +551,7 @@ class A {
                                                                     "end": 214
                                                                 }
                                                             },
-                                                            "flags": 1073741824,
+                                                            "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 202,
@@ -801,7 +801,7 @@ class A {
                                                                     "end": 299
                                                                 }
                                                             },
-                                                            "flags": 1073741824,
+                                                            "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 287,

@@ -101,7 +101,7 @@ async () => {  fin\u0061lly = x  }
                     "start": 11,
                     "end": 27
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

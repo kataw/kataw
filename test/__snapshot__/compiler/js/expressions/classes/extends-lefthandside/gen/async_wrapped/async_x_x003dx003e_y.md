@@ -108,38 +108,10 @@ x => y {}
                                 "kind": 83976,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 4325406,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 32769,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 43,
-                                                "end": 45
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 45,
-                                            "end": 45
-                                        }
-                                    ],
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
-                                    "flags": 0,
+                                    "kind": 4325406,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 32769,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 43,

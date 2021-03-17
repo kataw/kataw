@@ -54,7 +54,7 @@ foo(async (x, y) => ok).bar
                                     "start": 19,
                                     "end": 22
                                 },
-                                "flags": 1073741824,
+                                "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 4,

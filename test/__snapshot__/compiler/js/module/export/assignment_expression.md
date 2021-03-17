@@ -49,7 +49,7 @@ export default () => x
                     "start": 20,
                     "end": 22
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 14,

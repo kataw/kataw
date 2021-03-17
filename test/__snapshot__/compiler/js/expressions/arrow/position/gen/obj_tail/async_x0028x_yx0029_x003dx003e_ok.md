@@ -130,7 +130,7 @@ x = {arrow: async (x, y) => ok}.y
                                             "start": 27,
                                             "end": 30
                                         },
-                                        "flags": 1073741824,
+                                        "flags": 0,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,

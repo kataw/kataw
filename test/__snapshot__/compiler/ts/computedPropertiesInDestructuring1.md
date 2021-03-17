@@ -430,7 +430,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "start": 104,
                                 "end": 110
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 98,

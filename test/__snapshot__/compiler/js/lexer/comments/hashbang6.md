@@ -647,7 +647,7 @@ for (const ctor of [
                                                 "start": 316,
                                                 "end": 364
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 310,
@@ -853,7 +853,7 @@ for (const ctor of [
                                                 "start": 401,
                                                 "end": 441
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 395,
@@ -1069,7 +1069,7 @@ for (const ctor of [
                                                 "start": 478,
                                                 "end": 535
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 472,
@@ -1275,7 +1275,7 @@ for (const ctor of [
                                                 "start": 572,
                                                 "end": 621
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 566,

@@ -663,7 +663,7 @@ const TestRender = () => <TestComponent />;
                                 "start": 338,
                                 "end": 356
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 332,

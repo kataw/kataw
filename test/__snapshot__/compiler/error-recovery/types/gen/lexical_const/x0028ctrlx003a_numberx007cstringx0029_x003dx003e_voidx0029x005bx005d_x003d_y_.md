@@ -284,7 +284,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                                     "start": 75,
                                     "end": 80
                                 },
-                                "flags": 1073741825,
+                                "flags": 1,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 51,
@@ -449,7 +449,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                     "start": 114,
                     "end": 119
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 90,

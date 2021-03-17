@@ -84,137 +84,109 @@ var await; var f = (async function() { await.b[c] => async });
                                 "kind": 81936,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 4325406,
-                                                "name": null,
-                                                "formalParameters": {
-                                                    "kind": 90,
-                                                    "formalParameterList": [],
-                                                    "trailingComma": false,
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 35,
-                                                    "end": 36
-                                                },
-                                                "contents": {
-                                                    "kind": 91,
-                                                    "functionStatementList": {
-                                                        "kind": 94,
-                                                        "statements": [
-                                                            {
-                                                                "kind": 2097233,
+                                    "kind": 4325406,
+                                    "name": null,
+                                    "formalParameters": {
+                                        "kind": 90,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 35,
+                                        "end": 36
+                                    },
+                                    "contents": {
+                                        "kind": 91,
+                                        "functionStatementList": {
+                                            "kind": 94,
+                                            "statements": [
+                                                {
+                                                    "kind": 2097233,
+                                                    "expression": {
+                                                        "kind": 65559,
+                                                        "expression": {
+                                                            "kind": 67174980,
+                                                            "member": {
+                                                                "kind": 67175096,
+                                                                "member": {
+                                                                    "kind": 131322,
+                                                                    "text": "",
+                                                                    "flags": 3,
+                                                                    "symbol": null,
+                                                                    "transformFlags": 0,
+                                                                    "start": 44,
+                                                                    "end": 44
+                                                                },
                                                                 "expression": {
-                                                                    "kind": 65559,
-                                                                    "expression": {
-                                                                        "kind": 67174980,
-                                                                        "member": {
-                                                                            "kind": 67175096,
-                                                                            "member": {
-                                                                                "kind": 131322,
-                                                                                "text": "",
-                                                                                "flags": 3,
-                                                                                "symbol": null,
-                                                                                "transformFlags": 0,
-                                                                                "start": 44,
-                                                                                "end": 44
-                                                                            },
-                                                                            "expression": {
-                                                                                "kind": 196711,
-                                                                                "text": "b",
-                                                                                "rawText": "b",
-                                                                                "flags": 0,
-                                                                                "symbol": null,
-                                                                                "transformFlags": 0,
-                                                                                "start": 45,
-                                                                                "end": 46
-                                                                            },
-                                                                            "flags": 0,
-                                                                            "symbol": null,
-                                                                            "transformFlags": 0,
-                                                                            "start": 44,
-                                                                            "end": 46,
-                                                                            "period": {
-                                                                                "kind": 255,
-                                                                                "pos": 44,
-                                                                                "end": 45
-                                                                            }
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 196712,
-                                                                            "text": "c",
-                                                                            "rawText": "c",
-                                                                            "flags": 0,
-                                                                            "symbol": null,
-                                                                            "transformFlags": 0,
-                                                                            "start": 47,
-                                                                            "end": 48
-                                                                        },
-                                                                        "flags": 0,
-                                                                        "symbol": null,
-                                                                        "transformFlags": 0,
-                                                                        "start": 46,
-                                                                        "end": 49
-                                                                    },
+                                                                    "kind": 196711,
+                                                                    "text": "b",
+                                                                    "rawText": "b",
                                                                     "flags": 0,
                                                                     "symbol": null,
-                                                                    "transformFlags": 32780,
-                                                                    "start": 38,
-                                                                    "end": 49
+                                                                    "transformFlags": 0,
+                                                                    "start": 45,
+                                                                    "end": 46
                                                                 },
                                                                 "flags": 0,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
-                                                                "start": 38,
-                                                                "end": 49
-                                                            }
-                                                        ],
-                                                        "multiline": false,
-                                                        "flags": 1,
+                                                                "start": 44,
+                                                                "end": 46,
+                                                                "period": {
+                                                                    "kind": 255,
+                                                                    "pos": 44,
+                                                                    "end": 45
+                                                                }
+                                                            },
+                                                            "expression": {
+                                                                "kind": 196712,
+                                                                "text": "c",
+                                                                "rawText": "c",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 0,
+                                                                "start": 47,
+                                                                "end": 48
+                                                            },
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 46,
+                                                            "end": 49
+                                                        },
+                                                        "flags": 0,
                                                         "symbol": null,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 32780,
                                                         "start": 38,
                                                         "end": 49
                                                     },
-                                                    "flags": 1,
+                                                    "flags": 0,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 36,
+                                                    "start": 38,
                                                     "end": 49
-                                                },
-                                                "typeParameters": null,
-                                                "type": null,
-                                                "flags": 1,
-                                                "symbol": null,
-                                                "transformFlags": 4,
-                                                "start": 20,
-                                                "end": 49
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
+                                                }
+                                            ],
+                                            "multiline": false,
+                                            "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 18,
+                                            "transformFlags": 0,
+                                            "start": 38,
                                             "end": 49
-                                        }
-                                    ],
+                                        },
+                                        "flags": 1,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 36,
+                                        "end": 49
+                                    },
+                                    "typeParameters": null,
                                     "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
                                     "flags": 1,
                                     "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 18,
+                                    "transformFlags": 4,
+                                    "start": 20,
                                     "end": 49
                                 },
                                 "contents": {

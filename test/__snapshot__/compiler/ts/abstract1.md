@@ -403,7 +403,7 @@ abstract class B extends A { abstract bar(); }
                                     "end": 155
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 143,
@@ -595,7 +595,7 @@ abstract class B extends A { abstract bar(); }
                                     "end": 214
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 202,
@@ -767,7 +767,7 @@ abstract class B extends A { abstract bar(); }
                                     "end": 276
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 264,

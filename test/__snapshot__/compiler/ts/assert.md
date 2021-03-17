@@ -268,7 +268,7 @@ class AssertsFoo {
                                 "start": 43,
                                 "end": 88
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
@@ -719,7 +719,7 @@ class AssertsFoo {
                                 "start": 240,
                                 "end": 285
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 207,
@@ -1255,7 +1255,7 @@ class AssertsFoo {
                                 "start": 546,
                                 "end": 564
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 526,

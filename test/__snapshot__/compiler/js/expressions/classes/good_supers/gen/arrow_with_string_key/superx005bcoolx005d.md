@@ -204,7 +204,7 @@ class x extends y {
                                                     "start": 67,
                                                     "end": 69
                                                 },
-                                                "flags": 1073774592,
+                                                "flags": 32768,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 37,

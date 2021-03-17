@@ -93,7 +93,7 @@ async () => {  a\u0072guments = x  }
                     "start": 11,
                     "end": 36
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

@@ -26,37 +26,9 @@ await => async.await[async / ((async) => foo.bar)]
                 "kind": 83976,
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 4325406,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 0,
-                                "end": 5
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 5,
-                            "end": 5
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
+                    "kind": 4325406,
+                    "text": "await",
+                    "rawText": "await",
                     "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
@@ -187,7 +159,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "end": 45
                                     }
                                 },
-                                "flags": 1073741824,
+                                "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 30,

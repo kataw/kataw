@@ -150,7 +150,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 26,
                         "end": 28
                     },
-                    "flags": 1073741824,
+                    "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 19,
@@ -223,37 +223,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 44,
-                                    "end": 46
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 46,
-                                "end": 46
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "c",
+                        "rawText": "c",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -353,7 +325,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 64,
                         "end": 66
                     },
-                    "flags": 1073741824,
+                    "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 53,
@@ -408,37 +380,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 78,
-                                    "end": 80
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 80,
-                                "end": 80
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "c",
+                        "rawText": "c",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -514,7 +458,7 @@ a ? async (b) => (c => d) : e => f;
                             "start": 94,
                             "end": 96
                         },
-                        "flags": 1073741824,
+                        "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 83,
@@ -589,41 +533,13 @@ a ? async (b) => (c => d) : e => f;
                             "kind": 83976,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 150,
-                                            "end": 151
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 148,
-                                        "end": 151
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                                "kind": 4325406,
+                                "text": "c",
+                                "rawText": "c",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 148,
+                                "start": 150,
                                 "end": 151
                             },
                             "contents": {
@@ -652,37 +568,9 @@ a ? async (b) => (c => d) : e => f;
                         "kind": 83976,
                         "typeParameters": null,
                         "parameters": {
-                            "kind": 81929,
-                            "elements": [
-                                {
-                                    "kind": 16473,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "e",
-                                        "rawText": "e",
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 0,
-                                        "start": 159,
-                                        "end": 161
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1,
-                                    "start": 161,
-                                    "end": 161
-                                }
-                            ],
-                            "type": null,
-                            "accessModifier": null,
-                            "trailingComma": false,
+                            "kind": 4325406,
+                            "text": "e",
+                            "rawText": "e",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
@@ -695,41 +583,13 @@ a ? async (b) => (c => d) : e => f;
                                 "kind": 83976,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 4325406,
-                                                "text": "f",
-                                                "rawText": "f",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 166,
-                                                "end": 167
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 164,
-                                            "end": 167
-                                        }
-                                    ],
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
+                                    "kind": 4325406,
+                                    "text": "f",
+                                    "rawText": "f",
                                     "flags": 0,
                                     "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 164,
+                                    "start": 166,
                                     "end": 167
                                 },
                                 "contents": {
@@ -770,37 +630,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "h",
-                                    "rawText": "h",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 175,
-                                    "end": 177
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 177,
-                                "end": 177
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "h",
+                        "rawText": "h",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -893,37 +725,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 200,
-                                    "end": 202
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 202,
-                                "end": 202
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "c",
+                        "rawText": "c",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -1016,37 +820,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 224,
-                                    "end": 226
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 226,
-                                "end": 226
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "c",
+                        "rawText": "c",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -1134,37 +910,9 @@ a ? async (b) => (c => d) : e => f;
                                 "kind": 83976,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 4325406,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 248,
-                                                "end": 249
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 249,
-                                            "end": 249
-                                        }
-                                    ],
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
+                                    "kind": 4325406,
+                                    "text": "b",
+                                    "rawText": "b",
                                     "flags": 0,
                                     "symbol": null,
                                     "transformFlags": 0,
@@ -1205,37 +953,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "d",
-                                    "rawText": "d",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 257,
-                                    "end": 259
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 259,
-                                "end": 259
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "d",
+                        "rawText": "d",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -1331,41 +1051,13 @@ a ? async (b) => (c => d) : e => f;
                             "kind": 83976,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 284,
-                                            "end": 285
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 282,
-                                        "end": 285
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                                "kind": 4325406,
+                                "text": "c",
+                                "rawText": "c",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 282,
+                                "start": 284,
                                 "end": 285
                             },
                             "contents": {
@@ -1390,7 +1082,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 282,
                         "end": 291
                     },
-                    "flags": 1073741824,
+                    "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 269,
@@ -1400,37 +1092,9 @@ a ? async (b) => (c => d) : e => f;
                     "kind": 83976,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "e",
-                                    "rawText": "e",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 293,
-                                    "end": 295
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 295,
-                                "end": 295
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                        "kind": 4325406,
+                        "text": "e",
+                        "rawText": "e",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,

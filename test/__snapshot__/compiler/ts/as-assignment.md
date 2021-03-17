@@ -890,7 +890,7 @@ this.intervalID = (setInterval(() => {
                                                 "start": 418,
                                                 "end": 525
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 407,
@@ -1139,7 +1139,7 @@ this.intervalID = (setInterval(() => {
                                                 "start": 606,
                                                 "end": 625
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 601,

@@ -131,7 +131,7 @@ bar, (interface) => { 'use strict'; 0 };
                             "start": 19,
                             "end": 39
                         },
-                        "flags": 1073741824,
+                        "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 4,

@@ -44,41 +44,13 @@ foo(async x => ok).bar
                                 "kind": 81936,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 9,
-                                                "end": 11
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 11,
-                                            "end": 11
-                                        }
-                                    ],
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
+                                    "kind": 131102,
+                                    "text": "x",
+                                    "rawText": "x",
                                     "flags": 0,
                                     "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 4,
+                                    "transformFlags": 1025,
+                                    "start": 9,
                                     "end": 11
                                 },
                                 "contents": {

@@ -144,7 +144,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 60,
                                 "end": 63
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 15,
@@ -288,7 +288,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 114,
                                 "end": 117
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 79,
@@ -431,7 +431,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 162,
                                 "end": 165
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 133,

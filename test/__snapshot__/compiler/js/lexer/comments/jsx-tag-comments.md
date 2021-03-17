@@ -172,7 +172,7 @@ const pure = () => {
                                 "start": 18,
                                 "end": 126
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 12,

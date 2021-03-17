@@ -56,37 +56,9 @@ x = {arrow: async => ok}
                                     "kind": 83976,
                                     "typeParameters": null,
                                     "parameters": {
-                                        "kind": 81929,
-                                        "elements": [
-                                            {
-                                                "kind": 16473,
-                                                "ellipsis": false,
-                                                "binding": {
-                                                    "kind": 4325406,
-                                                    "text": "async",
-                                                    "rawText": "async",
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 11,
-                                                    "end": 17
-                                                },
-                                                "isOptional": false,
-                                                "type": null,
-                                                "initializer": null,
-                                                "decorators": null,
-                                                "accessModifier": null,
-                                                "isReadOnly": false,
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1,
-                                                "start": 17,
-                                                "end": 17
-                                            }
-                                        ],
-                                        "type": null,
-                                        "accessModifier": null,
-                                        "trailingComma": false,
+                                        "kind": 4325406,
+                                        "text": "async",
+                                        "rawText": "async",
                                         "flags": 0,
                                         "symbol": null,
                                         "transformFlags": 0,

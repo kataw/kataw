@@ -108,7 +108,7 @@ var v = (public x: string) => { };
                                 "start": 29,
                                 "end": 33
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,

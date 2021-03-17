@@ -107,7 +107,7 @@ var v = () => {
                                 "start": 13,
                                 "end": 34
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
