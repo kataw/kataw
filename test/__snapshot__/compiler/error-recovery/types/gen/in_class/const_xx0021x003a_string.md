@@ -143,12 +143,22 @@ const x!: string class const x!: string { field: const x!: string}
                                             "end": 48
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "",
-                                            "rawText": "",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "",
+                                                "rawText": "",
+                                                "flags": 1,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 48,
+                                                "end": 48
+                                            },
+                                            "right": null,
                                             "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 48,
                                             "end": 48
                                         },
@@ -157,6 +167,45 @@ const x!: string class const x!: string { field: const x!: string}
                                         "transformFlags": 1025,
                                         "start": 41,
                                         "end": 48
+                                    },
+                                    {
+                                        "kind": 32,
+                                        "ellipsis": false,
+                                        "key": {
+                                            "kind": 196711,
+                                            "text": "const",
+                                            "rawText": "const",
+                                            "flags": 1,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 48,
+                                            "end": 54
+                                        },
+                                        "value": {
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 1,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 54,
+                                                "end": 56
+                                            },
+                                            "right": null,
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 1,
+                                            "start": 54,
+                                            "end": 56
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 1025,
+                                        "start": 48,
+                                        "end": 56
                                     }
                                 ],
                                 "multiline": false,
@@ -165,13 +214,13 @@ const x!: string class const x!: string { field: const x!: string}
                                 "flags": 1,
                                 "symbol": null,
                                 "start": 41,
-                                "end": 48
+                                "end": 56
                             },
                             "flags": 1,
                             "symbol": null,
                             "transformFlags": 1025,
                             "start": 39,
-                            "end": 48
+                            "end": 56
                         },
                         "exclamation": false,
                         "type": null,
@@ -180,71 +229,104 @@ const x!: string class const x!: string { field: const x!: string}
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 39,
-                        "end": 48
+                        "end": 56
                     }
                 ],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 22,
-                "end": 48
+                "end": 56
             },
             "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 22,
-            "end": 48
+            "end": 56
         },
         {
-            "kind": 142,
-            "binding": {
-                "kind": 31,
-                "lexicals": [
-                    {
-                        "kind": 16525,
-                        "binding": {
-                            "kind": 131102,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1025,
-                            "start": 54,
-                            "end": 56
-                        },
-                        "exclamation": true,
-                        "type": {
-                            "kind": 4202702,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 2097152,
-                            "start": 58,
-                            "end": 65
-                        },
-                        "initializer": null,
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 0,
-                        "start": 54,
-                        "end": 65
-                    }
-                ],
-                "flags": 40,
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "!",
+                "operand": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 3,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 57,
+                    "end": 57
+                },
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 48,
+                "start": 56,
+                "end": 57
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "string",
+                "rawText": "string",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 58,
                 "end": 65
             },
-            "flags": 40,
+            "flags": 0,
             "symbol": null,
-            "transformFlags": 769,
-            "start": 48,
+            "transformFlags": 0,
+            "start": 58,
             "end": 65
         }
     ],
     "isModule": false,
     "printable": true,
     "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
+            "start": 40,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected 'const' is a reserved word that cannot be used here",
+            "start": 49,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "':' expected.",
+            "start": 55,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
+            "start": 56,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected",
+            "start": 57,
+            "length": 0
+        },
         {
             "kind": 2,
             "source": 2,

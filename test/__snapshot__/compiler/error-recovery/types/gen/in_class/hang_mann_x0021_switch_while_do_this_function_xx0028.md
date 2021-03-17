@@ -315,12 +315,22 @@ hang mann ! switch while do this function x( class hang mann ! switch while do t
                                                         "end": 104
                                                     },
                                                     "value": {
-                                                        "kind": 131102,
-                                                        "text": "hang",
-                                                        "rawText": "hang",
+                                                        "kind": 16412,
+                                                        "ellipsis": false,
+                                                        "left": {
+                                                            "kind": 131102,
+                                                            "text": "hang",
+                                                            "rawText": "hang",
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 1025,
+                                                            "start": 104,
+                                                            "end": 109
+                                                        },
+                                                        "right": null,
                                                         "flags": 0,
                                                         "symbol": null,
-                                                        "transformFlags": 1025,
+                                                        "transformFlags": 1,
                                                         "start": 104,
                                                         "end": 109
                                                     },

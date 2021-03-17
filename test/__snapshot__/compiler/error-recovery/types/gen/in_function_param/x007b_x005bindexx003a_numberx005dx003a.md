@@ -65,12 +65,22 @@ function ( { [index: number]: ) ;
                                             "end": 19
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "number",
-                                            "rawText": "number",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "number",
+                                                "rawText": "number",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 20,
+                                                "end": 27
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 20,
                                             "end": 27
                                         },

@@ -186,12 +186,22 @@ x function y (string: void class x function y (string: void { field: x function 
                                                             "end": 68
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "x",
-                                                            "rawText": "x",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 68,
+                                                                "end": 70
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 68,
                                                             "end": 70
                                                         },
@@ -200,6 +210,45 @@ x function y (string: void class x function y (string: void { field: x function 
                                                         "transformFlags": 1025,
                                                         "start": 61,
                                                         "end": 70
+                                                    },
+                                                    {
+                                                        "kind": 32,
+                                                        "ellipsis": false,
+                                                        "key": {
+                                                            "kind": 196711,
+                                                            "text": "function",
+                                                            "rawText": "function",
+                                                            "flags": 1,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 70,
+                                                            "end": 79
+                                                        },
+                                                        "value": {
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "y",
+                                                                "rawText": "y",
+                                                                "flags": 1,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 79,
+                                                                "end": 81
+                                                            },
+                                                            "right": null,
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 1,
+                                                            "start": 79,
+                                                            "end": 81
+                                                        },
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 1025,
+                                                        "start": 70,
+                                                        "end": 81
                                                     }
                                                 ],
                                                 "multiline": false,
@@ -208,13 +257,13 @@ x function y (string: void class x function y (string: void { field: x function 
                                                 "flags": 1,
                                                 "symbol": null,
                                                 "start": 61,
-                                                "end": 70
+                                                "end": 81
                                             },
                                             "flags": 1,
                                             "symbol": null,
                                             "transformFlags": 1025,
                                             "start": 59,
-                                            "end": 70
+                                            "end": 81
                                         },
                                         "isOptional": false,
                                         "type": null,
@@ -226,7 +275,7 @@ x function y (string: void class x function y (string: void { field: x function 
                                         "symbol": null,
                                         "transformFlags": 1,
                                         "start": 59,
-                                        "end": 70
+                                        "end": 81
                                     }
                                 ],
                                 "trailingComma": false,
@@ -234,7 +283,7 @@ x function y (string: void class x function y (string: void { field: x function 
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 47,
-                                "end": 79
+                                "end": 83
                             },
                             "type": null,
                             "contents": {
@@ -243,73 +292,48 @@ x function y (string: void class x function y (string: void { field: x function 
                                     "kind": 94,
                                     "statements": [
                                         {
-                                            "kind": 2097233,
-                                            "expression": {
-                                                "kind": 1073807915,
-                                                "expression": {
-                                                    "kind": 196712,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 79,
-                                                    "end": 81
-                                                },
-                                                "typeArguments": null,
-                                                "argumentList": {
-                                                    "kind": 3,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 16473,
-                                                            "ellipsis": false,
-                                                            "binding": {
-                                                                "kind": 4325406,
-                                                                "text": "string",
-                                                                "rawText": "string",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 0,
-                                                                "start": 83,
-                                                                "end": 89
-                                                            },
-                                                            "isOptional": false,
-                                                            "type": {
-                                                                "kind": 4202742,
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 2097152,
-                                                                "start": 90,
-                                                                "end": 95
-                                                            },
-                                                            "initializer": null,
-                                                            "decorators": null,
-                                                            "accessModifier": null,
-                                                            "isReadOnly": false,
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 1,
-                                                            "start": 83,
-                                                            "end": 95
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "transformFlags": 0,
-                                                    "flags": 1,
-                                                    "symbol": null,
-                                                    "start": 89,
-                                                    "end": 95
-                                                },
-                                                "flags": 1,
+                                            "kind": 2097292,
+                                            "label": {
+                                                "kind": 196712,
+                                                "text": "string",
+                                                "rawText": "string",
+                                                "flags": 0,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 81,
+                                                "start": 83,
+                                                "end": 89
+                                            },
+                                            "statement": {
+                                                "kind": 2097233,
+                                                "expression": {
+                                                    "kind": 65774,
+                                                    "operator": "void",
+                                                    "operand": {
+                                                        "kind": 131322,
+                                                        "text": "",
+                                                        "flags": 3,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 95,
+                                                        "end": 95
+                                                    },
+                                                    "flags": 1,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 90,
+                                                    "end": 95
+                                                },
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 90,
                                                 "end": 95
                                             },
-                                            "flags": 0,
+                                            "isWebCompat": true,
+                                            "flags": 1,
                                             "symbol": null,
                                             "transformFlags": 0,
-                                            "start": 79,
+                                            "start": 83,
                                             "end": 95
                                         }
                                     ],
@@ -317,13 +341,13 @@ x function y (string: void class x function y (string: void { field: x function 
                                     "flags": 1,
                                     "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 79,
+                                    "start": 83,
                                     "end": 95
                                 },
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 70,
+                                "start": 81,
                                 "end": 96
                             },
                             "typeParameters": null,
@@ -361,7 +385,56 @@ x function y (string: void class x function y (string: void { field: x function 
         {
             "kind": 2,
             "source": 2,
+            "message": "';' expected.",
+            "start": 2,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Expression or comma expected.",
+            "start": 27,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 35,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Expression or comma expected.",
+            "start": 60,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
             "message": "',' expected.",
+            "start": 71,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "':' expected.",
+            "start": 80,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "',' expected.",
+            "start": 82,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected",
             "start": 95,
             "length": 0
         }

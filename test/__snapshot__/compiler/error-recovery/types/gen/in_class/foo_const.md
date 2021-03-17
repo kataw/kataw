@@ -113,12 +113,22 @@ foo const class foo const { field: foo const}
                                             "end": 34
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "foo",
-                                            "rawText": "foo",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "foo",
+                                                "rawText": "foo",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 34,
+                                                "end": 38
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 34,
                                             "end": 38
                                         },
@@ -127,6 +137,45 @@ foo const class foo const { field: foo const}
                                         "transformFlags": 1025,
                                         "start": 27,
                                         "end": 38
+                                    },
+                                    {
+                                        "kind": 32,
+                                        "ellipsis": false,
+                                        "key": {
+                                            "kind": 196711,
+                                            "text": "const",
+                                            "rawText": "const",
+                                            "flags": 1,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 38,
+                                            "end": 44
+                                        },
+                                        "value": {
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "",
+                                                "rawText": "",
+                                                "flags": 1,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 44,
+                                                "end": 44
+                                            },
+                                            "right": null,
+                                            "flags": 1,
+                                            "symbol": null,
+                                            "transformFlags": 1,
+                                            "start": 44,
+                                            "end": 44
+                                        },
+                                        "flags": 1,
+                                        "symbol": null,
+                                        "transformFlags": 1025,
+                                        "start": 38,
+                                        "end": 44
                                     }
                                 ],
                                 "multiline": false,
@@ -135,52 +184,35 @@ foo const class foo const { field: foo const}
                                 "flags": 1,
                                 "symbol": null,
                                 "start": 27,
-                                "end": 38
+                                "end": 44
                             },
-                            "flags": 1,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 1025,
                             "start": 25,
-                            "end": 38
+                            "end": 45
                         },
                         "exclamation": false,
                         "type": null,
                         "initializer": null,
-                        "flags": 1,
+                        "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 25,
-                        "end": 38
+                        "end": 45
                     }
                 ],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 19,
-                "end": 38
+                "end": 45
             },
             "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 19,
-            "end": 38
-        },
-        {
-            "kind": 142,
-            "binding": {
-                "kind": 31,
-                "lexicals": [],
-                "flags": 40,
-                "symbol": null,
-                "transformFlags": 0,
-                "start": 38,
-                "end": 44
-            },
-            "flags": 40,
-            "symbol": null,
-            "transformFlags": 769,
-            "start": 38,
-            "end": 44
+            "end": 45
         }
     ],
     "isModule": false,
@@ -189,7 +221,14 @@ foo const class foo const { field: foo const}
         {
             "kind": 2,
             "source": 2,
-            "message": "Declaration or statement expected",
+            "message": "',' expected.",
+            "start": 39,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "':' expected.",
             "start": 44,
             "length": 0
         }

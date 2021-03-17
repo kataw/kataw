@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-var {[2]: y} = {2:3}
+var { class} = obj;
 `````
 
 ## Output
@@ -13,7 +13,7 @@ var {[2]: y} = {2:3}
 ```javascript
 {
     "kind": 2243,
-    "source": "var {[2]: y} = {2:3}",
+    "source": "var { class} = obj;",
     "filename": "",
     "statements": [
         {
@@ -32,44 +32,36 @@ var {[2]: y} = {2:3}
                                         "kind": 32,
                                         "ellipsis": false,
                                         "key": {
-                                            "kind": 65591,
-                                            "expression": {
-                                                "kind": 4261540,
-                                                "text": 2,
-                                                "rawText": "2",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 6,
-                                                "end": 7
-                                            },
+                                            "kind": 196711,
+                                            "text": "class",
+                                            "rawText": "class",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 131073,
+                                            "transformFlags": 0,
                                             "start": 5,
-                                            "end": 8
+                                            "end": 11
                                         },
                                         "value": {
                                             "kind": 16412,
                                             "ellipsis": false,
                                             "left": {
                                                 "kind": 131102,
-                                                "text": "y",
-                                                "rawText": "y",
-                                                "flags": 0,
+                                                "text": "",
+                                                "rawText": "",
+                                                "flags": 1,
                                                 "symbol": null,
                                                 "transformFlags": 1025,
-                                                "start": 9,
+                                                "start": 11,
                                                 "end": 11
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 1,
                                             "symbol": null,
                                             "transformFlags": 1,
-                                            "start": 9,
+                                            "start": 11,
                                             "end": 11
                                         },
-                                        "flags": 0,
+                                        "flags": 1,
                                         "symbol": null,
                                         "transformFlags": 1025,
                                         "start": 5,
@@ -79,7 +71,7 @@ var {[2]: y} = {2:3}
                                 "multiline": false,
                                 "trailingComma": false,
                                 "transformFlags": 1025,
-                                "flags": 0,
+                                "flags": 1,
                                 "symbol": null,
                                 "start": 5,
                                 "end": 11
@@ -93,84 +85,52 @@ var {[2]: y} = {2:3}
                         "exclamation": false,
                         "type": null,
                         "initializer": {
-                            "kind": 98984,
-                            "propertyList": {
-                                "kind": 65722,
-                                "properties": [
-                                    {
-                                        "kind": 65721,
-                                        "left": {
-                                            "kind": 4261540,
-                                            "text": 2,
-                                            "rawText": "2",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 16,
-                                            "end": 17
-                                        },
-                                        "right": {
-                                            "kind": 4261540,
-                                            "text": 3,
-                                            "rawText": "3",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 18,
-                                            "end": 19
-                                        },
-                                        "accessModifier": null,
-                                        "decorators": null,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 0,
-                                        "start": 16,
-                                        "end": 19
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 19
-                            },
+                            "kind": 196712,
+                            "text": "obj",
+                            "rawText": "obj",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 14,
-                            "end": 20
+                            "end": 18
                         },
                         "flags": 3,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 0,
-                        "end": 20
+                        "end": 18
                     }
                 ],
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 3,
-                "end": 20
+                "end": 18
             },
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
-            "end": 20
+            "end": 19
         }
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "':' expected.",
+            "start": 11,
+            "length": 0
+        }
+    ],
     "original": null,
     "symbol": null,
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 20
+    "end": 19
 }
 ```
 

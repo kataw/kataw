@@ -124,12 +124,22 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                                                 "end": 49
                                                                             },
                                                                             "value": {
-                                                                                "kind": 131102,
-                                                                                "text": "await",
-                                                                                "rawText": "await",
+                                                                                "kind": 16412,
+                                                                                "ellipsis": false,
+                                                                                "left": {
+                                                                                    "kind": 131102,
+                                                                                    "text": "await",
+                                                                                    "rawText": "await",
+                                                                                    "flags": 0,
+                                                                                    "symbol": null,
+                                                                                    "transformFlags": 1025,
+                                                                                    "start": 49,
+                                                                                    "end": 55
+                                                                                },
+                                                                                "right": null,
                                                                                 "flags": 0,
                                                                                 "symbol": null,
-                                                                                "transformFlags": 1025,
+                                                                                "transformFlags": 1,
                                                                                 "start": 49,
                                                                                 "end": 55
                                                                             },

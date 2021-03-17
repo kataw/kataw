@@ -3940,7 +3940,7 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   const properties = [];
   let trailingComma = false;
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
-  while (parser.token & (Token.IsEllipsis | Token.IsIdentifier | Token.FutureReserved | Token.IsProperty)) {
+  while (parser.token & 0b00010100000000000111000000000000) {
     properties.push(parseBindingProperty(parser, context));
     if (parser.token === Token.RightBrace) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
@@ -3958,14 +3958,15 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
   const pos = parser.curPos;
   const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
-  if (parser.token & (Token.FutureReserved | Token.Keyword | Token.IsIdentifier)) {
+
+  if (parser.token & (Token.FutureReserved | Token.IsIdentifier)) {
     const { tokenValue, raw, nodeFlags } = parser;
     nextToken(parser, context);
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Colon)) {
       return createBindingProperty(
         ellipsis,
         createIdentifierName(tokenValue, raw, nodeFlags, pos, parser.curPos),
-        parseIdentifierOrPattern(parser, context),
+        parseBindingElement(parser, context),
         parser.nodeFlags,
         pos,
         parser.curPos
@@ -3985,7 +3986,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
   return createBindingProperty(
     ellipsis,
     key,
-    parseIdentifierOrPattern(parser, context),
+    parseBindingElement(parser, context),
     parser.nodeFlags,
     pos,
     parser.curPos

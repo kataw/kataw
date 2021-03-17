@@ -124,39 +124,29 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                                 "end": 47
                                                                             },
                                                                             "value": {
-                                                                                "kind": 131102,
-                                                                                "text": "",
-                                                                                "rawText": "",
-                                                                                "flags": 1,
-                                                                                "symbol": null,
-                                                                                "transformFlags": 1025,
-                                                                                "start": 47,
-                                                                                "end": 47
-                                                                            },
-                                                                            "flags": 1,
-                                                                            "symbol": null,
-                                                                            "transformFlags": 1025,
-                                                                            "start": 44,
-                                                                            "end": 47
-                                                                        },
-                                                                        {
-                                                                            "kind": 203,
-                                                                            "ellipsis": true,
-                                                                            "left": {
-                                                                                "kind": 131102,
-                                                                                "text": "await",
-                                                                                "rawText": "await",
+                                                                                "kind": 16412,
+                                                                                "ellipsis": true,
+                                                                                "left": {
+                                                                                    "kind": 131102,
+                                                                                    "text": "await",
+                                                                                    "rawText": "await",
+                                                                                    "flags": 0,
+                                                                                    "symbol": null,
+                                                                                    "transformFlags": 1025,
+                                                                                    "start": 51,
+                                                                                    "end": 56
+                                                                                },
+                                                                                "right": null,
                                                                                 "flags": 0,
                                                                                 "symbol": null,
-                                                                                "transformFlags": 1025,
+                                                                                "transformFlags": 4097,
                                                                                 "start": 47,
                                                                                 "end": 56
                                                                             },
-                                                                            "right": null,
                                                                             "flags": 0,
                                                                             "symbol": null,
-                                                                            "transformFlags": 1024,
-                                                                            "start": 47,
+                                                                            "transformFlags": 1025,
+                                                                            "start": 44,
                                                                             "end": 56
                                                                         },
                                                                         {
@@ -285,13 +275,6 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 48,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

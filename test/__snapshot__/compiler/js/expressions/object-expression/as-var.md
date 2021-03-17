@@ -49,12 +49,22 @@ var {...[]} = {}
                                             "end": 10
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "",
-                                            "rawText": "",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "",
+                                                "rawText": "",
+                                                "flags": 1,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 10,
+                                                "end": 10
+                                            },
+                                            "right": null,
                                             "flags": 1,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 10,
                                             "end": 10
                                         },

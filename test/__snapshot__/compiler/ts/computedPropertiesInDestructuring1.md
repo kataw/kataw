@@ -130,12 +130,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 27
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "bar",
-                                            "rawText": "bar",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "bar",
+                                                "rawText": "bar",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 28,
+                                                "end": 32
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 28,
                                             "end": 32
                                         },
@@ -265,12 +275,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 63
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "bar2",
-                                            "rawText": "bar2",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "bar2",
+                                                "rawText": "bar2",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 64,
+                                                "end": 69
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 64,
                                             "end": 69
                                         },
@@ -488,12 +508,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 125
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "bar3",
-                                            "rawText": "bar3",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "bar3",
+                                                "rawText": "bar3",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 126,
+                                                "end": 131
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 126,
                                             "end": 131
                                         },
@@ -631,12 +661,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 161
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "bar4",
-                                                            "rawText": "bar4",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "bar4",
+                                                                "rawText": "bar4",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 162,
+                                                                "end": 167
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 162,
                                                             "end": 167
                                                         },
@@ -834,12 +874,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 202
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "bar5",
-                                                            "rawText": "bar5",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "bar5",
+                                                                "rawText": "bar5",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 203,
+                                                                "end": 208
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 203,
                                                             "end": 208
                                                         },
@@ -1021,12 +1071,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 250
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 251,
+                                                "end": 253
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 251,
                                             "end": 253
                                         },
@@ -1191,12 +1251,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 294
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 295,
+                                                "end": 297
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 295,
                                             "end": 297
                                         },
@@ -1380,12 +1450,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                             "end": 341
                                         },
                                         "value": {
-                                            "kind": 131102,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "kind": 16412,
+                                            "ellipsis": false,
+                                            "left": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 1025,
+                                                "start": 342,
+                                                "end": 344
+                                            },
+                                            "right": null,
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 1025,
+                                            "transformFlags": 1,
                                             "start": 342,
                                             "end": 344
                                         },
@@ -1558,12 +1638,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 386
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "x",
-                                                            "rawText": "x",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 387,
+                                                                "end": 389
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 387,
                                                             "end": 389
                                                         },
@@ -1787,12 +1877,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 437
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "x",
-                                                            "rawText": "x",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 438,
+                                                                "end": 440
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 438,
                                                             "end": 440
                                                         },
@@ -2005,12 +2105,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 557
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "bar6",
-                                                            "rawText": "bar6",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "bar6",
+                                                                "rawText": "bar6",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 558,
+                                                                "end": 563
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 558,
                                                             "end": 563
                                                         },
@@ -2231,12 +2341,22 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                             "end": 611
                                                         },
                                                         "value": {
-                                                            "kind": 131102,
-                                                            "text": "bar7",
-                                                            "rawText": "bar7",
+                                                            "kind": 16412,
+                                                            "ellipsis": false,
+                                                            "left": {
+                                                                "kind": 131102,
+                                                                "text": "bar7",
+                                                                "rawText": "bar7",
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 1025,
+                                                                "start": 612,
+                                                                "end": 617
+                                                            },
+                                                            "right": null,
                                                             "flags": 0,
                                                             "symbol": null,
-                                                            "transformFlags": 1025,
+                                                            "transformFlags": 1,
                                                             "start": 612,
                                                             "end": 617
                                                         },
