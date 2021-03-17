@@ -22,7 +22,6 @@ let x:  never[] | string[];  never[] | string[];
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -89,10 +88,10 @@ let x:  never[] | string[];  never[] | string[];
                         "end": 26
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 26
             },
             "flags": 8,

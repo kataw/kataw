@@ -40,7 +40,6 @@ type const x!: string = x extends const x!: string
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -82,13 +81,13 @@ type const x!: string = x extends const x!: string
                         "end": 25
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 10,
+                "start": 4,
                 "end": 25
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 4,
@@ -96,7 +95,6 @@ type const x!: string = x extends const x!: string
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -129,13 +127,13 @@ type const x!: string = x extends const x!: string
                         "end": 50
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 39,
+                "start": 33,
                 "end": 50
             },
-            "flags": 8,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 33,
@@ -144,22 +142,7 @@ type const x!: string = x extends const x!: string
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 5,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 26,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

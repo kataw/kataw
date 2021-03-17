@@ -382,7 +382,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -444,10 +443,10 @@ const x: E.ONE = e;
                         "end": 160
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 145,
+                "start": 138,
                 "end": 160
             },
             "flags": 32776,
@@ -458,7 +457,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -520,10 +518,10 @@ const x: E.ONE = e;
                         "end": 182
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 167,
+                "start": 161,
                 "end": 182
             },
             "flags": 32776,
@@ -534,7 +532,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -610,10 +607,10 @@ const x: E.ONE = e;
                         "end": 206
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 190,
+                "start": 183,
                 "end": 206
             },
             "flags": 32776,
@@ -624,7 +621,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -700,10 +696,10 @@ const x: E.ONE = e;
                         "end": 229
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 213,
+                "start": 207,
                 "end": 229
             },
             "flags": 32776,
@@ -1432,7 +1428,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -1508,10 +1503,10 @@ const x: E.ONE = e;
                         "end": 781
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 768,
+                "start": 762,
                 "end": 781
             },
             "flags": 32776,
@@ -1522,7 +1517,6 @@ const x: E.ONE = e;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -1593,10 +1587,10 @@ const x: E.ONE = e;
                         "end": 801
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 788,
+                "start": 782,
                 "end": 801
             },
             "flags": 32776,

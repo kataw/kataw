@@ -19,7 +19,6 @@ let {[foo2()]: bar3} = {};
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -75,10 +74,10 @@ let {[foo2()]: bar3} = {};
                         "end": 22
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 22
             },
             "flags": 32776,
@@ -89,7 +88,6 @@ let {[foo2()]: bar3} = {};
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -209,10 +207,10 @@ let {[foo2()]: bar3} = {};
                         "end": 49
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 27,
+                "start": 23,
                 "end": 49
             },
             "flags": 32776,

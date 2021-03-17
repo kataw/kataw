@@ -25,7 +25,6 @@ var callCount = 0;
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -130,10 +129,10 @@ var callCount = 0;
                         "end": 20
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 20
             },
             "flags": 32776,
@@ -144,7 +143,6 @@ var callCount = 0;
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -178,10 +176,10 @@ var callCount = 0;
                         "end": 48
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 25,
+                "start": 21,
                 "end": 48
             },
             "flags": 32776,

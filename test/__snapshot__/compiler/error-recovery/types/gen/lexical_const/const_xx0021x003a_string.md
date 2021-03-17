@@ -22,7 +22,6 @@ const x: const x!: string= {x:const x!: string}:const x!: string
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -183,13 +182,13 @@ const x: const x!: string= {x:const x!: string}:const x!: string
                         "end": 47
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 47
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -197,7 +196,6 @@ const x: const x!: string= {x:const x!: string}:const x!: string
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -230,13 +228,13 @@ const x: const x!: string= {x:const x!: string}:const x!: string
                         "end": 64
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 53,
+                "start": 48,
                 "end": 64
             },
-            "flags": 8,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 48,
@@ -245,36 +243,7 @@ const x: const x!: string= {x:const x!: string}:const x!: string
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 15,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 30,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 36,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 47,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

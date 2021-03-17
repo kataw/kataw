@@ -24,7 +24,6 @@ export const x!: string = const x!: string
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": true,
                 "binding": {
                     "kind": 31,
                     "bindingList": [
@@ -65,13 +64,13 @@ export const x!: string = const x!: string
                             "end": 25
                         }
                     ],
-                    "flags": 9,
+                    "flags": 40,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
+                    "start": 6,
                     "end": 25
                 },
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 769,
                 "start": 0,
@@ -81,7 +80,7 @@ export const x!: string = const x!: string
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 1,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
@@ -89,7 +88,6 @@ export const x!: string = const x!: string
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -122,13 +120,13 @@ export const x!: string = const x!: string
                         "end": 42
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 31,
+                "start": 25,
                 "end": 42
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 25,
@@ -137,15 +135,7 @@ export const x!: string = const x!: string
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 26,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

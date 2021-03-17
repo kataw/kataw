@@ -22,7 +22,6 @@ const x: xport a: string) {= {x:xport a: string) {}:xport a: string) {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -94,13 +93,13 @@ const x: xport a: string) {= {x:xport a: string) {}:xport a: string) {
                         "end": 24
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 24
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

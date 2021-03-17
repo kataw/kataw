@@ -604,7 +604,6 @@ const TestRender = () => <TestComponent />;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -677,10 +676,10 @@ const TestRender = () => <TestComponent />;
                         "end": 356
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 319,
+                "start": 312,
                 "end": 356
             },
             "flags": 32776,

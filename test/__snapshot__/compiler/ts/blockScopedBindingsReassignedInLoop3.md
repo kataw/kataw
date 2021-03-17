@@ -107,81 +107,72 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
         {
             "kind": 2099288,
             "initializer": {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 16525,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 8,
-                                "end": 10
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 14
-                            },
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 8,
+                            "end": 10
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 1,
+                            "rawText": "1",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 8,
+                            "start": 12,
                             "end": 14
                         },
-                        {
-                            "kind": 16525,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 15,
-                                "end": 17
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 2,
-                                "rawText": "2",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 19,
-                                "end": 21
-                            },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 14
+                    },
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 15,
+                            "end": 17
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 2,
+                            "rawText": "2",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 15,
+                            "start": 19,
                             "end": 21
-                        }
-                    ],
-                    "flags": 8,
-                    "symbol": null,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 21
-                },
-                "flags": 0,
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 21
+                    }
+                ],
+                "flags": 24,
                 "symbol": null,
-                "transformFlags": 256,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 21
             },
@@ -292,7 +283,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "statements": [
                     {
                         "kind": 142,
-                        "isConst": false,
                         "binding": {
                             "kind": 31,
                             "bindingList": [
@@ -385,10 +375,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 69
                                 }
                             ],
-                            "flags": 8,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 49,
+                            "start": 41,
                             "end": 69
                         },
                         "flags": 32776,
@@ -464,51 +454,42 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     {
                                         "kind": 2099288,
                                         "initializer": {
-                                            "kind": 142,
-                                            "isConst": false,
-                                            "binding": {
-                                                "kind": 31,
-                                                "bindingList": [
-                                                    {
-                                                        "kind": 16525,
-                                                        "binding": {
-                                                            "kind": 131102,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 1025,
-                                                            "start": 137,
-                                                            "end": 139
-                                                        },
-                                                        "exclamation": false,
-                                                        "type": null,
-                                                        "initializer": {
-                                                            "kind": 4261540,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 0,
-                                                            "start": 141,
-                                                            "end": 143
-                                                        },
+                                            "kind": 31,
+                                            "bindingList": [
+                                                {
+                                                    "kind": 16525,
+                                                    "binding": {
+                                                        "kind": 131102,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 1025,
+                                                        "start": 137,
+                                                        "end": 139
+                                                    },
+                                                    "exclamation": false,
+                                                    "type": null,
+                                                    "initializer": {
+                                                        "kind": 4261540,
+                                                        "text": 1,
+                                                        "rawText": "1",
                                                         "flags": 0,
                                                         "symbol": null,
                                                         "transformFlags": 0,
-                                                        "start": 137,
+                                                        "start": 141,
                                                         "end": 143
-                                                    }
-                                                ],
-                                                "flags": 8,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 137,
-                                                "end": 143
-                                            },
-                                            "flags": 0,
+                                                    },
+                                                    "flags": 0,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 137,
+                                                    "end": 143
+                                                }
+                                            ],
+                                            "flags": 24,
                                             "symbol": null,
-                                            "transformFlags": 256,
+                                            "transformFlags": 0,
                                             "start": 134,
                                             "end": 143
                                         },
@@ -567,7 +548,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "statements": [
                                                     {
                                                         "kind": 142,
-                                                        "isConst": false,
                                                         "binding": {
                                                             "kind": 31,
                                                             "bindingList": [
@@ -623,10 +603,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "end": 186
                                                                 }
                                                             ],
-                                                            "flags": 8,
+                                                            "flags": 24,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 174,
+                                                            "start": 158,
                                                             "end": 186
                                                         },
                                                         "flags": 32776,
@@ -860,81 +840,72 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
         {
             "kind": 2099288,
             "initializer": {
-                "kind": 142,
-                "isConst": false,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 16525,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 366,
-                                "end": 368
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 370,
-                                "end": 372
-                            },
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 366,
+                            "end": 368
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 1,
+                            "rawText": "1",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 366,
+                            "start": 370,
                             "end": 372
                         },
-                        {
-                            "kind": 16525,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 373,
-                                "end": 375
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 4261540,
-                                "text": 2,
-                                "rawText": "2",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 377,
-                                "end": 379
-                            },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 366,
+                        "end": 372
+                    },
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1025,
+                            "start": 373,
+                            "end": 375
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": {
+                            "kind": 4261540,
+                            "text": 2,
+                            "rawText": "2",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 373,
+                            "start": 377,
                             "end": 379
-                        }
-                    ],
-                    "flags": 8,
-                    "symbol": null,
-                    "transformFlags": 0,
-                    "start": 366,
-                    "end": 379
-                },
-                "flags": 0,
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 373,
+                        "end": 379
+                    }
+                ],
+                "flags": 24,
                 "symbol": null,
-                "transformFlags": 256,
+                "transformFlags": 0,
                 "start": 363,
                 "end": 379
             },
@@ -1045,7 +1016,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "statements": [
                     {
                         "kind": 142,
-                        "isConst": false,
                         "binding": {
                             "kind": 31,
                             "bindingList": [
@@ -1138,10 +1108,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 427
                                 }
                             ],
-                            "flags": 8,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 407,
+                            "start": 399,
                             "end": 427
                         },
                         "flags": 32776,
@@ -1217,51 +1187,42 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     {
                                         "kind": 2099288,
                                         "initializer": {
-                                            "kind": 142,
-                                            "isConst": false,
-                                            "binding": {
-                                                "kind": 31,
-                                                "bindingList": [
-                                                    {
-                                                        "kind": 16525,
-                                                        "binding": {
-                                                            "kind": 131102,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 1025,
-                                                            "start": 498,
-                                                            "end": 500
-                                                        },
-                                                        "exclamation": false,
-                                                        "type": null,
-                                                        "initializer": {
-                                                            "kind": 4261540,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 0,
-                                                            "symbol": null,
-                                                            "transformFlags": 0,
-                                                            "start": 502,
-                                                            "end": 504
-                                                        },
+                                            "kind": 31,
+                                            "bindingList": [
+                                                {
+                                                    "kind": 16525,
+                                                    "binding": {
+                                                        "kind": 131102,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 1025,
+                                                        "start": 498,
+                                                        "end": 500
+                                                    },
+                                                    "exclamation": false,
+                                                    "type": null,
+                                                    "initializer": {
+                                                        "kind": 4261540,
+                                                        "text": 1,
+                                                        "rawText": "1",
                                                         "flags": 0,
                                                         "symbol": null,
                                                         "transformFlags": 0,
-                                                        "start": 498,
+                                                        "start": 502,
                                                         "end": 504
-                                                    }
-                                                ],
-                                                "flags": 8,
-                                                "symbol": null,
-                                                "transformFlags": 0,
-                                                "start": 498,
-                                                "end": 504
-                                            },
-                                            "flags": 0,
+                                                    },
+                                                    "flags": 0,
+                                                    "symbol": null,
+                                                    "transformFlags": 0,
+                                                    "start": 498,
+                                                    "end": 504
+                                                }
+                                            ],
+                                            "flags": 24,
                                             "symbol": null,
-                                            "transformFlags": 256,
+                                            "transformFlags": 0,
                                             "start": 495,
                                             "end": 504
                                         },
@@ -1320,7 +1281,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "statements": [
                                                     {
                                                         "kind": 142,
-                                                        "isConst": false,
                                                         "binding": {
                                                             "kind": 31,
                                                             "bindingList": [
@@ -1376,10 +1336,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "end": 547
                                                                 }
                                                             ],
-                                                            "flags": 8,
+                                                            "flags": 24,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 535,
+                                                            "start": 519,
                                                             "end": 547
                                                         },
                                                         "flags": 32776,
@@ -1625,81 +1585,72 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
             "statement": {
                 "kind": 2099288,
                 "initializer": {
-                    "kind": 142,
-                    "isConst": false,
-                    "binding": {
-                        "kind": 31,
-                        "bindingList": [
-                            {
-                                "kind": 16525,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1025,
-                                    "start": 737,
-                                    "end": 739
-                                },
-                                "exclamation": false,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 4261540,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 741,
-                                    "end": 743
-                                },
+                    "kind": 31,
+                    "bindingList": [
+                        {
+                            "kind": 16525,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 737,
+                                "end": 739
+                            },
+                            "exclamation": false,
+                            "type": null,
+                            "initializer": {
+                                "kind": 4261540,
+                                "text": 1,
+                                "rawText": "1",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 737,
+                                "start": 741,
                                 "end": 743
                             },
-                            {
-                                "kind": 16525,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1025,
-                                    "start": 744,
-                                    "end": 746
-                                },
-                                "exclamation": false,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 4261540,
-                                    "text": 2,
-                                    "rawText": "2",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 748,
-                                    "end": 750
-                                },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 737,
+                            "end": 743
+                        },
+                        {
+                            "kind": 16525,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 744,
+                                "end": 746
+                            },
+                            "exclamation": false,
+                            "type": null,
+                            "initializer": {
+                                "kind": 4261540,
+                                "text": 2,
+                                "rawText": "2",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 744,
+                                "start": 748,
                                 "end": 750
-                            }
-                        ],
-                        "flags": 8,
-                        "symbol": null,
-                        "transformFlags": 0,
-                        "start": 737,
-                        "end": 750
-                    },
-                    "flags": 0,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 744,
+                            "end": 750
+                        }
+                    ],
+                    "flags": 24,
                     "symbol": null,
-                    "transformFlags": 256,
+                    "transformFlags": 0,
                     "start": 734,
                     "end": 750
                 },
@@ -1817,7 +1768,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "statements": [
                     {
                         "kind": 142,
-                        "isConst": false,
                         "binding": {
                             "kind": 31,
                             "bindingList": [
@@ -1910,10 +1860,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 798
                                 }
                             ],
-                            "flags": 8,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 778,
+                            "start": 770,
                             "end": 798
                         },
                         "flags": 32776,
@@ -2010,51 +1960,42 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "statement": {
                                             "kind": 2099288,
                                             "initializer": {
-                                                "kind": 142,
-                                                "isConst": false,
-                                                "binding": {
-                                                    "kind": 31,
-                                                    "bindingList": [
-                                                        {
-                                                            "kind": 16525,
-                                                            "binding": {
-                                                                "kind": 131102,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 1025,
-                                                                "start": 887,
-                                                                "end": 889
-                                                            },
-                                                            "exclamation": false,
-                                                            "type": null,
-                                                            "initializer": {
-                                                                "kind": 4261540,
-                                                                "text": 1,
-                                                                "rawText": "1",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 0,
-                                                                "start": 891,
-                                                                "end": 893
-                                                            },
+                                                "kind": 31,
+                                                "bindingList": [
+                                                    {
+                                                        "kind": 16525,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 1025,
+                                                            "start": 887,
+                                                            "end": 889
+                                                        },
+                                                        "exclamation": false,
+                                                        "type": null,
+                                                        "initializer": {
+                                                            "kind": 4261540,
+                                                            "text": 1,
+                                                            "rawText": "1",
                                                             "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 887,
+                                                            "start": 891,
                                                             "end": 893
-                                                        }
-                                                    ],
-                                                    "flags": 8,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 887,
-                                                    "end": 893
-                                                },
-                                                "flags": 0,
+                                                        },
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 887,
+                                                        "end": 893
+                                                    }
+                                                ],
+                                                "flags": 24,
                                                 "symbol": null,
-                                                "transformFlags": 256,
+                                                "transformFlags": 0,
                                                 "start": 884,
                                                 "end": 893
                                             },
@@ -2113,7 +2054,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "statements": [
                                                         {
                                                             "kind": 142,
-                                                            "isConst": false,
                                                             "binding": {
                                                                 "kind": 31,
                                                                 "bindingList": [
@@ -2169,10 +2109,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "end": 936
                                                                     }
                                                                 ],
-                                                                "flags": 8,
+                                                                "flags": 24,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
-                                                                "start": 924,
+                                                                "start": 908,
                                                                 "end": 936
                                                             },
                                                             "flags": 32776,
@@ -2452,81 +2392,72 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
             "statement": {
                 "kind": 2099288,
                 "initializer": {
-                    "kind": 142,
-                    "isConst": false,
-                    "binding": {
-                        "kind": 31,
-                        "bindingList": [
-                            {
-                                "kind": 16525,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1025,
-                                    "start": 1157,
-                                    "end": 1159
-                                },
-                                "exclamation": false,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 4261540,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 1161,
-                                    "end": 1163
-                                },
+                    "kind": 31,
+                    "bindingList": [
+                        {
+                            "kind": 16525,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 1157,
+                                "end": 1159
+                            },
+                            "exclamation": false,
+                            "type": null,
+                            "initializer": {
+                                "kind": 4261540,
+                                "text": 1,
+                                "rawText": "1",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 1157,
+                                "start": 1161,
                                 "end": 1163
                             },
-                            {
-                                "kind": 16525,
-                                "binding": {
-                                    "kind": 131102,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1025,
-                                    "start": 1164,
-                                    "end": 1166
-                                },
-                                "exclamation": false,
-                                "type": null,
-                                "initializer": {
-                                    "kind": 4261540,
-                                    "text": 2,
-                                    "rawText": "2",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 1168,
-                                    "end": 1170
-                                },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 1157,
+                            "end": 1163
+                        },
+                        {
+                            "kind": 16525,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 1164,
+                                "end": 1166
+                            },
+                            "exclamation": false,
+                            "type": null,
+                            "initializer": {
+                                "kind": 4261540,
+                                "text": 2,
+                                "rawText": "2",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 1164,
+                                "start": 1168,
                                 "end": 1170
-                            }
-                        ],
-                        "flags": 8,
-                        "symbol": null,
-                        "transformFlags": 0,
-                        "start": 1157,
-                        "end": 1170
-                    },
-                    "flags": 0,
+                            },
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 1164,
+                            "end": 1170
+                        }
+                    ],
+                    "flags": 24,
                     "symbol": null,
-                    "transformFlags": 256,
+                    "transformFlags": 0,
                     "start": 1154,
                     "end": 1170
                 },
@@ -2644,7 +2575,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "statements": [
                     {
                         "kind": 142,
-                        "isConst": false,
                         "binding": {
                             "kind": 31,
                             "bindingList": [
@@ -2737,10 +2667,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 1218
                                 }
                             ],
-                            "flags": 8,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 1198,
+                            "start": 1190,
                             "end": 1218
                         },
                         "flags": 32776,
@@ -2837,51 +2767,42 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "statement": {
                                             "kind": 2099288,
                                             "initializer": {
-                                                "kind": 142,
-                                                "isConst": false,
-                                                "binding": {
-                                                    "kind": 31,
-                                                    "bindingList": [
-                                                        {
-                                                            "kind": 16525,
-                                                            "binding": {
-                                                                "kind": 131102,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 1025,
-                                                                "start": 1310,
-                                                                "end": 1312
-                                                            },
-                                                            "exclamation": false,
-                                                            "type": null,
-                                                            "initializer": {
-                                                                "kind": 4261540,
-                                                                "text": 1,
-                                                                "rawText": "1",
-                                                                "flags": 0,
-                                                                "symbol": null,
-                                                                "transformFlags": 0,
-                                                                "start": 1314,
-                                                                "end": 1316
-                                                            },
+                                                "kind": 31,
+                                                "bindingList": [
+                                                    {
+                                                        "kind": 16525,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 1025,
+                                                            "start": 1310,
+                                                            "end": 1312
+                                                        },
+                                                        "exclamation": false,
+                                                        "type": null,
+                                                        "initializer": {
+                                                            "kind": 4261540,
+                                                            "text": 1,
+                                                            "rawText": "1",
                                                             "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 1310,
+                                                            "start": 1314,
                                                             "end": 1316
-                                                        }
-                                                    ],
-                                                    "flags": 8,
-                                                    "symbol": null,
-                                                    "transformFlags": 0,
-                                                    "start": 1310,
-                                                    "end": 1316
-                                                },
-                                                "flags": 0,
+                                                        },
+                                                        "flags": 0,
+                                                        "symbol": null,
+                                                        "transformFlags": 0,
+                                                        "start": 1310,
+                                                        "end": 1316
+                                                    }
+                                                ],
+                                                "flags": 24,
                                                 "symbol": null,
-                                                "transformFlags": 256,
+                                                "transformFlags": 0,
                                                 "start": 1307,
                                                 "end": 1316
                                             },
@@ -2940,7 +2861,6 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "statements": [
                                                         {
                                                             "kind": 142,
-                                                            "isConst": false,
                                                             "binding": {
                                                                 "kind": 31,
                                                                 "bindingList": [
@@ -2996,10 +2916,10 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "end": 1359
                                                                     }
                                                                 ],
-                                                                "flags": 8,
+                                                                "flags": 24,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
-                                                                "start": 1347,
+                                                                "start": 1331,
                                                                 "end": 1359
                                                             },
                                                             "flags": 32776,

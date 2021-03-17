@@ -100,7 +100,6 @@ var await; var f = (async function() { let [await f] = []; });
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
                                                     "bindingList": [
@@ -193,10 +192,10 @@ var await; var f = (async function() { let [await f] = []; });
                                                             "end": 57
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 42,
+                                                    "start": 38,
                                                     "end": 57
                                                 },
                                                 "flags": 8,

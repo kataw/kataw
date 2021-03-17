@@ -111,7 +111,6 @@ type T = <
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -172,10 +171,10 @@ type T = <
                         "end": 64
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 40,
+                "start": 34,
                 "end": 64
             },
             "flags": 32776,
@@ -524,7 +523,6 @@ type T = <
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -585,10 +583,10 @@ type T = <
                         "end": 279
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 254,
+                "start": 248,
                 "end": 279
             },
             "flags": 32776,

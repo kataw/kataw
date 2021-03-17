@@ -40,7 +40,6 @@
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -148,13 +147,13 @@
                         "end": 48
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 17,
+                "start": 13,
                 "end": 48
             },
-            "flags": 8,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 13,

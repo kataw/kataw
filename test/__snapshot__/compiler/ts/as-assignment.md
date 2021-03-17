@@ -47,7 +47,6 @@ this.intervalID = (setInterval(() => {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -359,10 +358,10 @@ this.intervalID = (setInterval(() => {
                         "end": 151
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 151
             },
             "flags": 32776,
@@ -373,7 +372,6 @@ this.intervalID = (setInterval(() => {
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -625,10 +623,10 @@ this.intervalID = (setInterval(() => {
                         "end": 364
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 159,
+                "start": 152,
                 "end": 364
             },
             "flags": 32776,

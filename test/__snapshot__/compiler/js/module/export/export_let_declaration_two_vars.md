@@ -26,7 +26,6 @@ export let x, y
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": false,
                 "binding": {
                     "kind": 31,
                     "bindingList": [
@@ -73,13 +72,13 @@ export let x, y
                             "end": 15
                         }
                     ],
-                    "flags": 8,
+                    "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 10,
+                    "start": 6,
                     "end": 15
                 },
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 769,
                 "start": 0,
@@ -89,7 +88,7 @@ export let x, y
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 0,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,

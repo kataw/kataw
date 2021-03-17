@@ -24,7 +24,6 @@ export let a: = let a:
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": false,
                 "binding": {
                     "kind": 31,
                     "bindingList": [
@@ -116,13 +115,13 @@ export let a: = let a:
                             "end": 22
                         }
                     ],
-                    "flags": 9,
+                    "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 10,
+                    "start": 6,
                     "end": 22
                 },
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 769,
                 "start": 0,
@@ -132,7 +131,7 @@ export let a: = let a:
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 1,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,

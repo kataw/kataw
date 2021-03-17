@@ -20,7 +20,6 @@ const assert3 = (value: unknown): asserts => {}
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -158,13 +157,13 @@ const assert3 = (value: unknown): asserts => {}
                         "end": 63
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 63
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -172,7 +171,6 @@ const assert3 = (value: unknown): asserts => {}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -303,13 +301,13 @@ const assert3 = (value: unknown): asserts => {}
                         "end": 117
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 69,
+                "start": 63,
                 "end": 117
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 63,
@@ -317,7 +315,6 @@ const assert3 = (value: unknown): asserts => {}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -447,13 +444,13 @@ const assert3 = (value: unknown): asserts => {}
                         "end": 165
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 123,
+                "start": 117,
                 "end": 165
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 117,

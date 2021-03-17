@@ -65,7 +65,6 @@ const x = foo()!;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -127,10 +126,10 @@ const x = foo()!;
                         "end": 24
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 13,
+                "start": 6,
                 "end": 24
             },
             "flags": 32776,

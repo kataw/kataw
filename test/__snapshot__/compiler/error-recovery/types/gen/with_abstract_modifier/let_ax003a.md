@@ -40,7 +40,6 @@ absrtact let a:
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -84,13 +83,13 @@ absrtact let a:
                         "end": 15
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 12,
+                "start": 8,
                 "end": 15
             },
-            "flags": 9,
+            "flags": 25,
             "symbol": null,
             "transformFlags": 769,
             "start": 8,
@@ -100,13 +99,6 @@ absrtact let a:
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 9,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

@@ -175,7 +175,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -208,13 +207,13 @@
                         "end": 48
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 37,
+                "start": 31,
                 "end": 48
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 31,
@@ -242,41 +241,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 10,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Expression or comma expected.",
-            "start": 19,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Expression or comma expected.",
-            "start": 20,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 21,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 32,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

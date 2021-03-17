@@ -106,7 +106,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                     "statements": [
                                                         {
                                                             "kind": 142,
-                                                            "isConst": false,
                                                             "binding": {
                                                                 "kind": 31,
                                                                 "bindingList": [
@@ -322,13 +321,13 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                         "end": 115
                                                                     }
                                                                 ],
-                                                                "flags": 8,
+                                                                "flags": 24,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
-                                                                "start": 62,
+                                                                "start": 59,
                                                                 "end": 115
                                                             },
-                                                            "flags": 8,
+                                                            "flags": 24,
                                                             "symbol": null,
                                                             "transformFlags": 769,
                                                             "start": 59,
@@ -336,7 +335,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
                                                     "start": 59,

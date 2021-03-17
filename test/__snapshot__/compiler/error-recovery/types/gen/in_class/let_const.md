@@ -40,17 +40,16 @@ let const class let const { field: let const}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 9,
+                "start": 3,
                 "end": 9
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 3,
@@ -82,7 +81,7 @@ let const class let const { field: let const}
             },
             "decorators": null,
             "isAbstract": false,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 1,
             "start": 9,
@@ -90,7 +89,6 @@ let const class let const { field: let const}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -165,13 +163,13 @@ let const class let const { field: let const}
                         "end": 38
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 25,
+                "start": 19,
                 "end": 38
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 19,
@@ -179,17 +177,16 @@ let const class let const { field: let const}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 44,
+                "start": 38,
                 "end": 44
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 38,
@@ -199,34 +196,6 @@ let const class let const { field: let const}
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 4,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 10,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'{' expected.",
-            "start": 20,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 39,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

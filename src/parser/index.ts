@@ -337,7 +337,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     case Token.LetKeyword: {
       const pos = parser.curPos;
       const flags = parser.nodeFlags;
-      if (tryParse(parser, context, nextKeywordCanFollowLexicalLet)) {
+      if (lookAhead(parser, context, nextKeywordCanFollowLexicalLet)) {
         return parseLexicalDeclaration(parser, context, /* isConst */ false, /* inForStatement */ false, flags, pos);
       }
       return parseStatement(parser, context, /* allowFunction */ true);
@@ -674,8 +674,12 @@ function parseIntrinsic(parser: ParserState, context: Context): IntrinsicKeyword
 function parseLexicalOrEnumDeclaration(parser: ParserState, context: Context): EnumDeclaration | LexicalDeclaration {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
-  nextToken(parser, context);
-  if (consumeOpt(parser, context, Token.EnumKeyword)) {
+  if (
+    tryParse(parser, context, function (parser, context) {
+      nextToken(parser, context);
+      return parser.token === Token.EnumKeyword;
+    })
+  ) {
     return parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, pos);
   }
   return parseLexicalDeclaration(parser, context, /* isConst */ true, /* inForStatement */ false, nodeFlags, pos);
@@ -828,10 +832,9 @@ function parseLexicalDeclaration(
   nodeFlags: NodeFlags,
   pos: number
 ): LexicalDeclaration {
-  const bindingList = parseBindingList(parser, context, inForStatement);
+  const bindingList = parseBindingList(parser, context, inForStatement, isConst);
   parseSemicolon(parser, context);
   return createLexicalDeclaration(
-    isConst,
     bindingList,
     nodeFlags | parser.nodeFlags | NodeFlags.BlockScoped,
     pos,
@@ -846,9 +849,15 @@ function parseLexicalDeclaration(
 // LexicalBinding :
 //   BindingIdentifier Initializer?
 //   BindingPattern Initializer
-function parseBindingList(parser: ParserState, context: Context, inForStatement: boolean): BindingList {
+function parseBindingList(
+  parser: ParserState,
+  context: Context,
+  inForStatement: boolean,
+  isConst: boolean
+): BindingList {
   const declarations = [];
   const pos = parser.curPos;
+  nextToken(parser, context);
   while (parser.token & 0b00000000000010000101000000000000) {
     declarations.push(parseLexicalBinding(parser, context));
     if (inForStatement && parser.token & Token.IsInOrOf) break;
@@ -861,7 +870,12 @@ function parseBindingList(parser: ParserState, context: Context, inForStatement:
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createBindingList(declarations, parser.nodeFlags | NodeFlags.BlockScoped, pos, parser.curPos);
+  return createBindingList(
+    declarations,
+    (parser.nodeFlags = (isConst ? NodeFlags.Const : NodeFlags.Let) | NodeFlags.BlockScoped),
+    pos,
+    parser.curPos
+  );
 }
 
 // LexicalBinding :
@@ -1178,24 +1192,18 @@ function parseForStatement(parser: ParserState, context: Context): any {
       nextToken(parser, context);
       initializer = parseVariableDeclarationList(parser, context | Context.DisallowIn, /* inForStatement */ true);
     } else if (parser.token === Token.ConstKeyword) {
-      const innerPos = parser.curPos;
-      nextToken(parser, context);
-      initializer = createLexicalDeclaration(
-        /* isConst */ true,
-        parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true),
-        NodeFlags.None,
-        innerPos,
-        parser.curPos
+      initializer = parseBindingList(
+        parser,
+        context | Context.DisallowIn,
+        /* inForStatement */ true,
+        /* isConst */ true
       );
     } else if (parser.token === Token.LetKeyword && lookAhead(parser, context, nextKeywordCanFollowLexicalLet)) {
-      const innerPos = parser.curPos;
-      nextToken(parser, context);
-      initializer = createLexicalDeclaration(
-        /* isConst */ false,
-        parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true),
-        NodeFlags.None,
-        innerPos,
-        parser.curPos
+      initializer = parseBindingList(
+        parser,
+        context | Context.DisallowIn,
+        /* inForStatement */ true,
+        /* isConst */ false
       );
     } else {
       initializer = parseExpression(parser, context | Context.DisallowIn);
@@ -4517,7 +4525,6 @@ function parseExportDeclaration(
     case Token.DefaultKeyword:
       return parseExportDefault(parser, context, pos);
     case Token.LetKeyword:
-      nextToken(parser, context);
       declaration = parseLexicalDeclaration(
         parser,
         context,
@@ -4529,8 +4536,11 @@ function parseExportDeclaration(
       break;
     case Token.ConstKeyword: {
       const { curPos, nodeFlags } = parser;
-      nextToken(parser, context);
-      declaration = consumeOpt(parser, context, Token.EnumKeyword)
+      parseLexicalDeclaration;
+      declaration = tryParse(parser, context, function (parser, context) {
+        nextToken(parser, context);
+        return parser.token === Token.EnumKeyword;
+      })
         ? parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, curPos)
         : parseLexicalDeclaration(
             parser,

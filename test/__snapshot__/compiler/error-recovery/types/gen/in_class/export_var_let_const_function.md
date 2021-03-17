@@ -73,17 +73,16 @@ export var let const function class export var let const function { field: expor
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 20,
+                "start": 14,
                 "end": 20
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 14,
@@ -170,17 +169,16 @@ export var let const function class export var let const function { field: expor
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
                                 "bindingList": [],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 56,
+                                "start": 50,
                                 "end": 56
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 50,
@@ -303,17 +301,16 @@ export var let const function class export var let const function { field: expor
                                         },
                                         {
                                             "kind": 142,
-                                            "isConst": true,
                                             "binding": {
                                                 "kind": 31,
                                                 "bindingList": [],
-                                                "flags": 8,
+                                                "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 95,
+                                                "start": 89,
                                                 "end": 95
                                             },
-                                            "flags": 9,
+                                            "flags": 41,
                                             "symbol": null,
                                             "transformFlags": 769,
                                             "start": 89,
@@ -344,7 +341,7 @@ export var let const function class export var let const function { field: expor
                                             "type": null,
                                             "contents": null,
                                             "typeParameters": null,
-                                            "flags": 1,
+                                            "flags": 41,
                                             "symbol": null,
                                             "transformFlags": 2097152,
                                             "start": 95,
@@ -365,7 +362,7 @@ export var let const function class export var let const function { field: expor
                                 "end": 105
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 56,
@@ -386,7 +383,7 @@ export var let const function class export var let const function { field: expor
                 "end": 105
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 20,
@@ -396,62 +393,6 @@ export var let const function class export var let const function { field: expor
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 15,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 21,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected 'class' is a reserved word that cannot be used here",
-            "start": 30,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 51,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 57,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 66,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 75,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 90,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

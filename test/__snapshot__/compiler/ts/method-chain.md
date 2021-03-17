@@ -374,7 +374,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     "statements": [
                                         {
                                             "kind": 142,
-                                            "isConst": true,
                                             "binding": {
                                                 "kind": 31,
                                                 "bindingList": [
@@ -409,10 +408,10 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "end": 223
                                                     }
                                                 ],
-                                                "flags": 8,
+                                                "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 214,
+                                                "start": 170,
                                                 "end": 223
                                             },
                                             "flags": 32776,

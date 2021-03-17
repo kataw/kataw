@@ -18,7 +18,6 @@ let s = e!.name;
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -84,10 +83,10 @@ let s = e!.name;
                         "end": 15
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 15
             },
             "flags": 8,

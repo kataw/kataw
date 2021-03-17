@@ -214,7 +214,6 @@ See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statement
 interface VariableStatement <: Declaration {
     kind: NodeKind.VariableDeclaration;
     declarationList: [ VariableDeclaration ];
-    isDeclared: boolean;
 }
 ```
 
@@ -294,7 +293,6 @@ interface AsyncGeneratorDeclaration <: Statements {
     name: BindingIdentifier;
     formalParameters: FormalParameterList;
     contents: FunctionBody;
-    isDeclared: boolean;
     typeParameters: TypeParameters;
     type: TypeNode | null;
 }
@@ -308,7 +306,6 @@ interface AsyncFunctionDeclaration <: Statements {
     name: BindingIdentifier;
     formalParameters: FormalParameterList;
     contents: FunctionBody;
-    isDeclared: boolean;
     typeParameters: TypeParameters;
     type: TypeNode | null;
 }
@@ -322,7 +319,6 @@ interface GeneratorDeclaration <: Statements {
     name: BindingIdentifier;
     formalParameters: FormalParameterList;
     contents: FunctionBody;
-    isDeclared: boolean;
     typeParameters: TypeParameters;
     type: TypeNode | null;
 }
@@ -336,7 +332,6 @@ interface FunctionDeclaration <: Statements {
     name: BindingIdentifier;
     formalParameters: FormalParameterList;
     contents: FunctionBody;
-    isDeclared: boolean;
     typeParameters: TypeParameters;
     type: TypeNode | null;
 }
@@ -351,20 +346,6 @@ interface ClassDeclaration <: Statements {
     typeParameters: TypeParameters;
     classHeritage: Expression | null;
     classElementList: ClassElementList;
-    isDeclared: boolean;
-}
-```
-
-## AbstractClassDeclaration
-
-```js
-interface AbstractClassDeclaration <: Statements {
-    kind: NodeKind.AbstractClassDeclaration;
-    name: BindingIdentifier | null;
-    typeParameters: TypeParameters;
-    classHeritage: Expression | null;
-    classElementList: ClassElementList;
-    isDeclared: boolean;
 }
 ```
 
@@ -374,8 +355,5 @@ interface AbstractClassDeclaration <: Statements {
 interface LexicalDeclaration <: Statements {
     kind: NodeKind.LexicalDeclaration;
     bindingList: BindingList;
-    isConst: boolean;
-    isDeclared: boolean,
 }
 ```
-`isConst` should be set to `true` for lexical `const` declarations

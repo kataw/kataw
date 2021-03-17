@@ -22,7 +22,6 @@ const x:  Array<new () => string= {x: Array<new () => string}: Array<new () => s
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -185,13 +184,13 @@ const x:  Array<new () => string= {x: Array<new () => string}: Array<new () => s
                         "end": 50
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 50
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

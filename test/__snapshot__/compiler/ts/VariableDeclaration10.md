@@ -18,7 +18,6 @@
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -60,13 +59,13 @@
                         "end": 18
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 4,
+                "start": 0,
                 "end": 18
             },
-            "flags": 8,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

@@ -22,7 +22,6 @@ let { f: ...await f } = {};
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -135,10 +134,10 @@ let { f: ...await f } = {};
                         "end": 26
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 26
             },
             "flags": 8,

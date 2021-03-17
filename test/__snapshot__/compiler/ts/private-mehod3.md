@@ -174,7 +174,6 @@ class C {
                                     "statements": [
                                         {
                                             "kind": 142,
-                                            "isConst": false,
                                             "binding": {
                                                 "kind": 31,
                                                 "bindingList": [
@@ -276,10 +275,10 @@ class C {
                                                         "end": 85
                                                     }
                                                 ],
-                                                "flags": 8,
+                                                "flags": 24,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 60,
+                                                "start": 48,
                                                 "end": 85
                                             },
                                             "flags": 32776,

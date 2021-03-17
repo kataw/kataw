@@ -21,7 +21,6 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -62,10 +61,10 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "end": 92
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 73,
+                "start": 67,
                 "end": 92
             },
             "flags": 402685960,
@@ -76,7 +75,6 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -118,10 +116,10 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "end": 122
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 107,
+                "start": 101,
                 "end": 122
             },
             "flags": 402685960,
@@ -132,7 +130,6 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -240,10 +237,10 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                         "end": 177
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 137,
+                "start": 131,
                 "end": 177
             },
             "flags": 402653192,

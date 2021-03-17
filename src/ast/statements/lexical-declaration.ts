@@ -7,11 +7,9 @@ import { updateNode } from '../../utils';
  */
 export interface LexicalDeclaration extends Node {
   readonly binding: BindingList;
-  readonly isConst: boolean;
 }
 
 export function createLexicalDeclaration(
-  isConst: boolean,
   binding: BindingList,
   flags: NodeFlags,
   start: number,
@@ -19,7 +17,6 @@ export function createLexicalDeclaration(
 ): LexicalDeclaration {
   return {
     kind: NodeKind.LexicalDeclaration,
-    isConst,
     binding,
     flags,
     symbol: null,
@@ -33,10 +30,9 @@ export function createLexicalDeclaration(
 
 export function updateLexicalDeclaration(
   node: LexicalDeclaration,
-  isConst: boolean,
   binding: BindingList
 ): LexicalDeclaration {
   return node.binding !== binding
-    ? updateNode(createLexicalDeclaration(isConst, binding, node.flags, node.start, node.end), node)
+    ? updateNode(createLexicalDeclaration(binding, node.flags, node.start, node.end), node)
     : node;
 }

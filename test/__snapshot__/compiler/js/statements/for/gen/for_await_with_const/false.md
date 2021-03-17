@@ -51,42 +51,33 @@ async function f() { for await (const x in y) {} }
                         {
                             "kind": 2099286,
                             "initializer": {
-                                "kind": 142,
-                                "isConst": true,
-                                "binding": {
-                                    "kind": 31,
-                                    "bindingList": [
-                                        {
-                                            "kind": 16525,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 37,
-                                                "end": 39
-                                            },
-                                            "exclamation": false,
-                                            "type": null,
-                                            "initializer": null,
+                                "kind": 31,
+                                "bindingList": [
+                                    {
+                                        "kind": 16525,
+                                        "binding": {
+                                            "kind": 131102,
+                                            "text": "x",
+                                            "rawText": "x",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1025,
                                             "start": 37,
                                             "end": 39
-                                        }
-                                    ],
-                                    "flags": 8,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 37,
-                                    "end": 39
-                                },
-                                "flags": 0,
+                                        },
+                                        "exclamation": false,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 37,
+                                        "end": 39
+                                    }
+                                ],
+                                "flags": 40,
                                 "symbol": null,
-                                "transformFlags": 256,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 39
                             },

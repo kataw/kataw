@@ -22,7 +22,6 @@ const x!: string class const x!: string { field: const x!: string}
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -55,13 +54,13 @@ const x!: string class const x!: string { field: const x!: string}
                         "end": 16
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 16
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -84,7 +83,7 @@ const x!: string class const x!: string { field: const x!: string}
             },
             "decorators": null,
             "isAbstract": false,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 1,
             "start": 16,
@@ -92,7 +91,6 @@ const x!: string class const x!: string { field: const x!: string}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -195,13 +193,13 @@ const x!: string class const x!: string { field: const x!: string}
                         "end": 48
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 28,
+                "start": 22,
                 "end": 48
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 22,
@@ -209,7 +207,6 @@ const x!: string class const x!: string { field: const x!: string}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -242,13 +239,13 @@ const x!: string class const x!: string { field: const x!: string}
                         "end": 65
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 54,
+                "start": 48,
                 "end": 65
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 48,
@@ -258,34 +255,6 @@ const x!: string class const x!: string { field: const x!: string}
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 17,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'{' expected.",
-            "start": 23,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 40,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected 'const' is a reserved word that cannot be used here",
-            "start": 49,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

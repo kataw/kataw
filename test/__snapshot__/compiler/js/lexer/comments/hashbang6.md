@@ -37,7 +37,6 @@ for (const ctor of [
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -132,10 +131,10 @@ for (const ctor of [
                         "end": 55
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 55
             },
             "flags": 32776,
@@ -146,7 +145,6 @@ for (const ctor of [
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -241,10 +239,10 @@ for (const ctor of [
                         "end": 111
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 62,
+                "start": 56,
                 "end": 111
             },
             "flags": 32776,
@@ -255,7 +253,6 @@ for (const ctor of [
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -350,10 +347,10 @@ for (const ctor of [
                         "end": 178
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 118,
+                "start": 112,
                 "end": 178
             },
             "flags": 32776,
@@ -365,42 +362,33 @@ for (const ctor of [
         {
             "kind": 2099287,
             "initializer": {
-                "kind": 142,
-                "isConst": true,
-                "binding": {
-                    "kind": 31,
-                    "bindingList": [
-                        {
-                            "kind": 16525,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "ctor",
-                                "rawText": "ctor",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 190,
-                                "end": 195
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": null,
+                "kind": 31,
+                "bindingList": [
+                    {
+                        "kind": 16525,
+                        "binding": {
+                            "kind": 131102,
+                            "text": "ctor",
+                            "rawText": "ctor",
                             "flags": 0,
                             "symbol": null,
-                            "transformFlags": 0,
+                            "transformFlags": 1025,
                             "start": 190,
                             "end": 195
-                        }
-                    ],
-                    "flags": 8,
-                    "symbol": null,
-                    "transformFlags": 0,
-                    "start": 190,
-                    "end": 195
-                },
-                "flags": 0,
+                        },
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 190,
+                        "end": 195
+                    }
+                ],
+                "flags": 40,
                 "symbol": null,
-                "transformFlags": 256,
+                "transformFlags": 0,
                 "start": 185,
                 "end": 195
             },

@@ -375,7 +375,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.VariableDeclarationList:
       return updateVariableDeclarationList(node, visitNodes(node.declarations, visitor));
     case NodeKind.LexicalDeclaration:
-      return updateLexicalDeclaration(node, node.isConst, visitNode(node.binding, visitor));
+      return updateLexicalDeclaration(node, visitNode(node.binding, visitor));
     case NodeKind.ArrayBindingPattern:
       return updateArrayBindingPattern(node, visitNode(node.elementList, visitor));
     case NodeKind.LexicalBinding:

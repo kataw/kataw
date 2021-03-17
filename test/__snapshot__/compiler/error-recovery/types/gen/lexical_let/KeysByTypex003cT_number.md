@@ -22,7 +22,6 @@ let x:  KeysByType<T, number  KeysByType<T, number
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -157,13 +156,13 @@ let x:  KeysByType<T, number  KeysByType<T, number
                         "end": 50
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 50
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

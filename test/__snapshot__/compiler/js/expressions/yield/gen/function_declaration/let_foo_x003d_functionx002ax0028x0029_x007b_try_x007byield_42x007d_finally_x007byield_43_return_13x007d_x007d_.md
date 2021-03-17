@@ -50,7 +50,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
                                 "bindingList": [
@@ -234,10 +233,10 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                         "end": 91
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 24,
+                                "start": 20,
                                 "end": 91
                             },
                             "flags": 8,

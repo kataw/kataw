@@ -194,7 +194,6 @@ export default class Operation {
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
                                                     "bindingList": [
@@ -272,10 +271,10 @@ export default class Operation {
                                                             "end": 220
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 179,
+                                                    "start": 167,
                                                     "end": 220
                                                 },
                                                 "flags": 32776,
@@ -287,42 +286,33 @@ export default class Operation {
                                             {
                                                 "kind": 2099287,
                                                 "initializer": {
-                                                    "kind": 142,
-                                                    "isConst": true,
-                                                    "binding": {
-                                                        "kind": 31,
-                                                        "bindingList": [
-                                                            {
-                                                                "kind": 16525,
-                                                                "binding": {
-                                                                    "kind": 131102,
-                                                                    "text": "parameterLocation",
-                                                                    "rawText": "parameterLocation",
-                                                                    "flags": 0,
-                                                                    "symbol": null,
-                                                                    "transformFlags": 1025,
-                                                                    "start": 239,
-                                                                    "end": 257
-                                                                },
-                                                                "exclamation": false,
-                                                                "type": null,
-                                                                "initializer": null,
+                                                    "kind": 31,
+                                                    "bindingList": [
+                                                        {
+                                                            "kind": 16525,
+                                                            "binding": {
+                                                                "kind": 131102,
+                                                                "text": "parameterLocation",
+                                                                "rawText": "parameterLocation",
                                                                 "flags": 0,
                                                                 "symbol": null,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1025,
                                                                 "start": 239,
                                                                 "end": 257
-                                                            }
-                                                        ],
-                                                        "flags": 8,
-                                                        "symbol": null,
-                                                        "transformFlags": 0,
-                                                        "start": 239,
-                                                        "end": 257
-                                                    },
-                                                    "flags": 0,
+                                                            },
+                                                            "exclamation": false,
+                                                            "type": null,
+                                                            "initializer": null,
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 239,
+                                                            "end": 257
+                                                        }
+                                                    ],
+                                                    "flags": 40,
                                                     "symbol": null,
-                                                    "transformFlags": 256,
+                                                    "transformFlags": 0,
                                                     "start": 234,
                                                     "end": 257
                                                 },
@@ -396,7 +386,6 @@ export default class Operation {
                                                         "statements": [
                                                             {
                                                                 "kind": 142,
-                                                                "isConst": true,
                                                                 "binding": {
                                                                     "kind": 31,
                                                                     "bindingList": [
@@ -502,10 +491,10 @@ export default class Operation {
                                                                             "end": 356
                                                                         }
                                                                     ],
-                                                                    "flags": 8,
+                                                                    "flags": 40,
                                                                     "symbol": null,
                                                                     "transformFlags": 0,
-                                                                    "start": 310,
+                                                                    "start": 292,
                                                                     "end": 356
                                                                 },
                                                                 "flags": 32776,
@@ -524,7 +513,6 @@ export default class Operation {
                                                             },
                                                             {
                                                                 "kind": 142,
-                                                                "isConst": true,
                                                                 "binding": {
                                                                     "kind": 31,
                                                                     "bindingList": [
@@ -623,10 +611,10 @@ export default class Operation {
                                                                             "end": 411
                                                                         }
                                                                     ],
-                                                                    "flags": 8,
+                                                                    "flags": 40,
                                                                     "symbol": null,
                                                                     "transformFlags": 0,
-                                                                    "start": 376,
+                                                                    "start": 358,
                                                                     "end": 411
                                                                 },
                                                                 "flags": 32776,
@@ -637,7 +625,6 @@ export default class Operation {
                                                             },
                                                             {
                                                                 "kind": 142,
-                                                                "isConst": true,
                                                                 "binding": {
                                                                     "kind": 31,
                                                                     "bindingList": [
@@ -789,10 +776,10 @@ export default class Operation {
                                                                             "end": 500
                                                                         }
                                                                     ],
-                                                                    "flags": 8,
+                                                                    "flags": 40,
                                                                     "symbol": null,
                                                                     "transformFlags": 0,
-                                                                    "start": 431,
+                                                                    "start": 412,
                                                                     "end": 500
                                                                 },
                                                                 "flags": 32776,

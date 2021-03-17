@@ -100,7 +100,6 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
                                                     "bindingList": [
@@ -215,13 +214,13 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                             "end": 73
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 42,
+                                                    "start": 38,
                                                     "end": 73
                                                 },
-                                                "flags": 8,
+                                                "flags": 24,
                                                 "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 38,
@@ -229,7 +228,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 24,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,

@@ -721,7 +721,6 @@ abstract class Test {
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -776,10 +775,10 @@ abstract class Test {
                         "end": 705
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 653,
+                "start": 648,
                 "end": 705
             },
             "flags": 32776,
@@ -790,7 +789,6 @@ abstract class Test {
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -877,10 +875,10 @@ abstract class Test {
                         "end": 774
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 711,
+                "start": 706,
                 "end": 774
             },
             "flags": 32776,

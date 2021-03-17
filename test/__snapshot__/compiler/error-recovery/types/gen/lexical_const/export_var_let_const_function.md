@@ -22,7 +22,6 @@ const x: export var let const function= {x:export var let const function}:export
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -66,13 +65,13 @@ const x: export var let const function= {x:export var let const function}:export
                         "end": 15
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 15
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -111,7 +110,7 @@ const x: export var let const function= {x:export var let const function}:export
                 "start": 19,
                 "end": 23
             },
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 0,
             "start": 15,
@@ -119,17 +118,16 @@ const x: export var let const function= {x:export var let const function}:export
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 29,
+                "start": 23,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 23,
@@ -257,17 +255,16 @@ const x: export var let const function= {x:export var let const function}:export
                                     },
                                     {
                                         "kind": 142,
-                                        "isConst": true,
                                         "binding": {
                                             "kind": 31,
                                             "bindingList": [],
-                                            "flags": 8,
+                                            "flags": 40,
                                             "symbol": null,
                                             "transformFlags": 0,
-                                            "start": 63,
+                                            "start": 57,
                                             "end": 63
                                         },
-                                        "flags": 9,
+                                        "flags": 41,
                                         "symbol": null,
                                         "transformFlags": 769,
                                         "start": 57,
@@ -298,7 +295,7 @@ const x: export var let const function= {x:export var let const function}:export
                                         "type": null,
                                         "contents": null,
                                         "typeParameters": null,
-                                        "flags": 1,
+                                        "flags": 41,
                                         "symbol": null,
                                         "transformFlags": 2097152,
                                         "start": 63,
@@ -333,7 +330,7 @@ const x: export var let const function= {x:export var let const function}:export
                 "end": 73
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 29,
@@ -392,17 +389,16 @@ const x: export var let const function= {x:export var let const function}:export
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 94,
+                "start": 88,
                 "end": 94
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 88,
@@ -433,7 +429,7 @@ const x: export var let const function= {x:export var let const function}:export
             "type": null,
             "contents": null,
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 94,
@@ -443,76 +439,6 @@ const x: export var let const function= {x:export var let const function}:export
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 16,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 24,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 30,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 38,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 43,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 58,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 64,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 72,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 73,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 89,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

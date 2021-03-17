@@ -21,7 +21,6 @@ x++;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -56,13 +55,13 @@ x++;
                         "end": 11
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 11
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -77,7 +76,7 @@ x++;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 32768,
+                    "flags": 41,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
@@ -98,7 +97,15 @@ x++;
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 36,
+            "length": 0
+        }
+    ],
     "original": null,
     "symbol": null,
     "flags": 0,

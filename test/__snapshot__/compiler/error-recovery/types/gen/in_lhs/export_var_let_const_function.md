@@ -112,17 +112,16 @@
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
                                 "bindingList": [],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 27,
                                 "end": 33
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 27,
@@ -209,17 +208,16 @@
                                         },
                                         {
                                             "kind": 142,
-                                            "isConst": true,
                                             "binding": {
                                                 "kind": 31,
                                                 "bindingList": [],
-                                                "flags": 8,
+                                                "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 65,
+                                                "start": 59,
                                                 "end": 65
                                             },
-                                            "flags": 9,
+                                            "flags": 41,
                                             "symbol": null,
                                             "transformFlags": 769,
                                             "start": 59,
@@ -286,7 +284,7 @@
                                                 "end": 78
                                             },
                                             "typeParameters": null,
-                                            "flags": 1,
+                                            "flags": 41,
                                             "symbol": null,
                                             "transformFlags": 256,
                                             "start": 65,
@@ -307,7 +305,7 @@
                                 "end": 78
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 33,
@@ -338,34 +336,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 28,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 34,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 43,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 60,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

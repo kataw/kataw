@@ -122,7 +122,6 @@ var y!: MyComponent
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -155,13 +154,13 @@ var y!: MyComponent
                         "end": 72
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 61,
+                "start": 54,
                 "end": 72
             },
-            "flags": 32776,
+            "flags": 32809,
             "symbol": null,
             "transformFlags": 769,
             "start": 54,
@@ -218,7 +217,7 @@ var y!: MyComponent
                 "start": 77,
                 "end": 93
             },
-            "flags": 32768,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 0,
             "start": 72,
@@ -227,7 +226,15 @@ var y!: MyComponent
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 74,
+            "length": 0
+        }
+    ],
     "original": null,
     "symbol": null,
     "flags": 0,

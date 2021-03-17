@@ -44,17 +44,16 @@ async () => {  c\u006fnst = x  }
                         "statements": [
                             {
                                 "kind": 142,
-                                "isConst": true,
                                 "binding": {
                                     "kind": 31,
                                     "bindingList": [],
-                                    "flags": 8,
+                                    "flags": 40,
                                     "symbol": null,
                                     "transformFlags": 0,
-                                    "start": 25,
+                                    "start": 13,
                                     "end": 25
                                 },
-                                "flags": 75497481,
+                                "flags": 75497513,
                                 "symbol": null,
                                 "transformFlags": 769,
                                 "start": 13,
@@ -62,19 +61,19 @@ async () => {  c\u006fnst = x  }
                             }
                         ],
                         "multiline": false,
-                        "flags": 1,
+                        "flags": 41,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 13,
                         "end": 25
                     },
-                    "flags": 1,
+                    "flags": 41,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 11,
                     "end": 25
                 },
-                "flags": 1073741825,
+                "flags": 1073741865,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

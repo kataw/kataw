@@ -130,17 +130,16 @@ async ([ export var let const function , x: export var let const function ]) => 
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 29,
+                "start": 23,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 23,
@@ -263,17 +262,16 @@ async ([ export var let const function , x: export var let const function ]) => 
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
                                 "bindingList": [],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 64,
+                                "start": 58,
                                 "end": 64
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 58,
@@ -321,7 +319,7 @@ async ([ export var let const function , x: export var let const function ]) => 
                                 "end": 75
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 64,
@@ -342,7 +340,7 @@ async ([ export var let const function , x: export var let const function ]) => 
                 "end": 75
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 29,
@@ -370,48 +368,6 @@ async ([ export var let const function , x: export var let const function ]) => 
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "']' expected.",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 24,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 30,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 39,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 44,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 59,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

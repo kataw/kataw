@@ -22,7 +22,6 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -124,13 +123,13 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
                         "end": 36
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 36
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

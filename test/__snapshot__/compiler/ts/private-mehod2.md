@@ -18,7 +18,6 @@ const ranges = test.rangesByText().get("#foo");
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -148,10 +147,10 @@ const ranges = test.rangesByText().get("#foo");
                         "end": 46
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 46
             },
             "flags": 8,

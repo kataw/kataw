@@ -19,7 +19,6 @@ let [...x] = y
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -83,13 +82,13 @@ let [...x] = y
                         "end": 15
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 4,
+                "start": 0,
                 "end": 15
             },
-            "flags": 32776,
+            "flags": 32792,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

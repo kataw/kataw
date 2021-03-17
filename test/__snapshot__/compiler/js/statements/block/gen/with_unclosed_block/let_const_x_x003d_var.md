@@ -139,7 +139,6 @@
                                 },
                                 {
                                     "kind": 142,
-                                    "isConst": true,
                                     "binding": {
                                         "kind": 31,
                                         "bindingList": [
@@ -173,13 +172,13 @@
                                                 "end": 31
                                             }
                                         ],
-                                        "flags": 9,
+                                        "flags": 40,
                                         "symbol": null,
                                         "transformFlags": 0,
-                                        "start": 27,
+                                        "start": 21,
                                         "end": 31
                                     },
-                                    "flags": 9,
+                                    "flags": 41,
                                     "symbol": null,
                                     "transformFlags": 769,
                                     "start": 21,
@@ -196,7 +195,7 @@
                                         "start": 35,
                                         "end": 35
                                     },
-                                    "flags": 1,
+                                    "flags": 40,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 31,
@@ -234,13 +233,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 22,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

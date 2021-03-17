@@ -26,7 +26,6 @@ var {...rest3 } = nullUnion;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -119,10 +118,10 @@ var {...rest3 } = nullUnion;
                         "end": 55
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 13,
+                "start": 7,
                 "end": 55
             },
             "flags": 402685960,
@@ -299,7 +298,6 @@ var {...rest3 } = nullUnion;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -392,10 +390,10 @@ var {...rest3 } = nullUnion;
                         "end": 164
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 132,
+                "start": 126,
                 "end": 164
             },
             "flags": 402685960,

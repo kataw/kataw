@@ -20,7 +20,6 @@ const fn = function* <T>(input: T): Generator<number> {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -221,13 +220,13 @@ const fn = function* <T>(input: T): Generator<number> {
                         "end": 68
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 68
             },
-            "flags": 8,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

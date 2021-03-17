@@ -22,7 +22,6 @@ let x: x function y (string: void x function y (string: void
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -66,13 +65,13 @@ let x: x function y (string: void x function y (string: void
                         "end": 8
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 8
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -249,7 +248,7 @@ let x: x function y (string: void x function y (string: void
                 "end": 60
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 25,
             "symbol": null,
             "transformFlags": 256,
             "start": 8,

@@ -24,7 +24,6 @@ let x = () => import {x} from "y"
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -130,13 +129,13 @@ let x = () => import {x} from "y"
                         "end": 29
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -148,7 +147,7 @@ let x = () => import {x} from "y"
                 "kind": 4261583,
                 "text": "y",
                 "rawText": "y",
-                "flags": 1,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 29,

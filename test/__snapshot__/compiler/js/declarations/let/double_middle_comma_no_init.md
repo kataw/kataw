@@ -18,7 +18,6 @@ let foo,,bar
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -44,13 +43,13 @@ let foo,,bar
                         "end": 7
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 8
             },
-            "flags": 9,
+            "flags": 25,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

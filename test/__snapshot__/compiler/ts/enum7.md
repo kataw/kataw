@@ -258,13 +258,13 @@ declare enum E {
             "kind": 8263,
             "name": {
                 "kind": 196712,
-                "text": "X",
-                "rawText": "X",
+                "text": "enum",
+                "rawText": "enum",
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 138,
-                "end": 140
+                "start": 133,
+                "end": 138
             },
             "members": {
                 "kind": 8265,
@@ -273,390 +273,463 @@ declare enum E {
                         "kind": 8264,
                         "name": {
                             "kind": 196711,
-                            "text": "None",
-                            "rawText": "None",
-                            "flags": 32768,
+                            "text": "X",
+                            "rawText": "X",
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 142,
-                            "end": 149
+                            "start": 138,
+                            "end": 140
                         },
-                        "initializer": {
-                            "kind": 4261540,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 151,
-                            "end": 153
-                        },
+                        "initializer": null,
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 2097152,
-                        "start": 142,
-                        "end": 153
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 154,
-                            "end": 158
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 160,
-                                "end": 162
-                            },
-                            "operator": "<<",
-                            "right": {
-                                "kind": 4261540,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 165,
-                                "end": 167
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 160,
-                            "end": 167
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 154,
-                        "end": 167
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "B",
-                            "rawText": "B",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 168,
-                            "end": 172
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 174,
-                                "end": 176
-                            },
-                            "operator": "<<",
-                            "right": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 179,
-                                "end": 181
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 174,
-                            "end": 181
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 168,
-                        "end": 181
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "C",
-                            "rawText": "C",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 182,
-                            "end": 186
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 4261540,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 188,
-                                "end": 190
-                            },
-                            "operator": "<<",
-                            "right": {
-                                "kind": 4261540,
-                                "text": 2,
-                                "rawText": "2",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 193,
-                                "end": 195
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 188,
-                            "end": 195
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 182,
-                        "end": 195
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "D",
-                            "rawText": "D",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 196,
-                            "end": 200
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 196712,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 202,
-                                "end": 204
-                            },
-                            "operator": "|",
-                            "right": {
-                                "kind": 196712,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 206,
-                                "end": 208
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 202,
-                            "end": 208
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 196,
-                        "end": 208
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "E",
-                            "rawText": "E",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 209,
-                            "end": 213
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 196712,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 215,
-                                "end": 217
-                            },
-                            "operator": "|",
-                            "right": {
-                                "kind": 196712,
-                                "text": "string",
-                                "rawText": "string",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 219,
-                                "end": 226
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 215,
-                            "end": 226
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 209,
-                        "end": 226
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "F",
-                            "rawText": "F",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 227,
-                            "end": 231
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 196712,
-                                "text": "D",
-                                "rawText": "D",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 233,
-                                "end": 235
-                            },
-                            "operator": "|",
-                            "right": {
-                                "kind": 196712,
-                                "text": "E",
-                                "rawText": "E",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 237,
-                                "end": 239
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 233,
-                            "end": 239
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 227,
-                        "end": 239
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "G",
-                            "rawText": "G",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 240,
-                            "end": 244
-                        },
-                        "initializer": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 65563,
-                                "left": {
-                                    "kind": 196712,
-                                    "text": "D",
-                                    "rawText": "D",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 246,
-                                    "end": 248
-                                },
-                                "operator": "|",
-                                "right": {
-                                    "kind": 196712,
-                                    "text": "C",
-                                    "rawText": "C",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 250,
-                                    "end": 252
-                                },
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 246,
-                                "end": 252
-                            },
-                            "operator": "|",
-                            "right": {
-                                "kind": 196712,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 254,
-                                "end": 256
-                            },
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 246,
-                            "end": 256
-                        },
-                        "flags": 0,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 240,
-                        "end": 256
+                        "start": 138,
+                        "end": 140
                     }
                 ],
-                "flags": 32768,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 2097152,
-                "start": 142,
-                "end": 257
+                "start": 138,
+                "end": 140
             },
             "isConst": true,
-            "flags": 32768,
+            "flags": 32769,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 126,
+            "end": 140
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 65590,
+                            "expressions": [
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "None",
+                                        "rawText": "None",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 142,
+                                        "end": 149
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 4261540,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 151,
+                                        "end": 153
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 142,
+                                    "end": 153
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "A",
+                                        "rawText": "A",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 154,
+                                        "end": 158
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 4261540,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 160,
+                                            "end": 162
+                                        },
+                                        "operator": "<<",
+                                        "right": {
+                                            "kind": 4261540,
+                                            "text": 0,
+                                            "rawText": "0",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 165,
+                                            "end": 167
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 160,
+                                        "end": 167
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 154,
+                                    "end": 167
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 168,
+                                        "end": 172
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 4261540,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 174,
+                                            "end": 176
+                                        },
+                                        "operator": "<<",
+                                        "right": {
+                                            "kind": 4261540,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 179,
+                                            "end": 181
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 174,
+                                        "end": 181
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 168,
+                                    "end": 181
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "C",
+                                        "rawText": "C",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 182,
+                                        "end": 186
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 4261540,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 188,
+                                            "end": 190
+                                        },
+                                        "operator": "<<",
+                                        "right": {
+                                            "kind": 4261540,
+                                            "text": 2,
+                                            "rawText": "2",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 193,
+                                            "end": 195
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 188,
+                                        "end": 195
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 182,
+                                    "end": 195
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "D",
+                                        "rawText": "D",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 196,
+                                        "end": 200
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 196712,
+                                            "text": "A",
+                                            "rawText": "A",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 202,
+                                            "end": 204
+                                        },
+                                        "operator": "|",
+                                        "right": {
+                                            "kind": 196712,
+                                            "text": "B",
+                                            "rawText": "B",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 206,
+                                            "end": 208
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 202,
+                                        "end": 208
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 196,
+                                    "end": 208
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "E",
+                                        "rawText": "E",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 209,
+                                        "end": 213
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 196712,
+                                            "text": "C",
+                                            "rawText": "C",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 215,
+                                            "end": 217
+                                        },
+                                        "operator": "|",
+                                        "right": {
+                                            "kind": 196712,
+                                            "text": "string",
+                                            "rawText": "string",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 219,
+                                            "end": 226
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 215,
+                                        "end": 226
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 209,
+                                    "end": 226
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "F",
+                                        "rawText": "F",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 227,
+                                        "end": 231
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 196712,
+                                            "text": "D",
+                                            "rawText": "D",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 233,
+                                            "end": 235
+                                        },
+                                        "operator": "|",
+                                        "right": {
+                                            "kind": 196712,
+                                            "text": "E",
+                                            "rawText": "E",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 237,
+                                            "end": 239
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 233,
+                                        "end": 239
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 227,
+                                    "end": 239
+                                },
+                                {
+                                    "kind": 65550,
+                                    "left": {
+                                        "kind": 196712,
+                                        "text": "G",
+                                        "rawText": "G",
+                                        "flags": 32768,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 240,
+                                        "end": 244
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                        "kind": 65563,
+                                        "left": {
+                                            "kind": 65563,
+                                            "left": {
+                                                "kind": 196712,
+                                                "text": "D",
+                                                "rawText": "D",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 246,
+                                                "end": 248
+                                            },
+                                            "operator": "|",
+                                            "right": {
+                                                "kind": 196712,
+                                                "text": "C",
+                                                "rawText": "C",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 250,
+                                                "end": 252
+                                            },
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 246,
+                                            "end": 252
+                                        },
+                                        "operator": "|",
+                                        "right": {
+                                            "kind": 196712,
+                                            "text": "A",
+                                            "rawText": "A",
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 254,
+                                            "end": 256
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 246,
+                                        "end": 256
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 240,
+                                    "end": 256
+                                },
+                                {
+                                    "kind": 131322,
+                                    "text": "",
+                                    "flags": 3,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 257,
+                                    "end": 257
+                                }
+                            ],
+                            "flags": 32769,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 142,
+                            "end": 257
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 142,
+                        "end": 257
+                    }
+                ],
+                "multiline": true,
+                "flags": 32769,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 142,
+                "end": 257
+            },
+            "flags": 32768,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 140,
             "end": 259
         },
         {
@@ -859,7 +932,29 @@ declare enum E {
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'{' expected.",
+            "start": 139,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "An enum member name must be followed by a ',', '=', or '}'.",
+            "start": 141,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected",
+            "start": 258,
+            "length": 0
+        }
+    ],
     "original": null,
     "symbol": null,
     "flags": 0,

@@ -30,7 +30,6 @@
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -120,10 +119,10 @@
                         "end": 25
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 6,
+                "start": 0,
                 "end": 25
             },
             "flags": 32776,
@@ -134,7 +133,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -253,10 +251,10 @@
                         "end": 55
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 26,
                 "end": 55
             },
             "flags": 32776,
@@ -267,7 +265,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -408,10 +405,10 @@
                         "end": 92
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 64,
+                "start": 56,
                 "end": 92
             },
             "flags": 32776,
@@ -422,7 +419,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -549,10 +545,10 @@
                         "end": 147
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 101,
+                "start": 93,
                 "end": 147
             },
             "flags": 32776,
@@ -563,7 +559,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -625,10 +620,10 @@
                         "end": 173
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 156,
+                "start": 148,
                 "end": 173
             },
             "flags": 32776,
@@ -639,7 +634,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -728,10 +722,10 @@
                         "end": 220
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 182,
+                "start": 174,
                 "end": 220
             },
             "flags": 32776,
@@ -742,7 +736,6 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -807,10 +800,10 @@
                         "end": 281
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 262,
+                "start": 221,
                 "end": 281
             },
             "flags": 32776,

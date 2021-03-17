@@ -26,7 +26,6 @@ const z9 = 0, z10 :string = "", z11 = null;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -60,10 +59,10 @@ const z9 = 0, z10 :string = "", z11 = null;
                         "end": 16
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 16
             },
             "flags": 32776,
@@ -74,7 +73,6 @@ const z9 = 0, z10 :string = "", z11 = null;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -116,10 +114,10 @@ const z9 = 0, z10 :string = "", z11 = null;
                         "end": 39
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 23,
+                "start": 17,
                 "end": 39
             },
             "flags": 32776,
@@ -130,7 +128,6 @@ const z9 = 0, z10 :string = "", z11 = null;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
                 "bindingList": [
@@ -231,10 +228,10 @@ const z9 = 0, z10 :string = "", z11 = null;
                         "end": 83
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 46,
+                "start": 40,
                 "end": 83
             },
             "flags": 32776,
