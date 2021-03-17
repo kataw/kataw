@@ -25,7 +25,7 @@ async () => {
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -85,7 +85,7 @@ async () => {
                     "start": 11,
                     "end": 47
                 },
-                "flags": 1073774592,
+                "flags": 32768,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

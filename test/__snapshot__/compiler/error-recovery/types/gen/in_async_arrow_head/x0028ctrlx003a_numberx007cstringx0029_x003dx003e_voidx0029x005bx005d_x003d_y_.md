@@ -50,7 +50,7 @@ async ([ (ctrl: number|string) => void)[] = y; , x: (ctrl: number|string) => voi
                                             {
                                                 "kind": 83976,
                                                 "typeParameters": null,
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 81929,
                                                     "elements": [
                                                         {
@@ -131,7 +131,7 @@ async ([ (ctrl: number|string) => void)[] = y; , x: (ctrl: number|string) => voi
                                                     "start": 33,
                                                     "end": 38
                                                 },
-                                                "flags": 1073741825,
+                                                "flags": 1,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 8,
@@ -221,7 +221,7 @@ async ([ (ctrl: number|string) => void)[] = y; , x: (ctrl: number|string) => voi
                 "expression": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -302,7 +302,7 @@ async ([ (ctrl: number|string) => void)[] = y; , x: (ctrl: number|string) => voi
                         "start": 76,
                         "end": 81
                     },
-                    "flags": 1073741825,
+                    "flags": 1,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 51,

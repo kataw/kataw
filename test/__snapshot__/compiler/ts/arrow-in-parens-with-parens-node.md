@@ -50,7 +50,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "expression": {
                                     "kind": 83976,
                                     "typeParameters": null,
-                                    "arrowParameters": {
+                                    "parameters": {
                                         "kind": 81929,
                                         "elements": [
                                             {
@@ -125,7 +125,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "start": 28,
                                         "end": 42
                                     },
-                                    "flags": 1073741824,
+                                    "flags": 0,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 22,

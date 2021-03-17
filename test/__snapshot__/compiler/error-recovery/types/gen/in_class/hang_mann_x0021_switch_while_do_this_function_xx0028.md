@@ -654,14 +654,14 @@ hang mann ! switch while do this function x( class hang mann ! switch while do t
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 110,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 115,
             "length": 0
         },

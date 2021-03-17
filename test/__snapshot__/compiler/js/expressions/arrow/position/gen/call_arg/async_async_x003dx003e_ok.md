@@ -41,42 +41,14 @@ foo(async async => ok)
                         {
                             "kind": 81936,
                             "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 131102,
-                                            "text": "async",
-                                            "rawText": "async",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1025,
-                                            "start": 9,
-                                            "end": 15
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 15,
-                                        "end": 15
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                            "parameters": {
+                                "kind": 131102,
+                                "text": "async",
+                                "rawText": "async",
                                 "flags": 0,
                                 "symbol": null,
-                                "transformFlags": 0,
-                                "start": 4,
+                                "transformFlags": 1025,
+                                "start": 9,
                                 "end": 15
                             },
                             "contents": {
@@ -89,7 +61,7 @@ foo(async async => ok)
                                 "start": 18,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 4,

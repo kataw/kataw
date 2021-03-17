@@ -266,7 +266,7 @@ function ( { [index: number]: ) {{ [index: number]:}
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 27,
             "length": 0
         },

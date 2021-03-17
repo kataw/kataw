@@ -38,38 +38,10 @@ var v = a => <any><any>{}
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 7,
-                                            "end": 9
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 9,
-                                        "end": 9
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                            "parameters": {
+                                "kind": 4325406,
+                                "text": "a",
+                                "rawText": "a",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
@@ -127,7 +99,7 @@ var v = a => <any><any>{}
                                 "start": 12,
                                 "end": 25
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,

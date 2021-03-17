@@ -22,10 +22,9 @@ let x: foo const foo const
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -66,13 +65,13 @@ let x: foo const foo const
                         "end": 10
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 10
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -80,10 +79,9 @@ let x: foo const foo const
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -106,13 +104,13 @@ let x: foo const foo const
                         "end": 20
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 16,
+                "start": 10,
                 "end": 20
             },
-            "flags": 9,
+            "flags": 56,
             "symbol": null,
             "transformFlags": 769,
             "start": 10,
@@ -120,17 +118,16 @@ let x: foo const foo const
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 26,
+                "start": 20,
                 "end": 26
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 20,
@@ -139,22 +136,7 @@ let x: foo const foo const
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 21,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

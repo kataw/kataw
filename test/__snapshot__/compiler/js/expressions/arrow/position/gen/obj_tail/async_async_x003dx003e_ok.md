@@ -57,42 +57,14 @@ x = {arrow: async async => ok}.y
                                     "right": {
                                         "kind": 81936,
                                         "typeParameters": null,
-                                        "arrowParameters": {
-                                            "kind": 81929,
-                                            "elements": [
-                                                {
-                                                    "kind": 16473,
-                                                    "ellipsis": false,
-                                                    "binding": {
-                                                        "kind": 131102,
-                                                        "text": "async",
-                                                        "rawText": "async",
-                                                        "flags": 0,
-                                                        "symbol": null,
-                                                        "transformFlags": 1025,
-                                                        "start": 17,
-                                                        "end": 23
-                                                    },
-                                                    "isOptional": false,
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "decorators": null,
-                                                    "accessModifier": null,
-                                                    "isReadOnly": false,
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 1,
-                                                    "start": 26,
-                                                    "end": 23
-                                                }
-                                            ],
-                                            "type": null,
-                                            "accessModifier": null,
-                                            "trailingComma": false,
+                                        "parameters": {
+                                            "kind": 131102,
+                                            "text": "async",
+                                            "rawText": "async",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 11,
+                                            "transformFlags": 1025,
+                                            "start": 17,
                                             "end": 23
                                         },
                                         "contents": {
@@ -105,7 +77,7 @@ x = {arrow: async async => ok}.y
                                             "start": 26,
                                             "end": 29
                                         },
-                                        "flags": 0,
+                                        "flags": 1073741824,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 11,

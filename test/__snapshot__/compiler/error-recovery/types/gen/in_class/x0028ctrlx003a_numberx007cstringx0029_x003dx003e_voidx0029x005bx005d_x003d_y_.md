@@ -25,7 +25,7 @@
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -106,7 +106,7 @@
                     "start": 24,
                     "end": 29
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
@@ -192,7 +192,7 @@
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -273,7 +273,7 @@
                     "start": 68,
                     "end": 73
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 43,
@@ -353,7 +353,7 @@
                             "expression": {
                                 "kind": 83976,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {
@@ -434,7 +434,7 @@
                                     "start": 115,
                                     "end": 120
                                 },
-                                "flags": 1073741825,
+                                "flags": 1,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 90,

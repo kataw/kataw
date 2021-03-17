@@ -372,7 +372,7 @@ class Other extends Doing {
                                             "expression": {
                                                 "kind": 83976,
                                                 "typeParameters": null,
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 81929,
                                                     "elements": [],
                                                     "type": null,
@@ -461,7 +461,7 @@ class Other extends Doing {
                                                     "start": 285,
                                                     "end": 331
                                                 },
-                                                "flags": 1073774592,
+                                                "flags": 32768,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 271,
@@ -567,7 +567,7 @@ class Other extends Doing {
                                                             "right": {
                                                                 "kind": 83976,
                                                                 "typeParameters": null,
-                                                                "arrowParameters": {
+                                                                "parameters": {
                                                                     "kind": 81929,
                                                                     "elements": [],
                                                                     "type": null,
@@ -656,7 +656,7 @@ class Other extends Doing {
                                                                     "start": 482,
                                                                     "end": 536
                                                                 },
-                                                                "flags": 1073741824,
+                                                                "flags": 0,
                                                                 "symbol": null,
                                                                 "transformFlags": 0,
                                                                 "start": 476,

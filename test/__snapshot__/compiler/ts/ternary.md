@@ -257,10 +257,9 @@ bifornCringerMoshedPerplexSawder =
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -355,10 +354,10 @@ bifornCringerMoshedPerplexSawder =
                         "end": 342
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 206,
+                "start": 199,
                 "end": 342
             },
             "flags": 32776,

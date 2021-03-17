@@ -22,10 +22,9 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -265,7 +264,7 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
                                     "start": 52,
                                     "end": 84
                                 },
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 131322,
                                     "text": "",
                                     "flags": 3,
@@ -320,7 +319,7 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
                                     "start": 85,
                                     "end": 94
                                 },
-                                "flags": 1,
+                                "flags": 1073741825,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 50,
@@ -339,13 +338,13 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
                         "end": 94
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 94
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

@@ -68,17 +68,16 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 12,
+                "start": 6,
                 "end": 12
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 6,
@@ -123,17 +122,16 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 27,
+                "start": 21,
                 "end": 27
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 21,
@@ -161,27 +159,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 7,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 13,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 22,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

@@ -22,10 +22,9 @@ let x: export var let const function export var let const function
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -66,13 +65,13 @@ let x: export var let const function export var let const function
                         "end": 13
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 13
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -111,7 +110,7 @@ let x: export var let const function export var let const function
                 "start": 17,
                 "end": 21
             },
-            "flags": 1,
+            "flags": 25,
             "symbol": null,
             "transformFlags": 0,
             "start": 13,
@@ -119,17 +118,16 @@ let x: export var let const function export var let const function
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 27,
+                "start": 21,
                 "end": 27
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 21,
@@ -204,17 +202,16 @@ let x: export var let const function export var let const function
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 57,
+                                "start": 51,
                                 "end": 57
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 51,
@@ -245,7 +242,7 @@ let x: export var let const function export var let const function
                             "type": null,
                             "contents": null,
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 2097152,
                             "start": 57,
@@ -266,7 +263,7 @@ let x: export var let const function export var let const function
                 "end": 66
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 27,
@@ -276,41 +273,6 @@ let x: export var let const function export var let const function
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 14,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 22,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 28,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected 'export' is a reserved word that cannot be used here",
-            "start": 37,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 52,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

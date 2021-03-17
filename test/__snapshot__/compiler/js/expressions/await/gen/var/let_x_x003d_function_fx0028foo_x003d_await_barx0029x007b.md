@@ -100,10 +100,9 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -216,13 +215,13 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                             "end": 77
                                                         }
                                                     ],
-                                                    "flags": 9,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 42,
+                                                    "start": 38,
                                                     "end": 77
                                                 },
-                                                "flags": 9,
+                                                "flags": 24,
                                                 "symbol": null,
                                                 "transformFlags": 769,
                                                 "start": 38,
@@ -230,13 +229,13 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 1,
+                                        "flags": 24,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 38,
                                         "end": 77
                                     },
-                                    "flags": 1,
+                                    "flags": 24,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 36,
@@ -244,7 +243,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 1,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 4,
                                 "start": 20,

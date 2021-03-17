@@ -56,10 +56,9 @@ async function f() {
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -196,10 +195,10 @@ async function f() {
                                         "end": 56
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 26,
+                                "start": 20,
                                 "end": 56
                             },
                             "flags": 32776,

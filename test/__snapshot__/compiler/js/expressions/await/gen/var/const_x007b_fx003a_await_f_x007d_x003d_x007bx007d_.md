@@ -100,10 +100,9 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": true,
                                                 "binding": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -213,10 +212,10 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                             "end": 64
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 40,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 44,
+                                                    "start": 38,
                                                     "end": 64
                                                 },
                                                 "flags": 8,
@@ -279,7 +278,7 @@ var await; var f = (async function() { const { f: await f } = {}; });
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 56,
             "length": 0
         }

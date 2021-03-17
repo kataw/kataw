@@ -38,7 +38,7 @@ export (ctrl: number|string) => void)[] = y; = (ctrl: number|string) => void)[] 
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -119,7 +119,7 @@ export (ctrl: number|string) => void)[] = y; = (ctrl: number|string) => void)[] 
                     "start": 31,
                     "end": 36
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 6,
@@ -182,7 +182,7 @@ export (ctrl: number|string) => void)[] = y; = (ctrl: number|string) => void)[] 
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -263,7 +263,7 @@ export (ctrl: number|string) => void)[] = y; = (ctrl: number|string) => void)[] 
                     "start": 71,
                     "end": 76
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 46,

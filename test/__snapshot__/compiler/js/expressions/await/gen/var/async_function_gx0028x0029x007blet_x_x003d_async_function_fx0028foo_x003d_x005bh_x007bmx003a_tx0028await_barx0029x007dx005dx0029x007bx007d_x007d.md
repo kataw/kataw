@@ -128,10 +128,9 @@ var await; var f = (async function() { async function g(){let x = async function
                                                         "statements": [
                                                             {
                                                                 "kind": 142,
-                                                                "isConst": false,
                                                                 "binding": {
                                                                     "kind": 31,
-                                                                    "bindingList": [
+                                                                    "lexicals": [
                                                                         {
                                                                             "kind": 16525,
                                                                             "binding": {
@@ -344,13 +343,13 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                             "end": 114
                                                                         }
                                                                     ],
-                                                                    "flags": 8,
+                                                                    "flags": 24,
                                                                     "symbol": null,
                                                                     "transformFlags": 0,
-                                                                    "start": 61,
+                                                                    "start": 58,
                                                                     "end": 114
                                                                 },
-                                                                "flags": 8,
+                                                                "flags": 24,
                                                                 "symbol": null,
                                                                 "transformFlags": 769,
                                                                 "start": 58,
@@ -358,7 +357,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                             }
                                                         ],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 24,
                                                         "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 58,

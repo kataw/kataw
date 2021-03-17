@@ -22,10 +22,9 @@ let x: export class C { export class C {
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -66,13 +65,13 @@ let x: export class C { export class C {
                         "end": 13
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 13
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -192,7 +191,7 @@ let x: export class C { export class C {
             },
             "decorators": null,
             "isAbstract": false,
-            "flags": 1,
+            "flags": 25,
             "symbol": null,
             "transformFlags": 1,
             "start": 13,

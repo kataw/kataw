@@ -33,10 +33,9 @@ import const x!: string = const x!: string ;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -74,13 +73,13 @@ import const x!: string = const x!: string ;
                         "end": 25
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 12,
+                "start": 6,
                 "end": 25
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 6,
@@ -88,10 +87,9 @@ import const x!: string = const x!: string ;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -121,13 +119,13 @@ import const x!: string = const x!: string ;
                         "end": 42
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 31,
+                "start": 25,
                 "end": 42
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 25,
@@ -136,22 +134,7 @@ import const x!: string = const x!: string ;
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 7,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 26,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

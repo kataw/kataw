@@ -73,17 +73,16 @@ declare export var let const function
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 28,
+                "start": 22,
                 "end": 28
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 22,
@@ -114,7 +113,7 @@ declare export var let const function
             "type": null,
             "contents": null,
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 28,
@@ -124,13 +123,6 @@ declare export var let const function
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 23,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

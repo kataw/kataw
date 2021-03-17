@@ -50,10 +50,9 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -190,13 +189,13 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                         "end": 56
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 22,
+                                "start": 19,
                                 "end": 56
                             },
-                            "flags": 8,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 19,
@@ -204,7 +203,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                         }
                     ],
                     "multiline": false,
-                    "flags": 0,
+                    "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 19,

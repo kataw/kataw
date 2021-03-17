@@ -22,10 +22,9 @@ let { f: ...await f } = {};
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -135,10 +134,10 @@ let { f: ...await f } = {};
                         "end": 26
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 26
             },
             "flags": 8,
@@ -154,7 +153,7 @@ let { f: ...await f } = {};
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 18,
             "length": 0
         }

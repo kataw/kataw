@@ -22,10 +22,9 @@ const x: unknown): asserts value is= {x:unknown): asserts value is}:unknown): as
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -55,13 +54,13 @@ const x: unknown): asserts value is= {x:unknown): asserts value is}:unknown): as
                         "end": 16
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 16
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

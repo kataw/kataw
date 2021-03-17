@@ -22,10 +22,9 @@ let x:  string {  string {
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -136,13 +135,13 @@ let x:  string {  string {
                         "end": 26
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 26
             },
-            "flags": 8,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -162,7 +161,7 @@ let x:  string {  string {
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 25,
             "length": 0
         }

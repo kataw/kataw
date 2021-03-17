@@ -22,10 +22,9 @@ let x: xport a: string) { xport a: string) {
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -94,13 +93,13 @@ let x: xport a: string) { xport a: string) {
                         "end": 22
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 22
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

@@ -27,10 +27,9 @@ const fn2 = () => {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -48,7 +47,7 @@ const fn2 = () => {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -88,7 +87,7 @@ const fn2 = () => {
                                 "start": 17,
                                 "end": 31
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 11,
@@ -101,10 +100,10 @@ const fn2 = () => {
                         "end": 31
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 31
             },
             "flags": 32776,
@@ -115,10 +114,9 @@ const fn2 = () => {
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -136,7 +134,7 @@ const fn2 = () => {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -176,7 +174,7 @@ const fn2 = () => {
                                 "start": 61,
                                 "end": 75
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 55,
@@ -189,10 +187,10 @@ const fn2 = () => {
                         "end": 75
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 49,
+                "start": 42,
                 "end": 75
             },
             "flags": 32776,

@@ -58,42 +58,14 @@ function *f() {
                                 "expression": {
                                     "kind": 81936,
                                     "typeParameters": null,
-                                    "arrowParameters": {
-                                        "kind": 81929,
-                                        "elements": [
-                                            {
-                                                "kind": 16473,
-                                                "ellipsis": false,
-                                                "binding": {
-                                                    "kind": 131102,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 0,
-                                                    "symbol": null,
-                                                    "transformFlags": 1025,
-                                                    "start": 29,
-                                                    "end": 31
-                                                },
-                                                "isOptional": false,
-                                                "type": null,
-                                                "initializer": null,
-                                                "decorators": null,
-                                                "accessModifier": null,
-                                                "isReadOnly": false,
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1,
-                                                "start": 34,
-                                                "end": 31
-                                            }
-                                        ],
-                                        "type": null,
-                                        "accessModifier": null,
-                                        "trailingComma": false,
+                                    "parameters": {
+                                        "kind": 131102,
+                                        "text": "x",
+                                        "rawText": "x",
                                         "flags": 0,
                                         "symbol": null,
-                                        "transformFlags": 0,
-                                        "start": 23,
+                                        "transformFlags": 1025,
+                                        "start": 29,
                                         "end": 31
                                     },
                                     "contents": {
@@ -106,7 +78,7 @@ function *f() {
                                         "start": 34,
                                         "end": 37
                                     },
-                                    "flags": 32768,
+                                    "flags": 1073774592,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,

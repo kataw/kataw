@@ -26,10 +26,9 @@ export const x = 10, y = 20
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": true,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -91,13 +90,13 @@ export const x = 10, y = 20
                             "end": 27
                         }
                     ],
-                    "flags": 8,
+                    "flags": 40,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 12,
+                    "start": 6,
                     "end": 27
                 },
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 769,
                 "start": 0,
@@ -107,7 +106,7 @@ export const x = 10, y = 20
             "exportFromClause": null,
             "fromClause": null,
             "isTypeOnly": false,
-            "flags": 0,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,

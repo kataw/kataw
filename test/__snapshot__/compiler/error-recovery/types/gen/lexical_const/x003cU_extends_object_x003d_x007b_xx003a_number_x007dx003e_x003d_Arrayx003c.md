@@ -22,10 +22,9 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -282,7 +281,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                                                     "start": 58,
                                                     "end": 90
                                                 },
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 131322,
                                                     "text": "",
                                                     "flags": 3,
@@ -337,7 +336,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                                                     "start": 91,
                                                     "end": 100
                                                 },
-                                                "flags": 1,
+                                                "flags": 1073741825,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 57,
@@ -379,13 +378,13 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                         "end": 101
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 101
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -482,7 +481,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                     "start": 103,
                     "end": 135
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
@@ -537,7 +536,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                     "start": 136,
                     "end": 145
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 102,

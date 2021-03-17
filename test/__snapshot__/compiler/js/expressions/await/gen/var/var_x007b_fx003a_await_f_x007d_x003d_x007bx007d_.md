@@ -278,7 +278,7 @@ var await; var f = (async function() { var { f: await f } = {}; });
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 54,
             "length": 0
         }

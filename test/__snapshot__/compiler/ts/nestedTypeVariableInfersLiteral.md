@@ -692,10 +692,9 @@ hasZField(nestedUnionArray) // ok
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -757,13 +756,13 @@ hasZField(nestedUnionArray) // ok
                         "end": 336
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 304,
+                "start": 297,
                 "end": 336
             },
-            "flags": 32776,
+            "flags": 32809,
             "symbol": null,
             "transformFlags": 769,
             "start": 297,
@@ -771,10 +770,9 @@ hasZField(nestedUnionArray) // ok
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -866,13 +864,13 @@ hasZField(nestedUnionArray) // ok
                         "end": 380
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 342,
+                "start": 336,
                 "end": 380
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 336,
@@ -880,10 +878,9 @@ hasZField(nestedUnionArray) // ok
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -985,13 +982,13 @@ hasZField(nestedUnionArray) // ok
                         "end": 423
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 386,
+                "start": 380,
                 "end": 423
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 380,
@@ -999,10 +996,9 @@ hasZField(nestedUnionArray) // ok
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1104,13 +1100,13 @@ hasZField(nestedUnionArray) // ok
                         "end": 476
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 429,
+                "start": 423,
                 "end": 476
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 423,
@@ -1118,10 +1114,9 @@ hasZField(nestedUnionArray) // ok
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1253,13 +1248,13 @@ hasZField(nestedUnionArray) // ok
                         "end": 535
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 482,
+                "start": 476,
                 "end": 535
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 476,

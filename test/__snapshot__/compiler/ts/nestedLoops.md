@@ -95,10 +95,9 @@ export class Test  {
                                         "statements": [
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -205,10 +204,10 @@ export class Test  {
                                                             "end": 91
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 53,
+                                                    "start": 40,
                                                     "end": 91
                                                 },
                                                 "flags": 32776,
@@ -219,10 +218,9 @@ export class Test  {
                                             },
                                             {
                                                 "kind": 142,
-                                                "isConst": false,
                                                 "binding": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -329,10 +327,10 @@ export class Test  {
                                                             "end": 142
                                                         }
                                                     ],
-                                                    "flags": 8,
+                                                    "flags": 24,
                                                     "symbol": null,
                                                     "transformFlags": 0,
-                                                    "start": 104,
+                                                    "start": 92,
                                                     "end": 142
                                                 },
                                                 "flags": 32776,
@@ -344,42 +342,33 @@ export class Test  {
                                             {
                                                 "kind": 2099287,
                                                 "initializer": {
-                                                    "kind": 142,
-                                                    "isConst": false,
-                                                    "binding": {
-                                                        "kind": 31,
-                                                        "bindingList": [
-                                                            {
-                                                                "kind": 16525,
-                                                                "binding": {
-                                                                    "kind": 131102,
-                                                                    "text": "outer",
-                                                                    "rawText": "outer",
-                                                                    "flags": 0,
-                                                                    "symbol": null,
-                                                                    "transformFlags": 1025,
-                                                                    "start": 161,
-                                                                    "end": 167
-                                                                },
-                                                                "exclamation": false,
-                                                                "type": null,
-                                                                "initializer": null,
+                                                    "kind": 31,
+                                                    "lexicals": [
+                                                        {
+                                                            "kind": 16525,
+                                                            "binding": {
+                                                                "kind": 131102,
+                                                                "text": "outer",
+                                                                "rawText": "outer",
                                                                 "flags": 0,
                                                                 "symbol": null,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1025,
                                                                 "start": 161,
                                                                 "end": 167
-                                                            }
-                                                        ],
-                                                        "flags": 8,
-                                                        "symbol": null,
-                                                        "transformFlags": 0,
-                                                        "start": 161,
-                                                        "end": 167
-                                                    },
-                                                    "flags": 0,
+                                                            },
+                                                            "exclamation": false,
+                                                            "type": null,
+                                                            "initializer": null,
+                                                            "flags": 0,
+                                                            "symbol": null,
+                                                            "transformFlags": 0,
+                                                            "start": 161,
+                                                            "end": 167
+                                                        }
+                                                    ],
+                                                    "flags": 24,
                                                     "symbol": null,
-                                                    "transformFlags": 256,
+                                                    "transformFlags": 0,
                                                     "start": 158,
                                                     "end": 167
                                                 },
@@ -396,42 +385,33 @@ export class Test  {
                                                 "statement": {
                                                     "kind": 2099287,
                                                     "initializer": {
-                                                        "kind": 142,
-                                                        "isConst": false,
-                                                        "binding": {
-                                                            "kind": 31,
-                                                            "bindingList": [
-                                                                {
-                                                                    "kind": 16525,
-                                                                    "binding": {
-                                                                        "kind": 131102,
-                                                                        "text": "inner",
-                                                                        "rawText": "inner",
-                                                                        "flags": 0,
-                                                                        "symbol": null,
-                                                                        "transformFlags": 1025,
-                                                                        "start": 203,
-                                                                        "end": 209
-                                                                    },
-                                                                    "exclamation": false,
-                                                                    "type": null,
-                                                                    "initializer": null,
+                                                        "kind": 31,
+                                                        "lexicals": [
+                                                            {
+                                                                "kind": 16525,
+                                                                "binding": {
+                                                                    "kind": 131102,
+                                                                    "text": "inner",
+                                                                    "rawText": "inner",
                                                                     "flags": 0,
                                                                     "symbol": null,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 1025,
                                                                     "start": 203,
                                                                     "end": 209
-                                                                }
-                                                            ],
-                                                            "flags": 8,
-                                                            "symbol": null,
-                                                            "transformFlags": 0,
-                                                            "start": 203,
-                                                            "end": 209
-                                                        },
-                                                        "flags": 0,
+                                                                },
+                                                                "exclamation": false,
+                                                                "type": null,
+                                                                "initializer": null,
+                                                                "flags": 0,
+                                                                "symbol": null,
+                                                                "transformFlags": 0,
+                                                                "start": 203,
+                                                                "end": 209
+                                                            }
+                                                        ],
+                                                        "flags": 24,
                                                         "symbol": null,
-                                                        "transformFlags": 256,
+                                                        "transformFlags": 0,
                                                         "start": 200,
                                                         "end": 209
                                                     },
@@ -492,7 +472,7 @@ export class Test  {
                                                                                 {
                                                                                     "kind": 83976,
                                                                                     "typeParameters": null,
-                                                                                    "arrowParameters": {
+                                                                                    "parameters": {
                                                                                         "kind": 81929,
                                                                                         "elements": [
                                                                                             {
@@ -562,10 +542,9 @@ export class Test  {
                                                                                             "statements": [
                                                                                                 {
                                                                                                     "kind": 142,
-                                                                                                    "isConst": false,
                                                                                                     "binding": {
                                                                                                         "kind": 31,
-                                                                                                        "bindingList": [
+                                                                                                        "lexicals": [
                                                                                                             {
                                                                                                                 "kind": 16525,
                                                                                                                 "binding": {
@@ -635,10 +614,10 @@ export class Test  {
                                                                                                                 "end": 336
                                                                                                             }
                                                                                                         ],
-                                                                                                        "flags": 8,
+                                                                                                        "flags": 24,
                                                                                                         "symbol": null,
                                                                                                         "transformFlags": 0,
-                                                                                                        "start": 307,
+                                                                                                        "start": 283,
                                                                                                         "end": 336
                                                                                                     },
                                                                                                     "flags": 32776,
@@ -661,7 +640,7 @@ export class Test  {
                                                                                         "start": 281,
                                                                                         "end": 355
                                                                                     },
-                                                                                    "flags": 1073741824,
+                                                                                    "flags": 0,
                                                                                     "symbol": null,
                                                                                     "transformFlags": 0,
                                                                                     "start": 258,

@@ -119,17 +119,16 @@ function ( foo const ) {foo const}
                     },
                     {
                         "kind": 142,
-                        "isConst": true,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [],
-                            "flags": 8,
+                            "lexicals": [],
+                            "flags": 40,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 33,
+                            "start": 27,
                             "end": 33
                         },
-                        "flags": 9,
+                        "flags": 41,
                         "symbol": null,
                         "transformFlags": 769,
                         "start": 27,
@@ -137,7 +136,7 @@ function ( foo const ) {foo const}
                     }
                 ],
                 "multiline": false,
-                "flags": 0,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 24,
@@ -152,36 +151,7 @@ function ( foo const ) {foo const}
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Expression or comma expected.",
-            "start": 15,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 21,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 28,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

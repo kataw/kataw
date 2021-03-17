@@ -33,10 +33,9 @@ const pure = () => {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -54,7 +53,7 @@ const pure = () => {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -173,7 +172,7 @@ const pure = () => {
                                 "start": 18,
                                 "end": 126
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 12,
@@ -186,13 +185,13 @@ const pure = () => {
                         "end": 126
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 126
             },
-            "flags": 32776,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

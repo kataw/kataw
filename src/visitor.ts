@@ -1,6 +1,6 @@
 import { createNodeArray, concatenate, extractSingleNode } from './utils';
 import { LexicalEnvironmentFlags } from './transform/context';
-import { Node, NodeFlags, NodeKind } from './ast/node';
+import { Node, NodeKind } from './ast/node';
 import { updateRootNode } from './ast/rootNode';
 import { updateExpressionStatement } from './ast/statements/expr-stmt';
 import { updateBinaryExpression } from './ast/expressions/binary-expr';
@@ -124,7 +124,6 @@ import { updateTypeArguments } from './ast/types/type-arguments';
 import { updateTypeAssertion } from './ast/types/type-assertion';
 import { updateTypeLiteral } from './ast/types/type-literal';
 import { updateTypeOperator } from './ast/types/type-operator';
-import { updateTypeParameters } from './ast/types/type-parameter-list';
 import { updateTypeParameter } from './ast/types/type-parameter';
 import { updateTypePredicate } from './ast/types/type-predicate';
 import { updateUnionType } from './ast/types/union-type';
@@ -375,7 +374,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.VariableDeclarationList:
       return updateVariableDeclarationList(node, visitNodes(node.declarations, visitor));
     case NodeKind.LexicalDeclaration:
-      return updateLexicalDeclaration(node, node.isConst, visitNode(node.binding, visitor));
+      return updateLexicalDeclaration(node, visitNode(node.binding, visitor));
     case NodeKind.ArrayBindingPattern:
       return updateArrayBindingPattern(node, visitNode(node.elementList, visitor));
     case NodeKind.LexicalBinding:
@@ -406,7 +405,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateArrowFunction(
         node,
         /* isAsync */ false,
-        (node.flags & NodeFlags.ParenthesizedArrow) !== 0,
         visitNode(node.arrowParameters, visitor),
         visitNode(node.contents, visitor)
       );
@@ -585,7 +583,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateArrowFunction(
         node,
         /* isAsync */ true,
-        (node.flags & NodeFlags.ParenthesizedArrow) !== 0,
         visitNode(node.arrowParameters, visitor),
         visitNode(node.contents, visitor)
       );

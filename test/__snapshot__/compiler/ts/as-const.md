@@ -54,10 +54,9 @@ let q5 = <const> { x: 10, y: 20 };
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -116,10 +115,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 23
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 23
             },
             "flags": 32776,
@@ -130,10 +129,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -193,10 +191,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 48
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 28,
+                "start": 24,
                 "end": 48
             },
             "flags": 32776,
@@ -207,10 +205,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -269,10 +266,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 70
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 53,
+                "start": 49,
                 "end": 70
             },
             "flags": 32776,
@@ -283,10 +280,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -354,10 +350,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 93
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 75,
+                "start": 71,
                 "end": 93
             },
             "flags": 32776,
@@ -368,10 +364,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -439,10 +434,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 116
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 98,
+                "start": 94,
                 "end": 116
             },
             "flags": 32776,
@@ -453,10 +448,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -515,10 +509,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 138
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 121,
+                "start": 117,
                 "end": 138
             },
             "flags": 32776,
@@ -529,10 +523,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -600,10 +593,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 161
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 143,
+                "start": 139,
                 "end": 161
             },
             "flags": 32776,
@@ -614,10 +607,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -675,10 +667,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 185
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 166,
+                "start": 162,
                 "end": 185
             },
             "flags": 32776,
@@ -689,10 +681,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -750,10 +741,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 210
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 190,
+                "start": 186,
                 "end": 210
             },
             "flags": 32776,
@@ -764,10 +755,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -835,10 +825,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 233
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 216,
+                "start": 211,
                 "end": 233
             },
             "flags": 32776,
@@ -849,10 +839,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -951,10 +940,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 262
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 238,
+                "start": 234,
                 "end": 262
             },
             "flags": 32776,
@@ -965,10 +954,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1066,10 +1054,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 301
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 267,
+                "start": 263,
                 "end": 301
             },
             "flags": 32776,
@@ -1080,10 +1068,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1210,10 +1197,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 335
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 306,
+                "start": 302,
                 "end": 335
             },
             "flags": 32776,
@@ -1224,10 +1211,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1299,10 +1285,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 355
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 340,
+                "start": 336,
                 "end": 355
             },
             "flags": 32776,
@@ -1313,10 +1299,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1403,10 +1388,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 382
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 360,
+                "start": 356,
                 "end": 382
             },
             "flags": 32776,
@@ -1417,10 +1402,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1517,10 +1501,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 416
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 387,
+                "start": 383,
                 "end": 416
             },
             "flags": 32776,
@@ -1531,10 +1515,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1663,10 +1646,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 453
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 422,
+                "start": 417,
                 "end": 453
             },
             "flags": 32776,
@@ -1677,10 +1660,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1956,10 +1938,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 522
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 458,
+                "start": 454,
                 "end": 522
             },
             "flags": 32776,
@@ -1970,10 +1952,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2078,10 +2059,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 558
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 527,
+                "start": 523,
                 "end": 558
             },
             "flags": 32776,
@@ -2092,10 +2073,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2182,10 +2162,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 587
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 563,
+                "start": 559,
                 "end": 587
             },
             "flags": 32776,
@@ -2196,10 +2176,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2286,10 +2265,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 615
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 592,
+                "start": 588,
                 "end": 615
             },
             "flags": 32776,
@@ -2300,10 +2279,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2513,10 +2491,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 667
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 620,
+                "start": 616,
                 "end": 667
             },
             "flags": 32776,
@@ -2527,10 +2505,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2597,10 +2574,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 702
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 683,
+                "start": 668,
                 "end": 702
             },
             "flags": 32776,
@@ -2611,10 +2588,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2698,10 +2674,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 729
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 707,
+                "start": 703,
                 "end": 729
             },
             "flags": 32776,
@@ -2712,10 +2688,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2810,10 +2785,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 757
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 734,
+                "start": 730,
                 "end": 757
             },
             "flags": 32776,
@@ -2824,10 +2799,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2966,10 +2940,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 787
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 762,
+                "start": 758,
                 "end": 787
             },
             "flags": 32776,
@@ -2980,10 +2954,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3252,10 +3225,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 851
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 793,
+                "start": 788,
                 "end": 851
             },
             "flags": 32776,
@@ -3266,10 +3239,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3328,10 +3300,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 873
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 857,
+                "start": 852,
                 "end": 873
             },
             "flags": 32776,
@@ -3342,10 +3314,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3404,10 +3375,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 897
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 878,
+                "start": 874,
                 "end": 897
             },
             "flags": 32776,
@@ -3418,10 +3389,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3479,10 +3449,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 920
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 902,
+                "start": 898,
                 "end": 920
             },
             "flags": 32776,
@@ -3493,10 +3463,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3595,10 +3564,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 948
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 925,
+                "start": 921,
                 "end": 948
             },
             "flags": 32776,
@@ -3609,10 +3578,9 @@ let q5 = <const> { x: 10, y: 20 };
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -3741,10 +3709,10 @@ let q5 = <const> { x: 10, y: 20 };
                         "end": 983
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 953,
+                "start": 949,
                 "end": 983
             },
             "flags": 32776,

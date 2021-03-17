@@ -47,10 +47,9 @@ this.intervalID = (setInterval(() => {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -359,10 +358,10 @@ this.intervalID = (setInterval(() => {
                         "end": 151
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 151
             },
             "flags": 32776,
@@ -373,10 +372,9 @@ this.intervalID = (setInterval(() => {
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -625,10 +623,10 @@ this.intervalID = (setInterval(() => {
                         "end": 364
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 159,
+                "start": 152,
                 "end": 364
             },
             "flags": 32776,
@@ -698,7 +696,18 @@ this.intervalID = (setInterval(() => {
                                         {
                                             "kind": 81936,
                                             "typeParameters": null,
-                                            "arrowParameters": [],
+                                            "parameters": {
+                                                "kind": 81929,
+                                                "elements": [],
+                                                "type": null,
+                                                "accessModifier": null,
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 415,
+                                                "end": 415
+                                            },
                                             "contents": {
                                                 "kind": 91,
                                                 "functionStatementList": {
@@ -892,7 +901,7 @@ this.intervalID = (setInterval(() => {
                                                 "start": 418,
                                                 "end": 525
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 407,
@@ -1050,7 +1059,7 @@ this.intervalID = (setInterval(() => {
                                         {
                                             "kind": 83976,
                                             "typeParameters": null,
-                                            "arrowParameters": {
+                                            "parameters": {
                                                 "kind": 81929,
                                                 "elements": [],
                                                 "type": null,
@@ -1141,7 +1150,7 @@ this.intervalID = (setInterval(() => {
                                                 "start": 606,
                                                 "end": 625
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 601,

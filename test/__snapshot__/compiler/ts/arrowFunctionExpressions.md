@@ -59,7 +59,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -137,7 +137,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 25
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
@@ -184,7 +184,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -289,7 +289,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 55,
                                 "end": 76
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 40,
@@ -336,38 +336,10 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "j",
-                                            "rawText": "j",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 85,
-                                            "end": 87
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 87,
-                                        "end": 87
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                            "parameters": {
+                                "kind": 4325406,
+                                "text": "j",
+                                "rawText": "j",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
@@ -411,7 +383,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 90,
                                 "end": 104
                             },
-                            "flags": 32768,
+                            "flags": 1073774592,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 85,
@@ -458,7 +430,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -533,7 +505,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 119,
                                 "end": 133
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 112,
@@ -626,38 +598,10 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 4325406,
-                                            "text": "n",
-                                            "rawText": "n",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 0,
-                                            "start": 157,
-                                            "end": 159
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 159,
-                                        "end": 159
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                            "parameters": {
+                                "kind": 4325406,
+                                "text": "n",
+                                "rawText": "n",
                                 "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
@@ -693,7 +637,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 162,
                                 "end": 168
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 157,
@@ -740,7 +684,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -807,7 +751,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 184,
                                 "end": 190
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 177,
@@ -951,7 +895,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1027,7 +971,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 234,
                                 "end": 238
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 225,
@@ -1074,7 +1018,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1160,7 +1104,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 260,
                                 "end": 264
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 248,
@@ -1207,7 +1151,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1291,7 +1235,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 285,
                                 "end": 289
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 274,
@@ -1338,7 +1282,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1432,7 +1376,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 313,
                                 "end": 317
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 299,
@@ -1479,7 +1423,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1573,7 +1517,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 340,
                                 "end": 344
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 327,
@@ -1620,7 +1564,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1696,7 +1640,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 365,
                                 "end": 369
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 354,
@@ -1743,7 +1687,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1859,7 +1803,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 397,
                                 "end": 401
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 379,
@@ -1906,7 +1850,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -2004,7 +1948,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 426,
                                 "end": 430
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 411,
@@ -2051,7 +1995,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -2247,7 +2191,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 473,
                                 "end": 477
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 440,
@@ -2294,7 +2238,7 @@ var p10 = ([{ value, done }]) => { };
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -2400,7 +2344,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 511,
                                 "end": 515
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 488,

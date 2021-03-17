@@ -35,38 +35,10 @@ while(y)
                 "expression": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
-                        "kind": 81929,
-                        "elements": [
-                            {
-                                "kind": 16473,
-                                "ellipsis": false,
-                                "binding": {
-                                    "kind": 4325406,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "isOptional": false,
-                                "type": null,
-                                "initializer": null,
-                                "decorators": null,
-                                "accessModifier": null,
-                                "isReadOnly": false,
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1,
-                                "start": 9,
-                                "end": 9
-                            }
-                        ],
-                        "type": null,
-                        "accessModifier": null,
-                        "trailingComma": false,
+                    "parameters": {
+                        "kind": 4325406,
+                        "text": "x",
+                        "rawText": "x",
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
@@ -91,7 +63,7 @@ while(y)
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 8,

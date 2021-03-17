@@ -52,17 +52,16 @@ function *f(){
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 27,
+                                "start": 14,
                                 "end": 27
                             },
-                            "flags": 75530249,
+                            "flags": 75530281,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 14,
@@ -70,20 +69,20 @@ function *f(){
                         }
                     ],
                     "multiline": true,
-                    "flags": 1,
+                    "flags": 41,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 14,
                     "end": 27
                 },
-                "flags": 1,
+                "flags": 41,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 13,
                 "end": 27
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 384,
             "start": 0,

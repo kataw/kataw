@@ -181,10 +181,9 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -285,10 +284,10 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                         "end": 117
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 95,
+                                "start": 87,
                                 "end": 117
                             },
                             "flags": 32776,

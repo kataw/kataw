@@ -62,10 +62,9 @@ import let a: = let a: ;
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -106,10 +105,10 @@ import let a: = let a: ;
                         "end": 22
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 19,
+                "start": 15,
                 "end": 22
             },
             "flags": 8,
@@ -122,27 +121,6 @@ import let a: = let a: ;
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'from' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 12,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 14,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

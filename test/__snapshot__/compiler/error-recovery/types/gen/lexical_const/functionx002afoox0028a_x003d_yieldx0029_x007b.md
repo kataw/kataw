@@ -22,10 +22,9 @@ const x: function*foo(a = yield) {= {x:function*foo(a = yield) {}:function*foo(a
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -66,13 +65,13 @@ const x: function*foo(a = yield) {= {x:function*foo(a = yield) {}:function*foo(a
                         "end": 17
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 17
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

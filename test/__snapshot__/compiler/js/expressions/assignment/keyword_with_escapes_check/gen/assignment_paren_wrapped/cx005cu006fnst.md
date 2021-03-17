@@ -47,17 +47,16 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 11,
+                "start": 1,
                 "end": 11
             },
-            "flags": 75497481,
+            "flags": 75497513,
             "symbol": null,
             "transformFlags": 769,
             "start": 1,
@@ -93,13 +92,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 1,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

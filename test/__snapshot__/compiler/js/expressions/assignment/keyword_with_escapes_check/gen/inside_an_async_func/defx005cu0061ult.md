@@ -25,7 +25,7 @@ async () => {  def\u0061ult = x  }
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -55,7 +55,7 @@ async () => {  def\u0061ult = x  }
                     "start": 11,
                     "end": 13
                 },
-                "flags": 1149239297,
+                "flags": 75497473,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

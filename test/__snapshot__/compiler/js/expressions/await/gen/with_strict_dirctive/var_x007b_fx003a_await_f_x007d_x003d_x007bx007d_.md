@@ -171,7 +171,7 @@
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 29,
             "length": 0
         }

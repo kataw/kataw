@@ -91,17 +91,16 @@ absrtact export var let const function
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 29,
+                "start": 23,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 23,
@@ -132,7 +131,7 @@ absrtact export var let const function
             "type": null,
             "contents": null,
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 29,
@@ -142,20 +141,6 @@ absrtact export var let const function
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 24,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

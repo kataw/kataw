@@ -49,13 +49,13 @@ let n3 = test[numbersNotConst.one];
             "kind": 8263,
             "name": {
                 "kind": 196712,
-                "text": "numbers",
-                "rawText": "numbers",
+                "text": "enum",
+                "rawText": "enum",
                 "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 11,
-                "end": 19
+                "start": 6,
+                "end": 11
             },
             "members": {
                 "kind": 8265,
@@ -64,52 +64,90 @@ let n3 = test[numbersNotConst.one];
                         "kind": 8264,
                         "name": {
                             "kind": 196711,
-                            "text": "zero",
-                            "rawText": "zero",
-                            "flags": 32768,
+                            "text": "numbers",
+                            "rawText": "numbers",
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 21,
-                            "end": 30
+                            "start": 11,
+                            "end": 19
                         },
                         "initializer": null,
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 2097152,
-                        "start": 21,
-                        "end": 30
-                    },
-                    {
-                        "kind": 8264,
-                        "name": {
-                            "kind": 196711,
-                            "text": "one",
-                            "rawText": "one",
-                            "flags": 32768,
-                            "symbol": null,
-                            "transformFlags": 0,
-                            "start": 31,
-                            "end": 39
-                        },
-                        "initializer": null,
-                        "flags": 32768,
-                        "symbol": null,
-                        "transformFlags": 2097152,
-                        "start": 31,
-                        "end": 39
+                        "start": 11,
+                        "end": 19
                     }
                 ],
-                "flags": 32768,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 2097152,
-                "start": 21,
-                "end": 39
+                "start": 11,
+                "end": 19
             },
             "isConst": true,
-            "flags": 32768,
+            "flags": 32769,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 0,
+            "end": 19
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [
+                    {
+                        "kind": 2097233,
+                        "expression": {
+                            "kind": 65590,
+                            "expressions": [
+                                {
+                                    "kind": 196712,
+                                    "text": "zero",
+                                    "rawText": "zero",
+                                    "flags": 32768,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 21,
+                                    "end": 30
+                                },
+                                {
+                                    "kind": 196712,
+                                    "text": "one",
+                                    "rawText": "one",
+                                    "flags": 32768,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 31,
+                                    "end": 39
+                                }
+                            ],
+                            "flags": 32768,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 21,
+                            "end": 39
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 39
+                    }
+                ],
+                "multiline": true,
+                "flags": 32768,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 21,
+                "end": 39
+            },
+            "flags": 32768,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 19,
             "end": 41
         },
         {
@@ -207,10 +245,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -251,10 +288,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 121
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 103,
+                "start": 98,
                 "end": 121
             },
             "flags": 32776,
@@ -265,10 +302,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -318,10 +354,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 139
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 127,
+                "start": 122,
                 "end": 139
             },
             "flags": 32776,
@@ -332,10 +368,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -385,10 +420,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 156
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 144,
+                "start": 140,
                 "end": 156
             },
             "flags": 32776,
@@ -399,10 +434,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -475,10 +509,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 186
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 162,
+                "start": 157,
                 "end": 186
             },
             "flags": 32776,
@@ -489,10 +523,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -565,10 +598,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 214
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 191,
+                "start": 187,
                 "end": 214
             },
             "flags": 32776,
@@ -579,10 +612,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -650,10 +682,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 247
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 220,
+                "start": 215,
                 "end": 247
             },
             "flags": 32776,
@@ -664,10 +696,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -735,10 +766,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 278
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 252,
+                "start": 248,
                 "end": 278
             },
             "flags": 32776,
@@ -816,10 +847,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -892,10 +922,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 360
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 328,
+                "start": 323,
                 "end": 360
             },
             "flags": 32776,
@@ -906,10 +936,9 @@ let n3 = test[numbersNotConst.one];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -982,10 +1011,10 @@ let n3 = test[numbersNotConst.one];
                         "end": 396
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 365,
+                "start": 361,
                 "end": 396
             },
             "flags": 32776,

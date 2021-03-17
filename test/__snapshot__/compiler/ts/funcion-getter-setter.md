@@ -23,10 +23,9 @@ const s = {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -163,10 +162,10 @@ const s = {
                         "end": 34
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 34
             },
             "flags": 32776,
@@ -177,10 +176,9 @@ const s = {
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -342,10 +340,10 @@ const s = {
                         "end": 77
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 41,
+                "start": 35,
                 "end": 77
             },
             "flags": 32776,

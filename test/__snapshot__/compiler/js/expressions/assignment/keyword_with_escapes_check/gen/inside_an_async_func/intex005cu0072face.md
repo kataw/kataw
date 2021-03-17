@@ -25,7 +25,7 @@ async () => {  inte\u0072face = x  }
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -93,7 +93,7 @@ async () => {  inte\u0072face = x  }
                     "start": 11,
                     "end": 36
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

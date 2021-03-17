@@ -22,10 +22,9 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -124,13 +123,13 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                         "end": 38
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 38
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -204,7 +203,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                             "expression": {
                                 "kind": 83976,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {
@@ -285,7 +284,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                                     "start": 75,
                                     "end": 80
                                 },
-                                "flags": 1073741825,
+                                "flags": 1,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 51,
@@ -369,7 +368,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -450,7 +449,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
                     "start": 114,
                     "end": 119
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 90,

@@ -78,10 +78,9 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                     "statements": [
                                         {
                                             "kind": 142,
-                                            "isConst": false,
                                             "binding": {
                                                 "kind": 31,
-                                                "bindingList": [
+                                                "lexicals": [
                                                     {
                                                         "kind": 16525,
                                                         "binding": {
@@ -294,13 +293,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                         "end": 96
                                                     }
                                                 ],
-                                                "flags": 8,
+                                                "flags": 24,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 43,
+                                                "start": 40,
                                                 "end": 96
                                             },
-                                            "flags": 8,
+                                            "flags": 24,
                                             "symbol": null,
                                             "transformFlags": 769,
                                             "start": 40,
@@ -308,7 +307,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 24,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 40,

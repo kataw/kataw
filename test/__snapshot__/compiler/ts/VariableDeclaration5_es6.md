@@ -18,10 +18,9 @@ const a: number = 1
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -60,13 +59,13 @@ const a: number = 1
                         "end": 19
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 19
             },
-            "flags": 8,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

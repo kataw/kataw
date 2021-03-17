@@ -66,7 +66,7 @@ result = { x: arrow = () => {} } = {};
                                         "right": {
                                             "kind": 83976,
                                             "typeParameters": null,
-                                            "arrowParameters": {
+                                            "parameters": {
                                                 "kind": 81929,
                                                 "elements": [],
                                                 "type": null,
@@ -96,7 +96,7 @@ result = { x: arrow = () => {} } = {};
                                                 "start": 27,
                                                 "end": 30
                                             },
-                                            "flags": 1073741824,
+                                            "flags": 0,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 21,

@@ -119,10 +119,9 @@ function ( let a: ) {let a:}
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -163,13 +162,13 @@ function ( let a: ) {let a:}
                                         "end": 27
                                     }
                                 ],
-                                "flags": 9,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 24,
+                                "start": 21,
                                 "end": 27
                             },
-                            "flags": 9,
+                            "flags": 24,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 21,
@@ -177,7 +176,7 @@ function ( let a: ) {let a:}
                         }
                     ],
                     "multiline": false,
-                    "flags": 1,
+                    "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 21,
@@ -200,27 +199,6 @@ function ( let a: ) {let a:}
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Expression or comma expected.",
-            "start": 15,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Type expected",
-            "start": 18,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

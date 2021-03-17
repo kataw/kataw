@@ -22,42 +22,14 @@ async x=>{}
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 5,
-                                "end": 7
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 9,
-                            "end": 7
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
+                "parameters": {
+                    "kind": 131102,
+                    "text": "x",
+                    "rawText": "x",
                     "flags": 0,
                     "symbol": null,
-                    "transformFlags": 0,
-                    "start": 0,
+                    "transformFlags": 1025,
+                    "start": 5,
                     "end": 7
                 },
                 "contents": {
@@ -78,7 +50,7 @@ async x=>{}
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32768,
+                "flags": 1073774592,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

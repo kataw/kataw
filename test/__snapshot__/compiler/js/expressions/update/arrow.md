@@ -19,10 +19,9 @@ a;
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -40,7 +39,7 @@ a;
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -71,7 +70,7 @@ a;
                                 "start": 13,
                                 "end": 18
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
@@ -84,10 +83,10 @@ a;
                         "end": 18
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 18
             },
             "flags": 8,

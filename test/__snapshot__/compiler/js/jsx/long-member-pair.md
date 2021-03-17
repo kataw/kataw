@@ -169,7 +169,7 @@
                         "start": 57,
                         "end": 57
                     },
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 131322,
                         "text": "",
                         "flags": 3,
@@ -358,7 +358,7 @@
                         "start": 57,
                         "end": 113
                     },
-                    "flags": 1,
+                    "flags": 1073741825,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 56,

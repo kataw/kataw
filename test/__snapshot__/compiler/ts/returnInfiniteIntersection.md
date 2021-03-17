@@ -52,10 +52,9 @@ let result = recursive()(1)
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -160,13 +159,13 @@ let result = recursive()(1)
                                         "end": 49
                                     }
                                 ],
-                                "flags": 9,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 30,
+                                "start": 22,
                                 "end": 49
                             },
-                            "flags": 32777,
+                            "flags": 32792,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 22,
@@ -174,20 +173,20 @@ let result = recursive()(1)
                         }
                     ],
                     "multiline": true,
-                    "flags": 1,
+                    "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 22,
                     "end": 49
                 },
-                "flags": 1,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 20,
                 "end": 49
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 256,
             "start": 0,
@@ -329,10 +328,9 @@ let result = recursive()(1)
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -413,13 +411,13 @@ let result = recursive()(1)
                         "end": 130
                     }
                 ],
-                "flags": 32776,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 106,
+                "start": 101,
                 "end": 130
             },
-            "flags": 32776,
+            "flags": 32792,
             "symbol": null,
             "transformFlags": 769,
             "start": 101,
@@ -428,15 +426,7 @@ let result = recursive()(1)
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 100,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

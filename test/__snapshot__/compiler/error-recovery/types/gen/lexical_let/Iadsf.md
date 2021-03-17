@@ -22,10 +22,9 @@ let x: Iadsf Iadsf
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -87,13 +86,13 @@ let x: Iadsf Iadsf
                         "end": 18
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 18
             },
-            "flags": 8,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

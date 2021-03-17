@@ -22,38 +22,10 @@ _ => {}
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 4325406,
-                                "text": "_",
-                                "rawText": "_",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 0,
-                                "end": 1
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 1,
-                            "end": 1
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
+                "parameters": {
+                    "kind": 4325406,
+                    "text": "_",
+                    "rawText": "_",
                     "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
@@ -78,7 +50,7 @@ _ => {}
                     "start": 4,
                     "end": 7
                 },
-                "flags": 1081344,
+                "flags": 1074823168,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

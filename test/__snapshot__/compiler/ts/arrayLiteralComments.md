@@ -73,10 +73,9 @@ var testArrayWithFunc = [
                                                 "statements": [
                                                     {
                                                         "kind": 142,
-                                                        "isConst": false,
                                                         "binding": {
                                                             "kind": 31,
-                                                            "bindingList": [
+                                                            "lexicals": [
                                                                 {
                                                                     "kind": 16525,
                                                                     "binding": {
@@ -108,10 +107,10 @@ var testArrayWithFunc = [
                                                                     "end": 84
                                                                 }
                                                             ],
-                                                            "flags": 8,
+                                                            "flags": 24,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 78,
+                                                            "start": 66,
                                                             "end": 84
                                                         },
                                                         "flags": 32776,

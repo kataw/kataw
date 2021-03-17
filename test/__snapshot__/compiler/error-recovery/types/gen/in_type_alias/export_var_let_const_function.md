@@ -91,17 +91,16 @@ type export var let const function = x extends export var let const function
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 25,
+                "start": 19,
                 "end": 25
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 19,
@@ -168,7 +167,7 @@ type export var let const function = x extends export var let const function
                 "end": 38
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 25,
@@ -227,17 +226,16 @@ type export var let const function = x extends export var let const function
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 67,
+                "start": 61,
                 "end": 67
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 61,
@@ -268,7 +266,7 @@ type export var let const function = x extends export var let const function
             "type": null,
             "contents": null,
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 2097152,
             "start": 67,
@@ -278,48 +276,6 @@ type export var let const function = x extends export var let const function
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 5,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 20,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 26,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 35,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 39,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 62,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

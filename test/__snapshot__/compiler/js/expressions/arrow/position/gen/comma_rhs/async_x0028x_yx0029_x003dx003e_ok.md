@@ -38,7 +38,7 @@ a, async (x, y) => ok
                     {
                         "kind": 81936,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {
@@ -111,7 +111,7 @@ a, async (x, y) => ok
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 1073741824,
+                        "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 2,

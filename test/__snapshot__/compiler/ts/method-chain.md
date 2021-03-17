@@ -201,7 +201,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                         {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -374,10 +374,9 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     "statements": [
                                         {
                                             "kind": 142,
-                                            "isConst": true,
                                             "binding": {
                                                 "kind": 31,
-                                                "bindingList": [
+                                                "lexicals": [
                                                     {
                                                         "kind": 16525,
                                                         "binding": {
@@ -409,10 +408,10 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "end": 223
                                                     }
                                                 ],
-                                                "flags": 8,
+                                                "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 214,
+                                                "start": 170,
                                                 "end": 223
                                             },
                                             "flags": 32776,
@@ -536,7 +535,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "start": 168,
                                 "end": 286
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 85,

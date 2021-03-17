@@ -22,10 +22,9 @@ let x: interface string { interface string {
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -188,13 +187,13 @@ let x: interface string { interface string {
                         "end": 44
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 44
             },
-            "flags": 8,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -221,14 +220,14 @@ let x: interface string { interface string {
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 36,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Unexpected token.",
+            "message": "',' expected.",
             "start": 43,
             "length": 0
         }

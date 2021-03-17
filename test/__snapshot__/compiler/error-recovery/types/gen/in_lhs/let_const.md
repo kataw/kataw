@@ -132,17 +132,16 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 28,
                 "end": 34
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 28,
@@ -170,13 +169,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 29,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

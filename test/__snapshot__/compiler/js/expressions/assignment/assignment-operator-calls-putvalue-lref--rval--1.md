@@ -392,7 +392,7 @@ Object.defineProperty(this, "x", {
                                                     {
                                                         "kind": 83976,
                                                         "typeParameters": null,
-                                                        "arrowParameters": {
+                                                        "parameters": {
                                                             "kind": 81929,
                                                             "elements": [],
                                                             "type": null,
@@ -574,7 +574,7 @@ Object.defineProperty(this, "x", {
                                                             "start": 175,
                                                             "end": 237
                                                         },
-                                                        "flags": 1073741824,
+                                                        "flags": 0,
                                                         "symbol": null,
                                                         "transformFlags": 0,
                                                         "start": 169,

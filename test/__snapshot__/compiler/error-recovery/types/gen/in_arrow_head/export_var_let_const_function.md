@@ -108,17 +108,16 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 23,
+                "start": 17,
                 "end": 23
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 17,
@@ -241,17 +240,16 @@
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 58,
+                                "start": 52,
                                 "end": 58
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 52,
@@ -299,7 +297,7 @@
                                 "end": 69
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 58,
@@ -320,7 +318,7 @@
                 "end": 69
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 23,
@@ -348,48 +346,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "']' expected.",
-            "start": 3,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 18,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 24,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 33,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 38,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 53,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

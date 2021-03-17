@@ -22,7 +22,7 @@
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -52,7 +52,7 @@
                     "start": 4,
                     "end": 6
                 },
-                "flags": 1073774592,
+                "flags": 32768,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

@@ -24,10 +24,9 @@ let x = () => import {x} from "y"
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -45,7 +44,7 @@ let x = () => import {x} from "y"
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -96,7 +95,7 @@ let x = () => import {x} from "y"
                                 "start": 13,
                                 "end": 24
                             },
-                            "flags": 1073741825,
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 7,
@@ -130,13 +129,13 @@ let x = () => import {x} from "y"
                         "end": 29
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -148,7 +147,7 @@ let x = () => import {x} from "y"
                 "kind": 4261583,
                 "text": "y",
                 "rawText": "y",
-                "flags": 1,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 29,

@@ -185,10 +185,9 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -261,10 +260,10 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "end": 134
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 100,
+                                "start": 92,
                                 "end": 134
                             },
                             "flags": 32776,
@@ -275,10 +274,9 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         },
                         {
                             "kind": 142,
-                            "isConst": false,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -319,10 +317,10 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "end": 156
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 24,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 144,
+                                "start": 135,
                                 "end": 156
                             },
                             "flags": 32776,
@@ -334,42 +332,33 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         {
                             "kind": 2099287,
                             "initializer": {
-                                "kind": 142,
-                                "isConst": false,
-                                "binding": {
-                                    "kind": 31,
-                                    "bindingList": [
-                                        {
-                                            "kind": 16525,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "arg",
-                                                "rawText": "arg",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 170,
-                                                "end": 174
-                                            },
-                                            "exclamation": false,
-                                            "type": null,
-                                            "initializer": null,
+                                "kind": 31,
+                                "lexicals": [
+                                    {
+                                        "kind": 16525,
+                                        "binding": {
+                                            "kind": 131102,
+                                            "text": "arg",
+                                            "rawText": "arg",
                                             "flags": 0,
                                             "symbol": null,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1025,
                                             "start": 170,
                                             "end": 174
-                                        }
-                                    ],
-                                    "flags": 8,
-                                    "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 170,
-                                    "end": 174
-                                },
-                                "flags": 0,
+                                        },
+                                        "exclamation": false,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 170,
+                                        "end": 174
+                                    }
+                                ],
+                                "flags": 24,
                                 "symbol": null,
-                                "transformFlags": 256,
+                                "transformFlags": 0,
                                 "start": 167,
                                 "end": 174
                             },

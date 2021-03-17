@@ -25,7 +25,7 @@ async (x, y) => ok * x
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -117,7 +117,7 @@ async (x, y) => ok * x
                     "start": 15,
                     "end": 22
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

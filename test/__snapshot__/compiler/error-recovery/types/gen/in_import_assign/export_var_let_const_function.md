@@ -84,17 +84,16 @@ import export var let const function = export var let const function ;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 27,
+                "start": 21,
                 "end": 27
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 21,
@@ -181,17 +180,16 @@ import export var let const function = export var let const function ;
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 59,
+                                "start": 53,
                                 "end": 59
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 53,
@@ -222,7 +220,7 @@ import export var let const function = export var let const function ;
                             "type": null,
                             "contents": null,
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 2097152,
                             "start": 59,
@@ -243,7 +241,7 @@ import export var let const function = export var let const function ;
                 "end": 70
             },
             "typeParameters": null,
-            "flags": 1,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 256,
             "start": 27,
@@ -253,41 +251,6 @@ import export var let const function = export var let const function ;
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 7,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 22,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 28,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 37,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 54,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

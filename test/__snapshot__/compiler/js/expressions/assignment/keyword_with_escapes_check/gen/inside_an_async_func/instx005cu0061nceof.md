@@ -25,7 +25,7 @@ async () => {  inst\u0061nceof = x  }
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -101,7 +101,7 @@ async () => {  inst\u0061nceof = x  }
                     "start": 11,
                     "end": 37
                 },
-                "flags": 1073741824,
+                "flags": 0,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

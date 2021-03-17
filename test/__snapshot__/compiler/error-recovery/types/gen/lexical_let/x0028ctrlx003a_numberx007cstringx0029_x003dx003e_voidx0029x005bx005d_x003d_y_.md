@@ -22,10 +22,9 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -124,13 +123,13 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
                         "end": 36
                     }
                 ],
-                "flags": 9,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 36
             },
-            "flags": 9,
+            "flags": 24,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -187,7 +186,7 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -268,7 +267,7 @@ let x: (ctrl: number|string) => void)[] = y; (ctrl: number|string) => void)[] = 
                     "start": 69,
                     "end": 74
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 44,

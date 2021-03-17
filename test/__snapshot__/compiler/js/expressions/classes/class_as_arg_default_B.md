@@ -34,7 +34,7 @@ f = ([xCls = class X {}]) => {}
                 "right": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -149,7 +149,7 @@ f = ([xCls = class X {}]) => {}
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 1073741824,
+                    "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 3,

@@ -111,7 +111,7 @@
                     "start": 1,
                     "end": 33
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
@@ -381,7 +381,7 @@
                                                     "start": 104,
                                                     "end": 136
                                                 },
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 131322,
                                                     "text": "",
                                                     "flags": 3,
@@ -436,7 +436,7 @@
                                                     "start": 137,
                                                     "end": 146
                                                 },
-                                                "flags": 1,
+                                                "flags": 1073741825,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 102,
@@ -483,7 +483,7 @@
                     "start": 34,
                     "end": 147
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

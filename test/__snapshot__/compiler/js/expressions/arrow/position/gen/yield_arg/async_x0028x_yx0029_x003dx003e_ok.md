@@ -58,7 +58,7 @@ function *f() {
                                 "expression": {
                                     "kind": 81936,
                                     "typeParameters": null,
-                                    "arrowParameters": {
+                                    "parameters": {
                                         "kind": 81929,
                                         "elements": [
                                             {
@@ -131,7 +131,7 @@ function *f() {
                                         "start": 39,
                                         "end": 42
                                     },
-                                    "flags": 1073774592,
+                                    "flags": 32768,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 23,

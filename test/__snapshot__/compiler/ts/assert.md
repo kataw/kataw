@@ -51,10 +51,9 @@ class AssertsFoo {
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -72,7 +71,7 @@ class AssertsFoo {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -269,7 +268,7 @@ class AssertsFoo {
                                 "start": 43,
                                 "end": 88
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 20,
@@ -282,13 +281,13 @@ class AssertsFoo {
                         "end": 88
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 88
             },
-            "flags": 32776,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -488,7 +487,7 @@ class AssertsFoo {
                 "end": 176
             },
             "typeParameters": null,
-            "flags": 32768,
+            "flags": 32809,
             "symbol": null,
             "transformFlags": 256,
             "start": 88,
@@ -496,10 +495,9 @@ class AssertsFoo {
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -517,7 +515,7 @@ class AssertsFoo {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -721,7 +719,7 @@ class AssertsFoo {
                                 "start": 240,
                                 "end": 285
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 207,
@@ -734,13 +732,13 @@ class AssertsFoo {
                         "end": 285
                     }
                 ],
-                "flags": 32776,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 183,
+                "start": 176,
                 "end": 285
             },
-            "flags": 32776,
+            "flags": 32809,
             "symbol": null,
             "transformFlags": 769,
             "start": 176,
@@ -947,7 +945,7 @@ class AssertsFoo {
                 "end": 392
             },
             "typeParameters": null,
-            "flags": 32768,
+            "flags": 32809,
             "symbol": null,
             "transformFlags": 256,
             "start": 285,
@@ -1200,7 +1198,7 @@ class AssertsFoo {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": {
@@ -1257,7 +1255,7 @@ class AssertsFoo {
                                 "start": 546,
                                 "end": 564
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 526,

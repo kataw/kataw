@@ -50,10 +50,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -85,10 +84,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 15
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 15
             },
             "flags": 32776,
@@ -99,10 +98,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -231,10 +229,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 48
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 20,
+                "start": 16,
                 "end": 48
             },
             "flags": 32776,
@@ -245,10 +243,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -377,10 +374,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 85
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 54,
+                "start": 49,
                 "end": 85
             },
             "flags": 32776,
@@ -391,10 +388,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -412,7 +408,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -434,7 +430,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                 "start": 104,
                                 "end": 110
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 98,
@@ -447,10 +443,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 110
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 91,
+                "start": 86,
                 "end": 110
             },
             "flags": 32776,
@@ -461,10 +457,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -612,10 +607,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 147
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 115,
+                "start": 111,
                 "end": 147
             },
             "flags": 32776,
@@ -626,10 +621,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -807,10 +801,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 186
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 153,
+                "start": 148,
                 "end": 186
             },
             "flags": 32776,
@@ -821,10 +815,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1021,10 +1014,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 227
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 191,
+                "start": 187,
                 "end": 227
             },
             "flags": 32776,
@@ -2053,10 +2046,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2253,10 +2245,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 582
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 547,
+                "start": 465,
                 "end": 582
             },
             "flags": 32776,
@@ -2267,10 +2259,9 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2490,10 +2481,10 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                         "end": 636
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 587,
+                "start": 583,
                 "end": 636
             },
             "flags": 32776,

@@ -34,42 +34,14 @@
                             "expression": {
                                 "kind": 81936,
                                 "typeParameters": null,
-                                "arrowParameters": {
-                                    "kind": 81929,
-                                    "elements": [
-                                        {
-                                            "kind": 16473,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "async",
-                                                "rawText": "async",
-                                                "flags": 0,
-                                                "symbol": null,
-                                                "transformFlags": 1025,
-                                                "start": 10,
-                                                "end": 16
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1,
-                                            "start": 19,
-                                            "end": 16
-                                        }
-                                    ],
-                                    "type": null,
-                                    "accessModifier": null,
-                                    "trailingComma": false,
+                                "parameters": {
+                                    "kind": 131102,
+                                    "text": "async",
+                                    "rawText": "async",
                                     "flags": 0,
                                     "symbol": null,
-                                    "transformFlags": 0,
-                                    "start": 5,
+                                    "transformFlags": 1025,
+                                    "start": 10,
                                     "end": 16
                                 },
                                 "contents": {
@@ -90,7 +62,7 @@
                                     "start": 19,
                                     "end": 22
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 5,

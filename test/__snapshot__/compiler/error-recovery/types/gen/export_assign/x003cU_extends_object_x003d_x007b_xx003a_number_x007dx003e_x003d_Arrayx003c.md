@@ -124,7 +124,7 @@ export <U extends object = { x: number }> = Array< = <U extends object = { x: nu
                     "start": 8,
                     "end": 40
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,
@@ -265,7 +265,7 @@ export <U extends object = { x: number }> = Array< = <U extends object = { x: nu
                                 "start": 54,
                                 "end": 86
                             },
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
@@ -320,7 +320,7 @@ export <U extends object = { x: number }> = Array< = <U extends object = { x: nu
                                 "start": 87,
                                 "end": 96
                             },
-                            "flags": 1,
+                            "flags": 1073741825,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 52,
@@ -338,7 +338,7 @@ export <U extends object = { x: number }> = Array< = <U extends object = { x: nu
                     "start": 41,
                     "end": 96
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 6,

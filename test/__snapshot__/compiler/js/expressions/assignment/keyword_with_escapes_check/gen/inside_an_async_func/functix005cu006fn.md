@@ -25,7 +25,7 @@ async () => {  functi\u006fn = x  }
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -123,7 +123,7 @@ async () => {  functi\u006fn = x  }
                     "start": 11,
                     "end": 35
                 },
-                "flags": 1073741825,
+                "flags": 1,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

@@ -21,10 +21,9 @@ let precedence2: number & string | boolean;
     "statements": [
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -80,10 +79,10 @@ let precedence2: number & string | boolean;
                         "end": 36
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 3,
+                "start": 0,
                 "end": 36
             },
             "flags": 32776,
@@ -94,10 +93,9 @@ let precedence2: number & string | boolean;
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -145,10 +143,10 @@ let precedence2: number & string | boolean;
                         "end": 71
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 41,
+                "start": 37,
                 "end": 71
             },
             "flags": 32776,
@@ -159,10 +157,9 @@ let precedence2: number & string | boolean;
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -228,10 +225,10 @@ let precedence2: number & string | boolean;
                         "end": 115
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 76,
+                "start": 72,
                 "end": 115
             },
             "flags": 32776,
@@ -242,10 +239,9 @@ let precedence2: number & string | boolean;
         },
         {
             "kind": 142,
-            "isConst": false,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -311,10 +307,10 @@ let precedence2: number & string | boolean;
                         "end": 159
                     }
                 ],
-                "flags": 8,
+                "flags": 24,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 120,
+                "start": 116,
                 "end": 159
             },
             "flags": 32776,

@@ -78,10 +78,9 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                     "statements": [
                                         {
                                             "kind": 142,
-                                            "isConst": false,
                                             "binding": {
                                                 "kind": 31,
-                                                "bindingList": [
+                                                "lexicals": [
                                                     {
                                                         "kind": 16525,
                                                         "binding": {
@@ -262,10 +261,10 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                         "end": 110
                                                     }
                                                 ],
-                                                "flags": 8,
+                                                "flags": 24,
                                                 "symbol": null,
                                                 "transformFlags": 0,
-                                                "start": 43,
+                                                "start": 39,
                                                 "end": 110
                                             },
                                             "flags": 8,

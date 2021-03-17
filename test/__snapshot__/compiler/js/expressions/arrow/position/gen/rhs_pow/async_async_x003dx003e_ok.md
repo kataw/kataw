@@ -62,39 +62,11 @@ x ** async async => ok
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 4325406,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 1,
-                                "symbol": null,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 16
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 16,
-                            "end": 16
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
-                    "flags": 0,
+                "parameters": {
+                    "kind": 4325406,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 1,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 10,
@@ -110,7 +82,7 @@ x ** async async => ok
                     "start": 19,
                     "end": 22
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 10,

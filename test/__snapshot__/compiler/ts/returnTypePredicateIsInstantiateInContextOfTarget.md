@@ -604,10 +604,9 @@ const TestRender = () => <TestComponent />;
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -625,7 +624,7 @@ const TestRender = () => <TestComponent />;
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": null,
@@ -664,7 +663,7 @@ const TestRender = () => <TestComponent />;
                                 "start": 338,
                                 "end": 356
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 332,
@@ -677,10 +676,10 @@ const TestRender = () => <TestComponent />;
                         "end": 356
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 319,
+                "start": 312,
                 "end": 356
             },
             "flags": 32776,

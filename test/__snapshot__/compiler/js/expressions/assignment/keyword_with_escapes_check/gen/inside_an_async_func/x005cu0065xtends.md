@@ -25,7 +25,7 @@ async () => {  \u0065xtends = x  }
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
@@ -55,7 +55,7 @@ async () => {  \u0065xtends = x  }
                     "start": 11,
                     "end": 13
                 },
-                "flags": 1082130433,
+                "flags": 8388609,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

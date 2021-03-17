@@ -22,17 +22,16 @@ c\u006fnst = x;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 10,
+                "start": 0,
                 "end": 10
             },
-            "flags": 75497481,
+            "flags": 75497513,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,

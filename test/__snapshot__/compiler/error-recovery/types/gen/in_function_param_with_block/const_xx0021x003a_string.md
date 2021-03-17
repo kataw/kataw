@@ -121,10 +121,9 @@ function ( const x!: string ) {const x!: string}
                 "statements": [
                     {
                         "kind": 142,
-                        "isConst": true,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [
+                            "lexicals": [
                                 {
                                     "kind": 16525,
                                     "binding": {
@@ -154,13 +153,13 @@ function ( const x!: string ) {const x!: string}
                                     "end": 47
                                 }
                             ],
-                            "flags": 8,
+                            "flags": 40,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 36,
+                            "start": 31,
                             "end": 47
                         },
-                        "flags": 8,
+                        "flags": 40,
                         "symbol": null,
                         "transformFlags": 769,
                         "start": 31,
@@ -168,7 +167,7 @@ function ( const x!: string ) {const x!: string}
                     }
                 ],
                 "multiline": false,
-                "flags": 0,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 31,
@@ -183,29 +182,7 @@ function ( const x!: string ) {const x!: string}
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "')' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 28,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

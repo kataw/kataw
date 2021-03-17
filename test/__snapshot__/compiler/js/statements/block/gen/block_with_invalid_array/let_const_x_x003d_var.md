@@ -140,10 +140,9 @@
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -174,13 +173,13 @@
                         "end": 23
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 19,
+                "start": 13,
                 "end": 23
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 13,
@@ -197,7 +196,7 @@
                 "start": 27,
                 "end": 27
             },
-            "flags": 1,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 0,
             "start": 23,
@@ -207,13 +206,6 @@
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 14,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

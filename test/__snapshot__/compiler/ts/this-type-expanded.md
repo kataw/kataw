@@ -508,7 +508,7 @@ class A {
                                                         "initializer": {
                                                             "kind": 83976,
                                                             "typeParameters": null,
-                                                            "arrowParameters": {
+                                                            "parameters": {
                                                                 "kind": 81929,
                                                                 "elements": [],
                                                                 "type": null,
@@ -551,7 +551,7 @@ class A {
                                                                     "end": 214
                                                                 }
                                                             },
-                                                            "flags": 1073741824,
+                                                            "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 202,
@@ -758,7 +758,7 @@ class A {
                                                         "initializer": {
                                                             "kind": 83976,
                                                             "typeParameters": null,
-                                                            "arrowParameters": {
+                                                            "parameters": {
                                                                 "kind": 81929,
                                                                 "elements": [],
                                                                 "type": null,
@@ -801,7 +801,7 @@ class A {
                                                                     "end": 299
                                                                 }
                                                             },
-                                                            "flags": 1073741824,
+                                                            "flags": 0,
                                                             "symbol": null,
                                                             "transformFlags": 0,
                                                             "start": 287,

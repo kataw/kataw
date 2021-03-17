@@ -58,7 +58,7 @@ class Test {
                         "initializer": {
                             "kind": 81936,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -121,7 +121,7 @@ class Test {
                                 "start": 53,
                                 "end": 57
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 32,

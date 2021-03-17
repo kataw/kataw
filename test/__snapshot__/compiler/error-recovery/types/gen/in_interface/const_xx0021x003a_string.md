@@ -40,10 +40,9 @@ interface const x!: string {}
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -103,13 +102,13 @@ interface const x!: string {}
                         "end": 29
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 15,
+                "start": 9,
                 "end": 29
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 9,
@@ -119,13 +118,6 @@ interface const x!: string {}
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 10,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

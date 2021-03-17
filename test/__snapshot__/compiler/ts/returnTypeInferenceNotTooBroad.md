@@ -869,10 +869,9 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": true,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1074,10 +1073,10 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "end": 339
                         }
                     ],
-                    "flags": 8,
+                    "flags": 40,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 290,
+                    "start": 284,
                     "end": 339
                 },
                 "flags": 32776,
@@ -1100,10 +1099,9 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": true,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1165,10 +1163,10 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "end": 370
                         }
                     ],
-                    "flags": 8,
+                    "flags": 40,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 354,
+                    "start": 348,
                     "end": 370
                 },
                 "flags": 32776,
@@ -1191,10 +1189,9 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
             "kind": 76,
             "declaration": {
                 "kind": 142,
-                "isConst": true,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1426,10 +1423,10 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "end": 445
                         }
                     ],
-                    "flags": 8,
+                    "flags": 40,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 385,
+                    "start": 379,
                     "end": 445
                 },
                 "flags": 8,

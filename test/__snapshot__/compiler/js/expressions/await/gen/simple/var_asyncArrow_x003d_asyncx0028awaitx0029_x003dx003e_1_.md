@@ -42,7 +42,7 @@ var asyncArrow = async(await) => 1;
                         "initializer": {
                             "kind": 81936,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -90,7 +90,7 @@ var asyncArrow = async(await) => 1;
                                 "start": 32,
                                 "end": 34
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 16,

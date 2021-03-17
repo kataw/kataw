@@ -22,10 +22,9 @@ const x: let const= {x:let const}:let const
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -66,13 +65,13 @@ const x: let const= {x:let const}:let const
                         "end": 12
                     }
                 ],
-                "flags": 9,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 12
             },
-            "flags": 9,
+            "flags": 40,
             "symbol": null,
             "transformFlags": 769,
             "start": 0,
@@ -80,17 +79,16 @@ const x: let const= {x:let const}:let const
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 18,
+                "start": 12,
                 "end": 18
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 12,
@@ -140,17 +138,16 @@ const x: let const= {x:let const}:let const
                     },
                     {
                         "kind": 142,
-                        "isConst": true,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [],
-                            "flags": 8,
+                            "lexicals": [],
+                            "flags": 40,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 26,
                             "end": 32
                         },
-                        "flags": 9,
+                        "flags": 41,
                         "symbol": null,
                         "transformFlags": 769,
                         "start": 26,
@@ -158,7 +155,7 @@ const x: let const= {x:let const}:let const
                     }
                 ],
                 "multiline": false,
-                "flags": 0,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 21,
@@ -190,17 +187,16 @@ const x: let const= {x:let const}:let const
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
-                "flags": 8,
+                "lexicals": [],
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 43,
+                "start": 37,
                 "end": 43
             },
-            "flags": 9,
+            "flags": 41,
             "symbol": null,
             "transformFlags": 769,
             "start": 37,
@@ -209,15 +205,7 @@ const x: let const= {x:let const}:let const
     ],
     "isModule": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 38,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "original": null,
     "symbol": null,
     "flags": 0,

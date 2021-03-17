@@ -25,42 +25,14 @@ async async => {} async async => {}
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 5,
-                                "end": 11
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 14,
-                            "end": 11
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
+                "parameters": {
+                    "kind": 131102,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
                     "symbol": null,
-                    "transformFlags": 0,
-                    "start": 0,
+                    "transformFlags": 1025,
+                    "start": 5,
                     "end": 11
                 },
                 "contents": {
@@ -81,7 +53,7 @@ async async => {} async async => {}
                     "start": 14,
                     "end": 17
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
@@ -98,42 +70,14 @@ async async => {} async async => {}
             "expression": {
                 "kind": 81936,
                 "typeParameters": null,
-                "arrowParameters": {
-                    "kind": 81929,
-                    "elements": [
-                        {
-                            "kind": 16473,
-                            "ellipsis": false,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 0,
-                                "symbol": null,
-                                "transformFlags": 1025,
-                                "start": 23,
-                                "end": 29
-                            },
-                            "isOptional": false,
-                            "type": null,
-                            "initializer": null,
-                            "decorators": null,
-                            "accessModifier": null,
-                            "isReadOnly": false,
-                            "flags": 0,
-                            "symbol": null,
-                            "transformFlags": 1,
-                            "start": 32,
-                            "end": 29
-                        }
-                    ],
-                    "type": null,
-                    "accessModifier": null,
-                    "trailingComma": false,
+                "parameters": {
+                    "kind": 131102,
+                    "text": "async",
+                    "rawText": "async",
                     "flags": 0,
                     "symbol": null,
-                    "transformFlags": 0,
-                    "start": 17,
+                    "transformFlags": 1025,
+                    "start": 23,
                     "end": 29
                 },
                 "contents": {
@@ -154,7 +98,7 @@ async async => {} async async => {}
                     "start": 32,
                     "end": 35
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 17,

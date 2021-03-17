@@ -39,42 +39,14 @@ bar ? (x => { return x; }) : baz;
                     "expression": {
                         "kind": 83976,
                         "typeParameters": null,
-                        "arrowParameters": {
-                            "kind": 81929,
-                            "elements": [
-                                {
-                                    "kind": 16473,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 4325406,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 0,
-                                        "start": 7,
-                                        "end": 8
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
-                                    "flags": 0,
-                                    "symbol": null,
-                                    "transformFlags": 1,
-                                    "start": 5,
-                                    "end": 8
-                                }
-                            ],
-                            "type": null,
-                            "accessModifier": null,
-                            "trailingComma": false,
+                        "parameters": {
+                            "kind": 4325406,
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 5,
+                            "start": 7,
                             "end": 8
                         },
                         "contents": {
@@ -114,7 +86,7 @@ bar ? (x => { return x; }) : baz;
                             "start": 11,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 5,

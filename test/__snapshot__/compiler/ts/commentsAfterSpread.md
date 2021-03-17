@@ -95,10 +95,9 @@ function k ({
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -116,7 +115,7 @@ function k ({
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -164,7 +163,7 @@ function k ({
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 16,
@@ -177,10 +176,10 @@ function k ({
                         "end": 25
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 25
             },
             "flags": 32776,
@@ -191,10 +190,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -324,10 +322,10 @@ function k ({
                         "end": 84
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 26,
                 "end": 84
             },
             "flags": 32776,
@@ -338,10 +336,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -471,10 +468,10 @@ function k ({
                         "end": 146
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 92,
+                "start": 85,
                 "end": 146
             },
             "flags": 32776,
@@ -485,10 +482,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -618,10 +614,10 @@ function k ({
                         "end": 211
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 154,
+                "start": 147,
                 "end": 211
             },
             "flags": 32776,
@@ -632,10 +628,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -765,10 +760,10 @@ function k ({
                         "end": 273
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 219,
+                "start": 212,
                 "end": 273
             },
             "flags": 32776,
@@ -833,10 +828,9 @@ function k ({
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -945,10 +939,10 @@ function k ({
                                         "end": 359
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 321,
+                                "start": 313,
                                 "end": 359
                             },
                             "flags": 32776,
@@ -1241,10 +1235,9 @@ function k ({
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -1353,13 +1346,13 @@ function k ({
                                         "end": 569
                                     }
                                 ],
-                                "flags": 32776,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 523,
+                                "start": 515,
                                 "end": 569
                             },
-                            "flags": 32776,
+                            "flags": 32809,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 515,
@@ -1429,10 +1422,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1450,7 +1442,7 @@ function k ({
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1521,7 +1513,7 @@ function k ({
                                     "end": 638
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 604,
@@ -1534,10 +1526,10 @@ function k ({
                         "end": 644
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 600,
+                "start": 593,
                 "end": 644
             },
             "flags": 32776,
@@ -1548,10 +1540,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1569,7 +1560,7 @@ function k ({
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1665,7 +1656,7 @@ function k ({
                                     "end": 701
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 656,
@@ -1678,10 +1669,10 @@ function k ({
                         "end": 707
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 652,
+                "start": 645,
                 "end": 707
             },
             "flags": 32776,
@@ -1692,10 +1683,9 @@ function k ({
         },
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1713,7 +1703,7 @@ function k ({
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1809,7 +1799,7 @@ function k ({
                                     "end": 769
                                 }
                             },
-                            "flags": 1073741824,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 719,
@@ -1822,10 +1812,10 @@ function k ({
                         "end": 775
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 715,
+                "start": 708,
                 "end": 775
             },
             "flags": 32776,
@@ -1940,10 +1930,9 @@ function k ({
                     "statements": [
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -2045,10 +2034,10 @@ function k ({
                                         "end": 886
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 838,
+                                "start": 830,
                                 "end": 886
                             },
                             "flags": 32776,
@@ -2059,10 +2048,9 @@ function k ({
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -2164,10 +2152,10 @@ function k ({
                                         "end": 964
                                     }
                                 ],
-                                "flags": 8,
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 895,
+                                "start": 887,
                                 "end": 964
                             },
                             "flags": 32776,

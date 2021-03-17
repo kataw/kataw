@@ -38,7 +38,7 @@ x = (interface) => { 'use strict'; 0 } ;
                 "right": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -131,7 +131,7 @@ x = (interface) => { 'use strict'; 0 } ;
                         "start": 18,
                         "end": 38
                     },
-                    "flags": 1073741824,
+                    "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 3,

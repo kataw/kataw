@@ -22,10 +22,9 @@ const x: [1, true];= {x:[1, true];}:[1, true];
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -78,10 +77,10 @@ const x: [1, true];= {x:[1, true];}:[1, true];
                         "end": 18
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 18
             },
             "flags": 8,

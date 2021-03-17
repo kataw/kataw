@@ -1,15 +1,9 @@
 # Kataw parser test case
 
-## Options
-
-`````js
-{ jsx: true, disableWebCompat: true }
-`````
-
 ## Input
 
 `````js
-x@{x9}@+@{x9}@y
+x => y;
 `````
 
 ## Output
@@ -19,15 +13,16 @@ x@{x9}@+@{x9}@y
 ```javascript
 {
     "kind": 2243,
-    "source": "x\t+\ty",
+    "source": "x => y;",
     "filename": "",
     "statements": [
         {
             "kind": 2097233,
             "expression": {
-                "kind": 65563,
-                "left": {
-                    "kind": 196712,
+                "kind": 83976,
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 4325406,
                     "text": "x",
                     "rawText": "x",
                     "flags": 0,
@@ -36,31 +31,30 @@ x@{x9}@+@{x9}@y
                     "start": 0,
                     "end": 1
                 },
-                "operator": "+",
-                "right": {
+                "contents": {
                     "kind": 196712,
                     "text": "y",
                     "rawText": "y",
                     "flags": 0,
                     "symbol": null,
                     "transformFlags": 0,
-                    "start": 3,
-                    "end": 5
+                    "start": 4,
+                    "end": 6
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 5
+                "end": 6
             },
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
             "start": 0,
-            "end": 5
+            "end": 7
         }
     ],
-    "isModule": true,
+    "isModule": false,
     "printable": true,
     "diagnostics": [],
     "original": null,
@@ -68,7 +62,7 @@ x@{x9}@+@{x9}@y
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 5
+    "end": 7
 }
 ```
 

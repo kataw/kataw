@@ -151,7 +151,7 @@ class Foo {
                         "initializer": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [],
                                 "type": {
@@ -207,7 +207,7 @@ class Foo {
                                 "start": 75,
                                 "end": 81
                             },
-                            "flags": 1073774592,
+                            "flags": 32768,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 53,

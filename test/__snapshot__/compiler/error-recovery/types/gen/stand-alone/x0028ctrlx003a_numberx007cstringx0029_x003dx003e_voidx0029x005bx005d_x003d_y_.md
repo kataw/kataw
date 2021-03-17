@@ -30,7 +30,7 @@
                         {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -111,7 +111,7 @@
                                 "start": 26,
                                 "end": 31
                             },
-                            "flags": 1073741825,
+                            "flags": 1,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 1,

@@ -30,42 +30,14 @@
                         {
                             "kind": 81936,
                             "typeParameters": null,
-                            "arrowParameters": {
-                                "kind": 81929,
-                                "elements": [
-                                    {
-                                        "kind": 16473,
-                                        "ellipsis": false,
-                                        "binding": {
-                                            "kind": 131102,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 0,
-                                            "symbol": null,
-                                            "transformFlags": 1025,
-                                            "start": 6,
-                                            "end": 8
-                                        },
-                                        "isOptional": false,
-                                        "type": null,
-                                        "initializer": null,
-                                        "decorators": null,
-                                        "accessModifier": null,
-                                        "isReadOnly": false,
-                                        "flags": 0,
-                                        "symbol": null,
-                                        "transformFlags": 1,
-                                        "start": 11,
-                                        "end": 8
-                                    }
-                                ],
-                                "type": null,
-                                "accessModifier": null,
-                                "trailingComma": false,
+                            "parameters": {
+                                "kind": 131102,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 0,
                                 "symbol": null,
-                                "transformFlags": 0,
-                                "start": 1,
+                                "transformFlags": 1025,
+                                "start": 6,
                                 "end": 8
                             },
                             "contents": {
@@ -86,7 +58,7 @@
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 1,

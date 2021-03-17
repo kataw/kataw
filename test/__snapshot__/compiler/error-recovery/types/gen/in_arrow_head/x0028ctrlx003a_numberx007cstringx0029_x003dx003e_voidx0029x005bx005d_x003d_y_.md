@@ -36,7 +36,7 @@
                                     {
                                         "kind": 83976,
                                         "typeParameters": null,
-                                        "arrowParameters": {
+                                        "parameters": {
                                             "kind": 81929,
                                             "elements": [
                                                 {
@@ -117,7 +117,7 @@
                                             "start": 27,
                                             "end": 32
                                         },
-                                        "flags": 1073741825,
+                                        "flags": 1,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 2,
@@ -199,7 +199,7 @@
                 "expression": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -280,7 +280,7 @@
                         "start": 70,
                         "end": 75
                     },
-                    "flags": 1073741825,
+                    "flags": 1,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 45,

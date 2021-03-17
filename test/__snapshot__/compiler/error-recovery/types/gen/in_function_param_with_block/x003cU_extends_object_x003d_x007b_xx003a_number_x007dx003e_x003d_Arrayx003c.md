@@ -315,7 +315,7 @@ function ( <U extends object = { x: number }> = Array< ) {<U extends object = { 
                                 "start": 59,
                                 "end": 91
                             },
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,
@@ -370,7 +370,7 @@ function ( <U extends object = { x: number }> = Array< ) {<U extends object = { 
                                 "start": 92,
                                 "end": 101
                             },
-                            "flags": 1,
+                            "flags": 1073741825,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 58,

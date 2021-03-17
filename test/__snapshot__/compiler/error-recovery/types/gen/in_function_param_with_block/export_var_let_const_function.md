@@ -89,17 +89,16 @@ function ( export var let const function ) {export var let const function}
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 31,
+                                "start": 25,
                                 "end": 31
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 25,
@@ -191,17 +190,16 @@ function ( export var let const function ) {export var let const function}
                                                     },
                                                     {
                                                         "kind": 142,
-                                                        "isConst": true,
                                                         "binding": {
                                                             "kind": 31,
-                                                            "bindingList": [],
-                                                            "flags": 8,
+                                                            "lexicals": [],
+                                                            "flags": 40,
                                                             "symbol": null,
                                                             "transformFlags": 0,
-                                                            "start": 64,
+                                                            "start": 58,
                                                             "end": 64
                                                         },
-                                                        "flags": 9,
+                                                        "flags": 41,
                                                         "symbol": null,
                                                         "transformFlags": 769,
                                                         "start": 58,
@@ -232,7 +230,7 @@ function ( export var let const function ) {export var let const function}
                                                         "type": null,
                                                         "contents": null,
                                                         "typeParameters": null,
-                                                        "flags": 1,
+                                                        "flags": 41,
                                                         "symbol": null,
                                                         "transformFlags": 2097152,
                                                         "start": 64,
@@ -267,7 +265,7 @@ function ( export var let const function ) {export var let const function}
                                 "end": 74
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 31,
@@ -298,48 +296,6 @@ function ( export var let const function ) {export var let const function}
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "')' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 26,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 32,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 41,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 59,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

@@ -24,10 +24,9 @@ const str = `${__dirname}/test/*.js`;
     "statements": [
         {
             "kind": 142,
-            "isConst": true,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -90,10 +89,10 @@ const str = `${__dirname}/test/*.js`;
                         "end": 36
                     }
                 ],
-                "flags": 8,
+                "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
-                "start": 5,
+                "start": 0,
                 "end": 36
             },
             "flags": 8,

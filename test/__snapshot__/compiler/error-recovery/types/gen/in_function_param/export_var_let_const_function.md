@@ -89,17 +89,16 @@ function ( export var let const function ) ;
                         },
                         {
                             "kind": 142,
-                            "isConst": true,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
-                                "flags": 8,
+                                "lexicals": [],
+                                "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 31,
+                                "start": 25,
                                 "end": 31
                             },
-                            "flags": 9,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 769,
                             "start": 25,
@@ -156,7 +155,7 @@ function ( export var let const function ) ;
                                 "end": 44
                             },
                             "typeParameters": null,
-                            "flags": 1,
+                            "flags": 41,
                             "symbol": null,
                             "transformFlags": 256,
                             "start": 31,
@@ -187,27 +186,6 @@ function ( export var let const function ) ;
     "isModule": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "')' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "',' expected.",
-            "start": 26,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,
