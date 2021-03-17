@@ -210,7 +210,7 @@ async ([ <U extends object = { x: number }> = Array< , x: <U extends object = { 
                                                 "start": 43,
                                                 "end": 56
                                             },
-                                            "flags": 0,
+                                            "flags": 1073741824,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 8,

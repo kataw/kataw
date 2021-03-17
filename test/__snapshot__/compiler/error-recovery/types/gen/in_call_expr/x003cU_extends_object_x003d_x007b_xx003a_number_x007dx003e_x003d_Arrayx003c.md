@@ -182,7 +182,7 @@ x(<U extends object = { x: number }> = Array<)
                                 "start": 36,
                                 "end": 45
                             },
-                            "flags": 1,
+                            "flags": 1073741825,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 2,

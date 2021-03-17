@@ -71,7 +71,7 @@ x => ok, x => ok
                                 "start": 13,
                                 "end": 16
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 8,
@@ -84,7 +84,7 @@ x => ok, x => ok
                     "start": 4,
                     "end": 16
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

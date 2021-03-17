@@ -21,6 +21,8 @@ export function createArrowFunction(
   start: number,
   end: number
 ): ArrowFunction {
+  if (parameters.kind & NodeKind.IsIdentifier) flags |= NodeFlags.NoParenthesizedArrow;
+
   return {
     kind: isAsync
       ? // https://tc39.es/ecma262/#prod-AsyncArrowFunction

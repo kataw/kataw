@@ -86,7 +86,7 @@ bar ? (x => { return x; }) : baz;
                             "start": 11,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 5,

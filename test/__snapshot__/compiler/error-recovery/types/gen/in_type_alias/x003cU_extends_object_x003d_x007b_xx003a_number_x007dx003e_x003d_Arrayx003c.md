@@ -354,7 +354,7 @@ type <U extends object = { x: number }> = Array< = x extends <U extends object =
                     "start": 95,
                     "end": 104
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 60,

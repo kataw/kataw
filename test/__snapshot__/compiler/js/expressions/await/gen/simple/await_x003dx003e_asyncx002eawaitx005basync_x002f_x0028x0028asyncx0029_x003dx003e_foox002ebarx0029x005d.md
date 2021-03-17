@@ -183,7 +183,7 @@ await => async.await[async / ((async) => foo.bar)]
                     "start": 20,
                     "end": 50
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

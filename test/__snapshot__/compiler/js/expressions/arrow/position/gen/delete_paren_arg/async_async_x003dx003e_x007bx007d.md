@@ -58,7 +58,7 @@ delete (async async => {})
                             "start": 22,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 6,

@@ -319,7 +319,7 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
                                     "start": 85,
                                     "end": 94
                                 },
-                                "flags": 1,
+                                "flags": 1073741825,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 50,

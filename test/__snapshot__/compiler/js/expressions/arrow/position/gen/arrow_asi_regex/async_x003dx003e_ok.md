@@ -83,7 +83,7 @@ async => ok
                     "start": 8,
                     "end": 15
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

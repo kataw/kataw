@@ -50,7 +50,7 @@ async x=>{}
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32768,
+                "flags": 1073774592,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

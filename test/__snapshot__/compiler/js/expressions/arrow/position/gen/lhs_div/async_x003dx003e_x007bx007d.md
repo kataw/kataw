@@ -53,7 +53,7 @@ async => {} / x
                     "start": 8,
                     "end": 11
                 },
-                "flags": 1048576,
+                "flags": 1074790400,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

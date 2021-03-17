@@ -436,7 +436,7 @@
                                                     "start": 137,
                                                     "end": 146
                                                 },
-                                                "flags": 1,
+                                                "flags": 1073741825,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 102,
@@ -483,7 +483,7 @@
                     "start": 34,
                     "end": 147
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

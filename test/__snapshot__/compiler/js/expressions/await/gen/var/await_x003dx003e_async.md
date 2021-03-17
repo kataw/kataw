@@ -158,7 +158,7 @@ var await; var f = (async function() { await => async });
                                     "start": 47,
                                     "end": 53
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,

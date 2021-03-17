@@ -125,7 +125,7 @@ function *P(){
                                     "start": 43,
                                     "end": 45
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 38,

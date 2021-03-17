@@ -72,7 +72,7 @@ delete async x => ok
                     "start": 17,
                     "end": 20
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 12,

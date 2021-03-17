@@ -50,7 +50,7 @@ delete (x => ok)
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 6,

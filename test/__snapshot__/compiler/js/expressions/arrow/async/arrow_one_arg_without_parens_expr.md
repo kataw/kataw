@@ -41,7 +41,7 @@ x=>x;
                     "start": 3,
                     "end": 4
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

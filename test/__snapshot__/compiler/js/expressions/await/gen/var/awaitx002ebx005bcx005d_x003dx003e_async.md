@@ -199,7 +199,7 @@ var await; var f = (async function() { await.b[c] => async });
                                     "start": 52,
                                     "end": 58
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,

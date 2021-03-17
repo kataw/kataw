@@ -95,7 +95,7 @@ class A extends async x => ok {}
                     "start": 26,
                     "end": 29
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 21,

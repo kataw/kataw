@@ -65,7 +65,7 @@ async x => ok
                     "start": 10,
                     "end": 17
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

@@ -383,7 +383,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 90,
                                 "end": 104
                             },
-                            "flags": 32768,
+                            "flags": 1073774592,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 85,
@@ -637,7 +637,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 162,
                                 "end": 168
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 157,

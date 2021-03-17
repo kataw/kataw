@@ -83,7 +83,7 @@ x => ok
                     "start": 4,
                     "end": 11
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

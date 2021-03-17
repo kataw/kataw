@@ -477,10 +477,10 @@ export const enum NodeFlags {
   Abstract = 1 << 29,
 
   /**
-   * This node is an parenthesized arrow
+   * This node is not an parenthesized arrow
    */
 
-  ParenthesizedArrow = 1 << 30
+  NoParenthesizedArrow = 1 << 30
 }
 
 /**

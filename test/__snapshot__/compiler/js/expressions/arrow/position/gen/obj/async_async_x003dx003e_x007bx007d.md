@@ -83,7 +83,7 @@ x = {arrow: async async => {}}
                                         "start": 26,
                                         "end": 29
                                     },
-                                    "flags": 0,
+                                    "flags": 1073741824,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 11,

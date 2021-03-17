@@ -45,7 +45,7 @@ async => ok async => ok
                     "start": 8,
                     "end": 11
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,
@@ -82,7 +82,7 @@ async => ok async => ok
                     "start": 20,
                     "end": 23
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 11,

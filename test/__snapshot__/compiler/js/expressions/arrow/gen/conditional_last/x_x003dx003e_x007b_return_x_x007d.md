@@ -85,7 +85,7 @@ bar, x => { return x; };
                             "start": 9,
                             "end": 23
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 4,

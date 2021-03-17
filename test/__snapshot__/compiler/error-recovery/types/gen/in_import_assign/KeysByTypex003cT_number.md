@@ -148,7 +148,7 @@ import  KeysByType<T, number =  KeysByType<T, number ;
                     "start": 52,
                     "end": 52
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 18,

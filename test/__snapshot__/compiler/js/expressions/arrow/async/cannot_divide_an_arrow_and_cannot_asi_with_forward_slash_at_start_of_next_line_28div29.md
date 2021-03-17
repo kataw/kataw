@@ -50,7 +50,7 @@ _ => {}
                     "start": 4,
                     "end": 7
                 },
-                "flags": 1081344,
+                "flags": 1074823168,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

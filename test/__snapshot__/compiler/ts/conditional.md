@@ -242,7 +242,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 49,
                         "end": 51
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 44,
@@ -464,7 +464,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 83,
                         "end": 96
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 78,
@@ -552,7 +552,7 @@ a ? async (b) => (c => d) : e => f;
                                 "start": 154,
                                 "end": 156
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 148,
@@ -602,7 +602,7 @@ a ? async (b) => (c => d) : e => f;
                                     "start": 170,
                                     "end": 172
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 164,
@@ -614,7 +614,7 @@ a ? async (b) => (c => d) : e => f;
                             "start": 164,
                             "end": 173
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 159,
@@ -649,7 +649,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 180,
                         "end": 182
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 175,
@@ -744,7 +744,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 205,
                         "end": 207
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 200,
@@ -839,7 +839,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 229,
                         "end": 231
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 224,
@@ -929,7 +929,7 @@ a ? async (b) => (c => d) : e => f;
                                     "start": 252,
                                     "end": 254
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 248,
@@ -972,7 +972,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 262,
                         "end": 264
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 257,
@@ -1070,7 +1070,7 @@ a ? async (b) => (c => d) : e => f;
                                 "start": 288,
                                 "end": 290
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 282,
@@ -1111,7 +1111,7 @@ a ? async (b) => (c => d) : e => f;
                         "start": 298,
                         "end": 300
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 293,

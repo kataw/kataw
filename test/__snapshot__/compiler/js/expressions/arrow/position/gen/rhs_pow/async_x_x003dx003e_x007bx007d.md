@@ -90,7 +90,7 @@ x ** async x => {}
                     "start": 15,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 10,

@@ -336,7 +336,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                                                     "start": 91,
                                                     "end": 100
                                                 },
-                                                "flags": 1,
+                                                "flags": 1073741825,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 57,
@@ -536,7 +536,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                     "start": 136,
                     "end": 145
                 },
-                "flags": 1,
+                "flags": 1073741825,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 102,

@@ -370,7 +370,7 @@ function ( <U extends object = { x: number }> = Array< ) {<U extends object = { 
                                 "start": 92,
                                 "end": 101
                             },
-                            "flags": 1,
+                            "flags": 1073741825,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 58,

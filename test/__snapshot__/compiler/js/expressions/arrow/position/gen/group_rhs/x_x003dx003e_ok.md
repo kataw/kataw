@@ -60,7 +60,7 @@ x * (x => ok)
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 0,
+                        "flags": 1073741824,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 3,

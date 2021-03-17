@@ -63,7 +63,7 @@ x => ok[foo]
                     "start": 7,
                     "end": 12
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 0,

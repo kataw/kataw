@@ -66,7 +66,7 @@ y = async x => await x
                         "start": 14,
                         "end": 22
                     },
-                    "flags": 0,
+                    "flags": 1073741824,
                     "symbol": null,
                     "transformFlags": 0,
                     "start": 3,

@@ -103,7 +103,7 @@ class A extends async async => {} {}
                     "start": 30,
                     "end": 33
                 },
-                "flags": 0,
+                "flags": 1073741824,
                 "symbol": null,
                 "transformFlags": 0,
                 "start": 21,

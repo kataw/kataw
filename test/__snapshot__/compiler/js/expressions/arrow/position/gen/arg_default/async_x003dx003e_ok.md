@@ -73,7 +73,7 @@ function f(a = async => ok) {}
                                 "start": 23,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 1073741824,
                             "symbol": null,
                             "transformFlags": 0,
                             "start": 14,

@@ -218,7 +218,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                     "start": 71,
                                     "end": 73
                                 },
-                                "flags": 0,
+                                "flags": 1073741824,
                                 "symbol": null,
                                 "transformFlags": 0,
                                 "start": 18,
