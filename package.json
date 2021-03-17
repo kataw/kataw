@@ -65,13 +65,10 @@
     "prepare-nightly": "node scripts/bump-dev-version",
     "coverage": "c8 --reporter=lcov npm run test",
     "coverage:cli": "c8 ts-node test/cli.ts",
-    "t": "mocha \"test/**/*.ts\"",
-    "t:watch": "npm run t -- --watch --watch-extensions ts",
     "coverage:treshold": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
     "post_coverage": "cross-env cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
-    "@types/mocha": "^8.2.1",
     "@types/node": "^14.14.32",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
