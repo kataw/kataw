@@ -205,7 +205,7 @@ type (ctrl: number|string) => void)[] = y; = x extends (ctrl: number|string) => 
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {

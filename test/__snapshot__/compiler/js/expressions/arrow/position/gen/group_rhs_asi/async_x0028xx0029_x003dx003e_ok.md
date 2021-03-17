@@ -41,7 +41,7 @@ x *
                     "expression": {
                         "kind": 81936,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {

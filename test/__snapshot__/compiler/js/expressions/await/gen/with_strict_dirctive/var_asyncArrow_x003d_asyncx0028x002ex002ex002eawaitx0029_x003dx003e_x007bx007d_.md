@@ -60,12 +60,32 @@
                         "initializer": {
                             "kind": 81936,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
                                         "kind": 16473,
                                         "ellipsis": false,
+                                        "binding": {
+                                            "kind": 16412,
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 2,
+                                            "start": 37,
+                                            "end": 45,
+                                            "ellipsis": true,
+                                            "left": {
+                                                "kind": 196712,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 0,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 40,
+                                                "end": 45
+                                            },
+                                            "right": null
+                                        },
                                         "isOptional": false,
                                         "type": null,
                                         "initializer": null,

@@ -120,12 +120,39 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                             "initializer": {
                                                                 "kind": 81936,
                                                                 "typeParameters": null,
-                                                                "arrowParameters": {
+                                                                "parameters": {
                                                                     "kind": 81929,
                                                                     "elements": [
                                                                         {
                                                                             "kind": 16473,
                                                                             "ellipsis": false,
+                                                                            "binding": {
+                                                                                "kind": 16412,
+                                                                                "flags": 1,
+                                                                                "symbol": null,
+                                                                                "transformFlags": 2,
+                                                                                "start": 62,
+                                                                                "end": 70,
+                                                                                "ellipsis": true,
+                                                                                "left": {
+                                                                                    "kind": 65559,
+                                                                                    "expression": {
+                                                                                        "kind": 131322,
+                                                                                        "text": "",
+                                                                                        "flags": 3,
+                                                                                        "symbol": null,
+                                                                                        "transformFlags": 0,
+                                                                                        "start": 70,
+                                                                                        "end": 70
+                                                                                    },
+                                                                                    "flags": 1,
+                                                                                    "symbol": null,
+                                                                                    "transformFlags": 32780,
+                                                                                    "start": 65,
+                                                                                    "end": 70
+                                                                                },
+                                                                                "right": null
+                                                                            },
                                                                             "isOptional": false,
                                                                             "type": null,
                                                                             "initializer": null,

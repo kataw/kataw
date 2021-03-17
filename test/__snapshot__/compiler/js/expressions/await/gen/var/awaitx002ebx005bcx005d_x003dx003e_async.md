@@ -83,7 +83,7 @@ var await; var f = (async function() { await.b[c] => async });
                             "expression": {
                                 "kind": 81936,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {

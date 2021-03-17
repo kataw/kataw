@@ -50,7 +50,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "expression": {
                                     "kind": 83976,
                                     "typeParameters": null,
-                                    "arrowParameters": {
+                                    "parameters": {
                                         "kind": 81929,
                                         "elements": [
                                             {

@@ -28,7 +28,7 @@ async => {}, a
                     {
                         "kind": 83976,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {

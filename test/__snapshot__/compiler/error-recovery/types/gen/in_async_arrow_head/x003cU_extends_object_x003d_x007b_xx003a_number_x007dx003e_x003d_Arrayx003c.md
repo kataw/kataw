@@ -135,7 +135,7 @@ async ([ <U extends object = { x: number }> = Array< , x: <U extends object = { 
                                                 "start": 10,
                                                 "end": 42
                                             },
-                                            "arrowParameters": {
+                                            "parameters": {
                                                 "kind": 131322,
                                                 "text": "",
                                                 "flags": 3,

@@ -25,7 +25,7 @@ await => async.await[async / ((async) => foo.bar)]
             "expression": {
                 "kind": 83976,
                 "typeParameters": null,
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [
                         {
@@ -116,7 +116,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "expression": {
                                 "kind": 83976,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {

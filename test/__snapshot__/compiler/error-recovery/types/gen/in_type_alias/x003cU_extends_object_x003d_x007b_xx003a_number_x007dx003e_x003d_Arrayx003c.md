@@ -299,7 +299,7 @@ type <U extends object = { x: number }> = Array< = x extends <U extends object =
                     "start": 62,
                     "end": 94
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,

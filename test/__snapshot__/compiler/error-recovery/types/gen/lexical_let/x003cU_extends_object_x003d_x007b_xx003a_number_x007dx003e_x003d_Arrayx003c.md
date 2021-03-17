@@ -264,7 +264,7 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
                                     "start": 52,
                                     "end": 84
                                 },
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 131322,
                                     "text": "",
                                     "flags": 3,

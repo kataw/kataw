@@ -127,7 +127,7 @@ x(<U extends object = { x: number }> = Array<)
                                 "start": 3,
                                 "end": 35
                             },
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 131322,
                                 "text": "",
                                 "flags": 3,

@@ -303,7 +303,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "initializer": {
                                         "kind": 83976,
                                         "typeParameters": null,
-                                        "arrowParameters": {
+                                        "parameters": {
                                             "kind": 81929,
                                             "elements": [],
                                             "type": null,
@@ -568,7 +568,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "initializer": {
                                                                         "kind": 83976,
                                                                         "typeParameters": null,
-                                                                        "arrowParameters": {
+                                                                        "parameters": {
                                                                             "kind": 81929,
                                                                             "elements": [],
                                                                             "type": null,
@@ -1036,7 +1036,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "initializer": {
                                         "kind": 83976,
                                         "typeParameters": null,
-                                        "arrowParameters": {
+                                        "parameters": {
                                             "kind": 81929,
                                             "elements": [],
                                             "type": null,
@@ -1301,7 +1301,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "initializer": {
                                                                         "kind": 83976,
                                                                         "typeParameters": null,
-                                                                        "arrowParameters": {
+                                                                        "parameters": {
                                                                             "kind": 81929,
                                                                             "elements": [],
                                                                             "type": null,
@@ -1788,7 +1788,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "initializer": {
                                         "kind": 83976,
                                         "typeParameters": null,
-                                        "arrowParameters": {
+                                        "parameters": {
                                             "kind": 81929,
                                             "elements": [],
                                             "type": null,
@@ -2074,7 +2074,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "initializer": {
                                                                             "kind": 83976,
                                                                             "typeParameters": null,
-                                                                            "arrowParameters": {
+                                                                            "parameters": {
                                                                                 "kind": 81929,
                                                                                 "elements": [],
                                                                                 "type": null,
@@ -2595,7 +2595,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "initializer": {
                                         "kind": 83976,
                                         "typeParameters": null,
-                                        "arrowParameters": {
+                                        "parameters": {
                                             "kind": 81929,
                                             "elements": [],
                                             "type": null,
@@ -2881,7 +2881,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "initializer": {
                                                                             "kind": 83976,
                                                                             "typeParameters": null,
-                                                                            "arrowParameters": {
+                                                                            "parameters": {
                                                                                 "kind": 81929,
                                                                                 "elements": [],
                                                                                 "type": null,

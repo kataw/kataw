@@ -130,7 +130,7 @@ import  KeysByType<T, number =  KeysByType<T, number ;
                     "start": 19,
                     "end": 52
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,

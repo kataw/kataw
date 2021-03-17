@@ -38,7 +38,7 @@ bar, (interface) => { 'use strict'; 0 };
                     {
                         "kind": 83976,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {

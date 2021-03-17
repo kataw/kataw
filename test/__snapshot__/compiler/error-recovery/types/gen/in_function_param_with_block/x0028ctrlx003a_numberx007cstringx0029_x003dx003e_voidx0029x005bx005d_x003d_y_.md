@@ -207,7 +207,7 @@ function ( (ctrl: number|string) => void)[] = y; ) {(ctrl: number|string) => voi
                         "expression": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {

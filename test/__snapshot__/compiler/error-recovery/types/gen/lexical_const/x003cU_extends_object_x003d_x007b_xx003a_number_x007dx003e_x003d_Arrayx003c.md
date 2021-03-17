@@ -281,7 +281,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                                                     "start": 58,
                                                     "end": 90
                                                 },
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 131322,
                                                     "text": "",
                                                     "flags": 3,
@@ -481,7 +481,7 @@ const x: <U extends object = { x: number }> = Array<= {x:<U extends object = { x
                     "start": 103,
                     "end": 135
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,

@@ -41,7 +41,7 @@ x( Array<new () => string)
                         {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": [],
+                            "parameters": [],
                             "contents": {
                                 "kind": 196712,
                                 "text": "string",

@@ -35,7 +35,7 @@
                     "start": 1,
                     "end": 1
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 131322,
                     "text": "",
                     "flags": 3,

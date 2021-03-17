@@ -102,7 +102,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -222,7 +222,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -287,7 +287,7 @@ a ? async (b) => (c => d) : e => f;
                 "expression": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -407,7 +407,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -448,7 +448,7 @@ a ? async (b) => (c => d) : e => f;
                     "contents": {
                         "kind": 83976,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {
@@ -588,7 +588,7 @@ a ? async (b) => (c => d) : e => f;
                         "expression": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -651,7 +651,7 @@ a ? async (b) => (c => d) : e => f;
                     "alternate": {
                         "kind": 83976,
                         "typeParameters": null,
-                        "arrowParameters": {
+                        "parameters": {
                             "kind": 81929,
                             "elements": [
                                 {
@@ -694,7 +694,7 @@ a ? async (b) => (c => d) : e => f;
                             "expression": {
                                 "kind": 83976,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {
@@ -769,7 +769,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -892,7 +892,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -1015,7 +1015,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -1133,7 +1133,7 @@ a ? async (b) => (c => d) : e => f;
                             {
                                 "kind": 83976,
                                 "typeParameters": null,
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 81929,
                                     "elements": [
                                         {
@@ -1204,7 +1204,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -1287,7 +1287,7 @@ a ? async (b) => (c => d) : e => f;
                 "consequent": {
                     "kind": 81936,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {
@@ -1330,7 +1330,7 @@ a ? async (b) => (c => d) : e => f;
                         "expression": {
                             "kind": 83976,
                             "typeParameters": null,
-                            "arrowParameters": {
+                            "parameters": {
                                 "kind": 81929,
                                 "elements": [
                                     {
@@ -1399,7 +1399,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 83976,
                     "typeParameters": null,
-                    "arrowParameters": {
+                    "parameters": {
                         "kind": 81929,
                         "elements": [
                             {

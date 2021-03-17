@@ -7,13 +7,13 @@ import { ArrowParameters } from './arrow-parameters';
 
 export interface ArrowFunction extends Node {
   readonly typeParameters: TypeParameters | null;
-  readonly arrowParameters: ArrowParameters;
+  readonly parameters: ArrowParameters;
   readonly contents: Expression | FunctionBody;
 }
 
 export function createArrowFunction(
   typeParameters: TypeParameters | null,
-  arrowParameters: ArrowParameters,
+  parameters: ArrowParameters,
   contents: Expression | FunctionBody,
   isAsync: boolean,
   isParenthesized: boolean,
@@ -29,7 +29,7 @@ export function createArrowFunction(
       : // https://tc39.es/ecma262/#prod-ArrowFunction
         NodeKind.ArrowFunction,
     typeParameters,
-    arrowParameters,
+    parameters,
     contents,
     flags,
     symbol: null,
@@ -43,14 +43,14 @@ export function updateArrowFunction(
   node: ArrowFunction,
   isAsync: boolean,
   isParenthesized: boolean,
-  arrowParameters: ArrowParameters,
+  parameters: ArrowParameters,
   contents: Expression | FunctionBody
 ): ArrowFunction {
-  return node.arrowParameters !== arrowParameters || node.contents !== contents
+  return node.parameters !== parameters || node.contents !== contents
     ? updateNode(
         createArrowFunction(
           node.typeParameters,
-          arrowParameters,
+          parameters,
           contents,
           isAsync,
           isParenthesized,

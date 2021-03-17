@@ -696,7 +696,7 @@ this.intervalID = (setInterval(() => {
                                         {
                                             "kind": 81936,
                                             "typeParameters": null,
-                                            "arrowParameters": [],
+                                            "parameters": [],
                                             "contents": {
                                                 "kind": 91,
                                                 "functionStatementList": {
@@ -1048,7 +1048,7 @@ this.intervalID = (setInterval(() => {
                                         {
                                             "kind": 83976,
                                             "typeParameters": null,
-                                            "arrowParameters": {
+                                            "parameters": {
                                                 "kind": 81929,
                                                 "elements": [],
                                                 "type": null,

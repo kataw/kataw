@@ -43,7 +43,7 @@ foo(async (x, y) => ok).bar
                             {
                                 "kind": 81936,
                                 "typeParameters": null,
-                                "arrowParameters": [],
+                                "parameters": [],
                                 "contents": {
                                     "kind": 196712,
                                     "text": "ok",

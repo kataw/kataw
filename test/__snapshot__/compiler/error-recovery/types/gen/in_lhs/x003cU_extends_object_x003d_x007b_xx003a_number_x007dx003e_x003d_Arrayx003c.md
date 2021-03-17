@@ -293,7 +293,7 @@
                                     "start": 60,
                                     "end": 92
                                 },
-                                "arrowParameters": {
+                                "parameters": {
                                     "kind": 131322,
                                     "text": "",
                                     "flags": 3,

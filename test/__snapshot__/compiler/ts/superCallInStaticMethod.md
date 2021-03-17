@@ -372,7 +372,7 @@ class Other extends Doing {
                                             "expression": {
                                                 "kind": 83976,
                                                 "typeParameters": null,
-                                                "arrowParameters": {
+                                                "parameters": {
                                                     "kind": 81929,
                                                     "elements": [],
                                                     "type": null,
@@ -567,7 +567,7 @@ class Other extends Doing {
                                                             "right": {
                                                                 "kind": 83976,
                                                                 "typeParameters": null,
-                                                                "arrowParameters": {
+                                                                "parameters": {
                                                                     "kind": 81929,
                                                                     "elements": [],
                                                                     "type": null,

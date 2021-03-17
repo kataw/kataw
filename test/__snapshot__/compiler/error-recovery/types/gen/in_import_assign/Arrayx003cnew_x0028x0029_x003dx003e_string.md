@@ -55,7 +55,7 @@ import  Array<new () => string =  Array<new () => string ;
                     "start": 14,
                     "end": 17
                 },
-                "arrowParameters": {
+                "parameters": {
                     "kind": 81929,
                     "elements": [],
                     "type": null,
