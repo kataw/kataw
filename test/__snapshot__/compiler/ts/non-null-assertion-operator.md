@@ -20,7 +20,7 @@ let s = e!.name;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

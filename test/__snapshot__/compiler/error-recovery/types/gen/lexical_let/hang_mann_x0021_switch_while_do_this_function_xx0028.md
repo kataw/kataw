@@ -24,7 +24,7 @@ let x: hang mann ! switch while do this function x( hang mann ! switch while do 
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

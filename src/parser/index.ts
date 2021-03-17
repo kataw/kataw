@@ -458,7 +458,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
     case Token.ForKeyword:
       return parseForStatement(parser, context);
     case Token.VarKeyword:
-      return parseVariableStatement(parser, context, /* inForStatement */ false);
+      return parseVariableStatement(parser, context);
     case Token.ContinueKeyword:
       return parseBreakOrContinueStatement(parser, context, /* isContinue */ true);
     case Token.BreakKeyword:
@@ -796,10 +796,10 @@ function parseCatchParameter(parser: ParserState, context: Context): CatchParame
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
-function parseVariableStatement(parser: ParserState, context: Context, inForStatement: boolean): VariableStatement {
+function parseVariableStatement(parser: ParserState, context: Context): VariableStatement {
   const { curPos, nodeFlags } = parser;
   nextToken(parser, context | Context.AllowRegExp);
-  const declarationList = parseVariableDeclarationList(parser, context, inForStatement);
+  const declarationList = parseVariableDeclarationList(parser, context, /* inForStatement */ false);
   parseSemicolon(parser, context);
   return createVariableStatement(declarationList, nodeFlags | parser.nodeFlags, curPos, parser.curPos);
 }
@@ -807,7 +807,11 @@ function parseVariableStatement(parser: ParserState, context: Context, inForStat
 // VariableDeclaration :
 //   BindingIdentifier Initializer?
 //   BindingPattern Initializer
-function parseVariableDeclaration(parser: ParserState, context: Context): VariableDeclaration {
+function parseVariableDeclaration(
+  parser: ParserState,
+  context: Context,
+  allowExclamation: boolean
+): VariableDeclaration {
   const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(
     parser,
@@ -815,6 +819,7 @@ function parseVariableDeclaration(parser: ParserState, context: Context): Variab
     DiagnosticCode.Private_identifiers_are_not_allowed_in_variable_declarations
   );
   const exclamation =
+    allowExclamation &&
     (binding.kind & NodeKind.IsIdentifier) !== 0 &&
     (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 &&
     consumeOpt(parser, context, Token.Negate);
@@ -859,7 +864,7 @@ function parseBindingList(
   const pos = parser.curPos;
   nextToken(parser, context);
   while (parser.token & 0b00000000000010000101000000000000) {
-    declarations.push(parseLexicalBinding(parser, context));
+    declarations.push(parseLexicalBinding(parser, context, !inForStatement));
     if (inForStatement && parser.token & Token.IsInOrOf) break;
     if (canParseSemicolon(parser)) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
@@ -881,7 +886,7 @@ function parseBindingList(
 // LexicalBinding :
 //   BindingIdentifier Initializer?
 //   BindingPattern Initializer
-function parseLexicalBinding(parser: ParserState, context: Context): LexicalBinding {
+function parseLexicalBinding(parser: ParserState, context: Context, allowExclamation: boolean): LexicalBinding {
   const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(
     parser,
@@ -890,10 +895,15 @@ function parseLexicalBinding(parser: ParserState, context: Context): LexicalBind
   );
   // Declarations with initializers cannot also have definite assignment assertions, but we allow this so that
   // we can report this in the grammar checker.
-  const exclamation =
-    (binding.kind & NodeKind.IsIdentifier) !== 0 &&
+  let exclamation = false;
+  if (
+    allowExclamation &&
+    binding.kind & NodeKind.IsIdentifier &&
     (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 &&
-    consumeOpt(parser, context, Token.Negate);
+    consumeOpt(parser, context, Token.Negate)
+  ) {
+    exclamation = true;
+  }
   const type = parseTypeAnnotation(parser, context);
   // Initializers are not allowed in ambient contexts, but we will handle this in the grammar checker
   const initializer = parser.token & Token.IsInOrOf ? null : parseInitializer(parser, context);
@@ -911,7 +921,7 @@ function parseVariableDeclarationList(
   const pos = parser.curPos;
   const declarations = [];
   while (parser.token & 0b00000000000010000101000000000000) {
-    declarations.push(parseVariableDeclaration(parser, context));
+    declarations.push(parseVariableDeclaration(parser, context, !inForStatement));
     if (canParseSemicolon(parser)) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
     if (inForStatement && parser.token & Token.IsInOrOf) break;
@@ -4536,7 +4546,7 @@ function parseExportDeclaration(
       break;
     case Token.ConstKeyword: {
       const { curPos, nodeFlags } = parser;
-      parseLexicalDeclaration;
+
       declaration = tryParse(parser, context, function (parser, context) {
         nextToken(parser, context);
         return parser.token === Token.EnumKeyword;
@@ -4572,7 +4582,7 @@ function parseExportDeclaration(
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
       break;
     case Token.VarKeyword:
-      declaration = parseVariableStatement(parser, context, /* inForStatement */ false);
+      declaration = parseVariableStatement(parser, context);
       break;
     case Token.AsyncKeyword:
       if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {

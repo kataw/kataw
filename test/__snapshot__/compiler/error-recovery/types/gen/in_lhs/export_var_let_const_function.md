@@ -114,7 +114,7 @@
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
+                                "lexicals": [],
                                 "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
@@ -210,7 +210,7 @@
                                             "kind": 142,
                                             "binding": {
                                                 "kind": 31,
-                                                "bindingList": [],
+                                                "lexicals": [],
                                                 "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,

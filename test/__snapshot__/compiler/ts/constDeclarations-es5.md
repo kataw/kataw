@@ -28,7 +28,7 @@ const z9 = 0, z10 :string = "", z11 = null;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -75,7 +75,7 @@ const z9 = 0, z10 :string = "", z11 = null;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -130,7 +130,7 @@ const z9 = 0, z10 :string = "", z11 = null;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

@@ -24,7 +24,7 @@ const x: (ctrl: number|string) => void)[] = y;= {x:(ctrl: number|string) => void
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

@@ -24,7 +24,7 @@ const x: T = t as= {x:T = t as}:T = t as
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

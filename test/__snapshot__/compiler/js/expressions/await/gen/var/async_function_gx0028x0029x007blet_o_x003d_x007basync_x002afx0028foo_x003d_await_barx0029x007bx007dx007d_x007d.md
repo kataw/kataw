@@ -130,7 +130,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                 "kind": 142,
                                                                 "binding": {
                                                                     "kind": 31,
-                                                                    "bindingList": [
+                                                                    "lexicals": [
                                                                         {
                                                                             "kind": 16525,
                                                                             "binding": {

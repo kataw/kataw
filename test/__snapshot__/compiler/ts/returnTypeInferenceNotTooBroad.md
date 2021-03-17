@@ -871,7 +871,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "kind": 142,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1101,7 +1101,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "kind": 142,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1191,7 +1191,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "kind": 142,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {

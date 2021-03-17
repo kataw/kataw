@@ -26,7 +26,7 @@ export let = let
                 "kind": 142,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [],
+                    "lexicals": [],
                     "flags": 24,
                     "symbol": null,
                     "transformFlags": 0,

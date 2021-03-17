@@ -247,7 +247,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -304,7 +304,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -370,7 +370,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -436,7 +436,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -525,7 +525,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -614,7 +614,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -698,7 +698,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -849,7 +849,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -938,7 +938,7 @@ let n3 = test[numbersNotConst.one];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

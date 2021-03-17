@@ -24,7 +24,7 @@ let x: <U extends object = { x: number }> = Array< <U extends object = { x: numb
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

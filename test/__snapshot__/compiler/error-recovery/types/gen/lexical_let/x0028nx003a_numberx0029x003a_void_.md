@@ -24,7 +24,7 @@ let x: (n: number): void; (n: number): void;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

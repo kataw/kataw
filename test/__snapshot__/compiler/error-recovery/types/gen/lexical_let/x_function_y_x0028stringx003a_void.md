@@ -24,7 +24,7 @@ let x: x function y (string: void x function y (string: void
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

@@ -8,18 +8,18 @@ import { LexicalBinding } from './lexical-binding';
  */
 
 export interface BindingList extends Node {
-  readonly bindingList: LexicalBinding[];
+  readonly lexicals: LexicalBinding[];
 }
 
 export function createBindingList(
-  bindingList: LexicalBinding[],
+  lexicals: LexicalBinding[],
   flags: NodeFlags,
   start: number,
   end: number
 ): BindingList {
   return {
     kind: NodeKind.BindingList,
-    bindingList,
+    lexicals,
     flags,
     symbol: null,
     transformFlags: TransformFlags.None,
@@ -28,8 +28,8 @@ export function createBindingList(
   };
 }
 
-export function updateBindingList(node: BindingList, bindingList: LexicalBinding[]): BindingList {
-  return node.bindingList !== bindingList
-    ? updateNode(createBindingList(bindingList, node.flags, node.start, node.end), node)
+export function updateBindingList(node: BindingList, lexicals: LexicalBinding[]): BindingList {
+  return node.lexicals !== lexicals
+    ? updateNode(createBindingList(lexicals, node.flags, node.start, node.end), node)
     : node;
 }

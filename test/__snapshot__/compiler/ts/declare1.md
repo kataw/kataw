@@ -23,7 +23,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -77,7 +77,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -132,7 +132,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

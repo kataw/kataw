@@ -24,7 +24,7 @@ const x:  Array<new () => string= {x: Array<new () => string}: Array<new () => s
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

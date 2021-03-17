@@ -24,7 +24,7 @@ let x: try catch & finally in bethlehem try catch & finally in bethlehem
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

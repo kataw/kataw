@@ -24,7 +24,7 @@ const x: if x y z !== y function= {x:if x y z !== y function}:if x y z !== y fun
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

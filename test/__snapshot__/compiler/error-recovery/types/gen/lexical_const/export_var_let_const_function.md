@@ -24,7 +24,7 @@ const x: export var let const function= {x:export var let const function}:export
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -120,7 +120,7 @@ const x: export var let const function= {x:export var let const function}:export
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
+                "lexicals": [],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
@@ -257,7 +257,7 @@ const x: export var let const function= {x:export var let const function}:export
                                         "kind": 142,
                                         "binding": {
                                             "kind": 31,
-                                            "bindingList": [],
+                                            "lexicals": [],
                                             "flags": 40,
                                             "symbol": null,
                                             "transformFlags": 0,
@@ -391,7 +391,7 @@ const x: export var let const function= {x:export var let const function}:export
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
+                "lexicals": [],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,

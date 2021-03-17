@@ -26,7 +26,7 @@ let x = () => import {x} from "y"
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

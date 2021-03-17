@@ -108,7 +108,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                             "kind": 142,
                                                             "binding": {
                                                                 "kind": 31,
-                                                                "bindingList": [
+                                                                "lexicals": [
                                                                     {
                                                                         "kind": 16525,
                                                                         "binding": {

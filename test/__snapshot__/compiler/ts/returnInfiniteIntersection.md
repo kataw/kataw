@@ -54,7 +54,7 @@ let result = recursive()(1)
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -330,7 +330,7 @@ let result = recursive()(1)
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

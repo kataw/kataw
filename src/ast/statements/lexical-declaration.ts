@@ -28,10 +28,7 @@ export function createLexicalDeclaration(
   };
 }
 
-export function updateLexicalDeclaration(
-  node: LexicalDeclaration,
-  binding: BindingList
-): LexicalDeclaration {
+export function updateLexicalDeclaration(node: LexicalDeclaration, binding: BindingList): LexicalDeclaration {
   return node.binding !== binding
     ? updateNode(createLexicalDeclaration(binding, node.flags, node.start, node.end), node)
     : node;

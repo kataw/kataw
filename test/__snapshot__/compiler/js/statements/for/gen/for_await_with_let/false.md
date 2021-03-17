@@ -52,7 +52,7 @@ async function f() { for await (let x in y) {} }
                             "kind": 2099286,
                             "initializer": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {

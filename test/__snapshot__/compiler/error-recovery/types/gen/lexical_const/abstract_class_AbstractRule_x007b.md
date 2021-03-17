@@ -24,7 +24,7 @@ const x: abstract class AbstractRule {= {x:abstract class AbstractRule {}:abstra
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

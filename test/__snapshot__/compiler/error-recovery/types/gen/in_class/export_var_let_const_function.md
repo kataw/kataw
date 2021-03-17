@@ -75,7 +75,7 @@ export var let const function class export var let const function { field: expor
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
+                "lexicals": [],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,
@@ -171,7 +171,7 @@ export var let const function class export var let const function { field: expor
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [],
+                                "lexicals": [],
                                 "flags": 40,
                                 "symbol": null,
                                 "transformFlags": 0,
@@ -303,7 +303,7 @@ export var let const function class export var let const function { field: expor
                                             "kind": 142,
                                             "binding": {
                                                 "kind": 31,
-                                                "bindingList": [],
+                                                "lexicals": [],
                                                 "flags": 40,
                                                 "symbol": null,
                                                 "transformFlags": 0,

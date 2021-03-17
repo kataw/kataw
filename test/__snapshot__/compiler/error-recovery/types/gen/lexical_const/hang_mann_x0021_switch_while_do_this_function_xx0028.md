@@ -24,7 +24,7 @@ const x: hang mann ! switch while do this function x(= {x:hang mann ! switch whi
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

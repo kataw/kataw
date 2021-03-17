@@ -24,7 +24,7 @@ const x: never break?== {x:never break?=}:never break?=
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

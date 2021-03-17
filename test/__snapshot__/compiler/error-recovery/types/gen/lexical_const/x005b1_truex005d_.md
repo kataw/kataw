@@ -24,7 +24,7 @@ const x: [1, true];= {x:[1, true];}:[1, true];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

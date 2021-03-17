@@ -196,7 +196,7 @@ export default class Operation {
                                                 "kind": 142,
                                                 "binding": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -287,7 +287,7 @@ export default class Operation {
                                                 "kind": 2099287,
                                                 "initializer": {
                                                     "kind": 31,
-                                                    "bindingList": [
+                                                    "lexicals": [
                                                         {
                                                             "kind": 16525,
                                                             "binding": {
@@ -388,7 +388,7 @@ export default class Operation {
                                                                 "kind": 142,
                                                                 "binding": {
                                                                     "kind": 31,
-                                                                    "bindingList": [
+                                                                    "lexicals": [
                                                                         {
                                                                             "kind": 16525,
                                                                             "binding": {
@@ -515,7 +515,7 @@ export default class Operation {
                                                                 "kind": 142,
                                                                 "binding": {
                                                                     "kind": 31,
-                                                                    "bindingList": [
+                                                                    "lexicals": [
                                                                         {
                                                                             "kind": 16525,
                                                                             "binding": {
@@ -627,7 +627,7 @@ export default class Operation {
                                                                 "kind": 142,
                                                                 "binding": {
                                                                     "kind": 31,
-                                                                    "bindingList": [
+                                                                    "lexicals": [
                                                                         {
                                                                             "kind": 16525,
                                                                             "binding": {

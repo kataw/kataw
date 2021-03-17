@@ -24,7 +24,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

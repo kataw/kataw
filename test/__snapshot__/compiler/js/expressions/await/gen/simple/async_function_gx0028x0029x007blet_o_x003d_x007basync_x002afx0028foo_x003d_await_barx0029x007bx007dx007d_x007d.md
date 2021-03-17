@@ -52,7 +52,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {

@@ -24,7 +24,7 @@ const x: switch case default x!= {x:switch case default x!}:switch case default 
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

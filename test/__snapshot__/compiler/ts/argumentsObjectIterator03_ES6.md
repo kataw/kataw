@@ -183,7 +183,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {

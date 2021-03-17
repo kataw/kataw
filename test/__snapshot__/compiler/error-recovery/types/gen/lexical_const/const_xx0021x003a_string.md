@@ -24,7 +24,7 @@ const x: const x!: string= {x:const x!: string}:const x!: string
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -198,7 +198,7 @@ const x: const x!: string= {x:const x!: string}:const x!: string
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

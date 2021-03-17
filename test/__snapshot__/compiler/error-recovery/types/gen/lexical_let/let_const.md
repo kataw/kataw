@@ -24,7 +24,7 @@ let x: let const let const
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -81,7 +81,7 @@ let x: let const let const
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -120,7 +120,7 @@ let x: let const let const
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [],
+                "lexicals": [],
                 "flags": 40,
                 "symbol": null,
                 "transformFlags": 0,

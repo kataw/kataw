@@ -52,7 +52,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -100,7 +100,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -245,7 +245,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -390,7 +390,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -459,7 +459,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -623,7 +623,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -817,7 +817,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2048,7 +2048,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -2261,7 +2261,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {

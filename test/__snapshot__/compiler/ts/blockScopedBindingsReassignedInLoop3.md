@@ -108,7 +108,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
             "kind": 2099288,
             "initializer": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -285,7 +285,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 142,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [
+                            "lexicals": [
                                 {
                                     "kind": 16525,
                                     "binding": {
@@ -455,7 +455,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 2099288,
                                         "initializer": {
                                             "kind": 31,
-                                            "bindingList": [
+                                            "lexicals": [
                                                 {
                                                     "kind": 16525,
                                                     "binding": {
@@ -550,7 +550,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 142,
                                                         "binding": {
                                                             "kind": 31,
-                                                            "bindingList": [
+                                                            "lexicals": [
                                                                 {
                                                                     "kind": 16525,
                                                                     "binding": {
@@ -841,7 +841,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
             "kind": 2099288,
             "initializer": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
@@ -1018,7 +1018,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 142,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [
+                            "lexicals": [
                                 {
                                     "kind": 16525,
                                     "binding": {
@@ -1188,7 +1188,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 2099288,
                                         "initializer": {
                                             "kind": 31,
-                                            "bindingList": [
+                                            "lexicals": [
                                                 {
                                                     "kind": 16525,
                                                     "binding": {
@@ -1283,7 +1283,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 142,
                                                         "binding": {
                                                             "kind": 31,
-                                                            "bindingList": [
+                                                            "lexicals": [
                                                                 {
                                                                     "kind": 16525,
                                                                     "binding": {
@@ -1586,7 +1586,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "kind": 2099288,
                 "initializer": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -1770,7 +1770,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 142,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [
+                            "lexicals": [
                                 {
                                     "kind": 16525,
                                     "binding": {
@@ -1961,7 +1961,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 2099288,
                                             "initializer": {
                                                 "kind": 31,
-                                                "bindingList": [
+                                                "lexicals": [
                                                     {
                                                         "kind": 16525,
                                                         "binding": {
@@ -2056,7 +2056,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             "kind": 142,
                                                             "binding": {
                                                                 "kind": 31,
-                                                                "bindingList": [
+                                                                "lexicals": [
                                                                     {
                                                                         "kind": 16525,
                                                                         "binding": {
@@ -2393,7 +2393,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                 "kind": 2099288,
                 "initializer": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -2577,7 +2577,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 142,
                         "binding": {
                             "kind": 31,
-                            "bindingList": [
+                            "lexicals": [
                                 {
                                     "kind": 16525,
                                     "binding": {
@@ -2768,7 +2768,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 2099288,
                                             "initializer": {
                                                 "kind": 31,
-                                                "bindingList": [
+                                                "lexicals": [
                                                     {
                                                         "kind": 16525,
                                                         "binding": {
@@ -2863,7 +2863,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             "kind": 142,
                                                             "binding": {
                                                                 "kind": 31,
-                                                                "bindingList": [
+                                                                "lexicals": [
                                                                     {
                                                                         "kind": 16525,
                                                                         "binding": {

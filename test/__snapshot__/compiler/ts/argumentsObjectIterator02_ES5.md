@@ -187,7 +187,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -276,7 +276,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "kind": 142,
                             "binding": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {
@@ -333,7 +333,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "kind": 2099287,
                             "initializer": {
                                 "kind": 31,
-                                "bindingList": [
+                                "lexicals": [
                                     {
                                         "kind": 16525,
                                         "binding": {

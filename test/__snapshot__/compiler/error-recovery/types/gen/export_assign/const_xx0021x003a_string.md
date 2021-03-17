@@ -26,7 +26,7 @@ export const x!: string = const x!: string
                 "kind": 142,
                 "binding": {
                     "kind": 31,
-                    "bindingList": [
+                    "lexicals": [
                         {
                             "kind": 16525,
                             "binding": {
@@ -90,7 +90,7 @@ export const x!: string = const x!: string
             "kind": 142,
             "binding": {
                 "kind": 31,
-                "bindingList": [
+                "lexicals": [
                     {
                         "kind": 16525,
                         "binding": {
