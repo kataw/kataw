@@ -64,6 +64,6 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
 }
 
 export function scanTemplateTail(parser: ParserState, context: Context): Token {
-  parser.pos = parser.tokenPos;
+  parser.pos--;
   return scanTemplate(parser, context, parser.source);
 }
