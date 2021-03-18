@@ -44,9 +44,8 @@ export const enum Token {
 
   /* Template nodes */
   NoSubstitutionTemplateLiteral = 9 | IsMember | IsPropertyOrCall | IsExpressionStart,
-  TemplateHead = 10 | IsExpressionStart | IsMember | IsPropertyOrCall,
   TemplateTail = 11 | IsExpressionStart | IsMember | IsPropertyOrCall,
-  TemplateCont = 12 | IsExpressionStart | IsMember | IsPropertyOrCall,
+  TemplateSpan = 12 | IsExpressionStart | IsMember | IsPropertyOrCall,
 
   /* Punctuators */
   Arrow = 13, // =>

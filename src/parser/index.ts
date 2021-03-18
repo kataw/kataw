@@ -2225,7 +2225,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.An_optional_chain_cannot_contain_private_identifiers);
       }
     } else {
-      if (parser.token === Token.NoSubstitutionTemplateLiteral || parser.token === Token.TemplateHead) {
+      if (parser.token === Token.NoSubstitutionTemplateLiteral || parser.token === Token.TemplateTail) {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.Invalid_optional_chain_in_tagged_template);
         chain = createTaggedTemplate(
           chain as any,
@@ -2294,10 +2294,10 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
 
 function parseTemplateExpression(parser: ParserState, context: Context): TemplateExpression {
   const pos = parser.curPos;
-  const templateSpans = [];
-  do {
+  const templateSpans = [parseTemplateSpan(parser, context)];
+  while (scanTemplateTail(parser, context) === Token.TemplateSpan) {
     templateSpans.push(parseTemplateSpan(parser, context));
-  } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateCont);
+  }
   return createTemplateExpression(
     templateSpans,
     parseTemplateTail(parser, context, /* literal */ false),
@@ -2309,7 +2309,7 @@ function parseTemplateExpression(parser: ParserState, context: Context): Templat
 
 function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan {
   const { curPos, tokenValue, templateRaw } = parser;
-  consume(parser, context | Context.AllowRegExp, Token.TemplateCont);
+  consume(parser, context | Context.AllowRegExp, Token.TemplateSpan);
   const expression = parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   return createTemplateSpan(templateRaw, tokenValue, expression, parser.nodeFlags, curPos, parser.curPos);
 }
@@ -2754,7 +2754,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseNewExpressionOrNewDotTarget(parser, context);
     case Token.TemplateTail:
       return parseTemplateTail(parser, context, /* literal */ true);
-    case Token.TemplateCont:
+    case Token.TemplateSpan:
       return parseTemplateExpression(parser, context);
     case Token.SuperKeyword:
       return parseSuperExpression(parser, context);
@@ -5298,7 +5298,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
         return parseAssertsTypePredicate(parser, context);
       }
       return parseTypeReference(parser, context);
-    case Token.TemplateCont:
+    case Token.TemplateSpan:
       return parseTemplateType(parser, context);
     default:
       return parseTypeReference(parser, context);
@@ -5443,7 +5443,7 @@ function parseTemplateType(parser: ParserState, context: Context): TemplateLiter
   const templateSpans = [];
   do {
     templateSpans.push(parseTemplateTypeSpan(parser, context));
-  } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateCont);
+  } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateSpan);
   return createTemplateLiteralType(
     templateSpans,
     parseTemplateTail(parser, context, /* literal */ false),
@@ -5455,7 +5455,7 @@ function parseTemplateType(parser: ParserState, context: Context): TemplateLiter
 
 function parseTemplateTypeSpan(parser: ParserState, context: Context): TemplateLiteralTypeSpan {
   const { curPos, tokenValue, templateRaw } = parser;
-  consume(parser, context | Context.AllowRegExp, Token.TemplateCont);
+  consume(parser, context | Context.AllowRegExp, Token.TemplateSpan);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
   return createTemplateLiteralTypeSpan(type, templateRaw, tokenValue, parser.nodeFlags, curPos, parser.curPos);
 }

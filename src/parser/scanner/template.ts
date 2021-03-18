@@ -30,7 +30,7 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
         parser.templateRaw = parser.source.slice(start, parser.pos);
         parser.pos += 2; // Consume '$' and '{'
         parser.tokenValue = ret;
-        return Token.TemplateCont;
+        return Token.TemplateSpan;
       }
       ret += '$';
     }
@@ -65,5 +65,6 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
 
 export function scanTemplateTail(parser: ParserState, context: Context): Token {
   parser.pos--;
-  return scanTemplate(parser, context, parser.source);
+  parser.token = scanTemplate(parser, context, parser.source);
+  return parser.token;
 }
