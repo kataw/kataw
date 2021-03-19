@@ -13,8 +13,6 @@ const fn = ['parser', 'printer'];
 runCli();
 
 export async function runCli() {
-  beforeExit();
-
   const opts = cliOpts();
   console.time(
     ColorCodes.GREEN +
@@ -59,7 +57,7 @@ export async function runCli() {
 }
 
 
-export function cliOpts() {
+export function cliOpts(): any {
   const help = process.argv.includes('-?') || process.argv.includes('--help');
   help && showHelp();
 
@@ -101,11 +99,4 @@ function showHelp() {
       -u            Auto-update tests with the results (tests silently updated inline, use source control to diff)
   `);
   process.exit(0);
-}
-
-function beforeExit() {
-  process.exitCode = 0;
-  process.on('beforeExit', function () {
-    console.log(`exit code: ${process.exitCode}`);
-  });
 }
