@@ -1,5 +1,5 @@
 import { printSourceFile } from '../../src/printer';
-import { parseScript, parseModule } from '../../src/kataw';
+import { parseScript, parseModule, transformScript, transformModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
 
 // testing object
@@ -9,8 +9,11 @@ export interface Tob {
   input: string;
   parserOptions: any;
   printerOptions: any;
+  transformOptions: any;
   cst?: any;
   $cst?: any;
+  $transform?: any;
+  transform?: any;
   printed?: any;
   $printed?: any;
   diagnostics?: any;
@@ -33,13 +36,20 @@ export async function file2Tob(filename: string): Promise<Tob> {
     filename,
     content,
     input: md2input(content),
+    transformOptions: md2transformOptions(content),
     parserOptions: md2parserOptions(content),
     printerOptions: md2printerOptions(content),
+    transform: md2cst(content),
     cst: md2cst(content),
     printed: md2printed(content),
     diagnostics: md2diagnostics(content)
   };
-
+  // TODO(aladdin): Need to make a "switch" here for transformers so it's possible to have options like this
+  //
+  //  `tranform: true, transformers: [],`
+  //
+  // So if 'transform' is true - it should do the transform.
+  tob.$transform = (tob.transformOptions.module ? transformModule : transformScript)(tob.input, tob.transformOptions.transformers, tob.transformOptions);
   tob.$cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
@@ -53,11 +63,20 @@ export async function file2Tob(filename: string): Promise<Tob> {
 
 export function isMatchedTob(tob: Tob) {
   return (
-    deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
+    deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics) &&
+    deepEqual(tob.transform, tob.$transform)
   );
 }
 
 function md2parserOptions(str: string) {
+  const offset = str.indexOf(Constants.Options);
+  const start1 = str.indexOf(Constants.JsStart, offset);
+  const end1 = str.indexOf(Constants.JsEnd, offset);
+  const t = str.slice(start1 + Constants.JsStart.length, end1);
+  return offset === -1 ? {} : eval('0||' + t + '');
+}
+
+function md2transformOptions(str: string) {
   const offset = str.indexOf(Constants.Options);
   const start1 = str.indexOf(Constants.JsStart, offset);
   const end1 = str.indexOf(Constants.JsEnd, offset);
