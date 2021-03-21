@@ -30,7 +30,6 @@ export function transformTpescript(context: any): any {
   function visitTypeScript(node: any): any {
     switch (node.kind) {
       case NodeKind.StringKeyword:
-      case NodeKind.BindingElement:
       case NodeKind.ArrayType:
       case NodeKind.TupleType:
       case NodeKind.OptionalType:
@@ -194,7 +193,7 @@ export function transformTpescript(context: any): any {
 
   function visitParenthesizedExpression(node: any): any {
     const innerExpression = node.expression;
-    if (innerExpression === NodeKind.TypeAssertion || innerExpression.kind === NodeKind.AsExpression) {
+    if (innerExpression.kind === NodeKind.TypeAssertion || innerExpression.kind === NodeKind.AsExpression) {
       const expression = visitNode(node.expression, visitor);
       return createPartiallyEmittedExpression(expression, node, NodeFlags.None, node.start, node.end);
     }
