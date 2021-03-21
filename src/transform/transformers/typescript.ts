@@ -15,8 +15,11 @@ import { updateNewExpression, NewExpression } from '../../ast/expressions/new-ex
 import { FormalParameter, updateFormalParameter } from '../../ast/expressions/formal-parameter';
 import { createExpressionStatement } from '../../ast/statements/expr-stmt';
 import { createPartiallyEmittedExpression } from '../../ast/types/partially-emitted-expression';
+import { updateLexicalDeclaration } from '../../ast/statements/lexical-declaration';
+import { updateLexicalBinding } from '../../ast/statements/lexical-binding';
+import { updateVariableDeclaration } from '../../ast/statements/variable-declaration';
 
-export function transformTpescript(context: any): any {
+export function transformTypescript(context: any): any {
   return transformSourceFile;
 
   function transformSourceFile(root: any) {
@@ -90,9 +93,29 @@ export function transformTpescript(context: any): any {
         return visitCallExpression(node);
       case NodeKind.NewExpression:
         return visitNewExpression(node);
+      case NodeKind.LexicalDeclaration:
+        return visitLexicaDeclaration(node);
+      case NodeKind.LexicalBinding:
+        return visitLexicalBinding(node);
     }
 
     return visitEachChild(node, visitor, context);
+  }
+
+  function visitLexicaDeclaration(node: any): any {
+    const updated = updateLexicalDeclaration(node, /* binding */ visitNode(node.binding, visitor, context));
+    updated.flags = (updated.flags | NodeFlags.Declared) ^ NodeFlags.Declared;
+    return updated;
+  }
+
+  function visitLexicalBinding(node: any): any {
+    return updateLexicalBinding(
+      node,
+      /* binding */ visitNode(node.binding, visitor, context),
+      /* exclamaion */ false,
+      /* type */ null,
+      /* initializer */ visitNode(node.initializer, visitor, context)
+    );
   }
 
   function visitAssertionExpression(node: any): any {
@@ -219,9 +242,13 @@ export function transformTpescript(context: any): any {
   }
 
   function visitVariableDeclaration(node: any): any {
-    node.exclamation = null;
-    node.type = null;
-    return node;
+    return updateVariableDeclaration(
+      node,
+      /* binding */ visitNode(node.binding, visitor, context),
+      /* exclamation */ false,
+      /* type */ null,
+      /* initializer */ visitNode(node.initializer, visitor, context)
+    );
   }
 
   function visitEnumDeclaration(node: any): any {
