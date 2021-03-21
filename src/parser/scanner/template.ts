@@ -8,7 +8,7 @@ import { scanEscapeSequence } from './string';
 import { fromCodePoint } from './common';
 import { Context } from '../common';
 
-export function scanTemplate(parser: ParserState, context: Context, source: string): Token {
+export function scanTemplate(parser: ParserState, _context: Context, isTaggedTemplate: boolean, source: string): Token {
   parser.pos++;
 
   const start = parser.pos;
@@ -37,7 +37,7 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
 
     // Escape character
     if (cp === Char.Backslash) {
-      ret += scanEscapeSequence(parser, (context & Context.TaggedTemplate) !== 0, source);
+      ret += scanEscapeSequence(parser, isTaggedTemplate, source);
     } else {
       parser.pos++;
       // The TRV of LineTerminatorSequence :: <CR> is the CV 0x000A.
@@ -63,8 +63,8 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
   return Token.TemplateTail;
 }
 
-export function scanTemplateTail(parser: ParserState, context: Context): Token {
+export function scanTemplateTail(parser: ParserState, context: Context, isTaggedTemplate: boolean): Token {
   parser.pos--;
-  parser.token = scanTemplate(parser, context, parser.source);
+  parser.token = scanTemplate(parser, context, isTaggedTemplate, parser.source);
   return parser.token;
 }

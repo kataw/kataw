@@ -105,10 +105,10 @@ try import { };
                 "start": 10,
                 "end": 14
             },
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 3,
+            "start": 10,
             "end": 15
         }
     ],

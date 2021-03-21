@@ -75,10 +75,9 @@ type dsafdsf = x extends dsafdsf
                 "trueType": {
                     "kind": 134226156,
                     "typeName": {
-                        "kind": 196712,
+                        "kind": 131322,
                         "text": "",
-                        "rawText": "",
-                        "flags": 1,
+                        "flags": 3,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 32,
@@ -94,10 +93,9 @@ type dsafdsf = x extends dsafdsf
                 "falseType": {
                     "kind": 134226156,
                     "typeName": {
-                        "kind": 196712,
+                        "kind": 131322,
                         "text": "",
-                        "rawText": "",
-                        "flags": 1,
+                        "flags": 3,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 32,

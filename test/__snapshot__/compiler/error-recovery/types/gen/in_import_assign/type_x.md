@@ -46,7 +46,7 @@ import type x = type x ;
             "flags": 1,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 20
         },
         {

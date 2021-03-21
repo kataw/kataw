@@ -21,7 +21,11 @@ import { CaseClause } from './case-clause';
 import { DefaultClause } from './default-clause';
 import { BindingList } from './binding-list';
 import { SwitchStatement } from './switch-stmt';
-import { ForBinding } from './forBinding';
+import { VariableDeclaration } from './variable-declaration';
+import { VariableDeclarationList } from './variable-declarationList';
+import { LexicalDeclaration } from './lexical-declaration';
+import { FunctionDeclaration } from './function-declaration';
+import { ClassDeclaration } from './class-declaration';
 
 export type CaseBlock = DefaultClause | CaseClause;
 
@@ -51,9 +55,10 @@ export type Statement =
   | ThrowStatement
   | TryStatement
   | VariableStatement
-  //  | VariableDeclaration
-  //  | LexicalDeclaration
+  | VariableDeclaration
+  | VariableDeclaration
+  | VariableDeclarationList
+  | LexicalDeclaration
   | LexicalBinding
-  //| FunctionDeclaration
-  | ForBinding;
-//| ClassDeclaration;
+  | FunctionDeclaration
+  | ClassDeclaration;

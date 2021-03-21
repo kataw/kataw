@@ -131,7 +131,7 @@ import c<number> = { x: 3 }; = c<number> = { x: 3 }; ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 28
         },
         {

@@ -166,10 +166,9 @@ T = t as class T = t as { field: T = t as}
                                         "type": {
                                             "kind": 134226156,
                                             "typeName": {
-                                                "kind": 196712,
+                                                "kind": 131322,
                                                 "text": "",
-                                                "rawText": "",
-                                                "flags": 1,
+                                                "flags": 3,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 41,

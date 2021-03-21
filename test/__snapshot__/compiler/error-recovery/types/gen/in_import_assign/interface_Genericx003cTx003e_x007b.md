@@ -123,7 +123,7 @@ import interface Generic<T> { = interface Generic<T> { ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 41
         },
         {

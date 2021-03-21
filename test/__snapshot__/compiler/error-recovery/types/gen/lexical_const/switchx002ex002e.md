@@ -55,10 +55,9 @@ const x: switch..= {x:switch..}:switch..
                                         "end": 15
                                     },
                                     "right": {
-                                        "kind": 196711,
+                                        "kind": 131322,
                                         "text": "",
-                                        "rawText": "",
-                                        "flags": 1,
+                                        "flags": 3,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 16,
@@ -71,10 +70,9 @@ const x: switch..= {x:switch..}:switch..
                                     "end": 16
                                 },
                                 "right": {
-                                    "kind": 196711,
+                                    "kind": 131322,
                                     "text": "",
-                                    "rawText": "",
-                                    "flags": 1,
+                                    "flags": 3,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 17,
@@ -296,14 +294,14 @@ const x: switch..= {x:switch..}:switch..
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 16,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 17,
             "length": 0
         },

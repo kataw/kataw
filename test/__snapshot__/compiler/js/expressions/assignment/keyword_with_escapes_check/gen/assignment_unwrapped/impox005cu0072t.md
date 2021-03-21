@@ -25,10 +25,10 @@ impo\u0072t = x;
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 75497472,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 11,
             "end": 11
         },
         {

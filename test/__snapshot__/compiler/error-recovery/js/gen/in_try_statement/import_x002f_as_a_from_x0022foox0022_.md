@@ -70,10 +70,10 @@ try import / as a from "foo";
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 3,
+            "start": 10,
             "end": 10
         },
         {

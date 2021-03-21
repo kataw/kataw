@@ -28,7 +28,7 @@ import catch = catch ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 6
         },
         {

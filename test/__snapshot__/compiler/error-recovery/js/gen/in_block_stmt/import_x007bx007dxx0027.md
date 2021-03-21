@@ -69,7 +69,7 @@
                         "flags": 0,
                         "symbol": null,
                         "transformFlags": 0,
-                        "start": 1,
+                        "start": 8,
                         "end": 12
                     },
                     {

@@ -25,10 +25,10 @@
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 8388608,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 11,
             "end": 11
         },
         {

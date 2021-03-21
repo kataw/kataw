@@ -28,7 +28,7 @@ import try catch & finally in bethlehem = try catch & finally in bethlehem ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 6
         },
         {

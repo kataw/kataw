@@ -106,10 +106,10 @@ try import {} from 'x'
                 "start": 10,
                 "end": 13
             },
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 3,
+            "start": 10,
             "end": 22
         }
     ],

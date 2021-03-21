@@ -59,10 +59,9 @@ let x: else.. else..
                                                 "end": 11
                                             },
                                             "right": {
-                                                "kind": 196711,
+                                                "kind": 131322,
                                                 "text": "",
-                                                "rawText": "",
-                                                "flags": 1,
+                                                "flags": 3,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 12,
@@ -91,10 +90,9 @@ let x: else.. else..
                                         "end": 18
                                     },
                                     "right": {
-                                        "kind": 196711,
+                                        "kind": 131322,
                                         "text": "",
-                                        "rawText": "",
-                                        "flags": 1,
+                                        "flags": 3,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 19,
@@ -107,10 +105,9 @@ let x: else.. else..
                                     "end": 19
                                 },
                                 "right": {
-                                    "kind": 196711,
+                                    "kind": 131322,
                                     "text": "",
-                                    "rawText": "",
-                                    "flags": 0,
+                                    "flags": 3,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 20,
@@ -156,14 +153,14 @@ let x: else.. else..
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 12,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 19,
             "length": 0
         }

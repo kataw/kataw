@@ -94,7 +94,6 @@ export { createBooleanLiteral } from './ast/expressions/boolean-literal';
 export { createThisExpression } from './ast/expressions/this-expr';
 export { createNullLiteral } from './ast/expressions/null-literal';
 export { createMethodDefinition, updateMethodDefinition } from './ast/expressions/method-definition';
-export { createForBinding, updateForBinding } from './ast/statements/forBinding';
 export { createParenthesizedExpression, updateParenthesizedExpression } from './ast/expressions/parenthesized-expr';
 export { createFunctionBody, updateFunctionBody } from './ast/expressions/function-body';
 export { createFunctionStatementList, updateFunctionStatementList } from './ast/expressions/function-stmt-list';
@@ -165,10 +164,6 @@ export { createTryStatement, updateTryStatement } from './ast/statements/try-stm
 export { createLexicalBinding, updateLexicalBinding } from './ast/statements/lexical-binding';
 export { createLexicalDeclaration, updateLexicalDeclaration } from './ast/statements/lexical-declaration';
 export { createVariableDeclaration, updateVariableDeclaration } from './ast/statements/variable-declaration';
-export {
-  createVariableDeclarationList,
-  updateVariableDeclarationList
-} from './ast/statements/variable-declarationList';
 export { createLabelledStatement, updateLabelledStatement } from './ast/statements/labelled-stmt';
 export { createBindingList, updateBindingList } from './ast/statements/binding-list';
 export { createUnaryExpression, updateUnaryExpression } from './ast/expressions/unary-expr';
@@ -186,11 +181,24 @@ export { visitNode, visitNodes, visitEachChild } from './visitor';
 export { createContext } from './transform/context';
 import { RootNode } from './ast/rootNode';
 import { parseRoot } from './parser';
+import { transform } from './transform/index';
+export {
+  createVariableDeclarationList,
+  updateVariableDeclarationList
+} from './ast/statements/variable-declarationList';
 
 export function parseScript(source: string, options?: any): RootNode {
   return parseRoot(source, false, options);
 }
 
 export function parseModule(source: string, options?: any): RootNode {
-  return parseRoot(source, false, options);
+  return parseRoot(source, /* isModule */ true, options);
+}
+
+export function transformScript(source: string, transformers: any[], options?: any): RootNode {
+  return transform(parseRoot(source, false, options), transformers);
+}
+
+export function transformModule(source: string, transformers: any[], options?: any): RootNode {
+  return transform(parseRoot(source, /* isModule */ true, options), transformers);
 }

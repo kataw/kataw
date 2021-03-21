@@ -131,7 +131,7 @@ import IActionMessage>{ = IActionMessage>{ ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 44
         }
     ],

@@ -98,10 +98,10 @@ try import m ;;'baz';
                 "start": 10,
                 "end": 12
             },
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 3,
+            "start": 10,
             "end": 14
         },
         {

@@ -28,7 +28,7 @@ import const x!: string = const x!: string ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 6
         },
         {

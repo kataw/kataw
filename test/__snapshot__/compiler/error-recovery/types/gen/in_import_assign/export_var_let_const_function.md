@@ -28,7 +28,7 @@ import export var let const function = export var let const function ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 6
         },
         {

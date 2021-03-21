@@ -179,7 +179,7 @@ import  KeysByType<T, number =  KeysByType<T, number ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 54
         }
     ],

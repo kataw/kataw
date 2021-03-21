@@ -68,10 +68,9 @@
                                                 "end": 20
                                             },
                                             "right": {
-                                                "kind": 196711,
+                                                "kind": 131322,
                                                 "text": "",
-                                                "rawText": "",
-                                                "flags": 1,
+                                                "flags": 3,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 21,
@@ -84,10 +83,9 @@
                                             "end": 21
                                         },
                                         "right": {
-                                            "kind": 196711,
+                                            "kind": 131322,
                                             "text": "",
-                                            "rawText": "",
-                                            "flags": 1,
+                                            "flags": 3,
                                             "symbol": null,
                                             "transformFlags": 0,
                                             "start": 22,
@@ -149,14 +147,14 @@
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 21,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 23,
             "length": 0
         }

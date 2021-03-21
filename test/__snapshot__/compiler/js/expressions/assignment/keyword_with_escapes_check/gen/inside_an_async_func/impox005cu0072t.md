@@ -47,10 +47,10 @@ async () => {  impo\u0072t = x  }
                                 "fromClause": null,
                                 "moduleSpecifier": null,
                                 "importClause": null,
-                                "flags": 75497472,
+                                "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 13,
+                                "start": 26,
                                 "end": 26
                             }
                         ],

@@ -150,7 +150,7 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
         visitNode(node.initializer, node, visitor)
       );
     case NodeKind.BindingList:
-      return visitNodes(node.bindingList, node, visitor);
+      return visitNodes(node.lexicals, node, visitor);
     case NodeKind.BindingPropertyList:
       return visitNodes(node.properties, node, visitor);
     case NodeKind.ArrowParameters:
@@ -243,8 +243,6 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       );
     case NodeKind.DoWhileStatement:
       return visitNode(node.expression, node, visitor) || visitNode(node.statement, node, visitor);
-    case NodeKind.ForBinding:
-      return visitNode(node.declarationList, node, visitor);
     case NodeKind.IfStatement:
       return (
         visitNode(node.expression, node, visitor) ||

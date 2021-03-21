@@ -99,10 +99,10 @@ try import * foo from "foo.js";;
                 "start": 10,
                 "end": 16
             },
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 3,
+            "start": 10,
             "end": 31
         },
         {

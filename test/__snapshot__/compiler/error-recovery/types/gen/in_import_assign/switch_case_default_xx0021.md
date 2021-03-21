@@ -28,7 +28,7 @@ import switch case default x! = switch case default x! ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 6
         },
         {

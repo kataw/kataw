@@ -56,7 +56,7 @@ import unknown): asserts value is = unknown): asserts value is ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 14
         },
         {

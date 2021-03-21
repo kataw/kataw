@@ -83,10 +83,10 @@ class import {}
                 "start": 12,
                 "end": 15
             },
-            "flags": 1,
+            "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 5,
+            "start": 12,
             "end": 15
         }
     ],

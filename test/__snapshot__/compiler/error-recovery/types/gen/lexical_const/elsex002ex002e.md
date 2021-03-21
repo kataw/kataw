@@ -55,10 +55,9 @@ const x: else..= {x:else..}:else..
                                         "end": 13
                                     },
                                     "right": {
-                                        "kind": 196711,
+                                        "kind": 131322,
                                         "text": "",
-                                        "rawText": "",
-                                        "flags": 1,
+                                        "flags": 3,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 14,
@@ -71,10 +70,9 @@ const x: else..= {x:else..}:else..
                                     "end": 14
                                 },
                                 "right": {
-                                    "kind": 196711,
+                                    "kind": 131322,
                                     "text": "",
-                                    "rawText": "",
-                                    "flags": 1,
+                                    "flags": 3,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 15,
@@ -224,14 +222,14 @@ const x: else..= {x:else..}:else..
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 14,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 15,
             "length": 0
         },

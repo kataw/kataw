@@ -14,7 +14,7 @@ import { createEnumDeclaration, EnumDeclaration } from '../ast/types/enum-declar
 import { createEnumMembersList, EnumMembersList } from '../ast/types/enum-members-list';
 import { createIntrinsicKeyword, IntrinsicKeyword } from '../ast/types/intrinsic';
 import { createEnumMember, EnumMember } from '../ast/types/enum-member';
-import { createQualifiedName, QualifiedName } from '../ast/types/qualified-name';
+import { createQualifiedName, QualifiedName, EntityName } from '../ast/types/qualified-name';
 import { createInterfaceDeclaration, InterfaceDeclaration } from '../ast/types/interface-declaration';
 import { createSingleNameBinding, SingleNameBinding } from '../ast/expressions/singleNameBinding';
 import { createOmittedExpression, OmittedExpression } from '../ast/expressions/omitted-expr';
@@ -113,7 +113,6 @@ import { createBooleanLiteral, BooleanLiteral } from '../ast/expressions/boolean
 import { createThisExpression, ThisExpression } from '../ast/expressions/this-expr';
 import { createNullLiteral, NullLiteral } from '../ast/expressions/null-literal';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
-import { createForBinding } from '../ast/statements/forBinding';
 import { createParenthesizedExpression, ParenthesizedExpression } from '../ast/expressions/parenthesized-expr';
 import { createFunctionBody, FunctionBody } from '../ast/expressions/function-body';
 import { createFunctionStatementList, FunctionStatementList } from '../ast/expressions/function-stmt-list';
@@ -121,7 +120,7 @@ import { createTaggedTemplate } from '../ast/expressions/tagged-template';
 import { createElementAccessChain } from '../ast/expressions/element-access-chain';
 import { createPropertyAccessChain } from '../ast/expressions/property-access-chain';
 import { createCallChain } from '../ast/expressions/call-chain';
-import { createOptionalExpression, OptionalExpression } from '../ast/expressions/optional-expr';
+import { createOptionalExpression } from '../ast/expressions/optional-expr';
 import { createNewExpression, NewExpression } from '../ast/expressions/new-expr';
 import { createNewTarget, NewTarget } from '../ast/expressions/new-target';
 import { createArrowParameters, ArrowParameters } from '../ast/expressions/arrow-parameters';
@@ -1188,7 +1187,7 @@ function canFollowContextualOfKeyword(parser: ParserState, context: Context) {
 // `for` `await` `(` `var` ForBinding `of` AssignmentExpression `)` Statement
 // `for` `await` `(` ForDeclaration `of` AssignmentExpression `)` Statement
 
-function parseForStatement(parser: ParserState, context: Context): any {
+function parseForStatement(parser: ParserState, context: Context): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   consume(parser, context, Token.ForKeyword);
 
@@ -1668,7 +1667,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           null,
           parser.token === Token.TemplateTail
             ? parseTemplateTail(parser, context, /* literal */ false)
-            : parseTemplateExpression(parser, context | Context.TaggedTemplate),
+            : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
           false,
           parser.nodeFlags,
           pos,
@@ -2166,7 +2165,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
       null,
       parser.token === Token.TemplateTail
         ? parseTemplateTail(parser, context, /* literal */ false)
-        : parseTemplateExpression(parser, context),
+        : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
       true,
       parser.nodeFlags,
       pos,
@@ -2232,7 +2231,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
           null,
           parser.token === Token.TemplateTail
             ? parseTemplateTail(parser, context, /* literal */ false)
-            : parseTemplateExpression(parser, context),
+            : parseTemplateExpression(parser, context, /* isTaggedTemplate */ true),
           true,
           parser.nodeFlags,
           pos,
@@ -2292,10 +2291,10 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
   return createSpreadElement(parseAssignmentExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
-function parseTemplateExpression(parser: ParserState, context: Context): TemplateExpression {
+function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
   const pos = parser.curPos;
   const templateSpans = [parseTemplateSpan(parser, context)];
-  while (scanTemplateTail(parser, context) === Token.TemplateSpan) {
+  while (scanTemplateTail(parser, context, isTaggedTemplate) === Token.TemplateSpan) {
     templateSpans.push(parseTemplateSpan(parser, context));
   }
   return createTemplateExpression(
@@ -2755,7 +2754,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
     case Token.TemplateTail:
       return parseTemplateTail(parser, context, /* literal */ true);
     case Token.TemplateSpan:
-      return parseTemplateExpression(parser, context);
+      return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
     case Token.SuperKeyword:
       return parseSuperExpression(parser, context);
     case Token.ImportKeyword:
@@ -3396,7 +3395,7 @@ function parseIdentifierName(
   parser: ParserState,
   context: Context,
   diagnosticMessage?: DiagnosticCode
-): IdentifierName {
+): IdentifierName | DummyIdentifier | any {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
   if (parser.token & Constants.TokenIsIdentifierOrKeyword) {
@@ -3406,7 +3405,7 @@ function parseIdentifierName(
     return createIdentifierName(name, raw, nodeFlags, pos, parser.curPos);
   }
   reportErrorDiagnostic(parser, 0, diagnosticMessage ? diagnosticMessage : DiagnosticCode.Identifier_expected);
-  return createIdentifierReference('', '', nodeFlags | NodeFlags.HasErrors, pos, pos);
+  return createDummyIdentifier(pos, pos);
 }
 
 function parseBindingIdentifier(
@@ -4068,17 +4067,14 @@ function parseImportDeclaration(
   parser: ParserState,
   context: Context
 ): ImportDeclaration | ImportEqualsDeclaration | any {
+  if (!tryParse(parser, context, nextTokenCanFollowImportKeyword)) {
+    return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+  }
   let moduleSpecifier = null;
   let importClause = null;
   let fromClause: StringLiteral | Expression | null = null;
   const nodeFlags = parser.nodeFlags;
   const pos = parser.curPos;
-
-  if (!tryParse(parser, context, nextTokenCanFollowImportKeyword)) {
-    return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
-  }
-
-  const afterImportPos = parser.curPos;
 
   if (parser.token === Token.StringLiteral) {
     moduleSpecifier = parseStringLiteral(parser, context);
@@ -4125,7 +4121,7 @@ function parseImportDeclaration(
       namedImports,
       isTypeOnly,
       parser.nodeFlags,
-      afterImportPos,
+      pos,
       parser.curPos
     );
     fromClause = parseFromClause(parser, context);
@@ -5443,7 +5439,7 @@ function parseTemplateType(parser: ParserState, context: Context): TemplateLiter
   const templateSpans = [];
   do {
     templateSpans.push(parseTemplateTypeSpan(parser, context));
-  } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateSpan);
+  } while ((parser.token = scanTemplateTail(parser, context, /*isTaggedTemplate*/ false)) === Token.TemplateSpan);
   return createTemplateLiteralType(
     templateSpans,
     parseTemplateTail(parser, context, /* literal */ false),
@@ -5872,17 +5868,20 @@ function parseImportType(parser: ParserState, context: Context, isTypeOf: boolea
   const qualifier = consumeOpt(parser, context, Token.Period)
     ? parseEntityName(parser, context, /* allowKeywords */ true)
     : null;
-  const typeArguments = parseTypeArgumentsOfTypeReference(
-    parser,
-    context | Context.InTypes | Context.AllowConditionalTypes
+  return createImportType(
+    isTypeOf,
+    type,
+    qualifier,
+    parseTypeArgumentsOfTypeReference(parser, context | Context.InTypes | Context.AllowConditionalTypes),
+    parser.nodeFlags,
+    pos,
+    parser.curPos
   );
-  return createImportType(isTypeOf, type, qualifier, typeArguments, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTypeQueryOrImportType(parser: ParserState, context: Context): TypeQuery | ImportType {
   const pos = parser.curPos;
   nextToken(parser, context);
-
   return parser.token === Token.ImportKeyword
     ? parseImportType(parser, context, /* isTypeOf */ true, pos)
     : createTypeQuery(parseEntityName(parser, context, /* allowKeywords */ true), parser.nodeFlags, pos, parser.curPos);
@@ -6140,22 +6139,48 @@ function parseEntityName(
   context: Context,
   allowKeywords: boolean,
   diagnosticMessage?: DiagnosticCode
-): QualifiedName | IdentifierName | IdentifierReference {
+): EntityName {
   const pos = parser.curPos;
-  let entity: IdentifierReference | IdentifierName | QualifiedName = allowKeywords
+  let entity: EntityName = allowKeywords
     ? parseIdentifierName(parser, context, diagnosticMessage)
     : parseIdentifierReference(parser, context, diagnosticMessage);
   while (consumeOpt(parser, context, Token.Period)) {
-    if (parser.token === Token.LessThan) break;
-    entity = createQualifiedName(
-      entity,
-      parsePropertyOrPrivatePropertyName(parser, context),
-      parser.nodeFlags,
-      pos,
-      parser.curPos
-    );
+    entity = parseQualifiedName(parser, context, entity, allowKeywords, pos, diagnosticMessage);
   }
   return entity;
+}
+function parseQualifiedName(
+  parser: ParserState,
+  context: Context,
+  entity: EntityName,
+  allowKeywords: boolean,
+  pos: number,
+  diagnosticMessage?: DiagnosticCode
+): QualifiedName {
+  return createQualifiedName(
+    entity,
+    parseRightSideOfQualifiedNameDot(parser, context, allowKeywords, diagnosticMessage) as any,
+    parser.nodeFlags,
+    pos,
+    parser.curPos
+  );
+}
+
+// IdentifierName
+// IdentifierReference
+function parseRightSideOfQualifiedNameDot(
+  parser: ParserState,
+  context: Context,
+  allowKeywords: boolean,
+  diagnosticMessage?: DiagnosticCode
+): IdentifierName | DummyIdentifier {
+  if (parser.token === Token.PrivateIdentifier) {
+    reportErrorDiagnostic(parser, 0, DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies);
+    return createDummyIdentifier(parser.curPos, parser.curPos);
+  }
+  return allowKeywords
+    ? parseIdentifierName(parser, context, diagnosticMessage)
+    : parseIdentifierReference(parser, context, diagnosticMessage);
 }
 
 function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context): TypeArguments | null {

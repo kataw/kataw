@@ -65,7 +65,6 @@ import { updateDoWhileStatement } from './ast/statements/do-stmt';
 import { updateForInStatement } from './ast/statements/for-in-stmt';
 import { updateForOfStatement } from './ast/statements/for-of-stmt';
 import { updateForStatement } from './ast/statements/for-stmt';
-import { updateForBinding } from './ast/statements/forBinding';
 import { updateIfStatement } from './ast/statements/if-stmt';
 import { updateLabelledStatement } from './ast/statements/labelled-stmt';
 import { updateLexicalBinding } from './ast/statements/lexical-binding';
@@ -164,7 +163,6 @@ export function visitNode(node: Node, visitor: (node: Node) => Node, lift?: any)
   if (node === null || visitor === null) {
     return node;
   }
-
   const visited = visitor(node);
 
   if (visited === node) return node;
@@ -386,7 +384,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.initializer, visitor)
       );
     case NodeKind.BindingList:
-      return updateBindingList(node, visitNodes(node.bindingList, visitor));
+      return updateBindingList(node, visitNodes(node.lexicals, visitor));
     case NodeKind.BindingPropertyList:
       return updateBindingPropertyList(node, visitNodes(node.properties, visitor), node.multiline, node.trailingComma);
     case NodeKind.BlockStatement:
@@ -551,8 +549,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       );
     case NodeKind.DoWhileStatement:
       return updateDoWhileStatement(node, visitNode(node.expression, visitor), visitNode(node.statement, visitor));
-    case NodeKind.ForBinding:
-      return updateForBinding(node, visitNode(node.declarationList, visitor));
     case NodeKind.IfStatement:
       return updateIfStatement(
         node,

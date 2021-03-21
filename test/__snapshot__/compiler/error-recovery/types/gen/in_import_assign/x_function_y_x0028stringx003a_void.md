@@ -137,7 +137,7 @@ import x function y (string: void = x function y (string: void ;
             "flags": 0,
             "symbol": null,
             "transformFlags": 0,
-            "start": 0,
+            "start": 6,
             "end": 37
         },
         {

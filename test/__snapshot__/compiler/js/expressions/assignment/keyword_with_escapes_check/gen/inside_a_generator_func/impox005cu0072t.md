@@ -55,10 +55,10 @@ function *f(){
                             "fromClause": null,
                             "moduleSpecifier": null,
                             "importClause": null,
-                            "flags": 75530240,
+                            "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 14,
+                            "start": 28,
                             "end": 28
                         }
                     ],

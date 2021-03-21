@@ -47,10 +47,10 @@ async () => {  \u0069mport = x  }
                                 "fromClause": null,
                                 "moduleSpecifier": null,
                                 "importClause": null,
-                                "flags": 8388608,
+                                "flags": 0,
                                 "symbol": null,
                                 "transformFlags": 0,
-                                "start": 13,
+                                "start": 26,
                                 "end": 26
                             }
                         ],

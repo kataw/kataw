@@ -84,10 +84,9 @@ function ( unknown): asserts value is ) {unknown): asserts value is}
                 "type": {
                     "kind": 134226156,
                     "typeName": {
-                        "kind": 196712,
+                        "kind": 131322,
                         "text": "",
-                        "rawText": "",
-                        "flags": 1,
+                        "flags": 3,
                         "symbol": null,
                         "transformFlags": 0,
                         "start": 37,

@@ -59,10 +59,9 @@ let x: switch.. switch..
                                                 "end": 13
                                             },
                                             "right": {
-                                                "kind": 196711,
+                                                "kind": 131322,
                                                 "text": "",
-                                                "rawText": "",
-                                                "flags": 1,
+                                                "flags": 3,
                                                 "symbol": null,
                                                 "transformFlags": 0,
                                                 "start": 14,
@@ -91,10 +90,9 @@ let x: switch.. switch..
                                         "end": 22
                                     },
                                     "right": {
-                                        "kind": 196711,
+                                        "kind": 131322,
                                         "text": "",
-                                        "rawText": "",
-                                        "flags": 1,
+                                        "flags": 3,
                                         "symbol": null,
                                         "transformFlags": 0,
                                         "start": 23,
@@ -107,10 +105,9 @@ let x: switch.. switch..
                                     "end": 23
                                 },
                                 "right": {
-                                    "kind": 196711,
+                                    "kind": 131322,
                                     "text": "",
-                                    "rawText": "",
-                                    "flags": 0,
+                                    "flags": 3,
                                     "symbol": null,
                                     "transformFlags": 0,
                                     "start": 24,
@@ -156,14 +153,14 @@ let x: switch.. switch..
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 14,
             "length": 0
         },
         {
             "kind": 2,
             "source": 2,
-            "message": "Dot property must be an identifier",
+            "message": "Type expected",
             "start": 23,
             "length": 0
         }

@@ -91,7 +91,7 @@ function x() {import { };}
                             "flags": 0,
                             "symbol": null,
                             "transformFlags": 0,
-                            "start": 14,
+                            "start": 20,
                             "end": 25
                         }
                     ],
