@@ -1,5 +1,5 @@
 import { visitNode, visitEachChild } from '../../visitor';
-import { NodeFlags, NodeKind, TransformFlags } from '../../ast/node';
+import { NodeKind } from '../../ast/node';
 import { createPropertyAccessExpression } from '../../ast/expressions/property-access-expr';
 import { createElementAccessExpression } from '../../ast/expressions/element-access-expr';
 import { createAssignmentExpression } from '../../ast/expressions/assignment-expr';

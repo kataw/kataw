@@ -14,7 +14,6 @@ export function transformES2020(context: any): (node: any) => Node {
   function visitor(node: any): Node {
     switch (node.kind) {
       case NodeKind.BinaryExpression:
-        // perf(kenny): Consider to use number values for operators
         if (node.operator === '??') {
           // Create an unique identifier
           const right = addUniqueIdentifier(context.hoistVariableDeclaration, false);

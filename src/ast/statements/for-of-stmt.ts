@@ -2,11 +2,11 @@ import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
-import { LexicalDeclaration } from '../statements/lexical-declaration';
-import { ForBinding } from './forBinding';
+import { VariableDeclarationList } from './variable-declarationList';
+import { BindingList } from './binding-list';
 
 export interface ForOfStatement extends Node {
-  readonly initializer: LexicalDeclaration | ForBinding | Expression | null;
+  readonly initializer: VariableDeclarationList | BindingList | Expression | null;
   readonly expression: Expression;
   readonly statement: Statement;
   readonly isAwait: boolean;
@@ -17,7 +17,7 @@ export interface ForOfStatement extends Node {
  */
 
 export function createForOfStatement(
-  initializer: LexicalDeclaration | ForBinding | Expression | null,
+  initializer: VariableDeclarationList | BindingList | Expression | null,
   expression: Expression,
   statement: Statement,
   isAwait: boolean,
@@ -41,7 +41,7 @@ export function createForOfStatement(
 
 export function updateForOfStatement(
   node: ForOfStatement,
-  initializer: LexicalDeclaration | ForBinding | Expression | null,
+  initializer: VariableDeclarationList | BindingList | Expression | null,
   expression: Expression,
   statement: Statement
 ): ForOfStatement {

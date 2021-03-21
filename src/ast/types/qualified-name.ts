@@ -7,13 +7,15 @@ import { IdentifierName } from '../expressions/identifier-name';
  * QualifiedName
  */
 
+export type EntityName = IdentifierReference | IdentifierName | QualifiedName;
+
 export interface QualifiedName extends Node {
-  readonly left: IdentifierReference | IdentifierName | QualifiedName;
+  readonly left: EntityName;
   readonly right: IdentifierName;
 }
 
 export function createQualifiedName(
-  left: IdentifierReference | IdentifierName | QualifiedName,
+  left: EntityName,
   right: IdentifierName,
   flags: NodeFlags,
   start: number,
@@ -31,11 +33,7 @@ export function createQualifiedName(
   };
 }
 
-export function updateQualifiedName(
-  node: QualifiedName,
-  left: IdentifierReference | IdentifierName | QualifiedName,
-  right: IdentifierName
-): QualifiedName {
+export function updateQualifiedName(node: QualifiedName, left: EntityName, right: IdentifierName): QualifiedName {
   return node.left !== left || node.right !== right
     ? updateNode(createQualifiedName(left, right, node.flags, node.start, node.end), node)
     : node;

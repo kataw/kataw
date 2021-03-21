@@ -2,20 +2,20 @@ import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
-import { LexicalDeclaration } from '../statements/lexical-declaration';
-import { ForBinding } from './forBinding';
+import { VariableDeclarationList } from './variable-declarationList';
+import { BindingList } from './binding-list';
 
 /**
  * For-in statement.
  */
 export interface ForInStatement extends Node {
-  readonly initializer: LexicalDeclaration | ForBinding | Expression | null;
+  readonly initializer: BindingList | VariableDeclarationList | Expression | null;
   readonly expression: Expression;
   readonly statement: Statement;
 }
 
 export function createForInStatement(
-  initializer: LexicalDeclaration | ForBinding | Expression | null,
+  initializer: BindingList | VariableDeclarationList | Expression | null,
   expression: Expression,
   statement: Statement,
   flags: NodeFlags,
@@ -37,7 +37,7 @@ export function createForInStatement(
 
 export function updateForInStatement(
   node: ForInStatement,
-  initializer: LexicalDeclaration | ForBinding | Expression | null,
+  initializer: BindingList | VariableDeclarationList | Expression | null,
   expression: Expression,
   statement: Statement
 ): ForInStatement {

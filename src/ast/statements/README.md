@@ -189,24 +189,11 @@ interface ForOfStatement <: Statements {
 ```js
 interface ForInStatement <: Statements {
     kind: NodeKind.ForInStatement;
-    initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
+    initializer: LexicalDeclaration | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
     expression: Expression;
     statement: Statement;
 }
 ```
-
-### ForBinding [Modified]
-
-```js
-interface ForBinding <: Statements {
-    kind: NodeKind.ForBinding;
-    declarationList: [ VariableDeclaration ];
-}
-```
-`ForBinding` represents a `in` or `of` binding and has been modified to contain an list of `VariableDeclaration`.
-
-See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statements)
-
 
 ### VariableDeclaration
 

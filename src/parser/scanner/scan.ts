@@ -261,7 +261,7 @@ export function scan(parser: ParserState, context: Context): Token {
 
       // ``string``
       case Token.TemplateTail:
-        return scanTemplate(parser, context, source);
+        return scanTemplate(parser, context, /* isTaggedTemplate */ false, source);
 
       // `?`, `?.`, `??`, `??=`,
       case Token.QuestionMark:
