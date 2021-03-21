@@ -275,9 +275,10 @@ export const enum NodeKind {
   NamespaceBlock = 252 | IsStatement | IsTypescript,
   NamespaceDeclaration = 253 | IsStatement | IsTypescript,
   NamespaceExportDeclaration = 254 | IsTypescript,
+  PartiallyEmittedExpression = 255 | IsTypescript,
   // Tokens
 
-  Period = 255
+  Period = 256
 }
 
 /**

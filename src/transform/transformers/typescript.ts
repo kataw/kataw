@@ -10,8 +10,11 @@ import { createAssignmentExpression } from '../../ast/expressions/assignment-exp
 import { createObjectLiteral } from '../../ast/expressions/object-literal';
 import { createPropertyDefinitionList } from '../../ast/expressions/property-definition-list';
 import { createFunctionExpression } from '../../ast/expressions/function-expr';
-import { createCallExpression } from '../../ast/expressions/call-expr';
+import { createCallExpression, updateCallExpression } from '../../ast/expressions/call-expr';
+import { updateNewExpression, NewExpression } from '../../ast/expressions/new-expr';
+import { FormalParameter, updateFormalParameter } from '../../ast/expressions/formal-parameter';
 import { createExpressionStatement } from '../../ast/statements/expr-stmt';
+import { createPartiallyEmittedExpression } from '../../ast/types/partially-emitted-expression';
 
 export function transformTpescript(context: any): any {
   return transformSourceFile;
@@ -60,7 +63,12 @@ export function transformTpescript(context: any): any {
       case NodeKind.TypeAliasDeclaration:
       case NodeKind.NamespaceExportDeclaration:
       case NodeKind.InterfaceDeclaration:
+      case NodeKind.PropertyDefinition:
         return null;
+      case NodeKind.FormalParameter:
+        return visitFormalParameter(node);
+      case NodeKind.ParenthesizedExpression:
+        return visitParenthesizedExpression(node);
       case NodeKind.TypeAssertionExpression:
       case NodeKind.AsExpression:
         // TypeScript type assertions are removed, but their subtrees are preserved.
@@ -79,13 +87,32 @@ export function transformTpescript(context: any): any {
         return visitFuncionFuncionExpression(node);
       case NodeKind.EnumDeclaration:
         return visitEnumDeclaration(node);
+      case NodeKind.CallExpression:
+        return visitCallExpression(node);
+      case NodeKind.NewExpression:
+        return visitNewExpression(node);
     }
 
     return visitEachChild(node, visitor, context);
   }
 
   function visitAssertionExpression(node: any): any {
-    return node;
+    const expression = visitNode(node.expression, visitor);
+    return createPartiallyEmittedExpression(expression, node, NodeFlags.None, node.start, node.end);
+  }
+
+  function visitFormalParameter(node: any): any {
+    return updateFormalParameter(
+      node,
+      /* ellipsis */ node.ellipsis,
+      /* binding */ visitNode(node.binding, visitor),
+      /* isOptional  */ false,
+      /* type  */ null,
+      /* initilizer */ visitNode(node.initializer, visitor),
+      /* decorators */ node.decorators,
+      /* accessModifier */ null,
+      /* isReadOnly */ false
+    );
   }
 
   function visitAsyncFuncionDeclaration(node: any): any {
@@ -162,6 +189,33 @@ export function transformTpescript(context: any): any {
       /* members */ node.members,
       /* decorators */ null,
       /* isAbstract */ false
+    );
+  }
+
+  function visitParenthesizedExpression(node: any): any {
+    const innerExpression = node.expression;
+    if (innerExpression === NodeKind.TypeAssertion || innerExpression.kind === NodeKind.AsExpression) {
+      const expression = visitNode(node.expression, visitor);
+      return createPartiallyEmittedExpression(expression, node, NodeFlags.None, node.start, node.end);
+    }
+    return visitEachChild(node, visitor, context);
+  }
+
+  function visitCallExpression(node: any): any {
+    return updateCallExpression(
+      node,
+      visitNode(node.expression, visitor),
+      /*typeArguments*/ null,
+      visitNode(node.rgumentList, visitor)
+    );
+  }
+
+  function visitNewExpression(node: NewExpression) {
+    return updateNewExpression(
+      node,
+      visitNode(node.expression, visitor),
+      /*typeArguments*/ null,
+      visitNode(node.argumentList, visitor)
     );
   }
 
