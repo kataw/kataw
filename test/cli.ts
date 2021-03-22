@@ -8,7 +8,7 @@ import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
 import { file2Tob, updateTob } from './runner/tob';
 
-const fn = ['parser', 'printer'];
+const fn = ['cst', 'printed', 'diagnostics', 'transform'];
 
 runCli();
 
@@ -34,7 +34,7 @@ export async function runCli() {
       if (!tob.isMatched) {
         cnt++;
         console.log('Output mismatch for', tob.filename);
-        updateTob(tob, opts.updateItems);
+        opts.updateItems.length && updateTob(tob, opts.updateItems);
       }
     }
     console.timeEnd(
@@ -76,7 +76,7 @@ export function cliOpts(): any {
     )
   };
 
-  // gen && (opts.files = opts.files.filter((f: any) => !f.endsWith('autogen.md')));
+  !gen && (opts.files = opts.files.filter((f: any) => !f.endsWith('autogen.md')));
 
   if (opts.updateItems.length) {
     if (opts.gen) {

@@ -1,24 +1,46 @@
 import { printSourceFile } from '../../src/printer';
-import { parseScript, parseModule } from '../../src/kataw';
+import { parseScript, parseModule, transformScript, transformModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
+import * as transformers from '../../src/transform/transformers/index'
+
+function transform(code: string, transformOptions: any) {
+  return (transformOptions.module ? transformModule : transformScript)(code, transformOptions.transformers, transformOptions);
+}
+
+function parse(code: string, parserOptions: any) {
+  return (parserOptions.module ? parseModule : parseScript)(code, parserOptions);
+}
+
+function strings2transformers(strs: string[]) {
+  return strs.map(str => {
+    const transformer = (transformers as any)['transform' + str];
+    if (typeof transformer === 'function') {
+      return transformer;
+    }
+    throw new Error(`invalid transformer: ${str}`);
+  })
+}
 
 // testing object
 export interface Tob {
   filename: string;
-  content?: string;
+  content: string;
   input: string;
   parserOptions: any;
-  printerOptions: any;
   cst?: any;
   $cst?: any;
+  printerOptions: any;
   printed?: any;
   $printed?: any;
   diagnostics?: any;
   $diagnostics?: any;
+  transformOptions?: any;
+  transform?: any;
+  $transform?: any;
   isMatched?: boolean;
 }
 
-export function updateTob(tob: any, updateItems: any): void {
+export function updateTob(tob: Tob, updateItems: string[]): void {
   const outputIndex = tob.content.indexOf(Constants.Output);
   const output = outputBlock(tob, updateItems);
   const header = outputIndex > -1 ? tob.content.slice(0, outputIndex) : tob.content;
@@ -32,102 +54,82 @@ export async function file2Tob(filename: string): Promise<Tob> {
   const tob: Tob = {
     filename,
     content,
-    input: md2input(content),
-    parserOptions: md2parserOptions(content),
-    printerOptions: md2printerOptions(content),
-    cst: md2cst(content),
-    printed: md2printed(content),
-    diagnostics: md2diagnostics(content)
+    input: readFromMd(content, Constants.Input, false),
+    parserOptions: readFromMd(content, Constants.ParserOptions, true),
+    cst: readFromMd(content, Constants.Header, true),
+    printerOptions: readFromMd(content, Constants.PrinterOptions, true),
+    printed: readFromMd(content, Constants.Printed, false),
+    diagnostics: readFromMd(content, Constants.Diagnostics, false),
+    transformOptions: getTransformerOptions(content),
+    transform: readFromMd(content, Constants.Transform, false)
   };
 
-  tob.$cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
+  tob.$cst = parse(tob.input, tob.parserOptions);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
     tob.$printed === '✖ Soon to be open sourced'
       ? ''
       : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
+
+  tob.$transform = transform(tob.input, tob.transformOptions);
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
 
-export function isMatchedTob(tob: Tob) {
+export function isMatchedTob(tob: Tob): boolean {
   return (
-    deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
+    deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics) && deepEqual(tob.transform, tob.$transform)
   );
 }
 
-function md2parserOptions(str: string) {
-  const offset = str.indexOf(Constants.Options);
-  const start1 = str.indexOf(Constants.JsStart, offset);
-  const end1 = str.indexOf(Constants.JsEnd, offset);
-  const t = str.slice(start1 + Constants.JsStart.length, end1);
-  return offset === -1 ? {} : eval('0||' + t + '');
-}
-
-function md2input(str: string) {
-  const offset = str.indexOf(Constants.Input);
-  const start = str.indexOf(Constants.JsStart, offset);
-  const end = str.indexOf(Constants.JsEnd, offset);
-  const t = str.slice(start + Constants.JsStart.length, end);
-  return t;
-}
-
-// TODO: read printerOptions from file content
-function md2printerOptions(str: string) {
-  return {
-    tabWidth: 2,
-    printWidth: 80,
-    useTabs: false,
-    bracketSpacing: true
-  };
-}
-
-function md2cst(str: string) {
-  const offset = str.indexOf(Constants.Header);
-  if (offset === 0) report('Missing input header');
-  const start = str.indexOf(Constants.JavascriptStart, offset);
-  if (start === 0) report('Should have the start of a test case');
-  const end = str.indexOf(Constants.JavascriptEnd, offset);
-  if (end === 0) report('Should have the end of a test case');
-  const t = str.slice(start + Constants.JavascriptStart.length, end);
-  try {
-    return offset === -1 ? {} : JSON.parse(t);
-  } catch (e) {
-    console.log(e);
-    return {};
+function getTransformerOptions(str: string) {
+  const transformerOptions = readFromMd(str, Constants.TransformOptions, true);
+  if (transformerOptions?.transformers) {
+    transformerOptions.transformers = transformerOptions.transformers.map(strings2transformers);
   }
+  return transformerOptions;
 }
 
-function md2printed(str: string) {
-  const cstOffset = str.indexOf(Constants.Printed);
-  if (cstOffset === 0) report('should have an input header');
-  const start = str.indexOf(Constants.JavascriptStart, cstOffset);
-  if (start === 0) report('Should have the start of a test case');
-  const end = str.indexOf(Constants.JavascriptEnd, cstOffset);
-  if (end === 0) report('Should have the end of a test case');
-  return str.slice(start + Constants.JavascriptStart.length, end);
-}
+function readFromMd(str: string, flag: string, ev = false) {
+  const offset = str.indexOf(flag);
+  const start1 = str.indexOf(Constants.JsStart, offset);
+  const startFlag = start1 !== -1 ? Constants.JsStart : Constants.JavascriptStart;
+  const endFlag = start1 !== -1 ? Constants.JsEnd : Constants.JavascriptEnd;
 
-function md2diagnostics(str: string) {
-  const diagnosticsOffset = str.indexOf(Constants.Diagnostics);
-  const start = str.indexOf(Constants.JavascriptStart, diagnosticsOffset);
-  const end = str.indexOf(Constants.JavascriptEnd, diagnosticsOffset);
-  return str.slice(start + Constants.JavascriptStart.length, end);
+  const start = str.indexOf(startFlag, offset);
+  const end = str.indexOf(endFlag, offset);
+  if (start === -1 || end === -1) {
+    throw new Error(`invalid md file: cannot found flag '${flag}'.`)
+  }
+  const t = str.slice(start + startFlag.length, end);
+  return ev ? offset === -1 ? {} : eval('0||' + t + '') : t;
 }
-
+// prettier-ignore
 function outputBlock(tob: Tob, updateItems: any) {
   return `
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
+${Constants.JavascriptStart}${
+  tob.parserOptions && updateItems.includes('cst')  ? JSON.stringify(tob.$cst, null, 4) : JSON.stringify(tob.cst, null, 4)
+} ${
     Constants.JavascriptEnd
   }
 ### Printed
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${
+  tob.printerOptions && updateItems.includes('printed') ? tob.$printed : tob.printed
+} ${ Constants.JavascriptEnd }
 ### Diagnostics
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
+${Constants.JavascriptStart}${
+  tob.printerOptions && updateItems.includes('diagnostics') ? tob.$diagnostics : tob.diagnostics
+} ${
+    Constants.JavascriptEnd
+  }
+### Transform
+${Constants.JavascriptStart}${
+  tob.transformOptions && updateItems.includes('transform') ? JSON.stringify(tob.$transform, null, 4) : JSON.stringify(tob.transform, null, 4)
+} ${
     Constants.JavascriptEnd
   }
 `;
