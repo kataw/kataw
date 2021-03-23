@@ -1,10 +1,14 @@
 import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule, transformScript, transformModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
-import * as transformers from '../../src/transform/transformers/index'
+import * as transformers from '../../src/transform/transformers/index';
 
 function transform(code: string, transformOptions: any) {
-  return (transformOptions.module ? transformModule : transformScript)(code, transformOptions.transformers, transformOptions);
+  return (transformOptions.module ? transformModule : transformScript)(
+    code,
+    transformOptions.transformers,
+    transformOptions
+  );
 }
 
 function parse(code: string, parserOptions: any) {
@@ -12,13 +16,13 @@ function parse(code: string, parserOptions: any) {
 }
 
 function strings2transformers(strs: string[]) {
-  return strs.map(str => {
+  return strs.map((str) => {
     const transformer = (transformers as any)['transform' + str];
     if (typeof transformer === 'function') {
       return transformer;
     }
     throw new Error(`invalid transformer: ${str}`);
-  })
+  });
 }
 
 // testing object
@@ -78,7 +82,10 @@ export async function file2Tob(filename: string): Promise<Tob> {
 }
 export function isMatchedTob(tob: Tob): boolean {
   return (
-    deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics) && deepEqual(tob.transform, tob.$transform)
+    deepEqual(tob.cst, tob.$cst) &&
+    deepEqual(tob.printed, tob.$printed) &&
+    deepEqual(tob.diagnostics, tob.$diagnostics) &&
+    deepEqual(tob.transform, tob.$transform)
   );
 }
 
@@ -99,10 +106,10 @@ function readFromMd(str: string, flag: string, ev = false) {
   const start = str.indexOf(startFlag, offset);
   const end = str.indexOf(endFlag, offset);
   if (start === -1 || end === -1) {
-    throw new Error(`invalid md file: cannot found flag '${flag}'.`)
+    throw new Error(`invalid md file: cannot found flag '${flag}'.`);
   }
   const t = str.slice(start + startFlag.length, end);
-  return ev ? offset === -1 ? null : eval('0||' + t + '') : t;
+  return ev ? (offset === -1 ? null : eval('0||' + t + '')) : t;
 }
 
 function outputBlock(tob: Tob, updateItems: any) {
@@ -120,13 +127,15 @@ function outputBlock(tob: Tob, updateItems: any) {
   }
 
   if (tob.printerOptions) {
-    const diagnostics = updateItems.includes('diagnostics') ? tob.$diagnostics : tob.diagnostics
+    const diagnostics = updateItems.includes('diagnostics') ? tob.$diagnostics : tob.diagnostics;
     block += `### Diagnostics Output
     ${Constants.JavascriptStart}${diagnostics}${Constants.JavascriptEnd}`;
   }
 
   if (tob.transformOptions) {
-    const transform = updateItems.includes('transform') ? JSON.stringify(tob.$transform, null, 4) : JSON.stringify(tob.transform, null, 4);
+    const transform = updateItems.includes('transform')
+      ? JSON.stringify(tob.$transform, null, 4)
+      : JSON.stringify(tob.transform, null, 4);
     block += `### Transform Output
     ${Constants.JavascriptStart}${transform}${Constants.JavascriptEnd}`;
   }
