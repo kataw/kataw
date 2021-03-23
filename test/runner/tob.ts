@@ -61,7 +61,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
     printed: readFromMd(content, Constants.Printed, false),
     diagnostics: readFromMd(content, Constants.Diagnostics, false),
     transformOptions: getTransformerOptions(content),
-    transform: readFromMd(content, Constants.Transform, false)
+    transform: readFromMd(content, Constants.Transform, true)
   };
 
   tob.$cst = parse(tob.input, tob.parserOptions);
@@ -76,8 +76,11 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
-
+function de(obj1: any, obj2: any) {
+  return JSON.stringify(obj1) === JSON.stringify(obj2);
+}
 export function isMatchedTob(tob: Tob): boolean {
+  const deepEqual = de;
   return (
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics) && deepEqual(tob.transform, tob.$transform)
   );
@@ -86,7 +89,7 @@ export function isMatchedTob(tob: Tob): boolean {
 function getTransformerOptions(str: string) {
   const transformerOptions = readFromMd(str, Constants.TransformOptions, true);
   if (transformerOptions?.transformers) {
-    transformerOptions.transformers = transformerOptions.transformers.map(strings2transformers);
+    transformerOptions.transformers = strings2transformers(transformerOptions.transformers);
   }
   return transformerOptions;
 }
@@ -107,32 +110,32 @@ function readFromMd(str: string, flag: string, ev = false) {
 }
 // prettier-ignore
 function outputBlock(tob: Tob, updateItems: any) {
-  return `
-## Output
+  let block = `\n  ## Output\n`;
 
-### Hybrid CST
-${Constants.JavascriptStart}${
-  tob.parserOptions && updateItems.includes('cst')  ? JSON.stringify(tob.$cst, null, 4) : JSON.stringify(tob.cst, null, 4)
-} ${
-    Constants.JavascriptEnd
+  if (tob.parserOptions) {
+    const cst = updateItems.includes('cst') ? JSON.stringify(tob.$cst, null, 4) : JSON.stringify(tob.cst, null, 4);
+    block += `### Hybrid CST
+    ${Constants.JavascriptStart}${cst}${Constants.JavascriptEnd}`;
   }
-### Printed
-${Constants.JavascriptStart}${
-  tob.printerOptions && updateItems.includes('printed') ? tob.$printed : tob.printed
-} ${ Constants.JavascriptEnd }
-### Diagnostics
-${Constants.JavascriptStart}${
-  tob.printerOptions && updateItems.includes('diagnostics') ? tob.$diagnostics : tob.diagnostics
-} ${
-    Constants.JavascriptEnd
+  if (tob.printerOptions) {
+    const printed = updateItems.includes('printed') ? tob.$printed : tob.printed;
+    block += `### Printed Output
+    ${Constants.JavascriptStart}${printed}${Constants.JavascriptEnd}`;
   }
-### Transform
-${Constants.JavascriptStart}${
-  tob.transformOptions && updateItems.includes('transform') ? JSON.stringify(tob.$transform, null, 4) : JSON.stringify(tob.transform, null, 4)
-} ${
-    Constants.JavascriptEnd
+
+  if (tob.printerOptions) {
+    const diagnostics = updateItems.includes('diagnostics') ? tob.$diagnostics : tob.diagnostics
+    block += `### Diagnostics Output
+    ${Constants.JavascriptStart}${diagnostics}${Constants.JavascriptEnd}`;
   }
-`;
+
+  if (tob.transformOptions) {
+    const transform = updateItems.includes('transform') ? JSON.stringify(tob.$transform, null, 4) : JSON.stringify(tob.transform, null, 4);
+    block += `### Transform Output
+    ${Constants.JavascriptStart}${transform}${Constants.JavascriptEnd}`;
+  }
+
+  return block;
 }
 
 function diagnostics2md(diagnostics: any) {
