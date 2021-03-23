@@ -1,15 +1,6 @@
 # Kataw parser test case
 
 ## Options
-
-### Parser Options
-`````js
-{ jsx: true, disableWebCompat: true, module: true }
-`````
-### Printer Options
-`````js
-{ tabWidth: 2, printWidth: 80, useTabs: false, bracketSpacing: true }
-`````
 ### Transform Options
 `````js
 {jsx: true, disableWebCompat: true, module: true, transformers: ["ES2015"]}
@@ -22,7 +13,6 @@ abstract class C1 {}
 `````
 
 ## Output
-
 ### Hybrid CST
 
 ```javascript
@@ -75,19 +65,6 @@ abstract class C1 {}
     "end": 20
 }
 ```
-
-### Printed Output
-
-```javascript
-@{x2716}@ Soon to be open sourced
-```
-
-### Diagnostics Output
-
-```javascript
-
-```
-
 ### Transform Output
 
 ```javascript
@@ -140,4 +117,3 @@ abstract class C1 {}
     "end": 20
 }
 ```
-

@@ -76,11 +76,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
-function de(obj1: any, obj2: any) {
-  return JSON.stringify(obj1) === JSON.stringify(obj2);
-}
 export function isMatchedTob(tob: Tob): boolean {
-  const deepEqual = de;
   return (
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics) && deepEqual(tob.transform, tob.$transform)
   );
@@ -106,11 +102,11 @@ function readFromMd(str: string, flag: string, ev = false) {
     throw new Error(`invalid md file: cannot found flag '${flag}'.`)
   }
   const t = str.slice(start + startFlag.length, end);
-  return ev ? offset === -1 ? {} : eval('0||' + t + '') : t;
+  return ev ? offset === -1 ? null : eval('0||' + t + '') : t;
 }
-// prettier-ignore
+
 function outputBlock(tob: Tob, updateItems: any) {
-  let block = `\n  ## Output\n`;
+  let block = `\n## Output\n`;
 
   if (tob.parserOptions) {
     const cst = updateItems.includes('cst') ? JSON.stringify(tob.$cst, null, 4) : JSON.stringify(tob.cst, null, 4);
