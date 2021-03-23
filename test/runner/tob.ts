@@ -1,3 +1,7 @@
+/**
+ * @fileoverview main utilities for testing kataw.
+ * @author 唯然<weiran.zsd@outlook.com>
+ */
 import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule, transformScript, transformModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
@@ -68,24 +72,24 @@ export async function file2Tob(filename: string): Promise<Tob> {
     transform: readFromMd(content, Constants.Transform, true)
   };
 
-  tob.$cst = parse(tob.input, tob.parserOptions);
-  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
+  tob.$cst = tob.parserOptions && parse(tob.input, tob.parserOptions || tob.transformOptions);
+  tob.$printed = tob.printerOptions && printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
     tob.$printed === '✖ Soon to be open sourced'
       ? ''
-      : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
+      : tob.printerOptions && diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
 
-  tob.$transform = transform(tob.input, tob.transformOptions);
+  tob.$transform = tob.transformOptions && transform(tob.input, tob.transformOptions);
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
 export function isMatchedTob(tob: Tob): boolean {
   return (
-    deepEqual(tob.cst, tob.$cst) &&
-    deepEqual(tob.printed, tob.$printed) &&
-    deepEqual(tob.diagnostics, tob.$diagnostics) &&
-    deepEqual(tob.transform, tob.$transform)
+    (tob.$cst === null || deepEqual(tob.cst, tob.$cst)) &&
+    (tob.$printed === null || deepEqual(tob.printed, tob.$printed)) &&
+    (tob.$diagnostics === null || deepEqual(tob.diagnostics, tob.$diagnostics)) &&
+    (tob.$transform === null || deepEqual(tob.transform, tob.$transform))
   );
 }
 
