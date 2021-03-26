@@ -33,11 +33,11 @@ function strings2transformers(strs: string[]) {
 export interface Tob {
   filename: string;
   content: string;
-  input: string;
-  parserOptions: any;
+  input?: string;
+  parserOptions?: any;
   cst?: any;
   $cst?: any;
-  printerOptions: any;
+  printerOptions?: any;
   printed?: any;
   $printed?: any;
   diagnostics?: any;
@@ -62,57 +62,58 @@ export async function file2Tob(filename: string): Promise<Tob> {
   const tob: Tob = {
     filename,
     content,
-    input: readFromMd(content, Constants.Input, false),
-    parserOptions: readFromMd(content, Constants.ParserOptions, true),
-    cst: readFromMd(content, Constants.Header, true),
-    printerOptions: readFromMd(content, Constants.PrinterOptions, true),
-    printed: readFromMd(content, Constants.Printed, false),
-    diagnostics: readFromMd(content, Constants.Diagnostics, false),
-    transformOptions: getTransformerOptions(content),
-    transform: readFromMd(content, Constants.Transform, true)
   };
 
-  tob.$cst = tob.parserOptions && parse(tob.input, tob.parserOptions || tob.transformOptions);
-  tob.$printed = tob.printerOptions && printSourceFile(tob.$cst, tob.printerOptions);
+  tob.input = readFromMd(tob, Constants.Input, false);
+  tob.parserOptions = readFromMd(tob, Constants.ParserOptions, true);
+  tob.cst = readFromMd(tob, Constants.Header, true);
+  tob.printerOptions = readFromMd(tob, Constants.PrinterOptions, true),
+  tob.printed = readFromMd(tob, Constants.Printed, false);
+  tob.diagnostics = readFromMd(tob, Constants.Diagnostics, false);
+  tob.transformOptions = getTransformerOptions(tob);
+  tob.transform = readFromMd(tob, Constants.Transform, true);
+
+  tob.$cst = tob.parserOptions && parse(tob.input!, tob.parserOptions || tob.transformOptions);
+  tob.$printed = tob.printerOptions && printSourceFile(tob.$cst!, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
     tob.$printed === '✖ Soon to be open sourced'
       ? ''
       : tob.printerOptions && diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
 
-  tob.$transform = tob.transformOptions && transform(tob.input, tob.transformOptions);
+  tob.$transform = tob.transformOptions && transform(tob.input!, tob.transformOptions);
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
 export function isMatchedTob(tob: Tob): boolean {
   return (
-    (tob.$cst === null || deepEqual(tob.cst, tob.$cst)) &&
-    (tob.$printed === null || deepEqual(tob.printed, tob.$printed)) &&
-    (tob.$diagnostics === null || deepEqual(tob.diagnostics, tob.$diagnostics)) &&
-    (tob.$transform === null || deepEqual(tob.transform, tob.$transform))
+    (tob.parserOptions === null || deepEqual(tob.cst, tob.$cst)) &&
+    (tob.printerOptions === null || deepEqual(tob.printed, tob.$printed)) &&
+    (tob.printerOptions === null || deepEqual(tob.diagnostics, tob.$diagnostics)) &&
+    (tob.transformOptions === null || deepEqual(tob.transform, tob.$transform))
   );
 }
 
-function getTransformerOptions(str: string) {
-  const transformerOptions = readFromMd(str, Constants.TransformOptions, true);
+function getTransformerOptions(tob: Tob) {
+  const transformerOptions = readFromMd(tob, Constants.TransformOptions, true);
   if (transformerOptions?.transformers) {
     transformerOptions.transformers = strings2transformers(transformerOptions.transformers);
   }
   return transformerOptions;
 }
 
-function readFromMd(str: string, flag: string, ev = false) {
-  const offset = str.indexOf(flag);
-  const start1 = str.indexOf(Constants.JsStart, offset);
+function readFromMd(tob: Tob, flag: string, ev = false) {
+  const offset = tob.content.indexOf(flag);
+  const start1 = tob.content.indexOf(Constants.JsStart, offset);
   const startFlag = start1 !== -1 ? Constants.JsStart : Constants.JavascriptStart;
   const endFlag = start1 !== -1 ? Constants.JsEnd : Constants.JavascriptEnd;
 
-  const start = str.indexOf(startFlag, offset);
-  const end = str.indexOf(endFlag, offset);
+  const start = tob.content.indexOf(startFlag, offset);
+  const end = tob.content.indexOf(endFlag, offset);
   if (start === -1 || end === -1) {
     throw new Error(`invalid md file: cannot found flag '${flag}'.`);
   }
-  const t = str.slice(start + startFlag.length, end);
+  const t = tob.content.slice(start + startFlag.length, end);
   return ev ? (offset === -1 ? null : eval('0||' + t + '')) : t;
 }
 
