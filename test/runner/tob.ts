@@ -111,7 +111,7 @@ function readFromMd(tob: Tob, flag: string, ev = false) {
   const start = tob.content.indexOf(startFlag, offset);
   const end = tob.content.indexOf(endFlag, offset);
   if (start === -1 || end === -1) {
-    throw new Error(`invalid md file: cannot found flag '${flag}'.`);
+    throw new Error(`invalid md file(${tob.filename}): cannot found flag '${flag}'.`);
   }
   const t = tob.content.slice(start + startFlag.length, end);
   return ev ? (offset === -1 ? null : eval('0||' + t + '')) : t;
