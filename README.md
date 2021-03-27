@@ -1,6 +1,6 @@
 <h1 align="center">Kataw</h1>
 
-<p align="center"> An insane fast Javascript toolchain supporting both Javascript and Typescript.</p>
+<p align="center"> An insane fast Javascript toolchain.</p>
 
 <p align="center">
 <a href="https://github.com/kataw/kataw"><img src="https://img.shields.io/badge/code_style-kataw-ff69b4.svg?style=flat-square" alt="Meriyah NPM"/></a>
@@ -11,11 +11,13 @@
 
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
 
-A demo of a JS / TS printer (*WIP*) can be [tested here](https://kataw.github.io/kataw/kataw_print/)
+A demo of a JS printer (*WIP*) can be [tested here](https://kataw.github.io/kataw/kataw_print/)
 
 This is what Kataw can do:
 
-- parse Javascript, Typescript and JSX
+- parse Javascript
+
+- typechecking (_like Typescript and Flow_)
 
 - transform current ECMA code to older ECMA versions (_like Babel_)
 
