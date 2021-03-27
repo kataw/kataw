@@ -1,0 +1,5 @@
+{
+  "Unexpected token.": 1,
+  "`let \n [` is a restricted production at the start of a statement": 2,
+  "Identifier expected": 3
+}
