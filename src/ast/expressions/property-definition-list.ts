@@ -1,23 +1,23 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { SpreadProperty } from './spread-property';
-import { IdentifierReference } from './identifier-reference';
+import { Identifier } from './identifier-expr';
 import { CoverInitializedName } from './cover-initialized-name';
 import { PropertyDefinition } from './property-definition';
+import { MethodDefinition } from './method-definition';
 
 /**
  * PropertyDefinitionList.
  */
+export type Properties = SpreadProperty | MethodDefinition | PropertyDefinition | Identifier | CoverInitializedName;
 
-export interface PropertyDefinitionList extends Node {
-  readonly properties: (SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName)[];
+export interface PropertyDefinitionList extends SyntaxNode {
+  readonly properties: Properties[];
   readonly trailingComma: boolean;
-  /* @internal */
   readonly multiline: boolean;
 }
 
 export function createPropertyDefinitionList(
-  properties: (SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName)[],
+  properties: Properties[],
   trailingComma: boolean,
   multiline: boolean,
   flags: NodeFlags,
@@ -25,28 +25,13 @@ export function createPropertyDefinitionList(
   end: number
 ): PropertyDefinitionList {
   return {
-    kind: NodeKind.PropertyDefinitionList,
+    kind: SyntaxKind.PropertyDefinitionList,
     properties,
     trailingComma,
     multiline,
+    autofix: AutoFix.NotFixable,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };
-}
-
-export function updatePropertyDefinitionList(
-  node: PropertyDefinitionList,
-  properties: (SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName)[],
-  trailingComma: boolean,
-  multiline: boolean
-): PropertyDefinitionList {
-  return node.properties !== properties || node.trailingComma !== trailingComma || node.multiline !== multiline
-    ? updateNode(
-        createPropertyDefinitionList(properties, trailingComma, multiline, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

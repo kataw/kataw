@@ -1,19 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
-/**
- * Boolean literal expression.
- */
-export interface BooleanLiteral extends Node {
-  readonly text: boolean;
+export interface BooleanLiteral extends SyntaxNode {
+  kind: SyntaxKind.BooleanLiteral;
+  value: boolean;
 }
 
-export function createBooleanLiteral(text: boolean, flags: NodeFlags, start: number, end: number): BooleanLiteral {
+export function createBooleanLiteral(value: boolean, start: number, end: number): BooleanLiteral {
   return {
-    kind: NodeKind.BooleanLiteral,
-    text,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.BooleanLiteral,
+    value,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

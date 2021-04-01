@@ -1,47 +1,30 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { IdentifierReference } from '../expressions/identifier-reference';
-import { TypeNode } from './';
-import { TypeParameters } from './type-parameter-list';
+import { Identifier } from '../expressions/identifier-expr';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { TypeNode } from '.';
+import { TypeParameter } from './type-parameter';
 
-/**
- * Type alias declaration
- */
-
-export interface TypeAliasDeclaration extends Node {
-  readonly name: IdentifierReference;
-  readonly type: TypeNode;
-  readonly typeParameters: TypeParameters | null;
+export interface TypeAlias extends SyntaxNode {
+  kind: SyntaxKind.TypeAlias;
+  name: Identifier;
+  typeParameters: TypeParameter | null;
+  type: TypeNode;
 }
 
-export function createTypeAliasDeclaration(
-  name: IdentifierReference,
+export function createTypeAlias(
+  name: Identifier,
+  typeParameters: TypeParameter | null,
   type: TypeNode,
-  typeParameters: TypeParameters | null,
-  flags: NodeFlags,
   start: number,
   end: number
-): TypeAliasDeclaration {
+): TypeAlias {
   return {
-    kind: NodeKind.TypeAliasDeclaration,
+    kind: SyntaxKind.TypeAlias,
     name,
-    type,
     typeParameters,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
+    type,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.None,
     start,
     end
   };
-}
-
-export function updateTypeAliasDeclaration(
-  node: TypeAliasDeclaration,
-  name: IdentifierReference,
-  type: TypeNode,
-  typeParameters: TypeParameters | null
-): TypeAliasDeclaration {
-  return node.name !== name || node.type !== type || node.typeParameters !== typeParameters
-    ? updateNode(createTypeAliasDeclaration(name, type, typeParameters, node.flags, node.start, node.end), node)
-    : node;
 }

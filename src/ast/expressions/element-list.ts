@@ -1,49 +1,32 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { Expression } from '.';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { SpreadElement } from './spread-element';
 import { OmittedExpression } from './omitted-expr';
-
-export type ElementListElements = OmittedExpression | SpreadElement | Expression;
+import { ExpressionNode } from '.';
 
 /**
- * Array element list
+ * BindingElementList
  */
-export interface ElementList extends Node {
-  readonly elements: ElementListElements[];
+
+export type ListElements = OmittedExpression | ExpressionNode | SpreadElement;
+
+export interface ElementList extends SyntaxNode {
+  readonly elements: ListElements[];
   readonly trailingComma: boolean;
-  /* @internal */
-  readonly multiline: boolean;
 }
 
 export function createElementList(
-  elements: ElementListElements[],
+  elements: ListElements[],
   trailingComma: boolean,
-  multiline: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ElementList {
   return {
-    kind: NodeKind.ElementList,
+    kind: SyntaxKind.ElementList,
     elements,
     trailingComma,
-    multiline,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateElementList(
-  node: ElementList,
-  trailingComma: boolean,
-  multiline: boolean,
-  elements: ElementListElements[]
-): ElementList {
-  return node.trailingComma !== trailingComma || node.multiline !== multiline || node.elements !== elements
-    ? updateNode(createElementList(elements, trailingComma, multiline, node.flags, node.start, node.end), node)
-    : node;
 }

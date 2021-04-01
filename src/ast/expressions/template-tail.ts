@@ -1,30 +1,20 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
 /**
  * Template tail
  */
-export interface TemplateTail extends Node {
+export interface TemplateTail extends SyntaxNode {
   readonly rawText: string;
   readonly text: string;
-  readonly literal: boolean;
 }
 
-export function createTemplateTail(
-  rawText: string,
-  text: string,
-  literal: boolean,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): TemplateTail {
+export function createTemplateTail(rawText: string, text: string, start: number, end: number): TemplateTail {
   return {
-    kind: NodeKind.TemplateTail,
+    kind: SyntaxKind.TemplateTail,
     rawText,
     text,
-    literal,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

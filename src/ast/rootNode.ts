@@ -1,47 +1,36 @@
-import { NodeKind, Node, NodeFlags, TransformFlags } from './node';
-import { Diagnostic } from '../diagnostics/diagnostic';
-import { updateNode } from '../utils';
-import { Statement } from './statements';
+import { SyntaxKind, SyntaxNode, NodeFlags, AutoFix } from './syntax-node';
+import { DiagnosticType } from '../diagnostic/';
 
 /**
  * A top level node which contains the list of statements in a program,
  * and some information about the file which the statements came from.
  */
-export interface RootNode extends Node {
-  readonly source: string;
-  readonly filename: string;
-  readonly statements: readonly Statement[];
-  readonly isModule: boolean;
-  readonly printable: boolean;
-  readonly diagnostics: Diagnostic[];
+export interface RootNode extends SyntaxNode {
+  kind: SyntaxKind.RootNode;
+  statements: any[];
+  isModule: boolean;
+  text: string;
+  fileName: string;
+  diagnostics: DiagnosticType[];
 }
 
 export function createRootNode(
-  source: string,
-  filename: string,
-  statements: readonly Statement[],
+  statements: any[],
   isModule: boolean,
-  diagnostics: Diagnostic[]
+  text: string,
+  fileName: string,
+  diagnostics: DiagnosticType[]
 ): RootNode {
   return {
-    kind: NodeKind.RootNode,
-    source,
-    filename,
+    kind: SyntaxKind.RootNode,
     statements,
     isModule,
-    printable: true,
-    diagnostics,
-    original: null,
-    symbol: null,
+    text,
+    fileName,
+    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
-    transformFlags: TransformFlags.None,
+    diagnostics,
     start: 0,
-    end: source.length
+    end: text.length
   };
-}
-
-export function updateRootNode(node: RootNode, statements: readonly Statement[]): RootNode {
-  return node.statements !== statements
-    ? updateNode(createRootNode(node.source, node.filename, statements, node.isModule, node.diagnostics), node)
-    : node;
 }

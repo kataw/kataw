@@ -1,16 +1,15 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
 /**
  * An super call expression.
  */
-export type Super = Node;
+export type Super = SyntaxNode;
 
-export function createSuper(flags: NodeFlags, start: number, end: number): Super {
+export function createSuper(start: number, end: number): Super {
   return {
-    kind: NodeKind.Super,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.Super,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

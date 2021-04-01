@@ -1,20 +1,19 @@
-import { IdentifierName } from './identifier-name';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { Identifier } from './identifier-expr';
 
 /**
  * New target expression.
  */
-export interface NewTarget extends Node {
-  readonly name: IdentifierName;
+export interface NewTarget extends SyntaxNode {
+  readonly name: Identifier;
 }
 
-export function createNewTarget(name: IdentifierName, flags: NodeFlags, start: number, end: number): NewTarget {
+export function createNewTarget(name: Identifier, start: number, end: number): NewTarget {
   return {
-    kind: NodeKind.NewTarget,
+    kind: SyntaxKind.NewTarget,
     name,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

@@ -1,50 +1,26 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { LeftHandSideExpression } from '.';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { ExpressionNode } from '.';
 import { ArgumentList } from './argument-list';
-import { TypeArguments } from '../types/type-arguments';
 
-/**
- * Call expression.
- */
-export interface CallExpression extends Node {
-  readonly expression: LeftHandSideExpression;
-  readonly argumentList: ArgumentList;
-  readonly typeArguments: TypeArguments | null;
+export interface CallExpression extends SyntaxNode {
+  kind: SyntaxKind.CallExpression;
+  expression: ExpressionNode;
+  argumentList: ArgumentList;
 }
 
 export function createCallExpression(
-  expression: LeftHandSideExpression,
-  typeArguments: TypeArguments | null,
+  expression: ExpressionNode,
   argumentList: ArgumentList,
-  flags: NodeFlags,
   start: number,
   end: number
 ): CallExpression {
   return {
-    kind: NodeKind.CallExpression,
+    kind: SyntaxKind.CallExpression,
     expression,
-    typeArguments,
     argumentList,
-    flags,
-    symbol: null,
-    transformFlags: typeArguments
-      ? TransformFlags.TypeScript
-      : expression.kind === NodeKind.Super
-      ? TransformFlags.LexicalThis
-      : TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateCallExpression(
-  node: CallExpression,
-  expression: LeftHandSideExpression,
-  typeArguments: TypeArguments | null,
-  argumentList: ArgumentList
-): CallExpression {
-  return node.expression !== expression || node.typeArguments !== typeArguments || node.argumentList !== argumentList
-    ? updateNode(createCallExpression(expression, typeArguments, argumentList, node.flags, node.start, node.end), node)
-    : node;
 }

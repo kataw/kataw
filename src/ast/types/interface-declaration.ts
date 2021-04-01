@@ -1,66 +1,36 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { IdentifierReference } from '../expressions/identifier-reference';
-import { TypeParameters } from './type-parameter-list';
-import { HeritageClauses } from './heritage-clauses';
-import { ObjectTypeMembers } from './object-type-members';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { Identifier } from '../expressions/identifier-expr';
+import { TypeParameter } from './type-parameter';
+import { InterfaceExtends } from './interface-extends';
 
 /**
  * InterfaceDeclaration
  */
 
-export interface InterfaceDeclaration extends Node {
-  readonly name: string | IdentifierReference;
-  readonly typeParameters: TypeParameters | null;
-  readonly heritageClauses: HeritageClauses | null;
-  readonly objectTypeMembers: ObjectTypeMembers;
+export interface InterfaceDeclaration extends SyntaxNode {
+  readonly name: Identifier;
+  readonly typeParameters: TypeParameter | null;
+  readonly types: InterfaceExtends[];
+  readonly members: any;
 }
 
 export function createInterfaceDeclaration(
-  name: IdentifierReference,
-  typeParameters: TypeParameters | null,
-  heritageClauses: HeritageClauses | null,
-  objectTypeMembers: ObjectTypeMembers,
-  flags: NodeFlags,
+  name: Identifier,
+  typeParameters: TypeParameter | null,
+  types: InterfaceExtends[],
+  members: any,
   start: number,
   end: number
 ): InterfaceDeclaration {
   return {
-    kind: NodeKind.InterfaceDeclaration,
+    kind: SyntaxKind.InterfaceDeclaration,
     name,
     typeParameters,
-    heritageClauses,
-    objectTypeMembers,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
+    types,
+    members,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.None,
     start,
     end
   };
-}
-
-export function updateInterfaceDeclaration(
-  node: InterfaceDeclaration,
-  name: IdentifierReference,
-  typeParameters: TypeParameters | null,
-  heritageClauses: HeritageClauses | null,
-  objectTypeMembers: ObjectTypeMembers
-): InterfaceDeclaration {
-  return node.name !== name ||
-    node.typeParameters !== typeParameters ||
-    node.heritageClauses !== heritageClauses ||
-    node.objectTypeMembers !== objectTypeMembers
-    ? updateNode(
-        createInterfaceDeclaration(
-          name,
-          typeParameters,
-          heritageClauses,
-          objectTypeMembers,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
-    : node;
 }

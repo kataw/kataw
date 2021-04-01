@@ -1,24 +1,18 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
 /**
  * Regular expression
  */
-export interface RegularExpressionLiteral extends Node {
+export interface RegularExpressionLiteral extends SyntaxNode {
   readonly text: string;
 }
 
-export function createRegularExpressionLiteral(
-  text: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): RegularExpressionLiteral {
+export function createRegularExpressionLiteral(text: string, start: number, end: number): RegularExpressionLiteral {
   return {
-    kind: NodeKind.RegularExpressionLiteral,
+    kind: SyntaxKind.RegularExpressionLiteral,
     text,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

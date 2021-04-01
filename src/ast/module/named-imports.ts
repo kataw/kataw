@@ -1,30 +1,17 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { ImportsList } from './imports-list';
 
-export interface NamedImports extends Node {
+export interface NamedImports extends SyntaxNode {
   readonly importsList: ImportsList;
 }
 
-export function createNamedImports(
-  importsList: ImportsList,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): NamedImports {
+export function createNamedImports(importsList: ImportsList, start: number, end: number): NamedImports {
   return {
-    kind: NodeKind.NamedImports,
+    kind: SyntaxKind.NamedImports,
     importsList,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateNamedImports(node: NamedImports, importsList: ImportsList): NamedImports {
-  return node.importsList !== importsList
-    ? updateNode(createNamedImports(importsList, node.flags, node.start, node.end), node)
-    : node;
 }

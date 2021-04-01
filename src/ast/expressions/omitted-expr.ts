@@ -1,17 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
 /**
  * OmittedExpression
  */
 
-export type OmittedExpression = Node;
+export type OmittedExpression = SyntaxNode;
 
-export function createOmittedExpression(flags: NodeFlags, start: number, end: number): OmittedExpression {
+export function createOmittedExpression(start: number, end: number): OmittedExpression {
   return {
-    kind: NodeKind.OmittedExpression,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.OmittedExpression,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

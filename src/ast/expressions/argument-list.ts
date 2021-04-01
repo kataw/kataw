@@ -1,14 +1,14 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { ExpressionNode } from '.';
 import { SpreadElement } from './spread-element';
-import { AssignmentExpression } from './assignment-expr';
 
-export type ArgumentListElement = SpreadElement | AssignmentExpression;
+export type ArgumentListElement = SpreadElement | ExpressionNode;
 
 /**
  * Argument list
  */
-export interface ArgumentList extends Node {
+
+export interface ArgumentList extends SyntaxNode {
   readonly elements: ArgumentListElement[];
   readonly trailingComma: boolean;
 }
@@ -16,24 +16,16 @@ export interface ArgumentList extends Node {
 export function createArgumentList(
   elements: ArgumentListElement[],
   trailingComma: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ArgumentList {
   return {
-    kind: NodeKind.ArgumentList,
+    kind: SyntaxKind.ArgumentList,
     elements,
     trailingComma,
-    transformFlags: TransformFlags.None,
-    flags,
-    symbol: null,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateArgumentList(node: ArgumentList, elements: ArgumentListElement[]): ArgumentList {
-  return node.elements !== elements
-    ? updateNode(createArgumentList(elements, node.trailingComma, node.flags, node.start, node.end), node)
-    : node;
 }

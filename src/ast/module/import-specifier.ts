@@ -1,43 +1,28 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
-import { IdentifierName } from '../expressions/identifier-name';
-import { BindingIdentifier } from '../expressions/binding-identifier';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
 
-export interface ImportSpecifier extends Node {
-  readonly name: IdentifierName | BindingIdentifier | null;
-  readonly binding: IdentifierName | BindingIdentifier | null;
+export interface ImportSpecifier extends SyntaxNode {
+  readonly name: Identifier | null;
+  readonly binding: Identifier | null;
   readonly moduleExportName: StringLiteral | null;
 }
 
 export function createImportSpecifier(
   moduleExportName: StringLiteral | null,
-  name: IdentifierName | BindingIdentifier | null,
-  binding: IdentifierName | BindingIdentifier | null,
-  flags: NodeFlags,
+  name: Identifier | null,
+  binding: Identifier | null,
   start: number,
   end: number
 ): ImportSpecifier {
   return {
-    kind: NodeKind.ImportSpecifier,
+    kind: SyntaxKind.ImportSpecifier,
     moduleExportName,
     name,
     binding,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.IsStatement,
+    autofix: AutoFix.NotFixable,
     start,
     end
   };
-}
-
-export function updateImportSpecifier(
-  node: ImportSpecifier,
-  moduleExportName: StringLiteral | null,
-  name: IdentifierName | BindingIdentifier | null,
-  binding: IdentifierName | BindingIdentifier | null
-): ImportSpecifier {
-  return node.moduleExportName !== moduleExportName || node.name !== name || node.binding !== binding
-    ? updateNode(createImportSpecifier(moduleExportName, name, binding, node.flags, node.start, node.end), node)
-    : node;
 }

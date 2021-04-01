@@ -1,19 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
-/**
- * Null literal
- */
-export interface NullLiteral extends Node {
-  text: null;
+export interface NullLiteral extends SyntaxNode {
+  kind: SyntaxKind.NullLiteral;
+  value: null;
 }
 
-export function createNullLiteral(flags: NodeFlags, start: number, end: number): NullLiteral {
+export function createNullLiteral(start: number, end: number): NullLiteral {
   return {
-    kind: NodeKind.NullLiteral,
-    text: null,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.NullLiteral,
+    value: null,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

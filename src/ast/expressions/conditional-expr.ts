@@ -1,48 +1,38 @@
-import { Expression } from './';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { ExpressionNode } from './';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { BinaryExpression } from './binary-expr';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * Conditional expression.
  */
-export interface ConditionalExpression extends Node {
-  readonly shortCircuit: Expression;
-  readonly consequent: Expression;
-  readonly alternate: Expression;
+export interface ConditionalExpression extends SyntaxNode {
+  readonly shortCircuit: ExpressionNode;
+  readonly questionToken: SyntaxToken<TokenSyntaxKind>;
+  readonly consequent: ExpressionNode;
+  readonly colonToken: SyntaxToken<TokenSyntaxKind>;
+  readonly alternate: ExpressionNode;
 }
 
 export function createConditionalExpression(
-  shortCircuit: BinaryExpression | Expression,
-  consequent: Expression,
-  alternate: Expression,
-  flags: NodeFlags,
+  shortCircuit: BinaryExpression | ExpressionNode,
+  questionToken: SyntaxToken<TokenSyntaxKind>,
+  consequent: ExpressionNode,
+  colonToken: SyntaxToken<TokenSyntaxKind>,
+  alternate: ExpressionNode,
   start: number,
   end: number
 ): ConditionalExpression {
   return {
-    kind: NodeKind.ConditionalExpression,
+    kind: SyntaxKind.ConditionalExpression,
     shortCircuit,
+    questionToken,
     consequent,
+    colonToken,
     alternate,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateConditionalExpression(
-  node: ConditionalExpression,
-  shortCircuit: BinaryExpression | Expression,
-  consequent: Expression,
-  alternate: Expression
-): ConditionalExpression {
-  return node.shortCircuit !== shortCircuit || node.consequent !== consequent || node.alternate !== alternate
-    ? updateNode(
-        createConditionalExpression(shortCircuit, consequent, alternate, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

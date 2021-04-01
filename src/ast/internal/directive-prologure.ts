@@ -1,4 +1,4 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { StringLiteral } from '../expressions/string-literal';
 
 /**
@@ -6,18 +6,17 @@ import { StringLiteral } from '../expressions/string-literal';
  */
 
 /* @internal */
-export interface PrologueDirective extends Node {
+export interface PrologueDirective extends SyntaxNode {
   readonly expression: StringLiteral;
 }
 
 /* @internal */
 export function createPrologueDirective(expression: StringLiteral, start: number, end: number): PrologueDirective {
   return {
-    kind: NodeKind.PrologueDirective,
+    kind: SyntaxKind.PrologueDirective,
     expression,
+    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
-    symbol: null,
-    transformFlags: TransformFlags.Jsx,
     start,
     end
   };

@@ -1,39 +1,25 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { IdentifierName } from '../expressions/identifier-name';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
-import { ExportDeclaration } from './export-declaration';
-import { updateNode } from '../../utils';
 
-export interface ExportFromClause extends Node {
+export interface ExportFromClause extends SyntaxNode {
   readonly moduleExportName: StringLiteral | null;
-  readonly namedBinding: IdentifierName | null;
+  readonly namedBinding: Identifier | null;
 }
 
 export function createExportFromClause(
-  namedBinding: IdentifierName | null,
+  namedBinding: Identifier | null,
   moduleExportName: StringLiteral | null,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ExportFromClause {
   return {
-    kind: NodeKind.ExportFromClause,
+    kind: SyntaxKind.ExportFromClause,
     moduleExportName,
     namedBinding,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateExportFromClause(
-  node: ExportFromClause,
-  moduleExportName: StringLiteral | null,
-  namedBinding: IdentifierName | null
-): ExportFromClause {
-  return node.namedBinding !== namedBinding || node.moduleExportName !== moduleExportName
-    ? updateNode(createExportFromClause(namedBinding, moduleExportName, node.flags, node.start, node.end), node)
-    : node;
 }

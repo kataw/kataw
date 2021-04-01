@@ -1,35 +1,23 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { Expression } from '../expressions';
-import { FunctionDeclaration } from '../statements/function-declaration';
-import { ClassDeclaration } from '../statements/class-declaration';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { ExpressionNode } from '../expressions';
+import { FunctionDeclaration } from '../stmt/function-declaration';
+//import { ClassDeclaration } from '../stmt/class-declaration';
 
-export interface ExportDefault extends Node {
-  readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
+export interface ExportDefault extends SyntaxNode {
+  readonly declaration: FunctionDeclaration | ExpressionNode;
 }
 
 export function createExportDefault(
-  declaration: FunctionDeclaration | ClassDeclaration | Expression,
-  flags: NodeFlags,
+  declaration: FunctionDeclaration | ExpressionNode,
   start: number,
   end: number
 ): ExportDefault {
   return {
-    kind: NodeKind.ExportDefault,
+    kind: SyntaxKind.ExportDefault,
     declaration,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateExportDefault(
-  node: ExportDefault,
-  declaration: FunctionDeclaration | ClassDeclaration | Expression
-): ExportDefault {
-  return node.declaration !== declaration
-    ? updateNode(createExportDefault(declaration, node.flags, node.start, node.end), node)
-    : node;
 }

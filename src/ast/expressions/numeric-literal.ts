@@ -1,27 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 
-/**
- * Numeric literal
- */
-export interface NumericLiteral extends Node {
-  readonly text: number;
-  readonly rawText: string;
+export interface NumericLiteral extends SyntaxNode {
+  kind: SyntaxKind.Identifier;
+  value: number;
 }
 
-export function createNumericLiteral(
-  text: number,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): NumericLiteral {
+export function createNumericLiteral(value: number, start: number, end: number): NumericLiteral {
   return {
-    kind: NodeKind.NumericLiteral,
-    text,
-    rawText,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.Identifier,
+    value,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

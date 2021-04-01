@@ -1,15 +1,14 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { StringLiteral } from '../expressions/string-literal';
 import { NamedExports } from './named-exports';
-import { Statement } from '../statements';
+import { StatementNode } from '../stmt';
 import { AssignmentExpression } from '../expressions/assignment-expr';
-import { VariableStatement } from '../statements/variable-stmt';
-import { LexicalDeclaration } from '../statements/lexical-declaration';
-import { FunctionDeclaration } from '../statements/function-declaration';
-import { ClassDeclaration } from '../statements/class-declaration';
+import { VariableStatement } from '../stmt/variable-stmt';
+import { LexicalDeclaration } from '../stmt/lexical-declaration';
+import { FunctionDeclaration } from '../stmt/function-declaration';
+//import { ClassDeclaration } from '../stmt/class-declaration';
 import { ExportFromClause } from './export-from-clause';
-import { Expression } from '../expressions';
-import { updateNode } from '../../utils';
+import { ExpressionNode } from '../expressions';
 
 /** Export declaration */
 export type ExportDeclarations =
@@ -17,67 +16,33 @@ export type ExportDeclarations =
   | VariableStatement
   | LexicalDeclaration
   | FunctionDeclaration
-  | ClassDeclaration
-  | Statement;
+  //| ClassDeclaration
+  | StatementNode;
 
-export interface ExportDeclaration extends Node {
+export interface ExportDeclaration extends SyntaxNode {
   readonly declaration: ExportDeclarations | null;
   readonly namedExports: NamedExports | null;
-  readonly fromClause: StringLiteral | Expression;
+  readonly fromClause: StringLiteral | ExpressionNode;
   readonly exportFromClause: ExportFromClause | null;
-  readonly isTypeOnly: boolean;
 }
 
 export function createExportDeclaration(
   declaration: ExportDeclarations | null,
   namedExports: NamedExports | null,
-  fromClause: StringLiteral | Expression,
+  fromClause: StringLiteral | ExpressionNode,
   exportFromClause: ExportFromClause | null,
-  isTypeOnly: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ExportDeclaration {
   return {
-    kind: NodeKind.ExportDeclaration,
+    kind: SyntaxKind.ExportDeclaration,
     declaration,
     namedExports,
     exportFromClause,
     fromClause,
-    isTypeOnly,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateExportDeclaration(
-  node: ExportDeclaration,
-  declaration: ExportDeclarations | null,
-  namedExports: NamedExports | null,
-  fromClause: StringLiteral | Expression,
-  exportFromClause: ExportFromClause | null,
-  isTypeOnly: boolean
-): ExportDeclaration {
-  return node.declaration !== declaration ||
-    node.namedExports !== namedExports ||
-    node.fromClause !== fromClause ||
-    node.exportFromClause !== exportFromClause ||
-    node.isTypeOnly !== isTypeOnly
-    ? updateNode(
-        createExportDeclaration(
-          declaration,
-          namedExports,
-          fromClause,
-          exportFromClause,
-          isTypeOnly,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
-    : node;
 }
