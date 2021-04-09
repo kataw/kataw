@@ -1,0 +1,179 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+var {...[]} = {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 155,
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 204,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "autofix": 0,
+                                            "flags": 0,
+                                            "start": 5,
+                                            "end": 8
+                                        },
+                                        "key": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 253,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 9,
+                                                "end": 9
+                                            },
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 8,
+                                            "end": 10
+                                        },
+                                        "value": {
+                                            "kind": 203,
+                                            "ellipsisToken": null,
+                                            "binding": {
+                                                "kind": 253,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 10,
+                                                "end": 10
+                                            },
+                                            "initializer": null,
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 10,
+                                            "end": 10
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 5,
+                                        "end": 10
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 5,
+                                "end": 10
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 3,
+                            "end": 11
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 220,
+                            "propertyList": {
+                                "kind": 218,
+                                "properties": [],
+                                "trailingComma": false,
+                                "multiline": false,
+                                "autofix": 0,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 15
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 13,
+                            "end": 16
+                        },
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 3,
+                        "end": 16
+                    }
+                ],
+                "autofix": 0,
+                "flags": 128,
+                "start": 3,
+                "end": 16
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
+    "text": "var {...[]} = {}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 17,
+            "error": "The binding pattern is not destructible",
+            "start": 8,
+            "end": 9
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 9,
+            "end": 10
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 10,
+            "end": 11
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 10,
+            "end": 11
+        }
+    ],
+    "start": 0,
+    "end": 16
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

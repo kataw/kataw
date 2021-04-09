@@ -1,0 +1,136 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: async function f(){}
+## Input
+
+`````js
+while (x) async function f(){}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 154,
+            "expression": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 7,
+                "end": 8
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 177,
+                    "asyncToken": {
+                        "kind": 82031,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 9,
+                        "end": 15
+                    },
+                    "generatorToken": null,
+                    "name": {
+                        "kind": 81921,
+                        "value": "f",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 24,
+                        "end": 26
+                    },
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 27,
+                        "end": 28
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "statements": [],
+                            "multiline": false,
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 29,
+                            "end": 29
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 28,
+                        "end": 30
+                    },
+                    "typeParameters": null,
+                    "returnType": null,
+                    "autofix": 0,
+                    "flags": 1280,
+                    "start": 9,
+                    "end": 30
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 9,
+                "end": 30
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 30
+        }
+    ],
+    "isModule": false,
+    "text": "while (x) async function f(){}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 30
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: async function f(){}
+## Input
+
+`````js
+while (x) async function f(){}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: async function f(){}
+## Input
+
+`````js
+while (x) async function f(){}
+`````
+```
+

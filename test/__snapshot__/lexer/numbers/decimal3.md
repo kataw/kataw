@@ -1,0 +1,310 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+0e-100
+;
+1e-100
+;
+0E-100
+;
+1E-100
+;
+0.e-100
+;
+1.e-100
+;
+0.E-100
+;
+1.E-100
+;
+0.1e-100
+;
+1.1e-100
+;
+0.1E-100
+;
+1.1E-100
+;
+.0e-100
+;
+.1e-100
+;
+.0E-100
+;
+.1E-100
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 0,
+                "end": 6
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 8,
+                "end": 15
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 8,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 17,
+                "end": 24
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 17,
+            "end": 26
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 26,
+                "end": 33
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 26,
+            "end": 35
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 35,
+                "end": 43
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 35,
+            "end": 45
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 45,
+                "end": 53
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 45,
+            "end": 55
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 55,
+                "end": 63
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 55,
+            "end": 65
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 65,
+                "end": 73
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 65,
+            "end": 75
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-101,
+                "autofix": 0,
+                "flags": 768,
+                "start": 75,
+                "end": 84
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 75,
+            "end": 86
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1.1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 86,
+                "end": 95
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 86,
+            "end": 97
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-101,
+                "autofix": 0,
+                "flags": 768,
+                "start": 97,
+                "end": 106
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 97,
+            "end": 108
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1.1e-100,
+                "autofix": 0,
+                "flags": 768,
+                "start": 108,
+                "end": 117
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 108,
+            "end": 119
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 119,
+                "end": 127
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 119,
+            "end": 129
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-101,
+                "autofix": 0,
+                "flags": 768,
+                "start": 129,
+                "end": 137
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 129,
+            "end": 139
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 0,
+                "autofix": 0,
+                "flags": 768,
+                "start": 139,
+                "end": 147
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 139,
+            "end": 149
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": 1e-101,
+                "autofix": 0,
+                "flags": 768,
+                "start": 149,
+                "end": 157
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 149,
+            "end": 157
+        }
+    ],
+    "isModule": false,
+    "text": "0e-100\n;\n1e-100\n;\n0E-100\n;\n1E-100\n;\n0.e-100\n;\n1.e-100\n;\n0.E-100\n;\n1.E-100\n;\n0.1e-100\n;\n1.1e-100\n;\n0.1E-100\n;\n1.1E-100\n;\n.0e-100\n;\n.1e-100\n;\n.0E-100\n;\n.1E-100",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 157
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

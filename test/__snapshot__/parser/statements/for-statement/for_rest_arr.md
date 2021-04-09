@@ -1,0 +1,151 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+for (const [...x] in y){}
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+### Printer Options
+
+`````js
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 166,
+            "initializer": {
+                "kind": 151,
+                "bindingList": [
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 202,
+                                "elements": [
+                                    {
+                                        "kind": 244,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "autofix": 0,
+                                            "flags": 0,
+                                            "start": 12,
+                                            "end": 15
+                                        },
+                                        "binding": {
+                                            "kind": 81921,
+                                            "value": "x",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 12,
+                                        "end": 16
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 12,
+                                "end": 16
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 10,
+                            "end": 17
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 10,
+                        "end": 17
+                    }
+                ],
+                "autofix": 0,
+                "flags": 160,
+                "start": 10,
+                "end": 17
+            },
+            "expression": {
+                "kind": 81921,
+                "value": "y",
+                "autofix": 0,
+                "flags": 768,
+                "start": 20,
+                "end": 22
+            },
+            "statement": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 24,
+                    "end": 24
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 23,
+                "end": 25
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
+    "text": "for (const [...x] in y){}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 25
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

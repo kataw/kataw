@@ -1,0 +1,97 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: else stand alone
+> :: case: class x {}
+## Input
+
+`````js
+else class x {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 178,
+            "decorators": null,
+            "name": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 10,
+                "end": 12
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 14,
+                "end": 15
+            },
+            "flags": 128,
+            "start": 4,
+            "end": 15
+        }
+    ],
+    "isModule": false,
+    "text": "else class x {}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 0,
+            "end": 4
+        }
+    ],
+    "start": 0,
+    "end": 15
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: else stand alone
+> :: case: class x {}
+## Input
+
+`````js
+else class x {}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: else stand alone
+> :: case: class x {}
+## Input
+
+`````js
+else class x {}
+`````
+```
+

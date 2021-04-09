@@ -1,0 +1,419 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+(x + y) >= z;
+(x + y) <= z;
+(x + y) != z;
+(x + y) == z;
+(x + y) == z;
+(x) / y;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 1,
+                            "end": 2
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 2,
+                            "end": 4
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 4,
+                            "end": 6
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 0,
+                        "end": 6
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 0,
+                    "end": 7
+                },
+                "operatorToken": {
+                    "kind": 34881,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 7,
+                    "end": 10
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "z",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 10,
+                    "end": 12
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 12
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 15,
+                            "end": 16
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 16,
+                            "end": 18
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 18,
+                            "end": 20
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 13,
+                        "end": 20
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 13,
+                    "end": 21
+                },
+                "operatorToken": {
+                    "kind": 34880,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 21,
+                    "end": 24
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "z",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 24,
+                    "end": 26
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 13,
+                "end": 26
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 13,
+            "end": 27
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 29,
+                            "end": 30
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 30,
+                            "end": 32
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 32,
+                            "end": 34
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 27,
+                        "end": 34
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 27,
+                    "end": 35
+                },
+                "operatorToken": {
+                    "kind": 34623,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 35,
+                    "end": 38
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "z",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 38,
+                    "end": 40
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 27,
+                "end": 40
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 27,
+            "end": 41
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 43,
+                            "end": 44
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 44,
+                            "end": 46
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 46,
+                            "end": 48
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 41,
+                        "end": 48
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 41,
+                    "end": 49
+                },
+                "operatorToken": {
+                    "kind": 34622,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 49,
+                    "end": 52
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "z",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 52,
+                    "end": 54
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 41,
+                "end": 54
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 41,
+            "end": 55
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 57,
+                            "end": 58
+                        },
+                        "operatorToken": {
+                            "kind": 34098,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 58,
+                            "end": 60
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 60,
+                            "end": 62
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 55,
+                        "end": 62
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 55,
+                    "end": 63
+                },
+                "operatorToken": {
+                    "kind": 34622,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 63,
+                    "end": 66
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "z",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 66,
+                    "end": 68
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 55,
+                "end": 68
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 55,
+            "end": 69
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 81921,
+                        "value": "x",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 71,
+                        "end": 72
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 69,
+                    "end": 73
+                },
+                "operatorToken": {
+                    "kind": 35640,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 73,
+                    "end": 75
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "y",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 75,
+                    "end": 77
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 69,
+                "end": 77
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 69,
+            "end": 78
+        }
+    ],
+    "isModule": false,
+    "text": "(x + y) >= z;\n(x + y) <= z;\n(x + y) != z;\n(x + y) == z;\n(x + y) == z;\n(x) / y;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 78
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

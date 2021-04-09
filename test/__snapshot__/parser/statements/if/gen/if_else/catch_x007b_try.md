@@ -1,0 +1,264 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: if else
+> :: case: catch { try
+## Input
+
+`````js
+if catch { try else
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 164,
+            "expression": {
+                "kind": 253,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 2,
+                "end": 2
+            },
+            "consequent": {
+                "kind": 159,
+                "block": {
+                    "kind": 249,
+                    "block": {
+                        "kind": 124,
+                        "statements": [],
+                        "multiLine": false,
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 2,
+                        "end": 2
+                    },
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 2,
+                    "end": 2
+                },
+                "catchClause": {
+                    "kind": 173,
+                    "catchParameter": null,
+                    "block": {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [
+                                {
+                                    "kind": 159,
+                                    "block": {
+                                        "kind": 249,
+                                        "block": {
+                                            "kind": 124,
+                                            "statements": [],
+                                            "multiLine": false,
+                                            "autofix": 0,
+                                            "flags": 128,
+                                            "start": 14,
+                                            "end": 14
+                                        },
+                                        "autofix": 0,
+                                        "flags": 128,
+                                        "start": 14,
+                                        "end": 14
+                                    },
+                                    "catchClause": null,
+                                    "finallyBlock": {
+                                        "kind": 249,
+                                        "block": {
+                                            "kind": 124,
+                                            "statements": [],
+                                            "multiLine": false,
+                                            "autofix": 0,
+                                            "flags": 128,
+                                            "start": 14,
+                                            "end": 14
+                                        },
+                                        "autofix": 0,
+                                        "flags": 128,
+                                        "start": 14,
+                                        "end": 14
+                                    },
+                                    "autofix": 0,
+                                    "flags": 128,
+                                    "start": 10,
+                                    "end": 14
+                                }
+                            ],
+                            "multiLine": false,
+                            "autofix": 0,
+                            "flags": 128,
+                            "start": 10,
+                            "end": 14
+                        },
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 8,
+                        "end": 14
+                    },
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 2,
+                    "end": 14
+                },
+                "finallyBlock": null,
+                "autofix": 0,
+                "flags": 128,
+                "start": 2,
+                "end": 14
+            },
+            "alternate": {
+                "kind": 120,
+                "expression": {
+                    "kind": 253,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 19,
+                    "end": 19
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 19,
+                "end": 19
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "text": "if catch { try else",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 2,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 19,
+            "end": 19
+        }
+    ],
+    "start": 0,
+    "end": 19
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: if else
+> :: case: catch { try
+## Input
+
+`````js
+if catch { try else
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: if else
+> :: case: catch { try
+## Input
+
+`````js
+if catch { try else
+`````
+```
+

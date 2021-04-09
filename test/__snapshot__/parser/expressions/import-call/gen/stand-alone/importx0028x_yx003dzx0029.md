@@ -1,0 +1,150 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: stand-alone
+> :: case: import(x,y=z)
+## Input
+
+`````js
+import(x,y=z)
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 206,
+                        "expression": {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 6,
+                        "end": 8
+                    },
+                    {
+                        "kind": 125,
+                        "left": {
+                            "kind": 81921,
+                            "value": "y",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 10
+                        },
+                        "operatorToken": {
+                            "kind": 81921,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 9,
+                            "end": 11
+                        },
+                        "right": {
+                            "kind": 81921,
+                            "value": "z",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 11,
+                            "end": 12
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 9,
+                        "end": 12
+                    }
+                ],
+                "autofix": 0,
+                "flags": 256,
+                "start": 6,
+                "end": 12
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 6,
+            "end": 12
+        }
+    ],
+    "isModule": false,
+    "text": "import(x,y=z)",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 8,
+            "end": 9
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 12,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 12,
+            "end": 13
+        }
+    ],
+    "start": 0,
+    "end": 13
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: stand-alone
+> :: case: import(x,y=z)
+## Input
+
+`````js
+import(x,y=z)
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: stand-alone
+> :: case: import(x,y=z)
+## Input
+
+`````js
+import(x,y=z)
+`````
+```
+

@@ -1,0 +1,163 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: t
+> :: test: obj_expr_strict
+> :: case: a: class { #a }
+## Input
+
+`````js
+'use strict'; ({ a: class { #a } });
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174403,
+                "value": "use strict",
+                "autofix": 0,
+                "flags": 768,
+                "start": 0,
+                "end": 12
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 219,
+                                "left": {
+                                    "kind": 189,
+                                    "decorators": null,
+                                    "name": null,
+                                    "typeParameters": null,
+                                    "classHeritage": null,
+                                    "members": {
+                                        "kind": 277,
+                                        "elements": [
+                                            {
+                                                "kind": 280,
+                                                "decorators": null,
+                                                "declaredToken": null,
+                                                "staticToken": null,
+                                                "key": {
+                                                    "kind": 67125499,
+                                                    "text": "#a",
+                                                    "flags": 768,
+                                                    "start": 27,
+                                                    "end": 30
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 256,
+                                                "start": 27,
+                                                "end": 30
+                                            }
+                                        ],
+                                        "flags": 256,
+                                        "start": 27,
+                                        "end": 32
+                                    },
+                                    "flags": 256,
+                                    "start": 19,
+                                    "end": 32
+                                },
+                                "right": {
+                                    "kind": 81921,
+                                    "value": "a",
+                                    "autofix": 0,
+                                    "flags": 768,
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 16,
+                                "end": 32
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 16,
+                        "end": 32
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 15,
+                    "end": 34
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 13,
+                "end": 35
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 13,
+            "end": 36
+        }
+    ],
+    "isModule": false,
+    "text": "'use strict'; ({ a: class { #a } });",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 36
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: t
+> :: test: obj_expr_strict
+> :: case: a: class { #a }
+## Input
+
+`````js
+'use strict'; ({ a: class { #a } });
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: t
+> :: test: obj_expr_strict
+> :: case: a: class { #a }
+## Input
+
+`````js
+'use strict'; ({ a: class { #a } });
+`````
+```
+

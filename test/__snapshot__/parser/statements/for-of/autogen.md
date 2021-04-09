@@ -1,0 +1,289 @@
+# Kataw parser test case
+
+> Auto-generated tests to validate error recovery
+>
+
+## Input
+
+### Cases
+
+> `````js
+> false
+> `````
+
+> `````js
+> async try while { catch }
+> `````
+
+> `````js
+> catch { try
+> `````
+
+> `````js
+> try { !xxx
+> `````
+
+> `````js
+> /false//a
+> `````
+
+> `````js
+> )=)=(){{}/()try finally catch /1/
+> `````
+
+> `````js
+> ((((false))!&try
+> `````
+
+> `````js
+> try %&/() function
+> `````
+
+> `````js
+> =! class function try while with foo!
+> `````
+
+> `````js
+> @foo
+> `````
+
+> `````js
+> class x {}
+> `````
+
+> `````js
+> (((??! if else))
+> `````
+
+> `````js
+> catch try {
+> `````
+
+> `````js
+> catch try {}
+> `````
+
+> `````js
+> catch
+> `````
+
+> `````js
+> /)finally
+> `````
+
+> `````js
+> (((
+> `````
+
+> `````js
+> !{[]
+> `````
+
+> `````js
+> !{[
+> `````
+
+> `````js
+> }
+> `````
+
+> `````js
+> /()
+> `````
+
+> `````js
+> /(
+> `````
+
+> `````js
+> /(try
+> `````
+
+> `````js
+> while try this and !foo
+> `````
+
+> `````js
+> &/()=
+> `````
+
+> `````js
+> function while
+> `````
+
+> `````js
+> /**/ /x
+> `````
+
+### Templates
+
+#### missing parens and block
+
+`````js
+try catch #
+`````
+
+#### try with invalid array
+
+`````js
+try [catch] #
+`````
+
+#### try with unclosed block
+
+`````js
+try {} finally(x) { #
+`````
+
+#### try triple
+
+`````js
+try try try #
+`````
+
+#### catch stand alone
+
+`````js
+catch #
+`````
+
+#### catch finally
+
+`````js
+catch # finally
+`````
+
+#### unclosed parens
+
+`````js
+try( #
+`````
+
+#### with unclosed array
+
+`````js
+try[ #
+`````
+
+
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 159,
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 3,
+                    "end": 3
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 3,
+                "end": 3
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchParameter": null,
+                "block": {
+                    "kind": 249,
+                    "block": {
+                        "kind": 124,
+                        "statements": [],
+                        "multiLine": false,
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 9,
+                    "end": 9
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 3,
+                "end": 9
+            },
+            "finallyBlock": null,
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 9
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": "#",
+                "autofix": 0,
+                "flags": 768,
+                "start": 9,
+                "end": 11
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 9,
+            "end": 11
+        }
+    ],
+    "isModule": false,
+    "text": "try catch #",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 3,
+            "end": 9
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 9,
+            "end": 11
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 9,
+            "end": 11
+        }
+    ],
+    "start": 0,
+    "end": 11
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -1,0 +1,128 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: return return
+> :: case: class x {}
+## Input
+
+`````js
+return class x {} return
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 161,
+            "expression": {
+                "kind": 189,
+                "decorators": null,
+                "name": {
+                    "kind": 81921,
+                    "value": "x",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 12,
+                    "end": 14
+                },
+                "typeParameters": null,
+                "classHeritage": null,
+                "members": {
+                    "kind": 277,
+                    "elements": [],
+                    "flags": 256,
+                    "start": 16,
+                    "end": 17
+                },
+                "flags": 256,
+                "start": 6,
+                "end": 17
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 0
+        },
+        {
+            "kind": 161,
+            "expression": null,
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
+    "text": "return class x {} return",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 33,
+            "error": "A return statement can only be used within a function_body",
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 33,
+            "error": "A return statement can only be used within a function_body",
+            "start": 17,
+            "end": 24
+        }
+    ],
+    "start": 0,
+    "end": 24
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: return return
+> :: case: class x {}
+## Input
+
+`````js
+return class x {} return
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: return return
+> :: case: class x {}
+## Input
+
+`````js
+return class x {} return
+`````
+```
+

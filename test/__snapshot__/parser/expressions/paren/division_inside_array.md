@@ -1,0 +1,227 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+([a / b]);
+
+([a / b], ([a / b]));
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 119,
+                    "elementList": {
+                        "kind": 270,
+                        "elements": [
+                            {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 81921,
+                                    "value": "a",
+                                    "autofix": 0,
+                                    "flags": 768,
+                                    "start": 2,
+                                    "end": 3
+                                },
+                                "operatorToken": {
+                                    "kind": 35640,
+                                    "autofix": 0,
+                                    "flags": 0,
+                                    "start": 3,
+                                    "end": 5
+                                },
+                                "right": {
+                                    "kind": 81921,
+                                    "value": "b",
+                                    "autofix": 0,
+                                    "flags": 768,
+                                    "start": 5,
+                                    "end": 7
+                                },
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 2,
+                                "end": 7
+                            }
+                        ],
+                        "trailingComma": false,
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 2,
+                        "end": 7
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 1,
+                    "end": 8
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 9
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 119,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 198,
+                                        "left": {
+                                            "kind": 81921,
+                                            "value": "a",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        "operatorToken": {
+                                            "kind": 35640,
+                                            "autofix": 0,
+                                            "flags": 0,
+                                            "start": 15,
+                                            "end": 17
+                                        },
+                                        "right": {
+                                            "kind": 81921,
+                                            "value": "b",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 17,
+                                            "end": 19
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 14,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 13,
+                            "end": 20
+                        },
+                        {
+                            "kind": 121,
+                            "expression": {
+                                "kind": 119,
+                                "elementList": {
+                                    "kind": 270,
+                                    "elements": [
+                                        {
+                                            "kind": 198,
+                                            "left": {
+                                                "kind": 81921,
+                                                "value": "a",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 24,
+                                                "end": 25
+                                            },
+                                            "operatorToken": {
+                                                "kind": 35640,
+                                                "autofix": 0,
+                                                "flags": 0,
+                                                "start": 25,
+                                                "end": 27
+                                            },
+                                            "right": {
+                                                "kind": 81921,
+                                                "value": "b",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 27,
+                                                "end": 29
+                                            },
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 24,
+                                            "end": 29
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 24,
+                                    "end": 29
+                                },
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 23,
+                                "end": 30
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 21,
+                            "end": 31
+                        }
+                    ],
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 10,
+                    "end": 31
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 10,
+                "end": 32
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 10,
+            "end": 33
+        }
+    ],
+    "isModule": false,
+    "text": "([a / b]);\n\n([a / b], ([a / b]));",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 33
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -1,0 +1,226 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+ ({...a ? b : c});
+ (x, {...a ? b : c});
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 224,
+                                "argument": {
+                                    "kind": 197,
+                                    "shortCircuit": {
+                                        "kind": 81921,
+                                        "value": "a",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 6,
+                                        "end": 7
+                                    },
+                                    "questionToken": {
+                                        "kind": 22,
+                                        "autofix": 0,
+                                        "flags": 0,
+                                        "start": 7,
+                                        "end": 9
+                                    },
+                                    "consequent": {
+                                        "kind": 81921,
+                                        "value": "b",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 9,
+                                        "end": 11
+                                    },
+                                    "colonToken": {
+                                        "kind": 21,
+                                        "autofix": 0,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    "alternate": {
+                                        "kind": 81921,
+                                        "value": "c",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 13,
+                                        "end": 15
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 6,
+                                    "end": 15
+                                },
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 3,
+                                "end": 15
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 3,
+                        "end": 15
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 2,
+                    "end": 16
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 17
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 81921,
+                            "value": "x",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 21,
+                            "end": 22
+                        },
+                        {
+                            "kind": 220,
+                            "propertyList": {
+                                "kind": 218,
+                                "properties": [
+                                    {
+                                        "kind": 224,
+                                        "argument": {
+                                            "kind": 197,
+                                            "shortCircuit": {
+                                                "kind": 81921,
+                                                "value": "a",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 28,
+                                                "end": 29
+                                            },
+                                            "questionToken": {
+                                                "kind": 22,
+                                                "autofix": 0,
+                                                "flags": 0,
+                                                "start": 29,
+                                                "end": 31
+                                            },
+                                            "consequent": {
+                                                "kind": 81921,
+                                                "value": "b",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 31,
+                                                "end": 33
+                                            },
+                                            "colonToken": {
+                                                "kind": 21,
+                                                "autofix": 0,
+                                                "flags": 0,
+                                                "start": 33,
+                                                "end": 35
+                                            },
+                                            "alternate": {
+                                                "kind": 81921,
+                                                "value": "c",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 35,
+                                                "end": 37
+                                            },
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 28,
+                                            "end": 37
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 25,
+                                        "end": 37
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "multiline": false,
+                                "autofix": 0,
+                                "flags": 0,
+                                "start": 25,
+                                "end": 37
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 23,
+                            "end": 38
+                        }
+                    ],
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 18,
+                    "end": 39
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 18,
+                "end": 39
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 18,
+            "end": 40
+        }
+    ],
+    "isModule": false,
+    "text": " ({...a ? b : c});\n (x, {...a ? b : c});",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 40
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

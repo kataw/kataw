@@ -1,0 +1,336 @@
+# Kataw parser test case
+
+> Auto-generated tests to validate error recovery
+>
+
+## Input
+
+### Cases
+
+> `````js
+> false
+> `````
+
+> `````js
+> async try while { catch }
+> `````
+
+> `````js
+> catch { try
+> `````
+
+> `````js
+> try { !xxx
+> `````
+
+> `````js
+> /false//a
+> `````
+
+> `````js
+> )=)=(){{}/()try finally catch /1/
+> `````
+
+> `````js
+> ((((false))!&try
+> `````
+
+> `````js
+> try %&/() function
+> `````
+
+> `````js
+> =! class function try while with foo!
+> `````
+
+> `````js
+> @foo
+> `````
+
+> `````js
+> class x {}
+> `````
+
+> `````js
+> (((??! if else))
+> `````
+
+> `````js
+> catch try {
+> `````
+
+> `````js
+> catch try {}
+> `````
+
+> `````js
+> catch
+> `````
+
+> `````js
+> /)finally
+> `````
+
+> `````js
+> (((
+> `````
+
+> `````js
+> !{[]
+> `````
+
+> `````js
+> !{[
+> `````
+
+> `````js
+> }
+> `````
+
+> `````js
+> /()
+> `````
+
+> `````js
+> /(
+> `````
+
+> `````js
+> /(try
+> `````
+
+> `````js
+> while try this and !foo
+> `````
+
+> `````js
+> &/()=
+> `````
+
+> `````js
+> function while
+> `````
+
+> `````js
+> /**/ /x
+> `````
+
+### Templates
+
+#### missing parens and block
+
+`````js
+return catch #
+`````
+
+#### return with invalid array
+
+`````js
+return [catch] #
+`````
+
+#### return with unclosed block
+
+`````js
+return {} return(x) { #
+`````
+
+#### return triple
+
+`````js
+return return return #
+`````
+
+#### return stand alone
+
+`````js
+return #
+`````
+
+#### return return
+
+`````js
+return # return
+`````
+
+#### unclosed parens
+
+`````js
+return( #
+`````
+
+#### with unclosed array
+
+`````js
+return[ #
+`````
+
+
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 161,
+            "expression": {
+                "kind": 253,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 6,
+                "end": 6
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 0
+        },
+        {
+            "kind": 159,
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 6,
+                    "end": 6
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 6,
+                "end": 6
+            },
+            "catchClause": {
+                "kind": 173,
+                "catchParameter": null,
+                "block": {
+                    "kind": 249,
+                    "block": {
+                        "kind": 124,
+                        "statements": [],
+                        "multiLine": false,
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 12,
+                        "end": 12
+                    },
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 12,
+                    "end": 12
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 6,
+                "end": 12
+            },
+            "finallyBlock": null,
+            "autofix": 0,
+            "flags": 128,
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": "#",
+                "autofix": 0,
+                "flags": 768,
+                "start": 12,
+                "end": 14
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 12,
+            "end": 14
+        }
+    ],
+    "isModule": false,
+    "text": "return catch #",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 33,
+            "error": "A return statement can only be used within a function_body",
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 12,
+            "end": 14
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 12,
+            "end": 14
+        }
+    ],
+    "start": 0,
+    "end": 14
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -1,0 +1,109 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+({foo: typeof /x/g});
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 219,
+                                "left": {
+                                    "kind": 126,
+                                    "operandToken": {
+                                        "kind": 4259885,
+                                        "autofix": 0,
+                                        "flags": 0,
+                                        "start": 6,
+                                        "end": 13
+                                    },
+                                    "expression": {
+                                        "kind": 221,
+                                        "text": "/x/g",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 13,
+                                        "end": 18
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 6,
+                                    "end": 18
+                                },
+                                "right": {
+                                    "kind": 81921,
+                                    "value": "foo",
+                                    "autofix": 0,
+                                    "flags": 768,
+                                    "start": 2,
+                                    "end": 5
+                                },
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 2,
+                                "end": 18
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 2,
+                        "end": 18
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 1,
+                    "end": 19
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 20
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 21
+        }
+    ],
+    "isModule": false,
+    "text": "({foo: typeof /x/g});",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 21
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

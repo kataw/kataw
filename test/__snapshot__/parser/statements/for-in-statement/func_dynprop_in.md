@@ -1,0 +1,155 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+for (function(){ }[x in y] in x);
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+### Printer Options
+
+`````js
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 166,
+            "initializer": {
+                "kind": 130,
+                "member": {
+                    "kind": 177,
+                    "asyncToken": null,
+                    "generatorToken": null,
+                    "name": null,
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 14,
+                        "end": 15
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "statements": [],
+                            "multiline": false,
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 16,
+                            "end": 16
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 15,
+                        "end": 18
+                    },
+                    "typeParameters": null,
+                    "returnType": null,
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 5,
+                    "end": 18
+                },
+                "expression": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 81921,
+                        "value": "x",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 19,
+                        "end": 20
+                    },
+                    "operatorToken": {
+                        "kind": 21006388,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 20,
+                        "end": 23
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "value": "y",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 23,
+                        "end": 25
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 19,
+                    "end": 25
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 5,
+                "end": 26
+            },
+            "expression": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 29,
+                "end": 31
+            },
+            "statement": {
+                "kind": 168,
+                "autofix": 0,
+                "flags": 128,
+                "start": 32,
+                "end": 33
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 33
+        }
+    ],
+    "isModule": false,
+    "text": "for (function(){ }[x in y] in x);",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 33
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+
