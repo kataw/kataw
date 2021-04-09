@@ -1,4 +1,4 @@
-import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
+import { SyntaxKind, SyntaxNode, NodeFlags, AutoFix } from './syntax-node';
 
 /**
  * A token. This can include single characters, operators and keywords.
@@ -22,6 +22,10 @@ export type TokenSyntaxKind =
   | SyntaxKind.DeleteKeyword
   | SyntaxKind.Negate
   | SyntaxKind.Complement
+  | SyntaxKind.PrivateIdentifier
+  | SyntaxKind.QuestionMarkPeriod
+  | SyntaxKind.TemplateCont
+  | SyntaxKind.TemplateTail
   | SyntaxKind.Add
   | SyntaxKind.Subtract
   | SyntaxKind.ConstKeyword
@@ -30,6 +34,8 @@ export type TokenSyntaxKind =
   | SyntaxKind.GetKeyword
   | SyntaxKind.SetKeyword
   | SyntaxKind.Comma
+  | SyntaxKind.Multiply
+  | SyntaxKind.YieldKeyword
   | SyntaxKind.Period
   | SyntaxKind.ExtendsKeyword
   | SyntaxKind.QuestionMarkPeriod
@@ -37,6 +43,14 @@ export type TokenSyntaxKind =
   | SyntaxKind.NumericLiteral
   | SyntaxKind.StaticKeyword
   | SyntaxKind.StringLiteral
+  | SyntaxKind.NewKeyword
+  | SyntaxKind.AsKeyword
+  | SyntaxKind.Decorator
+  | SyntaxKind.FromKeyword
+  | SyntaxKind.SuperKeyword
+  | SyntaxKind.TemplateTail
+  | SyntaxKind.TemplateSpan
+  | SyntaxKind.ImportKeyword
   | SyntaxKind.ThisKeyword
   | SyntaxKind.NullKeyword
   | SyntaxKind.BooleanLiteral
@@ -92,6 +106,7 @@ export type TokenSyntaxKind =
   | SyntaxKind.OpaqueKeyword
   | SyntaxKind.ExportKeyword
   | SyntaxKind.SymbolKeyword
+  | SyntaxKind.RegularExpression
   | SyntaxKind.Multiply
   | SyntaxKind.AsyncKeyword
   | SyntaxKind.Identifier;
@@ -99,6 +114,7 @@ export type TokenSyntaxKind =
 export function createToken<T extends TokenSyntaxKind>(tokenKind: T, start: number, end: number): SyntaxToken<T> {
   return {
     kind: tokenKind,
+    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

@@ -26,6 +26,14 @@ import { FormalParameterList } from './formal-parameter-list';
 import { TaggedTemplate } from './tagged-template';
 import { TemplateTail } from './template-tail';
 import { TemplateExpression } from './template-expression';
+import { DummyIdentifier } from '../internal/dummy-identifier';
+import { OptionalChain } from '../expressions/optional-chain';
+import { IndexExpressionChain } from '../expressions/index-expr-chain';
+import { MemberAccessChain } from '../expressions/member-access-chain';
+import { CallChain } from '../expressions/call-chain';
+import { PropertyDefinition } from '../expressions/property-definition';
+import { PropertyDefinitionList } from '../expressions/property-definition-list';
+import { OptionalExpression } from '../expressions/optional-expr';
 
 /**
  * The set of all syntax items which are expressions.
@@ -58,4 +66,12 @@ export type ExpressionNode =
   | BinaryExpression
   | ComputedPropertyName
   | ArrayBindingElement
+  | DummyIdentifier
+  | PropertyDefinition
+  | PropertyDefinitionList
+  | OptionalChain
+  | IndexExpressionChain
+  | MemberAccessChain
+  | CallChain
+  | OptionalExpression
   | MemberAccessExpression;

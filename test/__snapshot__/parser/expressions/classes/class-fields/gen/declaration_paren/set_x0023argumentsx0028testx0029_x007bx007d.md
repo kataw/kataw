@@ -1,0 +1,179 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: declaration_paren
+> :: case: set #arguments(test) {}
+## Input
+
+`````js
+(class extends Base { set #arguments(test) {} });
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 189,
+                    "decorators": null,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": {
+                        "kind": 279,
+                        "expression": {
+                            "kind": 81921,
+                            "value": "Base",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 14,
+                            "end": 19
+                        },
+                        "typeParameter": null,
+                        "flags": 128,
+                        "start": 14,
+                        "end": 19
+                    },
+                    "members": {
+                        "kind": 277,
+                        "elements": [
+                            {
+                                "kind": 278,
+                                "decorators": null,
+                                "staticToken": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 67125499,
+                                        "text": "#arguments",
+                                        "flags": 768,
+                                        "start": 25,
+                                        "end": 36
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 215,
+                                                "ellipsisToken": null,
+                                                "binding": {
+                                                    "kind": 81921,
+                                                    "value": "test",
+                                                    "autofix": 0,
+                                                    "flags": 768,
+                                                    "start": 37,
+                                                    "end": 41
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": null,
+                                                "autofix": 0,
+                                                "flags": 256,
+                                                "start": 37,
+                                                "end": 41
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 37,
+                                        "end": 42
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "statements": [],
+                                            "multiline": false,
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 44,
+                                            "end": 44
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 42,
+                                        "end": 45
+                                    },
+                                    "autofix": 0,
+                                    "flags": 4096,
+                                    "start": 36,
+                                    "end": 45
+                                },
+                                "flags": 256,
+                                "start": 21,
+                                "end": 45
+                            }
+                        ],
+                        "flags": 256,
+                        "start": 21,
+                        "end": 47
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 47
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 48
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 49
+        }
+    ],
+    "isModule": false,
+    "text": "(class extends Base { set #arguments(test) {} });",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 49
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: declaration_paren
+> :: case: set #arguments(test) {}
+## Input
+
+`````js
+(class extends Base { set #arguments(test) {} });
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: declaration_paren
+> :: case: set #arguments(test) {}
+## Input
+
+`````js
+(class extends Base { set #arguments(test) {} });
+`````
+```
+

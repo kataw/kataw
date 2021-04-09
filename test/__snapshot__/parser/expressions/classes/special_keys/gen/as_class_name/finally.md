@@ -1,0 +1,146 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: finally
+## Input
+
+`````js
+class finally {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 178,
+            "decorators": null,
+            "name": null,
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 0,
+                "end": 0
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 159,
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 5,
+                    "end": 5
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 5,
+                "end": 5
+            },
+            "catchClause": null,
+            "finallyBlock": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "autofix": 0,
+                    "flags": 128,
+                    "start": 15,
+                    "end": 15
+                },
+                "autofix": 0,
+                "flags": 128,
+                "start": 13,
+                "end": 16
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 5,
+            "end": 16
+        }
+    ],
+    "isModule": false,
+    "text": "class finally {}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 5,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 5,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 5,
+            "end": 13
+        }
+    ],
+    "start": 0,
+    "end": 16
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: finally
+## Input
+
+`````js
+class finally {}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: finally
+## Input
+
+`````js
+class finally {}
+`````
+```
+

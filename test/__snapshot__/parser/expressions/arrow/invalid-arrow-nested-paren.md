@@ -1,0 +1,239 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+([(x().foo)]) => x;
+
+({[foo]: bar()}) => baz;
+
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 119,
+                        "elementList": {
+                            "kind": 270,
+                            "elements": [
+                                {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 129,
+                                        "member": {
+                                            "kind": 131,
+                                            "expression": {
+                                                "kind": 81921,
+                                                "value": "x",
+                                                "autofix": 0,
+                                                "flags": 768,
+                                                "start": 3,
+                                                "end": 4
+                                            },
+                                            "argumentList": {
+                                                "kind": 256,
+                                                "elements": [],
+                                                "trailingComma": false,
+                                                "autofix": 0,
+                                                "flags": 256,
+                                                "start": 5,
+                                                "end": 5
+                                            },
+                                            "flags": 256,
+                                            "start": 2,
+                                            "end": 6
+                                        },
+                                        "expression": {
+                                            "kind": 81921,
+                                            "value": "foo",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 7,
+                                            "end": 10
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 2,
+                                        "end": 10
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 2,
+                                    "end": 11
+                                }
+                            ],
+                            "trailingComma": false,
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 2,
+                            "end": 11
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 1,
+                        "end": 12
+                    }
+                ],
+                "asyncToken": false,
+                "returnType": null,
+                "contents": {
+                    "kind": 81921,
+                    "value": "x",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 16,
+                    "end": 18
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 18
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 219,
+                                    "left": {
+                                        "kind": 131,
+                                        "expression": {
+                                            "kind": 81921,
+                                            "value": "bar",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 29,
+                                            "end": 33
+                                        },
+                                        "argumentList": {
+                                            "kind": 256,
+                                            "elements": [],
+                                            "trailingComma": false,
+                                            "autofix": 0,
+                                            "flags": 256,
+                                            "start": 34,
+                                            "end": 34
+                                        },
+                                        "flags": 256,
+                                        "start": 23,
+                                        "end": 35
+                                    },
+                                    "right": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 81921,
+                                            "value": "foo",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 24,
+                                            "end": 27
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 23,
+                                        "end": 28
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 35
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 23,
+                            "end": 35
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 22,
+                        "end": 36
+                    }
+                ],
+                "asyncToken": false,
+                "returnType": null,
+                "contents": {
+                    "kind": 81921,
+                    "value": "baz",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 40,
+                    "end": 44
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 19,
+                "end": 44
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 19,
+            "end": 45
+        }
+    ],
+    "isModule": false,
+    "text": "([(x().foo)]) => x;\n\n({[foo]: bar()}) => baz;\n",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 31,
+            "error": "The left hand side of the arrow is not destructible ",
+            "start": 13,
+            "end": 16
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 31,
+            "error": "The left hand side of the arrow is not destructible ",
+            "start": 37,
+            "end": 40
+        }
+    ],
+    "start": 0,
+    "end": 46
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

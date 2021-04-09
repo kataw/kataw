@@ -1,0 +1,140 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: yield
+>          x
+## Input
+
+`````js
+for (yield
+x in x) ;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 165,
+            "initializer": {
+                "kind": 81921,
+                "value": "yield",
+                "autofix": 0,
+                "flags": 768,
+                "start": 5,
+                "end": 10
+            },
+            "condition": null,
+            "incrementor": {
+                "kind": 198,
+                "left": {
+                    "kind": 81921,
+                    "value": "x",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 10,
+                    "end": 12
+                },
+                "operatorToken": {
+                    "kind": 21006388,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 12,
+                    "end": 15
+                },
+                "right": {
+                    "kind": 81921,
+                    "value": "x",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 15,
+                    "end": 17
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 10,
+                "end": 17
+            },
+            "statement": {
+                "kind": 168,
+                "autofix": 0,
+                "flags": 128,
+                "start": 18,
+                "end": 20
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "text": "for (yield\nx in x) ;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 10,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        }
+    ],
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: yield
+>          x
+## Input
+
+`````js
+for (yield
+x in x) ;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: yield
+>          x
+## Input
+
+`````js
+for (yield
+x in x) ;
+`````
+```
+

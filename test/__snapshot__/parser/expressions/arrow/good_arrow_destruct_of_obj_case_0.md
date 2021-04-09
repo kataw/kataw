@@ -1,0 +1,131 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+({a:b,...obj}) => {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 219,
+                                    "left": {
+                                        "kind": 81921,
+                                        "value": "b",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    "right": {
+                                        "kind": 81921,
+                                        "value": "a",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 2,
+                                    "end": 5
+                                },
+                                {
+                                    "kind": 224,
+                                    "argument": {
+                                        "kind": 81921,
+                                        "value": "obj",
+                                        "autofix": 0,
+                                        "flags": 768,
+                                        "start": 9,
+                                        "end": 12
+                                    },
+                                    "autofix": 0,
+                                    "flags": 256,
+                                    "start": 6,
+                                    "end": 12
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "autofix": 0,
+                            "flags": 0,
+                            "start": 2,
+                            "end": 12
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 1,
+                        "end": 13
+                    }
+                ],
+                "asyncToken": false,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "statements": [],
+                        "multiline": false,
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 17,
+                    "end": 20
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 20
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "text": "({a:b,...obj}) => {}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

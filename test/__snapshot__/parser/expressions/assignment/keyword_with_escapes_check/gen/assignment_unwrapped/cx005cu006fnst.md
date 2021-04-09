@@ -1,0 +1,111 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment unwrapped
+> :: case: c\u006fnst
+## Input
+
+`````js
+c\u006fnst = x;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 162,
+            "binding": {
+                "kind": 151,
+                "bindingList": [],
+                "autofix": 0,
+                "flags": 160,
+                "start": 10,
+                "end": 10
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 12,
+                "end": 14
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 12,
+            "end": 15
+        }
+    ],
+    "isModule": false,
+    "text": "c\\u006fnst = x;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 10,
+            "end": 12
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 10,
+            "end": 12
+        }
+    ],
+    "start": 0,
+    "end": 15
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment unwrapped
+> :: case: c\u006fnst
+## Input
+
+`````js
+c\u006fnst = x;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment unwrapped
+> :: case: c\u006fnst
+## Input
+
+`````js
+c\u006fnst = x;
+`````
+```
+

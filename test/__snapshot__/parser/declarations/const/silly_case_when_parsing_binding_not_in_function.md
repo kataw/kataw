@@ -1,0 +1,107 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+const foo,)
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 162,
+            "binding": {
+                "kind": 151,
+                "bindingList": [
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 81921,
+                            "value": "foo",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 5,
+                            "end": 9
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 5,
+                        "end": 9
+                    }
+                ],
+                "autofix": 0,
+                "flags": 160,
+                "start": 5,
+                "end": 10
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
+    "text": "const foo,)",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 13,
+            "error": "Missing initializer in const declaration",
+            "start": 9,
+            "end": 10
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 10,
+            "end": 11
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 10,
+            "end": 11
+        }
+    ],
+    "start": 0,
+    "end": 11
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

@@ -1,0 +1,175 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: var [...await f] = [];
+## Input
+
+`````js
+var [...await f] = [];
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 155,
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 202,
+                                "elements": [
+                                    {
+                                        "kind": 244,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "autofix": 0,
+                                            "flags": 0,
+                                            "start": 5,
+                                            "end": 8
+                                        },
+                                        "binding": {
+                                            "kind": 81921,
+                                            "value": "await",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 8,
+                                            "end": 13
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 5,
+                                        "end": 13
+                                    },
+                                    {
+                                        "kind": 244,
+                                        "ellipsisToken": null,
+                                        "binding": {
+                                            "kind": 81921,
+                                            "value": "f",
+                                            "autofix": 0,
+                                            "flags": 768,
+                                            "start": 13,
+                                            "end": 15
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 13,
+                                        "end": 15
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 5,
+                                "end": 15
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 3,
+                            "end": 16
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 119,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [],
+                                "trailingComma": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 18,
+                            "end": 21
+                        },
+                        "autofix": 0,
+                        "flags": 128,
+                        "start": 3,
+                        "end": 21
+                    }
+                ],
+                "autofix": 0,
+                "flags": 128,
+                "start": 3,
+                "end": 21
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
+    "text": "var [...await f] = [];",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 13,
+            "end": 15
+        }
+    ],
+    "start": 0,
+    "end": 22
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: var [...await f] = [];
+## Input
+
+`````js
+var [...await f] = [];
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: var [...await f] = [];
+## Input
+
+`````js
+var [...await f] = [];
+`````
+```
+

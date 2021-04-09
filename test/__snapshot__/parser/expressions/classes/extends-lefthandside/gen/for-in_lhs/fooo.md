@@ -1,0 +1,94 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: fooo
+## Input
+
+`````js
+for (fooo in x) ;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 166,
+            "initializer": {
+                "kind": 81921,
+                "value": "fooo",
+                "autofix": 0,
+                "flags": 768,
+                "start": 5,
+                "end": 9
+            },
+            "expression": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 12,
+                "end": 14
+            },
+            "statement": {
+                "kind": 168,
+                "autofix": 0,
+                "flags": 128,
+                "start": 15,
+                "end": 17
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": false,
+    "text": "for (fooo in x) ;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 17
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: fooo
+## Input
+
+`````js
+for (fooo in x) ;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: fooo
+## Input
+
+`````js
+for (fooo in x) ;
+`````
+```
+

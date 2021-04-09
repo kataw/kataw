@@ -1,0 +1,98 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+[...yield]
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+### Printer Options
+
+`````js
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 119,
+                "elementList": {
+                    "kind": 270,
+                    "elements": [
+                        {
+                            "kind": 223,
+                            "argument": {
+                                "kind": 81921,
+                                "value": "yield",
+                                "autofix": 0,
+                                "flags": 768,
+                                "start": 4,
+                                "end": 9
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 1,
+                            "end": 9
+                        }
+                    ],
+                    "trailingComma": false,
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 1,
+                    "end": 9
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 10
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
+    "text": "[...yield]",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 10
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

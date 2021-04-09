@@ -1,0 +1,89 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: `await;
+## Input
+
+`````js
+`await;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 458761,
+                "rawText": "",
+                "text": "await;",
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 7
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 7
+        }
+    ],
+    "isModule": false,
+    "text": "`await;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 0,
+            "end": 7
+        }
+    ],
+    "start": 0,
+    "end": 7
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: `await;
+## Input
+
+`````js
+`await;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: simple
+> :: case: `await;
+## Input
+
+`````js
+`await;
+`````
+```
+

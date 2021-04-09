@@ -1,0 +1,108 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment paren wrapped
+> :: case: \u0070ackage
+## Input
+
+`````js
+(\u0070ackage = x);
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 125,
+                    "left": {
+                        "kind": 81921,
+                        "value": "package",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 1,
+                        "end": 13
+                    },
+                    "operatorToken": {
+                        "kind": 81921,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 0,
+                        "end": 15
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "value": "x",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 0,
+                    "end": 17
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 18
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "text": "(\\u0070ackage = x);",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 19
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment paren wrapped
+> :: case: \u0070ackage
+## Input
+
+`````js
+(\u0070ackage = x);
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: assignment paren wrapped
+> :: case: \u0070ackage
+## Input
+
+`````js
+(\u0070ackage = x);
+`````
+```
+

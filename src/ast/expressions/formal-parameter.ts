@@ -5,6 +5,7 @@ import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
 import { Identifier } from './identifier-expr';
 import { TypeNode } from '../types';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 
 /**
  * Formal parameter
@@ -12,7 +13,7 @@ import { TypeNode } from '../types';
 
 export interface FormalParameter extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly binding: ObjectBindingPattern | ArrayBindingPattern | Identifier;
+  readonly binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly type: TypeNode | null;
   readonly initializer: ExpressionNode | null;
@@ -20,7 +21,7 @@ export interface FormalParameter extends SyntaxNode {
 
 export function createFormalParameter(
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
-  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier,
+  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   type: TypeNode | null,
   initializer: ExpressionNode | null,

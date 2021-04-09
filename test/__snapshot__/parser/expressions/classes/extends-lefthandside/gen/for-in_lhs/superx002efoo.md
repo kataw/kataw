@@ -1,0 +1,117 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: super.foo
+## Input
+
+`````js
+for (super.foo in x) ;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 166,
+            "initializer": {
+                "kind": 129,
+                "member": {
+                    "kind": 225,
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 5,
+                    "end": 10
+                },
+                "expression": {
+                    "kind": 81921,
+                    "value": "foo",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 11,
+                    "end": 14
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 5,
+                "end": 14
+            },
+            "expression": {
+                "kind": 81921,
+                "value": "x",
+                "autofix": 0,
+                "flags": 768,
+                "start": 17,
+                "end": 19
+            },
+            "statement": {
+                "kind": 168,
+                "autofix": 0,
+                "flags": 128,
+                "start": 20,
+                "end": 22
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 22
+        }
+    ],
+    "isModule": false,
+    "text": "for (super.foo in x) ;",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 73,
+            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
+            "start": 10,
+            "end": 11
+        }
+    ],
+    "start": 0,
+    "end": 22
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: super.foo
+## Input
+
+`````js
+for (super.foo in x) ;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: for-in lhs
+> :: case: super.foo
+## Input
+
+`````js
+for (super.foo in x) ;
+`````
+```
+

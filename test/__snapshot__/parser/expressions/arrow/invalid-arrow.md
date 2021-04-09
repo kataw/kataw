@@ -1,0 +1,180 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+x = (a)?c:d=>{}=>{}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 81921,
+                    "value": "x",
+                    "autofix": 0,
+                    "flags": 768,
+                    "start": 0,
+                    "end": 1
+                },
+                "operatorToken": {
+                    "kind": 537067531,
+                    "autofix": 0,
+                    "flags": 0,
+                    "start": 0,
+                    "end": 3
+                },
+                "right": {
+                    "kind": 197,
+                    "shortCircuit": {
+                        "kind": 121,
+                        "expression": {
+                            "kind": 81921,
+                            "value": "a",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 5,
+                            "end": 6
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 3,
+                        "end": 7
+                    },
+                    "questionToken": {
+                        "kind": 22,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 8
+                    },
+                    "consequent": {
+                        "kind": 81921,
+                        "value": "c",
+                        "autofix": 0,
+                        "flags": 768,
+                        "start": 8,
+                        "end": 9
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "autofix": 0,
+                        "flags": 0,
+                        "start": 9,
+                        "end": 10
+                    },
+                    "alternate": {
+                        "kind": 271,
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 81921,
+                            "value": "d",
+                            "autofix": 0,
+                            "flags": 768,
+                            "start": 10,
+                            "end": 11
+                        },
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "statements": [],
+                                "multiline": false,
+                                "autofix": 0,
+                                "flags": 256,
+                                "start": 14,
+                                "end": 14
+                            },
+                            "autofix": 0,
+                            "flags": 256,
+                            "start": 13,
+                            "end": 15
+                        },
+                        "autofix": 0,
+                        "flags": 256,
+                        "start": 10,
+                        "end": 15
+                    },
+                    "autofix": 0,
+                    "flags": 256,
+                    "start": 3,
+                    "end": 15
+                },
+                "autofix": 0,
+                "flags": 256,
+                "start": 0,
+                "end": 15
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "autofix": 0,
+                "flags": 128,
+                "start": 18,
+                "end": 18
+            },
+            "autofix": 0,
+            "flags": 128,
+            "start": 17,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "text": "x = (a)?c:d=>{}=>{}",
+    "fileName": "__root__",
+    "autofix": 0,
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 15,
+            "end": 17
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 15,
+            "end": 17
+        }
+    ],
+    "start": 0,
+    "end": 19
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+
