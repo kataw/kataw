@@ -14,13 +14,14 @@ f(async
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,
@@ -48,7 +49,7 @@ f(async
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 768,

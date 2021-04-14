@@ -16,13 +16,14 @@ x ? ( (a, {}) => {} ) : baz;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -49,7 +50,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "parameters": [
                             [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -57,7 +58,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     "end": 8
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -80,7 +81,7 @@ x ? ( (a, {}) => {} ) : baz;
                             "parameters": [
                                 [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 768,
@@ -88,7 +89,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 18
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 768,
@@ -104,7 +105,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "left": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -118,7 +119,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 28
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 768,
@@ -138,7 +139,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "right": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -152,7 +153,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 34
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 768,
@@ -186,7 +187,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 39
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 768,
@@ -206,7 +207,7 @@ x ? ( (a, {}) => {} ) : baz;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -236,7 +237,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "parameters": [
                                     [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -244,7 +245,7 @@ x ? ( (a, {}) => {} ) : baz;
                                             "end": 53
                                         },
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -256,7 +257,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "asyncToken": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
@@ -279,7 +280,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "parameters": [
                                     [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 768,
@@ -287,7 +288,7 @@ x ? ( (a, {}) => {} ) : baz;
                                             "end": 66
                                         },
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 768,
@@ -299,7 +300,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "asyncToken": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -326,7 +327,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 79
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 768,
@@ -346,7 +347,7 @@ x ? ( (a, {}) => {} ) : baz;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -367,7 +368,7 @@ x ? ( (a, {}) => {} ) : baz;
                             "kind": 132,
                             "expressions": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -380,7 +381,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "kind": 132,
                                         "expressions": [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -399,7 +400,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "parameters": [
                                                     [
                                                         {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -407,7 +408,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                             "end": 101
                                                         },
                                                         {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,
@@ -419,7 +420,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "asyncToken": null,
                                                 "returnType": null,
                                                 "contents": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": 0,
                                                     "rawText": "0",
                                                     "flags": 768,
@@ -459,7 +460,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 116
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 768,
@@ -479,7 +480,7 @@ x ? ( (a, {}) => {} ) : baz;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -506,7 +507,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "parameters": [
                             [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -562,7 +563,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 145
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 768,

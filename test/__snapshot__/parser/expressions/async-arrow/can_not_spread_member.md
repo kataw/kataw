@@ -13,6 +13,7 @@ async ([...x.y]) => z
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -34,7 +35,7 @@ async ([...x.y]) => z
                                 "argument": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -42,7 +43,7 @@ async ([...x.y]) => z
                                         "end": 12
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -77,7 +78,7 @@ async ([...x.y]) => z
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "z",
                 "rawText": "z",
                 "flags": 768,

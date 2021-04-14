@@ -35,7 +35,7 @@ async async => ok`foo`
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
                             "flags": 768,
@@ -60,7 +60,7 @@ async async => ok`foo`
                 "contents": {
                     "kind": 226,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,

@@ -26,7 +26,7 @@ foo(async (x, y) => ok).bar
                 "member": {
                     "kind": 131,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -47,7 +47,7 @@ foo(async (x, y) => ok).bar
                                 "typeParameters": null,
                                 "parameters": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -55,7 +55,7 @@ foo(async (x, y) => ok).bar
                                         "end": 12
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -71,7 +71,7 @@ foo(async (x, y) => ok).bar
                                 },
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "ok",
                                     "rawText": "ok",
                                     "flags": 768,
@@ -93,7 +93,7 @@ foo(async (x, y) => ok).bar
                     "end": 23
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,

@@ -30,7 +30,7 @@ function f(a = async (x, y) => ok) {}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -44,7 +44,7 @@ function f(a = async (x, y) => ok) {}
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -64,7 +64,7 @@ function f(a = async (x, y) => ok) {}
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -72,7 +72,7 @@ function f(a = async (x, y) => ok) {}
                                     "end": 23
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -88,7 +88,7 @@ function f(a = async (x, y) => ok) {}
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 768,

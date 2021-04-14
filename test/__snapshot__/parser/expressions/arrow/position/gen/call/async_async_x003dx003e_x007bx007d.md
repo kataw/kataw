@@ -35,7 +35,7 @@ async async => {}()
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
                             "flags": 768,

@@ -14,6 +14,7 @@ g => await g
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -29,7 +30,7 @@ g => await g
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -39,7 +40,7 @@ g => await g
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
                             "flags": 768,
@@ -53,7 +54,7 @@ g => await g
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "g",
                             "rawText": "g",
                             "flags": 768,
@@ -79,7 +80,7 @@ g => await g
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "await",
                 "rawText": "await",
                 "flags": 768,
@@ -93,7 +94,7 @@ g => await g
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,

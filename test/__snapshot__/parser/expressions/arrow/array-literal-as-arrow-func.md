@@ -30,7 +30,7 @@
                                     {
                                         "kind": 205,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -38,7 +38,7 @@
                                             "end": 3
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 768,
@@ -77,7 +77,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "z",
                 "rawText": "z",
                 "flags": 768,

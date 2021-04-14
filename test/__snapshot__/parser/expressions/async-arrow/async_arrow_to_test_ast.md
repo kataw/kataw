@@ -13,6 +13,7 @@ let f = a + b + async()=>d
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -28,7 +29,7 @@ let f = a + b + async()=>d
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -42,7 +43,7 @@ let f = a + b + async()=>d
                             "left": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -56,7 +57,7 @@ let f = a + b + async()=>d
                                     "end": 11
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -91,7 +92,7 @@ let f = a + b + async()=>d
                                 },
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 768,

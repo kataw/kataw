@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,7 +29,7 @@
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -39,7 +40,7 @@
                             "kind": 215,
                             "ellipsisToken": null,
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -50,7 +51,7 @@
                             "type": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 16619,
+                                    "kind": 134234347,
                                     "flags": 768,
                                     "start": 6,
                                     "end": 13
@@ -70,7 +71,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

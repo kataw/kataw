@@ -13,11 +13,12 @@ async("foo".bar) => x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 131,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -30,7 +31,7 @@ async("foo".bar) => x
                     {
                         "kind": 129,
                         "member": {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -38,7 +39,7 @@ async("foo".bar) => x
                             "end": 11
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 768,
@@ -63,7 +64,7 @@ async("foo".bar) => x
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

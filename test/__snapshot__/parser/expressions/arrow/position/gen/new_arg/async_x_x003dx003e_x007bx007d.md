@@ -24,7 +24,7 @@ new async x => {}
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 0,
                     "end": 3
@@ -43,7 +43,7 @@ new async x => {}
                             "kind": 215,
                             "ellipsisToken": null,
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,

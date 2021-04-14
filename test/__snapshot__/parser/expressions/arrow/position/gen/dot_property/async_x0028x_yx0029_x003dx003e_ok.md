@@ -30,7 +30,7 @@ async (x, y) => ok.x
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -38,7 +38,7 @@ async (x, y) => ok.x
                     "end": 8
                 },
                 {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -56,7 +56,7 @@ async (x, y) => ok.x
             "contents": {
                 "kind": 129,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "ok",
                     "rawText": "ok",
                     "flags": 768,
@@ -64,7 +64,7 @@ async (x, y) => ok.x
                     "end": 18
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

@@ -14,6 +14,7 @@ let f = async
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -29,7 +30,7 @@ let f = async
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -49,7 +50,7 @@ let f = async
                             "typeParameters": null,
                             "parameters": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 768,
@@ -65,7 +66,7 @@ let f = async
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,

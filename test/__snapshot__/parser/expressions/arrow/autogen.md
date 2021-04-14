@@ -426,7 +426,7 @@ x = # ;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -473,7 +473,7 @@ x = # ;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "baz",
                 "rawText": "baz",
                 "flags": 768,

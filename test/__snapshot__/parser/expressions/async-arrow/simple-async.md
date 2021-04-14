@@ -13,6 +13,7 @@ async (x, ...a)=>0;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -25,7 +26,7 @@ async (x, ...a)=>0;
             "typeParameters": null,
             "parameters": [
                 {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -47,7 +48,7 @@ async (x, ...a)=>0;
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,

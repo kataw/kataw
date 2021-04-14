@@ -13,6 +13,7 @@ async ({ident: {x}}) => x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -37,7 +38,7 @@ async ({ident: {x}}) => x
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -56,7 +57,7 @@ async ({ident: {x}}) => x
                                     "end": 18
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "ident",
                                     "rawText": "ident",
                                     "flags": 768,
@@ -87,7 +88,7 @@ async ({ident: {x}}) => x
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

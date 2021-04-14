@@ -15,6 +15,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -36,7 +37,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -44,7 +45,7 @@
                                         "end": 3
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -70,7 +71,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -108,7 +109,7 @@
                                     {
                                         "kind": 205,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -116,7 +117,7 @@
                                             "end": 18
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 768,
@@ -142,7 +143,7 @@
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 22,
                                 "end": 29
@@ -161,7 +162,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,

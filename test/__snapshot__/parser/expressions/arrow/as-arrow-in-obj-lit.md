@@ -15,13 +15,14 @@ x = {arrow: (x, y) => ok};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -52,7 +53,7 @@ x = {arrow: (x, y) => ok};
                                     "typeParameters": null,
                                     "parameters": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -63,7 +64,7 @@ x = {arrow: (x, y) => ok};
                                     "asyncToken": null,
                                     "returnType": null,
                                     "contents": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "ok",
                                         "rawText": "ok",
                                         "flags": 768,
@@ -75,7 +76,7 @@ x = {arrow: (x, y) => ok};
                                     "end": 21
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 768,
@@ -110,7 +111,7 @@ x = {arrow: (x, y) => ok};
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -142,7 +143,7 @@ x = {arrow: (x, y) => ok};
                                     "parameters": [
                                         [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -150,7 +151,7 @@ x = {arrow: (x, y) => ok};
                                                 "end": 39
                                             },
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 768,
@@ -162,7 +163,7 @@ x = {arrow: (x, y) => ok};
                                     "asyncToken": null,
                                     "returnType": null,
                                     "contents": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "ok",
                                         "rawText": "ok",
                                         "flags": 768,
@@ -174,7 +175,7 @@ x = {arrow: (x, y) => ok};
                                     "end": 49
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 768,

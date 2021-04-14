@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -31,7 +32,7 @@
                 "contents": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -47,7 +48,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -63,7 +64,7 @@
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 768,
@@ -77,7 +78,7 @@
                                 "end": 21
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,

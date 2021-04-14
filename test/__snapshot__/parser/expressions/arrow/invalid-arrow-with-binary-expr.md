@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,7 +22,7 @@
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "localVar",
                         "rawText": "localVar",
                         "flags": 768,
@@ -35,7 +36,7 @@
                         "end": 12
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "defaultValue",
                         "rawText": "defaultValue",
                         "flags": 768,

@@ -13,13 +13,14 @@ f(((a) => a + b)(1, 4), 5);
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,
@@ -44,7 +45,7 @@ f(((a) => a + b)(1, 4), 5);
                                     "typeParameters": null,
                                     "parameters": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -57,7 +58,7 @@ f(((a) => a + b)(1, 4), 5);
                                     "contents": {
                                         "kind": 198,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -71,7 +72,7 @@ f(((a) => a + b)(1, 4), 5);
                                             "end": 13
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -94,7 +95,7 @@ f(((a) => a + b)(1, 4), 5);
                                 "kind": 256,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -102,7 +103,7 @@ f(((a) => a + b)(1, 4), 5);
                                         "end": 18
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 768,
@@ -120,7 +121,7 @@ f(((a) => a + b)(1, 4), 5);
                             "end": 22
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 5,
                             "rawText": "5",
                             "flags": 768,

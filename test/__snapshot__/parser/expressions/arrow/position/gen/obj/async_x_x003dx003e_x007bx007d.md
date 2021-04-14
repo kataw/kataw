@@ -24,7 +24,7 @@ x = {arrow: async x => {}}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -58,7 +58,7 @@ x = {arrow: async x => {}}
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -100,7 +100,7 @@ x = {arrow: async x => {}}
                                     "end": 25
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 768,

@@ -13,11 +13,12 @@ async ({ident: [foo, bar].join("")}) => x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 131,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -44,7 +45,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                     "kind": 270,
                                                     "elements": [
                                                         {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 768,
@@ -52,7 +53,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                             "end": 19
                                                         },
                                                         {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 768,
@@ -70,7 +71,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "end": 25
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "join",
                                                 "rawText": "join",
                                                 "flags": 768,
@@ -86,7 +87,7 @@ async ({ident: [foo, bar].join("")}) => x
                                             "kind": 256,
                                             "elements": [
                                                 {
-                                                    "kind": 67174403,
+                                                    "kind": 201392131,
                                                     "text": "",
                                                     "rawText": "",
                                                     "flags": 768,
@@ -104,7 +105,7 @@ async ({ident: [foo, bar].join("")}) => x
                                         "end": 34
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 768,
@@ -139,7 +140,7 @@ async ({ident: [foo, bar].join("")}) => x
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

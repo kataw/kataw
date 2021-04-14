@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,7 +29,7 @@
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -36,7 +37,7 @@
                             "end": 2
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -59,7 +60,7 @@
                     "parameters": [
                         [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 768,
@@ -67,7 +68,7 @@
                                 "end": 12
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 768,
@@ -83,7 +84,7 @@
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -97,7 +98,7 @@
                                 "end": 22
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 768,
@@ -117,7 +118,7 @@
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -131,7 +132,7 @@
                                 "end": 28
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 768,

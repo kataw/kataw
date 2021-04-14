@@ -8,6 +8,25 @@ x.name = "hello";
 var z = x + x;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+### Printer Options
+
+`````js
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true
+}
+`````
+
 ## Output
 
 ### Hybrid CST
@@ -193,12 +212,12 @@ var z = x + x;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

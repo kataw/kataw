@@ -13,6 +13,7 @@ export default async (x) => y
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 258,
@@ -39,7 +40,7 @@ export default async (x) => y
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -55,7 +56,7 @@ export default async (x) => y
                 },
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,

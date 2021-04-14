@@ -13,11 +13,12 @@ async: foo
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 163,
             "label": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -27,7 +28,7 @@ async: foo
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,

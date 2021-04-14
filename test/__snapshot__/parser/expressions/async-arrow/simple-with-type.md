@@ -13,6 +13,7 @@ async (s: any) => x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -28,7 +29,7 @@ async (s: any) => x
                     "kind": 215,
                     "ellipsisToken": null,
                     "binding": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "s",
                         "rawText": "s",
                         "flags": 768,
@@ -39,7 +40,7 @@ async (s: any) => x
                     "type": {
                         "kind": 139,
                         "type": {
-                            "kind": 16524,
+                            "kind": 134234252,
                             "flags": 768,
                             "start": 9,
                             "end": 13
@@ -63,7 +64,7 @@ async (s: any) => x
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

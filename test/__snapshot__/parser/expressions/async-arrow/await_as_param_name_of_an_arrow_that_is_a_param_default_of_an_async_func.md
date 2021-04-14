@@ -13,6 +13,7 @@ async(a = (await) => {}) => {};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -27,7 +28,7 @@ async(a = (await) => {}) => {};
                 {
                     "kind": 125,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -51,7 +52,7 @@ async(a = (await) => {}) => {};
                         "typeParameters": null,
                         "parameters": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 768,

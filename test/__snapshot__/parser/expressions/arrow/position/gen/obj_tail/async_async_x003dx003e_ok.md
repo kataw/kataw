@@ -24,7 +24,7 @@ x = {arrow: async async => ok}.y
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -60,7 +60,7 @@ x = {arrow: async async => ok}.y
                                                 "kind": 215,
                                                 "ellipsisToken": null,
                                                 "binding": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "async",
                                                     "rawText": "async",
                                                     "flags": 768,
@@ -83,7 +83,7 @@ x = {arrow: async async => ok}.y
                                         },
                                         "returnType": null,
                                         "contents": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "ok",
                                             "rawText": "ok",
                                             "flags": 768,
@@ -95,7 +95,7 @@ x = {arrow: async async => ok}.y
                                         "end": 29
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 768,
@@ -118,7 +118,7 @@ x = {arrow: async async => ok}.y
                         "end": 30
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,

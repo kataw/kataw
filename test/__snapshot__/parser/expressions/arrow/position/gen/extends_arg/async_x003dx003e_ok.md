@@ -29,7 +29,7 @@ class A extends async => ok {}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -59,7 +59,7 @@ class A extends async => ok {}
                             "kind": 215,
                             "ellipsisToken": null,
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 768,
@@ -82,7 +82,7 @@ class A extends async => ok {}
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,

@@ -24,7 +24,7 @@ new x => ok
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 0,
                     "end": 3
@@ -39,7 +39,7 @@ new x => ok
                     },
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -49,7 +49,7 @@ new x => ok
                     "asyncToken": null,
                     "returnType": null,
                     "contents": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,

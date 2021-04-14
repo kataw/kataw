@@ -14,6 +14,7 @@ async _ => {}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -31,7 +32,7 @@ async _ => {}
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "_",
                             "rawText": "_",
                             "flags": 768,

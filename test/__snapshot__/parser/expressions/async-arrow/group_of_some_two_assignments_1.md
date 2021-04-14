@@ -13,6 +13,7 @@ async (a = 1, b = 2) => x;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -27,7 +28,7 @@ async (a = 1, b = 2) => x;
                 {
                     "kind": 125,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -41,7 +42,7 @@ async (a = 1, b = 2) => x;
                         "end": 10
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 1,
                         "rawText": "1",
                         "flags": 768,
@@ -55,7 +56,7 @@ async (a = 1, b = 2) => x;
                 {
                     "kind": 125,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -69,7 +70,7 @@ async (a = 1, b = 2) => x;
                         "end": 17
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 2,
                         "rawText": "2",
                         "flags": 768,
@@ -89,7 +90,7 @@ async (a = 1, b = 2) => x;
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

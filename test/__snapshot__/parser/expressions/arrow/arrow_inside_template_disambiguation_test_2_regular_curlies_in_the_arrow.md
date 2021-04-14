@@ -44,7 +44,7 @@
                                 },
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -56,7 +56,7 @@
                                 "contents": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,

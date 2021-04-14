@@ -20,7 +20,7 @@ bar ? (=> 0) : baz;
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -49,7 +49,7 @@ bar ? (=> 0) : baz;
                 },
                 "colonToken": null,
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -67,7 +67,7 @@ bar ? (=> 0) : baz;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "baz",
                 "rawText": "baz",
                 "flags": 768,

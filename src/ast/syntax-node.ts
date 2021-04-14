@@ -259,7 +259,7 @@ export const enum SyntaxKind {
   TypeParameter = 146,
   TupleType = 147,
   FunctionType = 148,
-  FunctionTypeParameters = 149,
+  FunctionTypeParameter = 149,
   BreakStatement = 150,
   BindingList = 151,
   CaseBlock = 152,
@@ -387,7 +387,8 @@ export const enum SyntaxKind {
   CallChain = 204,
   OptionalExpression = 205,
   OptionalChain = 206,
-  DecoratorList = 207
+  DecoratorList = 207,
+  FunctionTypeParameterList = 208
 }
 
 export const enum AutoFix {

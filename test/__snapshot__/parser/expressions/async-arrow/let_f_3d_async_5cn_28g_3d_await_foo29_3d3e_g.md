@@ -14,6 +14,7 @@ let f = async
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -29,7 +30,7 @@ let f = async
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -51,7 +52,7 @@ let f = async
                                 {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 768,
@@ -65,7 +66,7 @@ let f = async
                                         "end": 19
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 768,
@@ -77,7 +78,7 @@ let f = async
                                     "end": 25
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -93,7 +94,7 @@ let f = async
                             },
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,

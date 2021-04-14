@@ -24,7 +24,7 @@ x / async (x, y) => ok
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -48,7 +48,7 @@ x / async (x, y) => ok
                     "typeParameters": null,
                     "parameters": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -56,7 +56,7 @@ x / async (x, y) => ok
                             "end": 12
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -72,7 +72,7 @@ x / async (x, y) => ok
                     },
                     "returnType": null,
                     "contents": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,

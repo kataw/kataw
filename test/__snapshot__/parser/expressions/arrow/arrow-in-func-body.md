@@ -17,6 +17,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -33,7 +34,7 @@
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -68,7 +69,7 @@
                                             },
                                             "typeParameters": null,
                                             "parameters": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 768,
@@ -143,7 +144,7 @@
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -180,7 +181,7 @@
                                             "parameters": [
                                                 [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 768,
@@ -196,7 +197,7 @@
                                                             "end": 63
                                                         },
                                                         "binding": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -280,7 +281,7 @@
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -321,7 +322,7 @@
                                                         "kind": 270,
                                                         "elements": [
                                                             {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 768,
@@ -407,7 +408,7 @@
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -448,7 +449,7 @@
                                                         "kind": 218,
                                                         "properties": [
                                                             {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 768,
@@ -535,7 +536,7 @@
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -571,7 +572,7 @@
                                             "typeParameters": null,
                                             "parameters": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 768,

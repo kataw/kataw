@@ -15,6 +15,7 @@ async ([a]:string)=>c;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 271,
@@ -30,7 +31,7 @@ async ([a]:string)=>c;
                     "kind": 215,
                     "ellipsisToken": null,
                     "binding": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -41,7 +42,7 @@ async ([a]:string)=>c;
                     "type": {
                         "kind": 139,
                         "type": {
-                            "kind": 16619,
+                            "kind": 134234347,
                             "flags": 768,
                             "start": 9,
                             "end": 15
@@ -65,7 +66,7 @@ async ([a]:string)=>c;
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -101,7 +102,7 @@ async ([a]:string)=>c;
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -122,7 +123,7 @@ async ([a]:string)=>c;
                     "type": {
                         "kind": 139,
                         "type": {
-                            "kind": 16619,
+                            "kind": 134234347,
                             "flags": 768,
                             "start": 33,
                             "end": 39
@@ -146,7 +147,7 @@ async ([a]:string)=>c;
             },
             "returnType": null,
             "contents": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,

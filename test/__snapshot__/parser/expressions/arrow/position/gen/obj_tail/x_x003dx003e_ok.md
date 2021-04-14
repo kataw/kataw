@@ -24,7 +24,7 @@ x = {arrow: x => ok}.y
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -56,7 +56,7 @@ x = {arrow: x => ok}.y
                                         },
                                         "typeParameters": null,
                                         "parameters": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -66,7 +66,7 @@ x = {arrow: x => ok}.y
                                         "asyncToken": null,
                                         "returnType": null,
                                         "contents": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "ok",
                                             "rawText": "ok",
                                             "flags": 768,
@@ -78,7 +78,7 @@ x = {arrow: x => ok}.y
                                         "end": 19
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 768,
@@ -101,7 +101,7 @@ x = {arrow: x => ok}.y
                         "end": 20
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,

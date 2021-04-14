@@ -25,7 +25,7 @@ bar, (interface) => { 'use strict'; 0 };
                 "kind": 132,
                 "expressions": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 768,
@@ -43,7 +43,7 @@ bar, (interface) => { 'use strict'; 0 };
                         "typeParameters": null,
                         "parameters": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "interface",
                                 "rawText": "interface",
                                 "flags": 768,
@@ -59,7 +59,7 @@ bar, (interface) => { 'use strict'; 0 };
                                 "kind": 217,
                                 "directives": [
                                     {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "use strict",
                                         "rawText": "use strict",
                                         "flags": 67109632,
@@ -71,7 +71,7 @@ bar, (interface) => { 'use strict'; 0 };
                                     {
                                         "kind": 120,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,

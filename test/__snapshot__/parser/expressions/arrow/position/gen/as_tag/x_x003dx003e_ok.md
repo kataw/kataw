@@ -31,7 +31,7 @@ x => ok`foo`
                 },
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -43,7 +43,7 @@ x => ok`foo`
                 "contents": {
                     "kind": 226,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,

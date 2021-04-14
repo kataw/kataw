@@ -69,6 +69,7 @@ foo((x, y) => {});
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -85,7 +86,7 @@ foo((x, y) => {});
                     {
                         "kind": 125,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
                             "flags": 768,
@@ -108,7 +109,7 @@ foo((x, y) => {});
                                         "argument": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -116,7 +117,7 @@ foo((x, y) => {});
                                                 "end": 10
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 768,
@@ -150,7 +151,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -194,7 +195,7 @@ foo((x, y) => {});
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -228,7 +229,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -251,7 +252,7 @@ foo((x, y) => {});
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -264,7 +265,7 @@ foo((x, y) => {});
                                 "kind": 132,
                                 "expressions": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -283,7 +284,7 @@ foo((x, y) => {});
                                         "parameters": [
                                             [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -291,7 +292,7 @@ foo((x, y) => {});
                                                     "end": 46
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 768,
@@ -303,7 +304,7 @@ foo((x, y) => {});
                                         "asyncToken": null,
                                         "returnType": null,
                                         "contents": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -363,7 +364,7 @@ foo((x, y) => {});
                     "asyncToken": null,
                     "returnType": null,
                     "contents": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -400,7 +401,7 @@ foo((x, y) => {});
                         "asyncToken": null,
                         "returnType": null,
                         "contents": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -412,7 +413,7 @@ foo((x, y) => {});
                         "end": 81
                     },
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 1,
                         "rawText": "1",
                         "flags": 768,
@@ -445,7 +446,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 131,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f10",
                         "rawText": "f10",
                         "flags": 768,
@@ -463,7 +464,7 @@ foo((x, y) => {});
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 6,
                                                 "rawText": "6",
                                                 "flags": 768,
@@ -471,7 +472,7 @@ foo((x, y) => {});
                                                 "end": 102
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -494,7 +495,7 @@ foo((x, y) => {});
                                 "end": 103
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 768,
@@ -532,7 +533,7 @@ foo((x, y) => {});
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "e",
                         "rawText": "e",
                         "flags": 768,
@@ -543,7 +544,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "test",
                     "rawText": "test",
                     "flags": 768,
@@ -572,7 +573,7 @@ foo((x, y) => {});
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -580,7 +581,7 @@ foo((x, y) => {});
                             "end": 128
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -603,7 +604,7 @@ foo((x, y) => {});
                     "parameters": [
                         [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 768,
@@ -611,7 +612,7 @@ foo((x, y) => {});
                                 "end": 138
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 768,
@@ -627,7 +628,7 @@ foo((x, y) => {});
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -641,7 +642,7 @@ foo((x, y) => {});
                                 "end": 148
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 768,
@@ -661,7 +662,7 @@ foo((x, y) => {});
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -675,7 +676,7 @@ foo((x, y) => {});
                                 "end": 154
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 768,
@@ -707,7 +708,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 156,
                     "end": 161
@@ -776,7 +777,7 @@ foo((x, y) => {});
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -797,7 +798,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -833,7 +834,7 @@ foo((x, y) => {});
                             "asyncToken": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 5,
                                 "rawText": "5",
                                 "flags": 768,
@@ -867,7 +868,7 @@ foo((x, y) => {});
                     "end": 203
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 5,
                     "rawText": "5",
                     "flags": 768,
@@ -887,7 +888,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -913,7 +914,7 @@ foo((x, y) => {});
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -921,7 +922,7 @@ foo((x, y) => {});
                                                 "end": 215
                                             },
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -942,7 +943,7 @@ foo((x, y) => {});
                             "asyncToken": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 768,
@@ -987,7 +988,7 @@ foo((x, y) => {});
                                 {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -1001,7 +1002,7 @@ foo((x, y) => {});
                                         "end": 234
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -1056,7 +1057,7 @@ foo((x, y) => {});
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -1069,7 +1070,7 @@ foo((x, y) => {});
                                 "kind": 132,
                                 "expressions": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -1088,7 +1089,7 @@ foo((x, y) => {});
                                         "parameters": [
                                             [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -1096,7 +1097,7 @@ foo((x, y) => {});
                                                     "end": 257
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 768,
@@ -1108,7 +1109,7 @@ foo((x, y) => {});
                                         "asyncToken": null,
                                         "returnType": null,
                                         "contents": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -1146,7 +1147,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1171,7 +1172,7 @@ foo((x, y) => {});
                     "parameters": [
                         [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -1179,7 +1180,7 @@ foo((x, y) => {});
                                 "end": 277
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 768,
@@ -1231,7 +1232,7 @@ foo((x, y) => {});
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -1239,7 +1240,7 @@ foo((x, y) => {});
                             "end": 290
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -1255,7 +1256,7 @@ foo((x, y) => {});
                     "left": {
                         "kind": 129,
                         "member": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -1263,7 +1264,7 @@ foo((x, y) => {});
                             "end": 299
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -1282,7 +1283,7 @@ foo((x, y) => {});
                         "end": 303
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,
@@ -1326,7 +1327,7 @@ foo((x, y) => {});
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -1334,7 +1335,7 @@ foo((x, y) => {});
                                                     "end": 312
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -1358,7 +1359,7 @@ foo((x, y) => {});
                                         "end": 318
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 768,
@@ -1383,7 +1384,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1414,7 +1415,7 @@ foo((x, y) => {});
                         {
                             "kind": 125,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -1428,7 +1429,7 @@ foo((x, y) => {});
                                 "end": 334
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,
@@ -1442,7 +1443,7 @@ foo((x, y) => {});
                         {
                             "kind": 125,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 768,
@@ -1456,7 +1457,7 @@ foo((x, y) => {});
                                 "end": 341
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 768,
@@ -1472,7 +1473,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1492,7 +1493,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1519,7 +1520,7 @@ foo((x, y) => {});
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -1543,7 +1544,7 @@ foo((x, y) => {});
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -1561,7 +1562,7 @@ foo((x, y) => {});
                                         "end": 363
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 768,
@@ -1573,7 +1574,7 @@ foo((x, y) => {});
                             "asyncToken": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -1603,7 +1604,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1632,7 +1633,7 @@ foo((x, y) => {});
                                                 {
                                                     "kind": 205,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1640,7 +1641,7 @@ foo((x, y) => {});
                                                         "end": 380
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": 30,
                                                         "rawText": "30",
                                                         "flags": 768,
@@ -1668,7 +1669,7 @@ foo((x, y) => {});
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -1686,7 +1687,7 @@ foo((x, y) => {});
                                         "end": 391
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 768,
@@ -1698,7 +1699,7 @@ foo((x, y) => {});
                             "asyncToken": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -1728,7 +1729,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1757,7 +1758,7 @@ foo((x, y) => {});
                                                 "kind": 270,
                                                 "elements": [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1781,7 +1782,7 @@ foo((x, y) => {});
                                             "end": 411
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 20,
                                             "rawText": "20",
                                             "flags": 768,
@@ -1793,7 +1794,7 @@ foo((x, y) => {});
                                         "end": 414
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -1805,7 +1806,7 @@ foo((x, y) => {});
                             "asyncToken": null,
                             "returnType": null,
                             "contents": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -1855,7 +1856,7 @@ foo((x, y) => {});
                         "asyncToken": null,
                         "returnType": null,
                         "contents": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 768,
@@ -1912,7 +1913,7 @@ foo((x, y) => {});
                                         {
                                             "kind": 190,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -1968,7 +1969,7 @@ foo((x, y) => {});
                     {
                         "kind": 125,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -1986,7 +1987,7 @@ foo((x, y) => {});
                             "left": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 768,
@@ -2000,7 +2001,7 @@ foo((x, y) => {});
                                     "end": 476
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "r",
                                     "rawText": "r",
                                     "flags": 768,
@@ -2018,7 +2019,7 @@ foo((x, y) => {});
                                 "end": 478
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,
@@ -2076,7 +2077,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 129,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 768,
@@ -2084,7 +2085,7 @@ foo((x, y) => {});
                         "end": 497
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -2125,7 +2126,7 @@ foo((x, y) => {});
                                 "parameters": [
                                     [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -2133,7 +2134,7 @@ foo((x, y) => {});
                                             "end": 505
                                         },
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -2161,7 +2162,7 @@ foo((x, y) => {});
                                                 "expression": {
                                                     "kind": 198,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
@@ -2175,7 +2176,7 @@ foo((x, y) => {});
                                                         "end": 525
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 768,
@@ -2212,7 +2213,7 @@ foo((x, y) => {});
                             "kind": 256,
                             "elements": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -2220,7 +2221,7 @@ foo((x, y) => {});
                                     "end": 533
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 5,
                                     "rawText": "5",
                                     "flags": 768,
@@ -2238,7 +2239,7 @@ foo((x, y) => {});
                         "end": 537
                     },
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 6,
                         "rawText": "6",
                         "flags": 768,
@@ -2259,7 +2260,7 @@ foo((x, y) => {});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -2281,7 +2282,7 @@ foo((x, y) => {});
                             "parameters": [
                                 [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -2289,7 +2290,7 @@ foo((x, y) => {});
                                         "end": 549
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -2347,7 +2348,7 @@ foo((x, y) => {});
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -2395,7 +2396,7 @@ foo((x, y) => {});
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -2403,7 +2404,7 @@ foo((x, y) => {});
                             "end": 578
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
                             "flags": 768,
@@ -2411,7 +2412,7 @@ foo((x, y) => {});
                             "end": 580
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "d",
                             "rawText": "d",
                             "flags": 768,
@@ -2470,7 +2471,7 @@ foo((x, y) => {});
                                             {
                                                 "kind": 205,
                                                 "left": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -2478,7 +2479,7 @@ foo((x, y) => {});
                                                     "end": 597
                                                 },
                                                 "right": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -2514,7 +2515,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -2547,7 +2548,7 @@ foo((x, y) => {});
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -2557,7 +2558,7 @@ foo((x, y) => {});
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -2565,7 +2566,7 @@ foo((x, y) => {});
                                         "end": 617
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -2579,7 +2580,7 @@ foo((x, y) => {});
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 768,
@@ -2587,7 +2588,7 @@ foo((x, y) => {});
                                         "end": 623
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2606,7 +2607,7 @@ foo((x, y) => {});
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "d",
                                                     "rawText": "d",
                                                     "flags": 768,
@@ -2626,7 +2627,7 @@ foo((x, y) => {});
                                     "right": {
                                         "kind": 194,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -2656,7 +2657,7 @@ foo((x, y) => {});
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,

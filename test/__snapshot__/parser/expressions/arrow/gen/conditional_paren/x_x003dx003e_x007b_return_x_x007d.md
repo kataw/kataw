@@ -24,7 +24,7 @@ bar ? baz : ( x => { return x; } );
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -38,7 +38,7 @@ bar ? baz : ( x => { return x; } );
                     "end": 5
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 768,
@@ -63,7 +63,7 @@ bar ? baz : ( x => { return x; } );
                         },
                         "typeParameters": null,
                         "parameters": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -87,7 +87,7 @@ bar ? baz : ( x => { return x; } );
                                             "end": 27
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,

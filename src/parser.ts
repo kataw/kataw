@@ -126,7 +126,8 @@ import { createGenericType, GenericType } from './ast/types/generic-type';
 import { createTypeParameter, TypeParameter } from './ast/types/type-parameter';
 import { createTupleType, TupleType } from './ast/types/tuple-type';
 import { createFunctionType, FunctionType } from './ast/types/function-type';
-import { createFunctionTypeParameters, FunctionTypeParameters } from './ast/types/function-type-parameters';
+import { createFunctionTypeParameterList, FunctionTypeParameterList } from './ast/types/function-type-parameter-list';
+import { createFunctionTypeParameters, FunctionTypeParameter } from './ast/types/function-type-parameter';
 import { createBindingList, BindingList } from './ast/stmt/binding-list';
 import { createVariableDeclarationList, VariableDeclarationList } from './ast/stmt/variable-declarationList';
 import { createVariableStatement, VariableStatement } from './ast/stmt/variable-stmt';
@@ -1413,7 +1414,7 @@ function parseConciseOrFunctionBody(parser: ParserState, context: Context): Func
 }
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {
-  consume(parser, context, SyntaxKind.LeftParen);
+  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const result = parseArgumentList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   consume(parser, context, SyntaxKind.RightParen);
   return result;
@@ -1436,7 +1437,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
   ) {
     elements.push(parseArgumentOrArrayLiteralElement(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-    if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
         trailingComma = true;
         break;
@@ -3868,7 +3869,7 @@ function parseExportDefault(
   return createExportDefault(exportToken, defaultToken, declaration, pos, parser.curPos);
 }
 
-function parseType(parser: ParserState, context: Context) {
+function parseType(parser: ParserState, context: Context): TypeNode {
   return parseUnionType(parser, context);
 }
 
@@ -3879,7 +3880,7 @@ function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotat
     : null;
 }
 
-function parseUnionType(parser: ParserState, context: Context): TypeNode | UnionType {
+function parseUnionType(parser: ParserState, context: Context): TypeNode {
   consumeOpt(parser, context, SyntaxKind.BitwiseOr);
   const type = parseIntersectionType(parser, context);
   if (parser.token === SyntaxKind.BitwiseOr) {
@@ -3893,7 +3894,7 @@ function parseUnionType(parser: ParserState, context: Context): TypeNode | Union
   return type;
 }
 
-function parseIntersectionType(parser: ParserState, context: Context): TypeNode | IntersectionType {
+function parseIntersectionType(parser: ParserState, context: Context): TypeNode {
   consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
   const type = parsePrefixType(parser, context);
   if (parser.token === SyntaxKind.BitwiseAnd) {
@@ -3907,7 +3908,7 @@ function parseIntersectionType(parser: ParserState, context: Context): TypeNode 
   return type;
 }
 
-function parsePrefixType(parser: ParserState, context: Context): TypeNode | NullableType | any {
+function parsePrefixType(parser: ParserState, context: Context): TypeNode {
   const pos = parser.curPos;
   if (consumeOpt(parser, context, SyntaxKind.QuestionMark)) {
     return createNullableType(parsePrefixType(parser, context), pos, parser.curPos);
@@ -3915,7 +3916,7 @@ function parsePrefixType(parser: ParserState, context: Context): TypeNode | Null
   return parsePostfixType(parser, context);
 }
 
-function parsePostfixType(parser: ParserState, context: Context): TypeNode | ArrayType {
+function parsePostfixType(parser: ParserState, context: Context): TypeNode {
   let type = parsePrimaryType(parser, context);
   while ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
     const pos = parser.curPos;
@@ -3925,7 +3926,7 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode | Arr
   return type;
 }
 
-function parsePrimaryType(parser: ParserState, context: Context): any {
+function parsePrimaryType(parser: ParserState, context: Context): TypeNode | SyntaxToken<TokenSyntaxKind> {
   switch (parser.token) {
     case SyntaxKind.Multiply:
     case SyntaxKind.BigintKeyword:
@@ -4015,7 +4016,7 @@ function parseFunctionType(parser: ParserState, context: Context): FunctionType 
   return createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
 }
 
-function parseFunctionTypeParameterssRest(parser: ParserState, context: Context, type: FunctionTypeParameters): any {
+function parseFunctionTypeParameterssRest(parser: ParserState, context: Context, type: FunctionTypeParameter): any {
   const params: any = [type];
   while (parser.token & (SyntaxKind.IsEllipsis | SyntaxKind.IsIdentifier)) {
     params.push(parseFunctionTypeParameter(parser, context));
@@ -4027,18 +4028,26 @@ function parseFunctionTypeParameterssRest(parser: ParserState, context: Context,
   return params;
 }
 
-function parseFunctionTypeParameters(parser: ParserState, context: Context): any {
-  const params: FunctionTypeParameters[] = [];
+function parseFunctionTypeParameters(parser: ParserState, context: Context): FunctionTypeParameterList {
+  const pos = parser.curPos;
+  const functionTypeParameterList: FunctionTypeParameter[] = [];
+  let trailingComma = false;
   while (parser.token & (SyntaxKind.IsEllipsis | SyntaxKind.IsIdentifier)) {
-    params.push(parseFunctionTypeParameter(parser, context));
-    if ((parser.token as SyntaxKind) !== SyntaxKind.LeftParen) {
-      consume(parser, context, SyntaxKind.Comma);
+    functionTypeParameterList.push(parseFunctionTypeParameter(parser, context));
+    if (parser.token === SyntaxKind.RightParen) break;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
+    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+        trailingComma = true;
+        break;
+      }
+      continue;
     }
   }
-  return params;
+  return createFunctionTypeParameterList(functionTypeParameterList, trailingComma, pos, parser.curPos);
 }
 
-function parseFunctionTypeParameter(parser: ParserState, context: Context): FunctionTypeParameters {
+function parseFunctionTypeParameter(parser: ParserState, context: Context): FunctionTypeParameter {
   const pos = parser.curPos;
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
   const name = parseIdentifier(parser, context);
@@ -4098,7 +4107,7 @@ function parseFunctionTypeOrParen(parser: ParserState, context: Context): any {
     return type;
   }
 
-  const params = parseFunctionTypeParameter(parser, context);
+  const params = parseFunctionTypeParameters(parser, context);
 
   consume(parser, context, SyntaxKind.RightParen);
 
@@ -4128,7 +4137,10 @@ function parseTypeParameter(parser: ParserState, context: Context): TypeParamete
   const pos = parser.curPos;
   const types: TypeNode[] = [];
   consume(parser, context, SyntaxKind.LessThan);
-  while (parser.token & (SyntaxKind.IsLessThanOrLeftParen | SyntaxKind.IsStartOfType | SyntaxKind.IsIdentifier | SyntaxKind.IsPatternStart)) {
+  while (
+    parser.token &
+    (SyntaxKind.IsLessThanOrLeftParen | SyntaxKind.IsStartOfType | SyntaxKind.IsIdentifier | SyntaxKind.IsPatternStart)
+  ) {
     types.push(parseType(parser, context));
     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) {
       consume(parser, context, SyntaxKind.Comma);
@@ -4271,7 +4283,7 @@ function parseTypeAsIdentifierOrTypeAlias(
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context);
-
+  //  type x = y<() => string>;
   if (parser.token & SyntaxKind.IsIdentifier) {
     expr = parseIdentifier(parser, context);
     const typeParameters =

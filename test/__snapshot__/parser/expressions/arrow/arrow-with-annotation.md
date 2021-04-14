@@ -21,6 +21,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -38,7 +39,7 @@
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -49,7 +50,7 @@
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 3,
                                 "end": 10
@@ -68,7 +69,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -97,7 +98,7 @@
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -108,7 +109,7 @@
                             "kind": 215,
                             "ellipsisToken": null,
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -119,7 +120,7 @@
                             "type": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 16619,
+                                    "kind": 134234347,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 32
@@ -139,7 +140,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -175,7 +176,7 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -196,7 +197,7 @@
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 46,
                                 "end": 53
@@ -215,7 +216,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -251,7 +252,7 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -273,7 +274,7 @@
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 67,
                                 "end": 74
@@ -292,7 +293,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

@@ -3,8 +3,7 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeNode } from '.';
 import { Identifier } from '../expressions/identifier-expr';
 
-export interface FunctionTypeParameters extends SyntaxNode {
-  readonly kind: SyntaxKind.FunctionTypeParameters;
+export interface FunctionTypeParameter extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -18,9 +17,9 @@ export function createFunctionTypeParameters(
   typeAnnotation: TypeNode,
   start: number,
   end: number
-): FunctionTypeParameters {
+): FunctionTypeParameter {
   return {
-    kind: SyntaxKind.FunctionTypeParameters,
+    kind: SyntaxKind.FunctionTypeParameter,
     ellipsisToken,
     name,
     optionalToken,
