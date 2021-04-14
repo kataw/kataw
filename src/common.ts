@@ -1,4 +1,4 @@
-import { SyntaxKind, NodeFlags } from './ast/syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from './ast/syntax-node';
 import { nextToken } from './scanner/scanner';
 import { DiagnosticType } from './diagnostic';
 import { DiagnosticCode } from './diagnostic/diagnostic-code';
@@ -137,8 +137,71 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
    return consume(parser, context, SyntaxKind.Semicolon);
 }
 
-
 export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
 
+
+export function isStatementNode(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IsStatement) === NodeFlags.IsStatement;
+}
+
+export function isExpressionNode(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ExpressionNode) === NodeFlags.ExpressionNode;
+}
+
+export function isChildLess(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ChildLess) === NodeFlags.ChildLess;
+}
+
+export function singleQuote(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.SingleQuote) === NodeFlags.SingleQuote;
+}
+
+export function containsSeparator(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ContainsSeparator) === NodeFlags.ContainsSeparator;
+}
+
+export function hasUnicodeEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.UnicodeEscape) === NodeFlags.UnicodeEscape;
+}
+
+export function isConstructor(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Constructor) === NodeFlags.Constructor;
+}
+
+export function isGenerator(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Generator) === NodeFlags.Generator;
+}
+export function isAsync(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Async) === NodeFlags.Async;
+}
+export function isDeclared(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Declared) === NodeFlags.Declared;
+}
+export function isNoneSimpleParamList(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.NoneSimpleParamList) === NodeFlags.NoneSimpleParamList;
+}
+
+export function hasExtendedUnicodeEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ExtendedUnicodeEscape) === NodeFlags.ExtendedUnicodeEscape;
+}
+
+export function isImplicitOctal(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ImplicitOctal) === NodeFlags.ImplicitOctal;
+}
+export function isOctalIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.OctalIntegerLiteral) === NodeFlags.OctalIntegerLiteral;
+}
+export function isBinaryIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.BinaryIntegerLiteral) === NodeFlags.BinaryIntegerLiteral;
+}
+export function isUnterminated(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Unterminated) === NodeFlags.Unterminated;
+}
+export function hexIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.HexIntegerLiteral) === NodeFlags.HexIntegerLiteral;
+}
+export function containsInvalidEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ContainsInvalidEscape) === NodeFlags.ContainsInvalidEscape;
+}
