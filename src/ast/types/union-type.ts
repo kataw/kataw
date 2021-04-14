@@ -1,28 +1,18 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { TypeNode } from '.';
 
-/**
- * UnionType
- */
-
-export interface UnionType extends Node {
-  readonly types: readonly TypeNode[];
+export interface UnionType extends SyntaxNode {
+  kind: SyntaxKind.UnionType;
+  types: readonly TypeNode[];
 }
 
-export function createUnionType(types: readonly TypeNode[], flags: NodeFlags, start: number, end: number): UnionType {
+export function createUnionType(types: readonly TypeNode[], start: number, end: number): UnionType {
   return {
-    kind: NodeKind.UnionType,
+    kind: SyntaxKind.UnionType,
     types,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
-
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.None,
     start,
     end
   };
-}
-
-export function updateUnionType(node: UnionType, types: readonly TypeNode[]): UnionType {
-  return node.types !== types ? updateNode(createUnionType(types, node.flags, node.start, node.end), node) : node;
 }

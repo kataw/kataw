@@ -1,31 +1,20 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
 
-import { Expression } from '.';
-import { updateNode } from '../../utils';
-
-export interface ComputedPropertyName extends Node {
-  readonly expression: Expression;
+export interface ComputedPropertyName extends SyntaxNode {
+  readonly expression: ExpressionNode;
 }
 
 export function createComputedPropertyName(
-  expression: Expression,
-  flags: NodeFlags,
+  expression: ExpressionNode,
   start: number,
   end: number
 ): ComputedPropertyName {
   return {
-    kind: NodeKind.ComputedPropertyName,
+    kind: SyntaxKind.ComputedPropertyName,
     expression,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015 | TransformFlags.ComputedPropertyName,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateComputedPropertyName(node: ComputedPropertyName, expression: Expression): ComputedPropertyName {
-  return node.expression !== expression
-    ? updateNode(createComputedPropertyName(expression, node.flags, node.start, node.end), node)
-    : node;
 }

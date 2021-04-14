@@ -1,0 +1,496 @@
+# Kataw parser test case
+
+> Auto-generated tests to validate error recovery
+>
+
+### Cases
+
+> `````js
+> x => {}
+> `````
+
+> `````js
+> async => {}
+> `````
+
+> `````js
+> (x => {})
+> `````
+
+> `````js
+> (async => {})
+> `````
+
+> `````js
+> (x) => {}
+> `````
+
+> `````js
+> () => {}
+> `````
+
+> `````js
+> (x, y) => {}
+> `````
+
+> `````js
+> async x => {}
+> `````
+
+> `````js
+> async async => {}
+> `````
+
+> `````js
+> async (x) => {}
+> `````
+
+> `````js
+> async () => {}
+> `````
+
+> `````js
+> async (x, y) => {}
+> `````
+
+> `````js
+> x => ok
+> `````
+
+> `````js
+> async => ok
+> `````
+
+> `````js
+> (x) => ok
+> `````
+
+> `````js
+> () => ok
+> `````
+
+> `````js
+> (x, y) => ok
+> `````
+
+> `````js
+> async x => ok
+> `````
+
+> `````js
+> async async => ok
+> `````
+
+> `````js
+> async (x) => ok
+> `````
+
+> `````js
+> async () => ok
+> `````
+
+> `````js
+> async (x, y) => ok
+> `````
+
+### Templates
+
+#### rhs add
+
+`````js
+x + #
+`````
+
+#### rhs add asi
+
+`````js
+x
++ #
+`````
+
+#### lhs add
+
+`````js
+# + x
+`````
+
+#### plus is unary
+
+`````js
+#
++ x
+`````
+
+#### rhs mul
+
+`````js
+x * #
+`````
+
+#### rhs mul asi
+
+`````js
+x
+* #
+`````
+
+#### lhs mul
+
+`````js
+# * x
+`````
+
+#### lhs mul asi
+
+`````js
+#
+* x
+`````
+
+#### rhs div
+
+`````js
+x / #
+`````
+
+#### rhs div asi
+
+`````js
+x
+/ #
+`````
+
+#### lhs div
+
+`````js
+# / x
+`````
+
+#### lhs div asi
+
+`````js
+#
+/ x
+`````
+
+#### arrow asi regex
+
+## FAIL
+
+`````js
+#
+/x/
+`````
+
+#### lhs div div
+
+`````js
+#
+/ x / g
+`````
+
+#### rhs pow
+
+`````js
+x ** #
+`````
+
+#### rhs pow asi
+
+`````js
+x
+** #
+`````
+
+#### lhs pow
+
+`````js
+# ** x
+`````
+
+#### lhs pow asi
+
+`````js
+#
+** x
+`````
+
+#### dot property
+
+`````js
+#.x
+`````
+
+#### dynamic property
+
+`````js
+#[foo]
+`````
+
+#### call
+
+`````js
+#()
+`````
+
+#### as tag
+
+`````js
+#`foo`
+`````
+
+#### double
+
+`````js
+# #
+`````
+
+#### group lhs
+
+`````js
+(#) * x
+`````
+
+#### group rhs
+
+`````js
+x * (#)
+`````
+
+#### group lhs asi
+
+`````js
+(#)
+* x
+`````
+
+#### group rhs asi
+
+`````js
+x *
+(#)
+`````
+
+#### yield arg
+
+`````js
+function *f() {
+  yield #
+}
+`````
+
+#### await arg
+
+`````js
+async function f() {
+  await #
+}
+`````
+
+#### delete arg
+
+`````js
+delete #
+`````
+
+#### delete paren arg
+
+`````js
+delete (#)
+`````
+
+#### new arg
+
+`````js
+new #
+`````
+
+#### extends arg
+
+`````js
+class A extends # {}
+`````
+
+#### comma lhs
+
+`````js
+#, a
+`````
+
+#### comma rhs
+
+`````js
+a, #
+`````
+
+#### comma double
+
+`````js
+#, #
+`````
+
+#### call arg
+
+`````js
+foo(#)
+`````
+
+#### call tail
+
+`````js
+foo(#).bar
+`````
+
+#### template
+
+`````js
+`a ${#} b`
+`````
+
+#### template tail
+
+`````js
+`a ${#} b`.length
+`````
+
+#### arr
+
+`````js
+[#]
+`````
+
+#### arr tail
+
+`````js
+[#].x
+`````
+
+#### obj
+
+`````js
+x = {arrow: #}
+`````
+
+#### obj tail
+
+`````js
+x = {arrow: #}.y
+`````
+
+#### arg default
+
+`````js
+function f(a = #) {}
+`````
+
+#### prefix update
+
+`````js
+++#
+`````
+
+#### postfix update
+
+`````js
+#++
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 81921,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 0,
+                    "end": 1
+                },
+                "operatorToken": {
+                    "kind": 34098,
+                    "flags": 768,
+                    "start": 1,
+                    "end": 3
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 3,
+                    "end": 3
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 3
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 3
+        }
+    ],
+    "isModule": false,
+    "text": "x + #",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 3,
+            "end": 5
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 3,
+            "end": 5
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 3,
+            "end": 5
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 3,
+            "end": 5
+        }
+    ],
+    "start": 0,
+    "end": 5
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

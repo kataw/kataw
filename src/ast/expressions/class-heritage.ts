@@ -1,41 +1,31 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { TypeArguments } from '../types/type-arguments';
-import { Expression } from '.';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from '.';
+import { TypeParameter } from '../types/type-parameter';
 
 /**
  * ClassHeritage
  */
-export interface ClassHeritage extends Node {
-  readonly expression: Expression;
-  readonly typeArguments: TypeArguments | null;
+export interface ClassHeritage extends SyntaxNode {
+  readonly extendsToken: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
+  readonly typeParameter: TypeParameter | null;
 }
 
 export function createClassHeritage(
-  expression: Expression,
-  typeArguments: TypeArguments | null,
-  flags: NodeFlags,
+  extendsToken: SyntaxToken<TokenSyntaxKind>,
+  expression: ExpressionNode,
+  typeParameter: TypeParameter | null,
   start: number,
   end: number
 ): ClassHeritage {
   return {
-    kind: NodeKind.ClassHeritage,
+    kind: SyntaxKind.ClassHeritage,
+    extendsToken,
     expression,
-    typeArguments,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    typeParameter,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateClassHeritage(
-  node: ClassHeritage,
-  expression: Expression,
-  typeArguments: TypeArguments | null
-): ClassHeritage {
-  return node.expression !== expression || node.typeArguments !== typeArguments
-    ? updateNode(createClassHeritage(expression, typeArguments, node.flags, node.start, node.end), node)
-    : node;
 }

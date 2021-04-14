@@ -1,16 +1,18 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * An super call expression.
  */
-export type Super = Node;
+export interface Super extends SyntaxNode {
+  readonly superKeyword: SyntaxToken<TokenSyntaxKind>;
+}
 
-export function createSuper(flags: NodeFlags, start: number, end: number): Super {
+export function createSuper(superKeyword: SyntaxToken<TokenSyntaxKind>, start: number, end: number): Super {
   return {
-    kind: NodeKind.Super,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.Super,
+    superKeyword,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

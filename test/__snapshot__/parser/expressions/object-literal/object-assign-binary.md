@@ -1,0 +1,171 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+x = { "a": {x} = y.z };
+// x = { "a": [x] = y.z };
+// (x = { a: {x} = y }) / y.z;
+// (x = { a: x = y }) / y.z;
+// (x = { a: (x) = y }) / y.z;
+// (x = { a: x = (y) }) / y.z;
+// (x = { a: (x = (y)) }) / y.z;
+// (x = { "a": {x} = y }) / y.z;
+// (x = { "a": x = y }) / y.z;
+// (x = { "a": (x) = y }) / y.z;
+// (x = { "a": x = (y) }) / y.z;
+// (x = { "a": (x = (y)) }) / y.z;
+// (x = { [a]: {x} = y }) / y.z;
+// (x = { [a]: x = y }) / y.z;
+// (x = { [a]: (x) = y }) / y.z;
+// (x = { [a]: x = (y) }) / y.z;
+// (x = { [a]: (x = (y)) }) / y.z;
+// x = { "a": ([] ? a : b.c[d]) };
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 81921,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 0,
+                    "end": 1
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 1,
+                    "end": 3
+                },
+                "right": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 219,
+                                "left": {
+                                    "kind": 125,
+                                    "left": {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [
+                                                {
+                                                    "kind": 81921,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 768,
+                                                    "start": 12,
+                                                    "end": 13
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        "flags": 256,
+                                        "start": 10,
+                                        "end": 14
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 768,
+                                        "start": 14,
+                                        "end": 16
+                                    },
+                                    "right": {
+                                        "kind": 129,
+                                        "member": {
+                                            "kind": 81921,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 768,
+                                            "start": 16,
+                                            "end": 18
+                                        },
+                                        "expression": {
+                                            "kind": 81921,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 768,
+                                            "start": 19,
+                                            "end": 20
+                                        },
+                                        "autofix": 0,
+                                        "flags": 256,
+                                        "start": 16,
+                                        "end": 20
+                                    },
+                                    "flags": 256,
+                                    "start": 10,
+                                    "end": 20
+                                },
+                                "right": {
+                                    "kind": 67174403,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 768,
+                                    "start": 5,
+                                    "end": 9
+                                },
+                                "flags": 256,
+                                "start": 5,
+                                "end": 20
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "flags": 0,
+                        "start": 5,
+                        "end": 20
+                    },
+                    "flags": 256,
+                    "start": 3,
+                    "end": 22
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 22
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
+    "text": "x = { \"a\": {x} = y.z };\n// x = { \"a\": [x] = y.z };\n// (x = { a: {x} = y }) / y.z;\n// (x = { a: x = y }) / y.z;\n// (x = { a: (x) = y }) / y.z;\n// (x = { a: x = (y) }) / y.z;\n// (x = { a: (x = (y)) }) / y.z;\n// (x = { \"a\": {x} = y }) / y.z;\n// (x = { \"a\": x = y }) / y.z;\n// (x = { \"a\": (x) = y }) / y.z;\n// (x = { \"a\": x = (y) }) / y.z;\n// (x = { \"a\": (x = (y)) }) / y.z;\n// (x = { [a]: {x} = y }) / y.z;\n// (x = { [a]: x = y }) / y.z;\n// (x = { [a]: (x) = y }) / y.z;\n// (x = { [a]: x = (y) }) / y.z;\n// (x = { [a]: (x = (y)) }) / y.z;\n// x = { \"a\": ([] ? a : b.c[d]) };",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 570
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

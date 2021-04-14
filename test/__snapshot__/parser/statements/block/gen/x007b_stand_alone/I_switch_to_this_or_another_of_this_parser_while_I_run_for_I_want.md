@@ -1,0 +1,453 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: { stand alone
+> :: case: I switch to this or another of this parser while I run for I want
+## Input
+
+`````js
+{ I switch to this or another of this parser while I run for I want
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 81921,
+                            "text": "I",
+                            "rawText": "I",
+                            "flags": 768,
+                            "start": 1,
+                            "end": 3
+                        },
+                        "flags": 128,
+                        "start": 1,
+                        "end": 3
+                    }
+                ],
+                "multiLine": false,
+                "flags": 128,
+                "start": 1,
+                "end": 3
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 3
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 3,
+                "end": 10
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "to",
+                "rawText": "to",
+                "flags": 768,
+                "start": 10,
+                "end": 13
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 128,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 3,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 135,
+                "flags": 768,
+                "start": 13,
+                "end": 18
+            },
+            "flags": 128,
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "text": "or",
+                "rawText": "or",
+                "flags": 768,
+                "start": 18,
+                "end": 21
+            },
+            "flags": 128,
+            "start": 18,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "text": "another",
+                "rawText": "another",
+                "flags": 768,
+                "start": 21,
+                "end": 29
+            },
+            "flags": 128,
+            "start": 21,
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "text": "of",
+                "rawText": "of",
+                "flags": 768,
+                "start": 29,
+                "end": 32
+            },
+            "flags": 128,
+            "start": 29,
+            "end": 32
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 135,
+                "flags": 768,
+                "start": 32,
+                "end": 37
+            },
+            "flags": 128,
+            "start": 32,
+            "end": 37
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "text": "parser",
+                "rawText": "parser",
+                "flags": 768,
+                "start": 37,
+                "end": 44
+            },
+            "flags": 128,
+            "start": 37,
+            "end": 44
+        },
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 768,
+                "start": 44,
+                "end": 50
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "I",
+                "rawText": "I",
+                "flags": 768,
+                "start": 50,
+                "end": 52
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 81921,
+                    "text": "run",
+                    "rawText": "run",
+                    "flags": 768,
+                    "start": 52,
+                    "end": 56
+                },
+                "flags": 128,
+                "start": 52,
+                "end": 56
+            },
+            "flags": 128,
+            "start": 44,
+            "end": 56
+        },
+        {
+            "kind": 165,
+            "forKeyword": {
+                "kind": 37757017,
+                "flags": 768,
+                "start": 56,
+                "end": 60
+            },
+            "initializer": {
+                "kind": 81921,
+                "text": "I",
+                "rawText": "I",
+                "flags": 768,
+                "start": 60,
+                "end": 62
+            },
+            "condition": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 67,
+                "end": 67
+            },
+            "incrementor": {
+                "kind": 81921,
+                "text": "want",
+                "rawText": "want",
+                "flags": 768,
+                "start": 62,
+                "end": 67
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 67,
+                    "end": 67
+                },
+                "flags": 128,
+                "start": 67,
+                "end": 67
+            },
+            "flags": 128,
+            "start": 56,
+            "end": 67
+        }
+    ],
+    "isModule": false,
+    "text": "{ I switch to this or another of this parser while I run for I want",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 3,
+            "end": 10
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 3,
+            "end": 10
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 10,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 18,
+            "end": 21
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 21,
+            "end": 29
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 32
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 32,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 44
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 50
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 50,
+            "end": 52
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 52,
+            "end": 56
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 56,
+            "end": 60
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 60,
+            "end": 62
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 62,
+            "end": 67
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 67,
+            "end": 67
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 67,
+            "end": 67
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 67,
+            "end": 67
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 67,
+            "end": 67
+        }
+    ],
+    "start": 0,
+    "end": 67
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: { stand alone
+> :: case: I switch to this or another of this parser while I run for I want
+## Input
+
+`````js
+{ I switch to this or another of this parser while I run for I want
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: { stand alone
+> :: case: I switch to this or another of this parser while I run for I want
+## Input
+
+`````js
+{ I switch to this or another of this parser while I run for I want
+`````
+```
+

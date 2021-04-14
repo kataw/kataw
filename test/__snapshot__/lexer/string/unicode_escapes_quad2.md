@@ -1,0 +1,69 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
+## Input
+
+`````js
+"\uafail"
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174403,
+                "text": "afail",
+                "rawText": "afail",
+                "flags": 262912,
+                "start": 0,
+                "end": 9
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 9
+        }
+    ],
+    "isModule": false,
+    "text": "\"\\uafail\"",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "code": 89,
+            "error": "Invalid hexadecimal escape sequence",
+            "start": 0,
+            "end": 3
+        }
+    ],
+    "start": 0,
+    "end": 9
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

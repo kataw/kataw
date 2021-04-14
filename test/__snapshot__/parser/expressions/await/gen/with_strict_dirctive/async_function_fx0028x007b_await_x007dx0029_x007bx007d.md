@@ -1,0 +1,168 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: with_strict_dirctive
+> :: case: async function f({ await }) {}
+## Input
+
+`````js
+'use strict'; async function f({ await }) {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [
+        {
+            "kind": 67174403,
+            "text": "use strict",
+            "rawText": "use strict",
+            "flags": 67109632,
+            "start": 0,
+            "end": 12
+        }
+    ],
+    "statements": [
+        {
+            "kind": 176,
+            "asyncKeyword": {
+                "kind": 82031,
+                "flags": 768,
+                "start": 13,
+                "end": 19
+            },
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 19,
+                "end": 28
+            },
+            "generatorToken": null,
+            "name": {
+                "kind": 81921,
+                "text": "f",
+                "rawText": "f",
+                "flags": 768,
+                "start": 28,
+                "end": 30
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [
+                    {
+                        "kind": 215,
+                        "ellipsisToken": null,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 81921,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 768,
+                                            "start": 32,
+                                            "end": 38
+                                        },
+                                        "right": null,
+                                        "flags": 256,
+                                        "start": 32,
+                                        "end": 38
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 32,
+                                "end": 38
+                            },
+                            "flags": 256,
+                            "start": 31,
+                            "end": 40
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 258,
+                        "start": 31,
+                        "end": 40
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 258,
+                "start": 30,
+                "end": 41
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 43,
+                    "end": 43
+                },
+                "flags": 256,
+                "start": 41,
+                "end": 44
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 1280,
+            "start": 13,
+            "end": 44
+        }
+    ],
+    "isModule": false,
+    "text": "'use strict'; async function f({ await }) {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 44
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: with_strict_dirctive
+> :: case: async function f({ await }) {}
+## Input
+
+`````js
+'use strict'; async function f({ await }) {}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: with_strict_dirctive
+> :: case: async function f({ await }) {}
+## Input
+
+`````js
+'use strict'; async function f({ await }) {}
+`````
+```
+

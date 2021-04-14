@@ -1,0 +1,280 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: switch triple
+> :: case: class x {}
+## Input
+
+`````js
+switch switch switch class x {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 0,
+                "end": 6
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 6,
+                "end": 6
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 128,
+                "start": 6,
+                "end": 6
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 6,
+                "end": 13
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 13,
+                "end": 13
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 128,
+                "start": 13,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 13,
+                "end": 20
+            },
+            "expression": {
+                "kind": 189,
+                "decorators": null,
+                "classKeyword": {
+                    "kind": 37814352,
+                    "flags": 768,
+                    "start": 20,
+                    "end": 26
+                },
+                "name": {
+                    "kind": 81921,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 26,
+                    "end": 28
+                },
+                "typeParameters": null,
+                "classHeritage": null,
+                "members": {
+                    "kind": 277,
+                    "elements": [],
+                    "flags": 256,
+                    "start": 30,
+                    "end": 31
+                },
+                "flags": 256,
+                "start": 20,
+                "end": 31
+            },
+            "caseBlock": {
+                "kind": 152,
+                "clauses": [],
+                "flags": 128,
+                "start": 31,
+                "end": 31
+            },
+            "flags": 128,
+            "start": 13,
+            "end": 31
+        }
+    ],
+    "isModule": false,
+    "text": "switch switch switch class x {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 6,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 20,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 31,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 31,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 31,
+            "end": 31
+        }
+    ],
+    "start": 0,
+    "end": 31
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: switch triple
+> :: case: class x {}
+## Input
+
+`````js
+switch switch switch class x {}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: switch triple
+> :: case: class x {}
+## Input
+
+`````js
+switch switch switch class x {}
+`````
+```
+

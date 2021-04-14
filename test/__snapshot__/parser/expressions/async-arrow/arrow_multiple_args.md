@@ -1,0 +1,92 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+async (x, y) => {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 271,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 768,
+                "start": 12,
+                "end": 15
+            },
+            "typeParameters": null,
+            "parameters": [
+                {
+                    "kind": 81921,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 7,
+                    "end": 8
+                },
+                {
+                    "kind": 81921,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 768,
+                    "start": 9,
+                    "end": 11
+                }
+            ],
+            "asyncToken": {
+                "kind": 82031,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "returnType": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 17,
+                    "end": 17
+                },
+                "flags": 256,
+                "start": 15,
+                "end": 18
+            },
+            "flags": 2304,
+            "start": 0,
+            "end": 18
+        }
+    ],
+    "isModule": false,
+    "text": "async (x, y) => {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 18
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

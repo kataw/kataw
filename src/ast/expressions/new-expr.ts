@@ -1,46 +1,31 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { Expression } from './';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from './';
 import { ArgumentList } from './argument-list';
-import { TypeArguments } from '../types/type-arguments';
 
 /**
  * New expression.
  */
-export interface NewExpression extends Node {
-  readonly expression: Expression;
-  readonly typeArguments: TypeArguments | null;
-  readonly argumentList: ArgumentList;
+export interface NewExpression extends SyntaxNode {
+  readonly newKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
+  readonly argumentList: ArgumentList | null;
 }
 
 export function createNewExpression(
-  expression: Expression,
-  typeArguments: TypeArguments | null,
-  argumentList: ArgumentList,
-  flags: NodeFlags,
+  newKeyword: SyntaxToken<TokenSyntaxKind>,
+  expression: ExpressionNode,
+  argumentList: ArgumentList | null,
   start: number,
   end: number
 ): NewExpression {
   return {
-    kind: NodeKind.NewExpression,
+    kind: SyntaxKind.NewExpression,
+    newKeyword,
     expression,
-    typeArguments,
     argumentList,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2020,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateNewExpression(
-  node: NewExpression,
-  expression: Expression,
-  typeArguments: TypeArguments | null,
-  argumentList: ArgumentList
-): NewExpression {
-  return node.expression !== expression || node.typeArguments !== typeArguments || node.argumentList !== argumentList
-    ? updateNode(createNewExpression(expression, typeArguments, argumentList, node.flags, node.start, node.end), node)
-    : node;
 }

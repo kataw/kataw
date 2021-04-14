@@ -1,0 +1,132 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: if header
+> :: case: a + b instanceof c
+## Input
+
+`````js
+if ( a + b instanceof c ) ;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 164,
+            "ifKeyword": {
+                "kind": 37757019,
+                "flags": 768,
+                "start": 0,
+                "end": 2
+            },
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 81921,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 768,
+                    "start": 4,
+                    "end": 6
+                },
+                "operatorToken": {
+                    "kind": 34098,
+                    "flags": 768,
+                    "start": 6,
+                    "end": 8
+                },
+                "right": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 81921,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 768,
+                        "start": 8,
+                        "end": 10
+                    },
+                    "operatorToken": {
+                        "kind": 4229173,
+                        "flags": 768,
+                        "start": 10,
+                        "end": 21
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "text": "c",
+                        "rawText": "c",
+                        "flags": 768,
+                        "start": 21,
+                        "end": 23
+                    },
+                    "flags": 256,
+                    "start": 10,
+                    "end": 23
+                },
+                "flags": 256,
+                "start": 4,
+                "end": 23
+            },
+            "consequent": {
+                "kind": 168,
+                "flags": 128,
+                "start": 25,
+                "end": 27
+            },
+            "elseKeyword": null,
+            "alternate": null,
+            "flags": 128,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
+    "text": "if ( a + b instanceof c ) ;",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 27
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: if header
+> :: case: a + b instanceof c
+## Input
+
+`````js
+if ( a + b instanceof c ) ;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: if header
+> :: case: a + b instanceof c
+## Input
+
+`````js
+if ( a + b instanceof c ) ;
+`````
+```
+

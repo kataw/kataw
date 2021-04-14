@@ -1,9 +1,6 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * Numeric literal
- */
-export interface NumericLiteral extends Node {
+export interface NumericLiteral extends SyntaxNode {
   readonly text: number;
   readonly rawText: string;
 }
@@ -16,12 +13,10 @@ export function createNumericLiteral(
   end: number
 ): NumericLiteral {
   return {
-    kind: NodeKind.NumericLiteral,
+    kind: SyntaxKind.Identifier,
     text,
     rawText,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };

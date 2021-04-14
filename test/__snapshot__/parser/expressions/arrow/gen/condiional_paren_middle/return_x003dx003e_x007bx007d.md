@@ -1,0 +1,206 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: condiional_paren_middle
+> :: case: return => {}
+## Input
+
+`````js
+bar ? (return => {}) : baz;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 197,
+                "shortCircuit": {
+                    "kind": 81921,
+                    "text": "bar",
+                    "rawText": "bar",
+                    "flags": 768,
+                    "start": 0,
+                    "end": 3
+                },
+                "questionToken": {
+                    "kind": 22,
+                    "flags": 768,
+                    "start": 3,
+                    "end": 5
+                },
+                "consequent": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 7,
+                        "end": 7
+                    },
+                    "flags": 256,
+                    "start": 5,
+                    "end": 7
+                },
+                "colonToken": null,
+                "alternate": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 13
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 18,
+                "end": 18
+            },
+            "flags": 128,
+            "start": 16,
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 81921,
+                "text": "baz",
+                "rawText": "baz",
+                "flags": 768,
+                "start": 22,
+                "end": 26
+            },
+            "flags": 128,
+            "start": 22,
+            "end": 27
+        }
+    ],
+    "isModule": false,
+    "text": "bar ? (return => {}) : baz;",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 7,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 13,
+            "end": 16
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 16
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 13,
+            "end": 16
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 19,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 20,
+            "end": 22
+        }
+    ],
+    "start": 0,
+    "end": 27
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: condiional_paren_middle
+> :: case: return => {}
+## Input
+
+`````js
+bar ? (return => {}) : baz;
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: condiional_paren_middle
+> :: case: return => {}
+## Input
+
+`````js
+bar ? (return => {}) : baz;
+`````
+```
+

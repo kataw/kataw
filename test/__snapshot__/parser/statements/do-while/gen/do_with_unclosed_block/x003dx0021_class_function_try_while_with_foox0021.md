@@ -1,0 +1,407 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: do with unclosed block
+> :: case: =! class function try while with foo!
+## Input
+
+`````js
+do {} while (x) { =! class function try while with foo!
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 169,
+            "doKeyword": {
+                "kind": 4202580,
+                "flags": 768,
+                "start": 0,
+                "end": 2
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 13,
+                "end": 14
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 768,
+                "start": 5,
+                "end": 11
+            },
+            "statement": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 4,
+                    "end": 4
+                },
+                "flags": 128,
+                "start": 2,
+                "end": 5
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 17,
+                "end": 17
+            },
+            "flags": 128,
+            "start": 15,
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 768,
+                    "start": 19,
+                    "end": 20
+                },
+                "expression": {
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37814352,
+                        "flags": 768,
+                        "start": 20,
+                        "end": 26
+                    },
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "members": {
+                        "kind": 277,
+                        "elements": [],
+                        "flags": 256,
+                        "start": 20,
+                        "end": 20
+                    },
+                    "flags": 256,
+                    "start": 20,
+                    "end": 26
+                },
+                "flags": 256,
+                "start": 19,
+                "end": 26
+            },
+            "flags": 128,
+            "start": 19,
+            "end": 26
+        },
+        {
+            "kind": 176,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 26,
+                "end": 35
+            },
+            "generatorToken": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 35,
+                "end": 35
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 256,
+                "start": 35,
+                "end": 35
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 35,
+                    "end": 35
+                },
+                "flags": 256,
+                "start": 35,
+                "end": 35
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 256,
+            "start": 26,
+            "end": 35
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 768,
+                "start": 35,
+                "end": 39
+            },
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 39,
+                    "end": 39
+                },
+                "flags": 128,
+                "start": 39,
+                "end": 39
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 45,
+                    "end": 45
+                },
+                "flags": 128,
+                "start": 45,
+                "end": 45
+            },
+            "flags": 128,
+            "start": 35,
+            "end": 45
+        },
+        {
+            "kind": 153,
+            "withKeyword": {
+                "kind": 37757029,
+                "flags": 768,
+                "start": 45,
+                "end": 50
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 768,
+                "start": 50,
+                "end": 54
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 768,
+                        "start": 54,
+                        "end": 55
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 55,
+                        "end": 55
+                    },
+                    "flags": 256,
+                    "start": 54,
+                    "end": 55
+                },
+                "flags": 128,
+                "start": 54,
+                "end": 55
+            },
+            "flags": 128,
+            "start": 45,
+            "end": 55
+        }
+    ],
+    "isModule": false,
+    "text": "do {} while (x) { =! class function try while with foo!",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 8,
+            "error": "Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses",
+            "start": 19,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 26,
+            "end": 35
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 26,
+            "end": 35
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 35,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 35,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 35,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 35,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 39,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 39,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 45,
+            "end": 50
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 50,
+            "end": 54
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 54,
+            "end": 55
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 55,
+            "end": 55
+        }
+    ],
+    "start": 0,
+    "end": 55
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: do with unclosed block
+> :: case: =! class function try while with foo!
+## Input
+
+`````js
+do {} while (x) { =! class function try while with foo!
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: do with unclosed block
+> :: case: =! class function try while with foo!
+## Input
+
+`````js
+do {} while (x) { =! class function try while with foo!
+`````
+```
+

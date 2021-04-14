@@ -1,0 +1,117 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: comma lhs
+> :: case: x => ok
+## Input
+
+`````js
+x => ok, a
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 1,
+                            "end": 4
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 81921,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 0,
+                            "end": 1
+                        },
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 81921,
+                            "text": "ok",
+                            "rawText": "ok",
+                            "flags": 768,
+                            "start": 4,
+                            "end": 7
+                        },
+                        "flags": 256,
+                        "start": 0,
+                        "end": 7
+                    },
+                    {
+                        "kind": 81921,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 768,
+                        "start": 8,
+                        "end": 10
+                    }
+                ],
+                "flags": 256,
+                "start": 0,
+                "end": 10
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 10
+        }
+    ],
+    "isModule": false,
+    "text": "x => ok, a",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 10
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: comma lhs
+> :: case: x => ok
+## Input
+
+`````js
+x => ok, a
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: s
+> :: test: comma lhs
+> :: case: x => ok
+## Input
+
+`````js
+x => ok, a
+`````
+```
+

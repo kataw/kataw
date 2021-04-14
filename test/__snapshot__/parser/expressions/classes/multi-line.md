@@ -1,0 +1,115 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+class C extends (
+  a,
+  c
+) {
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 178,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37814352,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "name": {
+                "kind": 81921,
+                "text": "C",
+                "rawText": "C",
+                "flags": 768,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 279,
+                "extendsToken": {
+                    "kind": 4194391,
+                    "flags": 768,
+                    "start": 7,
+                    "end": 15
+                },
+                "expression": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 132,
+                        "expressions": [
+                            {
+                                "kind": 81921,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 768,
+                                "start": 17,
+                                "end": 21
+                            },
+                            {
+                                "kind": 81921,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 768,
+                                "start": 22,
+                                "end": 26
+                            }
+                        ],
+                        "flags": 256,
+                        "start": 15,
+                        "end": 28
+                    },
+                    "flags": 256,
+                    "start": 15,
+                    "end": 28
+                },
+                "typeParameter": null,
+                "flags": 128,
+                "start": 15,
+                "end": 28
+            },
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 30,
+                "end": 32
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 32
+        }
+    ],
+    "isModule": false,
+    "text": "class C extends (\n  a,\n  c\n) {\n}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 32
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

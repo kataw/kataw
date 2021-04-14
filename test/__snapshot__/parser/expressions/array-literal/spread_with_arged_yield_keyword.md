@@ -1,0 +1,167 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+function *f(){ return [...yield x]; }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+### Printer Options
+
+`````js
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 176,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 0,
+                "end": 8
+            },
+            "generatorToken": {
+                "kind": 67143222,
+                "flags": 768,
+                "start": 8,
+                "end": 10
+            },
+            "name": {
+                "kind": 81921,
+                "text": "f",
+                "rawText": "f",
+                "flags": 768,
+                "start": 10,
+                "end": 11
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 256,
+                "start": 11,
+                "end": 13
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [
+                        {
+                            "kind": 161,
+                            "returnKeyword": {
+                                "kind": 37757022,
+                                "flags": 768,
+                                "start": 14,
+                                "end": 21
+                            },
+                            "expression": {
+                                "kind": 119,
+                                "elementList": {
+                                    "kind": 270,
+                                    "elements": [
+                                        {
+                                            "kind": 223,
+                                            "argument": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 768,
+                                                    "start": 26,
+                                                    "end": 31
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": {
+                                                    "kind": 81921,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 768,
+                                                    "start": 31,
+                                                    "end": 33
+                                                },
+                                                "flags": 256,
+                                                "start": 26,
+                                                "end": 33
+                                            },
+                                            "flags": 256,
+                                            "start": 23,
+                                            "end": 33
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 33
+                                },
+                                "flags": 256,
+                                "start": 21,
+                                "end": 34
+                            },
+                            "flags": 128,
+                            "start": 0,
+                            "end": 14
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 14,
+                    "end": 35
+                },
+                "flags": 256,
+                "start": 13,
+                "end": 37
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 2304,
+            "start": 0,
+            "end": 37
+        }
+    ],
+    "isModule": false,
+    "text": "function *f(){ return [...yield x]; }",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 37
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

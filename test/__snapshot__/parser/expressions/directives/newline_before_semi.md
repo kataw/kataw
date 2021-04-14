@@ -1,0 +1,131 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+() => { "use strict"
+;with (x) y; }
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 768,
+                    "start": 2,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "parameters": [],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [
+                            {
+                                "kind": 67174403,
+                                "text": "use strict",
+                                "rawText": "use strict",
+                                "flags": 768,
+                                "start": 7,
+                                "end": 20
+                            }
+                        ],
+                        "statements": [
+                            {
+                                "kind": 153,
+                                "withKeyword": {
+                                    "kind": 37757029,
+                                    "flags": 768,
+                                    "start": 22,
+                                    "end": 26
+                                },
+                                "expression": {
+                                    "kind": 81921,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 768,
+                                    "start": 28,
+                                    "end": 29
+                                },
+                                "statement": {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 81921,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 768,
+                                        "start": 30,
+                                        "end": 32
+                                    },
+                                    "flags": 128,
+                                    "start": 30,
+                                    "end": 33
+                                },
+                                "flags": 128,
+                                "start": 22,
+                                "end": 33
+                            }
+                        ],
+                        "multiline": false,
+                        "flags": 256,
+                        "start": 7,
+                        "end": 33
+                    },
+                    "flags": 256,
+                    "start": 5,
+                    "end": 35
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 35
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 35
+        }
+    ],
+    "isModule": false,
+    "text": "() => { \"use strict\"\n;with (x) y; }",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 75,
+            "error": "'with' statements are not allowed in strict mode.",
+            "start": 22,
+            "end": 26
+        }
+    ],
+    "start": 0,
+    "end": 35
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

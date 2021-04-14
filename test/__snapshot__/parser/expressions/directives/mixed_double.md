@@ -1,0 +1,107 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true, module: true }
+`````
+
+
+## Input
+
+`````js
+"use strict"; 'use strict'; with (x) y;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [
+        {
+            "kind": 67174403,
+            "text": "use strict",
+            "rawText": "use strict",
+            "flags": 768,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 67174403,
+            "text": "use strict",
+            "rawText": "use strict",
+            "flags": 67109632,
+            "start": 13,
+            "end": 26
+        }
+    ],
+    "statements": [
+        {
+            "kind": 153,
+            "withKeyword": {
+                "kind": 37757029,
+                "flags": 768,
+                "start": 27,
+                "end": 32
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 34,
+                "end": 35
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 81921,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 768,
+                    "start": 36,
+                    "end": 38
+                },
+                "flags": 128,
+                "start": 36,
+                "end": 39
+            },
+            "flags": 128,
+            "start": 27,
+            "end": 39
+        }
+    ],
+    "isModule": true,
+    "text": "\"use strict\"; 'use strict'; with (x) y;",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 75,
+            "error": "'with' statements are not allowed in strict mode.",
+            "start": 27,
+            "end": 32
+        }
+    ],
+    "start": 0,
+    "end": 39
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

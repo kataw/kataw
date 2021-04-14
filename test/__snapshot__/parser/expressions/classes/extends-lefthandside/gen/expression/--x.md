@@ -1,0 +1,138 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: --x
+## Input
+
+`````js
+(class B extends --x {})
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37814352,
+                        "flags": 768,
+                        "start": 1,
+                        "end": 6
+                    },
+                    "name": {
+                        "kind": 81921,
+                        "text": "B",
+                        "rawText": "B",
+                        "flags": 768,
+                        "start": 6,
+                        "end": 8
+                    },
+                    "typeParameters": null,
+                    "classHeritage": {
+                        "kind": 279,
+                        "extendsToken": {
+                            "kind": 4194391,
+                            "flags": 768,
+                            "start": 8,
+                            "end": 16
+                        },
+                        "expression": {
+                            "kind": 128,
+                            "operandToken": {
+                                "kind": 196636,
+                                "flags": 768,
+                                "start": 16,
+                                "end": 19
+                            },
+                            "expression": {
+                                "kind": 81921,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 768,
+                                "start": 19,
+                                "end": 20
+                            },
+                            "flags": 256,
+                            "start": 16,
+                            "end": 20
+                        },
+                        "typeParameter": null,
+                        "flags": 128,
+                        "start": 16,
+                        "end": 20
+                    },
+                    "members": {
+                        "kind": 277,
+                        "elements": [],
+                        "flags": 256,
+                        "start": 22,
+                        "end": 23
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 23
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 24
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 24
+        }
+    ],
+    "isModule": false,
+    "text": "(class B extends --x {})",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 24
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: --x
+## Input
+
+`````js
+(class B extends --x {})
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: --x
+## Input
+
+`````js
+(class B extends --x {})
+`````
+```
+

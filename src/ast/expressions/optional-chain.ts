@@ -1,37 +1,26 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { CallChain } from './call-chain';
-import { ElementAccessChain } from './element-access-chain';
-import { PropertyAccessChain } from './property-access-chain';
+import { MemberAccessChain } from './member-access-chain';
+import { IndexExpressionChain } from './index-expr-chain';
 
 /**
- * OptionalChain
+ * Optional chain
  */
 
-export interface OptionalChain extends Node {
-  readonly chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+export interface OptionalChain extends SyntaxNode {
+  readonly chain: MemberAccessChain | IndexExpressionChain | CallChain | null;
 }
 
 export function createOptionalChain(
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null,
-  flags: NodeFlags,
+  chain: MemberAccessChain | IndexExpressionChain | CallChain | null,
   start: number,
   end: number
 ): OptionalChain {
   return {
-    kind: NodeKind.OptionalChain,
+    kind: SyntaxKind.OptionalChain,
     chain,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2020,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateOptionalChain(
-  node: OptionalChain,
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null
-): OptionalChain {
-  return node.chain !== chain ? updateNode(createOptionalChain(chain, node.flags, node.start, node.end), node) : node;
 }

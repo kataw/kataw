@@ -1,0 +1,215 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: function generator
+> :: case: class C extends yield { }
+## Input
+
+`````js
+function * gen() { function not_gen() { class C extends yield { } }}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 176,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 0,
+                "end": 8
+            },
+            "generatorToken": {
+                "kind": 67143222,
+                "flags": 768,
+                "start": 8,
+                "end": 10
+            },
+            "name": {
+                "kind": 81921,
+                "text": "gen",
+                "rawText": "gen",
+                "flags": 768,
+                "start": 10,
+                "end": 14
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 256,
+                "start": 14,
+                "end": 16
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [
+                        {
+                            "kind": 176,
+                            "asyncKeyword": null,
+                            "functionKeyword": {
+                                "kind": 37814362,
+                                "flags": 768,
+                                "start": 18,
+                                "end": 27
+                            },
+                            "generatorToken": null,
+                            "name": {
+                                "kind": 81921,
+                                "text": "not_gen",
+                                "rawText": "not_gen",
+                                "flags": 768,
+                                "start": 27,
+                                "end": 35
+                            },
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 35,
+                                "end": 37
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 178,
+                                            "decorators": null,
+                                            "classKeyword": {
+                                                "kind": 37814352,
+                                                "flags": 768,
+                                                "start": 39,
+                                                "end": 45
+                                            },
+                                            "name": {
+                                                "kind": 81921,
+                                                "text": "C",
+                                                "rawText": "C",
+                                                "flags": 768,
+                                                "start": 45,
+                                                "end": 47
+                                            },
+                                            "typeParameters": null,
+                                            "classHeritage": {
+                                                "kind": 279,
+                                                "extendsToken": {
+                                                    "kind": 4194391,
+                                                    "flags": 768,
+                                                    "start": 47,
+                                                    "end": 55
+                                                },
+                                                "expression": {
+                                                    "kind": 81921,
+                                                    "text": "yield",
+                                                    "rawText": "yield",
+                                                    "flags": 768,
+                                                    "start": 55,
+                                                    "end": 61
+                                                },
+                                                "typeParameter": null,
+                                                "flags": 128,
+                                                "start": 55,
+                                                "end": 61
+                                            },
+                                            "members": {
+                                                "kind": 277,
+                                                "elements": [],
+                                                "flags": 256,
+                                                "start": 63,
+                                                "end": 65
+                                            },
+                                            "flags": 128,
+                                            "start": 39,
+                                            "end": 65
+                                        }
+                                    ],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 39,
+                                    "end": 65
+                                },
+                                "flags": 256,
+                                "start": 37,
+                                "end": 67
+                            },
+                            "typeParameters": null,
+                            "returnType": null,
+                            "flags": 256,
+                            "start": 18,
+                            "end": 67
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 18,
+                    "end": 67
+                },
+                "flags": 256,
+                "start": 16,
+                "end": 68
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 2304,
+            "start": 0,
+            "end": 68
+        }
+    ],
+    "isModule": false,
+    "text": "function * gen() { function not_gen() { class C extends yield { } }}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 68
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: function generator
+> :: case: class C extends yield { }
+## Input
+
+`````js
+function * gen() { function not_gen() { class C extends yield { } }}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: function generator
+> :: case: class C extends yield { }
+## Input
+
+`````js
+function * gen() { function not_gen() { class C extends yield { } }}
+`````
+```
+

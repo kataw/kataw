@@ -1,0 +1,319 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: do triple
+> :: case: try { !xxx
+## Input
+
+`````js
+do do do try { !xxx while while while
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 169,
+            "doKeyword": {
+                "kind": 4202580,
+                "flags": 768,
+                "start": 0,
+                "end": 2
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 37,
+                "end": 37
+            },
+            "whileKeyword": null,
+            "statement": {
+                "kind": 169,
+                "doKeyword": {
+                    "kind": 4202580,
+                    "flags": 768,
+                    "start": 2,
+                    "end": 5
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 37,
+                    "end": 37
+                },
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 768,
+                    "start": 31,
+                    "end": 37
+                },
+                "statement": {
+                    "kind": 169,
+                    "doKeyword": {
+                        "kind": 4202580,
+                        "flags": 768,
+                        "start": 5,
+                        "end": 8
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 31,
+                        "end": 31
+                    },
+                    "whileKeyword": {
+                        "kind": 37757028,
+                        "flags": 768,
+                        "start": 25,
+                        "end": 31
+                    },
+                    "statement": {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 768,
+                            "start": 8,
+                            "end": 12
+                        },
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [
+                                    {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 126,
+                                            "operandToken": {
+                                                "kind": 65584,
+                                                "flags": 768,
+                                                "start": 14,
+                                                "end": 16
+                                            },
+                                            "expression": {
+                                                "kind": 81921,
+                                                "text": "xxx",
+                                                "rawText": "xxx",
+                                                "flags": 768,
+                                                "start": 16,
+                                                "end": 19
+                                            },
+                                            "flags": 256,
+                                            "start": 14,
+                                            "end": 19
+                                        },
+                                        "flags": 128,
+                                        "start": 14,
+                                        "end": 19
+                                    }
+                                ],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "flags": 128,
+                            "start": 12,
+                            "end": 19
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 25,
+                                "end": 25
+                            },
+                            "flags": 128,
+                            "start": 25,
+                            "end": 25
+                        },
+                        "flags": 128,
+                        "start": 8,
+                        "end": 25
+                    },
+                    "flags": 128,
+                    "start": 5,
+                    "end": 31
+                },
+                "flags": 128,
+                "start": 2,
+                "end": 37
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 37
+        }
+    ],
+    "isModule": false,
+    "text": "do do do try { !xxx while while while",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 19,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 19,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 19,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 31,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 31,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 31,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 37,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 37
+        }
+    ],
+    "start": 0,
+    "end": 37
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: do triple
+> :: case: try { !xxx
+## Input
+
+`````js
+do do do try { !xxx while while while
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: do triple
+> :: case: try { !xxx
+## Input
+
+`````js
+do do do try { !xxx while while while
+`````
+```
+

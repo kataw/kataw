@@ -1,0 +1,109 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+({ responseText: text } = res);
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 125,
+                    "left": {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 219,
+                                    "left": {
+                                        "kind": 81921,
+                                        "text": "text",
+                                        "rawText": "text",
+                                        "flags": 768,
+                                        "start": 16,
+                                        "end": 21
+                                    },
+                                    "right": {
+                                        "kind": 81921,
+                                        "text": "responseText",
+                                        "rawText": "responseText",
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 15
+                                    },
+                                    "flags": 256,
+                                    "start": 2,
+                                    "end": 21
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "start": 2,
+                            "end": 21
+                        },
+                        "flags": 256,
+                        "start": 1,
+                        "end": 23
+                    },
+                    "operatorToken": {
+                        "kind": 4125,
+                        "flags": 768,
+                        "start": 23,
+                        "end": 25
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "text": "res",
+                        "rawText": "res",
+                        "flags": 768,
+                        "start": 25,
+                        "end": 29
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 29
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 30
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 31
+        }
+    ],
+    "isModule": false,
+    "text": "({ responseText: text } = res);",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 31
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

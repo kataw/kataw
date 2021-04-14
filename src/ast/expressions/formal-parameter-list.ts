@@ -1,8 +1,7 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { FormalParameter } from './formal-parameter';
 
-export interface FormalParameterList extends Node {
+export interface FormalParameterList extends SyntaxNode {
   readonly formalParameterList: readonly FormalParameter[];
   readonly trailingComma: boolean;
 }
@@ -15,23 +14,11 @@ export function createFormalParameterList(
   end: number
 ): FormalParameterList {
   return {
-    kind: NodeKind.FormalParameterList,
+    kind: SyntaxKind.FormalParameterList,
     formalParameterList,
     trailingComma,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };
-}
-
-export function updateFormalParameterList(
-  node: FormalParameterList,
-  formalParameterList: FormalParameter[],
-  trailingComma: boolean
-): FormalParameterList {
-  return node.formalParameterList !== formalParameterList || node.trailingComma !== trailingComma
-    ? updateNode(createFormalParameterList(formalParameterList, trailingComma, node.flags, node.start, node.end), node)
-    : node;
 }

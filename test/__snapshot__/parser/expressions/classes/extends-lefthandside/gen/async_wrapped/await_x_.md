@@ -1,0 +1,220 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: async wrapped
+> :: case: await
+>          x;
+## Input
+
+`````js
+async function p(){
+  class C extends await
+x; {}
+}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 176,
+            "asyncKeyword": {
+                "kind": 82031,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 5,
+                "end": 14
+            },
+            "generatorToken": null,
+            "name": {
+                "kind": 81921,
+                "text": "p",
+                "rawText": "p",
+                "flags": 768,
+                "start": 14,
+                "end": 16
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 256,
+                "start": 16,
+                "end": 18
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [
+                        {
+                            "kind": 178,
+                            "decorators": null,
+                            "classKeyword": {
+                                "kind": 37814352,
+                                "flags": 768,
+                                "start": 19,
+                                "end": 27
+                            },
+                            "name": {
+                                "kind": 81921,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 768,
+                                "start": 27,
+                                "end": 29
+                            },
+                            "typeParameters": null,
+                            "classHeritage": {
+                                "kind": 279,
+                                "extendsToken": {
+                                    "kind": 4194391,
+                                    "flags": 768,
+                                    "start": 29,
+                                    "end": 37
+                                },
+                                "expression": {
+                                    "kind": 208,
+                                    "awaitToken": {
+                                        "kind": 82032,
+                                        "flags": 768,
+                                        "start": 37,
+                                        "end": 43
+                                    },
+                                    "expression": {
+                                        "kind": 81921,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 43,
+                                        "end": 45
+                                    },
+                                    "flags": 256,
+                                    "start": 37,
+                                    "end": 45
+                                },
+                                "typeParameter": null,
+                                "flags": 128,
+                                "start": 37,
+                                "end": 45
+                            },
+                            "members": {
+                                "kind": 277,
+                                "elements": [],
+                                "flags": 256,
+                                "start": 19,
+                                "end": 19
+                            },
+                            "flags": 128,
+                            "start": 19,
+                            "end": 45
+                        },
+                        {
+                            "kind": 168,
+                            "flags": 128,
+                            "start": 45,
+                            "end": 46
+                        },
+                        {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 48,
+                                "end": 48
+                            },
+                            "flags": 128,
+                            "start": 46,
+                            "end": 49
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 256,
+                    "start": 19,
+                    "end": 49
+                },
+                "flags": 256,
+                "start": 18,
+                "end": 51
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 1280,
+            "start": 0,
+            "end": 51
+        }
+    ],
+    "isModule": false,
+    "text": "async function p(){\n  class C extends await\nx; {}\n}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 45,
+            "end": 46
+        }
+    ],
+    "start": 0,
+    "end": 51
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: async wrapped
+> :: case: await
+>          x;
+## Input
+
+`````js
+async function p(){
+  class C extends await
+x; {}
+}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: d
+> :: test: async wrapped
+> :: case: await
+>          x;
+## Input
+
+`````js
+async function p(){
+  class C extends await
+x; {}
+}
+`````
+```
+

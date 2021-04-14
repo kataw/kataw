@@ -1,0 +1,152 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: class-expr
+> :: case: static get() {}
+## Input
+
+`````js
+(class { static get() {} });
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37814352,
+                        "flags": 768,
+                        "start": 1,
+                        "end": 6
+                    },
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "members": {
+                        "kind": 277,
+                        "elements": [
+                            {
+                                "kind": 278,
+                                "decorators": null,
+                                "staticToken": {
+                                    "kind": 8388716,
+                                    "flags": 768,
+                                    "start": 8,
+                                    "end": 15
+                                },
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 81921,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 768,
+                                        "start": 15,
+                                        "end": 19
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "multiline": false,
+                                            "flags": 256,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "flags": 256,
+                                        "start": 21,
+                                        "end": 24
+                                    },
+                                    "flags": 0,
+                                    "start": 19,
+                                    "end": 24
+                                },
+                                "flags": 256,
+                                "start": 15,
+                                "end": 24
+                            }
+                        ],
+                        "flags": 256,
+                        "start": 8,
+                        "end": 26
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 26
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 27
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 28
+        }
+    ],
+    "isModule": false,
+    "text": "(class { static get() {} });",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 28
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: class-expr
+> :: case: static get() {}
+## Input
+
+`````js
+(class { static get() {} });
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: r
+> :: test: class-expr
+> :: case: static get() {}
+## Input
+
+`````js
+(class { static get() {} });
+`````
+```
+

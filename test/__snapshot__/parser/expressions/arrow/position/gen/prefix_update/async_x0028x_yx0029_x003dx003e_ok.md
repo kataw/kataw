@@ -1,0 +1,128 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: prefix update
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+++async (x, y) => ok
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 128,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 768,
+                    "start": 0,
+                    "end": 2
+                },
+                "expression": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 768,
+                        "start": 14,
+                        "end": 17
+                    },
+                    "typeParameters": null,
+                    "parameters": [
+                        {
+                            "kind": 81921,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 9,
+                            "end": 10
+                        },
+                        {
+                            "kind": 81921,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 13
+                        }
+                    ],
+                    "asyncToken": {
+                        "kind": 82031,
+                        "flags": 768,
+                        "start": 2,
+                        "end": 7
+                    },
+                    "returnType": null,
+                    "contents": {
+                        "kind": 81921,
+                        "text": "ok",
+                        "rawText": "ok",
+                        "flags": 768,
+                        "start": 17,
+                        "end": 20
+                    },
+                    "flags": 2304,
+                    "start": 2,
+                    "end": 20
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 20
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "text": "++async (x, y) => ok",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: prefix update
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+++async (x, y) => ok
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: prefix update
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+++async (x, y) => ok
+`````
+```
+

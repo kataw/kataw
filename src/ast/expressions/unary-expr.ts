@@ -1,37 +1,24 @@
-import { LeftHandSideExpression } from '.';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
-// The set of syntax tokens which are valid unary expression operators
-export type UnaryOperator = '+' | '-' | '!' | '~' | 'delete' | 'void' | 'typeof';
-
-// see: https://tc39.github.io/ecma262/#prod-UnaryExpression
-export interface UnaryExpression extends Node {
-  readonly operator: UnaryOperator;
-  readonly operand: LeftHandSideExpression;
+export interface UnaryExpression extends SyntaxNode {
+  readonly operandToken: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
 }
 
 export function createUnaryExpression(
-  operator: UnaryOperator,
-  operand: LeftHandSideExpression,
-  flags: NodeFlags,
+  operandToken: SyntaxToken<TokenSyntaxKind>,
+  expression: ExpressionNode,
   start: number,
   end: number
 ): UnaryExpression {
   return {
-    kind: NodeKind.UnaryExpression,
-    operator,
-    operand,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.UnaryExpression,
+    operandToken,
+    expression,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateUnaryExpression(node: UnaryExpression, operand: LeftHandSideExpression): UnaryExpression {
-  return node.operand !== operand
-    ? updateNode(createUnaryExpression(node.operator, operand, node.flags, node.start, node.end), node)
-    : node;
 }

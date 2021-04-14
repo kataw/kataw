@@ -1,0 +1,128 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: g
+> :: test: delete arg
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+delete async (x, y) => ok
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 4259886,
+                    "flags": 768,
+                    "start": 0,
+                    "end": 6
+                },
+                "expression": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 768,
+                        "start": 19,
+                        "end": 22
+                    },
+                    "typeParameters": null,
+                    "parameters": [
+                        {
+                            "kind": 81921,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 14,
+                            "end": 15
+                        },
+                        {
+                            "kind": 81921,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 768,
+                            "start": 16,
+                            "end": 18
+                        }
+                    ],
+                    "asyncToken": {
+                        "kind": 82031,
+                        "flags": 768,
+                        "start": 6,
+                        "end": 12
+                    },
+                    "returnType": null,
+                    "contents": {
+                        "kind": 81921,
+                        "text": "ok",
+                        "rawText": "ok",
+                        "flags": 768,
+                        "start": 22,
+                        "end": 25
+                    },
+                    "flags": 2304,
+                    "start": 6,
+                    "end": 25
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": false,
+    "text": "delete async (x, y) => ok",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 25
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: g
+> :: test: delete arg
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+delete async (x, y) => ok
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: g
+> :: test: delete arg
+> :: case: async (x, y) => ok
+## Input
+
+`````js
+delete async (x, y) => ok
+`````
+```
+

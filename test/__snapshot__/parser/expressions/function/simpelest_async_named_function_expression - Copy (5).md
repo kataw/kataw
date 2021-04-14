@@ -1,0 +1,126 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true, module: true }
+`````
+
+## Input
+
+`````js
+foo(async function f(){})
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 81921,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 768,
+                    "start": 0,
+                    "end": 3
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 177,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 768,
+                                "start": 4,
+                                "end": 9
+                            },
+                            "functionKeyword": {
+                                "kind": 37814362,
+                                "flags": 768,
+                                "start": 9,
+                                "end": 18
+                            },
+                            "generatorToken": null,
+                            "name": {
+                                "kind": 81921,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 768,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 20,
+                                "end": 22
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 23
+                                },
+                                "flags": 256,
+                                "start": 22,
+                                "end": 24
+                            },
+                            "typeParameters": null,
+                            "returnType": null,
+                            "flags": 1280,
+                            "start": 4,
+                            "end": 24
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 4,
+                    "end": 24
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 25
+        }
+    ],
+    "isModule": true,
+    "text": "foo(async function f(){})",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 25
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

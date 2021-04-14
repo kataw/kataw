@@ -1,47 +1,39 @@
-import { NodeKind, Node, NodeFlags, TransformFlags } from './node';
-import { Diagnostic } from '../diagnostics/diagnostic';
-import { updateNode } from '../utils';
-import { Statement } from './statements';
+import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
+import { StatementNode } from './stmt';
+import { DiagnosticType } from '../diagnostic/';
+import { StringLiteral } from './expressions/string-literal';
 
 /**
  * A top level node which contains the list of statements in a program,
  * and some information about the file which the statements came from.
  */
-export interface RootNode extends Node {
-  readonly source: string;
-  readonly filename: string;
-  readonly statements: readonly Statement[];
+export interface RootNode extends SyntaxNode {
+  readonly directives: StringLiteral[];
+  readonly statements: StatementNode[];
   readonly isModule: boolean;
-  readonly printable: boolean;
-  readonly diagnostics: Diagnostic[];
+  readonly text: string;
+  readonly fileName: string;
+  readonly diagnostics: DiagnosticType[];
 }
 
 export function createRootNode(
-  source: string,
-  filename: string,
-  statements: readonly Statement[],
+  directives: StringLiteral[],
+  statements: StatementNode[],
   isModule: boolean,
-  diagnostics: Diagnostic[]
+  text: string,
+  fileName: string,
+  diagnostics: DiagnosticType[]
 ): RootNode {
   return {
-    kind: NodeKind.RootNode,
-    source,
-    filename,
+    kind: SyntaxKind.RootNode,
+    directives,
     statements,
     isModule,
-    printable: true,
-    diagnostics,
-    original: null,
-    symbol: null,
+    text,
+    fileName,
     flags: NodeFlags.None,
-    transformFlags: TransformFlags.None,
+    diagnostics,
     start: 0,
-    end: source.length
+    end: text.length
   };
-}
-
-export function updateRootNode(node: RootNode, statements: readonly Statement[]): RootNode {
-  return node.statements !== statements
-    ? updateNode(createRootNode(node.source, node.filename, statements, node.isModule, node.diagnostics), node)
-    : node;
 }

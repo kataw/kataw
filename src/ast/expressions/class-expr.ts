@@ -1,79 +1,44 @@
-import { Expression } from '.';
-import { BindingIdentifier } from './binding-identifier';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from '.';
+import { Identifier } from './identifier-expr';
 import { ClassElementList } from '../expressions/class-element-list';
-import { TypeParameters } from '../types/type-parameter-list';
-import { ImplementClauses } from '../types/implement-clauses';
+import { TypeParameter } from '../types/type-parameter';
 import { DecoratorList } from './decorator-list';
 
 /**
  * Class expression.
  */
-export interface ClassExpression extends Node {
-  readonly name: BindingIdentifier | null;
-  readonly typeParameters: TypeParameters | null;
-  readonly classHeritage: Expression | null;
-  readonly implementClauses: ImplementClauses | null;
-  readonly members: ClassElementList;
+
+export interface ClassExpression extends SyntaxNode {
+  readonly classKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly decorators: DecoratorList | null;
+  readonly name: Identifier | null;
+  readonly typeParameters: TypeParameter | null;
+  readonly classHeritage: ExpressionNode | null;
+  readonly members: ClassElementList;
 }
 
 export function createClassExpression(
-  name: BindingIdentifier | null,
-  typeParameters: TypeParameters | null,
-  classHeritage: Expression | null,
-  implementClauses: ImplementClauses | null,
-  members: ClassElementList,
   decorators: DecoratorList | null,
-  flags: NodeFlags,
+  classKeyword: SyntaxToken<TokenSyntaxKind>,
+  name: Identifier | null,
+  typeParameters: TypeParameter | null,
+  classHeritage: ExpressionNode | null,
+  members: ClassElementList,
   start: number,
   end: number
 ): ClassExpression {
   return {
-    kind: NodeKind.ClassExpression,
+    kind: SyntaxKind.ClassExpression,
+    decorators,
+    classKeyword,
     name,
     typeParameters,
     classHeritage,
-    implementClauses,
     members,
-    decorators,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateClassExpression(
-  node: ClassExpression,
-  name: BindingIdentifier | null,
-  typeParameters: TypeParameters | null,
-  classHeritage: Expression | null,
-  implementClauses: ImplementClauses | null,
-  members: ClassElementList,
-  decorators: DecoratorList | null
-): ClassExpression {
-  return node.name !== name ||
-    node.typeParameters !== typeParameters ||
-    node.classHeritage !== classHeritage ||
-    node.implementClauses !== implementClauses ||
-    node.members !== members ||
-    node.decorators !== decorators
-    ? updateNode(
-        createClassExpression(
-          name,
-          typeParameters,
-          classHeritage,
-          implementClauses,
-          members,
-          decorators,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
-    : node;
 }

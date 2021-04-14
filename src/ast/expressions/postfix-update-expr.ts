@@ -1,40 +1,24 @@
-import { Expression } from '.';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
-import { UpdateOp } from './prefix-update-expr';
-
-// https://tc39.github.io/ecma262/#prod-UpdateExpression
-
-export interface PostfixUpdateExpression extends Node {
-  readonly operator: UpdateOp;
-  readonly operand: Expression;
+export interface PostfixUpdateExpression extends SyntaxNode {
+  readonly operandToken: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
 }
 
 export function createPostfixUpdateExpression(
-  operator: UpdateOp,
-  operand: Expression,
-  flags: NodeFlags,
+  operandToken: SyntaxToken<TokenSyntaxKind>,
+  expression: ExpressionNode,
   start: number,
   end: number
 ): PostfixUpdateExpression {
   return {
-    kind: NodeKind.PostfixUpdateExpression,
-    operator,
-    operand,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.PostfixUpdateExpression,
+    operandToken,
+    expression,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updatePostfixUpdateExpression(
-  node: PostfixUpdateExpression,
-  operand: Expression
-): PostfixUpdateExpression {
-  return node.operand !== operand
-    ? updateNode(createPostfixUpdateExpression(node.operator, operand, node.flags, node.start, node.end), node)
-    : node;
 }

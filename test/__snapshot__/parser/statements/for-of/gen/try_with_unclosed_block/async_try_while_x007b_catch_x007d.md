@@ -1,0 +1,329 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: try with unclosed block
+> :: case: async try while { catch }
+## Input
+
+`````js
+try {} finally(x) { async try while { catch }
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 768,
+                "start": 0,
+                "end": 3
+            },
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 5,
+                    "end": 5
+                },
+                "flags": 128,
+                "start": 3,
+                "end": 6
+            },
+            "catchClause": null,
+            "finallyKeyword": {
+                "kind": 37757016,
+                "flags": 768,
+                "start": 6,
+                "end": 14
+            },
+            "finallyBlock": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 14,
+                    "end": 14
+                },
+                "flags": 128,
+                "start": 14,
+                "end": 14
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 14
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 81921,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 15,
+                    "end": 16
+                },
+                "flags": 256,
+                "start": 14,
+                "end": 17
+            },
+            "flags": 128,
+            "start": 14,
+            "end": 17
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 81921,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 768,
+                            "start": 19,
+                            "end": 25
+                        },
+                        "flags": 128,
+                        "start": 19,
+                        "end": 25
+                    }
+                ],
+                "multiLine": false,
+                "flags": 128,
+                "start": 19,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 17,
+            "end": 25
+        },
+        {
+            "kind": 159,
+            "tryKeyword": {
+                "kind": 37757027,
+                "flags": 768,
+                "start": 25,
+                "end": 29
+            },
+            "block": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 29,
+                    "end": 29
+                },
+                "flags": 128,
+                "start": 29,
+                "end": 29
+            },
+            "catchClause": null,
+            "finallyKeyword": null,
+            "finallyBlock": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [
+                        {
+                            "kind": 159,
+                            "tryKeyword": null,
+                            "block": {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 43,
+                                    "end": 43
+                                },
+                                "flags": 128,
+                                "start": 43,
+                                "end": 43
+                            },
+                            "catchClause": null,
+                            "finallyKeyword": null,
+                            "finallyBlock": {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 45,
+                                    "end": 45
+                                },
+                                "flags": 128,
+                                "start": 45,
+                                "end": 45
+                            },
+                            "flags": 128,
+                            "start": 37,
+                            "end": 45
+                        }
+                    ],
+                    "multiLine": false,
+                    "flags": 128,
+                    "start": 37,
+                    "end": 45
+                },
+                "flags": 128,
+                "start": 35,
+                "end": 45
+            },
+            "flags": 128,
+            "start": 25,
+            "end": 45
+        }
+    ],
+    "isModule": false,
+    "text": "try {} finally(x) { async try while { catch }",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 15
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 29
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 29
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 35
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 35
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 43
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 43,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 43,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 45,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 45,
+            "end": 45
+        }
+    ],
+    "start": 0,
+    "end": 45
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: try with unclosed block
+> :: case: async try while { catch }
+## Input
+
+`````js
+try {} finally(x) { async try while { catch }
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: try with unclosed block
+> :: case: async try while { catch }
+## Input
+
+`````js
+try {} finally(x) { async try while { catch }
+`````
+```
+

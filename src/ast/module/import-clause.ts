@@ -1,53 +1,28 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
 import { NamedImports } from './named-imports';
-import { BindingIdentifier } from '../expressions/binding-identifier';
-import { ImportDeclaration } from './import-declaration';
+import { Identifier } from '../expressions/identifier-expr';
 
-export interface ImportClause extends Node {
-  readonly defaultBinding: BindingIdentifier | null;
-  readonly nameSpaceImport: BindingIdentifier | null;
+export interface ImportClause extends SyntaxNode {
+  readonly defaultBinding: Identifier | null;
+  readonly nameSpaceImport: Identifier | null;
   readonly namedImports: NamedImports | null;
-  readonly isTypeOnly: boolean;
 }
 
 export function createImportClause(
-  defaultBinding: BindingIdentifier | null,
-  nameSpaceImport: BindingIdentifier | null,
+  defaultBinding: Identifier | null,
+  nameSpaceImport: Identifier | null,
   namedImports: NamedImports | null,
-  isTypeOnly: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ImportClause {
   return {
-    kind: NodeKind.ImportClause,
+    kind: SyntaxKind.ImportClause,
     defaultBinding,
     nameSpaceImport,
     namedImports,
-    isTypeOnly,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateImportClause(
-  node: ImportClause,
-  defaultBinding: BindingIdentifier | null,
-  nameSpaceImport: BindingIdentifier | null,
-  namedImports: NamedImports | null,
-  isTypeOnly: boolean
-): ImportClause {
-  return node.defaultBinding !== defaultBinding ||
-    node.nameSpaceImport !== nameSpaceImport ||
-    node.namedImports !== namedImports ||
-    node.isTypeOnly !== isTypeOnly
-    ? updateNode(
-        createImportClause(defaultBinding, nameSpaceImport, namedImports, isTypeOnly, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

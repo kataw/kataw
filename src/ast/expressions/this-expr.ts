@@ -1,16 +1,13 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * This expression.
- */
-export type ThisExpression = Node;
+export interface ThisExpression extends SyntaxNode {
+  kind: SyntaxKind.ThisExpression;
+}
 
-export function createThisExpression(flags: NodeFlags, start: number, end: number): ThisExpression {
+export function createThisExpression(start: number, end: number): ThisExpression {
   return {
-    kind: NodeKind.ThisExpression,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    kind: SyntaxKind.ThisExpression,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

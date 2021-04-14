@@ -1,37 +1,20 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { TypeNode } from './';
+import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { TypeNode } from '.';
 
-/**
- * TupleType
- */
-
-export interface TupleType extends Node {
-  readonly elementTypes: TypeNode[];
-  readonly multiline: boolean;
+export interface TupleType extends SyntaxNode {
+  readonly kind: SyntaxKind.TupleType;
+  readonly types: TypeNode[];
+  readonly trailingComma: boolean;
 }
 
-export function createTupleType(
-  elementTypes: TypeNode[],
-  multiline: boolean,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): TupleType {
+export function createTupleType(types: TypeNode[], trailingComma: boolean, start: number, end: number): TupleType {
   return {
-    kind: NodeKind.TupleType,
-    elementTypes,
-    multiline,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
+    kind: SyntaxKind.TupleType,
+    types,
+    trailingComma,
+    autofix: AutoFix.NotFixable,
+    flags: NodeFlags.None,
     start,
     end
   };
-}
-
-export function updateTupleType(node: TupleType, elementTypes: TypeNode[]): TupleType {
-  return node.elementTypes !== elementTypes
-    ? updateNode(createTupleType(elementTypes, node.multiline, node.flags, node.start, node.end), node)
-    : node;
 }

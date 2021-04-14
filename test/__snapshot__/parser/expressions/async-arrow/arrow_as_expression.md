@@ -1,0 +1,97 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+foo(async () => foo)
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 81921,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 768,
+                    "start": 0,
+                    "end": 3
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 271,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 768,
+                                "start": 12,
+                                "end": 15
+                            },
+                            "typeParameters": null,
+                            "parameters": [],
+                            "asyncToken": {
+                                "kind": 82031,
+                                "flags": 768,
+                                "start": 4,
+                                "end": 9
+                            },
+                            "returnType": null,
+                            "contents": {
+                                "kind": 81921,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 768,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "flags": 2304,
+                            "start": 4,
+                            "end": 19
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 4,
+                    "end": 19
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 20
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "text": "foo(async () => foo)",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

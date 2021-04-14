@@ -1,0 +1,94 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: implements
+## Input
+
+`````js
+class implements {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 178,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37814352,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "name": {
+                "kind": 81921,
+                "text": "implements",
+                "rawText": "implements",
+                "flags": 768,
+                "start": 5,
+                "end": 16
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 18,
+                "end": 19
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "text": "class implements {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 19
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: implements
+## Input
+
+`````js
+class implements {}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: as class name
+> :: case: implements
+## Input
+
+`````js
+class implements {}
+`````
+```
+

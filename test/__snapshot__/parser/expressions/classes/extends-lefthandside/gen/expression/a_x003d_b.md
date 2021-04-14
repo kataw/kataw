@@ -1,0 +1,201 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: a = b
+## Input
+
+`````js
+(class B extends a = b {})
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 125,
+                    "left": {
+                        "kind": 189,
+                        "decorators": null,
+                        "classKeyword": {
+                            "kind": 37814352,
+                            "flags": 768,
+                            "start": 1,
+                            "end": 6
+                        },
+                        "name": {
+                            "kind": 81921,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 768,
+                            "start": 6,
+                            "end": 8
+                        },
+                        "typeParameters": null,
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsToken": {
+                                "kind": 4194391,
+                                "flags": 768,
+                                "start": 8,
+                                "end": 16
+                            },
+                            "expression": {
+                                "kind": 81921,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 768,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "typeParameter": null,
+                            "flags": 128,
+                            "start": 16,
+                            "end": 18
+                        },
+                        "members": {
+                            "kind": 277,
+                            "elements": [],
+                            "flags": 256,
+                            "start": 1,
+                            "end": 1
+                        },
+                        "flags": 256,
+                        "start": 1,
+                        "end": 18
+                    },
+                    "operatorToken": {
+                        "kind": 4125,
+                        "flags": 768,
+                        "start": 18,
+                        "end": 20
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 768,
+                        "start": 20,
+                        "end": 22
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 22
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 22
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 22
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 24,
+                "end": 24
+            },
+            "flags": 128,
+            "start": 22,
+            "end": 25
+        }
+    ],
+    "isModule": false,
+    "text": "(class B extends a = b {})",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 18,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 24,
+            "error": "The left-hand side of an assignment expression must be a variable or a property access",
+            "start": 18,
+            "end": 20
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 22,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 22,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 25,
+            "end": 26
+        }
+    ],
+    "start": 0,
+    "end": 26
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: a = b
+## Input
+
+`````js
+(class B extends a = b {})
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression
+> :: case: a = b
+## Input
+
+`````js
+(class B extends a = b {})
+`````
+```
+

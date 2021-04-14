@@ -1,34 +1,20 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { LeftHandSideExpression } from '.';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
 
 /**
  * Decorator
  */
 
-export interface Decorator extends Node {
-  readonly expression: LeftHandSideExpression;
+export interface Decorator extends SyntaxNode {
+  readonly expression: ExpressionNode;
 }
 
-export function createDecorator(
-  expression: LeftHandSideExpression,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): Decorator {
+export function createDecorator(expression: ExpressionNode, flags: NodeFlags, start: number, end: number): Decorator {
   return {
-    kind: NodeKind.Decorator,
+    kind: SyntaxKind.Decorator,
     expression,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
     start,
     end
   };
-}
-
-export function updateDecorator(node: Decorator, expression: LeftHandSideExpression): Decorator {
-  return node.expression !== expression
-    ? updateNode(createDecorator(expression, node.flags, node.start, node.end), node)
-    : node;
 }

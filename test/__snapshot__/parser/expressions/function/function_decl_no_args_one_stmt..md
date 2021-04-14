@@ -1,0 +1,107 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true, module: true }
+`````
+
+## Input
+
+`````js
+function f(){foo}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 176,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37814362,
+                "flags": 768,
+                "start": 0,
+                "end": 8
+            },
+            "generatorToken": null,
+            "name": {
+                "kind": 81921,
+                "text": "f",
+                "rawText": "f",
+                "flags": 768,
+                "start": 8,
+                "end": 10
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 256,
+                "start": 10,
+                "end": 12
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 81921,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 768,
+                                "start": 13,
+                                "end": 16
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 16
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 13,
+                    "end": 16
+                },
+                "flags": 256,
+                "start": 12,
+                "end": 17
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 256,
+            "start": 0,
+            "end": 17
+        }
+    ],
+    "isModule": true,
+    "text": "function f(){foo}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 17
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -1,27 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * BigInt literal
- */
-export interface BigIntLiteral extends Node {
-  readonly text: number;
+export interface BigIntLiteral extends SyntaxNode {
+  readonly text: string;
   readonly rawText: string;
 }
 
-export function createBigIntLiteral(
-  text: number,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): BigIntLiteral {
+export function createBigIntLiteral(text: string, rawText: string, start: number, end: number): BigIntLiteral {
   return {
-    kind: NodeKind.BigIntLiteral,
+    kind: SyntaxKind.BigIntLiteral,
     text,
     rawText,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ESNext,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };

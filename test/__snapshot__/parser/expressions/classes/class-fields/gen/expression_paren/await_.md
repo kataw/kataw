@@ -1,0 +1,159 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression_paren
+> :: case: await;
+## Input
+
+`````js
+(class { await; });
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 189,
+                    "decorators": null,
+                    "classKeyword": {
+                        "kind": 37814352,
+                        "flags": 768,
+                        "start": 1,
+                        "end": 6
+                    },
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "members": {
+                        "kind": 277,
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "key": {
+                                    "kind": 81921,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 768,
+                                    "start": 8,
+                                    "end": 14
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 256,
+                                "start": 8,
+                                "end": 14
+                            }
+                        ],
+                        "flags": 256,
+                        "start": 8,
+                        "end": 14
+                    },
+                    "flags": 256,
+                    "start": 1,
+                    "end": 14
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 14
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 168,
+            "flags": 128,
+            "start": 18,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "text": "(class { await; });",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 15
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 14,
+            "end": 15
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 15,
+            "end": 17
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 17,
+            "end": 18
+        }
+    ],
+    "start": 0,
+    "end": 19
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression_paren
+> :: case: await;
+## Input
+
+`````js
+(class { await; });
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: n
+> :: test: expression_paren
+> :: case: await;
+## Input
+
+`````js
+(class { await; });
+`````
+```
+

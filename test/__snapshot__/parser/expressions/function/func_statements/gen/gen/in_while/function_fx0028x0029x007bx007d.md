@@ -1,0 +1,140 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: function f(){}
+## Input
+
+`````js
+while (x) function f(){}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "expression": {
+                "kind": 81921,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 7,
+                "end": 8
+            },
+            "statement": {
+                "kind": 176,
+                "asyncKeyword": null,
+                "functionKeyword": {
+                    "kind": 37814362,
+                    "flags": 768,
+                    "start": 9,
+                    "end": 18
+                },
+                "generatorToken": null,
+                "name": {
+                    "kind": 81921,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 768,
+                    "start": 18,
+                    "end": 20
+                },
+                "formalParameters": {
+                    "kind": 214,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 20,
+                    "end": 22
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 256,
+                        "start": 23,
+                        "end": 23
+                    },
+                    "flags": 256,
+                    "start": 22,
+                    "end": 24
+                },
+                "typeParameters": null,
+                "returnType": null,
+                "flags": 256,
+                "start": 9,
+                "end": 24
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 24
+        }
+    ],
+    "isModule": false,
+    "text": "while (x) function f(){}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 21,
+            "error": "Function declarations are not allowed in an arbitrary statement position.",
+            "start": 9,
+            "end": 18
+        }
+    ],
+    "start": 0,
+    "end": 24
+}
+```
+
+### Printed
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: function f(){}
+## Input
+
+`````js
+while (x) function f(){}
+`````
+```
+
+### Diagnostics
+
+```javascript
+ed test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: e
+> :: test: in while
+> :: case: function f(){}
+## Input
+
+`````js
+while (x) function f(){}
+`````
+```
+

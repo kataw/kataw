@@ -1,0 +1,110 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+(localVar |= defaultValue) => {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 125,
+                    "left": {
+                        "kind": 81921,
+                        "text": "localVar",
+                        "rawText": "localVar",
+                        "flags": 768,
+                        "start": 1,
+                        "end": 9
+                    },
+                    "operatorToken": {
+                        "kind": 4136,
+                        "flags": 768,
+                        "start": 9,
+                        "end": 12
+                    },
+                    "right": {
+                        "kind": 81921,
+                        "text": "defaultValue",
+                        "rawText": "defaultValue",
+                        "flags": 768,
+                        "start": 12,
+                        "end": 25
+                    },
+                    "flags": 256,
+                    "start": 0,
+                    "end": 25
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 26
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 26
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 31,
+                "end": 31
+            },
+            "flags": 128,
+            "start": 29,
+            "end": 32
+        }
+    ],
+    "isModule": false,
+    "text": "(localVar |= defaultValue) => {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 26,
+            "end": 29
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 26,
+            "end": 29
+        }
+    ],
+    "start": 0,
+    "end": 32
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

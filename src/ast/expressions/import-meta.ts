@@ -1,16 +1,18 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * Import Meta
  */
-export type ImportMeta = Node;
+export interface ImportMeta extends SyntaxNode {
+  readonly importKeyword: SyntaxToken<TokenSyntaxKind>;
+}
 
-export function createImportMeta(flags: NodeFlags, start: number, end: number): ImportMeta {
+export function createImportMeta(importKeyword: SyntaxToken<TokenSyntaxKind>, start: number, end: number): ImportMeta {
   return {
-    kind: NodeKind.ImportMeta,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2020,
+    kind: SyntaxKind.ImportMeta,
+    importKeyword,
+    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end
   };
