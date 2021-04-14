@@ -208,3 +208,52 @@ export function hexIntegerLiteral(node: SyntaxNode): boolean {
 export function containsInvalidEscape(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.ContainsInvalidEscape) === NodeFlags.ContainsInvalidEscape;
 }
+
+export function isAssignOp(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsAssignOp) === SyntaxKind.IsAssignOp;
+}
+
+export function isBinaryOp(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsBinaryOp) === SyntaxKind.IsBinaryOp;
+}
+
+export function isStatementStart(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsStatementStart) === SyntaxKind.IsStatementStart;
+}
+
+export function isIdentifier(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsIdentifier) === SyntaxKind.IsIdentifier;
+}
+
+export function isExpressionStart(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsExpressionStart) === SyntaxKind.IsExpressionStart;
+}
+
+export function isPropertyOrCall(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsPropertyOrCall) === SyntaxKind.IsPropertyOrCall;
+}
+
+export function isEllipsis(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsEllipsis) === SyntaxKind.IsEllipsis;
+}
+
+export function isInOrOf(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsInOrOf) === SyntaxKind.IsInOrOf;
+}
+
+
+export function isKeyword(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword;
+}
+
+export function isFutureReserved(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsFutureReserved) === SyntaxKind.IsFutureReserved;
+}
+
+export function isStartOfType(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsStartOfType) === SyntaxKind.IsStartOfType;
+}
+
+export function isSemicolon(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
+}

@@ -18,7 +18,18 @@ export {
   isBinaryIntegerLiteral,
   isUnterminated,
   hexIntegerLiteral,
-  containsInvalidEscape
+  containsInvalidEscape,
+  isAssignOp,
+  isBinaryOp,
+  isStatementStart,
+  isExpressionStart,
+  isPropertyOrCall,
+  isEllipsis,
+  isInOrOf,
+  isKeyword,
+  isFutureReserved,
+  isStartOfType,
+  isSemicolon
 } from './common';
 
 export function parseScript(source: string, _options: any) {
