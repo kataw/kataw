@@ -61,7 +61,7 @@ var [...x] = y
                                             "end": 8
                                         },
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -88,7 +88,7 @@ var [...x] = y
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,

@@ -44,7 +44,7 @@ class x { *[expr](){} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -85,7 +85,7 @@ class x { *[expr](){} }
                             "name": {
                                 "kind": 194,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "expr",
                                     "rawText": "expr",
                                     "flags": 768,

@@ -44,7 +44,7 @@ class x { async get foo(){ }}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -62,7 +62,7 @@ class x { async get foo(){ }}
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
                             "flags": 768,
@@ -83,7 +83,7 @@ class x { async get foo(){ }}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 768,

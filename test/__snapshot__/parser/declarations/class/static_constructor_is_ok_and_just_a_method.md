@@ -44,7 +44,7 @@ class x { static "constructor"(){} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -68,7 +68,7 @@ class x { static "constructor"(){} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67174403,
+                                "kind": 201392131,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,

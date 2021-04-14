@@ -44,7 +44,7 @@ class x {[x]z){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -64,7 +64,7 @@ class x {[x]z){}}
                         "key": {
                             "kind": 194,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -88,7 +88,7 @@ class x {[x]z){}}
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
                             "flags": 768,

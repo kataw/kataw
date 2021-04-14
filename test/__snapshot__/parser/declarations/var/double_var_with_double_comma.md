@@ -45,7 +45,7 @@ var {x,, y} = obj;
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -78,7 +78,7 @@ var {x,, y} = obj;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -104,7 +104,7 @@ var {x,, y} = obj;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 768,

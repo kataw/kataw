@@ -46,7 +46,7 @@ class X {
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "X",
                 "rawText": "X",
                 "flags": 768,
@@ -65,7 +65,7 @@ class X {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67174403,
+                                "kind": 201392131,
                                 "text": "",
                                 "rawText": "",
                                 "flags": 67109633,

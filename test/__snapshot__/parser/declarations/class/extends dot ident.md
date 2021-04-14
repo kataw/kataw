@@ -44,7 +44,7 @@ class v extends.foo {}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "v",
                 "rawText": "v",
                 "flags": 768,
@@ -71,7 +71,7 @@ class v extends.foo {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,

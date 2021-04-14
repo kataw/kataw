@@ -39,7 +39,7 @@ const {x}: string = y;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -50,7 +50,7 @@ const {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 8,
                                 "end": 15
@@ -91,7 +91,7 @@ const {x}: string = y;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -119,7 +119,7 @@ const {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 28,
                                 "end": 35
@@ -130,7 +130,7 @@ const {x}: string = y;
                             "end": 35
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -167,7 +167,7 @@ const {x}: string = y;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -178,7 +178,7 @@ const {x}: string = y;
                                         "type": {
                                             "kind": 139,
                                             "type": {
-                                                "kind": 16615,
+                                                "kind": 134234343,
                                                 "flags": 768,
                                                 "start": 51,
                                                 "end": 57
@@ -207,7 +207,7 @@ const {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 59,
                                 "end": 66
@@ -218,7 +218,7 @@ const {x}: string = y;
                             "end": 66
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -255,7 +255,7 @@ const {x}: string = y;
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -282,7 +282,7 @@ const {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 83,
                                 "end": 90
@@ -293,7 +293,7 @@ const {x}: string = y;
                             "end": 90
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,

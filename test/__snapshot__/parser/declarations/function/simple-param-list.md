@@ -52,7 +52,7 @@ function x({x}) { "use strict"; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -66,7 +66,7 @@ function x({x}) { "use strict"; }
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -76,7 +76,7 @@ function x({x}) { "use strict"; }
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -99,7 +99,7 @@ function x({x}) { "use strict"; }
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 768,
@@ -134,7 +134,7 @@ function x({x}) { "use strict"; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -153,7 +153,7 @@ function x({x}) { "use strict"; }
                             "end": 51
                         },
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -179,7 +179,7 @@ function x({x}) { "use strict"; }
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 768,
@@ -214,7 +214,7 @@ function x({x}) { "use strict"; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -236,7 +236,7 @@ function x({x}) { "use strict"; }
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -279,7 +279,7 @@ function x({x}) { "use strict"; }
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 768,
@@ -314,7 +314,7 @@ function x({x}) { "use strict"; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -336,7 +336,7 @@ function x({x}) { "use strict"; }
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -378,7 +378,7 @@ function x({x}) { "use strict"; }
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 768,

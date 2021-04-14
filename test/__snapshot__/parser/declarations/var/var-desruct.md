@@ -58,7 +58,7 @@ var {[a]: [b]} = c
                                         "key": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -81,7 +81,7 @@ var {[a]: [b]} = c
                                                             "kind": 244,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 768,
@@ -129,7 +129,7 @@ var {[a]: [b]} = c
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
                             "flags": 768,

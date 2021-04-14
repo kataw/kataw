@@ -44,7 +44,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -63,7 +63,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,
@@ -123,7 +123,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "constructor",
                     "rawText": "constructor",
                     "flags": 768,

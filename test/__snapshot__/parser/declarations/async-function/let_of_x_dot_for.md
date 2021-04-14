@@ -45,7 +45,7 @@ for (let.foo of x);
             "initializer": {
                 "kind": 129,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
                     "flags": 768,
@@ -53,7 +53,7 @@ for (let.foo of x);
                     "end": 8
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -66,7 +66,7 @@ for (let.foo of x);
                 "end": 12
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

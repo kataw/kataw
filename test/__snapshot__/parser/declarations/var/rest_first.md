@@ -58,7 +58,7 @@ var ...a = 1;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -72,7 +72,7 @@ var ...a = 1;
                     "end": 10
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,

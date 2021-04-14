@@ -40,7 +40,7 @@ const [foo=a, bar=b] = arr;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -50,7 +50,7 @@ const [foo=a, bar=b] = arr;
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -65,7 +65,7 @@ const [foo=a, bar=b] = arr;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 768,
@@ -75,7 +75,7 @@ const [foo=a, bar=b] = arr;
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -99,7 +99,7 @@ const [foo=a, bar=b] = arr;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 768,

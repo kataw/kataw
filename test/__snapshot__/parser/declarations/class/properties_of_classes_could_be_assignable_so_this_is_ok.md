@@ -54,7 +54,7 @@ for (class x { [a](){} }.x in c);
                         "end": 10
                     },
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -75,7 +75,7 @@ for (class x { [a](){} }.x in c);
                                     "name": {
                                         "kind": 194,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -129,7 +129,7 @@ for (class x { [a](){} }.x in c);
                     "end": 24
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -142,7 +142,7 @@ for (class x { [a](){} }.x in c);
                 "end": 26
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,

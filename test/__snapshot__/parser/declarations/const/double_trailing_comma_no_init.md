@@ -43,7 +43,7 @@ const foo,,
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,

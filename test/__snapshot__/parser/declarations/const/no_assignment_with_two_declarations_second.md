@@ -43,7 +43,7 @@ const foo, [bar];
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -68,7 +68,7 @@ const foo, [bar];
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 768,

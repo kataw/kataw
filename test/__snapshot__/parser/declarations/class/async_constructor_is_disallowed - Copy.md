@@ -33,7 +33,7 @@ class X {    async constructor() {}   }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "X",
                 "rawText": "X",
                 "flags": 768,
@@ -52,7 +52,7 @@ class X {    async constructor() {}   }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,

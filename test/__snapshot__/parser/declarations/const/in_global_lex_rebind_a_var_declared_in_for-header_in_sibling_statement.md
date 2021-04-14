@@ -49,7 +49,7 @@ const x = 1
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -89,7 +89,7 @@ const x = 1
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -99,7 +99,7 @@ const x = 1
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,

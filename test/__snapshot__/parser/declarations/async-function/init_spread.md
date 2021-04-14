@@ -48,7 +48,7 @@ let x = ...y;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -81,7 +81,7 @@ let x = ...y;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,

@@ -56,7 +56,7 @@ let [a=[...b], ...c] = obj;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -73,7 +73,7 @@ let [a=[...b], ...c] = obj;
                                                     {
                                                         "kind": 223,
                                                         "argument": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -107,7 +107,7 @@ let [a=[...b], ...c] = obj;
                                             "end": 18
                                         },
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 768,
@@ -134,7 +134,7 @@ let [a=[...b], ...c] = obj;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 768,

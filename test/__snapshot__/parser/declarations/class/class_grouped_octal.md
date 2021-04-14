@@ -44,7 +44,7 @@ class x extends y{}(09)
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -61,7 +61,7 @@ class x extends y{}(09)
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -89,7 +89,7 @@ class x extends y{}(09)
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 9,
                     "rawText": "09",
                     "flags": 768,

@@ -44,7 +44,7 @@ class w {  t[x](){}  }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "w",
                 "rawText": "w",
                 "flags": 768,
@@ -62,7 +62,7 @@ class w {  t[x](){}  }
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "t",
                             "rawText": "t",
                             "flags": 768,
@@ -85,7 +85,7 @@ class w {  t[x](){}  }
                             "name": {
                                 "kind": 194,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,

@@ -56,7 +56,7 @@ export var a, ...b = 1;
                         {
                             "kind": 157,
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -92,7 +92,7 @@ export var a, ...b = 1;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -106,7 +106,7 @@ export var a, ...b = 1;
                     "end": 20
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,

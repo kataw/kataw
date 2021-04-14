@@ -44,7 +44,7 @@ class A {async get 7(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -62,7 +62,7 @@ class A {async get 7(){}}
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
                             "flags": 768,
@@ -83,7 +83,7 @@ class A {async get 7(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 7,
                                 "rawText": "7",
                                 "flags": 768,

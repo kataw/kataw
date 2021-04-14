@@ -56,7 +56,7 @@ let[x] in x;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -115,7 +115,7 @@ let[x] in x;
                     "end": 9
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

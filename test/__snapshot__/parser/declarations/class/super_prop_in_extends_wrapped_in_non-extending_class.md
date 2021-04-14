@@ -44,7 +44,7 @@ class a { foo(){      class x extends super.foo {}    }}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -63,7 +63,7 @@ class a { foo(){      class x extends super.foo {}    }}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 768,
@@ -96,7 +96,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "end": 27
                                             },
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -127,7 +127,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "end": 43
                                                     },
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 768,

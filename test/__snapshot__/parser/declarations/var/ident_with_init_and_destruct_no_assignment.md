@@ -37,7 +37,7 @@ var x = y, {z};
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -47,7 +47,7 @@ var x = y, {z};
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -69,7 +69,7 @@ var x = y, {z};
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,

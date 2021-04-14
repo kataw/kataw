@@ -33,7 +33,7 @@ class x {foo: x}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -51,7 +51,7 @@ class x {foo: x}
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -64,7 +64,7 @@ class x {foo: x}
                             "type": {
                                 "kind": 144,
                                 "id": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,

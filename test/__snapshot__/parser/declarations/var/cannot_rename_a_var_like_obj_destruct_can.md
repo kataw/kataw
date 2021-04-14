@@ -56,7 +56,7 @@ var [foo:bar] = obj;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -69,7 +69,7 @@ var [foo:bar] = obj;
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 768,
@@ -105,7 +105,7 @@ var [foo:bar] = obj;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 768,

@@ -39,7 +39,7 @@ f = ([xCls = class X {}]) => {}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,
@@ -70,7 +70,7 @@ f = ([xCls = class X {}]) => {}
                                     {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "xCls",
                                             "rawText": "xCls",
                                             "flags": 768,
@@ -93,7 +93,7 @@ f = ([xCls = class X {}]) => {}
                                                 "end": 18
                                             },
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "X",
                                                 "rawText": "X",
                                                 "flags": 768,

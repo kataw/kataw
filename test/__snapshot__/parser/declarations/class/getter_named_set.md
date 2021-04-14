@@ -44,7 +44,7 @@ class A {get set(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -63,7 +63,7 @@ class A {get set(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 768,

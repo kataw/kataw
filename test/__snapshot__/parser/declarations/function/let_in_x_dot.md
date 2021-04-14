@@ -41,7 +41,7 @@ let.dot in x
                 "left": {
                     "kind": 129,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "let",
                         "rawText": "let",
                         "flags": 768,
@@ -49,7 +49,7 @@ let.dot in x
                         "end": 3
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "dot",
                         "rawText": "dot",
                         "flags": 768,
@@ -68,7 +68,7 @@ let.dot in x
                     "end": 10
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

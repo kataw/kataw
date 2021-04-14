@@ -47,7 +47,7 @@ for ((let).foo;;);
                 "member": {
                     "kind": 121,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "let",
                         "rawText": "let",
                         "flags": 768,
@@ -59,7 +59,7 @@ for ((let).foo;;);
                     "end": 10
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,

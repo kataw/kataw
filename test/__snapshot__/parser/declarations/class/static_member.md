@@ -33,7 +33,7 @@ class A {static [a](){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -59,7 +59,7 @@ class A {static [a](){}}
                             "name": {
                                 "kind": 194,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,

@@ -45,7 +45,7 @@ let {a:=c} = z;
                                         "kind": 204,
                                         "ellipsisToken": null,
                                         "key": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -64,7 +64,7 @@ let {a:=c} = z;
                                                 "end": 7
                                             },
                                             "initializer": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 768,
@@ -94,7 +94,7 @@ let {a:=c} = z;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
                             "flags": 768,

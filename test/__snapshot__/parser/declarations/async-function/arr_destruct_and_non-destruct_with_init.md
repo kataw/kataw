@@ -56,7 +56,7 @@ let [foo] = arr, bar = arr2;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -83,7 +83,7 @@ let [foo] = arr, bar = arr2;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 768,
@@ -97,7 +97,7 @@ let [foo] = arr, bar = arr2;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 768,
@@ -107,7 +107,7 @@ let [foo] = arr, bar = arr2;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "arr2",
                             "rawText": "arr2",
                             "flags": 768,

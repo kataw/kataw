@@ -44,7 +44,7 @@ let {x}: string = y;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -55,7 +55,7 @@ let {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 6,
                                 "end": 13
@@ -101,7 +101,7 @@ let {x}: string = y;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -129,7 +129,7 @@ let {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 24,
                                 "end": 31
@@ -140,7 +140,7 @@ let {x}: string = y;
                             "end": 31
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -182,7 +182,7 @@ let {x}: string = y;
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -193,7 +193,7 @@ let {x}: string = y;
                                         "type": {
                                             "kind": 139,
                                             "type": {
-                                                "kind": 16615,
+                                                "kind": 134234343,
                                                 "flags": 768,
                                                 "start": 45,
                                                 "end": 51
@@ -222,7 +222,7 @@ let {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 53,
                                 "end": 60
@@ -233,7 +233,7 @@ let {x}: string = y;
                             "end": 60
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -275,7 +275,7 @@ let {x}: string = y;
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -302,7 +302,7 @@ let {x}: string = y;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 75,
                                 "end": 82
@@ -313,7 +313,7 @@ let {x}: string = y;
                             "end": 82
                         },
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,

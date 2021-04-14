@@ -44,7 +44,7 @@ class A {static set [foo](x){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -70,7 +70,7 @@ class A {static set [foo](x){}}
                             "name": {
                                 "kind": 194,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -89,7 +89,7 @@ class A {static set [foo](x){}}
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,

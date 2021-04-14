@@ -48,7 +48,7 @@ for (const x in obj) { var x = 13 }
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -68,7 +68,7 @@ for (const x in obj) { var x = 13 }
                 "end": 12
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 768,
@@ -94,7 +94,7 @@ for (const x in obj) { var x = 13 }
                                     {
                                         "kind": 157,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -104,7 +104,7 @@ for (const x in obj) { var x = 13 }
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 13,
                                             "rawText": "13",
                                             "flags": 768,

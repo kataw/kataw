@@ -44,7 +44,7 @@ class x { static / foo(){} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -111,7 +111,7 @@ class x { static / foo(){} }
                 "right": {
                     "kind": 131,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
