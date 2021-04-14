@@ -141,6 +141,9 @@ export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
 
+export function hasErrors(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.HasErrors) === NodeFlags.HasErrors;
+}
 
 export function isStatementNode(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsStatement) === NodeFlags.IsStatement;
@@ -154,7 +157,7 @@ export function isChildLess(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.ChildLess) === NodeFlags.ChildLess;
 }
 
-export function singleQuote(node: SyntaxNode): boolean {
+export function isSingleQuote(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.SingleQuote) === NodeFlags.SingleQuote;
 }
 
