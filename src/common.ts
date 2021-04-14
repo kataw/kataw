@@ -24,6 +24,7 @@ export const enum Context {
   Strict = 1 << 19,
   Module = 1 << 20,
   OptionsDisableWebCompat = 1 << 21,
+  InConditionalExpr = 1 << 22,
 
 }
 

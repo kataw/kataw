@@ -142,6 +142,7 @@ import { DiagnosticCode } from './diagnostic/diagnostic-code';
 import { createDiagnosticError } from './diagnostic/diagnostic-error';
 import { DiagnosticSource } from './diagnostic/diagnostic-source';
 import { TypeNode } from './ast/types';
+import { Token } from 'escaya/dist/ast/token';
 import {
   createNamespaceExportDeclaration,
   NamespaceExportDeclaration
@@ -977,7 +978,7 @@ function parseConditionalExpression(
   return createConditionalExpression(
     shortCircuit,
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark),
-    parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
+    parseExpression(parser, (context | Context.DisallowIn | Context.InConditionalExpr) ^ Context.DisallowIn),
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
     parseExpression(parser, context),
     pos,
@@ -1574,6 +1575,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseThisExpression(parser, context);
     case SyntaxKind.LeftBracket:
       return parseArrayLiteral(parser, context);
+    case SyntaxKind.LessThan:
     case SyntaxKind.LeftParen:
       return parsentheizedExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
     case SyntaxKind.LeftBrace:
@@ -2527,11 +2529,24 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
   const curPos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
+  let typeParameters = null;
+  let state = Tristate.False;
+
+  if (parser.token === SyntaxKind.LessThan) {
+    state = Tristate.True;
+    typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  }
+
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     // Simple cases: "() =>", "(): ", and  "() {".
     // This is an arrow function with no parameters.
     // The last one is not actually an arrow function,
     // but this is probably what the user intended.
+
+    const returnType =
+      parser.token === SyntaxKind.Colon && (context & Context.InConditionalExpr) === 0
+        ? parseType(parser, context)
+        : null;
 
     switch (parser.token) {
       case SyntaxKind.Arrow:
@@ -2540,8 +2555,8 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
         return parseArrowFunction(
           parser,
           context,
-          /*typeParameters */ null,
-          /* returnType */ null,
+          /*typeParameters */ typeParameters,
+          /* returnType */ returnType,
           /* params */ [],
           /* asyncToken */ null,
           curPos
@@ -2557,7 +2572,6 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
 
   let expression: any = [];
   let destructible = DestructibleKind.None;
-  let state = Tristate.False;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     expression = parsePrimaryExpression(parser, context);
@@ -2690,7 +2704,11 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     if (state) {
-      if (parser.token === SyntaxKind.Arrow) {
+      const returnType =
+        parser.token === SyntaxKind.Colon && (context & Context.InConditionalExpr) === 0
+          ? parseType(parser, context)
+          : null;
+      if (parser.token === SyntaxKind.Arrow || returnType) {
         if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
           parser.diagnostics.push(
             createDiagnosticError(
@@ -2701,7 +2719,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
             )
           );
         }
-        return parseArrowFunction(parser, context, null, null, [expression], null, curPos);
+        return parseArrowFunction(parser, context, typeParameters, returnType, [expression], null, curPos);
       }
     }
 
@@ -2861,7 +2879,11 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
     );
   }
   if (state) {
-    if (parser.token === SyntaxKind.Arrow) {
+    const returnType =
+      parser.token === SyntaxKind.Colon && (context & Context.InConditionalExpr) === 0
+        ? parseType(parser, context)
+        : null;
+    if (parser.token === SyntaxKind.Arrow || returnType) {
       if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
         parser.diagnostics.push(
           createDiagnosticError(
@@ -2872,7 +2894,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           )
         );
       }
-      return parseArrowFunction(parser, context, null, null, [expressions], null, curPos);
+      return parseArrowFunction(parser, context, typeParameters, returnType, [expressions], null, curPos);
     }
   }
 
@@ -5189,7 +5211,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
-    const returnType = parseTypeAnnotation(parser, context);
+    const returnType =
+      parser.token === SyntaxKind.Colon && (context & Context.InConditionalExpr) === 0
+        ? parseType(parser, context)
+        : null;
 
     if (
       parser.token === SyntaxKind.Arrow ||
@@ -5482,7 +5507,11 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   }
 
   if (state) {
-    if (parser.token === SyntaxKind.Arrow) {
+    const returnType =
+      parser.token === SyntaxKind.Colon && (context & Context.InConditionalExpr) === 0
+        ? parseType(parser, context)
+        : null;
+    if (parser.token === SyntaxKind.Arrow || returnType) {
       if (hasLineTerminator) {
         parser.diagnostics.push(
           createDiagnosticError(
@@ -5505,7 +5534,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
 
-      return parseArrowFunction(parser, context, typeParameters, /* returnType */ null, params, asyncToken, start);
+      return parseArrowFunction(parser, context, typeParameters, returnType, params, asyncToken, start);
     }
   }
 

@@ -1,8 +1,8 @@
 import { ParserState } from '../common';
-import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
+import { NodeFlags, SyntaxKind, SyntaxNode } from './../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
-import { toHex } from './common';
+import { isIdentifierPart, toHex, fromCodePoint } from './common';
 import { DiagnosticCode } from '../diagnostic/diagnostic-code';
 import { createDiagnosticError } from '../diagnostic/diagnostic-error';
 import { DiagnosticSource } from '../diagnostic/diagnostic-source';
