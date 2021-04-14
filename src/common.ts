@@ -138,6 +138,26 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
    return consume(parser, context, SyntaxKind.Semicolon);
 }
 
+export function speculate(parser: ParserState, context: Context, callback: any) {
+  const { pos, curPos, tokenPos, tokenRaw, token, tokenValue, nodeFlags, diagnostics } = parser;
+  const result = callback(parser, context);
+
+  // If our callback returned something 'falsy' or we're just looking ahead,
+  // then unconditionally restore us to where we were.
+  if (!result) {
+    parser.pos = pos;
+    parser.curPos = curPos;
+    parser.tokenPos = tokenPos;
+    parser.token = token;
+    parser.tokenValue = tokenValue;
+    parser.nodeFlags = nodeFlags;
+    parser.tokenRaw = tokenRaw;
+    parser.diagnostics = diagnostics;
+  }
+  return result;
+}
+
+
 export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
