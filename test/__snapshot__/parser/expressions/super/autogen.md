@@ -164,7 +164,7 @@ class C { set x(_) { # } }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5

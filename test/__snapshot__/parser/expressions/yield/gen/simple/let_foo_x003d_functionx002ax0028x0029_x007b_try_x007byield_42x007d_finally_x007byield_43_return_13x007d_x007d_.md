@@ -46,7 +46,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "kind": 177,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 9,
                                 "end": 18

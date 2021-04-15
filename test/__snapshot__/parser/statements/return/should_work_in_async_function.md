@@ -17,6 +17,7 @@ async function f(){ return; }
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 768,
@@ -24,7 +25,7 @@ async function f(){ return; }
                 "end": 5
             },
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 5,
                 "end": 14

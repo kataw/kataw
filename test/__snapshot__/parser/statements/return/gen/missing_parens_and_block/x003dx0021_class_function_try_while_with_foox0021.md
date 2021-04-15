@@ -90,7 +90,7 @@ return catch =! class function try while with foo!
                     "kind": 189,
                     "decorators": null,
                     "classKeyword": {
-                        "kind": 37814352,
+                        "kind": 37822544,
                         "flags": 768,
                         "start": 15,
                         "end": 21
@@ -119,9 +119,10 @@ return catch =! class function try while with foo!
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 21,
                 "end": 30

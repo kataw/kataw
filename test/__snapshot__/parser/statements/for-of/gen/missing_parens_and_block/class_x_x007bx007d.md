@@ -79,7 +79,7 @@ try catch class x {}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 9,
                 "end": 15

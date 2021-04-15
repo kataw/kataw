@@ -39,7 +39,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5
@@ -115,7 +115,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 30,
                 "end": 36
@@ -219,7 +219,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 63,
                 "end": 69
@@ -318,7 +318,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 99,
                 "end": 105
@@ -425,7 +425,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 137,
                 "end": 143
@@ -558,7 +558,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 167,
                 "end": 173
@@ -658,7 +658,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 194,
                 "end": 200
@@ -768,7 +768,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 223,
                 "end": 229
@@ -896,7 +896,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 254,
                 "end": 260
@@ -949,7 +949,7 @@ let x = { foo(){ super(); } };
                                             "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 279,
                                                 "end": 285
@@ -1053,7 +1053,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 304,
                 "end": 310
@@ -1106,7 +1106,7 @@ let x = { foo(){ super(); } };
                                             "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 329,
                                                 "end": 335
@@ -1237,7 +1237,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 366,
                 "end": 372
@@ -1290,7 +1290,7 @@ let x = { foo(){ super(); } };
                                             "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 391,
                                                 "end": 397
@@ -1424,7 +1424,7 @@ let x = { foo(){ super(); } };
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 433,
                 "end": 439
@@ -1477,7 +1477,7 @@ let x = { foo(){ super(); } };
                                             "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 458,
                                                 "end": 464
@@ -1661,7 +1661,7 @@ let x = { foo(){ super(); } };
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
-                                        "kind": 37814362,
+                                        "kind": 37822554,
                                         "flags": 768,
                                         "start": 501,
                                         "end": 510
@@ -1784,7 +1784,7 @@ let x = { foo(){ super(); } };
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 531,
                         "end": 539
@@ -1908,7 +1908,7 @@ let x = { foo(){ super(); } };
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
-                                        "kind": 37814362,
+                                        "kind": 37822554,
                                         "flags": 768,
                                         "start": 564,
                                         "end": 573
@@ -2137,9 +2137,10 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 621,
                 "end": 630
@@ -2234,9 +2235,10 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 649,
                 "end": 658

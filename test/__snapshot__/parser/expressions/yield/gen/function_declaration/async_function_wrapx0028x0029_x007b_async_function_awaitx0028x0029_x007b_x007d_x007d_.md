@@ -21,9 +21,10 @@ function not_gen() { async function wrap() { async function await() { } }; }}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -53,6 +54,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 768,
@@ -60,7 +62,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "end": 26
                             },
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 26,
                                 "end": 35
@@ -90,6 +92,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                     "statements": [
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 768,
@@ -97,7 +100,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "end": 50
                                             },
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 50,
                                                 "end": 59

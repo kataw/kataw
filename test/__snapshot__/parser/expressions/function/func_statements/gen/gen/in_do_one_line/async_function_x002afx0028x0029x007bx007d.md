@@ -52,7 +52,7 @@ do async function *f(){} while (x);
                         "end": 8
                     },
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 8,
                         "end": 17

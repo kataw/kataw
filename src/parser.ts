@@ -265,7 +265,7 @@ function parseStatementListItem(parser: ParserState, context: Context): Statemen
   switch (parser.token) {
     case SyntaxKind.FunctionKeyword:
     case SyntaxKind.AsyncKeyword:
-      return parseFunctionDeclaration(parser, context, /* disallowGen*/ false);
+      return parseFunctionDeclaration(parser, context, /* disallowGen*/ false, /* declareToken */ null);
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, /* declareToken */ null);
@@ -342,7 +342,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
           parser.pos
         )
       );
-      return parseFunctionDeclaration(parser, context, /* disallowGen*/ false);
+      return parseFunctionDeclaration(parser, context, /* disallowGen*/ false, /* declareToken */ null);
     case SyntaxKind.ClassKeyword:
       parser.diagnostics.push(
         createDiagnosticError(
@@ -540,7 +540,7 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context): St
   // parses as 'if (x) { function f() {} }'.
   return context & (Context.OptionsDisableWebCompat | Context.Strict) || parser.token !== SyntaxKind.FunctionKeyword
     ? parseStatement(parser, context, /* allowFunction */ false)
-    : parseFunctionDeclaration(parser, context, /* disallowGen */ true);
+    : parseFunctionDeclaration(parser, context, /* disallowGen */ true, /* declareToken */ null);
 }
 
 function parseWhileStatement(parser: ParserState, context: Context): WhileStatement {
@@ -653,7 +653,7 @@ export function parseLabelledStatement(
       context & (Context.OptionsDisableWebCompat | Context.Strict) ||
       parser.token !== SyntaxKind.FunctionKeyword
       ? parseStatement(parser, context, allowFunction)
-      : parseFunctionDeclaration(parser, context, /* disallowGen */ true),
+      : parseFunctionDeclaration(parser, context, /* disallowGen */ true, /* declareToken */ null),
     pos,
     parser.curPos
   );
@@ -3255,7 +3255,8 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
 function parseFunctionDeclaration(
   parser: ParserState,
   context: Context,
-  disallowGen: boolean
+  disallowGen: boolean,
+  declareToken: SyntaxToken<TokenSyntaxKind> | null
 ): FunctionDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
@@ -3367,6 +3368,7 @@ function parseFunctionDeclaration(
     /* ignoreMissingOpenBrace */ false
   );
   return createFunctionDeclaration(
+    declareToken,
     asyncToken,
     functionToken,
     generatorToken,
@@ -3796,7 +3798,7 @@ function parseExportDeclaration(
       declaration = parseClassDeclaration(parser, context, /* declareToken */ null);
       break;
     case SyntaxKind.FunctionKeyword:
-      declaration = parseFunctionDeclaration(parser, context, /* disallowGen*/ true);
+      declaration = parseFunctionDeclaration(parser, context, /* disallowGen*/ true, /* declareToken */ null);
       break;
     case SyntaxKind.VarKeyword:
       declaration = parseVariableStatement(parser, context, /* declareToken */ null);
@@ -3901,7 +3903,7 @@ function parseExportDefault(
 
   switch (parser.token) {
     case SyntaxKind.FunctionKeyword:
-      declaration = parseFunctionDeclaration(parser, context, /* disallowGen*/ false);
+      declaration = parseFunctionDeclaration(parser, context, /* disallowGen*/ false, /* declareToken */ null);
       break;
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
@@ -4316,21 +4318,24 @@ function parseDeclareAsIdentifierOrDeclareStatement(
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
   const expr = parseIdentifier(parser, context);
-  let node!: StatementNode | ExpressionNode;
   if (parser.token & SyntaxKind.IsStatementStart) {
     const declareToken = createToken(SyntaxKind.DeclareKeyword, expr.start, expr.end);
-    if (parser.token === SyntaxKind.VarKeyword) {
-      return parseVariableStatement(parser, context, declareToken);
-    }
-    if (parser.token === SyntaxKind.TypeKeyword) {
-      return parseTypeAsIdentifierOrTypeAlias(parser, context, /* opaqueToken */ null, /* declareToken */ declareToken);
-    }
-    if (parser.token === SyntaxKind.OpaqueKeyword) {
-      return parseOpaqueType(parser, context, /* declareToken */ declareToken);
-    }
-
-    if (parser.token === SyntaxKind.ClassKeyword) {
-      return parseClassDeclaration(parser, context, /* declareToken */ declareToken);
+    switch (parser.token) {
+      case SyntaxKind.VarKeyword:
+        return parseVariableStatement(parser, context, declareToken);
+      case SyntaxKind.TypeKeyword:
+        return parseTypeAsIdentifierOrTypeAlias(
+          parser,
+          context,
+          /* opaqueToken */ null,
+          /* declareToken */ declareToken
+        );
+      case SyntaxKind.OpaqueKeyword:
+        return parseOpaqueType(parser, context, /* declareToken */ declareToken);
+      case SyntaxKind.FunctionKeyword:
+        return parseFunctionDeclaration(parser, context, /* disallowGen */ false, /* declareToken */ declareToken);
+      case SyntaxKind.ClassKeyword:
+        return parseClassDeclaration(parser, context, /* declareToken */ declareToken);
     }
   }
   parser.assignable = true;

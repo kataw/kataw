@@ -92,7 +92,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                     "end": 25
                                 },
                                 "functionKeyword": {
-                                    "kind": 37814362,
+                                    "kind": 37822554,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 34
@@ -140,7 +140,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                 "kind": 177,
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
-                                                                    "kind": 37814362,
+                                                                    "kind": 37822554,
                                                                     "flags": 768,
                                                                     "start": 46,
                                                                     "end": 55

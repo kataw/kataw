@@ -30,9 +30,10 @@
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 13,
                 "end": 22
@@ -67,9 +68,10 @@
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 29,
                                 "end": 38

@@ -20,9 +20,10 @@ function x(){
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8

@@ -51,7 +51,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5
@@ -102,7 +102,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 21,
                 "end": 28
@@ -201,7 +201,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 50,
                 "end": 57
@@ -333,7 +333,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 100,
                 "end": 107
@@ -446,7 +446,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 140,
                 "end": 147
@@ -559,7 +559,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 172,
                 "end": 179
@@ -809,7 +809,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 232,
                 "end": 239
@@ -921,7 +921,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 273,
                 "end": 280
@@ -1033,7 +1033,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 306,
                 "end": 313
@@ -1395,7 +1395,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 395,
                 "end": 402
@@ -1578,7 +1578,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 459,
                 "end": 466
@@ -1732,7 +1732,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 523,
                 "end": 530
@@ -1867,7 +1867,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 567,
                 "end": 574

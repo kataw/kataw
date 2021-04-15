@@ -87,7 +87,7 @@ f = ([xCls = class X {}]) => {}
                                             "kind": 189,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 12,
                                                 "end": 18

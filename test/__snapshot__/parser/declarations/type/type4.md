@@ -63,7 +63,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -130,7 +130,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 36,
                 "end": 56
@@ -213,7 +213,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 91,
                 "end": 109
@@ -311,7 +311,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 137,
                 "end": 237
@@ -378,7 +378,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 262,
                 "end": 301
@@ -445,7 +445,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 325,
                 "end": 340
@@ -497,7 +497,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 359,
                 "end": 377
@@ -549,7 +549,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 398,
                 "end": 415
@@ -601,7 +601,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 437,
                 "end": 456
@@ -662,7 +662,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 480,
                 "end": 498
@@ -729,7 +729,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 526,
                 "end": 545
@@ -812,7 +812,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 584,
                 "end": 604
@@ -900,7 +900,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 644,
                 "end": 676
@@ -1001,7 +1001,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 723,
                 "end": 814
@@ -1062,7 +1062,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 840,
                 "end": 859
@@ -1114,7 +1114,7 @@ type T27 = ArgumentType<never>;  // any
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 880,
                 "end": 897

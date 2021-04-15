@@ -21,6 +21,7 @@ async function x() {}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 768,
@@ -28,7 +29,7 @@ async function x() {}
                 "end": 5
             },
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 5,
                 "end": 14
@@ -58,6 +59,7 @@ async function x() {}
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 768,
@@ -65,7 +67,7 @@ async function x() {}
                                 "end": 27
                             },
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 27,
                                 "end": 36

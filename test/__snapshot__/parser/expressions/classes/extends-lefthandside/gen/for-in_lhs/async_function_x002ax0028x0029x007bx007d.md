@@ -36,7 +36,7 @@ for (async function *(){} in x) ;
                     "end": 10
                 },
                 "functionKeyword": {
-                    "kind": 37814362,
+                    "kind": 37822554,
                     "flags": 768,
                     "start": 10,
                     "end": 19

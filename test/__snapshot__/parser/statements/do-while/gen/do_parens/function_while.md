@@ -49,7 +49,7 @@ do( function while while
                         "kind": 177,
                         "asyncKeyword": null,
                         "functionKeyword": {
-                            "kind": 37814362,
+                            "kind": 37822554,
                             "flags": 768,
                             "start": 3,
                             "end": 12

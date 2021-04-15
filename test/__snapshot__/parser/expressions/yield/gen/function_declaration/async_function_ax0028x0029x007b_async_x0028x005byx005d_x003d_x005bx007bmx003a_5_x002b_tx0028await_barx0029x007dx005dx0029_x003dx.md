@@ -21,9 +21,10 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -53,6 +54,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 768,
@@ -60,7 +62,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "end": 26
                             },
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 26,
                                 "end": 35

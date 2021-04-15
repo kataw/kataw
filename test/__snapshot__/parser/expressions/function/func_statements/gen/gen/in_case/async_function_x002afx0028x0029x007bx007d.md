@@ -60,6 +60,7 @@ switch (x) {
                         "statements": [
                             {
                                 "kind": 176,
+                                "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 768,
@@ -67,7 +68,7 @@ switch (x) {
                                     "end": 34
                                 },
                                 "functionKeyword": {
-                                    "kind": 37814362,
+                                    "kind": 37822554,
                                     "flags": 768,
                                     "start": 34,
                                     "end": 43

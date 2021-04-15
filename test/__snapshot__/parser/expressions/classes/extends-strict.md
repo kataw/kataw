@@ -63,7 +63,7 @@ class C extends (function B() {
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 6,
                 "end": 13
@@ -93,7 +93,7 @@ class C extends (function B() {
                             "kind": 177,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 25,
                                 "end": 33

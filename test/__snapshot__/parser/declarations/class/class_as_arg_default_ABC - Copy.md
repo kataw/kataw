@@ -76,7 +76,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "kind": 189,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 11,
                                                 "end": 17
@@ -119,7 +119,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "kind": 189,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 28,
                                                 "end": 34
@@ -169,7 +169,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "kind": 189,
                                             "decorators": null,
                                             "classKeyword": {
-                                                "kind": 37814352,
+                                                "kind": 37822544,
                                                 "flags": 768,
                                                 "start": 48,
                                                 "end": 54

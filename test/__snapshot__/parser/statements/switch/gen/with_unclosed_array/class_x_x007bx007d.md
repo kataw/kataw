@@ -36,7 +36,7 @@ switch[ class x {}
                             "kind": 189,
                             "decorators": null,
                             "classKeyword": {
-                                "kind": 37814352,
+                                "kind": 37822544,
                                 "flags": 768,
                                 "start": 7,
                                 "end": 13

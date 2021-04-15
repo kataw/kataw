@@ -21,9 +21,10 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -58,9 +59,10 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 18,
                                 "end": 27
@@ -116,7 +118,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "kind": 177,
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
-                                                                "kind": 37814362,
+                                                                "kind": 37822554,
                                                                 "flags": 768,
                                                                 "start": 49,
                                                                 "end": 58

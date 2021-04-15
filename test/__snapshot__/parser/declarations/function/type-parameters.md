@@ -250,9 +250,10 @@ type T = <
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 99,
                 "end": 109
@@ -400,7 +401,7 @@ type T = <
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 182,
                 "end": 190
@@ -653,9 +654,10 @@ type T = <
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 330,
                 "end": 340
@@ -819,7 +821,7 @@ type T = <
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 421,
                 "end": 429

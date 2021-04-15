@@ -20,7 +20,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5
@@ -100,7 +100,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
-                                                    "kind": 37814362,
+                                                    "kind": 37822554,
                                                     "flags": 768,
                                                     "start": 41,
                                                     "end": 50

@@ -59,7 +59,7 @@ type overloads2 = {
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 0,
                 "end": 10
@@ -159,7 +159,7 @@ type overloads2 = {
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 44,
                 "end": 60
@@ -265,7 +265,7 @@ type overloads2 = {
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 120,
                 "end": 133
@@ -392,7 +392,7 @@ type overloads2 = {
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 181,
                 "end": 198

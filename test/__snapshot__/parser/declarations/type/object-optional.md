@@ -39,7 +39,7 @@ type T = { [[foo]]?: X }
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 0,
                 "end": 6

@@ -33,7 +33,7 @@ return( function while
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 7,
                         "end": 16

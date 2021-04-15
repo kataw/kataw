@@ -27,7 +27,7 @@
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 1,
                         "end": 9
@@ -137,7 +137,7 @@
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 36,
                         "end": 44
@@ -274,7 +274,7 @@
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 79,
                         "end": 87
@@ -401,7 +401,7 @@
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 118,
                         "end": 126
@@ -529,7 +529,7 @@
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 157,
                         "end": 165

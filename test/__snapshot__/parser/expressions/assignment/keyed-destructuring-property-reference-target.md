@@ -107,9 +107,10 @@ function targetKey() {
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 14,
                 "end": 24
@@ -327,9 +328,10 @@ function targetKey() {
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 138,
                 "end": 147
@@ -566,9 +568,10 @@ function targetKey() {
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 262,
                 "end": 271
@@ -667,7 +670,7 @@ function targetKey() {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
-                                                    "kind": 37814362,
+                                                    "kind": 37822554,
                                                     "flags": 768,
                                                     "start": 344,
                                                     "end": 353
@@ -821,9 +824,10 @@ function targetKey() {
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 445,
                 "end": 454
@@ -922,7 +926,7 @@ function targetKey() {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
-                                                    "kind": 37814362,
+                                                    "kind": 37822554,
                                                     "flags": 768,
                                                     "start": 527,
                                                     "end": 536

@@ -46,7 +46,7 @@ if (x) async function *f(){}
                         "end": 12
                     },
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 12,
                         "end": 21

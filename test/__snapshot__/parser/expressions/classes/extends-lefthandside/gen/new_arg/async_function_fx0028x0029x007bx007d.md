@@ -38,7 +38,7 @@ new async function f(){}
                         "end": 9
                     },
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 9,
                         "end": 18

@@ -10,6 +10,7 @@ import { TypeNode } from '../types';
  * Function declaration.
  */
 export interface FunctionDeclaration extends SyntaxNode {
+  readonly declareKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -21,6 +22,7 @@ export interface FunctionDeclaration extends SyntaxNode {
 }
 
 export function createFunctionDeclaration(
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   functionKeyword: SyntaxToken<TokenSyntaxKind>,
   generatorToken: SyntaxToken<TokenSyntaxKind> | null,
@@ -40,6 +42,7 @@ export function createFunctionDeclaration(
 
   return {
     kind: SyntaxKind.FunctionDeclaration,
+    declareKeyword,
     asyncKeyword,
     functionKeyword,
     generatorToken,

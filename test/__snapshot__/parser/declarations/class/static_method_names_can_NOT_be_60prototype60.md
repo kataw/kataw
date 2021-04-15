@@ -45,7 +45,7 @@ class x { static async *prototype(){} }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5
@@ -129,7 +129,7 @@ class x { static async *prototype(){} }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 36,
                 "end": 43
@@ -213,7 +213,7 @@ class x { static async *prototype(){} }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 77,
                 "end": 84
@@ -297,7 +297,7 @@ class x { static async *prototype(){} }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 115,
                 "end": 122

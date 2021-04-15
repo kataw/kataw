@@ -24,7 +24,7 @@ class C { constructor() { var f = function*() { super(); } } }
             "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 0,
                 "end": 5
@@ -100,7 +100,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                             "kind": 177,
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
-                                                                "kind": 37814362,
+                                                                "kind": 37822554,
                                                                 "flags": 768,
                                                                 "start": 33,
                                                                 "end": 42

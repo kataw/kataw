@@ -54,7 +54,7 @@ for (a of b) async function f(){}
                         "end": 18
                     },
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 18,
                         "end": 27

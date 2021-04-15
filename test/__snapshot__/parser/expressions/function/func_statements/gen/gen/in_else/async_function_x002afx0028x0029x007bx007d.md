@@ -67,7 +67,7 @@ else async function *f(){}
                         "end": 20
                     },
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 20,
                         "end": 29

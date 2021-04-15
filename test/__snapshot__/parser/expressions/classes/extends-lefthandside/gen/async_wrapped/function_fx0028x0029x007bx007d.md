@@ -23,6 +23,7 @@ async function p(){
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 768,
@@ -30,7 +31,7 @@ async function p(){
                 "end": 5
             },
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 5,
                 "end": 14
@@ -63,7 +64,7 @@ async function p(){
                             "declareKeyword": null,
                             "decorators": null,
                             "classKeyword": {
-                                "kind": 37814352,
+                                "kind": 37822544,
                                 "flags": 768,
                                 "start": 19,
                                 "end": 27
@@ -89,7 +90,7 @@ async function p(){
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
-                                        "kind": 37814362,
+                                        "kind": 37822554,
                                         "flags": 768,
                                         "start": 37,
                                         "end": 46

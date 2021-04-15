@@ -42,7 +42,7 @@ class x {}
                 "end": 2
             },
             "classKeyword": {
-                "kind": 37814352,
+                "kind": 37822544,
                 "flags": 768,
                 "start": 2,
                 "end": 8

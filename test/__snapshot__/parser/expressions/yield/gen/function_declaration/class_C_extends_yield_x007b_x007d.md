@@ -21,9 +21,10 @@ function not_gen() { class C extends yield { } }}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -56,7 +57,7 @@ function not_gen() { class C extends yield { } }}
                             "declareKeyword": null,
                             "decorators": null,
                             "classKeyword": {
-                                "kind": 37814352,
+                                "kind": 37822544,
                                 "flags": 768,
                                 "start": 20,
                                 "end": 26

@@ -21,9 +21,10 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -58,9 +59,10 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 18,
                                 "end": 27
@@ -90,6 +92,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                     "statements": [
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 768,
@@ -97,7 +100,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                 "end": 45
                                             },
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 45,
                                                 "end": 54

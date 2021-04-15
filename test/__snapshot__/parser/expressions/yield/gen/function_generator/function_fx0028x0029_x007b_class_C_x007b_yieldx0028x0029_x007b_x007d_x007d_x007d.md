@@ -21,9 +21,10 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -58,9 +59,10 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 18,
                                 "end": 27
@@ -90,9 +92,10 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                     "statements": [
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 39,
                                                 "end": 48
@@ -125,7 +128,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                             "declareKeyword": null,
                                                             "decorators": null,
                                                             "classKeyword": {
-                                                                "kind": 37814352,
+                                                                "kind": 37822544,
                                                                 "flags": 768,
                                                                 "start": 54,
                                                                 "end": 60

@@ -47,7 +47,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "kind": 177,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 9,
                                 "end": 18

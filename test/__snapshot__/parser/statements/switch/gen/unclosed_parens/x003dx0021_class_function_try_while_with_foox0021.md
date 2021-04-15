@@ -55,7 +55,7 @@ switch( =! class function try while with foo! case
                         "kind": 189,
                         "decorators": null,
                         "classKeyword": {
-                            "kind": 37814352,
+                            "kind": 37822544,
                             "flags": 768,
                             "start": 10,
                             "end": 16
@@ -95,9 +95,10 @@ switch( =! class function try while with foo! case
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 16,
                 "end": 25

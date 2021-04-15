@@ -25,6 +25,7 @@ x => y {}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 768,
@@ -32,7 +33,7 @@ x => y {}
                 "end": 5
             },
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 5,
                 "end": 14
@@ -65,7 +66,7 @@ x => y {}
                             "declareKeyword": null,
                             "decorators": null,
                             "classKeyword": {
-                                "kind": 37814352,
+                                "kind": 37822544,
                                 "flags": 768,
                                 "start": 19,
                                 "end": 27

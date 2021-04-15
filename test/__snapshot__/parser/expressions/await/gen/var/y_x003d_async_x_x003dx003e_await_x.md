@@ -92,7 +92,7 @@ var await; var f = (async function() { y = async x => await x });
                                     "end": 25
                                 },
                                 "functionKeyword": {
-                                    "kind": 37814362,
+                                    "kind": 37822554,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 34

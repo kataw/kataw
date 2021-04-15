@@ -56,9 +56,10 @@ while(y)
                 },
                 "consequent": {
                     "kind": 176,
+                    "declareKeyword": null,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 8,
                         "end": 16

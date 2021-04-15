@@ -38,13 +38,13 @@ opaque type ID = number;
             "kind": 200,
             "declareToken": null,
             "opaqueToken": {
-                "kind": 16630,
+                "kind": 24822,
                 "flags": 768,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 0,
                 "end": 14

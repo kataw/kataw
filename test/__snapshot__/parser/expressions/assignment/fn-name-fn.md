@@ -95,7 +95,7 @@ fn = function() {};
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 19,
                         "end": 28
@@ -168,7 +168,7 @@ fn = function() {};
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {
-                        "kind": 37814362,
+                        "kind": 37822554,
                         "flags": 768,
                         "start": 41,
                         "end": 50

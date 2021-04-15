@@ -42,9 +42,10 @@ async function f(){}
     "statements": [
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 0,
                 "end": 8
@@ -89,9 +90,10 @@ async function f(){}
         },
         {
             "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
-                "kind": 37814362,
+                "kind": 37822554,
                 "flags": 768,
                 "start": 11,
                 "end": 21
@@ -121,9 +123,10 @@ async function f(){}
                     "statements": [
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 26,
                                 "end": 36
@@ -153,9 +156,10 @@ async function f(){}
                                     "statements": [
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 41,
                                                 "end": 51
@@ -226,9 +230,10 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 56,
                                                 "end": 65
@@ -273,6 +278,7 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 768,
@@ -280,7 +286,7 @@ async function f(){}
                                                 "end": 78
                                             },
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 78,
                                                 "end": 87
@@ -325,9 +331,10 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 93,
                                                 "end": 104
@@ -426,9 +433,10 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 111,
                                                 "end": 123
@@ -506,9 +514,10 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 129,
                                                 "end": 139
@@ -730,9 +739,10 @@ async function f(){}
                         },
                         {
                             "kind": 176,
+                            "declareKeyword": null,
                             "asyncKeyword": null,
                             "functionKeyword": {
-                                "kind": 37814362,
+                                "kind": 37822554,
                                 "flags": 768,
                                 "start": 176,
                                 "end": 186
@@ -774,7 +784,7 @@ async function f(){}
                                                     "kind": 177,
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {
-                                                        "kind": 37814362,
+                                                        "kind": 37822554,
                                                         "flags": 768,
                                                         "start": 192,
                                                         "end": 202
@@ -827,9 +837,10 @@ async function f(){}
                                         },
                                         {
                                             "kind": 176,
+                                            "declareKeyword": null,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
-                                                "kind": 37814362,
+                                                "kind": 37822554,
                                                 "flags": 768,
                                                 "start": 208,
                                                 "end": 218
@@ -884,7 +895,7 @@ async function f(){}
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
-                                                    "kind": 37814362,
+                                                    "kind": 37822554,
                                                     "flags": 768,
                                                     "start": 228,
                                                     "end": 237

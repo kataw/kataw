@@ -38,9 +38,10 @@
                 "statements": [
                     {
                         "kind": 176,
+                        "declareKeyword": null,
                         "asyncKeyword": null,
                         "functionKeyword": {
-                            "kind": 37814362,
+                            "kind": 37822554,
                             "flags": 768,
                             "start": 1,
                             "end": 12
@@ -100,9 +101,10 @@
                 "statements": [
                     {
                         "kind": 176,
+                        "declareKeyword": null,
                         "asyncKeyword": null,
                         "functionKeyword": {
-                            "kind": 37814362,
+                            "kind": 37822554,
                             "flags": 768,
                             "start": 21,
                             "end": 32
@@ -167,6 +169,7 @@
                 "statements": [
                     {
                         "kind": 176,
+                        "declareKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 768,
@@ -174,7 +177,7 @@
                             "end": 52
                         },
                         "functionKeyword": {
-                            "kind": 37814362,
+                            "kind": 37822554,
                             "flags": 768,
                             "start": 52,
                             "end": 61

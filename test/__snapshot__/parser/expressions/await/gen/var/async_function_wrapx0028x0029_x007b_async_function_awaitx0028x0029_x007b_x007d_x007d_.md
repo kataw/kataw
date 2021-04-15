@@ -92,7 +92,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "end": 25
                                 },
                                 "functionKeyword": {
-                                    "kind": 37814362,
+                                    "kind": 37822554,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 34
@@ -115,6 +115,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                         "statements": [
                                             {
                                                 "kind": 176,
+                                                "declareKeyword": null,
                                                 "asyncKeyword": {
                                                     "kind": 82031,
                                                     "flags": 768,
@@ -122,7 +123,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "end": 44
                                                 },
                                                 "functionKeyword": {
-                                                    "kind": 37814362,
+                                                    "kind": 37822554,
                                                     "flags": 768,
                                                     "start": 44,
                                                     "end": 53
@@ -152,6 +153,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                         "statements": [
                                                             {
                                                                 "kind": 176,
+                                                                "declareKeyword": null,
                                                                 "asyncKeyword": {
                                                                     "kind": 82031,
                                                                     "flags": 768,
@@ -159,7 +161,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "end": 68
                                                                 },
                                                                 "functionKeyword": {
-                                                                    "kind": 37814362,
+                                                                    "kind": 37822554,
                                                                     "flags": 768,
                                                                     "start": 68,
                                                                     "end": 77

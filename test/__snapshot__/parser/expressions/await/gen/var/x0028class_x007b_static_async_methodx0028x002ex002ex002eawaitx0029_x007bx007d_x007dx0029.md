@@ -92,7 +92,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                     "end": 25
                                 },
                                 "functionKeyword": {
-                                    "kind": 37814362,
+                                    "kind": 37822554,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 34
@@ -121,7 +121,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                         "kind": 189,
                                                         "decorators": null,
                                                         "classKeyword": {
-                                                            "kind": 37814352,
+                                                            "kind": 37822544,
                                                             "flags": 768,
                                                             "start": 40,
                                                             "end": 45

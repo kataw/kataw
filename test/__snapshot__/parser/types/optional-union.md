@@ -30,7 +30,7 @@ type Obj1 = {
             "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
-                "kind": 16583,
+                "kind": 24775,
                 "flags": 768,
                 "start": 0,
                 "end": 9

@@ -90,7 +90,7 @@ do do do class x {} while while while
                         "declareKeyword": null,
                         "decorators": null,
                         "classKeyword": {
-                            "kind": 37814352,
+                            "kind": 37822544,
                             "flags": 768,
                             "start": 8,
                             "end": 14

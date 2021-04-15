@@ -46,7 +46,7 @@ for (function(){ a in b; };;);
                 "kind": 177,
                 "asyncKeyword": null,
                 "functionKeyword": {
-                    "kind": 37814362,
+                    "kind": 37822554,
                     "flags": 768,
                     "start": 5,
                     "end": 13
