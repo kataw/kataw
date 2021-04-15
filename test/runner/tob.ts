@@ -40,7 +40,8 @@ export async function file2Tob(filename: string): Promise<Tob> {
     diagnostics: md2diagnostics(content)
   };
 
-  tob.$cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
+  const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
+  tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!
   tob.$diagnostics =
@@ -91,12 +92,7 @@ function md2cst(str: string) {
   const end = str.indexOf(Constants.JavascriptEnd, offset);
   if (end === 0) report('Should have the end of a test case');
   const t = str.slice(start + Constants.JavascriptStart.length, end);
-  try {
-    return offset === -1 ? {} : JSON.parse(t);
-  } catch (e) {
-    console.log(e);
-    return {};
-  }
+  return t;
 }
 
 function md2printed(str: string) {
@@ -121,7 +117,7 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${
     Constants.JavascriptEnd
   }
 ### Printed
