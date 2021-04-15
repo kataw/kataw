@@ -25,7 +25,7 @@ export const enum Context {
   Module = 1 << 20,
   OptionsDisableWebCompat = 1 << 21,
   InConditionalExpr = 1 << 22,
-
+  InTypes = 1 << 23,
 }
 
 export const enum DestructibleKind {

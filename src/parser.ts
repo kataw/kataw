@@ -548,7 +548,7 @@ function parseWhileStatement(parser: ParserState, context: Context): WhileStatem
   consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const statement = parseStatement(
     parser,
-    (context | Context.InIteration | Context.DisallowIn) ^ Context.DisallowIn,
+    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
     /* allowFunction */ false
   );
   return createWhileStatement(whileToken, expression, statement, pos, parser.curPos);
@@ -560,7 +560,7 @@ function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileSt
   const doKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DoKeyword);
   const statement = parseStatement(
     parser,
-    (context | Context.InIteration | Context.DisallowIn) ^ Context.DisallowIn,
+    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
     /* allowFunction */ false
   );
   const whileKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
@@ -589,7 +589,7 @@ function parseWithStatement(parser: ParserState, context: Context): WithStatemen
   consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const statement = parseStatement(
     parser,
-    (context | Context.DisallowIn | Context.InIteration) ^ Context.DisallowIn,
+    (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
     /* allowFunction */ false
   );
   return createWithStatement(withKeyword, expression, statement, pos, parser.curPos);
@@ -765,7 +765,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       expression,
       parseStatement(
         parser,
-        ((context | Context.DisallowIn) ^ Context.DisallowIn) | Context.InIteration,
+        ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
         /* allowFunction */ false
       ),
       awaitKeyword,
@@ -833,7 +833,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     condition,
     parseStatement(
       parser,
-      ((context | Context.DisallowIn) ^ Context.DisallowIn) | Context.InIteration,
+      ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
       /* allowFunction */ false
     ),
     pos,
@@ -979,7 +979,7 @@ function parseConditionalExpression(
   return createConditionalExpression(
     shortCircuit,
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark),
-    parseExpression(parser, (context | Context.DisallowIn | Context.InConditionalExpr) ^ Context.DisallowIn),
+    parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
     parseExpression(parser, context),
     pos,
@@ -1065,7 +1065,10 @@ function parseMemberExpression(
       case SyntaxKind.QuestionMarkPeriod:
         expr = createOptionalExpression(
           expr,
-          parseOptionalChain(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
+          parseOptionalChain(
+            parser,
+            (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+          ),
           pos,
           parser.curPos
         );
@@ -1238,7 +1241,10 @@ function parseMemberAccessExpression(
       )
     );
   }
-  const expression = parseExpressions(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+  const expression = parseExpressions(
+    parser,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
   consume(parser, context, SyntaxKind.RightBracket);
   parser.assignable = true;
   return createMemberAccessExpression(member, expression, pos, parser.curPos);
@@ -1283,6 +1289,7 @@ function parseArrowFunction(
       parser,
       ((context |
         Context.InAwaitContext |
+        Context.InTypes |
         Context.InGeneratorContext |
         Context.DisallowIn |
         Context.InSwitch |
@@ -1290,6 +1297,7 @@ function parseArrowFunction(
         (Context.InGeneratorContext |
           Context.InAwaitContext |
           Context.DisallowIn |
+          Context.InTypes |
           Context.InSwitch |
           Context.InIteration)) |
         (asyncToken ? Context.InAwaitContext : Context.None)
@@ -1415,7 +1423,10 @@ function parseConciseOrFunctionBody(parser: ParserState, context: Context): Func
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-  const result = parseArgumentList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+  const result = parseArgumentList(
+    parser,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
   consume(parser, context, SyntaxKind.RightParen);
   return result;
 }
@@ -1578,7 +1589,10 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseArrayLiteral(parser, context);
     case SyntaxKind.LessThan:
     case SyntaxKind.LeftParen:
-      return parsentheizedExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+      return parsentheizedExpression(
+        parser,
+        (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+      );
     case SyntaxKind.LeftBrace:
       return parseObjectLiteral(parser, context);
     case SyntaxKind.NewKeyword:
@@ -1625,7 +1639,7 @@ function parseObjectLiteralOrAssignmentExpression(
   nextToken(parser, context | Context.AllowRegExp);
   const propertyDefinitionList = parsePropertyDefinitionList(
     parser,
-    (context | Context.DisallowIn) ^ Context.DisallowIn,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000,
     type
   );
   consume(parser, context, SyntaxKind.RightBrace);
@@ -1823,6 +1837,10 @@ function parsePropertyDefinition(
   return key;
 }
 
+function parseTypeParameters(parser: ParserState, context: Context): TypeParameter | null {
+  return parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context | Context.InTypes) : null;
+}
+
 function parseMethodDefinition(
   parser: ParserState,
   context: Context,
@@ -1830,8 +1848,7 @@ function parseMethodDefinition(
   nodeFlags: NodeFlags
 ): MethodDefinition {
   const pos = parser.curPos;
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
-
+  const typeParameters = parseTypeParameters(parser, context);
   if (nodeFlags & NodeFlags.Constructor) {
   } else {
     context = (context | Context.InConstructor | Context.SuperCall) ^ (Context.InConstructor | Context.SuperCall);
@@ -1839,8 +1856,8 @@ function parseMethodDefinition(
   context |= Context.SuperProperty;
 
   context =
-    ((context | Context.InAwaitContext | Context.InGeneratorContext | Context.DisallowIn) ^
-      (Context.InGeneratorContext | Context.InAwaitContext | Context.DisallowIn)) |
+    ((context | Context.InAwaitContext | Context.InGeneratorContext | Context.InTypes | Context.DisallowIn) ^
+      (Context.InGeneratorContext | Context.InAwaitContext | Context.DisallowIn | Context.InTypes)) |
     (nodeFlags & NodeFlags.Async ? Context.InAwaitContext : Context.None) |
     (nodeFlags & NodeFlags.Generator ? Context.InGeneratorContext : Context.None);
 
@@ -1868,7 +1885,7 @@ function parseMethodDefinition(
 
 function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: NodeFlags): FormalParameterList {
   const parameters = [];
-  context = (context | Context.DisallowIn) ^ Context.DisallowIn;
+  context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
     if (nodeFlags & NodeFlags.Getter && parser.token !== SyntaxKind.RightParen) {
       parser.diagnostics.push(
@@ -2092,7 +2109,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     parser.assignable = false;
     return createNewTarget(parseIdentifier(parser, context) as Identifier, pos, parser.curPos);
   }
-  context = (context | Context.DisallowIn) ^ Context.DisallowIn;
+  context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const expression = parsePrimaryExpression(parser, context);
   if (parser.token === SyntaxKind.QuestionMarkPeriod) {
     parser.diagnostics.push(
@@ -2234,7 +2251,7 @@ function parseArrayLiteralOrAssignmentExpression(
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket);
   const elementList = parseElementList(parser, context, type);
   consume(parser, context, SyntaxKind.RightBracket);
-  context = (context | Context.DisallowIn) ^ Context.DisallowIn;
+  context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const node = createArrayLiteral(elementList, curPos, parser.curPos);
 
   if (parser.token & SyntaxKind.IsAssignOp) {
@@ -2520,7 +2537,7 @@ function parseSpreadElement(parser: ParserState, context: Context): SpreadElemen
   const pos = parser.curPos;
   nextToken(parser, context);
   return createSpreadElement(
-    parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
+    parseExpression(parser, (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000),
     pos,
     parser.curPos
   );
@@ -3187,7 +3204,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
   const name = parser.token !== SyntaxKind.LeftParen ? parseIdentifier(parser, context) : null;
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
 
   context =
     ((context |
@@ -3195,10 +3212,12 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
       Context.InGeneratorContext |
       Context.Parameters |
       Context.DisallowIn |
+      Context.InTypes |
       Context.SuperProperty |
       Context.SuperCall) ^
       (Context.InGeneratorContext |
         Context.InAwaitContext |
+        Context.InTypes |
         Context.Parameters |
         Context.DisallowIn |
         Context.SuperProperty |
@@ -3313,7 +3332,7 @@ function parseFunctionDeclaration(
     );
   }
   const name = parseIdentifier(parser, context);
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
 
   context =
     ((context |
@@ -3321,11 +3340,13 @@ function parseFunctionDeclaration(
       Context.InGeneratorContext |
       Context.Parameters |
       Context.DisallowIn |
+      Context.InTypes |
       Context.SuperProperty |
       Context.SuperCall) ^
       (Context.InGeneratorContext |
         Context.InAwaitContext |
         Context.Parameters |
+        Context.InTypes |
         Context.DisallowIn |
         Context.SuperProperty |
         Context.SuperCall)) |
@@ -3441,7 +3462,7 @@ function parseFunctionStatementList(
 
 function parseFormalParameterList(parser: ParserState, context: Context): FormalParameterList {
   const parameters = [];
-  context = (context | Context.DisallowIn) ^ Context.DisallowIn;
+  context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeFlags = NodeFlags.ExpressionNode;
   const curpPos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
@@ -3959,6 +3980,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseFunctionTypeOrParen(parser, context);
     case SyntaxKind.TypeofKeyword:
       return parseTypeofType(parser, context);
+    case SyntaxKind.QuestionMark:
     default:
       return parseGenericType(parser, context);
   }
@@ -3988,9 +4010,14 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const pos = parser.curPos;
   let trailingComma = false;
   nextToken(parser, context);
+  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
   const types: TypeNode[] = [];
-  while (parser.token !== SyntaxKind.RightBracket) {
+  while (
+    parser.token &
+    (SyntaxKind.IsLessThanOrLeftParen | SyntaxKind.IsStartOfType | SyntaxKind.IsIdentifier | SyntaxKind.IsPatternStart)
+  ) {
     types.push(parseType(parser, context));
+    if (parser.token === SyntaxKind.RightBracket) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
         trailingComma = true;
@@ -4002,12 +4029,13 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
       createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode._expected, parser.curPos, parser.pos)
     );
   }
-  return createTupleType(types, trailingComma, pos, parser.curPos);
+  consume(parser, context, SyntaxKind.RightBracket);
+  return createTupleType(types, trailingComma, multiline, pos, parser.curPos);
 }
 
 function parseFunctionType(parser: ParserState, context: Context): FunctionType {
   const pos = parser.curPos;
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen);
@@ -4124,7 +4152,7 @@ function parseGenericType(parser: ParserState, context: Context): GenericType {
   while (consumeOpt(parser, context, SyntaxKind.Period)) {
     entity = parseQualifiedType(parser, context, entity);
   }
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
   return createGenericType(entity, typeParameters, pos, parser.curPos);
 }
 
@@ -4285,9 +4313,8 @@ function parseTypeAsIdentifierOrTypeAlias(
   //  type x = y<() => string>;
   if (parser.token & SyntaxKind.IsIdentifier) {
     expr = parseIdentifier(parser, context);
-    const typeParameters =
-      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
-    consume(parser, context, SyntaxKind.Assign);
+    const typeParameters = parseTypeParameters(parser, context);
+    consume(parser, context | Context.InTypes, SyntaxKind.Assign);
     const type = parseType(parser, context);
     parseSemicolon(parser, context);
     return createTypeAlias(
@@ -4613,7 +4640,7 @@ function parseObjectTypeProperty(
 }
 function parseFunctionType1(parser: ParserState, context: Context): FunctionType {
   const pos = parser.curPos;
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen);
@@ -4628,7 +4655,7 @@ function parseObjectTypeCallProperty(
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen);
@@ -4649,7 +4676,7 @@ function parseObjectTypeInternalSlot(
   consume(parser, context, SyntaxKind.RightBracket);
   consume(parser, context, SyntaxKind.RightBracket);
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+    const typeParameters = parseTypeParameters(parser, context);
     consume(parser, context, SyntaxKind.LeftParen);
     const params = parseFunctionTypeParameters(parser, context);
     consume(parser, context, SyntaxKind.RightParen);
@@ -4687,7 +4714,10 @@ function parseObjectTypeIndexer(
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {
   const pos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket);
-  const expression = parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+  const expression = parseExpression(
+    parser,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
   consume(parser, context, SyntaxKind.RightBracket);
   return createComputedPropertyName(expression, pos, parser.curPos);
 }
@@ -4839,7 +4869,10 @@ function parseTemplateExpression(parser: ParserState, context: Context, isTagged
 function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan {
   const { curPos, tokenValue, tokenRaw } = parser;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.TemplateCont);
-  const expression = parseExpressions(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+  const expression = parseExpressions(
+    parser,
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+  );
   return createTemplateSpan(tokenRaw, tokenValue, expression, curPos, parser.curPos);
 }
 
@@ -4861,7 +4894,7 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
       ? parseIdentifier(parser, context)
       : null;
 
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
 
   let inheritedContext = context;
 
@@ -4902,7 +4935,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
       ? parseIdentifier(parser, context)
       : null;
 
-  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
+  const typeParameters = parseTypeParameters(parser, context);
 
   let inheritedContext = context;
 
