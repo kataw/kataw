@@ -199,9 +199,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
   );
 
   parser.tokenValue = result += source.substring(start, parser.pos);
-  console.log(parser.tokenValue);
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);
-  console.log(parser.tokenRaw);
   return SyntaxKind.StringLiteral;
 }
 
