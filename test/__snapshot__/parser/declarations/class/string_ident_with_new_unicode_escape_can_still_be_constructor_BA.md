@@ -92,101 +92,81 @@ class x { constructor(){}; "constructor"(){}; }
                         "flags": 256,
                         "start": 9,
                         "end": 25
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 25,
+                        "end": 26
+                    },
+                    {
+                        "kind": 278,
+                        "decorators": null,
+                        "staticToken": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 201392131,
+                                "text": "constructor",
+                                "rawText": "constructor",
+                                "flags": 768,
+                                "start": 26,
+                                "end": 40
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 41,
+                                "end": 42
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 43,
+                                    "end": 43
+                                },
+                                "flags": 256,
+                                "start": 42,
+                                "end": 44
+                            },
+                            "flags": 0,
+                            "start": 40,
+                            "end": 44
+                        },
+                        "flags": 256,
+                        "start": 26,
+                        "end": 44
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 44,
+                        "end": 45
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 25
+                "end": 47
             },
             "flags": 128,
             "start": 0,
-            "end": 25
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 25,
-            "end": 26
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 201392131,
-                    "text": "constructor",
-                    "rawText": "constructor",
-                    "flags": 768,
-                    "start": 26,
-                    "end": 40
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 41,
-                    "end": 41
-                },
-                "flags": 256,
-                "start": 26,
-                "end": 42
-            },
-            "flags": 128,
-            "start": 26,
-            "end": 42
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 43,
-                "end": 43
-            },
-            "flags": 128,
-            "start": 42,
-            "end": 44
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 44,
-            "end": 45
+            "end": 47
         }
     ],
     "isModule": false,
     "text": "class x { constructor(){}; \"constructor\"(){}; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 25,
-            "end": 26
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 42,
-            "end": 43
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 45,
-            "end": 47
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 47
 }

@@ -6,6 +6,14 @@
 declare var foo;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

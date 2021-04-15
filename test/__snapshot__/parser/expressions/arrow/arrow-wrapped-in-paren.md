@@ -10,6 +10,14 @@
 ((x) => y, (z) => {});
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

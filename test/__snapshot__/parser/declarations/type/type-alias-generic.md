@@ -11,7 +11,7 @@ type T<U> = U;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

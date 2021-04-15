@@ -89,91 +89,47 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 768,
-                    "start": 30,
-                    "end": 33
-                },
-                "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 205,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 768,
-                                            "start": 17,
-                                            "end": 18
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 768,
-                                            "start": 19,
-                                            "end": 20
-                                        },
-                                        "flags": 256,
-                                        "start": 17,
-                                        "end": 20
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
-                                "start": 17,
-                                "end": 20
-                            },
-                            "flags": 256,
-                            "start": 16,
-                            "end": 21
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 22,
-                                "end": 29
-                            },
-                            "flags": 0,
-                            "start": 21,
-                            "end": 29
-                        },
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 13,
-                        "end": 29
-                    }
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "z",
-                    "rawText": "z",
-                    "flags": 768,
-                    "start": 33,
-                    "end": 35
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "flags": 256,
+                    "start": 13,
+                    "end": 21
                 },
                 "flags": 256,
                 "start": 13,
-                "end": 35
+                "end": 21
             },
             "flags": 128,
             "start": 13,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 22,
+                "end": 29
+            },
+            "flags": 128,
+            "start": 22,
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "z",
+                "rawText": "z",
+                "flags": 768,
+                "start": 33,
+                "end": 35
+            },
+            "flags": 128,
+            "start": 33,
             "end": 36
         }
     ],
@@ -181,7 +137,56 @@
     "text": "({x=y}) => z;\n\n({x=y}: string) => z;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 21,
+            "end": 22
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 21,
+            "end": 22
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 21,
+            "end": 22
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 30
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 29,
+            "end": 30
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 30,
+            "end": 33
+        }
+    ],
     "start": 0,
     "end": 36
 }

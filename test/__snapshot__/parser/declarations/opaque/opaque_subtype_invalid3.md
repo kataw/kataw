@@ -6,12 +6,13 @@
 opaque stuff: Box<T> = Container<T>
 `````
 
+
 ## Options
 
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ## Output

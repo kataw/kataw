@@ -57,40 +57,20 @@ var a: -z
                             "end": 5
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "autofix": 0,
-                                    "flags": 12,
-                                    "start": 6,
-                                    "end": 6
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 6,
-                                "end": 6
-                            },
-                            "flags": 0,
-                            "start": 5,
-                            "end": 6
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 128,
                         "start": 3,
-                        "end": 6
+                        "end": 5
                     }
                 ],
                 "flags": 128,
                 "start": 3,
-                "end": 6
+                "end": 5
             },
             "flags": 128,
             "start": 0,
-            "end": 6
+            "end": 5
         },
         {
             "kind": 120,
@@ -127,26 +107,26 @@ var a: -z
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 6,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 4,
             "error": "',' expected",
-            "start": 6,
-            "end": 8
+            "start": 5,
+            "end": 6
         },
         {
             "kind": 2,
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 6,
-            "end": 8
+            "start": 5,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 5,
+            "end": 6
         }
     ],
     "start": 0,

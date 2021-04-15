@@ -57,30 +57,33 @@ var a : string
                             "end": 5
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 7,
-                                "end": 14
-                            },
-                            "flags": 0,
-                            "start": 5,
-                            "end": 14
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 128,
                         "start": 3,
-                        "end": 14
+                        "end": 5
                     }
                 ],
                 "flags": 128,
                 "start": 3,
-                "end": 14
+                "end": 5
             },
             "flags": 128,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 7,
+                "end": 14
+            },
+            "flags": 128,
+            "start": 7,
             "end": 14
         }
     ],
@@ -88,7 +91,32 @@ var a : string
     "text": "var a : string",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 5,
+            "end": 7
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 5,
+            "end": 7
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 5,
+            "end": 7
+        }
+    ],
     "start": 0,
     "end": 14
 }

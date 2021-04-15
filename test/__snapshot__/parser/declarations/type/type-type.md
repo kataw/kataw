@@ -11,7 +11,7 @@ type Foo<T> = Bar<T>
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ## Output

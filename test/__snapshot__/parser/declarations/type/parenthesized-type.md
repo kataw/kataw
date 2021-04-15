@@ -11,7 +11,7 @@ type Foo = (string | number)
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ## Output

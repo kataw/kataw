@@ -167,28 +167,17 @@ x = { method(test: string) { } };
                                                 "end": 44
                                             },
                                             "optionalToken": null,
-                                            "type": {
-                                                "kind": 139,
-                                                "type": {
-                                                    "kind": 134234347,
-                                                    "flags": 768,
-                                                    "start": 45,
-                                                    "end": 52
-                                                },
-                                                "flags": 0,
-                                                "start": 44,
-                                                "end": 52
-                                            },
+                                            "type": null,
                                             "initializer": null,
                                             "flags": 256,
                                             "start": 40,
-                                            "end": 52
+                                            "end": 44
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 40,
-                                    "end": 53
+                                    "end": 45
                                 },
                                 "type": null,
                                 "contents": {
@@ -199,34 +188,68 @@ x = { method(test: string) { } };
                                         "statements": [],
                                         "multiline": false,
                                         "flags": 256,
-                                        "start": 55,
-                                        "end": 55
+                                        "start": 44,
+                                        "end": 44
                                     },
                                     "flags": 256,
-                                    "start": 53,
-                                    "end": 57
+                                    "start": 44,
+                                    "end": 44
                                 },
                                 "flags": 256,
                                 "start": 39,
-                                "end": 57
+                                "end": 44
                             }
                         ],
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
                         "start": 32,
-                        "end": 57
+                        "end": 44
                     },
                     "flags": 256,
                     "start": 30,
-                    "end": 59
+                    "end": 44
                 },
                 "flags": 256,
                 "start": 25,
-                "end": 59
+                "end": 44
             },
             "flags": 128,
             "start": 25,
+            "end": 44
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 45,
+                "end": 52
+            },
+            "flags": 128,
+            "start": 45,
+            "end": 52
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 55,
+                "end": 55
+            },
+            "flags": 128,
+            "start": 53,
+            "end": 57
+        },
+        {
+            "kind": 168,
+            "flags": 128,
+            "start": 59,
             "end": 60
         }
     ],
@@ -234,7 +257,96 @@ x = { method(test: string) { } };
     "text": "x = { method(test) { } };\n\nx = { method(test: string) { } };\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 52,
+            "end": 53
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 52,
+            "end": 53
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 57,
+            "end": 59
+        }
+    ],
     "start": 0,
     "end": 61
 }

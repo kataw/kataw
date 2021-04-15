@@ -6,6 +6,14 @@
 var a: 0b1111011
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

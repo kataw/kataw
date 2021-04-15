@@ -6,6 +6,14 @@
 declare class A<T> extends B<T> { x: number }
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

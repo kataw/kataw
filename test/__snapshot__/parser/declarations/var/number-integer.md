@@ -11,19 +11,9 @@ var a: 123
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
 
 ## Output
 

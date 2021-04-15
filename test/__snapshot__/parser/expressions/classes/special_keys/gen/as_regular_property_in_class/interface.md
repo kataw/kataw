@@ -56,47 +56,66 @@ class x {interface: x}
                             "end": 18
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
-                                    "start": 19,
-                                    "end": 21
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 19,
-                                "end": 21
-                            },
-                            "flags": 0,
-                            "start": 18,
-                            "end": 21
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 256,
                         "start": 9,
-                        "end": 21
+                        "end": 18
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 22
+                "end": 18
             },
             "flags": 128,
             "start": 0,
-            "end": 22
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 19,
+                "end": 21
+            },
+            "flags": 128,
+            "start": 19,
+            "end": 21
         }
     ],
     "isModule": false,
     "text": "class x {interface: x}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 18,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 18,
+            "end": 19
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 21,
+            "end": 22
+        }
+    ],
     "start": 0,
     "end": 22
 }

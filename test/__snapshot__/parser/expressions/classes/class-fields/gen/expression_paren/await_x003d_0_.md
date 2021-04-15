@@ -64,28 +64,28 @@
                                 "flags": 256,
                                 "start": 8,
                                 "end": 18
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 768,
+                                "start": 18,
+                                "end": 19
                             }
                         ],
                         "flags": 256,
                         "start": 8,
-                        "end": 18
+                        "end": 21
                     },
                     "flags": 256,
                     "start": 1,
-                    "end": 18
+                    "end": 21
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 18
+                "end": 22
             },
             "flags": 128,
             "start": 0,
-            "end": 19
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 22,
             "end": 23
         }
     ],
@@ -93,40 +93,7 @@
     "text": "(class { await = 0; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 21,
-            "end": 22
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 23
 }

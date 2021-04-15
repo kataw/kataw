@@ -52,30 +52,33 @@ let {x}: string = y;
                             "end": 5
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 6,
-                                "end": 13
-                            },
-                            "flags": 0,
-                            "start": 5,
-                            "end": 13
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 128,
                         "start": 3,
-                        "end": 13
+                        "end": 5
                     }
                 ],
                 "flags": 128,
                 "start": 3,
-                "end": 13
+                "end": 5
             },
             "flags": 128,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 6,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 6,
             "end": 14
         },
         {
@@ -125,37 +128,53 @@ let {x}: string = y;
                             "end": 23
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 24,
-                                "end": 31
-                            },
-                            "flags": 0,
-                            "start": 23,
-                            "end": 31
-                        },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 768,
-                            "start": 33,
-                            "end": 35
-                        },
+                        "type": null,
+                        "initializer": null,
                         "flags": 128,
                         "start": 19,
-                        "end": 35
+                        "end": 23
                     }
                 ],
                 "flags": 128,
                 "start": 19,
-                "end": 35
+                "end": 23
             },
             "flags": 128,
             "start": 14,
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 768,
+                    "start": 24,
+                    "end": 31
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 31,
+                    "end": 33
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 768,
+                    "start": 33,
+                    "end": 35
+                },
+                "flags": 256,
+                "start": 24,
+                "end": 35
+            },
+            "flags": 128,
+            "start": 24,
             "end": 36
         },
         {
@@ -188,65 +207,84 @@ let {x}: string = y;
                                             "end": 44
                                         },
                                         "optionalToken": null,
-                                        "type": {
-                                            "kind": 139,
-                                            "type": {
-                                                "kind": 134234343,
-                                                "flags": 768,
-                                                "start": 45,
-                                                "end": 51
-                                            },
-                                            "flags": 0,
-                                            "start": 44,
-                                            "end": 51
-                                        },
+                                        "type": null,
                                         "initializer": null,
                                         "flags": 256,
                                         "start": 43,
-                                        "end": 51
+                                        "end": 44
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 256,
                                 "start": 43,
-                                "end": 51
+                                "end": 44
                             },
                             "flags": 256,
                             "start": 41,
-                            "end": 52
+                            "end": 44
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 53,
-                                "end": 60
-                            },
-                            "flags": 0,
-                            "start": 52,
-                            "end": 60
-                        },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 768,
-                            "start": 62,
-                            "end": 64
-                        },
+                        "type": null,
+                        "initializer": null,
                         "flags": 128,
                         "start": 41,
-                        "end": 64
+                        "end": 44
                     }
                 ],
                 "flags": 128,
                 "start": 41,
-                "end": 64
+                "end": 44
             },
             "flags": 128,
             "start": 36,
+            "end": 44
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "symbol",
+                "rawText": "symbol",
+                "flags": 768,
+                "start": 45,
+                "end": 51
+            },
+            "flags": 128,
+            "start": 45,
+            "end": 51
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 768,
+                    "start": 53,
+                    "end": 60
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 60,
+                    "end": 62
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 768,
+                    "start": 62,
+                    "end": 64
+                },
+                "flags": 256,
+                "start": 53,
+                "end": 64
+            },
+            "flags": 128,
+            "start": 53,
             "end": 65
         },
         {
@@ -295,37 +333,53 @@ let {x}: string = y;
                             "end": 74
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 75,
-                                "end": 82
-                            },
-                            "flags": 0,
-                            "start": 74,
-                            "end": 82
-                        },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 768,
-                            "start": 84,
-                            "end": 86
-                        },
+                        "type": null,
+                        "initializer": null,
                         "flags": 128,
                         "start": 70,
-                        "end": 86
+                        "end": 74
                     }
                 ],
                 "flags": 128,
                 "start": 70,
-                "end": 86
+                "end": 74
             },
             "flags": 128,
             "start": 65,
+            "end": 74
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 768,
+                    "start": 75,
+                    "end": 82
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 82,
+                    "end": 84
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 768,
+                    "start": 84,
+                    "end": 86
+                },
+                "flags": 256,
+                "start": 75,
+                "end": 86
+            },
+            "flags": 128,
+            "start": 75,
             "end": 87
         }
     ],
@@ -333,7 +387,168 @@ let {x}: string = y;
     "text": "let x: string;\n\nlet [x]: string = y;\n\nlet [x:symbol]: string = y;\n\nlet {x}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 5,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 5,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 5,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 12,
+            "error": "Missing initializer in destructuring declaration",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 12,
+            "error": "Missing initializer in destructuring declaration",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 51,
+            "end": 52
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 51,
+            "end": 52
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 52,
+            "end": 53
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 12,
+            "error": "Missing initializer in destructuring declaration",
+            "start": 74,
+            "end": 75
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 74,
+            "end": 75
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 74,
+            "end": 75
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 74,
+            "end": 75
+        }
+    ],
     "start": 0,
     "end": 88
 }

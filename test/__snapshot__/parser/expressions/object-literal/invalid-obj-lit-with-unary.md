@@ -18,49 +18,34 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": null,
-                "typeParameters": null,
-                "parameters": [
-                    null
-                ],
-                "asyncToken": null,
-                "returnType": {
-                    "kind": 139,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 768,
-                            "start": 6,
-                            "end": 8
-                        },
-                        "typeParameters": null,
-                        "flags": 0,
-                        "start": 6,
-                        "end": 8
-                    },
-                    "flags": 0,
-                    "start": 4,
-                    "end": 8
-                },
-                "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 9,
-                    "end": 9
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "flags": 256,
+                    "start": 0,
+                    "end": 4
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 9
+                "end": 4
             },
             "flags": 128,
             "start": 0,
-            "end": 9
+            "end": 4
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 6,
+                "end": 8
+            },
+            "flags": 128,
+            "start": 6,
+            "end": 8
         },
         {
             "kind": 249,
@@ -107,34 +92,26 @@
         {
             "kind": 2,
             "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 1,
             "error": "Unexpected token.",
+            "start": 4,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 4,
+            "end": 6
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
             "start": 8,
             "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 9,
-            "end": 10
         },
         {
             "kind": 2,

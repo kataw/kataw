@@ -35,7 +35,7 @@ type T27 = ArgumentType<never>;  // any
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

@@ -4,7 +4,15 @@
 
 `````js
 ({y}?: string) =>x
+````
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
 `````
+`
 
 ## Output
 
@@ -89,24 +97,136 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 768,
+                    "kind": 226,
+                    "member": {
+                        "kind": 226,
+                        "member": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 17,
+                            "end": 18
+                        },
+                        "template": {
+                            "kind": 458761,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 768,
+                            "start": 18,
+                            "end": 21
+                        },
+                        "flags": 256,
+                        "start": 17,
+                        "end": 21
+                    },
+                    "template": {
+                        "kind": 458761,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 768,
+                        "start": 21,
+                        "end": 23
+                    },
+                    "flags": 256,
                     "start": 17,
-                    "end": 18
+                    "end": 23
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 18
+                "end": 23
             },
             "flags": 128,
             "start": 0,
-            "end": 18
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Options",
+                "rawText": "Options",
+                "flags": 768,
+                "start": 26,
+                "end": 34
+            },
+            "flags": 128,
+            "start": 26,
+            "end": 34
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Parser",
+                "rawText": "Parser",
+                "flags": 768,
+                "start": 39,
+                "end": 46
+            },
+            "flags": 128,
+            "start": 39,
+            "end": 46
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 226,
+                "member": {
+                    "kind": 226,
+                    "member": {
+                        "kind": 226,
+                        "member": {
+                            "kind": 134299649,
+                            "text": "Options",
+                            "rawText": "Options",
+                            "flags": 768,
+                            "start": 46,
+                            "end": 54
+                        },
+                        "template": {
+                            "kind": 458761,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 768,
+                            "start": 54,
+                            "end": 58
+                        },
+                        "flags": 256,
+                        "start": 46,
+                        "end": 58
+                    },
+                    "template": {
+                        "kind": 458761,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 768,
+                        "start": 58,
+                        "end": 60
+                    },
+                    "flags": 256,
+                    "start": 46,
+                    "end": 60
+                },
+                "template": {
+                    "kind": 458761,
+                    "text": "js\n{ allowTypes : true }",
+                    "rawText": "",
+                    "flags": 768,
+                    "start": 60,
+                    "end": 85
+                },
+                "flags": 256,
+                "start": 46,
+                "end": 85
+            },
+            "flags": 128,
+            "start": 46,
+            "end": 85
         }
     ],
     "isModule": false,
-    "text": "({y}?: string) =>x",
+    "text": "({y}?: string) =>x\n````\n## Options\n\n### Parser Options\n\n`````js\n{ allowTypes : true }",
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
@@ -125,10 +245,106 @@
             "error": "The left hand side of the arrow is not destructible ",
             "start": 14,
             "end": 17
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 23,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 23,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 34,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 34,
+            "end": 37
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 38
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 37,
+            "end": 38
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 38,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 38,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 46,
+            "end": 54
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 60,
+            "end": 85
         }
     ],
     "start": 0,
-    "end": 18
+    "end": 85
 }
 ```
 

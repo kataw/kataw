@@ -8,6 +8,14 @@ var v = (a, b) => {
 };
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

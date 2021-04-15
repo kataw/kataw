@@ -8,6 +8,14 @@ var a : { (): number; }
 var a : { <T>(x: T): number; }
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

@@ -11,7 +11,7 @@ type a = ??string;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

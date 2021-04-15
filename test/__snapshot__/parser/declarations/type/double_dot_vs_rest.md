@@ -11,7 +11,7 @@ var [..x] = obj;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

@@ -11,7 +11,7 @@ opaque Ident: Type = SuperType;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

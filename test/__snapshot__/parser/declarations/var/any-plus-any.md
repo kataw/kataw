@@ -8,6 +8,14 @@ x.name = "hello";
 var z = x + x;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

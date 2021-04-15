@@ -44,40 +44,47 @@ a ? b : (): string => {}
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 15,
-                        "end": 18
-                    },
+                    "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 134234347,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 15,
+                            "end": 18
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
                             "flags": 768,
                             "start": 8,
                             "end": 15
                         },
-                        "flags": 0,
-                        "start": 7,
-                        "end": 15
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "multiline": false,
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 256,
+                                "start": 20,
+                                "end": 20
+                            },
                             "flags": 256,
-                            "start": 20,
-                            "end": 20
+                            "start": 18,
+                            "end": 21
                         },
                         "flags": 256,
-                        "start": 18,
+                        "start": 8,
                         "end": 21
                     },
                     "flags": 256,
@@ -125,6 +132,34 @@ a ? b : (): string => {}
                     "end": 33
                 },
                 "consequent": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 768,
+                        "start": 33,
+                        "end": 39
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 256,
+                        "start": 33,
+                        "end": 33
+                    },
+                    "flags": 256,
+                    "start": 33,
+                    "end": 42
+                },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 768,
+                    "start": 42,
+                    "end": 43
+                },
+                "alternate": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -133,25 +168,16 @@ a ? b : (): string => {}
                         "end": 53
                     },
                     "typeParameters": null,
-                    "parameters": [],
-                    "asyncToken": {
-                        "kind": 82031,
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "string",
+                        "rawText": "string",
                         "flags": 768,
-                        "start": 33,
-                        "end": 39
-                    },
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 134234347,
-                            "flags": 768,
-                            "start": 43,
-                            "end": 50
-                        },
-                        "flags": 0,
-                        "start": 42,
+                        "start": 43,
                         "end": 50
                     },
+                    "asyncToken": null,
+                    "returnType": null,
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -167,30 +193,30 @@ a ? b : (): string => {}
                         "start": 53,
                         "end": 56
                     },
-                    "flags": 2304,
-                    "start": 33,
+                    "flags": 256,
+                    "start": 43,
                     "end": 56
-                },
-                "colonToken": {
-                    "kind": 21,
-                    "flags": 768,
-                    "start": 56,
-                    "end": 59
-                },
-                "alternate": {
-                    "kind": 134299649,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 768,
-                    "start": 59,
-                    "end": 62
                 },
                 "flags": 256,
                 "start": 28,
-                "end": 62
+                "end": 56
             },
             "flags": 128,
             "start": 28,
+            "end": 56
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "b",
+                "rawText": "b",
+                "flags": 768,
+                "start": 59,
+                "end": 62
+            },
+            "flags": 128,
+            "start": 59,
             "end": 63
         },
         {
@@ -213,40 +239,47 @@ a ? b : (): string => {}
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 79,
-                        "end": 82
-                    },
+                    "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 134234347,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 79,
+                            "end": 82
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
                             "flags": 768,
                             "start": 72,
                             "end": 79
                         },
-                        "flags": 0,
-                        "start": 71,
-                        "end": 79
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "multiline": false,
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 256,
+                                "start": 84,
+                                "end": 84
+                            },
                             "flags": 256,
-                            "start": 84,
-                            "end": 84
+                            "start": 82,
+                            "end": 85
                         },
                         "flags": 256,
-                        "start": 82,
+                        "start": 72,
                         "end": 85
                     },
                     "flags": 256,
@@ -261,40 +294,47 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 100,
-                        "end": 103
-                    },
+                    "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 134234347,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 100,
+                            "end": 103
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
                             "flags": 768,
                             "start": 93,
                             "end": 100
                         },
-                        "flags": 0,
-                        "start": 92,
-                        "end": 100
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "multiline": false,
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 256,
+                                "start": 105,
+                                "end": 105
+                            },
                             "flags": 256,
-                            "start": 105,
-                            "end": 105
+                            "start": 103,
+                            "end": 106
                         },
                         "flags": 256,
-                        "start": 103,
+                        "start": 93,
                         "end": 106
                     },
                     "flags": 256,
@@ -313,40 +353,47 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 768,
-                    "start": 119,
-                    "end": 122
-                },
+                "arrowToken": null,
                 "typeParameters": null,
                 "parameters": [],
                 "asyncToken": null,
-                "returnType": {
-                    "kind": 139,
-                    "type": {
-                        "kind": 134234347,
+                "returnType": null,
+                "contents": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 768,
+                        "start": 119,
+                        "end": 122
+                    },
+                    "typeParameters": null,
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "string",
+                        "rawText": "string",
                         "flags": 768,
                         "start": 112,
                         "end": 119
                     },
-                    "flags": 0,
-                    "start": 111,
-                    "end": 119
-                },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "multiline": false,
+                    "asyncToken": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 256,
+                            "start": 124,
+                            "end": 124
+                        },
                         "flags": 256,
-                        "start": 124,
-                        "end": 124
+                        "start": 122,
+                        "end": 125
                     },
                     "flags": 256,
-                    "start": 122,
+                    "start": 112,
                     "end": 125
                 },
                 "flags": 256,
@@ -391,40 +438,47 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 146,
-                        "end": 149
-                    },
+                    "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 134234347,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 146,
+                            "end": 149
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
                             "flags": 768,
                             "start": 139,
                             "end": 146
                         },
-                        "flags": 0,
-                        "start": 138,
-                        "end": 146
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "multiline": false,
+                        "asyncToken": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 256,
+                                "start": 151,
+                                "end": 151
+                            },
                             "flags": 256,
-                            "start": 151,
-                            "end": 151
+                            "start": 149,
+                            "end": 152
                         },
                         "flags": 256,
-                        "start": 149,
+                        "start": 139,
                         "end": 152
                     },
                     "flags": 256,
@@ -444,7 +498,64 @@ a ? b : (): string => {}
     "text": "\na ? (): string => {}  :  b;\n\na ? async (): string => {}  :  b;\n\na ? (): string => {}  :  (): string => {};\n\n(): string => {};\n\na ? b : (): string => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 56,
+            "end": 59
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 56,
+            "end": 59
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 71,
+            "end": 72
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 92,
+            "end": 93
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 111,
+            "end": 112
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 138,
+            "end": 139
+        }
+    ],
     "start": 0,
     "end": 152
 }

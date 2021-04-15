@@ -193,10 +193,18 @@ export function create(source: string): ParserState {
   };
 }
 
-export function parse(source: string, filename: string, isModule: boolean): RootNode {
-  const parser = create(source);
+export function parse(source: string, filename: string, isModule: boolean, options?: any): RootNode {
 
   let context = Context.None;
+
+  if (options != null) {
+    if (options.next) context |= Context.OptionsNext;
+    if (options.impliedStrict) context |= Context.Strict;
+    if (options.allowTypes) context |= Context.OptionsAllowTypes;
+    if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
+  }
+
+  const parser = create(source);
 
   nextToken(parser, context | Context.AllowRegExp);
 
@@ -1841,7 +1849,7 @@ function parsePropertyDefinition(
 }
 
 function parseTypeParameters(parser: ParserState, context: Context): TypeParameter | null {
-  return parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context | Context.InTypes) : null;
+  return context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context | Context.InTypes) : null;
 }
 
 function parseMethodDefinition(
@@ -3948,7 +3956,7 @@ function parseType(parser: ParserState, context: Context): TypeNode {
 
 function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotation | null {
   const pos = parser.curPos;
-  return consumeOpt(parser, context, SyntaxKind.Colon)
+  return context & Context.OptionsAllowTypes && consumeOpt(parser, context, SyntaxKind.Colon)
     ? createTypeAnnotation(parseType(parser, context), pos, parser.curPos)
     : null;
 }
@@ -4340,7 +4348,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
 ): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
   const expr = parseIdentifier(parser, context);
-  if (parser.token & SyntaxKind.IsStatementStart) {
+  if (context & Context.OptionsAllowTypes && parser.token & SyntaxKind.IsStatementStart) {
     const declareKeyword = createToken(SyntaxKind.DeclareKeyword, expr.start, expr.end);
     switch (parser.token) {
       case SyntaxKind.VarKeyword:
@@ -4386,7 +4394,7 @@ function parseTypeAsIdentifierOrTypeAlias(
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context);
-  if (parser.token & SyntaxKind.IsIdentifier) {
+  if (context & Context.OptionsAllowTypes && parser.token & SyntaxKind.IsIdentifier) {
     expr = parseIdentifier(parser, context);
     const opaqueType = opaqueKeyword ? parseTypeAnnotation(parser, context) : null;
     const typeParameters = parseTypeParameters(parser, context);

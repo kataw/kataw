@@ -11,7 +11,7 @@ type T = { [[foo]]?: X }
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

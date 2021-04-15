@@ -31,7 +31,7 @@ type overloads2 = {
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

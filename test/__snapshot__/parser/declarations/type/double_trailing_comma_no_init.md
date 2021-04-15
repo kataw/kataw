@@ -11,7 +11,7 @@ var foo,,
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

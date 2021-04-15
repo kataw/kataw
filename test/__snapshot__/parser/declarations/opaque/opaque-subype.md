@@ -6,6 +6,13 @@
 opaque type Counter: Box<T> = Container<T>;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
 ## Output
 
 ### Hybrid CST

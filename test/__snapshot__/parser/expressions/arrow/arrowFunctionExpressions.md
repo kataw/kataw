@@ -28,6 +28,14 @@ var p10 = ([{ value, done }]) => { };
 
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

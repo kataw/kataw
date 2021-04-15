@@ -17,6 +17,14 @@ var a: number
 var a: (?number)[];
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

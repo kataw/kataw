@@ -11,7 +11,7 @@ var [foo:bar] = obj;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

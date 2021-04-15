@@ -64,41 +64,19 @@ x = { method(test: string): number { } };
                                                 "end": 17
                                             },
                                             "optionalToken": null,
-                                            "type": {
-                                                "kind": 139,
-                                                "type": {
-                                                    "kind": 134234347,
-                                                    "flags": 768,
-                                                    "start": 18,
-                                                    "end": 25
-                                                },
-                                                "flags": 0,
-                                                "start": 17,
-                                                "end": 25
-                                            },
+                                            "type": null,
                                             "initializer": null,
                                             "flags": 256,
                                             "start": 13,
-                                            "end": 25
+                                            "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 13,
-                                    "end": 26
+                                    "end": 18
                                 },
-                                "type": {
-                                    "kind": 139,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 27,
-                                        "end": 34
-                                    },
-                                    "flags": 0,
-                                    "start": 26,
-                                    "end": 34
-                                },
+                                "type": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -107,34 +85,82 @@ x = { method(test: string): number { } };
                                         "statements": [],
                                         "multiline": false,
                                         "flags": 256,
-                                        "start": 36,
-                                        "end": 36
+                                        "start": 17,
+                                        "end": 17
                                     },
                                     "flags": 256,
-                                    "start": 34,
-                                    "end": 38
+                                    "start": 17,
+                                    "end": 17
                                 },
                                 "flags": 256,
                                 "start": 12,
-                                "end": 38
+                                "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "multiline": false,
                         "flags": 0,
                         "start": 5,
-                        "end": 38
+                        "end": 17
                     },
                     "flags": 256,
                     "start": 3,
-                    "end": 40
+                    "end": 17
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 40
+                "end": 17
             },
             "flags": 128,
             "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 18,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 18,
+            "end": 25
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "number",
+                "rawText": "number",
+                "flags": 768,
+                "start": 27,
+                "end": 34
+            },
+            "flags": 128,
+            "start": 27,
+            "end": 34
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 36,
+                "end": 36
+            },
+            "flags": 128,
+            "start": 34,
+            "end": 38
+        },
+        {
+            "kind": 168,
+            "flags": 128,
+            "start": 40,
             "end": 41
         }
     ],
@@ -142,7 +168,112 @@ x = { method(test: string): number { } };
     "text": "x = { method(test: string): number { } };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 17,
+            "end": 18
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 26,
+            "end": 27
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 34,
+            "end": 36
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 38,
+            "end": 40
+        }
+    ],
     "start": 0,
     "end": 41
 }

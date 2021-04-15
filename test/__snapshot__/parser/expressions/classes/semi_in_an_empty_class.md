@@ -37,44 +37,28 @@ class A {;}
             "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [],
+                "elements": [
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 9,
+                        "end": 10
+                    }
+                ],
                 "flags": 256,
                 "start": 9,
-                "end": 9
+                "end": 11
             },
             "flags": 128,
             "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 9,
-            "end": 10
+            "end": 11
         }
     ],
     "isModule": false,
     "text": "class A {;}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 10,
-            "end": 11
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 11
 }

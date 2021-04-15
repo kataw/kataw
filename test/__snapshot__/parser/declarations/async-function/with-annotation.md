@@ -18,7 +18,7 @@ let {x}: string = y;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ## Output

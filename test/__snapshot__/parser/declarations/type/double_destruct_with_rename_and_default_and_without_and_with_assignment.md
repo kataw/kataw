@@ -11,7 +11,7 @@ var {x:y=z}, {a:b=c} = obj;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

@@ -84,28 +84,28 @@
                                 "flags": 256,
                                 "start": 21,
                                 "end": 31
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 768,
+                                "start": 31,
+                                "end": 32
                             }
                         ],
                         "flags": 256,
                         "start": 21,
-                        "end": 31
+                        "end": 34
                     },
                     "flags": 256,
                     "start": 1,
-                    "end": 31
+                    "end": 34
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 31
+                "end": 35
             },
             "flags": 128,
             "start": 0,
-            "end": 32
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 35,
             "end": 36
         }
     ],
@@ -113,40 +113,7 @@
     "text": "(class extends Base { await = 0; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 31,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 31,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 32,
-            "end": 34
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 34,
-            "end": 35
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 36
 }

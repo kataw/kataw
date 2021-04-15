@@ -7,6 +7,13 @@ var opaque = 0;
 opaque += 4;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
 ## Output
 
 ### Hybrid CST

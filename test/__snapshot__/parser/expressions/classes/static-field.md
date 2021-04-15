@@ -67,45 +67,28 @@ class {
                         "flags": 256,
                         "start": 21,
                         "end": 33
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 33,
+                        "end": 34
                     }
                 ],
                 "flags": 256,
                 "start": 7,
-                "end": 33
+                "end": 38
             },
             "flags": 128,
             "start": 0,
-            "end": 33
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 33,
-            "end": 34
+            "end": 38
         }
     ],
     "isModule": false,
     "text": "class {\n\n      static field = foo;\n\n\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 33,
-            "end": 34
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 34,
-            "end": 38
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 38
 }

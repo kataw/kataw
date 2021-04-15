@@ -6,6 +6,14 @@
 type T = { [[foo]]: X }
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

@@ -68,45 +68,28 @@ class C { await = 0; }
                         "flags": 256,
                         "start": 9,
                         "end": 19
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 19,
+                        "end": 20
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 19
+                "end": 22
             },
             "flags": 128,
             "start": 0,
-            "end": 19
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 19,
-            "end": 20
+            "end": 22
         }
     ],
     "isModule": false,
     "text": "class C { await = 0; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 20
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 20,
-            "end": 22
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 22
 }

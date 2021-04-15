@@ -57,28 +57,28 @@
                                 "flags": 256,
                                 "start": 8,
                                 "end": 14
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 768,
+                                "start": 14,
+                                "end": 15
                             }
                         ],
                         "flags": 256,
                         "start": 8,
-                        "end": 14
+                        "end": 17
                     },
                     "flags": 256,
                     "start": 1,
-                    "end": 14
+                    "end": 17
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 14
+                "end": 18
             },
             "flags": 128,
             "start": 0,
-            "end": 15
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 18,
             "end": 19
         }
     ],
@@ -86,40 +86,7 @@
     "text": "(class { await; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 17,
-            "end": 18
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 19
 }

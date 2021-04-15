@@ -49,29 +49,17 @@ function createElement(tagName: "div"): HTMLDivElement {}
                             "end": 30
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134217967,
-                                "value": "div",
-                                "flags": 0,
-                                "start": 31,
-                                "end": 37
-                            },
-                            "flags": 0,
-                            "start": 30,
-                            "end": 37
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 256,
                         "start": 23,
-                        "end": 37
+                        "end": 30
                     }
                 ],
                 "trailingComma": false,
                 "flags": 256,
                 "start": 22,
-                "end": 38
+                "end": 31
             },
             "contents": {
                 "kind": 216,
@@ -81,37 +69,59 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "statements": [],
                     "multiline": false,
                     "flags": 256,
-                    "start": 56,
-                    "end": 56
+                    "start": 30,
+                    "end": 30
                 },
                 "flags": 256,
-                "start": 54,
-                "end": 57
+                "start": 30,
+                "end": 30
             },
             "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "HTMLDivElement",
-                        "rawText": "HTMLDivElement",
-                        "flags": 768,
-                        "start": 39,
-                        "end": 54
-                    },
-                    "typeParameters": null,
-                    "flags": 0,
-                    "start": 39,
-                    "end": 54
-                },
-                "flags": 0,
-                "start": 38,
+            "returnType": null,
+            "flags": 128,
+            "start": 0,
+            "end": 30
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "div",
+                "rawText": "div",
+                "flags": 768,
+                "start": 31,
+                "end": 37
+            },
+            "flags": 128,
+            "start": 31,
+            "end": 37
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "HTMLDivElement",
+                "rawText": "HTMLDivElement",
+                "flags": 768,
+                "start": 39,
                 "end": 54
             },
             "flags": 128,
-            "start": 0,
+            "start": 39,
+            "end": 54
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 56,
+                "end": 56
+            },
+            "flags": 128,
+            "start": 54,
             "end": 57
         }
     ],
@@ -119,7 +129,80 @@ function createElement(tagName: "div"): HTMLDivElement {}
     "text": "function createElement(tagName: \"div\"): HTMLDivElement {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 30,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 30,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 30,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 30,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 30,
+            "end": 31
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 37,
+            "end": 38
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 37,
+            "end": 38
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 38,
+            "end": 39
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 54,
+            "end": 56
+        }
+    ],
     "start": 0,
     "end": 57
 }

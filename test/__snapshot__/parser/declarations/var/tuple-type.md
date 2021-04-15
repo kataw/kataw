@@ -13,6 +13,14 @@ var x: [number, string] = [123, "aladdin"];
 
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

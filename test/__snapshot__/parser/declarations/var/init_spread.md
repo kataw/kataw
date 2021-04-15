@@ -11,7 +11,7 @@ var x = ...y;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

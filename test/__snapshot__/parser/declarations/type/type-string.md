@@ -12,7 +12,7 @@ type T1 = number;
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

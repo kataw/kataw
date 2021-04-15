@@ -146,52 +146,87 @@ type T = <
                             "end": 44
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 768,
-                                    "start": 45,
-                                    "end": 47
-                                },
-                                "typeParameters": {
-                                    "kind": 146,
-                                    "types": [],
-                                    "flags": 0,
-                                    "start": 47,
-                                    "end": 62
-                                },
-                                "flags": 0,
-                                "start": 45,
-                                "end": 62
-                            },
-                            "flags": 0,
-                            "start": 44,
-                            "end": 62
-                        },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 768,
-                            "start": 64,
-                            "end": 66
-                        },
+                        "type": null,
+                        "initializer": null,
                         "flags": 128,
                         "start": 42,
-                        "end": 66
+                        "end": 44
                     }
                 ],
                 "flags": 160,
                 "start": 42,
-                "end": 66
+                "end": 44
             },
             "flags": 128,
             "start": 35,
+            "end": 44
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 768,
+                        "start": 45,
+                        "end": 47
+                    },
+                    "operatorToken": {
+                        "kind": 536971330,
+                        "flags": 768,
+                        "start": 47,
+                        "end": 48
+                    },
+                    "right": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 48,
+                        "end": 48
+                    },
+                    "flags": 256,
+                    "start": 45,
+                    "end": 48
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 768,
+                    "start": 48,
+                    "end": 62
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 62,
+                    "end": 62
+                },
+                "flags": 256,
+                "start": 45,
+                "end": 62
+            },
+            "flags": 128,
+            "start": 45,
+            "end": 62
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": 1,
+                "rawText": "1",
+                "flags": 768,
+                "start": 64,
+                "end": 66
+            },
+            "flags": 128,
+            "start": 64,
             "end": 67
         },
         {
@@ -272,8 +307,8 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 128,
-                "end": 130
+                "start": 113,
+                "end": 113
             },
             "contents": {
                 "kind": 216,
@@ -283,24 +318,49 @@ type T = <
                     "statements": [],
                     "multiline": false,
                     "flags": 256,
+                    "start": 113,
+                    "end": 113
+                },
+                "flags": 256,
+                "start": 113,
+                "end": 113
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 128,
+            "start": 99,
+            "end": 113
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": {
+                    "kind": 146,
+                    "types": [],
+                    "flags": 0,
+                    "start": 113,
+                    "end": 128
+                },
+                "parameters": [],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
                     "start": 132,
                     "end": 132
                 },
                 "flags": 256,
-                "start": 130,
-                "end": 133
-            },
-            "typeParameters": {
-                "kind": 146,
-                "types": [],
-                "flags": 0,
                 "start": 113,
-                "end": 128
+                "end": 132
             },
-            "returnType": null,
             "flags": 128,
-            "start": 99,
-            "end": 133
+            "start": 113,
+            "end": 132
         },
         {
             "kind": 120,
@@ -338,145 +398,124 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 271,
-                            "arrowToken": null,
-                            "typeParameters": {
-                                "kind": 146,
-                                "types": [],
-                                "flags": 0,
-                                "start": 150,
-                                "end": 168
-                            },
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "arg",
-                                    "rawText": "arg",
-                                    "flags": 768,
-                                    "start": 169,
-                                    "end": 172
-                                }
-                            ],
-                            "asyncToken": null,
-                            "returnType": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234252,
-                                    "flags": 768,
-                                    "start": 174,
-                                    "end": 178
-                                },
-                                "flags": 0,
-                                "start": 173,
-                                "end": 178
-                            },
-                            "contents": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 179,
-                                "end": 179
+                            "kind": 121,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "arg",
+                                "rawText": "arg",
+                                "flags": 768,
+                                "start": 169,
+                                "end": 172
                             },
                             "flags": 256,
                             "start": 150,
-                            "end": 179
+                            "end": 173
                         },
                         "flags": 128,
                         "start": 150,
-                        "end": 179
+                        "end": 173
                     }
                 ],
                 "multiLine": true,
                 "flags": 128,
                 "start": 150,
-                "end": 179
+                "end": 173
             },
             "flags": 128,
             "start": 148,
-            "end": 182
+            "end": 173
         },
         {
-            "kind": 200,
-            "declareToken": null,
-            "opaqueToken": null,
-            "typeToken": {
-                "kind": 24775,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "any",
+                "rawText": "any",
+                "flags": 768,
+                "start": 174,
+                "end": 178
+            },
+            "flags": 128,
+            "start": 174,
+            "end": 179
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "type",
+                "rawText": "type",
                 "flags": 768,
                 "start": 182,
-                "end": 190
+                "end": 188
             },
-            "name": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 768,
-                "start": 188,
-                "end": 190
-            },
-            "opaqueType": null,
-            "typeParameters": null,
-            "type": {
-                "kind": 148,
-                "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+            "flags": 128,
+            "start": 182,
+            "end": 188
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "T",
+                    "rawText": "T",
+                    "flags": 768,
+                    "start": 188,
+                    "end": 190
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 190,
+                    "end": 192
+                },
+                "right": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 768,
+                        "start": 213,
+                        "end": 216
+                    },
+                    "typeParameters": {
+                        "kind": 146,
+                        "types": [],
+                        "flags": 0,
+                        "start": 192,
+                        "end": 208
+                    },
+                    "parameters": [
                         {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
-                                "flags": 768,
-                                "start": 209,
-                                "end": 212
-                            },
-                            "optionalToken": null,
-                            "typeAnnotation": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "autofix": 0,
-                                    "flags": 12,
-                                    "start": 212,
-                                    "end": 212
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 212,
-                                "end": 212
-                            },
-                            "flags": 0,
+                            "kind": 134299649,
+                            "text": "arg",
+                            "rawText": "arg",
+                            "flags": 768,
                             "start": 209,
                             "end": 212
                         }
                     ],
-                    "trailingComma": false,
+                    "asyncToken": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "any",
+                        "rawText": "any",
+                        "flags": 768,
+                        "start": 216,
+                        "end": 220
+                    },
                     "flags": 256,
-                    "start": 209,
-                    "end": 212
-                },
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 768,
-                    "start": 216,
+                    "start": 192,
                     "end": 220
                 },
-                "typeParameters": {
-                    "kind": 146,
-                    "types": [],
-                    "flags": 0,
-                    "start": 192,
-                    "end": 208
-                },
-                "flags": 0,
-                "start": 192,
+                "flags": 256,
+                "start": 188,
                 "end": 220
             },
             "flags": 128,
-            "start": 182,
+            "start": 188,
             "end": 221
         },
         {
@@ -550,52 +589,87 @@ type T = <
                             "end": 269
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 768,
-                                    "start": 270,
-                                    "end": 272
-                                },
-                                "typeParameters": {
-                                    "kind": 146,
-                                    "types": [],
-                                    "flags": 0,
-                                    "start": 272,
-                                    "end": 290
-                                },
-                                "flags": 0,
-                                "start": 270,
-                                "end": 290
-                            },
-                            "flags": 0,
-                            "start": 269,
-                            "end": 290
-                        },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 768,
-                            "start": 292,
-                            "end": 294
-                        },
+                        "type": null,
+                        "initializer": null,
                         "flags": 128,
                         "start": 267,
-                        "end": 294
+                        "end": 269
                     }
                 ],
                 "flags": 160,
                 "start": 267,
-                "end": 294
+                "end": 269
             },
             "flags": 128,
             "start": 260,
+            "end": 269
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 768,
+                        "start": 270,
+                        "end": 272
+                    },
+                    "operatorToken": {
+                        "kind": 536971330,
+                        "flags": 768,
+                        "start": 272,
+                        "end": 273
+                    },
+                    "right": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 273,
+                        "end": 273
+                    },
+                    "flags": 256,
+                    "start": 270,
+                    "end": 273
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 768,
+                    "start": 273,
+                    "end": 290
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 290,
+                    "end": 290
+                },
+                "flags": 256,
+                "start": 270,
+                "end": 290
+            },
+            "flags": 128,
+            "start": 270,
+            "end": 290
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": 1,
+                "rawText": "1",
+                "flags": 768,
+                "start": 292,
+                "end": 294
+            },
+            "flags": 128,
+            "start": 292,
             "end": 295
         },
         {
@@ -676,8 +750,8 @@ type T = <
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 362,
-                "end": 364
+                "start": 344,
+                "end": 344
             },
             "contents": {
                 "kind": 216,
@@ -687,24 +761,49 @@ type T = <
                     "statements": [],
                     "multiline": false,
                     "flags": 256,
+                    "start": 344,
+                    "end": 344
+                },
+                "flags": 256,
+                "start": 344,
+                "end": 344
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 128,
+            "start": 330,
+            "end": 344
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": {
+                    "kind": 146,
+                    "types": [],
+                    "flags": 0,
+                    "start": 344,
+                    "end": 362
+                },
+                "parameters": [],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
                     "start": 366,
                     "end": 366
                 },
                 "flags": 256,
-                "start": 364,
-                "end": 367
-            },
-            "typeParameters": {
-                "kind": 146,
-                "types": [],
-                "flags": 0,
                 "start": 344,
-                "end": 362
+                "end": 366
             },
-            "returnType": null,
             "flags": 128,
-            "start": 330,
-            "end": 367
+            "start": 344,
+            "end": 366
         },
         {
             "kind": 120,
@@ -742,161 +841,124 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 271,
-                            "arrowToken": null,
-                            "typeParameters": {
-                                "kind": 146,
-                                "types": [
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "A",
-                                            "rawText": "A",
-                                            "flags": 768,
-                                            "start": 388,
-                                            "end": 393
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 388,
-                                        "end": 393
-                                    }
-                                ],
-                                "flags": 0,
-                                "start": 384,
-                                "end": 407
-                            },
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "arg",
-                                    "rawText": "arg",
-                                    "flags": 768,
-                                    "start": 408,
-                                    "end": 411
-                                }
-                            ],
-                            "asyncToken": null,
-                            "returnType": {
-                                "kind": 139,
-                                "type": {
-                                    "kind": 134234252,
-                                    "flags": 768,
-                                    "start": 413,
-                                    "end": 417
-                                },
-                                "flags": 0,
-                                "start": 412,
-                                "end": 417
-                            },
-                            "contents": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 418,
-                                "end": 418
+                            "kind": 121,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "arg",
+                                "rawText": "arg",
+                                "flags": 768,
+                                "start": 408,
+                                "end": 411
                             },
                             "flags": 256,
                             "start": 384,
-                            "end": 418
+                            "end": 412
                         },
                         "flags": 128,
                         "start": 384,
-                        "end": 418
+                        "end": 412
                     }
                 ],
                 "multiLine": true,
                 "flags": 128,
                 "start": 384,
-                "end": 418
+                "end": 412
             },
             "flags": 128,
             "start": 382,
-            "end": 421
+            "end": 412
         },
         {
-            "kind": 200,
-            "declareToken": null,
-            "opaqueToken": null,
-            "typeToken": {
-                "kind": 24775,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "any",
+                "rawText": "any",
+                "flags": 768,
+                "start": 413,
+                "end": 417
+            },
+            "flags": 128,
+            "start": 413,
+            "end": 418
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "type",
+                "rawText": "type",
                 "flags": 768,
                 "start": 421,
-                "end": 429
+                "end": 427
             },
-            "name": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 768,
-                "start": 427,
-                "end": 429
-            },
-            "opaqueType": null,
-            "typeParameters": null,
-            "type": {
-                "kind": 148,
-                "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+            "flags": 128,
+            "start": 421,
+            "end": 427
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "T",
+                    "rawText": "T",
+                    "flags": 768,
+                    "start": 427,
+                    "end": 429
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 429,
+                    "end": 431
+                },
+                "right": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 768,
+                        "start": 455,
+                        "end": 458
+                    },
+                    "typeParameters": {
+                        "kind": 146,
+                        "types": [],
+                        "flags": 0,
+                        "start": 431,
+                        "end": 450
+                    },
+                    "parameters": [
                         {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
-                                "flags": 768,
-                                "start": 451,
-                                "end": 454
-                            },
-                            "optionalToken": null,
-                            "typeAnnotation": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "autofix": 0,
-                                    "flags": 12,
-                                    "start": 454,
-                                    "end": 454
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 454,
-                                "end": 454
-                            },
-                            "flags": 0,
+                            "kind": 134299649,
+                            "text": "arg",
+                            "rawText": "arg",
+                            "flags": 768,
                             "start": 451,
                             "end": 454
                         }
                     ],
-                    "trailingComma": false,
+                    "asyncToken": null,
+                    "returnType": null,
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "any",
+                        "rawText": "any",
+                        "flags": 768,
+                        "start": 458,
+                        "end": 462
+                    },
                     "flags": 256,
-                    "start": 451,
-                    "end": 454
-                },
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 768,
-                    "start": 458,
+                    "start": 431,
                     "end": 462
                 },
-                "typeParameters": {
-                    "kind": 146,
-                    "types": [],
-                    "flags": 0,
-                    "start": 431,
-                    "end": 450
-                },
-                "flags": 0,
-                "start": 431,
+                "flags": 256,
+                "start": 427,
                 "end": 462
             },
             "flags": 128,
-            "start": 421,
+            "start": 427,
             "end": 463
         }
     ],
@@ -924,6 +986,70 @@ type T = <
         {
             "kind": 2,
             "source": 2,
+            "code": 13,
+            "error": "Missing initializer in const declaration",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 44,
+            "end": 45
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 48,
+            "end": 62
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 62,
+            "end": 64
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 62,
+            "end": 64
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 62,
+            "end": 64
+        },
+        {
+            "kind": 2,
+            "source": 2,
             "code": 3,
             "error": "Identifier expected",
             "start": 82,
@@ -936,6 +1062,54 @@ type T = <
             "error": "Expression expected",
             "start": 98,
             "end": 99
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 113,
+            "end": 114
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 113,
+            "end": 114
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 113,
+            "end": 114
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 130,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 132,
+            "end": 133
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 132,
+            "end": 133
         },
         {
             "kind": 2,
@@ -958,14 +1132,30 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 178,
-            "end": 179
+            "start": 173,
+            "end": 174
         },
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 173,
+            "end": 174
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 173,
+            "end": 174
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
             "start": 179,
             "end": 182
         },
@@ -974,16 +1164,8 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 212,
-            "end": 213
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 212,
-            "end": 213
+            "start": 188,
+            "end": 190
         },
         {
             "kind": 2,
@@ -1000,6 +1182,70 @@ type T = <
             "error": "Unexpected token.",
             "start": 260,
             "end": 267
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 13,
+            "error": "Missing initializer in const declaration",
+            "start": 269,
+            "end": 270
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 269,
+            "end": 270
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 269,
+            "end": 270
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 269,
+            "end": 270
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 273,
+            "end": 290
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 290,
+            "end": 292
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 290,
+            "end": 292
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 290,
+            "end": 292
         },
         {
             "kind": 2,
@@ -1022,6 +1268,54 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
+            "start": 344,
+            "end": 345
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 344,
+            "end": 345
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 344,
+            "end": 345
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 364,
+            "end": 366
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 366,
+            "end": 367
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 366,
+            "end": 367
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
             "start": 378,
             "end": 382
         },
@@ -1038,14 +1332,30 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 417,
-            "end": 418
+            "start": 412,
+            "end": 413
         },
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 412,
+            "end": 413
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 412,
+            "end": 413
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
             "start": 418,
             "end": 421
         },
@@ -1054,16 +1364,8 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 454,
-            "end": 455
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 454,
-            "end": 455
+            "start": 427,
+            "end": 429
         }
     ],
     "start": 0,

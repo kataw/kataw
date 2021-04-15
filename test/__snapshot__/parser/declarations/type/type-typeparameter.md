@@ -19,7 +19,7 @@ type B = Foo<
 ### Parser Options
 
 `````js
-{}
+{ allowTypes : true }
 `````
 
 ### Printer Options

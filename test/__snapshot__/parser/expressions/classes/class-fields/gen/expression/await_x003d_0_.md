@@ -88,45 +88,28 @@ class C extends Base { await = 0; }
                         "flags": 256,
                         "start": 22,
                         "end": 32
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 32,
+                        "end": 33
                     }
                 ],
                 "flags": 256,
                 "start": 22,
-                "end": 32
+                "end": 35
             },
             "flags": 128,
             "start": 0,
-            "end": 32
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 32,
-            "end": 33
+            "end": 35
         }
     ],
     "isModule": false,
     "text": "class C extends Base { await = 0; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 32,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 33,
-            "end": 35
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 35
 }

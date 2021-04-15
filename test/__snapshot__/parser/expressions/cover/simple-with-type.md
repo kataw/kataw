@@ -18,61 +18,47 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 768,
-                    "start": 8,
-                    "end": 11
-                },
-                "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "s",
-                            "rawText": "s",
-                            "flags": 768,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234252,
-                                "flags": 768,
-                                "start": 3,
-                                "end": 7
-                            },
-                            "flags": 0,
-                            "start": 2,
-                            "end": 7
-                        },
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 0,
-                        "end": 7
-                    }
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 768,
-                    "start": 11,
-                    "end": 13
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "flags": 256,
+                    "start": 0,
+                    "end": 2
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 13
+                "end": 2
             },
             "flags": 128,
             "start": 0,
+            "end": 2
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "any",
+                "rawText": "any",
+                "flags": 768,
+                "start": 3,
+                "end": 7
+            },
+            "flags": 128,
+            "start": 3,
+            "end": 7
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 11,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 11,
             "end": 13
         }
     ],
@@ -80,7 +66,56 @@
     "text": "(s: any) => x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 3
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 2,
+            "end": 3
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 2,
+            "end": 3
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 7,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 8,
+            "end": 11
+        }
+    ],
     "start": 0,
     "end": 13
 }

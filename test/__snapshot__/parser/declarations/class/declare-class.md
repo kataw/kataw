@@ -6,6 +6,14 @@
 declare class A { static foo(): number; static x : string }
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

@@ -21,13 +21,22 @@ declare function foo(): void
     "directives": [],
     "statements": [
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "declare",
+                "rawText": "declare",
                 "flags": 768,
                 "start": 0,
                 "end": 7
             },
+            "flags": 128,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
@@ -49,57 +58,106 @@ declare function foo(): void
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 23,
-                "end": 25
+                "start": 20,
+                "end": 20
             },
-            "contents": null,
-            "typeParameters": {
-                "kind": 146,
-                "types": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 768,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 20,
+                    "end": 20
+                },
+                "flags": 256,
+                "start": 20,
+                "end": 20
+            },
+            "typeParameters": null,
+            "returnType": null,
+            "flags": 128,
+            "start": 7,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": {
+                    "kind": 146,
+                    "types": [
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 768,
+                                "start": 21,
+                                "end": 22
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
                             "start": 21,
                             "end": 22
-                        },
-                        "typeParameters": null,
-                        "flags": 0,
-                        "start": 21,
-                        "end": 22
-                    }
-                ],
-                "flags": 0,
-                "start": 20,
-                "end": 23
-            },
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 4259887,
-                    "flags": 768,
+                        }
+                    ],
+                    "flags": 0,
+                    "start": 20,
+                    "end": 23
+                },
+                "parameters": [],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 4259887,
+                        "flags": 768,
+                        "start": 26,
+                        "end": 31
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 31,
+                        "end": 31
+                    },
+                    "flags": 256,
                     "start": 26,
                     "end": 31
                 },
-                "flags": 0,
-                "start": 25,
+                "flags": 256,
+                "start": 20,
                 "end": 31
             },
             "flags": 128,
-            "start": 7,
+            "start": 20,
             "end": 32
         },
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "declare",
+                "rawText": "declare",
                 "flags": 768,
                 "start": 32,
                 "end": 41
             },
+            "flags": 128,
+            "start": 32,
+            "end": 41
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
@@ -131,84 +189,126 @@ declare function foo(): void
                             "end": 56
                         },
                         "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234345,
-                                "flags": 768,
-                                "start": 57,
-                                "end": 64
-                            },
-                            "flags": 0,
-                            "start": 56,
-                            "end": 64
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 256,
                         "start": 55,
-                        "end": 64
-                    },
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 768,
-                            "start": 65,
-                            "end": 67
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 768,
-                                "start": 68,
-                                "end": 75
-                            },
-                            "flags": 0,
-                            "start": 67,
-                            "end": 75
-                        },
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 65,
-                        "end": 75
+                        "end": 56
                     }
                 ],
                 "trailingComma": false,
                 "flags": 256,
                 "start": 54,
-                "end": 76
+                "end": 57
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 56,
+                    "end": 56
+                },
+                "flags": 256,
+                "start": 56,
+                "end": 56
+            },
             "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
+            "returnType": null,
+            "flags": 128,
+            "start": 41,
+            "end": 56
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
+                    {
+                        "kind": 134299649,
+                        "text": "number",
+                        "rawText": "number",
+                        "flags": 768,
+                        "start": 57,
+                        "end": 64
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 768,
+                        "start": 65,
+                        "end": 67
+                    }
+                ],
+                "flags": 256,
+                "start": 57,
+                "end": 67
+            },
+            "flags": 128,
+            "start": 57,
+            "end": 67
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 768,
+                "start": 68,
+                "end": 75
+            },
+            "flags": 128,
+            "start": 68,
+            "end": 75
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
                     "kind": 4259887,
                     "flags": 768,
                     "start": 77,
                     "end": 82
                 },
-                "flags": 0,
-                "start": 76,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 82,
+                    "end": 82
+                },
+                "flags": 256,
+                "start": 77,
                 "end": 82
             },
             "flags": 128,
-            "start": 41,
+            "start": 77,
             "end": 83
         },
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "declare",
+                "rawText": "declare",
                 "flags": 768,
                 "start": 83,
                 "end": 92
             },
+            "flags": 128,
+            "start": 83,
+            "end": 92
+        },
+        {
+            "kind": 176,
+            "declareKeyword": null,
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
@@ -233,22 +333,51 @@ declare function foo(): void
                 "start": 105,
                 "end": 107
             },
-            "contents": null,
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "multiline": false,
+                    "flags": 256,
+                    "start": 107,
+                    "end": 107
+                },
+                "flags": 256,
+                "start": 107,
+                "end": 107
+            },
             "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
+            "returnType": null,
+            "flags": 128,
+            "start": 92,
+            "end": 107
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
                     "kind": 4259887,
                     "flags": 768,
                     "start": 108,
                     "end": 113
                 },
-                "flags": 0,
-                "start": 107,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 113,
+                    "end": 113
+                },
+                "flags": 256,
+                "start": 108,
                 "end": 113
             },
             "flags": 128,
-            "start": 92,
+            "start": 108,
             "end": 113
         }
     ],
@@ -256,7 +385,192 @@ declare function foo(): void
     "text": "declare function foo<T>(): void;\n\ndeclare function foo(x: number, y: string): void;\n\ndeclare function foo(): void\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 16
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 20,
+            "end": 21
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 20,
+            "end": 21
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 20,
+            "end": 21
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 31,
+            "end": 32
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 41,
+            "end": 50
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 4,
+            "error": "',' expected",
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 56,
+            "end": 57
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 67,
+            "end": 68
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 67,
+            "end": 68
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 75,
+            "end": 76
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 75,
+            "end": 76
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 76,
+            "end": 77
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 82,
+            "end": 83
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 92,
+            "end": 101
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 107,
+            "end": 108
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 107,
+            "end": 108
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 107,
+            "end": 108
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 113,
+            "end": 114
+        }
+    ],
     "start": 0,
     "end": 114
 }

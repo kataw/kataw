@@ -8,6 +8,14 @@ async (a:string)=>c;
 async ([a]:string)=>c;
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

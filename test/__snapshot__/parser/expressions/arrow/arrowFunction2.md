@@ -6,6 +6,14 @@
 (...{a}: symbol) => x
 `````
 
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### Hybrid CST

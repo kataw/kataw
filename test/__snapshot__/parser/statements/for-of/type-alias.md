@@ -35,28 +35,38 @@ type x = y;
     "directives": [],
     "statements": [
         {
-            "kind": 200,
-            "declareToken": null,
-            "opaqueToken": null,
-            "typeToken": {
-                "kind": 24775,
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "type",
+                "rawText": "type",
                 "flags": 768,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
-            "name": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 4,
-                "end": 6
-            },
-            "opaqueType": null,
-            "typeParameters": null,
-            "type": {
-                "kind": 144,
-                "id": {
+            "flags": 128,
+            "start": 0,
+            "end": 4
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 4,
+                    "end": 6
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 6,
+                    "end": 8
+                },
+                "right": {
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
@@ -64,13 +74,12 @@ type x = y;
                     "start": 8,
                     "end": 10
                 },
-                "typeParameters": null,
-                "flags": 0,
-                "start": 8,
+                "flags": 256,
+                "start": 4,
                 "end": 10
             },
             "flags": 128,
-            "start": 0,
+            "start": 4,
             "end": 11
         }
     ],
@@ -78,7 +87,16 @@ type x = y;
     "text": "type x = y;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 4,
+            "end": 6
+        }
+    ],
     "start": 0,
     "end": 11
 }

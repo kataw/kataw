@@ -65,21 +65,21 @@ class A {
                         "flags": 256,
                         "start": 18,
                         "end": 27
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 27,
+                        "end": 28
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 27
+                "end": 30
             },
             "flags": 128,
             "start": 0,
-            "end": 27
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 27,
-            "end": 28
+            "end": 30
         },
         {
             "kind": 178,
@@ -134,61 +134,28 @@ class A {
                         "flags": 256,
                         "start": 52,
                         "end": 65
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 65,
+                        "end": 66
                     }
                 ],
                 "flags": 256,
                 "start": 43,
-                "end": 65
+                "end": 68
             },
             "flags": 128,
             "start": 30,
-            "end": 65
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 65,
-            "end": 66
+            "end": 68
         }
     ],
     "isModule": false,
     "text": "class A {\n  static #private; }\n\n  class A {\n  static #private = x; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 65,
-            "end": 66
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 66,
-            "end": 68
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 68
 }

@@ -8,6 +8,9 @@ import { TokenSyntaxKind, createToken } from './ast/token';
 
 export const enum Context {
   None = 0,
+  OptionsNext = 1 << 0,
+  OptionsAllowTypes = 1 << 1,
+  OptionsDisableWebCompat = 1 << 2,
   AllowRegExp = 1 << 6,
   DisallowIn = 1 << 7,
   AllowReturn  = 1 << 8,
@@ -23,7 +26,6 @@ export const enum Context {
   InConstructor = 1 << 18,
   Strict = 1 << 19,
   Module = 1 << 20,
-  OptionsDisableWebCompat = 1 << 21,
   InConditionalExpr = 1 << 22,
   InTypes = 1 << 23,
 }
