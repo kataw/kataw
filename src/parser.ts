@@ -104,7 +104,7 @@ import { createNumericLiteral, NumericLiteral } from './ast/expressions/numeric-
 import { createNullLiteral, NullLiteral } from './ast/expressions/null-literal';
 import { createStringLiteral, StringLiteral } from './ast/expressions/string-literal';
 import { createBooleanLiteral, BooleanLiteral } from './ast/expressions/boolean-literal';
-import { createBigIntLiteral, BigIntLiteral } from './ast/expressions/bigInt-literal';
+import { createBigIntLiteral, BigIntLiteral } from './ast/expressions/bigint-literal';
 import { createThisExpression, ThisExpression } from './ast/expressions/this-expr';
 import { createConditionalExpression } from './ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from './ast/expressions/binary-expr';

@@ -5,7 +5,7 @@ import { SingleNameBinding } from './singleNameBinding';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Identifier } from './identifier-expr';
 import { NumericLiteral } from './numeric-literal';
-import { BigIntLiteral } from './bigInt-literal';
+import { BigIntLiteral } from './bigint-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
 import { PrivateIdentifier } from './private-identifier';
