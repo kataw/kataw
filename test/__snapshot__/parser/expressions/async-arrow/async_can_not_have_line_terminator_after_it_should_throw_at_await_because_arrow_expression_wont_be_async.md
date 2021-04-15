@@ -50,45 +50,51 @@ g => await g
                         "flags": 128,
                         "start": 3,
                         "end": 13
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "g",
-                            "rawText": "g",
-                            "flags": 768,
-                            "start": 13,
-                            "end": 15
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 128,
-                        "start": 13,
-                        "end": 15
                     }
                 ],
                 "flags": 128,
                 "start": 3,
-                "end": 15
+                "end": 13
             },
             "flags": 128,
             "start": 0,
-            "end": 15
+            "end": 13
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "await",
-                "rawText": "await",
-                "flags": 768,
-                "start": 18,
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 768,
+                    "start": 15,
+                    "end": 18
+                },
+                "typeParameters": null,
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "g",
+                    "rawText": "g",
+                    "flags": 768,
+                    "start": 13,
+                    "end": 15
+                },
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "await",
+                    "rawText": "await",
+                    "flags": 768,
+                    "start": 18,
+                    "end": 24
+                },
+                "flags": 256,
+                "start": 13,
                 "end": 24
             },
             "flags": 128,
-            "start": 18,
+            "start": 13,
             "end": 24
         },
         {
@@ -111,38 +117,6 @@ g => await g
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 13,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 15,
-            "end": 18
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 18
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 15,
-            "end": 18
-        },
         {
             "kind": 2,
             "source": 2,

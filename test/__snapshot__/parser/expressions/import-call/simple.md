@@ -13,11 +13,18 @@ import.call
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 207,
+                "importKeyword": {
+                    "kind": 37814364,
+                    "flags": 768,
+                    "start": 0,
+                    "end": 6
+                },
                 "flags": 768,
                 "start": 6,
                 "end": 11

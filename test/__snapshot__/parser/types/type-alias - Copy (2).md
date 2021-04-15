@@ -62,7 +62,6 @@ type x = y;
                     "end": 10
                 },
                 "typeParameters": null,
-                "autofix": 0,
                 "flags": 0,
                 "start": 8,
                 "end": 10

@@ -43,46 +43,40 @@ var a : [] = [];
                                 "kind": 147,
                                 "types": [],
                                 "trailingComma": false,
+                                "multiline": false,
                                 "flags": 0,
                                 "start": 7,
-                                "end": 9
+                                "end": 10
                             },
                             "flags": 0,
                             "start": 5,
-                            "end": 9
+                            "end": 10
                         },
-                        "initializer": null,
+                        "initializer": {
+                            "kind": 119,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 14,
+                                "end": 14
+                            },
+                            "flags": 256,
+                            "start": 12,
+                            "end": 15
+                        },
                         "flags": 128,
                         "start": 3,
-                        "end": 9
+                        "end": 15
                     }
                 ],
                 "flags": 128,
                 "start": 3,
-                "end": 9
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 119,
-                "elementList": {
-                    "kind": 270,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 256,
-                "start": 12,
                 "end": 15
             },
             "flags": 128,
-            "start": 12,
+            "start": 0,
             "end": 16
         }
     ],
@@ -90,40 +84,7 @@ var a : [] = [];
     "text": "var a : [] = [];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 10,
-            "end": 12
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 16
 }
@@ -132,12 +93,12 @@ var a : [] = [];
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -68,12 +68,10 @@ class x {in: x}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 12,
                                 "end": 14
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 11,
                             "end": 14

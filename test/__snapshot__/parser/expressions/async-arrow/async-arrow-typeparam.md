@@ -60,7 +60,6 @@ async (): string => {}
                             "start": 13,
                             "end": 20
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 12,
                         "end": 20
@@ -130,7 +129,6 @@ async (): string => {}
                     "start": 44,
                     "end": 51
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 43,
                 "end": 51

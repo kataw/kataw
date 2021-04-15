@@ -65,55 +65,64 @@ var a : { (x: T): number; }
                                 "callProperties": [
                                     {
                                         "kind": 196,
-                                        "value": [
-                                            {
-                                                "kind": 149,
-                                                "ellipsisToken": null,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 768,
-                                                    "start": 11,
-                                                    "end": 12
-                                                },
-                                                "optionalToken": null,
-                                                "typeAnnotation": {
-                                                    "kind": 144,
-                                                    "id": {
+                                        "typeParameter": null,
+                                        "value": {
+                                            "kind": 208,
+                                            "functionTypeParameterList": [
+                                                {
+                                                    "kind": 149,
+                                                    "ellipsisToken": null,
+                                                    "name": {
                                                         "kind": 134299649,
-                                                        "text": "T",
-                                                        "rawText": "T",
+                                                        "text": "x",
+                                                        "rawText": "x",
                                                         "flags": 768,
+                                                        "start": 11,
+                                                        "end": 12
+                                                    },
+                                                    "optionalToken": null,
+                                                    "typeAnnotation": {
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 768,
+                                                            "start": 13,
+                                                            "end": 15
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 0,
                                                         "start": 13,
                                                         "end": 15
                                                     },
-                                                    "typeParameters": null,
-                                                    "autofix": 0,
                                                     "flags": 0,
-                                                    "start": 13,
+                                                    "start": 11,
                                                     "end": 15
-                                                },
-                                                "autofix": 0,
-                                                "flags": 0,
-                                                "start": 11,
-                                                "end": 15
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 256,
+                                            "start": 11,
+                                            "end": 15
+                                        },
                                         "staticToken": false,
-                                        "autofix": 0,
+                                        "returnType": {
+                                            "kind": 134234345,
+                                            "flags": 768,
+                                            "start": 17,
+                                            "end": 24
+                                        },
                                         "flags": 0,
                                         "start": 9,
                                         "end": 25
                                     }
                                 ],
                                 "internalSlots": [],
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 7,
                                 "end": 27
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 5,
                             "end": 27
@@ -137,16 +146,7 @@ var a : { (x: T): number; }
     "text": "var a : { (x: T): number; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 16
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 27
 }

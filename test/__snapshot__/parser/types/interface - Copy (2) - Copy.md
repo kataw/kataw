@@ -69,7 +69,14 @@ type T = { [[foo]](): X }
                         },
                         "value": {
                             "kind": 148,
-                            "parameters": [],
+                            "parameters": {
+                                "kind": 208,
+                                "functionTypeParameterList": [],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 19,
+                                "end": 19
+                            },
                             "returnType": {
                                 "kind": 144,
                                 "id": {
@@ -81,26 +88,22 @@ type T = { [[foo]](): X }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 10,
                             "end": 23
                         },
                         "optionalToken": null,
                         "staticToken": false,
-                        "autofix": 0,
                         "flags": 0,
                         "start": 10,
                         "end": 23
                     }
                 ],
-                "autofix": 0,
                 "flags": 0,
                 "start": 8,
                 "end": 25

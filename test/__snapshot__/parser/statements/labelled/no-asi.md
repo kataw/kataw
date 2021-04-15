@@ -13,9 +13,16 @@ debugger /foo/
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 171,
+            "debuggerKeyword": {
+                "kind": 37757010,
+                "flags": 768,
+                "start": 0,
+                "end": 8
+            },
             "flags": 128,
             "start": 0,
             "end": 8

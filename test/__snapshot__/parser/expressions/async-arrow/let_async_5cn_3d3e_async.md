@@ -76,14 +76,6 @@ let async
         {
             "kind": 2,
             "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 9,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 5,
             "error": "Statement expected",
             "start": 9,

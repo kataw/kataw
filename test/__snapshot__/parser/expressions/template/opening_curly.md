@@ -13,13 +13,14 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "rawText": "{",
                 "text": "{",
+                "rawText": "{",
                 "flags": 768,
                 "start": 0,
                 "end": 3

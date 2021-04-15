@@ -60,7 +60,6 @@ let {x}: string = y;
                                 "start": 6,
                                 "end": 13
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 5,
                             "end": 13
@@ -134,7 +133,6 @@ let {x}: string = y;
                                 "start": 24,
                                 "end": 31
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 23,
                             "end": 31
@@ -198,7 +196,6 @@ let {x}: string = y;
                                                 "start": 45,
                                                 "end": 51
                                             },
-                                            "autofix": 0,
                                             "flags": 0,
                                             "start": 44,
                                             "end": 51
@@ -227,7 +224,6 @@ let {x}: string = y;
                                 "start": 53,
                                 "end": 60
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 52,
                             "end": 60
@@ -307,7 +303,6 @@ let {x}: string = y;
                                 "start": 75,
                                 "end": 82
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 74,
                             "end": 82

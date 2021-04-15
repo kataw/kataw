@@ -68,12 +68,10 @@ class x {continue: x}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 18,
                                 "end": 20
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 17,
                             "end": 20

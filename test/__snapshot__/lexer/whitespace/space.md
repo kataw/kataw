@@ -14,6 +14,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [],
     "isModule": false,
     "text": "\n",

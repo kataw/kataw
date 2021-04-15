@@ -73,12 +73,10 @@ class x {static: x}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 16,
                                 "end": 18
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 15,
                             "end": 18

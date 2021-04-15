@@ -52,56 +52,25 @@ type a = ??string;
             },
             "typeParameters": null,
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 8,
-                    "end": 8
-                },
-                "typeParameters": null,
-                "flags": 0,
-                "start": 8,
-                "end": 8
-            },
-            "flags": 0,
-            "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 8,
-                    "end": 8
-                },
-                "operatorToken": {
-                    "kind": 37143,
-                    "flags": 768,
-                    "start": 8,
-                    "end": 11
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "string",
-                    "rawText": "string",
-                    "flags": 768,
-                    "start": 11,
+                "kind": 134217970,
+                "type": {
+                    "kind": 134217970,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 768,
+                        "start": 11,
+                        "end": 17
+                    },
+                    "flags": 0,
+                    "start": 10,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 0,
                 "start": 8,
                 "end": 17
             },
-            "flags": 128,
-            "start": 8,
+            "flags": 0,
+            "start": 0,
             "end": 18
         }
     ],
@@ -109,32 +78,7 @@ type a = ??string;
     "text": "type a = ??string;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 8,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 8,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 8,
-            "end": 11
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 18
 }
@@ -143,12 +87,12 @@ type a = ??string;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -175,7 +175,6 @@ x = { method(test: string) { } };
                                                     "start": 45,
                                                     "end": 52
                                                 },
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 44,
                                                 "end": 52

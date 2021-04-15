@@ -68,12 +68,10 @@ class x {throw: x}
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 15,
                                 "end": 17
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 14,
                             "end": 17

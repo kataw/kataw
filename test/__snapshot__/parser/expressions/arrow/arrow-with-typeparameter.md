@@ -39,13 +39,11 @@
                                 "end": 2
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 1,
                             "end": 2
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 0,
                     "end": 3
@@ -60,7 +58,6 @@
                         "start": 6,
                         "end": 13
                     },
-                    "autofix": 0,
                     "flags": 0,
                     "start": 5,
                     "end": 13

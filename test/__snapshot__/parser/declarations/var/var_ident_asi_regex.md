@@ -135,14 +135,6 @@ var q
         {
             "kind": 2,
             "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 5,
-            "end": 7
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 3,
             "error": "Identifier expected",
             "start": 5,

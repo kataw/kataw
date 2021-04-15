@@ -13,9 +13,16 @@ switch {}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 0,
+                "end": 6
+            },
             "expression": {
                 "kind": 220,
                 "propertyList": {

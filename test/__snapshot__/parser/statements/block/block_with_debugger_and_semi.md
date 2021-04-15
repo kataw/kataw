@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 249,
@@ -21,6 +22,12 @@
                 "statements": [
                     {
                         "kind": 171,
+                        "debuggerKeyword": {
+                            "kind": 37757010,
+                            "flags": 768,
+                            "start": 1,
+                            "end": 9
+                        },
                         "flags": 128,
                         "start": 1,
                         "end": 10

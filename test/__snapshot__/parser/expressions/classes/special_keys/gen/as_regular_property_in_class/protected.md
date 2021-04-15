@@ -68,12 +68,10 @@ class x {protected: x}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 19,
                                 "end": 21
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 18,
                             "end": 21

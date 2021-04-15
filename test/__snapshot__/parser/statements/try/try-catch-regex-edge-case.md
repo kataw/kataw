@@ -13,6 +13,7 @@ try/catch/finally/{
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 159,

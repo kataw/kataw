@@ -14,6 +14,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,8 +22,8 @@
                 "kind": 121,
                 "expression": {
                     "kind": 458761,
-                    "rawText": "\n",
                     "text": "\n",
+                    "rawText": "\n",
                     "flags": 768,
                     "start": 1,
                     "end": 4

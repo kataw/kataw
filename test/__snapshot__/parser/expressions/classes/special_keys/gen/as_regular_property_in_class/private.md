@@ -68,12 +68,10 @@ class x {private: x}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 17,
                                 "end": 19
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 16,
                             "end": 19

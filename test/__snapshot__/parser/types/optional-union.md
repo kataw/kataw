@@ -79,7 +79,6 @@ type Obj1 = {
                                                     "start": 30,
                                                     "end": 36
                                                 },
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 28,
                                                 "end": 36
@@ -104,25 +103,21 @@ type Obj1 = {
                                                             "end": 51
                                                         }
                                                     ],
-                                                    "autofix": 0,
                                                     "flags": 0,
                                                     "start": 44,
                                                     "end": 52
                                                 },
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 38,
                                                 "end": 52
                                             }
                                         ],
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 36,
                                         "end": 52
                                     },
                                     "optionalToken": null,
                                     "staticToken": false,
-                                    "autofix": 0,
                                     "flags": 0,
                                     "start": 24,
                                     "end": 52
@@ -131,14 +126,12 @@ type Obj1 = {
                             "indexers": [],
                             "callProperties": [],
                             "internalSlots": [],
-                            "autofix": 0,
                             "flags": 0,
                             "start": 22,
                             "end": 53
                         },
                         "optionalToken": null,
                         "staticToken": false,
-                        "autofix": 0,
                         "flags": 0,
                         "start": 13,
                         "end": 53
@@ -147,7 +140,6 @@ type Obj1 = {
                 "indexers": [],
                 "callProperties": [],
                 "internalSlots": [],
-                "autofix": 0,
                 "flags": 0,
                 "start": 11,
                 "end": 56

@@ -38,12 +38,10 @@
                             "end": 8
                         },
                         "typeParameters": null,
-                        "autofix": 0,
                         "flags": 0,
                         "start": 6,
                         "end": 8
                     },
-                    "autofix": 0,
                     "flags": 0,
                     "start": 4,
                     "end": 8

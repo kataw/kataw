@@ -17,9 +17,16 @@ switch (/a/i {}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 0,
+                "end": 6
+            },
             "expression": {
                 "kind": 221,
                 "text": "/a/i",
@@ -40,6 +47,12 @@ switch (/a/i {}
         },
         {
             "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 15,
+                "end": 23
+            },
             "expression": {
                 "kind": 221,
                 "text": "/a/i",
@@ -60,6 +73,12 @@ switch (/a/i {}
         },
         {
             "kind": 160,
+            "switchKeyword": {
+                "kind": 37757024,
+                "flags": 768,
+                "start": 31,
+                "end": 39
+            },
             "expression": {
                 "kind": 221,
                 "text": "/a/i",

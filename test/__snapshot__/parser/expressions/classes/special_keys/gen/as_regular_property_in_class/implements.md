@@ -68,12 +68,10 @@ class x {implements: x}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 20,
                                 "end": 22
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 19,
                             "end": 22

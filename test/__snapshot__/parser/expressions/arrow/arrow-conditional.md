@@ -61,7 +61,6 @@ a ? b : (): string => {}
                             "start": 8,
                             "end": 15
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 7,
                         "end": 15
@@ -149,7 +148,6 @@ a ? b : (): string => {}
                             "start": 43,
                             "end": 50
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 42,
                         "end": 50
@@ -232,7 +230,6 @@ a ? b : (): string => {}
                             "start": 72,
                             "end": 79
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 71,
                         "end": 79
@@ -281,7 +278,6 @@ a ? b : (): string => {}
                             "start": 93,
                             "end": 100
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 92,
                         "end": 100
@@ -334,7 +330,6 @@ a ? b : (): string => {}
                         "start": 112,
                         "end": 119
                     },
-                    "autofix": 0,
                     "flags": 0,
                     "start": 111,
                     "end": 119
@@ -413,7 +408,6 @@ a ? b : (): string => {}
                             "start": 139,
                             "end": 146
                         },
-                        "autofix": 0,
                         "flags": 0,
                         "start": 138,
                         "end": 146

@@ -53,74 +53,77 @@ type Fn2 = <A, B>(A, B) => A | B;
             "typeParameters": null,
             "type": {
                 "kind": 148,
-                "parameters": [
-                    {
-                        "kind": 149,
-                        "ellipsisToken": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 768,
-                            "start": 18,
-                            "end": 19
-                        },
-                        "optionalToken": null,
-                        "typeAnnotation": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
+                "parameters": {
+                    "kind": 208,
+                    "functionTypeParameterList": [
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 768,
+                                "start": 18,
+                                "end": 19
+                            },
+                            "optionalToken": null,
+                            "typeAnnotation": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 19,
                                 "end": 19
                             },
-                            "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
-                            "start": 19,
+                            "start": 18,
                             "end": 19
                         },
-                        "autofix": 0,
-                        "flags": 0,
-                        "start": 18,
-                        "end": 19
-                    },
-                    {
-                        "kind": 149,
-                        "ellipsisToken": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "B",
-                            "rawText": "B",
-                            "flags": 768,
-                            "start": 20,
-                            "end": 22
-                        },
-                        "optionalToken": null,
-                        "typeAnnotation": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 768,
+                                "start": 20,
+                                "end": 22
+                            },
+                            "optionalToken": null,
+                            "typeAnnotation": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 22,
+                                    "end": 22
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 22,
                                 "end": 22
                             },
-                            "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
-                            "start": 22,
+                            "start": 20,
                             "end": 22
-                        },
-                        "autofix": 0,
-                        "flags": 0,
-                        "start": 20,
-                        "end": 22
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 18,
+                    "end": 22
+                },
                 "returnType": {
                     "kind": 137,
                     "types": [
@@ -135,7 +138,6 @@ type Fn2 = <A, B>(A, B) => A | B;
                                 "end": 28
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 26,
                             "end": 28
@@ -151,13 +153,11 @@ type Fn2 = <A, B>(A, B) => A | B;
                                 "end": 32
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 30,
                             "end": 32
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 28,
                     "end": 32
@@ -176,7 +176,6 @@ type Fn2 = <A, B>(A, B) => A | B;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 12,
                             "end": 13
@@ -192,18 +191,15 @@ type Fn2 = <A, B>(A, B) => A | B;
                                 "end": 16
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 14,
                             "end": 16
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 10,
                     "end": 17
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 10,
                 "end": 32
@@ -247,14 +243,6 @@ type Fn2 = <A, B>(A, B) => A | B;
             "source": 2,
             "code": 3,
             "error": "Identifier expected",
-            "start": 22,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
             "start": 22,
             "end": 23
         }

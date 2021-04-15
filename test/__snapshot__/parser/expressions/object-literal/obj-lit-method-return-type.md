@@ -72,7 +72,6 @@ x = { method(test: string): number { } };
                                                     "start": 18,
                                                     "end": 25
                                                 },
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 17,
                                                 "end": 25
@@ -96,7 +95,6 @@ x = { method(test: string): number { } };
                                         "start": 27,
                                         "end": 34
                                     },
-                                    "autofix": 0,
                                     "flags": 0,
                                     "start": 26,
                                     "end": 34

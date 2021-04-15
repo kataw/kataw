@@ -68,12 +68,10 @@ class x {try: x}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 13,
                                 "end": 15
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 12,
                             "end": 15
