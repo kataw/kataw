@@ -25,6 +25,8 @@ type Foo<T> = Bar<T>
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -39,6 +41,7 @@ type Foo<T> = Bar<T>
                 "start": 4,
                 "end": 8
             },
+            "opaqueType": null,
             "typeParameters": {
                 "kind": 146,
                 "types": [
@@ -99,7 +102,7 @@ type Foo<T> = Bar<T>
                 "start": 13,
                 "end": 20
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 20
         }

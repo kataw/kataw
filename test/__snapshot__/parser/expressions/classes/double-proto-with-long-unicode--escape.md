@@ -17,6 +17,7 @@ class x { "construct\u{6f}r"(){} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

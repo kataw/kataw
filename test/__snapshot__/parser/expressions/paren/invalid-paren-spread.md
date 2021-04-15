@@ -706,10 +706,26 @@
         {
             "kind": 2,
             "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 7,
+            "end": 8
+        },
+        {
+            "kind": 2,
+            "source": 2,
             "code": 18,
             "error": "A rest element cannot have an initializer",
             "start": 16,
             "end": 17
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 30,
+            "end": 31
         },
         {
             "kind": 2,
@@ -734,6 +750,14 @@
             "error": "Identifier expected",
             "start": 42,
             "end": 43
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 53,
+            "end": 54
         },
         {
             "kind": 2,
@@ -782,6 +806,14 @@
             "error": "Statement expected",
             "start": 55,
             "end": 56
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 65,
+            "end": 66
         },
         {
             "kind": 2,
@@ -854,6 +886,14 @@
             "error": "Identifier expected",
             "start": 73,
             "end": 74
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 83,
+            "end": 84
         },
         {
             "kind": 2,
@@ -942,6 +982,14 @@
             "error": "A rest element cannot have an initializer",
             "start": 103,
             "end": 104
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 19,
+            "error": "A rest parameter must be last in a parameter list",
+            "start": 117,
+            "end": 118
         },
         {
             "kind": 2,

@@ -36,6 +36,7 @@ let x = { foo(){ super(); } };
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -111,6 +112,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -214,6 +216,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -312,6 +315,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -418,6 +422,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -550,6 +555,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -649,6 +655,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -758,6 +765,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -885,6 +893,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -937,6 +946,7 @@ let x = { foo(){ super(); } };
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,
@@ -1040,6 +1050,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1092,6 +1103,7 @@ let x = { foo(){ super(); } };
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,
@@ -1222,6 +1234,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1274,6 +1287,7 @@ let x = { foo(){ super(); } };
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,
@@ -1407,6 +1421,7 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1459,6 +1474,7 @@ let x = { foo(){ super(); } };
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,

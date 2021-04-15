@@ -36,6 +36,7 @@ opaque type ID = number;
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
             "opaqueToken": {
                 "kind": 16630,
                 "flags": 768,
@@ -64,7 +65,7 @@ opaque type ID = number;
                 "start": 16,
                 "end": 23
             },
-            "flags": 0,
+            "flags": 128,
             "start": 6,
             "end": 24
         }

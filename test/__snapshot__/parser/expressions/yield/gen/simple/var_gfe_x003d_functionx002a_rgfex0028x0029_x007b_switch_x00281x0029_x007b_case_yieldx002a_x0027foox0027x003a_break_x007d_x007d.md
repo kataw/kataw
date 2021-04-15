@@ -21,6 +21,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

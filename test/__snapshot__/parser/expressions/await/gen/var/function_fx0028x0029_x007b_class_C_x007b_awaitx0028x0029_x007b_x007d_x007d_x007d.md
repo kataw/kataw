@@ -21,6 +21,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -58,6 +59,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -145,6 +147,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                         "statements": [
                                                             {
                                                                 "kind": 178,
+                                                                "declareKeyword": null,
                                                                 "decorators": null,
                                                                 "classKeyword": {
                                                                     "kind": 37814352,

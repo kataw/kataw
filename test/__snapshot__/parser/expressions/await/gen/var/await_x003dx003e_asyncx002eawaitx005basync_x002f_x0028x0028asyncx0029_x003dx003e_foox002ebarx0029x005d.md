@@ -21,6 +21,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -58,6 +59,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

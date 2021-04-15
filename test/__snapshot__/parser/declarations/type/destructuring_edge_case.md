@@ -25,6 +25,7 @@ var {[2]: y} = {2:3}
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

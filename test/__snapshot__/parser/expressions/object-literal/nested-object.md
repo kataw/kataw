@@ -17,6 +17,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

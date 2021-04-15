@@ -21,6 +21,7 @@ class x {async * var(){}}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

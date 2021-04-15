@@ -21,6 +21,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

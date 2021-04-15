@@ -18,6 +18,7 @@ class x {}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": {
                 "kind": 207,
                 "decoratorList": [

@@ -36,6 +36,7 @@ var a : { (x: T): number; }
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

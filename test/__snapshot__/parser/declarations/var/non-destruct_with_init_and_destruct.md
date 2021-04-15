@@ -36,6 +36,7 @@ var foo = arr, [bar] = arr2;
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

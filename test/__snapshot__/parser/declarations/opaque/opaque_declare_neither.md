@@ -16,7 +16,22 @@ declare opaque type Foo
     "directives": [],
     "statements": [
         {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "declare",
+                "rawText": "declare",
+                "flags": 768,
+                "start": 0,
+                "end": 7
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 7
+        },
+        {
             "kind": 200,
+            "declareToken": null,
             "opaqueToken": {
                 "kind": 16630,
                 "flags": 768,
@@ -40,7 +55,7 @@ declare opaque type Foo
             "opaqueType": null,
             "typeParameters": null,
             "type": null,
-            "flags": 32768,
+            "flags": 128,
             "start": 14,
             "end": 23
         }
@@ -49,7 +64,24 @@ declare opaque type Foo
     "text": "declare opaque type Foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 7,
+            "end": 14
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 94,
+            "error": "Missing initializer in type alias declaration",
+            "start": 23,
+            "end": 23
+        }
+    ],
     "start": 0,
     "end": 23
 }

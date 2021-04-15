@@ -62,6 +62,7 @@ x {}
                     "statements": [
                         {
                             "kind": 178,
+                            "declareKeyword": null,
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37814352,

@@ -21,6 +21,7 @@ class A extends oh,no {}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

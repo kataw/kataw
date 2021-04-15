@@ -57,6 +57,7 @@ if else class x {}
             },
             "alternate": {
                 "kind": 178,
+                "declareKeyword": null,
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37814352,

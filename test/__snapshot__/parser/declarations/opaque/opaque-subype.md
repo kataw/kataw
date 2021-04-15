@@ -17,6 +17,7 @@ opaque type Counter: Box<T> = Container<T>;
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
             "opaqueToken": {
                 "kind": 16630,
                 "flags": 768,
@@ -118,7 +119,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "start": 29,
                 "end": 42
             },
-            "flags": 0,
+            "flags": 128,
             "start": 6,
             "end": 43
         }

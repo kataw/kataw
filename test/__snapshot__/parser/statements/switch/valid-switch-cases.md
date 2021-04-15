@@ -3563,6 +3563,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 155,
+                                "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 768,
@@ -3609,6 +3610,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 155,
+                                "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 768,
@@ -3696,6 +3698,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 155,
+                                "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 768,
@@ -3742,6 +3745,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 155,
+                                "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 768,
@@ -4073,6 +4077,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,
@@ -4274,6 +4279,7 @@ switch (answer) { case 0: let a; };
                             },
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,
@@ -4382,6 +4388,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,
@@ -4543,6 +4550,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,
@@ -4718,6 +4726,7 @@ switch (answer) { case 0: let a; };
                             },
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,
@@ -4826,6 +4835,7 @@ switch (answer) { case 0: let a; };
                         "statements": [
                             {
                                 "kind": 178,
+                                "declareKeyword": null,
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37814352,

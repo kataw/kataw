@@ -39,6 +39,7 @@ var p10 = ([{ value, done }]) => { };
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -144,6 +145,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -277,6 +279,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -372,6 +375,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -469,6 +473,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -517,6 +522,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -604,6 +610,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -693,6 +700,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -772,6 +780,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -863,6 +872,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -960,6 +970,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1057,6 +1068,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1160,6 +1172,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1271,6 +1284,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1363,6 +1377,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1485,6 +1500,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -1591,6 +1607,7 @@ var p10 = ([{ value, done }]) => { };
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

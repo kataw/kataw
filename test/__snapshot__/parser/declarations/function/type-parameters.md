@@ -397,6 +397,8 @@ type T = <
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -411,6 +413,7 @@ type T = <
                 "start": 188,
                 "end": 190
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 148,
@@ -471,7 +474,7 @@ type T = <
                 "start": 192,
                 "end": 220
             },
-            "flags": 0,
+            "flags": 128,
             "start": 182,
             "end": 221
         },
@@ -813,6 +816,8 @@ type T = <
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -827,6 +832,7 @@ type T = <
                 "start": 427,
                 "end": 429
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 148,
@@ -887,7 +893,7 @@ type T = <
                 "start": 431,
                 "end": 462
             },
-            "flags": 0,
+            "flags": 128,
             "start": 421,
             "end": 463
         }

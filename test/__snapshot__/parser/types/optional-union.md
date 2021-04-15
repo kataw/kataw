@@ -27,6 +27,8 @@ type Obj1 = {
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -41,6 +43,7 @@ type Obj1 = {
                 "start": 4,
                 "end": 9
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134217969,
@@ -144,7 +147,7 @@ type Obj1 = {
                 "start": 11,
                 "end": 56
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 57
         }

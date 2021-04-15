@@ -21,6 +21,7 @@ class x {static async * interface(){}}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

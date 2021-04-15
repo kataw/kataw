@@ -91,6 +91,7 @@ switch [catch] class x {}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

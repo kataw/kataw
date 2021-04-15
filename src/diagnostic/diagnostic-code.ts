@@ -93,7 +93,8 @@ export const enum DiagnosticCode {
   Coalescing_and_logical_operators_used_together_in_the_same_expression_must_be_disambiguated_with_parentheses = 91,
   Unicode_codepoint_must_not_be_greater_than_0x10FFFF = 92,
   Invalid_astral_character = 93,
-  Missing_initializer_in_type_alias_declaration = 94
+  Missing_initializer_in_type_alias_declaration = 94,
+  The_this_parameter_cannot_be_optional = 95
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -188,5 +189,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [91]: 'Coalescing and logical operators used together in the same expression must be disambiguated with parentheses',
   [92]: 'Unicode codepoint must not be greater than 0x10FFFF',
   [93]: 'Invalid astral character',
-  [94]: 'Missing initializer in type alias declaration'
+  [94]: 'Missing initializer in type alias declaration',
+  [95]: 'The `this` parameter cannot be optional'
 };

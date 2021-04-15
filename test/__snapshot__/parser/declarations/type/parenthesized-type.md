@@ -25,6 +25,8 @@ type Foo = (string | number)
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -39,6 +41,7 @@ type Foo = (string | number)
                 "start": 4,
                 "end": 8
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 137,
@@ -60,7 +63,7 @@ type Foo = (string | number)
                 "start": 18,
                 "end": 27
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 28
         }

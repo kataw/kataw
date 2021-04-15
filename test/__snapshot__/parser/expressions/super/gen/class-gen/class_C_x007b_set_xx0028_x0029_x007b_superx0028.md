@@ -21,6 +21,7 @@ class C { *method() { class C { set x(_) { super( } }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -93,6 +94,7 @@ class C { *method() { class C { set x(_) { super( } }
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,

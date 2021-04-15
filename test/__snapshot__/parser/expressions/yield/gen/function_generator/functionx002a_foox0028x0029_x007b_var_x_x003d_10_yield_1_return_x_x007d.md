@@ -127,6 +127,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                     "statements": [
                                                         {
                                                             "kind": 155,
+                                                            "declareKeyword": null,
                                                             "varKeyword": {
                                                                 "kind": 37757002,
                                                                 "flags": 768,

@@ -21,6 +21,7 @@ class C { set #await(test) {} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

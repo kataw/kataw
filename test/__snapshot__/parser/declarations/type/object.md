@@ -17,6 +17,8 @@ type T = { [[foo]]: X }
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -31,6 +33,7 @@ type T = { [[foo]]: X }
                 "start": 4,
                 "end": 6
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 134217969,
@@ -74,7 +77,7 @@ type T = { [[foo]]: X }
                 "start": 8,
                 "end": 23
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 23
         }

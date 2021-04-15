@@ -17,6 +17,7 @@ var asserted1 = <any>((n) => { return n; });
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

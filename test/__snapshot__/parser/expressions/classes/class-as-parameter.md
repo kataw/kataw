@@ -31,6 +31,7 @@ class A {
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -302,6 +303,7 @@ class A {
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -332,6 +334,7 @@ class A {
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": {
                 "kind": 207,
                 "decoratorList": [

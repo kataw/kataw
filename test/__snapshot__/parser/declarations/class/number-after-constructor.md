@@ -36,6 +36,7 @@ class x{ constructor(){} 9(){} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

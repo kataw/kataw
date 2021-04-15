@@ -23,6 +23,7 @@ class x { "prot\u{6f}type"(){} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

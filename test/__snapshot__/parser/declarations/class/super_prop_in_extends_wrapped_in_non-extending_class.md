@@ -36,6 +36,7 @@ class a { foo(){      class x extends super.foo {}    }}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -88,6 +89,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                     "statements": [
                                         {
                                             "kind": 178,
+                                            "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37814352,

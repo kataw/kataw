@@ -17,6 +17,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

@@ -17,6 +17,7 @@ class x { async *prot\u006ftype(){} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

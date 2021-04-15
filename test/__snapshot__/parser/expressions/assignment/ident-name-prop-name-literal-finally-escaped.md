@@ -17,6 +17,7 @@ var y = { \u0066inally: x } = { finally: 42 };
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

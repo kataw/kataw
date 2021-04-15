@@ -19,6 +19,7 @@ import { QualifiedType } from './qualified-type';
 import { TypeAlias } from './type-alias-declaration';
 import { TypeofType } from './typeof-type';
 import { FunctionTypeParameterList } from './function-type-parameter-list';
+import { BooleanType } from './boolean-type';
 
 /**
  * The set of all syntax items which are types.
@@ -33,6 +34,7 @@ export type TypeNode =
   | ObjectTypeSpreadProperty
   | QualifiedType
   | TypeAlias
+  | BooleanType
   | IntersectionType
   | ArrayType
   | UnionType

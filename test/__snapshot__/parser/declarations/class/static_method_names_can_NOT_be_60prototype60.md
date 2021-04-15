@@ -42,6 +42,7 @@ class x { static async *prototype(){} }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -125,6 +126,7 @@ class x { static async *prototype(){} }
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -208,6 +210,7 @@ class x { static async *prototype(){} }
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -291,6 +294,7 @@ class x { static async *prototype(){} }
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

@@ -48,6 +48,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -98,6 +99,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -196,6 +198,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -327,6 +330,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -439,6 +443,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -551,6 +556,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -800,6 +806,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -911,6 +918,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1022,6 +1030,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1383,6 +1392,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1565,6 +1575,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1718,6 +1729,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -1852,6 +1864,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         },
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

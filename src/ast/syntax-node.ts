@@ -388,7 +388,8 @@ export const enum SyntaxKind {
   OptionalExpression = 205,
   OptionalChain = 206,
   DecoratorList = 207,
-  FunctionTypeParameterList = 208
+  FunctionTypeParameterList = 208,
+  BooleanType = 209
 }
 
 export const enum AutoFix {

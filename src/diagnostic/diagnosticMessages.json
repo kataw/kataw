@@ -90,7 +90,7 @@
   "Coalescing and logical operators used together in the same expression must be disambiguated with parentheses": 91,
   "Unicode codepoint must not be greater than 0x10FFFF": 92,
   "Invalid astral character": 93,
-  "Missing initializer in type alias declaration": 94
-
+  "Missing initializer in type alias declaration": 94,
+  "The `this` parameter cannot be optional": 95
 
 }

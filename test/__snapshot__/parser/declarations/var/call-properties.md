@@ -19,6 +19,7 @@ var a : { <T>(x: T): number; }
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
@@ -94,6 +95,7 @@ var a : { <T>(x: T): number; }
         },
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,

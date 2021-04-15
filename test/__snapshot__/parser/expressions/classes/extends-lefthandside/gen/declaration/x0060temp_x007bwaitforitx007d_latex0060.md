@@ -21,6 +21,7 @@ class A extends `temp {waitforit} late` {}
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,

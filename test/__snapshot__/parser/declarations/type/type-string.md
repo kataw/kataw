@@ -37,6 +37,7 @@ type T1 = number;
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
@@ -60,12 +61,13 @@ type T1 = number;
                 "start": 9,
                 "end": 16
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 17
         },
         {
             "kind": 200,
+            "declareToken": null,
             "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
@@ -89,7 +91,7 @@ type T1 = number;
                 "start": 27,
                 "end": 34
             },
-            "flags": 0,
+            "flags": 128,
             "start": 17,
             "end": 35
         }

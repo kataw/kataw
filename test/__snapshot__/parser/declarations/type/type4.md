@@ -60,6 +60,8 @@ type T27 = ArgumentType<never>;  // any
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -74,6 +76,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 4,
                 "end": 8
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -118,12 +121,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 10,
                 "end": 35
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 36
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -138,6 +143,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 52,
                 "end": 56
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -198,12 +204,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 58,
                 "end": 90
             },
-            "flags": 0,
+            "flags": 128,
             "start": 36,
             "end": 91
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -218,6 +226,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 105,
                 "end": 109
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -293,12 +302,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 111,
                 "end": 136
             },
-            "flags": 0,
+            "flags": 128,
             "start": 91,
             "end": 137
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -313,6 +324,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 233,
                 "end": 237
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -357,12 +369,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 239,
                 "end": 261
             },
-            "flags": 0,
+            "flags": 128,
             "start": 137,
             "end": 262
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -377,6 +391,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 297,
                 "end": 301
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -421,12 +436,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 303,
                 "end": 324
             },
-            "flags": 0,
+            "flags": 128,
             "start": 262,
             "end": 325
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -441,6 +458,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 336,
                 "end": 340
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -470,12 +488,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 342,
                 "end": 358
             },
-            "flags": 0,
+            "flags": 128,
             "start": 325,
             "end": 359
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -490,6 +510,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 373,
                 "end": 377
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -519,12 +540,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 379,
                 "end": 397
             },
-            "flags": 0,
+            "flags": 128,
             "start": 359,
             "end": 398
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -539,6 +562,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 411,
                 "end": 415
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -568,12 +592,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 417,
                 "end": 436
             },
-            "flags": 0,
+            "flags": 128,
             "start": 398,
             "end": 437
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -588,6 +614,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 452,
                 "end": 456
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -626,12 +653,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 458,
                 "end": 479
             },
-            "flags": 0,
+            "flags": 128,
             "start": 437,
             "end": 480
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -646,6 +675,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 494,
                 "end": 498
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -690,12 +720,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 500,
                 "end": 525
             },
-            "flags": 0,
+            "flags": 128,
             "start": 480,
             "end": 526
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -710,6 +742,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 541,
                 "end": 545
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -770,12 +803,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 547,
                 "end": 583
             },
-            "flags": 0,
+            "flags": 128,
             "start": 526,
             "end": 584
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -790,6 +825,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 600,
                 "end": 604
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -855,12 +891,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 606,
                 "end": 643
             },
-            "flags": 0,
+            "flags": 128,
             "start": 584,
             "end": 644
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -875,6 +913,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 672,
                 "end": 676
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -953,12 +992,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 678,
                 "end": 722
             },
-            "flags": 0,
+            "flags": 128,
             "start": 644,
             "end": 723
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -973,6 +1014,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 810,
                 "end": 814
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -1011,12 +1053,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 816,
                 "end": 839
             },
-            "flags": 0,
+            "flags": 128,
             "start": 723,
             "end": 840
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -1031,6 +1075,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 855,
                 "end": 859
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -1060,12 +1105,14 @@ type T27 = ArgumentType<never>;  // any
                 "start": 861,
                 "end": 879
             },
-            "flags": 0,
+            "flags": 128,
             "start": 840,
             "end": 880
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -1080,6 +1127,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 893,
                 "end": 897
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -1109,7 +1157,7 @@ type T27 = ArgumentType<never>;  // any
                 "start": 899,
                 "end": 919
             },
-            "flags": 0,
+            "flags": 128,
             "start": 880,
             "end": 920
         }

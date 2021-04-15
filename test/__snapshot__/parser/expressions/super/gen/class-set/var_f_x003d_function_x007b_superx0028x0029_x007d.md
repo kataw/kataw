@@ -21,6 +21,7 @@ class C { set x(_) { var f = function { super(); } } }
     "statements": [
         {
             "kind": 178,
+            "declareKeyword": null,
             "decorators": null,
             "classKeyword": {
                 "kind": 37814352,
@@ -92,6 +93,7 @@ class C { set x(_) { var f = function { super(); } } }
                                     "statements": [
                                         {
                                             "kind": 155,
+                                            "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
                                                 "flags": 768,

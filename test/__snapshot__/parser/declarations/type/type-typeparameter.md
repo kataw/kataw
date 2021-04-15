@@ -44,6 +44,8 @@ type B = Foo<
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -58,6 +60,7 @@ type B = Foo<
                 "start": 4,
                 "end": 6
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 144,
@@ -157,12 +160,14 @@ type B = Foo<
                 "start": 8,
                 "end": 47
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 48
         },
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -177,6 +182,7 @@ type B = Foo<
                 "start": 54,
                 "end": 56
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 138,
@@ -275,7 +281,7 @@ type B = Foo<
                 "start": 63,
                 "end": 95
             },
-            "flags": 0,
+            "flags": 128,
             "start": 48,
             "end": 95
         },

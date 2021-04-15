@@ -36,6 +36,8 @@ type Fn2 = <A, B>(A, B) => A | B;
     "statements": [
         {
             "kind": 200,
+            "declareToken": null,
+            "opaqueToken": null,
             "typeToken": {
                 "kind": 16583,
                 "flags": 768,
@@ -50,6 +52,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "start": 4,
                 "end": 8
             },
+            "opaqueType": null,
             "typeParameters": null,
             "type": {
                 "kind": 148,
@@ -204,7 +207,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "start": 10,
                 "end": 32
             },
-            "flags": 0,
+            "flags": 128,
             "start": 0,
             "end": 33
         }

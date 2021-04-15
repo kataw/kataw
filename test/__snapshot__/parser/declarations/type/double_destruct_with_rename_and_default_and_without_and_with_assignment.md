@@ -36,6 +36,7 @@ var {x:y=z}, {a:b=c} = obj;
     "statements": [
         {
             "kind": 155,
+            "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 768,
