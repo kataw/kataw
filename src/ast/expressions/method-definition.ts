@@ -7,7 +7,7 @@ import { ComputedPropertyName } from './computed-property-name';
 import { Identifier } from './identifier-expr';
 import { StringLiteral } from './string-literal';
 import { NumericLiteral } from './numeric-literal';
-import { BigIntLiteral } from './bigint-literal';
+import { BigIntLiteral } from './big-int-literal';
 import { PrivateIdentifier } from './private-identifier';
 
 /**

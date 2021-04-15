@@ -4,7 +4,7 @@ import { AssignmentExpression } from './assignment-expr';
 import { BindingElement } from './binding-element';
 import { Identifier } from './identifier-expr';
 import { NumericLiteral } from './numeric-literal';
-import { BigIntLiteral } from './bigint-literal';
+import { BigIntLiteral } from './big-int-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
 

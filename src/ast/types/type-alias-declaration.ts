@@ -5,15 +5,19 @@ import { TypeNode } from '.';
 import { TypeParameter } from './type-parameter';
 
 export interface TypeAlias extends SyntaxNode {
+  readonly opaqueToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly typeToken: SyntaxToken<TokenSyntaxKind>;
   readonly name: Identifier;
+  readonly opaqueType: TypeNode | null;
   readonly typeParameters: TypeParameter | null;
   readonly type: TypeNode;
 }
 
 export function createTypeAlias(
+  opaqueToken: SyntaxToken<TokenSyntaxKind> | null,
   typeToken: SyntaxToken<TokenSyntaxKind>,
   name: Identifier,
+  opaqueType: TypeNode | null,
   typeParameters: TypeParameter | null,
   type: TypeNode,
   start: number,
@@ -21,8 +25,10 @@ export function createTypeAlias(
 ): TypeAlias {
   return {
     kind: SyntaxKind.TypeAlias,
+    opaqueToken,
     typeToken,
     name,
+    opaqueType,
     typeParameters,
     type,
     flags: NodeFlags.None,

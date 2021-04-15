@@ -104,7 +104,7 @@ import { createNumericLiteral, NumericLiteral } from './ast/expressions/numeric-
 import { createNullLiteral, NullLiteral } from './ast/expressions/null-literal';
 import { createStringLiteral, StringLiteral } from './ast/expressions/string-literal';
 import { createBooleanLiteral, BooleanLiteral } from './ast/expressions/boolean-literal';
-import { createBigIntLiteral, BigIntLiteral } from './ast/expressions/bigint-literal';
+import { createBigIntLiteral, BigIntLiteral } from './ast/expressions/big-int-literal';
 import { createThisExpression, ThisExpression } from './ast/expressions/this-expr';
 import { createConditionalExpression } from './ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from './ast/expressions/binary-expr';
@@ -273,7 +273,9 @@ function parseStatementListItem(parser: ParserState, context: Context): Statemen
     case SyntaxKind.LetKeyword:
       return parseLetAsIdentifierOrLexicalDeclaration(parser, context);
     case SyntaxKind.TypeKeyword:
-      return parseTypeAsIdentifierOrTypeAlias(parser, context);
+      return parseTypeAsIdentifierOrTypeAlias(parser, context, /* opaqueToken */ null, /* isDeclared */ false);
+    case SyntaxKind.OpaqueKeyword:
+      return parseOpaqueType(parser, context, /* declared */ false);
     case SyntaxKind.DeclareKeyword:
       return parseDeclareAsIdentifierOrDeclareStatement(parser, context);
     case SyntaxKind.ImportKeyword:
@@ -4264,24 +4266,32 @@ function parseVariableDeclaration(parser: ParserState, context: Context, inForSt
 function parseDeclareAsIdentifierOrDeclareStatement(
   parser: ParserState,
   context: Context
-): TypeAlias | LabelledStatement | ExpressionStatement {
+): TypeAlias | LabelledStatement | ExpressionStatement | StatementNode {
   const pos = parser.curPos;
   const expr = parseIdentifier(parser, context);
-  let x: any;
+  let node!: StatementNode | ExpressionNode;
   switch (parser.token) {
+    case SyntaxKind.OpaqueKeyword:
+      node = parseOpaqueType(parser, context, /* declared */ true);
+      if (node.kind === SyntaxKind.TypeAlias) node.flags |= NodeFlags.Declared;
+      return node;
+    case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
-      x = parseFunctionDeclaration(parser, context, /* disallowGen*/ false);
-      x.nodeFlags |= NodeFlags.Declared;
-      return x;
+      node = parseFunctionDeclaration(parser, context, /* disallowGen*/ false);
+      node.flags |= NodeFlags.Declared;
+      return node;
     case SyntaxKind.VarKeyword:
-      x = parseVariableStatement(parser, context);
-      x.nodeFlags |= NodeFlags.Declared;
-      return x;
+      node = parseVariableStatement(parser, context);
+      node.flags |= NodeFlags.Declared;
+      return node;
     case SyntaxKind.TypeKeyword:
-      x = parseTypeAsIdentifierOrTypeAlias(parser, context);
-      x.nodeFlags |= NodeFlags.Declared;
-      return x;
+      node = parseTypeAsIdentifierOrTypeAlias(parser, context, /* opaqueToken */ null, /* declared */ false);
+      node.flags |= NodeFlags.Declared;
+      return node;
     case SyntaxKind.ClassKeyword:
+      node = parseClassDeclaration(parser, context);
+      node.flags |= NodeFlags.Declared;
+      return node;
     case SyntaxKind.ExportKeyword:
     case SyntaxKind.OpaqueKeyword:
     default:
@@ -4306,22 +4316,38 @@ function parseDeclareAsIdentifierOrDeclareStatement(
 
 function parseTypeAsIdentifierOrTypeAlias(
   parser: ParserState,
-  context: Context
+  context: Context,
+  opaqueToken: SyntaxToken<TokenSyntaxKind> | null,
+  isDeclared: boolean
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let expr = parseIdentifier(parser, context);
-  //  type x = y<() => string>;
   if (parser.token & SyntaxKind.IsIdentifier) {
     expr = parseIdentifier(parser, context);
+    const opaqueType = opaqueToken ? parseTypeAnnotation(parser, context) : null;
     const typeParameters = parseTypeParameters(parser, context);
-    consume(parser, context | Context.InTypes, SyntaxKind.Assign);
-    const type = parseType(parser, context);
+    let type = null;
+    if (consumeOpt(parser, context | Context.InTypes, SyntaxKind.Assign)) {
+      type = parseType(parser, context);
+    } else if (!isDeclared) {
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode.Missing_initializer_in_type_alias_declaration,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
+
     parseSemicolon(parser, context);
     return createTypeAlias(
-      createToken(SyntaxKind.TypeKeyword, pos, expr.end),
+      opaqueToken,
+      createToken(SyntaxKind.TypeKeyword, opaqueToken ? opaqueToken.start : pos, expr.end),
       expr as Identifier,
+      opaqueType,
       typeParameters,
-      type,
+      type as any,
       pos,
       parser.curPos
     );
@@ -5634,4 +5660,33 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     start,
     parser.curPos
   );
+}
+
+function parseOpaqueType(parser: ParserState, context: Context, declared: boolean) {
+  const pos = parser.curPos;
+  let expr = parseIdentifier(parser, context);
+  if (parser.token === SyntaxKind.TypeKeyword) {
+    return parseTypeAsIdentifierOrTypeAlias(
+      parser,
+      context,
+      createToken(SyntaxKind.OpaqueKeyword, pos, parser.curPos),
+      declared
+    );
+  }
+  parser.assignable = true;
+  if (parser.token === SyntaxKind.Colon) {
+    return parseLabelledStatement(parser, context, expr as Identifier, /* allowFunction */ true, pos);
+  }
+  if (parser.token === SyntaxKind.Arrow) {
+    return parseArrowFunction(
+      parser,
+      context,
+      /*typeParameters */ null,
+      /* returnType */ null,
+      /* params */ expr,
+      /* asyncToken */ null,
+      pos
+    );
+  }
+  return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, pos), pos);
 }

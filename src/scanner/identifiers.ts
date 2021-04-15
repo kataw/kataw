@@ -89,10 +89,11 @@ export const descKeywordTable: { [key: string]: SyntaxKind | null } = {
   unknown: SyntaxKind.UnknownKeyword,
   object: SyntaxKind.ObjectKeyword,
   //bigint: SyntaxKind.BigIntKeyword,
-  undefined: SyntaxKind.UndefinedKeyword
+  undefined: SyntaxKind.UndefinedKeyword,
   //abstract: SyntaxKind.AbstractKeyword,
   //require: SyntaxKind.RequireKeyword,
   //namespace: SyntaxKind.NamespaceKeyword }
+  opaque: SyntaxKind.OpaqueKeyword
 };
 
 // Scan identifer and keyword and do a lookup for keywords

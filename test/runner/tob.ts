@@ -117,9 +117,7 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${
-    Constants.JavascriptEnd
-  }
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
 ### Printed
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ### Diagnostics

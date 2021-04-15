@@ -9,7 +9,7 @@ import { UnaryExpression } from './unary-expr';
 import { PostfixUpdateExpression } from './postfix-update-expr';
 import { PrefixUpdateExpression } from './prefix-update-expr';
 import { CommaOperator } from './comma-operator';
-import { BigIntLiteral } from './bigint-literal';
+import { BigIntLiteral } from './big-int-literal';
 import { BooleanLiteral } from './boolean-literal';
 import { NullLiteral } from './null-literal';
 import { NumericLiteral } from './numeric-literal';
