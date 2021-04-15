@@ -13,6 +13,7 @@ function *f(){   s = {"foo": yield}   }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -30,7 +31,7 @@ function *f(){   s = {"foo": yield}   }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -56,7 +57,7 @@ function *f(){   s = {"foo": yield}   }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 768,
@@ -92,7 +93,7 @@ function *f(){   s = {"foo": yield}   }
                                                     "end": 34
                                                 },
                                                 "right": {
-                                                    "kind": 67174403,
+                                                    "kind": 201392131,
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 768,

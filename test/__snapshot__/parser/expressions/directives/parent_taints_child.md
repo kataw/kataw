@@ -26,7 +26,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -47,7 +47,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 768,
@@ -59,7 +59,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 768,
@@ -81,7 +81,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,
@@ -111,7 +111,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                 "end": 52
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -121,7 +121,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                             "statement": {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,

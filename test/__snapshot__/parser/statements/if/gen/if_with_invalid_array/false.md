@@ -171,32 +171,12 @@ if [else] false
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: if with invalid array
-> :: case: false
-## Input
-
-`````js
-if [else] false
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: if with invalid array
-> :: case: false
-## Input
 
-`````js
-if [else] false
-`````
 ```
 

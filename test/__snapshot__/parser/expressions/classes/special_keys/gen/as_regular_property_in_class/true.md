@@ -29,7 +29,7 @@ class x {true: x}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -40,64 +40,81 @@ class x {true: x}
             "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 81921,
-                            "text": "true",
-                            "rawText": "true",
-                            "flags": 768,
-                            "start": 9,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 81921,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
-                                    "start": 14,
-                                    "end": 16
-                                },
-                                "typeParameters": null,
-                                "autofix": 0,
-                                "flags": 0,
-                                "start": 14,
-                                "end": 16
-                            },
-                            "autofix": 0,
-                            "flags": 0,
-                            "start": 13,
-                            "end": 16
-                        },
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 16
-                    }
-                ],
+                "elements": [],
                 "flags": 256,
                 "start": 9,
-                "end": 17
+                "end": 9
             },
             "flags": 128,
             "start": 0,
-            "end": 17
+            "end": 9
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134,
+                "text": true,
+                "flags": 768,
+                "start": 9,
+                "end": 13
+            },
+            "flags": 128,
+            "start": 9,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 14,
+                "end": 16
+            },
+            "flags": 128,
+            "start": 14,
+            "end": 16
         }
     ],
     "isModule": false,
     "text": "class x {true: x}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 9,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 14
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 13,
+            "end": 14
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 16,
+            "end": 17
+        }
+    ],
     "start": 0,
     "end": 17
 }
@@ -106,32 +123,12 @@ class x {true: x}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as regular property in class
-> :: case: true
-## Input
-
-`````js
-class x {true: x}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as regular property in class
-> :: case: true
-## Input
 
-`````js
-class x {true: x}
-`````
 ```
 

@@ -29,7 +29,7 @@ wrap({0o4432(){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -47,7 +47,7 @@ wrap({0o4432(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -113,7 +113,7 @@ wrap({0o4432(){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -131,7 +131,7 @@ wrap({0o4432(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -197,7 +197,7 @@ wrap({0o4432(){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -215,7 +215,7 @@ wrap({0o4432(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 2310709,
                                             "rawText": "0x234235",
                                             "flags": 16777984,
@@ -281,7 +281,7 @@ wrap({0o4432(){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -299,7 +299,7 @@ wrap({0o4432(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 10,
                                             "rawText": "0b01010",
                                             "flags": 8389376,
@@ -365,7 +365,7 @@ wrap({0o4432(){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -383,7 +383,7 @@ wrap({0o4432(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 2330,
                                             "rawText": "0o4432",
                                             "flags": 4195072,

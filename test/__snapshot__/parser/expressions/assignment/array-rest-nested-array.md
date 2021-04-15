@@ -19,13 +19,14 @@ result = [...[x]] = vals;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
                     "flags": 768,
@@ -53,7 +54,7 @@ result = [...[x]] = vals;
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -91,7 +92,7 @@ result = [...[x]] = vals;
                         "end": 19
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 768,

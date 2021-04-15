@@ -28,13 +28,13 @@ typeof a > b instanceof c
                     "left": {
                         "kind": 126,
                         "operandToken": {
-                            "kind": 4259885,
+                            "kind": 138477613,
                             "flags": 768,
                             "start": 0,
                             "end": 6
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -52,7 +52,7 @@ typeof a > b instanceof c
                         "end": 10
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -70,7 +70,7 @@ typeof a > b instanceof c
                     "end": 23
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
                     "flags": 768,
@@ -99,32 +99,12 @@ typeof a > b instanceof c
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: typeof arg
-> :: case: a > b instanceof c
-## Input
-
-`````js
-typeof a > b instanceof c
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: typeof arg
-> :: case: a > b instanceof c
-## Input
 
-`````js
-typeof a > b instanceof c
-`````
 ```
 

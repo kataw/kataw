@@ -55,7 +55,6 @@ const {x}: string = y;
                                 "start": 8,
                                 "end": 15
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 7,
                             "end": 15
@@ -124,7 +123,6 @@ const {x}: string = y;
                                 "start": 28,
                                 "end": 35
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 27,
                             "end": 35
@@ -183,7 +181,6 @@ const {x}: string = y;
                                                 "start": 51,
                                                 "end": 57
                                             },
-                                            "autofix": 0,
                                             "flags": 0,
                                             "start": 50,
                                             "end": 57
@@ -212,7 +209,6 @@ const {x}: string = y;
                                 "start": 59,
                                 "end": 66
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 58,
                             "end": 66
@@ -287,7 +283,6 @@ const {x}: string = y;
                                 "start": 83,
                                 "end": 90
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 82,
                             "end": 90
@@ -368,12 +363,12 @@ const {x}: string = y;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

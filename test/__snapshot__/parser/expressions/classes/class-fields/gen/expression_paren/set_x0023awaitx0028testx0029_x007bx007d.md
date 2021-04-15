@@ -59,7 +59,7 @@
                                                 "kind": 215,
                                                 "ellipsisToken": null,
                                                 "binding": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 768,
@@ -134,32 +134,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression_paren
-> :: case: set #await(test) {}
-## Input
-
-`````js
-(class { set #await(test) {} });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression_paren
-> :: case: set #await(test) {}
-## Input
 
-`````js
-(class { set #await(test) {} });
-`````
 ```
 

@@ -24,7 +24,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\r\n",
                 "rawText": "\r\n",
                 "flags": 768,
@@ -38,7 +38,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\r\n",
                 "rawText": "prefix\r\n",
                 "flags": 769,
@@ -52,7 +52,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\r\nsuffix",
                 "rawText": "\r\nsuffix",
                 "flags": 769,
@@ -66,7 +66,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\rinfix\nsuffix",
                 "rawText": "\rinfix\nsuffix",
                 "flags": 769,

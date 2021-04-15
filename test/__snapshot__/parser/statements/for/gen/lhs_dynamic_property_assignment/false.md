@@ -32,7 +32,7 @@ for(o[0] = 0 in {});
                 "left": {
                     "kind": 130,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "o",
                         "rawText": "o",
                         "flags": 768,
@@ -40,7 +40,7 @@ for(o[0] = 0 in {});
                         "end": 5
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -60,7 +60,7 @@ for(o[0] = 0 in {});
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -154,32 +154,12 @@ for(o[0] = 0 in {});
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: lhs dynamic property assignment
-> :: case: false
-## Input
-
-`````js
-for(o[0] = 0 in {});
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: lhs dynamic property assignment
-> :: case: false
-## Input
 
-`````js
-for(o[0] = 0 in {});
-`````
 ```
 

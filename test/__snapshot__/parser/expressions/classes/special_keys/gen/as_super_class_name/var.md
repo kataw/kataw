@@ -29,7 +29,7 @@ class x extends var {}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -152,32 +152,12 @@ class x extends var {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as super class name
-> :: case: var
-## Input
-
-`````js
-class x extends var {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as super class name
-> :: case: var
-## Input
 
-`````js
-class x extends var {}
-`````
 ```
 

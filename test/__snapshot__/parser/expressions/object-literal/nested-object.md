@@ -13,6 +13,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -36,7 +37,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "kind": 204,
                                         "ellipsisToken": null,
                                         "key": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -47,7 +48,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 203,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 768,
@@ -68,7 +69,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "kind": 204,
                                         "ellipsisToken": null,
                                         "key": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -87,7 +88,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "kind": 204,
                                                             "ellipsisToken": null,
                                                             "key": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 768,
@@ -98,7 +99,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                 "kind": 203,
                                                                 "ellipsisToken": null,
                                                                 "binding": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
                                                                     "flags": 768,
@@ -157,7 +158,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 67174403,
+                                            "kind": 201392131,
                                             "text": "3",
                                             "rawText": "3",
                                             "flags": 768,
@@ -165,7 +166,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "end": 35
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -186,7 +187,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                     {
                                                         "kind": 219,
                                                         "left": {
-                                                            "kind": 67174403,
+                                                            "kind": 201392131,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -194,7 +195,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "end": 48
                                                         },
                                                         "right": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -217,7 +218,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "end": 50
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,

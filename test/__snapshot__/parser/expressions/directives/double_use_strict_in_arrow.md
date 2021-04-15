@@ -29,7 +29,7 @@
                 "parameters": [
                     [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "w",
                             "rawText": "w",
                             "flags": 768,
@@ -37,7 +37,7 @@
                             "end": 2
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "o",
                             "rawText": "o",
                             "flags": 768,
@@ -45,7 +45,7 @@
                             "end": 5
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
                             "flags": 768,
@@ -53,7 +53,7 @@
                             "end": 8
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "m",
                             "rawText": "m",
                             "flags": 768,
@@ -70,7 +70,7 @@
                         "kind": 217,
                         "directives": [
                             {
-                                "kind": 67174403,
+                                "kind": 201392131,
                                 "text": "use strict",
                                 "rawText": "use strict",
                                 "flags": 768,
@@ -78,7 +78,7 @@
                                 "end": 30
                             },
                             {
-                                "kind": 67174403,
+                                "kind": 201392131,
                                 "text": "use strict",
                                 "rawText": "use strict",
                                 "flags": 768,

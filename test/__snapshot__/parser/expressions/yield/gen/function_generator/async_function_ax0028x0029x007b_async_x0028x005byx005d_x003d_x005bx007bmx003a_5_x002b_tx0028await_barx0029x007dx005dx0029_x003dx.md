@@ -35,7 +35,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -104,7 +104,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -128,7 +128,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                         {
                                                             "kind": 131,
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "async",
                                                                 "rawText": "async",
                                                                 "flags": 768,
@@ -146,7 +146,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                 "kind": 270,
                                                                                 "elements": [
                                                                                     {
-                                                                                        "kind": 81921,
+                                                                                        "kind": 134299649,
                                                                                         "text": "y",
                                                                                         "rawText": "y",
                                                                                         "flags": 768,
@@ -184,7 +184,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                     "left": {
                                                                                                         "kind": 198,
                                                                                                         "left": {
-                                                                                                            "kind": 81921,
+                                                                                                            "kind": 134299649,
                                                                                                             "text": 5,
                                                                                                             "rawText": "5",
                                                                                                             "flags": 768,
@@ -200,7 +200,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                         "right": {
                                                                                                             "kind": 131,
                                                                                                             "expression": {
-                                                                                                                "kind": 81921,
+                                                                                                                "kind": 134299649,
                                                                                                                 "text": "t",
                                                                                                                 "rawText": "t",
                                                                                                                 "flags": 768,
@@ -219,7 +219,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                             "end": 93
                                                                                                                         },
                                                                                                                         "expression": {
-                                                                                                                            "kind": 81921,
+                                                                                                                            "kind": 134299649,
                                                                                                                             "text": "bar",
                                                                                                                             "rawText": "bar",
                                                                                                                             "flags": 768,
@@ -245,7 +245,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                         "end": 98
                                                                                                     },
                                                                                                     "right": {
-                                                                                                        "kind": 81921,
+                                                                                                        "kind": 134299649,
                                                                                                         "text": "m",
                                                                                                         "rawText": "m",
                                                                                                         "flags": 768,
@@ -424,32 +424,12 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
-## Input
-
-`````js
-function * gen() { function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
-## Input
 
-`````js
-function * gen() { function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     } }}
-`````
 ```
 

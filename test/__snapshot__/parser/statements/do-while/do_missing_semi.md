@@ -13,6 +13,7 @@ do;while(j)try{}finally{}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 169,
@@ -23,7 +24,7 @@ do;while(j)try{}finally{}
                 "end": 2
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "j",
                 "rawText": "j",
                 "flags": 768,

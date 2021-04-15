@@ -21,7 +21,7 @@ tag`\\\ `;
             "expression": {
                 "kind": 226,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 768,
@@ -49,7 +49,7 @@ tag`\\\ `;
             "expression": {
                 "kind": 226,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 768,

@@ -39,7 +39,7 @@ x {}
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "P",
                 "rawText": "P",
                 "flags": 768,
@@ -70,7 +70,7 @@ x {}
                                 "end": 22
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 768,
@@ -87,7 +87,7 @@ x {}
                                     "end": 32
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 768,
@@ -113,7 +113,7 @@ x {}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -185,40 +185,12 @@ x {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: generator wrapped
-> :: case: async
->          x
-## Input
-
-`````js
-function *P(){
-  class D extends async
-x {}
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: generator wrapped
-> :: case: async
->          x
-## Input
 
-`````js
-function *P(){
-  class D extends async
-x {}
-}
-`````
 ```
 

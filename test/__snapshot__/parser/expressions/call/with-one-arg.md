@@ -20,13 +20,14 @@ z(x);
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -37,7 +38,7 @@ z(x);
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,

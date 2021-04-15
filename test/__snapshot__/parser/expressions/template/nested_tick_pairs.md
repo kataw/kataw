@@ -52,7 +52,7 @@
                                             "rawText": "foo",
                                             "text": "foo",
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 768,

@@ -16,6 +16,7 @@ fn = function() {};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -31,7 +32,7 @@ fn = function() {};
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "xFn",
                             "rawText": "xFn",
                             "flags": 768,
@@ -48,7 +49,7 @@ fn = function() {};
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 768,
@@ -76,7 +77,7 @@ fn = function() {};
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "xFn",
                     "rawText": "xFn",
                     "flags": 768,
@@ -100,7 +101,7 @@ fn = function() {};
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -149,7 +150,7 @@ fn = function() {};
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 768,

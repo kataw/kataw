@@ -13,6 +13,7 @@ function f(){   return;return    };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -25,7 +26,7 @@ function f(){   return;return    };
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,

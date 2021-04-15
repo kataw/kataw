@@ -18,6 +18,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -33,7 +34,7 @@
                                 "argument": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -47,7 +48,7 @@
                                         "end": 7
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -95,7 +96,7 @@
                                 "argument": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -109,7 +110,7 @@
                                         "end": 19
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -155,7 +156,7 @@
                             {
                                 "kind": 224,
                                 "argument": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -169,7 +170,7 @@
                             {
                                 "kind": 224,
                                 "argument": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -215,7 +216,7 @@
                                     "argument": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -223,7 +224,7 @@
                                             "end": 46
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 768,
@@ -257,7 +258,7 @@
                         "end": 51
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
                         "flags": 768,
@@ -288,7 +289,7 @@
                             {
                                 "kind": 224,
                                 "argument": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -300,7 +301,7 @@
                                 "end": 62
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -345,7 +346,7 @@
                                             {
                                                 "kind": 205,
                                                 "left": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -353,7 +354,7 @@
                                                     "end": 73
                                                 },
                                                 "right": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -392,7 +393,7 @@
                         "end": 81
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
                         "flags": 768,

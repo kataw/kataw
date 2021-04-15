@@ -30,7 +30,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -65,7 +65,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                     {
                                         "kind": 157,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "gfe",
                                             "rawText": "gfe",
                                             "flags": 768,
@@ -90,7 +90,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "end": 40
                                             },
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "rgfe",
                                                 "rawText": "rgfe",
                                                 "flags": 768,
@@ -120,7 +120,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                 "end": 56
                                                             },
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 768,
@@ -154,7 +154,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                 "end": 74
                                                                             },
                                                                             "expression": {
-                                                                                "kind": 67174403,
+                                                                                "kind": 201392131,
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 67109632,
@@ -261,32 +261,12 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
-## Input
-
-`````js
-function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
-## Input
 
-`````js
-function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}
-`````
 ```
 

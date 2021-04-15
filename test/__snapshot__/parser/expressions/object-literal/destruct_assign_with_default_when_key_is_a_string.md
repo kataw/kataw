@@ -13,13 +13,14 @@ a={"b":c=d}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -42,7 +43,7 @@ a={"b":c=d}
                                 "left": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 768,
@@ -56,7 +57,7 @@ a={"b":c=d}
                                         "end": 9
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 768,
@@ -68,7 +69,7 @@ a={"b":c=d}
                                     "end": 10
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,

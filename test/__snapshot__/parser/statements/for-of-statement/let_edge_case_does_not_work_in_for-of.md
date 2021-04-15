@@ -48,7 +48,7 @@ for (let of x) y
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "of",
                             "rawText": "of",
                             "flags": 768,
@@ -65,7 +65,7 @@ for (let of x) y
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -96,7 +96,7 @@ for (let of x) y
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -166,12 +166,12 @@ for (let of x) y
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

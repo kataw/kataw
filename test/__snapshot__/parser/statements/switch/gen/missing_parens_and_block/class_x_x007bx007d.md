@@ -56,7 +56,7 @@ switch case class x {}
                                 "end": 17
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -153,32 +153,12 @@ switch case class x {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: class x {}
-## Input
-
-`````js
-switch case class x {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: class x {}
-## Input
 
-`````js
-switch case class x {}
-`````
 ```
 

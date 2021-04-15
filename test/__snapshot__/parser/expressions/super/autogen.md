@@ -169,7 +169,7 @@ class C { set x(_) { # } }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -188,7 +188,7 @@ class C { set x(_) { # } }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,

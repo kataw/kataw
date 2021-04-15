@@ -19,6 +19,7 @@ for(x in(t&{}=y))x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "forKeyword": {
@@ -29,7 +30,7 @@ for(x in(t&{}=y))x
             },
             "kind": 166,
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -41,7 +42,7 @@ for(x in(t&{}=y))x
                 "expression": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "t",
                         "rawText": "t",
                         "flags": 768,
@@ -78,7 +79,7 @@ for(x in(t&{}=y))x
                             "end": 14
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -100,7 +101,7 @@ for(x in(t&{}=y))x
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

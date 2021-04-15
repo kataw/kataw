@@ -13,6 +13,7 @@ for (x in y) continue
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "forKeyword": {
@@ -23,7 +24,7 @@ for (x in y) continue
             },
             "kind": 166,
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -31,7 +32,7 @@ for (x in y) continue
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,

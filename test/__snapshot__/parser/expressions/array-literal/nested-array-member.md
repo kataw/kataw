@@ -51,7 +51,7 @@
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 768,
@@ -69,7 +69,7 @@
                                     "end": 4
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 768,
@@ -133,12 +133,12 @@
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

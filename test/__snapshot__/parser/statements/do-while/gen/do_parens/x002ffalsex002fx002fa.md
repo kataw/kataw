@@ -61,7 +61,7 @@ do( /false//a while
                             "end": 12
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -139,32 +139,12 @@ do( /false//a while
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: do parens
-> :: case: /false//a
-## Input
-
-`````js
-do( /false//a while
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: do parens
-> :: case: /false//a
-## Input
 
-`````js
-do( /false//a while
-`````
 ```
 

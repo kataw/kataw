@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -44,7 +44,7 @@
                 "end": 23
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 768,
@@ -79,7 +79,7 @@
                                     {
                                         "kind": 157,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "fe",
                                             "rawText": "fe",
                                             "flags": 768,
@@ -99,7 +99,7 @@
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 768,
@@ -178,32 +178,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function* gf() { var fe = function yield() { } }
-## Input
-
-`````js
-'use strict'; function* gf() { var fe = function yield() { } }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function* gf() { var fe = function yield() { } }
-## Input
 
-`````js
-'use strict'; function* gf() { var fe = function yield() { } }
-`````
 ```
 

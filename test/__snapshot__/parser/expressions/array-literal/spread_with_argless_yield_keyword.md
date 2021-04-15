@@ -19,6 +19,7 @@ function *f(){ return [...yield]; }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -36,7 +37,7 @@ function *f(){ return [...yield]; }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,

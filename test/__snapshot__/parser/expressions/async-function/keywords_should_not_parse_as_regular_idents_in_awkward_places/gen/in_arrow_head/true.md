@@ -37,9 +37,16 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 134,
-                                    "text": true,
-                                    "flags": 768,
+                                    "kind": 223,
+                                    "argument": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "autofix": 0,
+                                        "flags": 12,
+                                        "start": 7,
+                                        "end": 7
+                                    },
+                                    "flags": 256,
                                     "start": 2,
                                     "end": 7
                                 }
@@ -88,6 +95,14 @@
         {
             "kind": 2,
             "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 7,
+            "end": 9
+        },
+        {
+            "kind": 2,
+            "source": 2,
             "code": 31,
             "error": "The left hand side of the arrow is not destructible ",
             "start": 10,
@@ -102,32 +117,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: in arrow head
-> :: case: true
-## Input
-
-`````js
-([ true ]) => {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: in arrow head
-> :: case: true
-## Input
 
-`````js
-([ true ]) => {}
-`````
 ```
 

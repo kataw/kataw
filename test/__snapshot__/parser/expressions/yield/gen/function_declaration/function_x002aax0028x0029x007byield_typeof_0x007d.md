@@ -30,7 +30,7 @@ function not_gen() { function *a(){yield typeof 0} }}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function not_gen() { function *a(){yield typeof 0} }}
                                 "end": 31
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -103,13 +103,13 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                 "expression": {
                                                     "kind": 126,
                                                     "operandToken": {
-                                                        "kind": 4259885,
+                                                        "kind": 138477613,
                                                         "flags": 768,
                                                         "start": 40,
                                                         "end": 47
                                                     },
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": 0,
                                                         "rawText": "0",
                                                         "flags": 768,
@@ -183,32 +183,12 @@ function not_gen() { function *a(){yield typeof 0} }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: function *a(){yield typeof 0}
-## Input
-
-`````js
-function not_gen() { function *a(){yield typeof 0} }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: function *a(){yield typeof 0}
-## Input
 
-`````js
-function not_gen() { function *a(){yield typeof 0} }}
-`````
 ```
 

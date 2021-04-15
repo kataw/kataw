@@ -13,6 +13,7 @@ switch (A) {case B: C;}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -23,7 +24,7 @@ switch (A) {case B: C;}
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -42,7 +43,7 @@ switch (A) {case B: C;}
                             "end": 16
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "B",
                             "rawText": "B",
                             "flags": 768,
@@ -53,7 +54,7 @@ switch (A) {case B: C;}
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 768,

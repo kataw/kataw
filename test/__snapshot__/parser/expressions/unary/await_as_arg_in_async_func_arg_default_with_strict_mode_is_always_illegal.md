@@ -13,6 +13,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -30,7 +31,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -67,7 +68,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,
@@ -81,7 +82,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -107,7 +108,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                     "end": 50
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -138,7 +139,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                     "kind": 217,
                                     "directives": [
                                         {
-                                            "kind": 67174403,
+                                            "kind": 201392131,
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 768,
@@ -183,7 +184,16 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
     "text": "async function f(){   async function g(x = + await x) { \"use strict\"; }  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 85,
+            "error": "'use strict' directive cannot be used with non-simple parameter list.",
+            "start": 68,
+            "end": 69
+        }
+    ],
     "start": 0,
     "end": 74
 }

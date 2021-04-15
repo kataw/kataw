@@ -13,6 +13,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -23,7 +24,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
@@ -42,7 +43,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                             "end": 17
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -71,7 +72,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                     "end": 36
                                 },
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 768,
@@ -127,7 +128,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 },
                                 "generatorToken": null,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 768,

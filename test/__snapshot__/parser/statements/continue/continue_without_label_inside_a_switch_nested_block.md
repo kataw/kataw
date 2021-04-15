@@ -13,6 +13,7 @@ switch (x) { case x: {continue;} }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -23,7 +24,7 @@ switch (x) { case x: {continue;} }
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -42,7 +43,7 @@ switch (x) { case x: {continue;} }
                             "end": 17
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,

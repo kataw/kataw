@@ -16,6 +16,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -31,7 +32,7 @@
                                 "name": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -50,7 +51,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -123,7 +124,7 @@
                                 "name": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -142,7 +143,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -215,7 +216,7 @@
                                 "name": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -234,7 +235,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -280,7 +281,7 @@
                                                             "end": 60
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "m",
                                                             "rawText": "m",
                                                             "flags": 768,
@@ -296,7 +297,7 @@
                                                         "kind": 256,
                                                         "elements": [
                                                             {
-                                                                "kind": 67174403,
+                                                                "kind": 201392131,
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 768,
@@ -304,7 +305,7 @@
                                                                 "end": 66
                                                             },
                                                             {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "v",
                                                                 "rawText": "v",
                                                                 "flags": 768,
@@ -372,7 +373,7 @@
                                 "name": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -391,7 +392,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -437,7 +438,7 @@
                                                             "end": 97
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "m",
                                                             "rawText": "m",
                                                             "flags": 768,
@@ -453,7 +454,7 @@
                                                         "kind": 256,
                                                         "elements": [
                                                             {
-                                                                "kind": 67174403,
+                                                                "kind": 201392131,
                                                                 "text": "1",
                                                                 "rawText": "1",
                                                                 "flags": 768,
@@ -461,7 +462,7 @@
                                                                 "end": 103
                                                             },
                                                             {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "v",
                                                                 "rawText": "v",
                                                                 "flags": 768,

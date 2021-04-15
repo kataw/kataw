@@ -45,7 +45,7 @@ for ("foo".bar;;);
             "initializer": {
                 "kind": 129,
                 "member": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -53,7 +53,7 @@ for ("foo".bar;;);
                     "end": 10
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -91,12 +91,12 @@ for ("foo".bar;;);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

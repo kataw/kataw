@@ -13,6 +13,7 @@ switch (x) { case x: if (foo) continue foo; }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -23,7 +24,7 @@ switch (x) { case x: if (foo) continue foo; }
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -42,7 +43,7 @@ switch (x) { case x: if (foo) continue foo; }
                             "end": 17
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -59,7 +60,7 @@ switch (x) { case x: if (foo) continue foo; }
                                     "end": 23
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -75,7 +76,7 @@ switch (x) { case x: if (foo) continue foo; }
                                         "end": 38
                                     },
                                     "label": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,

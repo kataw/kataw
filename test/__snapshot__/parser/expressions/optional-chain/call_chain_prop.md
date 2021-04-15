@@ -13,6 +13,7 @@ c?.(d)?.[e]
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,7 +22,7 @@ c?.(d)?.[e]
                 "member": {
                     "kind": 205,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -37,7 +38,7 @@ c?.(d)?.[e]
                                 "kind": 256,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 768,
@@ -68,7 +69,7 @@ c?.(d)?.[e]
                         "kind": 203,
                         "chain": null,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
                             "flags": 768,

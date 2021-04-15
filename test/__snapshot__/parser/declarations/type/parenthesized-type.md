@@ -56,7 +56,6 @@ type Foo = (string | number)
                         "end": 27
                     }
                 ],
-                "autofix": 0,
                 "flags": 0,
                 "start": 18,
                 "end": 27

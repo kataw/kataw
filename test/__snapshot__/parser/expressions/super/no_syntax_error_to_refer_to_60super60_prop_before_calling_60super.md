@@ -13,6 +13,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -41,7 +42,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -63,7 +64,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,
@@ -91,7 +92,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                             "expression": {
                                                 "kind": 131,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "log",
                                                     "rawText": "log",
                                                     "flags": 768,
@@ -116,7 +117,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                                 "end": 45
                                                             },
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 768,
@@ -159,7 +160,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "end": 57
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "mom",
                                                     "rawText": "mom",
                                                     "flags": 768,

@@ -29,7 +29,7 @@ class x {set get(x){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -48,7 +48,7 @@ class x {set get(x){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 768,
@@ -63,7 +63,7 @@ class x {set get(x){}}
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -130,32 +130,12 @@ class x {set get(x){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as setter in class
-> :: case: get
-## Input
-
-`````js
-class x {set get(x){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as setter in class
-> :: case: get
-## Input
 
-`````js
-class x {set get(x){}}
-`````
 ```
 

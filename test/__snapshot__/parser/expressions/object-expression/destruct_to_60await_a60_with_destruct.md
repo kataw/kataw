@@ -13,13 +13,14 @@ s = {"foo": await a = x} = x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -42,7 +43,7 @@ s = {"foo": await a = x} = x
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 768,
@@ -50,7 +51,7 @@ s = {"foo": await a = x} = x
                                         "end": 17
                                     },
                                     "right": {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,
@@ -64,7 +65,7 @@ s = {"foo": await a = x} = x
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -72,7 +73,7 @@ s = {"foo": await a = x} = x
                                         "end": 19
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -101,7 +102,7 @@ s = {"foo": await a = x} = x
                         "end": 26
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,

@@ -35,7 +35,7 @@ async function f() { for await ("foo".x in y) {} }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -67,7 +67,7 @@ async function f() { for await ("foo".x in y) {} }
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -75,7 +75,7 @@ async function f() { for await ("foo".x in y) {} }
                                     "end": 37
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -88,7 +88,7 @@ async function f() { for await ("foo".x in y) {} }
                                 "end": 39
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -152,32 +152,12 @@ async function f() { for await ("foo".x in y) {} }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for await with valid strange lhs
-> :: case: false
-## Input
-
-`````js
-async function f() { for await ("foo".x in y) {} }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for await with valid strange lhs
-> :: case: false
-## Input
 
-`````js
-async function f() { for await ("foo".x in y) {} }
-`````
 ```
 

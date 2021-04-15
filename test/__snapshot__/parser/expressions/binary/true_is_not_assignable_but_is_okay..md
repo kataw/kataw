@@ -13,6 +13,7 @@ true ** a
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -32,7 +33,7 @@ true ** a
                     "end": 7
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,

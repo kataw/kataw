@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -33,7 +33,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -47,7 +47,7 @@
                     "end": 21
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -71,7 +71,7 @@
                 "end": 31
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 37,
                 "rawText": "37",
                 "flags": 768,
@@ -87,7 +87,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -101,7 +101,7 @@
                     "end": 43
                 },
                 "right": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "dead",
                     "rawText": "dead",
                     "flags": 67109632,
@@ -139,32 +139,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: yield * 1; return 37; yield * 'dead';
-## Input
-
-`````js
-'use strict'; yield * 1; return 37; yield * 'dead';
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: yield * 1; return 37; yield * 'dead';
-## Input
 
-`````js
-'use strict'; yield * 1; return 37; yield * 'dead';
-`````
 ```
 

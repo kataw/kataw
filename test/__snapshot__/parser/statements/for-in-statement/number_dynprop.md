@@ -34,7 +34,7 @@ for (456[x] in c) d;
             "initializer": {
                 "kind": 130,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 456,
                     "rawText": "456",
                     "flags": 768,
@@ -42,7 +42,7 @@ for (456[x] in c) d;
                     "end": 8
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -54,7 +54,7 @@ for (456[x] in c) d;
                 "end": 11
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -64,7 +64,7 @@ for (456[x] in c) d;
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
                     "flags": 768,
@@ -93,12 +93,12 @@ for (456[x] in c) d;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

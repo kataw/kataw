@@ -44,7 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -56,7 +56,7 @@
                                 "argument": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 768,
@@ -70,7 +70,7 @@
                                         "end": 10
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "arr",
                                         "rawText": "arr",
                                         "flags": 768,
@@ -86,7 +86,7 @@
                                 "end": 14
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -110,7 +110,7 @@
                     "end": 20
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 768,
@@ -148,12 +148,12 @@
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

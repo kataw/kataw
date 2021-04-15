@@ -13,13 +13,14 @@ s = {"foo": null = x} = x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -57,7 +58,7 @@ s = {"foo": null = x} = x
                                             "end": 18
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -69,7 +70,7 @@ s = {"foo": null = x} = x
                                         "end": 20
                                     },
                                     "right": {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,
@@ -98,7 +99,7 @@ s = {"foo": null = x} = x
                         "end": 23
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,

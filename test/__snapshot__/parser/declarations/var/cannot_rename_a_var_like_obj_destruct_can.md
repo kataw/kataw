@@ -77,12 +77,10 @@ var [foo:bar] = obj;
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 9,
                                                 "end": 12
                                             },
-                                            "autofix": 0,
                                             "flags": 0,
                                             "start": 8,
                                             "end": 12
@@ -139,12 +137,12 @@ var [foo:bar] = obj;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

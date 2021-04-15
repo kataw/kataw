@@ -19,11 +19,12 @@ xxx\u{65}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "xxxe",
                 "rawText": "xxx\\u{65}",
                 "flags": 768,

@@ -20,7 +20,7 @@ a?.200
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -34,7 +34,7 @@ a?.200
                     "end": 3
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 200,
                     "rawText": "200",
                     "flags": 768,

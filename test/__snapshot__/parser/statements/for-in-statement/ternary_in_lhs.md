@@ -45,7 +45,7 @@ for (a ? b : c in x);
             "initializer": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -59,7 +59,7 @@ for (a ? b : c in x);
                     "end": 8
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -75,7 +75,7 @@ for (a ? b : c in x);
                 "alternate": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -89,7 +89,7 @@ for (a ? b : c in x);
                         "end": 17
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -162,12 +162,12 @@ for (a ? b : c in x);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

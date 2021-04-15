@@ -62,7 +62,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1.2,
                 "rawText": "1.2",
                 "flags": 768,
@@ -76,7 +76,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 2.3,
                 "rawText": "2.3",
                 "flags": 769,
@@ -90,7 +90,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 3.4,
                 "rawText": "3.4",
                 "flags": 769,
@@ -104,7 +104,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 4.5,
                 "rawText": "4.5",
                 "flags": 769,
@@ -118,7 +118,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 5.6,
                 "rawText": "5.6",
                 "flags": 769,
@@ -132,7 +132,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 6.7,
                 "rawText": "6.7",
                 "flags": 769,
@@ -146,7 +146,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 7.8,
                 "rawText": "7.8",
                 "flags": 769,
@@ -160,7 +160,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 8.9,
                 "rawText": "8.9",
                 "flags": 769,
@@ -174,7 +174,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 9.1,
                 "rawText": "9.10",
                 "flags": 769,
@@ -188,7 +188,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 10.23,
                 "rawText": "10.23",
                 "flags": 769,
@@ -202,7 +202,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 21.45,
                 "rawText": "21.45",
                 "flags": 769,
@@ -216,7 +216,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 32.56,
                 "rawText": "32.56",
                 "flags": 769,
@@ -230,7 +230,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 43.78,
                 "rawText": "43.78",
                 "flags": 769,
@@ -244,7 +244,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 54.98,
                 "rawText": "54.98",
                 "flags": 769,
@@ -258,7 +258,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 65.91,
                 "rawText": "65.91",
                 "flags": 769,
@@ -272,7 +272,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 76.05,
                 "rawText": "76.05",
                 "flags": 769,
@@ -286,7 +286,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 87.04,
                 "rawText": "87.04",
                 "flags": 769,
@@ -300,7 +300,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 98.54,
                 "rawText": "98.54",
                 "flags": 769,
@@ -314,7 +314,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 19.37,
                 "rawText": "19.37",
                 "flags": 769,
@@ -328,7 +328,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 123.012,
                 "rawText": "123.012",
                 "flags": 769,
@@ -342,7 +342,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 456.345,
                 "rawText": "456.345",
                 "flags": 769,
@@ -356,7 +356,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 7890.6789,
                 "rawText": "7890.6789",
                 "flags": 769,
@@ -370,7 +370,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1234567890.0987654,
                 "rawText": "1234567890.0987654321",
                 "flags": 769,

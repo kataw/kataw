@@ -13,6 +13,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -25,7 +26,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x0",
                                 "rawText": "x0",
                                 "flags": 768,
@@ -39,7 +40,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "end": 5
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x1",
                                 "rawText": "x1",
                                 "flags": 768,
@@ -59,7 +60,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x2",
                                 "rawText": "x2",
                                 "flags": 768,
@@ -67,13 +68,13 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "end": 13
                             },
                             "operatorToken": {
-                                "kind": 536905794,
+                                "kind": 536971330,
                                 "flags": 768,
                                 "start": 13,
                                 "end": 15
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x3",
                                 "rawText": "x3",
                                 "flags": 768,
@@ -95,7 +96,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "end": 21
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x4",
                         "rawText": "x4",
                         "flags": 768,
@@ -117,7 +118,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                     "left": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x5",
                             "rawText": "x5",
                             "flags": 768,
@@ -125,7 +126,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             "end": 30
                         },
                         "operatorToken": {
-                            "kind": 34121,
+                            "kind": 134251849,
                             "flags": 768,
                             "start": 30,
                             "end": 32
@@ -133,7 +134,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x6",
                                 "rawText": "x6",
                                 "flags": 768,
@@ -149,7 +150,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             "right": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x7",
                                     "rawText": "x7",
                                     "flags": 768,
@@ -163,7 +164,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                     "end": 43
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x8",
                                     "rawText": "x8",
                                     "flags": 768,
@@ -183,7 +184,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "end": 46
                     },
                     "operatorToken": {
-                        "kind": 33864,
+                        "kind": 134251592,
                         "flags": 768,
                         "start": 46,
                         "end": 48
@@ -193,7 +194,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x9",
                                 "rawText": "x9",
                                 "flags": 768,
@@ -207,7 +208,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "end": 54
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x10",
                                 "rawText": "x10",
                                 "flags": 768,
@@ -225,7 +226,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             "end": 60
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,

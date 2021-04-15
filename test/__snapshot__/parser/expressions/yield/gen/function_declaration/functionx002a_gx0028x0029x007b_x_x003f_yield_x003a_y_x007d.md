@@ -30,7 +30,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                 "end": 30
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 768,
@@ -93,7 +93,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                             "expression": {
                                                 "kind": 197,
                                                 "shortCircuit": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -128,7 +128,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                     "end": 47
                                                 },
                                                 "alternate": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -198,32 +198,12 @@ function not_gen() { function* g(){ x ? yield : y } }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: function* g(){ x ? yield : y }
-## Input
-
-`````js
-function not_gen() { function* g(){ x ? yield : y } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: function* g(){ x ? yield : y }
-## Input
 
-`````js
-function not_gen() { function* g(){ x ? yield : y } }}
-`````
 ```
 

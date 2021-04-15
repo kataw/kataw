@@ -29,7 +29,7 @@ class C extends Base { await; }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -46,7 +46,7 @@ class C extends Base { await; }
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
                     "flags": 768,
@@ -67,7 +67,7 @@ class C extends Base { await; }
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -127,32 +127,12 @@ class C extends Base { await; }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: await;
-## Input
-
-`````js
-class C extends Base { await; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: await;
-## Input
 
-`````js
-class C extends Base { await; }
-`````
 ```
 

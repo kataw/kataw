@@ -29,7 +29,7 @@ class x {static * true(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -65,62 +65,56 @@ class x {static * true(){}}
                         "flags": 256,
                         "start": 15,
                         "end": 17
-                    },
-                    {
-                        "kind": 278,
-                        "decorators": null,
-                        "staticToken": null,
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 81921,
-                                "text": "true",
-                                "rawText": "true",
-                                "flags": 768,
-                                "start": 17,
-                                "end": 22
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 23,
-                                "end": 24
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 256,
-                                    "start": 25,
-                                    "end": 25
-                                },
-                                "flags": 256,
-                                "start": 24,
-                                "end": 26
-                            },
-                            "flags": 0,
-                            "start": 22,
-                            "end": 26
-                        },
-                        "flags": 256,
-                        "start": 17,
-                        "end": 26
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 27
+                "end": 17
             },
             "flags": 128,
             "start": 0,
-            "end": 27
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 134,
+                    "text": true,
+                    "flags": 768,
+                    "start": 17,
+                    "end": 22
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 23,
+                    "end": 23
+                },
+                "flags": 256,
+                "start": 17,
+                "end": 24
+            },
+            "flags": 128,
+            "start": 17,
+            "end": 24
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 24,
+            "end": 26
         }
     ],
     "isModule": false,
@@ -135,6 +129,30 @@ class x {static * true(){}}
             "error": "A rest element cannot have an initializer",
             "start": 15,
             "end": 17
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 17,
+            "end": 22
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 24,
+            "end": 25
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 26,
+            "end": 27
         }
     ],
     "start": 0,
@@ -145,32 +163,12 @@ class x {static * true(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static generator in class
-> :: case: true
-## Input
-
-`````js
-class x {static * true(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static generator in class
-> :: case: true
-## Input
 
-`````js
-class x {static * true(){}}
-`````
 ```
 

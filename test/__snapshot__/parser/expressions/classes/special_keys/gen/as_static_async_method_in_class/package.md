@@ -29,7 +29,7 @@ class x {static async package(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -53,7 +53,7 @@ class x {static async package(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "package",
                                 "rawText": "package",
                                 "flags": 768,
@@ -116,32 +116,12 @@ class x {static async package(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static async method in class
-> :: case: package
-## Input
-
-`````js
-class x {static async package(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static async method in class
-> :: case: package
-## Input
 
-`````js
-class x {static async package(){}}
-`````
 ```
 

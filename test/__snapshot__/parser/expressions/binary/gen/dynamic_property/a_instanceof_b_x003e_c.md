@@ -24,7 +24,7 @@ foo[ a instanceof b > c ]
             "expression": {
                 "kind": 130,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -36,7 +36,7 @@ foo[ a instanceof b > c ]
                     "left": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -50,7 +50,7 @@ foo[ a instanceof b > c ]
                             "end": 17
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -68,7 +68,7 @@ foo[ a instanceof b > c ]
                         "end": 21
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -101,32 +101,12 @@ foo[ a instanceof b > c ]
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: dynamic property
-> :: case: a instanceof b > c
-## Input
-
-`````js
-foo[ a instanceof b > c ]
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: dynamic property
-> :: case: a instanceof b > c
-## Input
 
-`````js
-foo[ a instanceof b > c ]
-`````
 ```
 

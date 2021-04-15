@@ -35,7 +35,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -104,7 +104,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                 "end": 49
                                             },
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 768,
@@ -138,7 +138,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                 "delegate": false,
                                                                 "asteriskToken": null,
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": 2,
                                                                     "rawText": "2",
                                                                     "flags": 768,
@@ -186,7 +186,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                                 "delegate": false,
                                                                                 "asteriskToken": null,
                                                                                 "expression": {
-                                                                                    "kind": 81921,
+                                                                                    "kind": 134299649,
                                                                                     "text": 3,
                                                                                     "rawText": "3",
                                                                                     "flags": 768,
@@ -236,7 +236,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                 "delegate": false,
                                                                 "asteriskToken": null,
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": 4,
                                                                     "rawText": "4",
                                                                     "flags": 768,
@@ -313,32 +313,12 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-## Input
-
-`````js
-function * gen() { function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-## Input
 
-`````js
-function * gen() { function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}
-`````
 ```
 

@@ -13,13 +13,14 @@ wrap({set foo(a){}});
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -37,7 +38,7 @@ wrap({set foo(a){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -52,7 +53,7 @@ wrap({set foo(a){}});
                                                     "kind": 215,
                                                     "ellipsisToken": null,
                                                     "binding": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,

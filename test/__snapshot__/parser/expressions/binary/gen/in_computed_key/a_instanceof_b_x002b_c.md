@@ -24,7 +24,7 @@ x = {[ a instanceof b + c ]: y}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -45,7 +45,7 @@ x = {[ a instanceof b + c ]: y}
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -59,7 +59,7 @@ x = {[ a instanceof b + c ]: y}
                                         "left": {
                                             "kind": 198,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -73,7 +73,7 @@ x = {[ a instanceof b + c ]: y}
                                                 "end": 19
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -91,7 +91,7 @@ x = {[ a instanceof b + c ]: y}
                                             "end": 23
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 768,
@@ -143,32 +143,12 @@ x = {[ a instanceof b + c ]: y}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: in computed key
-> :: case: a instanceof b + c
-## Input
-
-`````js
-x = {[ a instanceof b + c ]: y}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: in computed key
-> :: case: a instanceof b + c
-## Input
 
-`````js
-x = {[ a instanceof b + c ]: y}
-`````
 ```
 

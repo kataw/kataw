@@ -18,7 +18,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\tstr\ting\t",
                 "rawText": "\tstr\ting\t",
                 "flags": 262912,

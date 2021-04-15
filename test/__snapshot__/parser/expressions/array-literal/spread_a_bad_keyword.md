@@ -46,7 +46,7 @@
                             "argument": {
                                 "kind": 210,
                                 "newKeyword": {
-                                    "kind": 4259933,
+                                    "kind": 138477661,
                                     "flags": 768,
                                     "start": 4,
                                     "end": 7
@@ -105,12 +105,12 @@
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

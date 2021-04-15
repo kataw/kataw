@@ -29,7 +29,7 @@ class get {}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "get",
                 "rawText": "get",
                 "flags": 768,
@@ -63,32 +63,12 @@ class get {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: get
-## Input
-
-`````js
-class get {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: get
-## Input
 
-`````js
-class get {}
-`````
 ```
 

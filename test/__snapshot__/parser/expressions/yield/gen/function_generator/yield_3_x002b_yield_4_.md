@@ -35,7 +35,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -91,7 +91,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 768,
@@ -107,7 +107,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                             "expression": {
                                                 "kind": 198,
                                                 "left": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 768,
@@ -121,7 +121,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                     "end": 49
                                                 },
                                                 "right": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 768,
@@ -139,7 +139,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 4,
                                                 "rawText": "4",
                                                 "flags": 768,
@@ -213,32 +213,12 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: yield 3 + yield 4;
-## Input
-
-`````js
-function * gen() { function not_gen() { yield 3 + yield 4; }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: yield 3 + yield 4;
-## Input
 
-`````js
-function * gen() { function not_gen() { yield 3 + yield 4; }}
-`````
 ```
 

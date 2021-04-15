@@ -13,11 +13,12 @@ foo: break foo;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 163,
             "label": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -33,7 +34,7 @@ foo: break foo;
                     "end": 10
                 },
                 "label": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,

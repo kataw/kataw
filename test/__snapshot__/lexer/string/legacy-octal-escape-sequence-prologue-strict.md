@@ -47,7 +47,7 @@
                             "kind": 217,
                             "directives": [
                                 {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "asterisk: \u000052",
                                     "rawText": "asterisk: \u000052",
                                     "flags": 769,
@@ -55,7 +55,7 @@
                                     "end": 32
                                 },
                                 {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
                                     "flags": 769,

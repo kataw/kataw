@@ -30,7 +30,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -65,7 +65,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                     {
                                         "kind": 157,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "o",
                                             "rawText": "o",
                                             "flags": 768,
@@ -82,7 +82,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                     {
                                                         "kind": 209,
                                                         "name": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "gf",
                                                             "rawText": "gf",
                                                             "flags": 768,
@@ -114,7 +114,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                             "end": 45
                                                                         },
                                                                         "expression": {
-                                                                            "kind": 81921,
+                                                                            "kind": 134299649,
                                                                             "text": 1,
                                                                             "rawText": "1",
                                                                             "flags": 768,
@@ -252,32 +252,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var o = { *gf() { switch (1) { case yield: break; } } }
-## Input
-
-`````js
-function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var o = { *gf() { switch (1) { case yield: break; } } }
-## Input
 
-`````js
-function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
-`````
 ```
 

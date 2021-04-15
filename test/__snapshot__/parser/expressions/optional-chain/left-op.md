@@ -13,6 +13,7 @@ a?.b * d
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,7 +22,7 @@ a?.b * d
                 "left": {
                     "kind": 205,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -34,7 +35,7 @@ a?.b * d
                             "kind": 202,
                             "chain": null,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 768,
@@ -60,7 +61,7 @@ a?.b * d
                     "end": 6
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
                     "flags": 768,

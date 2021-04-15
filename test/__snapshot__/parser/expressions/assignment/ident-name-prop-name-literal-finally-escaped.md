@@ -13,6 +13,7 @@ var y = { \u0066inally: x } = { finally: 42 };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -28,7 +29,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -47,7 +48,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -55,7 +56,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "end": 25
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "y",
                                                 "flags": 768,
@@ -91,7 +92,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 768,
@@ -99,7 +100,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "end": 43
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "finally",
                                                 "flags": 768,

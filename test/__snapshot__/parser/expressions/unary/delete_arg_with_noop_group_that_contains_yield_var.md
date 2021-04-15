@@ -13,6 +13,7 @@ delete (((((foo(yield)))))).bar
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -39,7 +40,7 @@ delete (((((foo(yield)))))).bar
                                         "expression": {
                                             "kind": 131,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 768,
@@ -50,7 +51,7 @@ delete (((((foo(yield)))))).bar
                                                 "kind": 256,
                                                 "elements": [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 768,
@@ -88,7 +89,7 @@ delete (((((foo(yield)))))).bar
                         "end": 27
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 768,

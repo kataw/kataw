@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeNode } from '.';
 
 export interface IntersectionType extends SyntaxNode {
@@ -10,7 +10,6 @@ export function createIntersectionType(types: readonly TypeNode[], start: number
   return {
     kind: SyntaxKind.IntersectionType,
     types,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

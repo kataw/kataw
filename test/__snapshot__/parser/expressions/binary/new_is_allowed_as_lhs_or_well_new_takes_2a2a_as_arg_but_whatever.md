@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -23,13 +24,13 @@
                     "left": {
                         "kind": 210,
                         "newKeyword": {
-                            "kind": 4259933,
+                            "kind": 138477661,
                             "flags": 768,
                             "start": 1,
                             "end": 4
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -48,7 +49,7 @@
                         "end": 9
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 2,
                         "rawText": "2",
                         "flags": 768,

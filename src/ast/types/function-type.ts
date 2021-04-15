@@ -1,11 +1,10 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeParameter } from './type-parameter';
 
 export interface FunctionType extends SyntaxNode {
-  kind: SyntaxKind.FunctionType;
-  parameters: any;
-  returnType: any;
-  typeParameters: TypeParameter | null;
+  readonly parameters: any;
+  readonly returnType: any;
+  readonly typeParameters: TypeParameter | null;
 }
 
 export function createFunctionType(
@@ -20,7 +19,6 @@ export function createFunctionType(
     parameters,
     returnType,
     typeParameters,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

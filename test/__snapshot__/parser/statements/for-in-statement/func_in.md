@@ -74,7 +74,7 @@ for (function(){ a in b; }.prop in x);
                                     "expression": {
                                         "kind": 198,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -88,7 +88,7 @@ for (function(){ a in b; }.prop in x);
                                             "end": 21
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -120,7 +120,7 @@ for (function(){ a in b; }.prop in x);
                     "end": 26
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "prop",
                     "rawText": "prop",
                     "flags": 768,
@@ -133,7 +133,7 @@ for (function(){ a in b; }.prop in x);
                 "end": 31
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -164,12 +164,12 @@ for (function(){ a in b; }.prop in x);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

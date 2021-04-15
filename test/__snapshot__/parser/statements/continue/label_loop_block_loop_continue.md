@@ -13,11 +13,12 @@ foo: while(z) { while(z) continue foo }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 163,
             "label": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -33,7 +34,7 @@ foo: while(z) { while(z) continue foo }
                     "end": 10
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -54,7 +55,7 @@ foo: while(z) { while(z) continue foo }
                                     "end": 21
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 768,
@@ -70,7 +71,7 @@ foo: while(z) { while(z) continue foo }
                                         "end": 33
                                     },
                                     "label": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,

@@ -33,7 +33,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -70,7 +70,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -137,7 +137,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                     "method": {
                                                                         "kind": 209,
                                                                         "name": {
-                                                                            "kind": 81921,
+                                                                            "kind": 134299649,
                                                                             "text": "method",
                                                                             "rawText": "method",
                                                                             "flags": 768,
@@ -152,7 +152,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                                     "kind": 215,
                                                                                     "ellipsisToken": null,
                                                                                     "binding": {
-                                                                                        "kind": 81921,
+                                                                                        "kind": 134299649,
                                                                                         "text": "await",
                                                                                         "rawText": "await",
                                                                                         "flags": 768,
@@ -269,32 +269,12 @@ var await; var f = (async function() { (class { async method(await) {} }) });
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: (class { async method(await) {} })
-## Input
-
-`````js
-var await; var f = (async function() { (class { async method(await) {} }) });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: (class { async method(await) {} })
-## Input
 
-`````js
-var await; var f = (async function() { (class { async method(await) {} }) });
-`````
 ```
 

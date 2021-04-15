@@ -72,7 +72,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,

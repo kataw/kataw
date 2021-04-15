@@ -14,6 +14,7 @@ for (a?.b of c);
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 165,
@@ -26,7 +27,7 @@ for (a?.b of c);
             "initializer": {
                 "kind": 205,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -41,7 +42,7 @@ for (a?.b of c);
                             "kind": 202,
                             "chain": null,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 768,
@@ -57,7 +58,7 @@ for (a?.b of c);
                         "end": 9
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "of",
                         "rawText": "of",
                         "flags": 768,
@@ -74,7 +75,7 @@ for (a?.b of c);
             },
             "condition": null,
             "incrementor": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,

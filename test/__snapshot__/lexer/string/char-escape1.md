@@ -40,7 +40,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "'",
                 "rawText": "'",
                 "flags": 768,
@@ -54,7 +54,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\"",
                 "rawText": "\"",
                 "flags": 769,
@@ -68,7 +68,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\\",
                 "rawText": "\\",
                 "flags": 769,
@@ -82,7 +82,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\b",
                 "rawText": "\b",
                 "flags": 769,
@@ -96,7 +96,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\f",
                 "rawText": "\f",
                 "flags": 769,
@@ -110,7 +110,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\n",
                 "rawText": "\n",
                 "flags": 769,
@@ -124,7 +124,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\r",
                 "rawText": "\r",
                 "flags": 769,
@@ -138,7 +138,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\t",
                 "rawText": "\t",
                 "flags": 769,
@@ -152,7 +152,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\u000b",
                 "rawText": "\u000b",
                 "flags": 769,

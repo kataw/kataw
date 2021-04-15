@@ -45,7 +45,7 @@ for (x(x in t);;) x
             "initializer": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -58,7 +58,7 @@ for (x(x in t);;) x
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -72,7 +72,7 @@ for (x(x in t);;) x
                                 "end": 11
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "t",
                                 "rawText": "t",
                                 "flags": 768,
@@ -98,7 +98,7 @@ for (x(x in t);;) x
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -127,12 +127,12 @@ for (x(x in t);;) x
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -24,7 +24,7 @@ yield * 1; return 37; yield * 'dead';
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -38,7 +38,7 @@ yield * 1; return 37; yield * 'dead';
                     "end": 7
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -62,7 +62,7 @@ yield * 1; return 37; yield * 'dead';
                 "end": 17
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 37,
                 "rawText": "37",
                 "flags": 768,
@@ -78,7 +78,7 @@ yield * 1; return 37; yield * 'dead';
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -92,7 +92,7 @@ yield * 1; return 37; yield * 'dead';
                     "end": 29
                 },
                 "right": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "dead",
                     "rawText": "dead",
                     "flags": 67109632,
@@ -130,32 +130,12 @@ yield * 1; return 37; yield * 'dead';
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: yield * 1; return 37; yield * 'dead';
-## Input
-
-`````js
-yield * 1; return 37; yield * 'dead';
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: yield * 1; return 37; yield * 'dead';
-## Input
 
-`````js
-yield * 1; return 37; yield * 'dead';
-`````
 ```
 

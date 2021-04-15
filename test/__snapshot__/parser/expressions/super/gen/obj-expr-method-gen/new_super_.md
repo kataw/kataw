@@ -31,7 +31,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 768,
@@ -59,7 +59,7 @@
                                                 "expression": {
                                                     "kind": 210,
                                                     "newKeyword": {
-                                                        "kind": 4259933,
+                                                        "kind": 138477661,
                                                         "flags": 768,
                                                         "start": 14,
                                                         "end": 18
@@ -163,32 +163,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: obj-expr-method-gen
-> :: case: new super;
-## Input
-
-`````js
-({ *method() { new super; } })
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: obj-expr-method-gen
-> :: case: new super;
-## Input
 
-`````js
-({ *method() { new super; } })
-`````
 ```
 

@@ -47,7 +47,7 @@ async () => {  inte\u0072face = x  }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "interface",
                                     "rawText": "inte\\u0072face",
                                     "flags": 768,
@@ -61,7 +61,7 @@ async () => {  inte\u0072face = x  }
                                     "end": 31
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -104,32 +104,12 @@ async () => {  inte\u0072face = x  }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: inte\u0072face
-## Input
-
-`````js
-async () => {  inte\u0072face = x  }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: inte\u0072face
-## Input
 
-`````js
-async () => {  inte\u0072face = x  }
-`````
 ```
 

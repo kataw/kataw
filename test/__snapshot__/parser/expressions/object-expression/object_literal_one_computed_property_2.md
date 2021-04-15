@@ -13,13 +13,14 @@ wrap({[a]:b, [15]:d}=obj);
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -39,7 +40,7 @@ wrap({[a]:b, [15]:d}=obj);
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -49,7 +50,7 @@ wrap({[a]:b, [15]:d}=obj);
                                             "right": {
                                                 "kind": 194,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -67,7 +68,7 @@ wrap({[a]:b, [15]:d}=obj);
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 768,
@@ -77,7 +78,7 @@ wrap({[a]:b, [15]:d}=obj);
                                             "right": {
                                                 "kind": 194,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": 15,
                                                     "rawText": "15",
                                                     "flags": 768,
@@ -110,7 +111,7 @@ wrap({[a]:b, [15]:d}=obj);
                                 "end": 21
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 768,

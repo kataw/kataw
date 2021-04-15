@@ -43,7 +43,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "end": 8
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "Fn2",
                 "rawText": "Fn2",
                 "flags": 768,
@@ -58,7 +58,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         "kind": 149,
                         "ellipsisToken": null,
                         "name": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "A",
                             "rawText": "A",
                             "flags": 768,
@@ -91,7 +91,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         "kind": 149,
                         "ellipsisToken": null,
                         "name": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "B",
                             "rawText": "B",
                             "flags": 768,
@@ -127,7 +127,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         {
                             "kind": 144,
                             "id": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 768,
@@ -143,7 +143,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         {
                             "kind": 144,
                             "id": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 768,
@@ -168,7 +168,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         {
                             "kind": 144,
                             "id": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 768,
@@ -184,7 +184,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         {
                             "kind": 144,
                             "id": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 768,
@@ -267,12 +267,12 @@ type Fn2 = <A, B>(A, B) => A | B;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

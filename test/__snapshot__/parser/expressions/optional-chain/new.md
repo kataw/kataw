@@ -13,13 +13,14 @@ new foo?.bar
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 0,
                     "end": 3
@@ -27,7 +28,7 @@ new foo?.bar
                 "expression": {
                     "kind": 205,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -40,7 +41,7 @@ new foo?.bar
                             "kind": 202,
                             "chain": null,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 768,

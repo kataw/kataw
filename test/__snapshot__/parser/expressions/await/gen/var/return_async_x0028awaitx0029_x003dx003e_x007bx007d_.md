@@ -33,7 +33,7 @@ var await; var f = (async function() { return async (await) => {}; });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -70,7 +70,7 @@ var await; var f = (async function() { return async (await) => {}; });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -135,7 +135,7 @@ var await; var f = (async function() { return async (await) => {}; });
                                                             "binding": {
                                                                 "kind": 131,
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": "async",
                                                                     "rawText": "async",
                                                                     "flags": 768,
@@ -269,32 +269,12 @@ var await; var f = (async function() { return async (await) => {}; });
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: return async (await) => {};
-## Input
-
-`````js
-var await; var f = (async function() { return async (await) => {}; });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: return async (await) => {};
-## Input
 
-`````js
-var await; var f = (async function() { return async (await) => {}; });
-`````
 ```
 

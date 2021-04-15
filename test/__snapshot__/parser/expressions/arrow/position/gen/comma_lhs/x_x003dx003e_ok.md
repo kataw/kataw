@@ -86,32 +86,12 @@ x => ok, a
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: comma lhs
-> :: case: x => ok
-## Input
-
-`````js
-x => ok, a
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: comma lhs
-> :: case: x => ok
-## Input
 
-`````js
-x => ok, a
-`````
 ```
 

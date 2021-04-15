@@ -47,7 +47,7 @@ class new {}
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 5,
                     "end": 9
@@ -99,32 +99,12 @@ class new {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: new
-## Input
-
-`````js
-class new {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: new
-## Input
 
-`````js
-class new {}
-`````
 ```
 

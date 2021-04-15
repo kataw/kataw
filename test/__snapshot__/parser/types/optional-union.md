@@ -34,7 +34,7 @@ type Obj1 = {
                 "end": 9
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "Obj1",
                 "rawText": "Obj1",
                 "flags": 768,
@@ -43,12 +43,12 @@ type Obj1 = {
             },
             "typeParameters": null,
             "type": {
-                "kind": 241,
+                "kind": 134217969,
                 "properties": [
                     {
                         "kind": 193,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "field",
                             "rawText": "field",
                             "flags": 768,
@@ -56,12 +56,12 @@ type Obj1 = {
                             "end": 21
                         },
                         "value": {
-                            "kind": 241,
+                            "kind": 134217969,
                             "properties": [
                                 {
                                     "kind": 193,
                                     "key": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "key",
                                         "rawText": "key",
                                         "flags": 768,
@@ -72,9 +72,9 @@ type Obj1 = {
                                         "kind": 137,
                                         "types": [
                                             {
-                                                "kind": 242,
+                                                "kind": 134217970,
                                                 "type": {
-                                                    "kind": 16619,
+                                                    "kind": 134234347,
                                                     "flags": 768,
                                                     "start": 30,
                                                     "end": 36
@@ -87,7 +87,7 @@ type Obj1 = {
                                             {
                                                 "kind": 144,
                                                 "id": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "Array",
                                                     "rawText": "Array",
                                                     "flags": 768,
@@ -98,7 +98,7 @@ type Obj1 = {
                                                     "kind": 146,
                                                     "types": [
                                                         {
-                                                            "kind": 16619,
+                                                            "kind": 134234347,
                                                             "flags": 768,
                                                             "start": 45,
                                                             "end": 51
@@ -170,12 +170,12 @@ type Obj1 = {
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -20,7 +20,7 @@ x = {0b001001: y}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -41,7 +41,7 @@ x = {0b001001: y}
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,
@@ -49,7 +49,7 @@ x = {0b001001: y}
                                     "end": 16
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 9,
                                     "rawText": "0b001001",
                                     "flags": 8389376,

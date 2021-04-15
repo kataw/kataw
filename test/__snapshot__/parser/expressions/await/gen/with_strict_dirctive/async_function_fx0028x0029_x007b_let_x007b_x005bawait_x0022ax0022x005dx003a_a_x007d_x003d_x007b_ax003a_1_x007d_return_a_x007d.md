@@ -25,7 +25,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -50,7 +50,7 @@
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -103,7 +103,7 @@
                                                                     "end": 49
                                                                 },
                                                                 "expression": {
-                                                                    "kind": 67174403,
+                                                                    "kind": 201392131,
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 768,
@@ -122,7 +122,7 @@
                                                             "kind": 203,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 768,
@@ -160,7 +160,7 @@
                                                     {
                                                         "kind": 219,
                                                         "left": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 768,
@@ -168,7 +168,7 @@
                                                             "end": 68
                                                         },
                                                         "right": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -212,7 +212,7 @@
                                 "end": 80
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -253,44 +253,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: async function f() {
->            let { [await "a"]: a } = { a: 1 };
->            return a;
->          }
-## Input
-
-`````js
-'use strict'; async function f() {
-  let { [await "a"]: a } = { a: 1 };
-  return a;
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: async function f() {
->            let { [await "a"]: a } = { a: 1 };
->            return a;
->          }
-## Input
 
-`````js
-'use strict'; async function f() {
-  let { [await "a"]: a } = { a: 1 };
-  return a;
-}
-`````
 ```
 

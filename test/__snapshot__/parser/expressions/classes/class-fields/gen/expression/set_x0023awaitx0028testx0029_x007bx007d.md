@@ -29,7 +29,7 @@ class C extends Base { set #await(test) {} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -46,7 +46,7 @@ class C extends Base { set #await(test) {} }
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
                     "flags": 768,
@@ -82,7 +82,7 @@ class C extends Base { set #await(test) {} }
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 768,
@@ -149,32 +149,12 @@ class C extends Base { set #await(test) {} }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: set #await(test) {}
-## Input
-
-`````js
-class C extends Base { set #await(test) {} }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: set #await(test) {}
-## Input
 
-`````js
-class C extends Base { set #await(test) {} }
-`````
 ```
 

@@ -29,7 +29,7 @@ class C { await; }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -47,7 +47,7 @@ class C { await; }
                         "declaredToken": null,
                         "staticToken": null,
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -107,32 +107,12 @@ class C { await; }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: await;
-## Input
-
-`````js
-class C { await; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: await;
-## Input
 
-`````js
-class C { await; }
-`````
 ```
 

@@ -98,32 +98,12 @@ new async (x, y) => ok
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: async (x, y) => ok
-## Input
-
-`````js
-new async (x, y) => ok
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: async (x, y) => ok
-## Input
 
-`````js
-new async (x, y) => ok
-`````
 ```
 

@@ -27,6 +27,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -42,7 +43,7 @@
                                 {
                                     "kind": 224,
                                     "argument": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
                                         "flags": 768,
@@ -71,7 +72,7 @@
                         "end": 13
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -104,7 +105,7 @@
                                 {
                                     "kind": 224,
                                     "argument": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
                                         "flags": 768,
@@ -133,7 +134,7 @@
                         "end": 34
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -166,7 +167,7 @@
                                 {
                                     "kind": 224,
                                     "argument": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -235,7 +236,7 @@
                                 {
                                     "kind": 224,
                                     "argument": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
                                         "flags": 768,
@@ -249,7 +250,7 @@
                                 {
                                     "kind": 224,
                                     "argument": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "obj2",
                                         "rawText": "obj2",
                                         "flags": 768,
@@ -278,7 +279,7 @@
                         "end": 79
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -316,7 +317,7 @@
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -324,7 +325,7 @@
                                                     "end": 94
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -364,7 +365,7 @@
                         "end": 100
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -402,7 +403,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -410,7 +411,7 @@
                                                     "end": 115
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -449,7 +450,7 @@
                         "end": 121
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -487,7 +488,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -495,7 +496,7 @@
                                                     "end": 136
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -534,7 +535,7 @@
                         "end": 143
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -572,7 +573,7 @@
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -580,7 +581,7 @@
                                                     "end": 156
                                                 },
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -620,7 +621,7 @@
                         "end": 163
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,

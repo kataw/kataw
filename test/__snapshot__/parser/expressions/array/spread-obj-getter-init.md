@@ -20,6 +20,7 @@ var callCount = 0;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -35,7 +36,7 @@ var callCount = 0;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "o",
                             "rawText": "o",
                             "flags": 768,
@@ -52,7 +53,7 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 768,
@@ -60,7 +61,7 @@ var callCount = 0;
                                             "end": 13
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -74,7 +75,7 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,
@@ -82,7 +83,7 @@ var callCount = 0;
                                             "end": 19
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -131,7 +132,7 @@ var callCount = 0;
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "executedGetter",
                             "rawText": "executedGetter",
                             "flags": 768,
@@ -174,7 +175,7 @@ var callCount = 0;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "callCount",
                             "rawText": "callCount",
                             "flags": 768,
@@ -184,7 +185,7 @@ var callCount = 0;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -230,7 +231,7 @@ var callCount = 0;
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 768,
@@ -272,7 +273,7 @@ var callCount = 0;
                             "end": 90
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 768,
@@ -307,7 +308,7 @@ var callCount = 0;
                                                     {
                                                         "kind": 224,
                                                         "argument": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 768,
@@ -321,7 +322,7 @@ var callCount = 0;
                                                     {
                                                         "kind": 209,
                                                         "name": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,

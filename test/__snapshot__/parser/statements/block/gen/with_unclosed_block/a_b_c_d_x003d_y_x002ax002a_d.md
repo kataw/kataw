@@ -88,7 +88,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -110,7 +110,7 @@
                             "kind": 132,
                             "expressions": [
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -118,7 +118,7 @@
                                     "end": 19
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -126,7 +126,7 @@
                                     "end": 21
                                 },
                                 {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 768,
@@ -157,7 +157,7 @@
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
                     "flags": 768,
@@ -173,7 +173,7 @@
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,
@@ -187,7 +187,7 @@
                         "end": 33
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -293,32 +293,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: a,b, c d = y ** d
-## Input
-
-`````js
-{ {} finally(x) { a,b, c d = y ** d
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: a,b, c d = y ** d
-## Input
 
-`````js
-{ {} finally(x) { a,b, c d = y ** d
-`````
 ```
 

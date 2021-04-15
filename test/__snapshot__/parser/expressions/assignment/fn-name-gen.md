@@ -22,6 +22,7 @@ gen = function*() {};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -37,7 +38,7 @@ gen = function*() {};
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "xGen",
                             "rawText": "xGen",
                             "flags": 768,
@@ -54,7 +55,7 @@ gen = function*() {};
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "gen",
                             "rawText": "gen",
                             "flags": 768,
@@ -82,7 +83,7 @@ gen = function*() {};
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "xGen",
                     "rawText": "xGen",
                     "flags": 768,
@@ -111,7 +112,7 @@ gen = function*() {};
                         "end": 32
                     },
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -160,7 +161,7 @@ gen = function*() {};
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "gen",
                     "rawText": "gen",
                     "flags": 768,

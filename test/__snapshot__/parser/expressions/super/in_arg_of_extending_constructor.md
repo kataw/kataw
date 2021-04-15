@@ -13,6 +13,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -41,7 +42,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -63,7 +64,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,
@@ -107,7 +108,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                     {
                                                         "kind": 125,
                                                         "left": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -135,7 +136,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                                 "end": 50
                                                             },
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 768,
@@ -155,7 +156,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                 "asyncToken": null,
                                                 "returnType": null,
                                                 "contents": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,

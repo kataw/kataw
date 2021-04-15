@@ -38,7 +38,7 @@ for (void a.b in c);
                 "expression": {
                     "kind": 129,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -46,7 +46,7 @@ for (void a.b in c);
                         "end": 11
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -63,7 +63,7 @@ for (void a.b in c);
                 "end": 13
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -103,32 +103,12 @@ for (void a.b in c);
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: lhs is void
-> :: case: false
-## Input
-
-`````js
-for (void a.b in c);
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: lhs is void
-> :: case: false
-## Input
 
-`````js
-for (void a.b in c);
-`````
 ```
 

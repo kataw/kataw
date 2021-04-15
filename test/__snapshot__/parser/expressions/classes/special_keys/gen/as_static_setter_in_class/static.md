@@ -29,7 +29,7 @@ class x {static set static(x){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -53,7 +53,7 @@ class x {static set static(x){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 768,
@@ -68,7 +68,7 @@ class x {static set static(x){}}
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -135,32 +135,12 @@ class x {static set static(x){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: static
-## Input
-
-`````js
-class x {static set static(x){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: static
-## Input
 
-`````js
-class x {static set static(x){}}
-`````
 ```
 

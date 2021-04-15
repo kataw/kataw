@@ -20,6 +20,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -40,7 +41,7 @@
                                     "end": 18
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -54,7 +55,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -128,7 +129,7 @@
                                     "end": 60
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -142,7 +143,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -216,7 +217,7 @@
                                     "end": 99
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -230,7 +231,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -245,7 +246,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -323,7 +324,7 @@
                                     "end": 144
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -337,7 +338,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -376,7 +377,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -391,7 +392,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -469,7 +470,7 @@
                                     "end": 208
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -483,7 +484,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -557,7 +558,7 @@
                                     "end": 249
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -571,7 +572,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -586,7 +587,7 @@
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -664,7 +665,7 @@
                                     "end": 294
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 768,
@@ -676,7 +677,7 @@
                                 "end": 294
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 768,
@@ -712,7 +713,7 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 768,
@@ -720,7 +721,7 @@
                                 "end": 322
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 768,

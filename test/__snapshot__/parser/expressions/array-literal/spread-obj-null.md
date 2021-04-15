@@ -14,6 +14,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -41,7 +42,7 @@
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 768,
@@ -83,7 +84,7 @@
                             "end": 18
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 768,

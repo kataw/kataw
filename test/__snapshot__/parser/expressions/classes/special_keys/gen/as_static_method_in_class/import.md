@@ -29,7 +29,7 @@ class x {static import(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -53,7 +53,7 @@ class x {static import(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "import",
                                 "rawText": "import",
                                 "flags": 768,
@@ -116,32 +116,12 @@ class x {static import(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static method in class
-> :: case: import
-## Input
-
-`````js
-class x {static import(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static method in class
-> :: case: import
-## Input
 
-`````js
-class x {static import(){}}
-`````
 ```
 

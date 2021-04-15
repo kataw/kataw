@@ -61,7 +61,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "kind": 222,
                                                             "ellipsisToken": null,
                                                             "left": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 768,
@@ -69,7 +69,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                                 "end": 12
                                                             },
                                                             "right": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": 5,
                                                                 "rawText": "5",
                                                                 "flags": 768,
@@ -122,7 +122,7 @@ var { ...{ x = 5 } } = {x : 1};
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -130,7 +130,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "end": 29
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,

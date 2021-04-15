@@ -19,7 +19,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 67109632,
@@ -33,7 +33,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 769,

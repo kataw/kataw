@@ -117,32 +117,12 @@ bar, eval => { 'use strict'; 0 };
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: conditional_last
-> :: case: eval => { 'use strict'; 0 }
-## Input
-
-`````js
-bar, eval => { 'use strict'; 0 };
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: conditional_last
-> :: case: eval => { 'use strict'; 0 }
-## Input
 
-`````js
-bar, eval => { 'use strict'; 0 };
-`````
 ```
 

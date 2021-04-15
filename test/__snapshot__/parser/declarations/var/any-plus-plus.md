@@ -66,7 +66,6 @@ var z = x + x;
                                 "start": 6,
                                 "end": 10
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 5,
                             "end": 10

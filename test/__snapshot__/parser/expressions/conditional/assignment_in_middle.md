@@ -13,13 +13,14 @@ a?b=c:d
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -35,7 +36,7 @@ a?b=c:d
                 "consequent": {
                     "kind": 125,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -49,7 +50,7 @@ a?b=c:d
                         "end": 4
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -67,7 +68,7 @@ a?b=c:d
                     "end": 6
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
                     "flags": 768,

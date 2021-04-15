@@ -121,32 +121,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { triple
-> :: case: import.call
-## Input
-
-`````js
-{ { { import.call
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { triple
-> :: case: import.call
-## Input
 
-`````js
-{ { { import.call
-`````
 ```
 

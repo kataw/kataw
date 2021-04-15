@@ -33,7 +33,7 @@ class x extends y {
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -50,7 +50,7 @@ class x extends y {
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -72,7 +72,7 @@ class x extends y {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,
@@ -123,7 +123,7 @@ class x extends y {
                                                                             "end": 56
                                                                         },
                                                                         "expression": {
-                                                                            "kind": 81921,
+                                                                            "kind": 134299649,
                                                                             "text": "cool",
                                                                             "rawText": "cool",
                                                                             "flags": 768,
@@ -135,7 +135,7 @@ class x extends y {
                                                                         "end": 62
                                                                     },
                                                                     "right": {
-                                                                        "kind": 67174403,
+                                                                        "kind": 201392131,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 768,
@@ -164,7 +164,7 @@ class x extends y {
                                                         "end": 65
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -224,40 +224,12 @@ class x extends y {
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: destructuring with string key
-> :: case: super[cool]
-## Input
-
-`````js
-class x extends y {
-  constructor() {
-    ({"foo": super[cool]} = x)
-  }
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: destructuring with string key
-> :: case: super[cool]
-## Input
 
-`````js
-class x extends y {
-  constructor() {
-    ({"foo": super[cool]} = x)
-  }
-}
-`````
 ```
 

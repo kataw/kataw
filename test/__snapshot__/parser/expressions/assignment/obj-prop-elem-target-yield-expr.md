@@ -21,6 +21,7 @@ result = { x: x[yield] } = vals;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -36,7 +37,7 @@ result = { x: x[yield] } = vals;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "vals",
                             "rawText": "vals",
                             "flags": 768,
@@ -53,7 +54,7 @@ result = { x: x[yield] } = vals;
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 23,
                                             "rawText": "23",
                                             "flags": 768,
@@ -61,7 +62,7 @@ result = { x: x[yield] } = vals;
                                             "end": 18
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -101,7 +102,7 @@ result = { x: x[yield] } = vals;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
                     "flags": 768,
@@ -126,7 +127,7 @@ result = { x: x[yield] } = vals;
                                     "left": {
                                         "kind": 130,
                                         "member": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -134,7 +135,7 @@ result = { x: x[yield] } = vals;
                                             "end": 38
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 768,
@@ -146,7 +147,7 @@ result = { x: x[yield] } = vals;
                                         "end": 45
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -175,7 +176,7 @@ result = { x: x[yield] } = vals;
                         "end": 49
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 768,

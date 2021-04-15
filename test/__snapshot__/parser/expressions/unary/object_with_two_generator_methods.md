@@ -13,13 +13,14 @@ wrap({* foo(){},*bar(){}});
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -37,7 +38,7 @@ wrap({* foo(){},*bar(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -76,7 +77,7 @@ wrap({* foo(){},*bar(){}});
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 768,

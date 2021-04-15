@@ -45,7 +45,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "static",
                                         "rawText": "static",
                                         "flags": 768,
@@ -60,7 +60,7 @@
                                                 "kind": 215,
                                                 "ellipsisToken": null,
                                                 "binding": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
                                                     "flags": 768,
@@ -135,32 +135,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: class-expr
-> :: case: set static(v) {}
-## Input
-
-`````js
-(class { set static(v) {} });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: class-expr
-> :: case: set static(v) {}
-## Input
 
-`````js
-(class { set static(v) {} });
-`````
 ```
 

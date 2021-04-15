@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface ObjectTypeSpreadProperty extends SyntaxNode {
@@ -20,7 +20,6 @@ export function createObjectTypeSpreadProperty(
     key,
     argument,
     staticToken,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

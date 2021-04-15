@@ -35,7 +35,7 @@ _ => _
                 },
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "_",
                     "rawText": "_",
                     "flags": 768,
@@ -49,7 +49,7 @@ _ => _
                     "left": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "_",
                             "rawText": "_",
                             "flags": 768,
@@ -63,7 +63,7 @@ _ => _
                             "end": 8
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,

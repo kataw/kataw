@@ -13,6 +13,7 @@ class x { foo(){ super.foo; }}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class x { foo(){ super.foo; }}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -43,7 +44,7 @@ class x { foo(){ super.foo; }}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 768,
@@ -83,7 +84,7 @@ class x { foo(){ super.foo; }}
                                                     "end": 22
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 768,

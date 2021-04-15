@@ -214,32 +214,12 @@ do do do /**/ /x do while while while while
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: do triple
-> :: case: /**/ /x do while
-## Input
-
-`````js
-do do do /**/ /x do while while while while
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: do triple
-> :: case: /**/ /x do while
-## Input
 
-`````js
-do do do /**/ /x do while while while while
-`````
 ```
 

@@ -54,7 +54,7 @@ for ({x:a.b}=x in x) ;
                                 "left": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -62,7 +62,7 @@ for ({x:a.b}=x in x) ;
                                         "end": 9
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -75,7 +75,7 @@ for ({x:a.b}=x in x) ;
                                     "end": 11
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -106,7 +106,7 @@ for ({x:a.b}=x in x) ;
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -120,7 +120,7 @@ for ({x:a.b}=x in x) ;
                         "end": 17
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -193,12 +193,12 @@ for ({x:a.b}=x in x) ;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -35,7 +35,7 @@ async function a(){     async ([v] = await bar);     }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -59,7 +59,7 @@ async function a(){     async ([v] = await bar);     }
                         {
                             "kind": 131,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 768,
@@ -77,7 +77,7 @@ async function a(){     async ([v] = await bar);     }
                                                 "kind": 270,
                                                 "elements": [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "v",
                                                         "rawText": "v",
                                                         "flags": 768,
@@ -109,7 +109,7 @@ async function a(){     async ([v] = await bar);     }
                                                 "end": 42
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 768,
@@ -170,32 +170,12 @@ async function a(){     async ([v] = await bar);     }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: async function a(){     async ([v] = await bar);     }
-## Input
-
-`````js
-async function a(){     async ([v] = await bar);     }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: async function a(){     async ([v] = await bar);     }
-## Input
 
-`````js
-async function a(){     async ([v] = await bar);     }
-`````
 ```
 

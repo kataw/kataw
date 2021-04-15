@@ -39,7 +39,7 @@ var await; var f = (async function() { async function f() {
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -76,7 +76,7 @@ var await; var f = (async function() { async function f() {
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -133,7 +133,7 @@ var await; var f = (async function() { async function f() {
                                                 },
                                                 "generatorToken": null,
                                                 "name": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 768,
@@ -186,7 +186,7 @@ var await; var f = (async function() { async function f() {
                                                                                                         "end": 74
                                                                                                     },
                                                                                                     "expression": {
-                                                                                                        "kind": 67174403,
+                                                                                                        "kind": 201392131,
                                                                                                         "text": "a",
                                                                                                         "rawText": "a",
                                                                                                         "flags": 768,
@@ -205,7 +205,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "kind": 203,
                                                                                                 "ellipsisToken": null,
                                                                                                 "binding": {
-                                                                                                    "kind": 81921,
+                                                                                                    "kind": 134299649,
                                                                                                     "text": "a",
                                                                                                     "rawText": "a",
                                                                                                     "flags": 768,
@@ -243,7 +243,7 @@ var await; var f = (async function() { async function f() {
                                                                                         {
                                                                                             "kind": 219,
                                                                                             "left": {
-                                                                                                "kind": 81921,
+                                                                                                "kind": 134299649,
                                                                                                 "text": 1,
                                                                                                 "rawText": "1",
                                                                                                 "flags": 768,
@@ -251,7 +251,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "end": 93
                                                                                             },
                                                                                             "right": {
-                                                                                                "kind": 81921,
+                                                                                                "kind": 134299649,
                                                                                                 "text": "a",
                                                                                                 "rawText": "a",
                                                                                                 "flags": 768,
@@ -295,7 +295,7 @@ var await; var f = (async function() { async function f() {
                                                                     "end": 105
                                                                 },
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 768,
@@ -369,44 +369,12 @@ var await; var f = (async function() { async function f() {
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: async function f() {
->            let { [await "a"]: a } = { a: 1 };
->            return a;
->          }
-## Input
-
-`````js
-var await; var f = (async function() { async function f() {
-  let { [await "a"]: a } = { a: 1 };
-  return a;
-} });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: async function f() {
->            let { [await "a"]: a } = { a: 1 };
->            return a;
->          }
-## Input
 
-`````js
-var await; var f = (async function() { async function f() {
-  let { [await "a"]: a } = { a: 1 };
-  return a;
-} });
-`````
 ```
 

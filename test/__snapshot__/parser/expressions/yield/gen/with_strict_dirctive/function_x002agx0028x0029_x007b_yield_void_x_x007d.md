@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -44,7 +44,7 @@
                 "end": 24
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
@@ -86,7 +86,7 @@
                                         "end": 40
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -135,32 +135,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function *g() { yield void x }
-## Input
-
-`````js
-'use strict'; function *g() { yield void x }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function *g() { yield void x }
-## Input
 
-`````js
-'use strict'; function *g() { yield void x }
-`````
 ```
 

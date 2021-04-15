@@ -13,6 +13,7 @@ switch([x = y]) { case y: foo }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -30,7 +31,7 @@ switch([x = y]) { case y: foo }
                         {
                             "kind": 125,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -44,7 +45,7 @@ switch([x = y]) { case y: foo }
                                 "end": 11
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -77,7 +78,7 @@ switch([x = y]) { case y: foo }
                             "end": 22
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -88,7 +89,7 @@ switch([x = y]) { case y: foo }
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,

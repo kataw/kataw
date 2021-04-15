@@ -64,13 +64,11 @@ type T<U> = U;
                             "end": 8
                         },
                         "typeParameters": null,
-                        "autofix": 0,
                         "flags": 0,
                         "start": 7,
                         "end": 8
                     }
                 ],
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 9
@@ -86,7 +84,6 @@ type T<U> = U;
                     "end": 13
                 },
                 "typeParameters": null,
-                "autofix": 0,
                 "flags": 0,
                 "start": 11,
                 "end": 13

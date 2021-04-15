@@ -29,7 +29,7 @@ class x {get debugger(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -48,7 +48,7 @@ class x {get debugger(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "debugger",
                                 "rawText": "debugger",
                                 "flags": 768,
@@ -111,32 +111,12 @@ class x {get debugger(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as getter in class
-> :: case: debugger
-## Input
-
-`````js
-class x {get debugger(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as getter in class
-> :: case: debugger
-## Input
 
-`````js
-class x {get debugger(){}}
-`````
 ```
 

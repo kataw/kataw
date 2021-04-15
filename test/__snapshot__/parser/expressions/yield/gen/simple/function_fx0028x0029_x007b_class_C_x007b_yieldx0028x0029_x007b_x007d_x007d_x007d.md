@@ -30,7 +30,7 @@ function f() { class C { yield() { } } }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -61,7 +61,7 @@ function f() { class C { yield() { } } }
                                 "end": 20
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 768,
@@ -80,7 +80,7 @@ function f() { class C { yield() { } } }
                                         "method": {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 768,
@@ -159,32 +159,12 @@ function f() { class C { yield() { } } }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function f() { class C { yield() { } } }
-## Input
-
-`````js
-function f() { class C { yield() { } } }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function f() { class C { yield() { } } }
-## Input
 
-`````js
-function f() { class C { yield() { } } }
-`````
 ```
 

@@ -20,6 +20,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -33,7 +34,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 768,
@@ -100,7 +101,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "interface",
                                     "rawText": "interface",
                                     "flags": 768,
@@ -167,7 +168,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "in",
                                     "rawText": "in",
                                     "flags": 768,
@@ -234,7 +235,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "of",
                                     "rawText": "of",
                                     "flags": 768,

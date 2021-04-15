@@ -28,7 +28,7 @@ do {} while (x) { try { !xxx
                 "end": 2
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -88,7 +88,7 @@ do {} while (x) { try { !xxx
                                                 "end": 25
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "xxx",
                                                 "rawText": "xxx",
                                                 "flags": 768,
@@ -190,32 +190,12 @@ do {} while (x) { try { !xxx
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: do with unclosed block
-> :: case: try { !xxx
-## Input
-
-`````js
-do {} while (x) { try { !xxx
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: do with unclosed block
-> :: case: try { !xxx
-## Input
 
-`````js
-do {} while (x) { try { !xxx
-`````
 ```
 

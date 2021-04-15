@@ -13,13 +13,14 @@ async + 10;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
                     "flags": 768,
@@ -33,7 +34,7 @@ async + 10;
                     "end": 7
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 10,
                     "rawText": "10",
                     "flags": 768,

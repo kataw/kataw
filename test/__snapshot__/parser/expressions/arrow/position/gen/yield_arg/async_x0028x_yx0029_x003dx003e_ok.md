@@ -154,36 +154,12 @@ function *f() {
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: yield arg
-> :: case: async (x, y) => ok
-## Input
-
-`````js
-function *f() {
-  yield async (x, y) => ok
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: yield arg
-> :: case: async (x, y) => ok
-## Input
 
-`````js
-function *f() {
-  yield async (x, y) => ok
-}
-`````
 ```
 

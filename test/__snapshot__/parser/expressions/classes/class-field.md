@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,7 +29,7 @@
                         "end": 6
                     },
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
                         "flags": 768,
@@ -46,7 +47,7 @@
                                 "declaredToken": null,
                                 "staticToken": null,
                                 "key": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,

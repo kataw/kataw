@@ -29,7 +29,7 @@ class x {static set true(x){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -42,91 +42,128 @@ class x {static set true(x){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 278,
+                        "kind": 280,
                         "decorators": null,
+                        "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
-                        "method": {
-                            "kind": 209,
-                            "name": {
-                                "kind": 81921,
-                                "text": "true",
-                                "rawText": "true",
-                                "flags": 768,
-                                "start": 19,
-                                "end": 24
-                            },
-                            "typeParameters": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [
-                                    {
-                                        "kind": 215,
-                                        "ellipsisToken": null,
-                                        "binding": {
-                                            "kind": 81921,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 768,
-                                            "start": 25,
-                                            "end": 26
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 256,
-                                        "start": 25,
-                                        "end": 26
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 4352,
-                                "start": 25,
-                                "end": 27
-                            },
-                            "type": null,
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
-                                    "multiline": false,
-                                    "flags": 256,
-                                    "start": 28,
-                                    "end": 28
-                                },
-                                "flags": 256,
-                                "start": 27,
-                                "end": 29
-                            },
-                            "flags": 4096,
-                            "start": 24,
-                            "end": 29
+                        "key": {
+                            "kind": 16637,
+                            "text": "",
+                            "autofix": 0,
+                            "flags": 12,
+                            "start": 19,
+                            "end": 19
                         },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
                         "flags": 256,
                         "start": 15,
-                        "end": 29
+                        "end": 19
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 30
+                "end": 19
             },
             "flags": 128,
             "start": 0,
-            "end": 30
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 134,
+                    "text": true,
+                    "flags": 768,
+                    "start": 19,
+                    "end": 24
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 25,
+                            "end": 26
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 256,
+                    "start": 25,
+                    "end": 26
+                },
+                "flags": 256,
+                "start": 19,
+                "end": 27
+            },
+            "flags": 128,
+            "start": 19,
+            "end": 27
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "multiLine": false,
+                "flags": 128,
+                "start": 28,
+                "end": 28
+            },
+            "flags": 128,
+            "start": 27,
+            "end": 29
         }
     ],
     "isModule": false,
     "text": "class x {static set true(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 18,
+            "error": "A rest element cannot have an initializer",
+            "start": 19,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 19,
+            "end": 24
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 27,
+            "end": 28
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 29,
+            "end": 30
+        }
+    ],
     "start": 0,
     "end": 30
 }
@@ -135,32 +172,12 @@ class x {static set true(x){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: true
-## Input
-
-`````js
-class x {static set true(x){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: true
-## Input
 
-`````js
-class x {static set true(x){}}
-`````
 ```
 

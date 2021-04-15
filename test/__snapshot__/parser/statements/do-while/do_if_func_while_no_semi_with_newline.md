@@ -14,6 +14,7 @@ while(y)
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 169,
@@ -24,7 +25,7 @@ while(y)
                 "end": 2
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,
@@ -46,7 +47,7 @@ while(y)
                     "end": 5
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 8,
                     "rawText": "8",
                     "flags": 768,
@@ -64,7 +65,7 @@ while(y)
                     },
                     "generatorToken": null,
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "s",
                         "rawText": "s",
                         "flags": 768,

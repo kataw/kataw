@@ -29,7 +29,7 @@ class x {static set import(x){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -53,7 +53,7 @@ class x {static set import(x){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "import",
                                 "rawText": "import",
                                 "flags": 768,
@@ -68,7 +68,7 @@ class x {static set import(x){}}
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -135,32 +135,12 @@ class x {static set import(x){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: import
-## Input
-
-`````js
-class x {static set import(x){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static setter in class
-> :: case: import
-## Input
 
-`````js
-class x {static set import(x){}}
-`````
 ```
 

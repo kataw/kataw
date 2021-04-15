@@ -31,7 +31,7 @@ await => async
                 },
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
                     "flags": 768,
@@ -41,7 +41,7 @@ await => async
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
                     "flags": 768,
@@ -70,32 +70,12 @@ await => async
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: await => async
-## Input
-
-`````js
-await => async
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: await => async
-## Input
 
-`````js
-await => async
-`````
 ```
 

@@ -17,6 +17,7 @@ class C extends (
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -28,7 +29,7 @@ class C extends (
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -50,7 +51,7 @@ class C extends (
                         "kind": 132,
                         "expressions": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -58,7 +59,7 @@ class C extends (
                                 "end": 21
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 768,

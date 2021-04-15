@@ -30,7 +30,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 768,
@@ -44,7 +44,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 768,
@@ -73,7 +73,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 768,
@@ -105,7 +105,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -118,7 +118,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 768,
@@ -134,7 +134,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                             "right": {
                                 "kind": 131,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 768,
@@ -145,7 +145,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                     "kind": 256,
                                     "elements": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -227,32 +227,12 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function yield(yield) { yield: yield (yield + yield(0)); }
-## Input
-
-`````js
-function yield(yield) { yield: yield (yield + yield(0)); }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function yield(yield) { yield: yield (yield + yield(0)); }
-## Input
 
-`````js
-function yield(yield) { yield: yield (yield + yield(0)); }
-`````
 ```
 

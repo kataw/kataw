@@ -29,7 +29,7 @@ class x {static async * implements(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -53,7 +53,7 @@ class x {static async * implements(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "implements",
                                 "rawText": "implements",
                                 "flags": 768,
@@ -116,32 +116,12 @@ class x {static async * implements(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static async generator in class
-> :: case: implements
-## Input
-
-`````js
-class x {static async * implements(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static async generator in class
-> :: case: implements
-## Input
 
-`````js
-class x {static async * implements(){}}
-`````
 ```
 

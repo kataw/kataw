@@ -146,14 +146,6 @@ const q
         {
             "kind": 2,
             "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 7,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 3,
             "error": "Identifier expected",
             "start": 7,
@@ -176,12 +168,12 @@ const q
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -34,7 +34,7 @@ for (x = y in z) ;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -50,7 +50,7 @@ for (x = y in z) ;
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,
@@ -64,7 +64,7 @@ for (x = y in z) ;
                         "end": 13
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
                         "flags": 768,
@@ -137,12 +137,12 @@ for (x = y in z) ;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

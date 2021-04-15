@@ -13,6 +13,7 @@ switch(y&[]=y){}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 160,
@@ -25,7 +26,7 @@ switch(y&[]=y){}
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -61,7 +62,7 @@ switch(y&[]=y){}
                         "end": 12
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,

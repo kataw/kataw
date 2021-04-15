@@ -15,6 +15,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,13 +29,13 @@
                             {
                                 "kind": 210,
                                 "newKeyword": {
-                                    "kind": 4259933,
+                                    "kind": 138477661,
                                     "flags": 768,
                                     "start": 2,
                                     "end": 5
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -72,7 +73,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -87,13 +88,13 @@
                                     {
                                         "kind": 210,
                                         "newKeyword": {
-                                            "kind": 4259933,
+                                            "kind": 138477661,
                                             "flags": 768,
                                             "start": 17,
                                             "end": 20
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 768,

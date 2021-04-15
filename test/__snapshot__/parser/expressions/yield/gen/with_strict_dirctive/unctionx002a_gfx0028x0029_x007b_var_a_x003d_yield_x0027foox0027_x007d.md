@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -33,7 +33,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "unction",
                     "rawText": "unction",
                     "flags": 768,
@@ -49,7 +49,7 @@
                 "right": {
                     "kind": 131,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "gf",
                         "rawText": "gf",
                         "flags": 768,
@@ -95,7 +95,7 @@
                                 {
                                     "kind": 157,
                                     "binding": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -105,7 +105,7 @@
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 768,
@@ -138,7 +138,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 67109632,
@@ -204,32 +204,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: unction* gf() { var a = yield 'foo'; }
-## Input
-
-`````js
-'use strict'; unction* gf() { var a = yield 'foo'; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: unction* gf() { var a = yield 'foo'; }
-## Input
 
-`````js
-'use strict'; unction* gf() { var a = yield 'foo'; }
-`````
 ```
 

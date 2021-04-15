@@ -48,7 +48,7 @@ for(var i;;);
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "i",
                             "rawText": "i",
                             "flags": 768,
@@ -93,12 +93,12 @@ for(var i;;);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

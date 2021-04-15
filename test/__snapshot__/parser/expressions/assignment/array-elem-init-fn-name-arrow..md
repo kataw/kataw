@@ -20,13 +20,14 @@ result = [ arrow = () => {} ] = vals;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
                     "flags": 768,
@@ -49,7 +50,7 @@ result = [ arrow = () => {} ] = vals;
                                 {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 768,
@@ -114,7 +115,7 @@ result = [ arrow = () => {} ] = vals;
                         "end": 31
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 768,

@@ -13,6 +13,7 @@ class x{   static async static(){}    }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class x{   static async static(){}    }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -48,7 +49,7 @@ class x{   static async static(){}    }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 768,

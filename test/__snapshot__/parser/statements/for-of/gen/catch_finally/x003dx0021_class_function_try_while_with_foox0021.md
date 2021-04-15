@@ -195,7 +195,7 @@ catch =! class function try while with foo! finally
                 "end": 38
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -452,32 +452,12 @@ catch =! class function try while with foo! finally
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: =! class function try while with foo!
-## Input
-
-`````js
-catch =! class function try while with foo! finally
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: =! class function try while with foo!
-## Input
 
-`````js
-catch =! class function try while with foo! finally
-`````
 ```
 

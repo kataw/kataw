@@ -13,13 +13,14 @@ x = {eval}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -38,7 +39,7 @@ x = {eval}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "eval",
                                 "rawText": "eval",
                                 "flags": 768,

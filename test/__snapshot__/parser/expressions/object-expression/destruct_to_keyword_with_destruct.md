@@ -13,13 +13,14 @@ s = {s: true = x} = x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -57,7 +58,7 @@ s = {s: true = x} = x
                                             "end": 14
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -69,7 +70,7 @@ s = {s: true = x} = x
                                         "end": 16
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 768,
@@ -98,7 +99,7 @@ s = {s: true = x} = x
                         "end": 19
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -130,14 +131,6 @@ s = {s: true = x} = x
             "error": "The left-hand side of an assignment expression must be a variable or a property access",
             "start": 12,
             "end": 14
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 17,
-            "end": 19
         }
     ],
     "start": 0,

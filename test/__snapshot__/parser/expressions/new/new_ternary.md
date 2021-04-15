@@ -13,6 +13,7 @@ new a ? b : c
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,13 +22,13 @@ new a ? b : c
                 "shortCircuit": {
                     "kind": 210,
                     "newKeyword": {
-                        "kind": 4259933,
+                        "kind": 138477661,
                         "flags": 768,
                         "start": 0,
                         "end": 3
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -46,7 +47,7 @@ new a ? b : c
                     "end": 7
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -60,7 +61,7 @@ new a ? b : c
                     "end": 11
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
                     "flags": 768,

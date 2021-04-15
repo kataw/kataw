@@ -88,7 +88,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -252,7 +252,7 @@
                 "end": 50
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -472,32 +472,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: =! class function try while with foo!
-## Input
-
-`````js
-{ {} finally(x) { =! class function try while with foo!
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: =! class function try while with foo!
-## Input
 
-`````js
-{ {} finally(x) { =! class function try while with foo!
-`````
 ```
 

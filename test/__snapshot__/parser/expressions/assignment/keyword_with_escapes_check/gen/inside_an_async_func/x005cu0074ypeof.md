@@ -49,7 +49,7 @@ async () => {  \u0074ypeof = x  }
                                 "left": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 4259885,
+                                        "kind": 138477613,
                                         "flags": 768,
                                         "start": 13,
                                         "end": 26
@@ -73,7 +73,7 @@ async () => {  \u0074ypeof = x  }
                                     "end": 28
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -133,32 +133,12 @@ async () => {  \u0074ypeof = x  }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: \u0074ypeof
-## Input
-
-`````js
-async () => {  \u0074ypeof = x  }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: \u0074ypeof
-## Input
 
-`````js
-async () => {  \u0074ypeof = x  }
-`````
 ```
 

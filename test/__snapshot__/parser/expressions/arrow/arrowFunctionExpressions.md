@@ -90,7 +90,6 @@ var p10 = ([{ value, done }]) => { };
                                             "start": 11,
                                             "end": 18
                                         },
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 10,
                                         "end": 18
@@ -196,7 +195,6 @@ var p10 = ([{ value, done }]) => { };
                                             "start": 44,
                                             "end": 51
                                         },
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 43,
                                         "end": 51
@@ -499,7 +497,6 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 144,
                                 "end": 151
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 143,
                             "end": 151
@@ -739,7 +736,6 @@ var p10 = ([{ value, done }]) => { };
                                             "start": 205,
                                             "end": 209
                                         },
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 203,
                                         "end": 209
@@ -752,12 +748,10 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 217
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 203,
                                 "end": 217
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 200,
                             "end": 217

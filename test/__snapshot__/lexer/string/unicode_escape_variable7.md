@@ -34,7 +34,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "}",
                 "rawText": "}",
                 "flags": 131840,
@@ -48,7 +48,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\u0012",
                 "rawText": "\u0012",
                 "flags": 131841,
@@ -62,7 +62,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x123}@",
                 "rawText": "@{x123}@",
                 "flags": 131841,
@@ -76,7 +76,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x1234}@",
                 "rawText": "@{x1234}@",
                 "flags": 131841,
@@ -90,7 +90,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "H@{x345}@",
                 "rawText": "H@{x345}@",
                 "flags": 131841,
@@ -104,7 +104,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x40d}@V",
                 "rawText": "@{x40d}@V",
                 "flags": 131841,

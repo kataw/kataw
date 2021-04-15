@@ -47,7 +47,7 @@ async () => {  p\u0072ivate = x  }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "private",
                                     "rawText": "p\\u0072ivate",
                                     "flags": 768,
@@ -61,7 +61,7 @@ async () => {  p\u0072ivate = x  }
                                     "end": 29
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -104,32 +104,12 @@ async () => {  p\u0072ivate = x  }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: p\u0072ivate
-## Input
-
-`````js
-async () => {  p\u0072ivate = x  }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: c
-> :: test: inside an async func
-> :: case: p\u0072ivate
-## Input
 
-`````js
-async () => {  p\u0072ivate = x  }
-`````
 ```
 

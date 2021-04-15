@@ -59,6 +59,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -74,7 +75,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -82,7 +83,7 @@
                                         "end": 4
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 768,
@@ -156,7 +157,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -174,7 +175,7 @@
                                         "end": 29
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -217,7 +218,7 @@
                                         "end": 43
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -270,7 +271,7 @@
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -289,7 +290,7 @@
                                         "end": 59
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -332,7 +333,7 @@
                                         "end": 73
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -385,7 +386,7 @@
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -404,7 +405,7 @@
                                         "end": 89
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -440,7 +441,7 @@
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "undefined",
                                         "rawText": "undefined",
                                         "flags": 768,
@@ -448,7 +449,7 @@
                                         "end": 108
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -501,7 +502,7 @@
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -520,7 +521,7 @@
                                         "end": 124
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -589,7 +590,7 @@
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -597,7 +598,7 @@
                                         "end": 141
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -671,7 +672,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -689,7 +690,7 @@
                                         "end": 162
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -725,7 +726,7 @@
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "undefined",
                                         "rawText": "undefined",
                                         "flags": 768,
@@ -733,7 +734,7 @@
                                         "end": 181
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -800,7 +801,7 @@
                                         "expression": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -817,7 +818,7 @@
                                                 {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -833,7 +834,7 @@
                                                     "right": {
                                                         "kind": 121,
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 768,
@@ -899,7 +900,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -912,7 +913,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -953,7 +954,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -971,7 +972,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 768,
@@ -985,7 +986,7 @@
                                     "end": 231
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 768,
@@ -1030,7 +1031,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -1043,7 +1044,7 @@
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -1084,7 +1085,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -1102,7 +1103,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 768,
@@ -1118,7 +1119,7 @@
                                 "right": {
                                     "kind": 121,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 768,
@@ -1176,7 +1177,7 @@
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -1184,7 +1185,7 @@
                                                             "end": 273
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,
@@ -1203,7 +1204,7 @@
                                                         "end": 277
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1225,7 +1226,7 @@
                                         "end": 280
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -1256,7 +1257,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -1274,7 +1275,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 768,
@@ -1294,7 +1295,7 @@
                                         "expression": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -1316,7 +1317,7 @@
                                         "end": 300
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -1374,7 +1375,7 @@
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -1382,7 +1383,7 @@
                                                             "end": 313
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,
@@ -1401,7 +1402,7 @@
                                                         "end": 317
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1423,7 +1424,7 @@
                                         "end": 320
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -1454,7 +1455,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 2,
                             "rawText": "2",
                             "flags": 768,
@@ -1472,7 +1473,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "dd",
                                     "rawText": "dd",
                                     "flags": 768,
@@ -1492,7 +1493,7 @@
                                         "expression": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -1514,7 +1515,7 @@
                                         "end": 341
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 768,
@@ -1572,7 +1573,7 @@
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -1580,7 +1581,7 @@
                                                             "end": 354
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,
@@ -1599,7 +1600,7 @@
                                                         "end": 358
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1621,7 +1622,7 @@
                                         "end": 361
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -1652,7 +1653,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 2,
                             "rawText": "2",
                             "flags": 768,
@@ -1670,7 +1671,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "dd",
                                     "rawText": "dd",
                                     "flags": 768,
@@ -1690,7 +1691,7 @@
                                         "expression": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -1712,7 +1713,7 @@
                                         "end": 383
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 768,
@@ -1770,7 +1771,7 @@
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 768,
@@ -1778,7 +1779,7 @@
                                                             "end": 396
                                                         },
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 768,
@@ -1797,7 +1798,7 @@
                                                         "end": 400
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -1819,7 +1820,7 @@
                                         "end": 403
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -1850,7 +1851,7 @@
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -1868,7 +1869,7 @@
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 768,
@@ -1888,7 +1889,7 @@
                                         "expression": {
                                             "kind": 121,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -1910,7 +1911,7 @@
                                         "end": 423
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -1955,7 +1956,7 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -1963,7 +1964,7 @@
                                 "end": 433
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -1999,7 +2000,7 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -2009,7 +2010,7 @@
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -2017,7 +2018,7 @@
                                     "end": 449
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -2059,7 +2060,7 @@
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -2067,7 +2068,7 @@
                                     "end": 459
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -2079,7 +2080,7 @@
                                 "end": 459
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -2117,7 +2118,7 @@
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -2125,7 +2126,7 @@
                                     "end": 472
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -2137,7 +2138,7 @@
                                 "end": 472
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -2179,7 +2180,7 @@
                                     "left": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -2193,7 +2194,7 @@
                                             "end": 487
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -2205,7 +2206,7 @@
                                         "end": 489
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2234,7 +2235,7 @@
                         "end": 492
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -2269,7 +2270,7 @@
                                     "left": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -2283,7 +2284,7 @@
                                             "end": 505
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -2295,7 +2296,7 @@
                                         "end": 507
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2324,7 +2325,7 @@
                         "end": 510
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -2357,7 +2358,7 @@
                                 "left": {
                                     "kind": 198,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -2371,7 +2372,7 @@
                                         "end": 523
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -2383,7 +2384,7 @@
                                     "end": 525
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -2421,7 +2422,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2434,7 +2435,7 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2442,7 +2443,7 @@
                                         "end": 536
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2481,7 +2482,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2494,7 +2495,7 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2504,7 +2505,7 @@
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -2512,7 +2513,7 @@
                                             "end": 555
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -2555,7 +2556,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2570,7 +2571,7 @@
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -2578,7 +2579,7 @@
                                             "end": 568
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -2590,7 +2591,7 @@
                                         "end": 568
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2629,7 +2630,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2644,7 +2645,7 @@
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -2652,7 +2653,7 @@
                                             "end": 584
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -2664,7 +2665,7 @@
                                         "end": 584
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -2703,7 +2704,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2722,7 +2723,7 @@
                                             "left": {
                                                 "kind": 125,
                                                 "left": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -2736,7 +2737,7 @@
                                                     "end": 602
                                                 },
                                                 "right": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -2748,7 +2749,7 @@
                                                 "end": 604
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -2777,7 +2778,7 @@
                                 "end": 607
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 768,
@@ -2809,7 +2810,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2828,7 +2829,7 @@
                                             "left": {
                                                 "kind": 125,
                                                 "left": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -2842,7 +2843,7 @@
                                                     "end": 623
                                                 },
                                                 "right": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -2854,7 +2855,7 @@
                                                 "end": 625
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -2883,7 +2884,7 @@
                                 "end": 628
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 768,
@@ -2915,7 +2916,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -2932,7 +2933,7 @@
                                         "left": {
                                             "kind": 198,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -2946,7 +2947,7 @@
                                                 "end": 644
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -2958,7 +2959,7 @@
                                             "end": 646
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -3007,7 +3008,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "test",
                                         "rawText": "test",
                                         "flags": 768,
@@ -3015,7 +3016,7 @@
                                         "end": 658
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -3084,7 +3085,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -3092,7 +3093,7 @@
                                         "end": 675
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -3121,7 +3122,7 @@
                         "end": 682
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 1,
                         "rawText": "1",
                         "flags": 768,
@@ -3154,7 +3155,7 @@
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -3162,7 +3163,7 @@
                                         "end": 690
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -3191,7 +3192,7 @@
                         "end": 698
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 1,
                         "rawText": "1",
                         "flags": 768,
@@ -3224,7 +3225,7 @@
                                 {
                                     "kind": 219,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -3232,7 +3233,7 @@
                                         "end": 711
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "var",
                                         "rawText": "var",
                                         "flags": 768,
@@ -3261,7 +3262,7 @@
                         "end": 714
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -3290,7 +3291,7 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 768,
@@ -3298,7 +3299,7 @@
                                 "end": 724
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 768,
@@ -3306,7 +3307,7 @@
                                 "end": 727
                             },
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 768,
@@ -3321,7 +3322,7 @@
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -3371,7 +3372,7 @@
                     "expression": {
                         "kind": 121,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -3393,7 +3394,7 @@
                     "end": 750
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -3430,7 +3431,7 @@
                         "end": 758
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "length",
                         "rawText": "length",
                         "flags": 768,
@@ -3472,7 +3473,7 @@
                         "end": 771
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -3513,7 +3514,7 @@
                         "end": 779
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -3547,7 +3548,7 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -3565,7 +3566,7 @@
                             "end": 788
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -3588,7 +3589,7 @@
                     "end": 795
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -3615,7 +3616,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 15,
                                     "rawText": "15",
                                     "flags": 768,

@@ -30,13 +30,13 @@ for (new x in x) ;
             "initializer": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 5,
                     "end": 8
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -49,7 +49,7 @@ for (new x in x) ;
                 "end": 10
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -89,32 +89,12 @@ for (new x in x) ;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: new x
-## Input
-
-`````js
-for (new x in x) ;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: new x
-## Input
 
-`````js
-for (new x in x) ;
-`````
 ```
 

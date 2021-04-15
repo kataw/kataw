@@ -24,7 +24,7 @@ call(await)
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "call",
                     "rawText": "call",
                     "flags": 768,
@@ -35,7 +35,7 @@ call(await)
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -70,32 +70,12 @@ call(await)
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: call(await)
-## Input
-
-`````js
-call(await)
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: call(await)
-## Input
 
-`````js
-call(await)
-`````
 ```
 

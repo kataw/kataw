@@ -30,7 +30,7 @@ function not_gen() { var [yield] = [42]; }}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -73,7 +73,7 @@ function not_gen() { var [yield] = [42]; }}
                                                         "kind": 244,
                                                         "ellipsisToken": null,
                                                         "binding": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 768,
@@ -105,7 +105,7 @@ function not_gen() { var [yield] = [42]; }}
                                                 "kind": 270,
                                                 "elements": [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": 42,
                                                         "rawText": "42",
                                                         "flags": 768,
@@ -174,32 +174,12 @@ function not_gen() { var [yield] = [42]; }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var [yield] = [42];
-## Input
-
-`````js
-function not_gen() { var [yield] = [42]; }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: var [yield] = [42];
-## Input
 
-`````js
-function not_gen() { var [yield] = [42]; }}
-`````
 ```
 

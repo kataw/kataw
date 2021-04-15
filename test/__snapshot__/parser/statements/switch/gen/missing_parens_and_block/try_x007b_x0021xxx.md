@@ -79,7 +79,7 @@ switch case try { !xxx
                                                         "end": 19
                                                     },
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "xxx",
                                                         "rawText": "xxx",
                                                         "flags": 768,
@@ -233,32 +233,12 @@ switch case try { !xxx
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: try { !xxx
-## Input
-
-`````js
-switch case try { !xxx
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: try { !xxx
-## Input
 
-`````js
-switch case try { !xxx
-`````
 ```
 

@@ -40,7 +40,7 @@ x, [foo, bar] = doo
                 "kind": 132,
                 "expressions": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -55,7 +55,7 @@ x, [foo, bar] = doo
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,
@@ -63,7 +63,7 @@ x, [foo, bar] = doo
                                         "end": 7
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 768,
@@ -87,7 +87,7 @@ x, [foo, bar] = doo
                             "end": 15
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 768,
@@ -121,12 +121,12 @@ x, [foo, bar] = doo
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

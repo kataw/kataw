@@ -30,7 +30,7 @@ for (x = 0 in {});
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -46,7 +46,7 @@ for (x = 0 in {});
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -140,32 +140,12 @@ for (x = 0 in {});
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: lhs assignment
-> :: case: false
-## Input
-
-`````js
-for (x = 0 in {});
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: t
-> :: test: lhs assignment
-> :: case: false
-## Input
 
-`````js
-for (x = 0 in {});
-`````
 ```
 

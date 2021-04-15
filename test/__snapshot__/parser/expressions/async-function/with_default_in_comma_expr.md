@@ -20,6 +20,7 @@ x, [foo = y, bar] = doo
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -27,7 +28,7 @@ x, [foo = y, bar] = doo
                 "kind": 132,
                 "expressions": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -44,7 +45,7 @@ x, [foo = y, bar] = doo
                                     {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -58,7 +59,7 @@ x, [foo = y, bar] = doo
                                             "end": 9
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 768,
@@ -70,7 +71,7 @@ x, [foo = y, bar] = doo
                                         "end": 11
                                     },
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 768,
@@ -94,7 +95,7 @@ x, [foo = y, bar] = doo
                             "end": 19
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 768,

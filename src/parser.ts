@@ -4173,8 +4173,7 @@ function parseVariableDeclarationList(
     //
     // Same when we're parsing the variable declarator of a 'for-in' statement, we
     // are done if we see an 'in' keyword in front of us. Same with for-of
-
-    if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf)) break;
+    if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf) || parser.nodeFlags & NodeFlags.NewLine) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
       continue;
     }
@@ -4386,7 +4385,7 @@ function parseBindingList(
     //
     // Same when we're parsing the lexical binding of a 'for-in' statement, we
     // are done if we see an 'in' keyword in front of us. Same with for-of
-    if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf)) break;
+    if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf) || parser.nodeFlags & NodeFlags.NewLine) break;
 
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
       continue;
@@ -4509,7 +4508,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
         } else {
           indexers.push(parseObjectTypeIndexer(parser, context, staticToken, innerPos));
         }
-      } else if (parser.token === SyntaxKind.LessThan || parser.token === SyntaxKind.LeftParen) {
+      } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         callProperties.push(parseObjectTypeCallProperty(parser, context, staticToken, innerPos));
       } else if (parser.token === SyntaxKind.Ellipsis) {
         properties.push(parseObjectTypeSpreadProperty(parser, context, staticToken, innerPos));
@@ -4629,13 +4628,14 @@ function parseObjectTypeCallProperty(
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
+  const typeParameters = parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context) : null;
   consume(parser, context, SyntaxKind.LeftParen);
   const params = parseFunctionTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen);
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
-  return createObjectTypeCallProperty(params, staticToken, pos, parser.curPos);
+  return createObjectTypeCallProperty(typeParameters, params, staticToken, returnType, pos, parser.curPos);
 }
 
 function parseObjectTypeInternalSlot(

@@ -56,7 +56,7 @@ for (const [let] in obj);
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "let",
                                             "rawText": "let",
                                             "flags": 768,
@@ -93,7 +93,7 @@ for (const [let] in obj);
                 "end": 16
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 768,
@@ -124,12 +124,12 @@ for (const [let] in obj);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

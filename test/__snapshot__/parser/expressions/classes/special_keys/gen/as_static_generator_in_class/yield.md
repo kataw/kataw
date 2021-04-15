@@ -29,7 +29,7 @@ class x {static * yield(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -73,7 +73,7 @@ class x {static * yield(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 768,
@@ -145,32 +145,12 @@ class x {static * yield(){}}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static generator in class
-> :: case: yield
-## Input
-
-`````js
-class x {static * yield(){}}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: as static generator in class
-> :: case: yield
-## Input
 
-`````js
-class x {static * yield(){}}
-`````
 ```
 

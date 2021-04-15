@@ -13,6 +13,7 @@ delete typeof true
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -27,7 +28,7 @@ delete typeof true
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 4259885,
+                        "kind": 138477613,
                         "flags": 768,
                         "start": 6,
                         "end": 13

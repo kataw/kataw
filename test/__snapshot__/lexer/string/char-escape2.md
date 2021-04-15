@@ -34,7 +34,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix '",
                 "rawText": "prefix '",
                 "flags": 768,
@@ -48,7 +48,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\"",
                 "rawText": "prefix\"",
                 "flags": 769,
@@ -62,7 +62,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\\",
                 "rawText": "prefix\\",
                 "flags": 769,
@@ -76,7 +76,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\b",
                 "rawText": "prefix\b",
                 "flags": 769,
@@ -90,7 +90,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\f",
                 "rawText": "prefix\f",
                 "flags": 769,
@@ -104,7 +104,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\n",
                 "rawText": "prefix\n",
                 "flags": 769,
@@ -118,7 +118,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\r",
                 "rawText": "prefix\r",
                 "flags": 769,
@@ -132,7 +132,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\t",
                 "rawText": "prefix\t",
                 "flags": 769,
@@ -146,7 +146,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix\u000b",
                 "rawText": "prefix\u000b",
                 "flags": 769,

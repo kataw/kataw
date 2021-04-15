@@ -44,7 +44,7 @@ for (;b;c);
             },
             "initializer": null,
             "condition": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -52,7 +52,7 @@ for (;b;c);
                 "end": 9
             },
             "incrementor": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
                 "flags": 768,
@@ -83,12 +83,12 @@ for (;b;c);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

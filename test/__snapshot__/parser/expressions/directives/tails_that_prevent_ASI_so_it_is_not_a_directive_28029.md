@@ -27,7 +27,7 @@ function f(){ "use strict"
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -53,7 +53,7 @@ function f(){ "use strict"
                             "expression": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
                                     "flags": 768,
@@ -61,7 +61,7 @@ function f(){ "use strict"
                                     "end": 26
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -82,7 +82,7 @@ function f(){ "use strict"
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 768,
@@ -96,7 +96,7 @@ function f(){ "use strict"
                                     "end": 55
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,

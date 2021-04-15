@@ -21,7 +21,7 @@ wrap({'a':b});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -39,7 +39,7 @@ wrap({'a':b});
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -47,7 +47,7 @@ wrap({'a':b});
                                             "end": 11
                                         },
                                         "right": {
-                                            "kind": 67174403,
+                                            "kind": 201392131,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 67109632,

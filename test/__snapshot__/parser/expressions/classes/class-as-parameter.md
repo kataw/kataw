@@ -43,7 +43,7 @@ class A {
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "C",
                             "rawText": "C",
                             "flags": 768,
@@ -77,7 +77,7 @@ class A {
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "decorator",
                 "rawText": "decorator",
                 "flags": 768,
@@ -91,7 +91,7 @@ class A {
                         "kind": 215,
                         "ellipsisToken": null,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "el",
                             "rawText": "el",
                             "flags": 768,
@@ -130,7 +130,7 @@ class A {
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "Object",
                                         "rawText": "Object",
                                         "flags": 768,
@@ -138,7 +138,7 @@ class A {
                                         "end": 48
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "assign",
                                         "rawText": "assign",
                                         "flags": 768,
@@ -154,7 +154,7 @@ class A {
                                     "kind": 256,
                                     "elements": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "el",
                                             "rawText": "el",
                                             "flags": 768,
@@ -169,7 +169,7 @@ class A {
                                                     {
                                                         "kind": 209,
                                                         "name": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "finisher",
                                                             "rawText": "finisher",
                                                             "flags": 768,
@@ -184,7 +184,7 @@ class A {
                                                                     "kind": 215,
                                                                     "ellipsisToken": null,
                                                                     "binding": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": "Class",
                                                                         "rawText": "Class",
                                                                         "flags": 768,
@@ -216,7 +216,7 @@ class A {
                                                                         "expression": {
                                                                             "kind": 125,
                                                                             "left": {
-                                                                                "kind": 81921,
+                                                                                "kind": 134299649,
                                                                                 "text": "C",
                                                                                 "rawText": "C",
                                                                                 "flags": 768,
@@ -230,7 +230,7 @@ class A {
                                                                                 "end": 93
                                                                             },
                                                                             "right": {
-                                                                                "kind": 81921,
+                                                                                "kind": 134299649,
                                                                                 "text": "Class",
                                                                                 "rawText": "Class",
                                                                                 "flags": 768,
@@ -310,7 +310,7 @@ class A {
                 "end": 122
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -338,7 +338,7 @@ class A {
                     {
                         "kind": 34611453,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "decorator",
                             "rawText": "decorator",
                             "flags": 768,

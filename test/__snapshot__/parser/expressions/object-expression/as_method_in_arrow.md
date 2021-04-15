@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -34,7 +35,7 @@
                                 {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "typeof",
                                         "rawText": "typeof",
                                         "flags": 768,
@@ -85,7 +86,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

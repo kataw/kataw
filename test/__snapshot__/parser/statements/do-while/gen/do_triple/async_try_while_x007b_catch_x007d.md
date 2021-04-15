@@ -55,7 +55,7 @@ do do do async try while { catch } while while while
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "catch",
                                 "rawText": "catch",
                                 "flags": 768,
@@ -99,7 +99,7 @@ do do do async try while { catch } while while while
                     "statement": {
                         "kind": 120,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
                             "flags": 768,
@@ -327,32 +327,12 @@ do do do async try while { catch } while while while
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: do triple
-> :: case: async try while { catch }
-## Input
-
-`````js
-do do do async try while { catch } while while while
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: do triple
-> :: case: async try while { catch }
-## Input
 
-`````js
-do do do async try while { catch } while while while
-`````
 ```
 

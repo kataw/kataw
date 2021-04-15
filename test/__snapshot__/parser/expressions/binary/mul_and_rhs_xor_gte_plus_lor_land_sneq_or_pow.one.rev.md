@@ -13,6 +13,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -27,7 +28,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             "left": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x0",
                                     "rawText": "x0",
                                     "flags": 768,
@@ -41,7 +42,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                     "end": 4
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x1",
                                     "rawText": "x1",
                                     "flags": 768,
@@ -61,7 +62,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             "right": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x2",
                                     "rawText": "x2",
                                     "flags": 768,
@@ -75,7 +76,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                     "end": 15
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x3",
                                     "rawText": "x3",
                                     "flags": 768,
@@ -91,7 +92,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             "end": 18
                         },
                         "operatorToken": {
-                            "kind": 34121,
+                            "kind": 134251849,
                             "flags": 768,
                             "start": 18,
                             "end": 20
@@ -99,7 +100,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x4",
                                 "rawText": "x4",
                                 "flags": 768,
@@ -113,7 +114,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                 "end": 26
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x5",
                                 "rawText": "x5",
                                 "flags": 768,
@@ -135,7 +136,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         "end": 31
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x6",
                         "rawText": "x6",
                         "flags": 768,
@@ -155,7 +156,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x7",
                         "rawText": "x7",
                         "flags": 768,
@@ -173,7 +174,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x8",
                                 "rawText": "x8",
                                 "flags": 768,
@@ -187,7 +188,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                 "end": 50
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x9",
                                 "rawText": "x9",
                                 "flags": 768,
@@ -199,7 +200,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             "end": 53
                         },
                         "operatorToken": {
-                            "kind": 33864,
+                            "kind": 134251592,
                             "flags": 768,
                             "start": 53,
                             "end": 55
@@ -207,7 +208,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x10",
                                 "rawText": "x10",
                                 "flags": 768,
@@ -221,7 +222,7 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                 "end": 62
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,

@@ -40,7 +40,7 @@
                                 "end": 4
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,
@@ -80,7 +80,7 @@
                         "end": 15
                     },
                     "binding": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -92,7 +92,7 @@
                     "initializer": {
                         "kind": 125,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -106,7 +106,7 @@
                             "end": 19
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
                             "flags": 768,
@@ -145,7 +145,7 @@
                                 "end": 27
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,
@@ -188,7 +188,7 @@
                                 "end": 38
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,
@@ -240,7 +240,7 @@
                                     "end": 50
                                 },
                                 "binding": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "abc",
                                     "rawText": "abc",
                                     "flags": 768,
@@ -307,7 +307,7 @@
                                 "end": 62
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,
@@ -426,7 +426,7 @@
                                 "end": 80
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,
@@ -562,7 +562,7 @@
                         "end": 102
                     },
                     "binding": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -574,7 +574,7 @@
                     "initializer": {
                         "kind": 125,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
                             "flags": 768,
@@ -588,7 +588,7 @@
                             "end": 106
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
                             "flags": 768,
@@ -627,7 +627,7 @@
                                 "end": 114
                             },
                             "binding": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 768,

@@ -13,13 +13,14 @@ x={ foo(){ super.foo; }}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -40,7 +41,7 @@ x={ foo(){ super.foo; }}
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -80,7 +81,7 @@ x={ foo(){ super.foo; }}
                                                         "end": 16
                                                     },
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 768,

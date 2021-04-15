@@ -28,7 +28,7 @@ for (x in y in x) ;
             },
             "kind": 166,
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -38,7 +38,7 @@ for (x in y in x) ;
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -52,7 +52,7 @@ for (x in y in x) ;
                     "end": 14
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -87,32 +87,12 @@ for (x in y in x) ;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: x in y
-## Input
-
-`````js
-for (x in y in x) ;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: x in y
-## Input
 
-`````js
-for (x in y in x) ;
-`````
 ```
 

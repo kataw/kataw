@@ -23,7 +23,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -33,7 +33,7 @@
                         {
                             "kind": 197,
                             "shortCircuit": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -61,7 +61,7 @@
                                 "end": 7
                             },
                             "alternate": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 768,

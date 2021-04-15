@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -44,7 +44,7 @@
                 "end": 23
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -78,7 +78,7 @@
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 768,
@@ -126,7 +126,7 @@
                                                 "delegate": false,
                                                 "asteriskToken": null,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 768,
@@ -176,7 +176,7 @@
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 768,
@@ -221,32 +221,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-## Input
-
-`````js
-'use strict'; function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-## Input
 
-`````js
-'use strict'; function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
-`````
 ```
 

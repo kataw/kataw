@@ -92,7 +92,7 @@ try catch /false//a
                     "end": 18
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -138,32 +138,12 @@ try catch /false//a
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: /false//a
-## Input
-
-`````js
-try catch /false//a
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: missing parens and block
-> :: case: /false//a
-## Input
 
-`````js
-try catch /false//a
-`````
 ```
 

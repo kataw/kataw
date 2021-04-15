@@ -47,7 +47,7 @@ for (a * b + c * d;b;c);
                 "left": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -61,7 +61,7 @@ for (a * b + c * d;b;c);
                         "end": 8
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -81,7 +81,7 @@ for (a * b + c * d;b;c);
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -95,7 +95,7 @@ for (a * b + c * d;b;c);
                         "end": 16
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -111,7 +111,7 @@ for (a * b + c * d;b;c);
                 "end": 18
             },
             "condition": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -119,7 +119,7 @@ for (a * b + c * d;b;c);
                 "end": 22
             },
             "incrementor": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
                 "flags": 768,
@@ -150,12 +150,12 @@ for (a * b + c * d;b;c);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

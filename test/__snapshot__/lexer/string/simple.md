@@ -26,7 +26,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "",
                 "rawText": "",
                 "flags": 768,
@@ -40,7 +40,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "some content",
                 "rawText": "some content",
                 "flags": 769,
@@ -54,7 +54,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "var",
                 "rawText": "var",
                 "flags": 769,
@@ -68,7 +68,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "x / y",
                 "rawText": "x / y",
                 "flags": 769,
@@ -82,7 +82,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "raw lower unicode @{x200}",
                 "rawText": "raw lower unicode @{x200}",
                 "flags": 769,

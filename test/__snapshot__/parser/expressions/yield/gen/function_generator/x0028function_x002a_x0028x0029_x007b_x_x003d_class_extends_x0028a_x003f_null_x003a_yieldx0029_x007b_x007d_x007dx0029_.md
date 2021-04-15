@@ -35,7 +35,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -127,7 +127,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                     "expression": {
                                                                         "kind": 125,
                                                                         "left": {
-                                                                            "kind": 81921,
+                                                                            "kind": 134299649,
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 768,
@@ -164,7 +164,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                     "expression": {
                                                                                         "kind": 197,
                                                                                         "shortCircuit": {
-                                                                                            "kind": 81921,
+                                                                                            "kind": 134299649,
                                                                                             "text": "a",
                                                                                             "rawText": "a",
                                                                                             "flags": 768,
@@ -307,32 +307,12 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: (function * () { x = class extends (a ? null : yield) { } });
-## Input
-
-`````js
-function * gen() { function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: (function * () { x = class extends (a ? null : yield) { } });
-## Input
 
-`````js
-function * gen() { function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}
-`````
 ```
 

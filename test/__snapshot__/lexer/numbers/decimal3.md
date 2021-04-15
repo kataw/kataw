@@ -48,7 +48,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0e-100",
                 "flags": 768,
@@ -62,7 +62,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-100,
                 "rawText": "1e-100",
                 "flags": 769,
@@ -76,7 +76,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0E-100",
                 "flags": 769,
@@ -90,7 +90,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-100,
                 "rawText": "1E-100",
                 "flags": 769,
@@ -104,7 +104,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0.e-100",
                 "flags": 769,
@@ -118,7 +118,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-100,
                 "rawText": "1.e-100",
                 "flags": 769,
@@ -132,7 +132,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0.E-100",
                 "flags": 769,
@@ -146,7 +146,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-100,
                 "rawText": "1.E-100",
                 "flags": 769,
@@ -160,7 +160,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-101,
                 "rawText": "0.1e-100",
                 "flags": 769,
@@ -174,7 +174,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1.1e-100,
                 "rawText": "1.1e-100",
                 "flags": 769,
@@ -188,7 +188,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-101,
                 "rawText": "0.1E-100",
                 "flags": 769,
@@ -202,7 +202,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1.1e-100,
                 "rawText": "1.1E-100",
                 "flags": 769,
@@ -216,7 +216,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": ".0e-100",
                 "flags": 525057,
@@ -230,7 +230,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-101,
                 "rawText": ".1e-100",
                 "flags": 525057,
@@ -244,7 +244,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": ".0E-100",
                 "flags": 525057,
@@ -258,7 +258,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1e-101,
                 "rawText": ".1E-100",
                 "flags": 525057,

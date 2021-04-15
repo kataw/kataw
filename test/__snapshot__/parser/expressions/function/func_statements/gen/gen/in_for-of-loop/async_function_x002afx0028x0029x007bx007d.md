@@ -28,7 +28,7 @@ for (a of b) async function *f(){}
                 "end": 3
             },
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -36,7 +36,7 @@ for (a of b) async function *f(){}
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
                 "flags": 768,
@@ -66,7 +66,7 @@ for (a of b) async function *f(){}
                         "end": 29
                     },
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
@@ -125,32 +125,12 @@ for (a of b) async function *f(){}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: p
-> :: test: in for-of-loop
-> :: case: async function *f(){}
-## Input
-
-`````js
-for (a of b) async function *f(){}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: p
-> :: test: in for-of-loop
-> :: case: async function *f(){}
-## Input
 
-`````js
-for (a of b) async function *f(){}
-`````
 ```
 

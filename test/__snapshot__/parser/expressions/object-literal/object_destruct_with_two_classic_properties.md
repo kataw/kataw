@@ -13,13 +13,14 @@ x({a:b, c:d}=obj);
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -39,7 +40,7 @@ x({a:b, c:d}=obj);
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -47,7 +48,7 @@ x({a:b, c:d}=obj);
                                                 "end": 6
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -61,7 +62,7 @@ x({a:b, c:d}=obj);
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 768,
@@ -69,7 +70,7 @@ x({a:b, c:d}=obj);
                                                 "end": 11
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 768,
@@ -98,7 +99,7 @@ x({a:b, c:d}=obj);
                                 "end": 13
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 768,

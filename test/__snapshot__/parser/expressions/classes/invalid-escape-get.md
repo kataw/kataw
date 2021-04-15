@@ -13,6 +13,7 @@ class X { ge\u0074 x() {} }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class X { ge\u0074 x() {} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "X",
                 "rawText": "X",
                 "flags": 768,
@@ -43,7 +44,7 @@ class X { ge\u0074 x() {} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,

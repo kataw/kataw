@@ -34,7 +34,7 @@ for (let=10;;);
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
                     "flags": 768,
@@ -48,7 +48,7 @@ for (let=10;;);
                     "end": 9
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 10,
                     "rawText": "10",
                     "flags": 768,
@@ -85,12 +85,12 @@ for (let=10;;);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

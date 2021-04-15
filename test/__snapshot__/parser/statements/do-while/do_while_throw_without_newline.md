@@ -28,7 +28,7 @@ do throw function (v, h) {
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "",
                     "rawText": "",
                     "flags": 768,
@@ -71,7 +71,7 @@ do throw function (v, h) {
                                 "kind": 215,
                                 "ellipsisToken": null,
                                 "binding": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "v",
                                     "rawText": "v",
                                     "flags": 768,
@@ -89,7 +89,7 @@ do throw function (v, h) {
                                 "kind": 215,
                                 "ellipsisToken": null,
                                 "binding": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "h",
                                     "rawText": "h",
                                     "flags": 768,
@@ -115,7 +115,7 @@ do throw function (v, h) {
                             "kind": 217,
                             "directives": [
                                 {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
                                     "flags": 769,

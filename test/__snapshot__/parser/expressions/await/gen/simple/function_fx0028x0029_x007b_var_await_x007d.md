@@ -30,7 +30,7 @@ function f() { var await; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -65,7 +65,7 @@ function f() { var await; }
                                     {
                                         "kind": 157,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 768,
@@ -118,32 +118,12 @@ function f() { var await; }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function f() { var await; }
-## Input
-
-`````js
-function f() { var await; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function f() { var await; }
-## Input
 
-`````js
-function f() { var await; }
-`````
 ```
 

@@ -33,7 +33,7 @@ var foob\\U1234r = 0;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 768,
@@ -61,7 +61,7 @@ var foob\\U1234r = 0;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "U1234r",
                     "rawText": "U1234r",
                     "flags": 768,
@@ -75,7 +75,7 @@ var foob\\U1234r = 0;
                     "end": 18
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -161,32 +161,12 @@ var foob\\U1234r = 0;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var foob\\U1234r = 0;
-## Input
-
-`````js
-var foob\\U1234r = 0;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var foob\\U1234r = 0;
-## Input
 
-`````js
-var foob\\U1234r = 0;
-`````
 ```
 

@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -30,7 +31,7 @@
                                     "member": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "target",
                                             "rawText": "target",
                                             "flags": 768,
@@ -52,7 +53,7 @@
                                     "expression": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "targetKey",
                                             "rawText": "targetKey",
                                             "flags": 768,
@@ -65,7 +66,7 @@
                                                 {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
@@ -79,7 +80,7 @@
                                                         "end": 23
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 768,
@@ -121,7 +122,7 @@
                         "end": 29
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,

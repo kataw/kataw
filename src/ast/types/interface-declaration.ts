@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
 import { TypeParameter } from './type-parameter';
 import { InterfaceExtends } from './interface-extends';
@@ -28,7 +28,6 @@ export function createInterfaceDeclaration(
     typeParameters,
     types,
     members,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

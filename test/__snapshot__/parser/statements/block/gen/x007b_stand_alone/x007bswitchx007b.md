@@ -154,32 +154,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { stand alone
-> :: case: {switch{
-## Input
-
-`````js
-{ {switch{
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { stand alone
-> :: case: {switch{
-## Input
 
-`````js
-{ {switch{
-`````
 ```
 

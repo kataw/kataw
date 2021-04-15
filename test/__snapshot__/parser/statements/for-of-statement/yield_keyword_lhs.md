@@ -50,7 +50,7 @@ function *f(){ for (yield of obj); }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -95,7 +95,7 @@ function *f(){ for (yield of obj); }
                                 "end": 25
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 768,
@@ -152,12 +152,12 @@ function *f(){ for (yield of obj); }
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

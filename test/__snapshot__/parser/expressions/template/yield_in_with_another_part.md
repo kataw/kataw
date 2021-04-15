@@ -20,7 +20,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -51,7 +51,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "rawText": "1 ",
                                 "text": "1 ",
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 768,
@@ -67,7 +67,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "rawText": " 2 ",
                                 "text": " 2 ",
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 3,
                                     "rawText": "3",
                                     "flags": 768,

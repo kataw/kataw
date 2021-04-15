@@ -35,7 +35,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -104,7 +104,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -144,7 +144,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                                         "end": 71
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 768,
@@ -225,32 +225,12 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: async function f(){ await await foo; }
-## Input
-
-`````js
-function * gen() { function not_gen() { async function f(){ await await foo; } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: async function f(){ await await foo; }
-## Input
 
-`````js
-function * gen() { function not_gen() { async function f(){ await await foo; } }}
-`````
 ```
 

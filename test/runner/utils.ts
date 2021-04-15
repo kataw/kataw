@@ -1,8 +1,5 @@
 import { readFile, statSync, readdirSync, writeFile, existsSync } from 'fs';
-
-import PrettyError from 'pretty-error';
-
-export const snapshotsFolderName = '__snapshot__'
+export const snapshotsFolderName = '__snapshot__';
 
 export const enum ColorCodes {
   BOLD = '\x1b[;1;1m',
@@ -103,13 +100,13 @@ export function deepEqual(obj1: any, obj2: any): boolean {
     const keys1 = Object.keys(obj1);
     const keys2 = Object.keys(obj2);
 
-    return keys1.every(k => keys2.includes(k)) && keys1.every((k) => deepEqual(obj1[k], obj2[k]));
+    return keys1.every((k) => keys2.includes(k)) && keys1.every((k) => deepEqual(obj1[k], obj2[k]));
   }
 
   return obj1 === obj2;
 }
 
-export function report(err: Error | string): void {
+export function report(_err: Error | string): void {
   // TODO: skip it for now, as it is breaking auto-gen
   // err = typeof err === 'string' ? new Error(err) : err;
   // const pe = new PrettyError();

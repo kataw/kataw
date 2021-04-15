@@ -20,7 +20,7 @@ z(z(z(a&&=)));
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
                     "flags": 768,
@@ -33,7 +33,7 @@ z(z(z(a&&=)));
                         {
                             "kind": 131,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 768,
@@ -46,7 +46,7 @@ z(z(z(a&&=)));
                                     {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -59,7 +59,7 @@ z(z(z(a&&=)));
                                                 {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,

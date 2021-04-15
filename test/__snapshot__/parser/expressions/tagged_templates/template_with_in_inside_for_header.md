@@ -26,7 +26,7 @@ for(t`${x in y}`;;);
             "initializer": {
                 "kind": 226,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "t",
                     "rawText": "t",
                     "flags": 768,
@@ -43,7 +43,7 @@ for(t`${x in y}`;;);
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -57,7 +57,7 @@ for(t`${x in y}`;;);
                                     "end": 12
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 768,

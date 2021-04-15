@@ -31,13 +31,14 @@ a?.9:b
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -51,7 +52,7 @@ a?.9:b
                     "end": 3
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -65,7 +66,7 @@ a?.9:b
                     "end": 5
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -85,7 +86,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -99,7 +100,7 @@ a?.9:b
                     "end": 11
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -113,7 +114,7 @@ a?.9:b
                     "end": 13
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -133,7 +134,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -147,7 +148,7 @@ a?.9:b
                     "end": 19
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 2,
                     "rawText": "2",
                     "flags": 768,
@@ -161,7 +162,7 @@ a?.9:b
                     "end": 21
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -181,7 +182,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -195,7 +196,7 @@ a?.9:b
                     "end": 27
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 3,
                     "rawText": "3",
                     "flags": 768,
@@ -209,7 +210,7 @@ a?.9:b
                     "end": 29
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -229,7 +230,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -243,7 +244,7 @@ a?.9:b
                     "end": 35
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 4,
                     "rawText": "4",
                     "flags": 768,
@@ -257,7 +258,7 @@ a?.9:b
                     "end": 37
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -277,7 +278,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -291,7 +292,7 @@ a?.9:b
                     "end": 43
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 5,
                     "rawText": "5",
                     "flags": 768,
@@ -305,7 +306,7 @@ a?.9:b
                     "end": 45
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -325,7 +326,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -339,7 +340,7 @@ a?.9:b
                     "end": 51
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 6,
                     "rawText": "6",
                     "flags": 768,
@@ -353,7 +354,7 @@ a?.9:b
                     "end": 53
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -373,7 +374,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -387,7 +388,7 @@ a?.9:b
                     "end": 59
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 7,
                     "rawText": "7",
                     "flags": 768,
@@ -401,7 +402,7 @@ a?.9:b
                     "end": 61
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -421,7 +422,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -435,7 +436,7 @@ a?.9:b
                     "end": 67
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 8,
                     "rawText": "8",
                     "flags": 768,
@@ -449,7 +450,7 @@ a?.9:b
                     "end": 69
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -469,7 +470,7 @@ a?.9:b
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -483,7 +484,7 @@ a?.9:b
                     "end": 75
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 9,
                     "rawText": "9",
                     "flags": 768,
@@ -497,7 +498,7 @@ a?.9:b
                     "end": 77
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,

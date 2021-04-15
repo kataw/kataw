@@ -123,32 +123,12 @@ foo(async (x, y) => ok).bar
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: call tail
-> :: case: async (x, y) => ok
-## Input
-
-`````js
-foo(async (x, y) => ok).bar
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: call tail
-> :: case: async (x, y) => ok
-## Input
 
-`````js
-foo(async (x, y) => ok).bar
-`````
 ```
 

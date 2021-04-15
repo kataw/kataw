@@ -105,18 +105,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 34
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 22,
                             "end": 34
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 21,
                     "end": 35
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 10,
                 "end": 35
@@ -176,7 +173,6 @@ type T27 = ArgumentType<never>;  // any
                                         "start": 73,
                                         "end": 80
                                     },
-                                    "autofix": 0,
                                     "flags": 0,
                                     "start": 71,
                                     "end": 80
@@ -189,18 +185,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 89
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 71,
                             "end": 89
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 69,
                     "end": 90
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 58,
                 "end": 90
@@ -260,7 +253,6 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 134
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 132,
                                 "end": 134
@@ -279,29 +271,24 @@ type T27 = ArgumentType<never>;  // any
                                             "end": 126
                                         },
                                         "typeParameters": null,
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 125,
                                         "end": 126
                                     }
                                 ],
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 124,
                                 "end": 127
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 124,
                             "end": 134
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 122,
                     "end": 136
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 111,
                 "end": 136
@@ -353,23 +340,19 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 260
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 257,
                                 "end": 260
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 251,
                             "end": 260
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 250,
                     "end": 261
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 239,
                 "end": 261
@@ -421,23 +404,19 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 323
                                 },
                                 "typeParameters": null,
-                                "autofix": 0,
                                 "flags": 0,
                                 "start": 321,
                                 "end": 323
                             },
-                            "autofix": 0,
                             "flags": 0,
                             "start": 315,
                             "end": 323
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 314,
                     "end": 324
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 303,
                 "end": 324
@@ -483,12 +462,10 @@ type T27 = ArgumentType<never>;  // any
                             "end": 357
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 353,
                     "end": 358
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 342,
                 "end": 358
@@ -534,12 +511,10 @@ type T27 = ArgumentType<never>;  // any
                             "end": 396
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 390,
                     "end": 397
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 379,
                 "end": 397
@@ -585,12 +560,10 @@ type T27 = ArgumentType<never>;  // any
                             "end": 435
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 428,
                     "end": 436
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 417,
                 "end": 436
@@ -640,18 +613,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 478
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 470,
                             "end": 478
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 469,
                     "end": 479
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 458,
                 "end": 479
@@ -707,18 +677,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 524
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 514,
                             "end": 524
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 513,
                     "end": 525
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 500,
                 "end": 525
@@ -778,7 +745,6 @@ type T27 = ArgumentType<never>;  // any
                                         "start": 564,
                                         "end": 571
                                     },
-                                    "autofix": 0,
                                     "flags": 0,
                                     "start": 562,
                                     "end": 571
@@ -791,18 +757,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 582
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 562,
                             "end": 582
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 560,
                     "end": 583
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 547,
                 "end": 583
@@ -867,7 +830,6 @@ type T27 = ArgumentType<never>;  // any
                                         "start": 624,
                                         "end": 631
                                     },
-                                    "autofix": 0,
                                     "flags": 0,
                                     "start": 621,
                                     "end": 631
@@ -880,18 +842,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 642
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 621,
                             "end": 642
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 619,
                     "end": 643
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 606,
                 "end": 643
@@ -964,7 +923,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 709,
                                             "end": 710
                                         },
-                                        "autofix": 0,
                                         "flags": 0,
                                         "start": 693,
                                         "end": 710
@@ -982,18 +940,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 721
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 692,
                             "end": 721
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 691,
                     "end": 722
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 678,
                 "end": 722
@@ -1043,18 +998,15 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 838
                             },
                             "typeParameters": null,
-                            "autofix": 0,
                             "flags": 0,
                             "start": 830,
                             "end": 838
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 829,
                     "end": 839
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 816,
                 "end": 839
@@ -1100,12 +1052,10 @@ type T27 = ArgumentType<never>;  // any
                             "end": 878
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 874,
                     "end": 879
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 861,
                 "end": 879
@@ -1151,12 +1101,10 @@ type T27 = ArgumentType<never>;  // any
                             "end": 918
                         }
                     ],
-                    "autofix": 0,
                     "flags": 0,
                     "start": 912,
                     "end": 919
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 899,
                 "end": 919

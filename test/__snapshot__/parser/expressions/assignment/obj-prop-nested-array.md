@@ -19,13 +19,14 @@ result = { x: [y] } = { x: [321] };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
                     "flags": 768,
@@ -53,7 +54,7 @@ result = { x: [y] } = { x: [321] };
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -71,7 +72,7 @@ result = { x: [y] } = { x: [321] };
                                         "end": 17
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -112,7 +113,7 @@ result = { x: [y] } = { x: [321] };
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": 321,
                                                     "rawText": "321",
                                                     "flags": 768,
@@ -130,7 +131,7 @@ result = { x: [y] } = { x: [321] };
                                         "end": 32
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,

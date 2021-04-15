@@ -13,13 +13,14 @@ f = ([xCls2 = class { static name() {} }]) => {}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,
@@ -50,7 +51,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                     {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "xCls2",
                                             "rawText": "xCls2",
                                             "flags": 768,
@@ -90,7 +91,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "name",
                                                                 "rawText": "name",
                                                                 "flags": 768,

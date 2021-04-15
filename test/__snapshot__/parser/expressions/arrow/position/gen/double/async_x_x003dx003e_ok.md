@@ -150,32 +150,12 @@ async x => ok async x => ok
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: double
-> :: case: async x => ok
-## Input
-
-`````js
-async x => ok async x => ok
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: double
-> :: case: async x => ok
-## Input
 
-`````js
-async x => ok async x => ok
-`````
 ```
 

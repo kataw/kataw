@@ -26,6 +26,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -39,7 +40,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 768,
@@ -106,7 +107,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 768,
@@ -173,7 +174,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "private",
                                     "rawText": "private",
                                     "flags": 768,
@@ -240,7 +241,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "readonly",
                                     "rawText": "readonly",
                                     "flags": 768,
@@ -307,7 +308,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 768,
@@ -374,7 +375,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "function",
                                     "rawText": "function",
                                     "flags": 768,
@@ -441,7 +442,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "declare",
                                     "rawText": "declare",
                                     "flags": 768,

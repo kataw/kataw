@@ -36,7 +36,7 @@ do async
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
                     "flags": 768,
@@ -80,7 +80,7 @@ do async
                 "end": 22
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,

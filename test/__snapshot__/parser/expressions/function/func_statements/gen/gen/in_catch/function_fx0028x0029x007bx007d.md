@@ -53,7 +53,7 @@ try {
                     "end": 13
                 },
                 "catchParameter": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
                     "flags": 768,
@@ -76,7 +76,7 @@ try {
                                 },
                                 "generatorToken": null,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 768,
@@ -146,38 +146,12 @@ try {
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: h
-> :: test: in catch
-> :: case: function f(){}
-## Input
-
-`````js
-try {
-} catch (e) {
-  function f(){}
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: h
-> :: test: in catch
-> :: case: function f(){}
-## Input
 
-`````js
-try {
-} catch (e) {
-  function f(){}
-}
-`````
 ```
 

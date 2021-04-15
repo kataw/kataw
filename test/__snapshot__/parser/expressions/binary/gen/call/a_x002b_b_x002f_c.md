@@ -24,7 +24,7 @@ foo( a + b / c )
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -37,7 +37,7 @@ foo( a + b / c )
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -53,7 +53,7 @@ foo( a + b / c )
                             "right": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -67,7 +67,7 @@ foo( a + b / c )
                                     "end": 12
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 768,
@@ -110,32 +110,12 @@ foo( a + b / c )
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: call
-> :: case: a + b / c
-## Input
-
-`````js
-foo( a + b / c )
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: call
-> :: case: a + b / c
-## Input
 
-`````js
-foo( a + b / c )
-`````
 ```
 

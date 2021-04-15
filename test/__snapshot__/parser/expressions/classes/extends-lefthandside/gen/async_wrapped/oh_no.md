@@ -37,7 +37,7 @@ async function p(){
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "p",
                 "rawText": "p",
                 "flags": 768,
@@ -68,7 +68,7 @@ async function p(){
                                 "end": 27
                             },
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 768,
@@ -85,7 +85,7 @@ async function p(){
                                     "end": 37
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "oh",
                                     "rawText": "oh",
                                     "flags": 768,
@@ -127,7 +127,7 @@ async function p(){
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "no",
                 "rawText": "no",
                 "flags": 768,
@@ -207,36 +207,12 @@ async function p(){
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: async wrapped
-> :: case: oh,no
-## Input
-
-`````js
-async function p(){
-  class C extends oh,no {}
-}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: async wrapped
-> :: case: oh,no
-## Input
 
-`````js
-async function p(){
-  class C extends oh,no {}
-}
-`````
 ```
 

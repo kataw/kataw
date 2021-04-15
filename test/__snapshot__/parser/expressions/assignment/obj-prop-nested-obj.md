@@ -19,13 +19,14 @@ result = { x: { y } } = { x: { y: 2 } };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
                     "flags": 768,
@@ -53,7 +54,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 768,
@@ -72,7 +73,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "end": 19
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -115,7 +116,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                 {
                                                     "kind": 219,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": 2,
                                                         "rawText": "2",
                                                         "flags": 768,
@@ -123,7 +124,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "end": 35
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 768,
@@ -146,7 +147,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "end": 37
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,

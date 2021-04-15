@@ -24,7 +24,7 @@ foo(a,,);
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -35,7 +35,7 @@ foo(a,,);
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -76,32 +76,12 @@ foo(a,,);
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: cannot elide
-> :: case: undefined
-## Input
-
-`````js
-foo(a,,);
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: cannot elide
-> :: case: undefined
-## Input
 
-`````js
-foo(a,,);
-`````
 ```
 

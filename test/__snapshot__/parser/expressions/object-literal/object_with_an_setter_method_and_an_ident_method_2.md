@@ -13,13 +13,14 @@ wrap({[foo](){}, set [bar](e){}});
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -39,7 +40,7 @@ wrap({[foo](){}, set [bar](e){}});
                                         "name": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 768,
@@ -84,7 +85,7 @@ wrap({[foo](){}, set [bar](e){}});
                                         "name": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 768,
@@ -103,7 +104,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                     "kind": 215,
                                                     "ellipsisToken": null,
                                                     "binding": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 768,

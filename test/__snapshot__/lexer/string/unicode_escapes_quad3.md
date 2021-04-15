@@ -40,7 +40,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x123}@",
                 "rawText": "@{x123}@",
                 "flags": 262912,
@@ -54,7 +54,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x4567}@",
                 "rawText": "@{x4567}@",
                 "flags": 262913,
@@ -68,7 +68,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x89ab}@",
                 "rawText": "@{x89ab}@",
                 "flags": 262913,
@@ -82,7 +82,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{xcdef}@",
                 "rawText": "@{xcdef}@",
                 "flags": 262913,
@@ -96,7 +96,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{xabcd}@",
                 "rawText": "@{xabcd}@",
                 "flags": 262913,
@@ -110,7 +110,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "\ude00",
                 "rawText": "\ude00",
                 "flags": 262913,
@@ -124,7 +124,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix @{x123}@",
                 "rawText": "prefix @{x123}@",
                 "flags": 262913,
@@ -138,7 +138,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x123}@ postfix",
                 "rawText": "@{x123}@ postfix",
                 "flags": 262913,
@@ -152,7 +152,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x123}@@{x4567}@",
                 "rawText": "@{x123}@@{x4567}@",
                 "flags": 262913,

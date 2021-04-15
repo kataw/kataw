@@ -33,7 +33,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -70,7 +70,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -127,7 +127,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                 },
                                                 "generatorToken": null,
                                                 "name": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 768,
@@ -159,7 +159,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                                         "end": 65
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": 3,
                                                                         "rawText": "3",
                                                                         "flags": 768,
@@ -237,32 +237,12 @@ var await; var f = (async function() { async function f() { await 3; } });
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: async function f() { await 3; }
-## Input
-
-`````js
-var await; var f = (async function() { async function f() { await 3; } });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: async function f() { await 3; }
-## Input
 
-`````js
-var await; var f = (async function() { async function f() { await 3; } });
-`````
 ```
 

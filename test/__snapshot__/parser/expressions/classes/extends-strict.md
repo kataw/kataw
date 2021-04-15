@@ -18,6 +18,7 @@ class C extends (function B() {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -33,7 +34,7 @@ class C extends (function B() {
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "C",
                             "rawText": "C",
                             "flags": 768,
@@ -66,7 +67,7 @@ class C extends (function B() {
                 "end": 13
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -97,7 +98,7 @@ class C extends (function B() {
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 768,
@@ -160,7 +161,7 @@ class C extends (function B() {
                                                 "end": 61
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
                                                 "flags": 768,

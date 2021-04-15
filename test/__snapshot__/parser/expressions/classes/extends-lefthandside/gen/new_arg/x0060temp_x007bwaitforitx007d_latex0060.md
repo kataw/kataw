@@ -24,7 +24,7 @@ new `temp {waitforit} late`
             "expression": {
                 "kind": 210,
                 "newKeyword": {
-                    "kind": 4259933,
+                    "kind": 138477661,
                     "flags": 768,
                     "start": 0,
                     "end": 3
@@ -60,32 +60,12 @@ new `temp {waitforit} late`
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: `temp {waitforit} late`
-## Input
-
-`````js
-new `temp {waitforit} late`
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: `temp {waitforit} late`
-## Input
 
-`````js
-new `temp {waitforit} late`
-`````
 ```
 

@@ -33,7 +33,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -98,7 +98,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "delegate": false,
                                                                 "asteriskToken": null,
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": 42,
                                                                     "rawText": "42",
                                                                     "flags": 768,
@@ -148,7 +148,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "delegate": false,
                                                                 "asteriskToken": null,
                                                                 "expression": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": 43,
                                                                     "rawText": "43",
                                                                     "flags": 768,
@@ -186,7 +186,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                 "end": 64
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 13,
                                                 "rawText": "13",
                                                 "flags": 768,
@@ -263,32 +263,12 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: let foo = function*() { try {yield 42} finally {yield 43; return 13} };
-## Input
-
-`````js
-let foo = function*() { try {yield 42} finally {yield 43; return 13} };
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: let foo = function*() { try {yield 42} finally {yield 43; return 13} };
-## Input
 
-`````js
-let foo = function*() { try {yield 42} finally {yield 43; return 13} };
-`````
 ```
 

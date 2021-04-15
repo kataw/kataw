@@ -88,7 +88,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -113,7 +113,7 @@
                             "end": 20
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "I",
                             "rawText": "I",
                             "flags": 768,
@@ -172,7 +172,7 @@
                 "end": 35
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "I",
                 "rawText": "I",
                 "flags": 768,
@@ -182,7 +182,7 @@
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "sleep",
                     "rawText": "sleep",
                     "flags": 768,
@@ -348,32 +348,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: if I switch while I sleep
-## Input
-
-`````js
-{ {} finally(x) { if I switch while I sleep
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: k
-> :: test: with unclosed block
-> :: case: if I switch while I sleep
-## Input
 
-`````js
-{ {} finally(x) { if I switch while I sleep
-`````
 ```
 

@@ -43,7 +43,7 @@ for (yield in x);
             },
             "kind": 166,
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 768,
@@ -51,7 +51,7 @@ for (yield in x);
                 "end": 10
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -82,12 +82,12 @@ for (yield in x);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

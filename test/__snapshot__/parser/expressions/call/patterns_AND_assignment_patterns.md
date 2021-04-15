@@ -18,7 +18,7 @@ async({a=1}. {b=2}, {c=3} = {}))
         {
             "kind": 131,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -38,7 +38,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     {
                                         "kind": 205,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -46,7 +46,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "end": 8
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -89,7 +89,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 {
                                     "kind": 205,
                                     "left": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -97,7 +97,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "end": 15
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 768,
@@ -129,7 +129,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     {
                                         "kind": 205,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 768,
@@ -137,7 +137,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "end": 22
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,

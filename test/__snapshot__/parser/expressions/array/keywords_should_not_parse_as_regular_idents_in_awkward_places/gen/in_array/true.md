@@ -27,9 +27,16 @@
                     "kind": 270,
                     "elements": [
                         {
-                            "kind": 134,
-                            "text": true,
-                            "flags": 768,
+                            "kind": 223,
+                            "argument": {
+                                "kind": 16637,
+                                "text": "",
+                                "autofix": 0,
+                                "flags": 12,
+                                "start": 6,
+                                "end": 6
+                            },
+                            "flags": 256,
                             "start": 1,
                             "end": 6
                         }
@@ -52,7 +59,16 @@
     "text": "[ true ]",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 6,
+            "end": 8
+        }
+    ],
     "start": 0,
     "end": 8
 }
@@ -61,32 +77,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: in array
-> :: case: true
-## Input
-
-`````js
-[ true ]
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: in array
-> :: case: true
-## Input
 
-`````js
-[ true ]
-`````
 ```
 

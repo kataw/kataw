@@ -43,7 +43,7 @@ type T = { [[foo]](): X }
                 "end": 6
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "T",
                 "rawText": "T",
                 "flags": 768,
@@ -52,7 +52,7 @@ type T = { [[foo]](): X }
             },
             "typeParameters": null,
             "type": {
-                "kind": 241,
+                "kind": 134217969,
                 "properties": [],
                 "indexers": [],
                 "callProperties": [],
@@ -60,7 +60,7 @@ type T = { [[foo]](): X }
                     {
                         "kind": 248,
                         "name": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,
@@ -73,7 +73,7 @@ type T = { [[foo]](): X }
                             "returnType": {
                                 "kind": 144,
                                 "id": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 768,
@@ -123,12 +123,12 @@ type T = { [[foo]](): X }
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeNode } from '.';
 
@@ -24,7 +24,6 @@ export function createObjectTypeIndexer(
     key,
     value,
     staticToken,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

@@ -141,32 +141,12 @@ if( catch try {
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: unclosed parens
-> :: case: catch try {
-## Input
-
-`````js
-if( catch try {
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: unclosed parens
-> :: case: catch try {
-## Input
 
-`````js
-if( catch try {
-`````
 ```
 

@@ -20,7 +20,7 @@ obj.voi\u0064 = 42;
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 768,
@@ -75,7 +75,7 @@ obj.voi\u0064 = 42;
                     "end": 15
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 42,
                     "rawText": "42",
                     "flags": 768,

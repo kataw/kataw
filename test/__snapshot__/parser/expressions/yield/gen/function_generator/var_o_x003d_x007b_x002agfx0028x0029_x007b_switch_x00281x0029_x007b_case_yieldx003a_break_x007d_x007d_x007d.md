@@ -35,7 +35,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -102,7 +102,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                     {
                                                         "kind": 157,
                                                         "binding": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 768,
@@ -119,7 +119,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                     {
                                                                         "kind": 209,
                                                                         "name": {
-                                                                            "kind": 81921,
+                                                                            "kind": 134299649,
                                                                             "text": "gf",
                                                                             "rawText": "gf",
                                                                             "flags": 768,
@@ -151,7 +151,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                             "end": 64
                                                                                         },
                                                                                         "expression": {
-                                                                                            "kind": 81921,
+                                                                                            "kind": 134299649,
                                                                                             "text": 1,
                                                                                             "rawText": "1",
                                                                                             "flags": 768,
@@ -296,32 +296,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: var o = { *gf() { switch (1) { case yield: break; } } }
-## Input
-
-`````js
-function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: var o = { *gf() { switch (1) { case yield: break; } } }
-## Input
 
-`````js
-function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
-`````
 ```
 

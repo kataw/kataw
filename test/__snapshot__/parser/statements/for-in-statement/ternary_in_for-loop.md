@@ -47,7 +47,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                     "end": 11
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -63,7 +63,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                 "alternate": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
@@ -131,12 +131,12 @@ for (true ? 0 : 0 in {}; false; ) ;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

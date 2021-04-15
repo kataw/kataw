@@ -13,6 +13,7 @@ for(delete((1)?y:x in y) in z)x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "forKeyword": {
@@ -37,7 +38,7 @@ for(delete((1)?y:x in y) in z)x
                         "shortCircuit": {
                             "kind": 121,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,
@@ -55,7 +56,7 @@ for(delete((1)?y:x in y) in z)x
                             "end": 15
                         },
                         "consequent": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -71,7 +72,7 @@ for(delete((1)?y:x in y) in z)x
                         "alternate": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -85,7 +86,7 @@ for(delete((1)?y:x in y) in z)x
                                 "end": 21
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -109,7 +110,7 @@ for(delete((1)?y:x in y) in z)x
                 "end": 24
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "z",
                 "rawText": "z",
                 "flags": 768,
@@ -119,7 +120,7 @@ for(delete((1)?y:x in y) in z)x
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

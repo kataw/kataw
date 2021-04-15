@@ -18,6 +18,7 @@ class {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -45,7 +46,7 @@ class {
                             "end": 21
                         },
                         "key": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "field",
                             "rawText": "field",
                             "flags": 768,
@@ -55,7 +56,7 @@ class {
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 768,

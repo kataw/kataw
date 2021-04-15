@@ -19,13 +19,14 @@ f = ([[,] = g()]) => {};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,
@@ -85,7 +86,7 @@ f = ([[,] = g()]) => {};
                                         "right": {
                                             "kind": 131,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 768,

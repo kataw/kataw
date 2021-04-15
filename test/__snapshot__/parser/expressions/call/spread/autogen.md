@@ -75,7 +75,7 @@ function fn() {} fn( # );
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 768,
@@ -96,7 +96,7 @@ function fn() {} fn( # );
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
                             "flags": 67109632,
@@ -125,7 +125,7 @@ function fn() {} fn( # );
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 768,

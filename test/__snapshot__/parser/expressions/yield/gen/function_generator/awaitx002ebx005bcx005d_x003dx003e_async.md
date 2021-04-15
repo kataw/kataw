@@ -35,7 +35,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -95,7 +95,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                 "member": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 768,
@@ -103,7 +103,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                         "end": 45
                                                     },
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 768,
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                     "end": 47
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 768,
@@ -166,7 +166,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -240,32 +240,12 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: await.b[c] => async
-## Input
-
-`````js
-function * gen() { function not_gen() { await.b[c] => async }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: await.b[c] => async
-## Input
 
-`````js
-function * gen() { function not_gen() { await.b[c] => async }}
-`````
 ```
 

@@ -150,6 +150,7 @@ for ((a in b).x in {});
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "forKeyword": {
@@ -167,7 +168,7 @@ for ((a in b).x in {});
                         {
                             "kind": 223,
                             "argument": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,

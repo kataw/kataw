@@ -1,11 +1,10 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 export interface ObjectType extends SyntaxNode {
-  kind: SyntaxKind.ObjectType;
-  properties: any[];
-  indexers: any[];
-  callProperties: any[];
-  internalSlots: any[];
+  readonly properties: any[];
+  readonly indexers: any[];
+  readonly callProperties: any[];
+  readonly internalSlots: any[];
 }
 
 export function createObjectType(
@@ -22,7 +21,6 @@ export function createObjectType(
     indexers,
     callProperties,
     internalSlots,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

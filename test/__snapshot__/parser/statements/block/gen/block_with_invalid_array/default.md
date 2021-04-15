@@ -170,32 +170,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: block with invalid array
-> :: case: default
-## Input
-
-`````js
-{ [catch] default
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: block with invalid array
-> :: case: default
-## Input
 
-`````js
-{ [catch] default
-`````
 ```
 

@@ -61,12 +61,10 @@ const [foo:bar] = obj;
                                                     "end": 14
                                                 },
                                                 "typeParameters": null,
-                                                "autofix": 0,
                                                 "flags": 0,
                                                 "start": 11,
                                                 "end": 14
                                             },
-                                            "autofix": 0,
                                             "flags": 0,
                                             "start": 10,
                                             "end": 14
@@ -132,12 +130,12 @@ const [foo:bar] = obj;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

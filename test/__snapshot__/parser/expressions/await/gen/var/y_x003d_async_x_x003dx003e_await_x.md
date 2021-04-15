@@ -33,7 +33,7 @@ var await; var f = (async function() { y = async x => await x });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
                             "flags": 768,
@@ -70,7 +70,7 @@ var await; var f = (async function() { y = async x => await x });
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -116,7 +116,7 @@ var await; var f = (async function() { y = async x => await x });
                                                 "expression": {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 768,
@@ -143,7 +143,7 @@ var await; var f = (async function() { y = async x => await x });
                                                                 "kind": 215,
                                                                 "ellipsisToken": null,
                                                                 "binding": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 768,
@@ -174,7 +174,7 @@ var await; var f = (async function() { y = async x => await x });
                                                                 "end": 59
                                                             },
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 768,
@@ -244,32 +244,12 @@ var await; var f = (async function() { y = async x => await x });
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: y = async x => await x
-## Input
-
-`````js
-var await; var f = (async function() { y = async x => await x });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: var
-> :: case: y = async x => await x
-## Input
 
-`````js
-var await; var f = (async function() { y = async x => await x });
-`````
 ```
 

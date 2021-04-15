@@ -45,7 +45,7 @@
                                                 },
                                                 "generatorToken": null,
                                                 "name": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -59,7 +59,7 @@
                                                             "kind": 215,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "async",
                                                                 "rawText": "async",
                                                                 "flags": 768,
@@ -77,7 +77,7 @@
                                                             "kind": 215,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 768,
@@ -95,7 +95,7 @@
                                                             "kind": 215,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 768,
@@ -113,7 +113,7 @@
                                                             "kind": 215,
                                                             "ellipsisToken": null,
                                                             "binding": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 768,
@@ -247,32 +247,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { triple
-> :: case: function x(async x, await y) {
-## Input
-
-`````js
-{ { { function x(async x, await y) {
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: { triple
-> :: case: function x(async x, await y) {
-## Input
 
-`````js
-{ { { function x(async x, await y) {
-`````
 ```
 

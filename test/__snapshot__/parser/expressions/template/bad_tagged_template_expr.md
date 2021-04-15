@@ -20,7 +20,7 @@ x`foo ${a b} bar`
             "expression": {
                 "kind": 226,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -35,7 +35,7 @@ x`foo ${a b} bar`
                             "rawText": "foo ",
                             "text": "foo ",
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,

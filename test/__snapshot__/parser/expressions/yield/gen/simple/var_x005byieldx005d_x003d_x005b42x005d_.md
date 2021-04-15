@@ -41,7 +41,7 @@ var [yield] = [42];
                                         "kind": 244,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 768,
@@ -73,7 +73,7 @@ var [yield] = [42];
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 768,
@@ -117,32 +117,12 @@ var [yield] = [42];
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var [yield] = [42];
-## Input
-
-`````js
-var [yield] = [42];
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var [yield] = [42];
-## Input
 
-`````js
-var [yield] = [42];
-`````
 ```
 

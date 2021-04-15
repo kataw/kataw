@@ -85,7 +85,7 @@ for (function(){ }[foo] of x);
                     "end": 18
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -97,7 +97,7 @@ for (function(){ }[foo] of x);
                 "end": 23
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -129,12 +129,12 @@ for (function(){ }[foo] of x);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

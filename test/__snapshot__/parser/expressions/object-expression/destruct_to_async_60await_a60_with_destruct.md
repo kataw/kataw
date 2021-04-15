@@ -13,6 +13,7 @@ async function g() {   s = {"foo": await a = x} = x   }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -30,7 +31,7 @@ async function g() {   s = {"foo": await a = x} = x   }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
@@ -56,7 +57,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 768,
@@ -89,7 +90,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                                 "end": 40
                                                             },
                                                             "expression": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 768,
@@ -107,7 +108,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "end": 44
                                                         },
                                                         "right": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 768,
@@ -119,7 +120,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "end": 46
                                                     },
                                                     "right": {
-                                                        "kind": 67174403,
+                                                        "kind": 201392131,
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 768,
@@ -148,7 +149,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                         "end": 49
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,

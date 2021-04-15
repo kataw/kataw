@@ -13,6 +13,7 @@ do {} while ((""));
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 169,
@@ -25,7 +26,7 @@ do {} while ((""));
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 67174403,
+                    "kind": 201392131,
                     "text": "",
                     "rawText": "",
                     "flags": 768,

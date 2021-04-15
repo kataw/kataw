@@ -13,6 +13,7 @@ a * x ? b : c ? d : e
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -21,7 +22,7 @@ a * x ? b : c ? d : e
                 "shortCircuit": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -35,7 +36,7 @@ a * x ? b : c ? d : e
                         "end": 3
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -53,7 +54,7 @@ a * x ? b : c ? d : e
                     "end": 7
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -69,7 +70,7 @@ a * x ? b : c ? d : e
                 "alternate": {
                     "kind": 197,
                     "shortCircuit": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -83,7 +84,7 @@ a * x ? b : c ? d : e
                         "end": 15
                     },
                     "consequent": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -97,7 +98,7 @@ a * x ? b : c ? d : e
                         "end": 19
                     },
                     "alternate": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "e",
                         "rawText": "e",
                         "flags": 768,

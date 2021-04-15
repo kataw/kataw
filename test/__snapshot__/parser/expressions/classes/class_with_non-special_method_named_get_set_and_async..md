@@ -13,6 +13,7 @@ class A {set(){} get(){} async(){}}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class A {set(){} get(){} async(){}}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -43,7 +44,7 @@ class A {set(){} get(){} async(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 768,
@@ -90,7 +91,7 @@ class A {set(){} get(){} async(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 768,
@@ -137,7 +138,7 @@ class A {set(){} get(){} async(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 768,

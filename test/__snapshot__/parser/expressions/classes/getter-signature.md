@@ -21,6 +21,7 @@ class A {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -32,7 +33,7 @@ class A {
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -51,7 +52,7 @@ class A {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "prop",
                                 "rawText": "prop",
                                 "flags": 768,
@@ -66,7 +67,7 @@ class A {
                                         "kind": 215,
                                         "ellipsisToken": null,
                                         "binding": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 768,

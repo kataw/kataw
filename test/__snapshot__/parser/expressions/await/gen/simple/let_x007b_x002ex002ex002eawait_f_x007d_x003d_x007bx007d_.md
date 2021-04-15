@@ -46,7 +46,7 @@ let { ...await f } = {};
                                             "end": 9
                                         },
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 768,
@@ -62,7 +62,7 @@ let { ...await f } = {};
                                         "kind": 222,
                                         "ellipsisToken": null,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 768,
@@ -138,32 +138,12 @@ let { ...await f } = {};
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: let { ...await f } = {};
-## Input
-
-`````js
-let { ...await f } = {};
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: let { ...await f } = {};
-## Input
 
-`````js
-let { ...await f } = {};
-`````
 ```
 

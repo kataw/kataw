@@ -20,7 +20,7 @@ wrap({async [foo""](){}});
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 768,
@@ -38,7 +38,7 @@ wrap({async [foo""](){}});
                                     {
                                         "kind": 194,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -50,7 +50,7 @@ wrap({async [foo""](){}});
                                         "end": 16
                                     },
                                     {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "",
                                         "rawText": "",
                                         "flags": 768,

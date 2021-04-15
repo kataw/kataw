@@ -51,7 +51,7 @@ async function f(){}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -98,7 +98,7 @@ async function f(){}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -130,7 +130,7 @@ async function f(){}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 768,
@@ -162,7 +162,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -235,7 +235,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -287,7 +287,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -383,7 +383,7 @@ async function f(){}
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 768,
@@ -435,7 +435,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -515,7 +515,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,
@@ -562,7 +562,7 @@ async function f(){}
                                                     "end": 143
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 768,
@@ -586,7 +586,7 @@ async function f(){}
                                                 "end": 151
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 768,
@@ -739,7 +739,7 @@ async function f(){}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 768,
@@ -781,7 +781,7 @@ async function f(){}
                                                     },
                                                     "generatorToken": null,
                                                     "name": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 768,
@@ -836,7 +836,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 768,

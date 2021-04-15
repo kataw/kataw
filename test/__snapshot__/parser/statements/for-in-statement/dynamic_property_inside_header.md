@@ -45,7 +45,7 @@ for (x[a in b] in y);
             "initializer": {
                 "kind": 130,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -55,7 +55,7 @@ for (x[a in b] in y);
                 "expression": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -69,7 +69,7 @@ for (x[a in b] in y);
                         "end": 11
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -85,7 +85,7 @@ for (x[a in b] in y);
                 "end": 14
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,
@@ -116,12 +116,12 @@ for (x[a in b] in y);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

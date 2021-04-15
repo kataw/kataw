@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface ObjectTypeProperty extends SyntaxNode {
@@ -23,7 +23,6 @@ export function createObjectTypeProperty(
     value,
     optionalToken,
     staticToken,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

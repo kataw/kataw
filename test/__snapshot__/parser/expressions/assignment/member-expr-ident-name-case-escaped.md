@@ -38,7 +38,7 @@ obj.c\u0061se = 42;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 768,
@@ -80,7 +80,7 @@ obj.c\u0061se = 42;
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 768,
@@ -107,7 +107,7 @@ obj.c\u0061se = 42;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 42,
                 "rawText": "42",
                 "flags": 768,

@@ -19,11 +19,12 @@ abc\uD835\uDFD0def
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "abc@{x1d7d0}@def",
                 "rawText": "abc\\uD835\\uDFD0def",
                 "flags": 768,

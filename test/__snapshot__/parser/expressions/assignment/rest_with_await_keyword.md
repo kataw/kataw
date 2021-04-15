@@ -20,6 +20,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -35,7 +36,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
                             "flags": 768,
@@ -54,7 +55,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -62,7 +63,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "end": 27
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
                                                 "flags": 768,
@@ -98,7 +99,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 768,
@@ -106,7 +107,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "end": 47
                                             },
                                             "right": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "protected",
                                                 "flags": 768,

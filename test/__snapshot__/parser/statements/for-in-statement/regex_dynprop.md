@@ -52,7 +52,7 @@ for (/foo/[x] in c) d;
                     "end": 10
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -64,7 +64,7 @@ for (/foo/[x] in c) d;
                 "end": 13
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
                 "flags": 768,
@@ -74,7 +74,7 @@ for (/foo/[x] in c) d;
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
                     "flags": 768,
@@ -103,12 +103,12 @@ for (/foo/[x] in c) d;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -15,13 +15,14 @@ typeof x;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 197,
                 "shortCircuit": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
                     "flags": 768,
@@ -35,7 +36,7 @@ typeof x;
                     "end": 3
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
                     "flags": 768,
@@ -51,7 +52,7 @@ typeof x;
                 "alternate": {
                     "kind": 197,
                     "shortCircuit": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
                         "flags": 768,
@@ -65,7 +66,7 @@ typeof x;
                         "end": 11
                     },
                     "consequent": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
                         "flags": 768,
@@ -81,7 +82,7 @@ typeof x;
                     "alternate": {
                         "kind": 198,
                         "left": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
                             "flags": 768,
@@ -95,7 +96,7 @@ typeof x;
                             "end": 19
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -123,13 +124,13 @@ typeof x;
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259885,
+                    "kind": 138477613,
                     "flags": 768,
                     "start": 21,
                     "end": 29
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

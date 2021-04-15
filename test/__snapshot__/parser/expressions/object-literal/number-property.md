@@ -13,13 +13,14 @@ x = {15:b}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -40,7 +41,7 @@ x = {15:b}
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -48,7 +49,7 @@ x = {15:b}
                                     "end": 9
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 15,
                                     "rawText": "15",
                                     "flags": 768,

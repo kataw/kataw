@@ -48,7 +48,7 @@ var a : { (x: T): number; }
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -59,7 +59,7 @@ var a : { (x: T): number; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 241,
+                                "kind": 134217969,
                                 "properties": [],
                                 "indexers": [],
                                 "callProperties": [
@@ -70,7 +70,7 @@ var a : { (x: T): number; }
                                                 "kind": 149,
                                                 "ellipsisToken": null,
                                                 "name": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 768,
@@ -81,7 +81,7 @@ var a : { (x: T): number; }
                                                 "typeAnnotation": {
                                                     "kind": 144,
                                                     "id": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 768,
@@ -155,12 +155,12 @@ var a : { (x: T): number; }
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

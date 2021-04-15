@@ -26,7 +26,7 @@ function test({...{}}) {}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "test",
                 "rawText": "test",
                 "flags": 768,

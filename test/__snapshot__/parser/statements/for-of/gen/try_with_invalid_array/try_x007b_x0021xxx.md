@@ -122,7 +122,7 @@ try [catch] try { !xxx
                                     "end": 19
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "xxx",
                                     "rawText": "xxx",
                                     "flags": 768,
@@ -262,32 +262,12 @@ try [catch] try { !xxx
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: try with invalid array
-> :: case: try { !xxx
-## Input
-
-`````js
-try [catch] try { !xxx
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: try with invalid array
-> :: case: try { !xxx
-## Input
 
-`````js
-try [catch] try { !xxx
-`````
 ```
 

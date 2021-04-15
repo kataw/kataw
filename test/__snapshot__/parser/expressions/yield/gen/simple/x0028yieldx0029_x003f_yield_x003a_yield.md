@@ -26,7 +26,7 @@
                 "shortCircuit": {
                     "kind": 121,
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 768,
@@ -44,7 +44,7 @@
                     "end": 9
                 },
                 "consequent": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -58,7 +58,7 @@
                     "end": 17
                 },
                 "alternate": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -87,32 +87,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: (yield) ? yield : yield
-## Input
-
-`````js
-(yield) ? yield : yield
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: (yield) ? yield : yield
-## Input
 
-`````js
-(yield) ? yield : yield
-`````
 ```
 

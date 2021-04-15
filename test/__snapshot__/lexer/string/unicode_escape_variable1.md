@@ -32,7 +32,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x123}@",
                 "rawText": "@{x123}@",
                 "flags": 131840,
@@ -46,7 +46,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x4567}@",
                 "rawText": "@{x4567}@",
                 "flags": 131841,
@@ -60,7 +60,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x226}@@{x2bc}@",
                 "rawText": "@{x226}@@{x2bc}@",
                 "flags": 131841,
@@ -74,7 +74,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{x37b}@@{x3ab}@",
                 "rawText": "@{x37b}@@{x3ab}@",
                 "flags": 131841,
@@ -88,7 +88,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "@{xcdef}@",
                 "rawText": "@{xcdef}@",
                 "flags": 131841,
@@ -102,7 +102,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "prefix H@{x345}@",
                 "rawText": "prefix H@{x345}@",
                 "flags": 131841,
@@ -116,7 +116,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "H@{x345}@ postfix",
                 "rawText": "H@{x345}@ postfix",
                 "flags": 131841,
@@ -130,7 +130,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 67174403,
+                "kind": 201392131,
                 "text": "H@{x345}@@{x19e}@@{x9a}@",
                 "rawText": "H@{x345}@@{x19e}@@{x9a}@",
                 "flags": 131841,

@@ -52,7 +52,7 @@ for ({a: b.c} in d) e
                             "left": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -60,7 +60,7 @@ for ({a: b.c} in d) e
                                     "end": 10
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 768,
@@ -73,7 +73,7 @@ for ({a: b.c} in d) e
                                 "end": 12
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 768,
@@ -96,7 +96,7 @@ for ({a: b.c} in d) e
                 "end": 13
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "d",
                 "rawText": "d",
                 "flags": 768,
@@ -106,7 +106,7 @@ for ({a: b.c} in d) e
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
                     "flags": 768,
@@ -135,12 +135,12 @@ for ({a: b.c} in d) e
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

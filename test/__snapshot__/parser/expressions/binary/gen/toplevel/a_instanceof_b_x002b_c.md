@@ -26,7 +26,7 @@ a instanceof b + c
                 "left": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
                         "flags": 768,
@@ -40,7 +40,7 @@ a instanceof b + c
                         "end": 12
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -58,7 +58,7 @@ a instanceof b + c
                     "end": 16
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
                     "flags": 768,
@@ -87,32 +87,12 @@ a instanceof b + c
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: toplevel
-> :: case: a instanceof b + c
-## Input
-
-`````js
-a instanceof b + c
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: l
-> :: test: toplevel
-> :: case: a instanceof b + c
-## Input
 
-`````js
-a instanceof b + c
-`````
 ```
 

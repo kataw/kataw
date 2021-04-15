@@ -13,6 +13,7 @@ for (x of y) continue
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 167,
@@ -23,7 +24,7 @@ for (x of y) continue
                 "end": 3
             },
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -31,7 +32,7 @@ for (x of y) continue
                 "end": 6
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
                 "flags": 768,

@@ -298,32 +298,12 @@ return [catch] function while
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: return with invalid array
-> :: case: function while
-## Input
-
-`````js
-return [catch] function while
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: return with invalid array
-> :: case: function while
-## Input
 
-`````js
-return [catch] function while
-`````
 ```
 

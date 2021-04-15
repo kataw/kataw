@@ -33,7 +33,7 @@ var foob\\u{}ar = 0;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 768,
@@ -59,7 +59,7 @@ var foob\\u{}ar = 0;
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "u",
                 "rawText": "u",
                 "flags": 768,
@@ -89,7 +89,7 @@ var foob\\u{}ar = 0;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "ar",
                     "rawText": "ar",
                     "flags": 768,
@@ -103,7 +103,7 @@ var foob\\u{}ar = 0;
                     "end": 17
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -197,32 +197,12 @@ var foob\\u{}ar = 0;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var foob\\u{}ar = 0;
-## Input
-
-`````js
-var foob\\u{}ar = 0;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var foob\\u{}ar = 0;
-## Input
 
-`````js
-var foob\\u{}ar = 0;
-`````
 ```
 

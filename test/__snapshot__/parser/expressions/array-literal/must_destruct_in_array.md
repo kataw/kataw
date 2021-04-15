@@ -39,7 +39,7 @@ x = {x: [{a = b}] + x}.x
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -76,7 +76,7 @@ x = {x: [{a = b}] + x}.x
                                                                 {
                                                                     "kind": 205,
                                                                     "left": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 768,
@@ -84,7 +84,7 @@ x = {x: [{a = b}] + x}.x
                                                                         "end": 11
                                                                     },
                                                                     "right": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 768,
@@ -123,7 +123,7 @@ x = {x: [{a = b}] + x}.x
                                             "end": 19
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -135,7 +135,7 @@ x = {x: [{a = b}] + x}.x
                                         "end": 21
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -158,7 +158,7 @@ x = {x: [{a = b}] + x}.x
                         "end": 22
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -201,12 +201,12 @@ x = {x: [{a = b}] + x}.x
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

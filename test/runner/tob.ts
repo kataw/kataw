@@ -74,7 +74,7 @@ function md2input(str: string) {
 }
 
 // TODO: read printerOptions from file content
-function md2printerOptions(str: string) {
+function md2printerOptions(_str: string) {
   return {
     tabWidth: 2,
     printWidth: 80,

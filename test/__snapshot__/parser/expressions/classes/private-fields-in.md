@@ -42,7 +42,7 @@ class C {
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -116,7 +116,7 @@ class C {
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "get",
                 "rawText": "get",
                 "flags": 768,
@@ -155,7 +155,7 @@ class C {
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "static",
                 "rawText": "static",
                 "flags": 768,
@@ -171,7 +171,7 @@ class C {
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "isC",
                     "rawText": "isC",
                     "flags": 768,
@@ -182,7 +182,7 @@ class C {
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 768,
@@ -259,7 +259,7 @@ class C {
                         "end": 97
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 768,
@@ -313,7 +313,7 @@ class C {
                         "end": 115
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 768,
@@ -365,7 +365,7 @@ class C {
                     "end": 133
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 768,

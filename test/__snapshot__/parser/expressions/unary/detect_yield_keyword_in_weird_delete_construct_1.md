@@ -13,6 +13,7 @@ function *f(){ delete ("x"[(yield)]) }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -30,7 +31,7 @@ function *f(){ delete ("x"[(yield)]) }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -66,7 +67,7 @@ function *f(){ delete ("x"[(yield)]) }
                                     "expression": {
                                         "kind": 130,
                                         "member": {
-                                            "kind": 67174403,
+                                            "kind": 201392131,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,

@@ -30,7 +30,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 768,
@@ -54,7 +54,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 768,
@@ -73,7 +73,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                     {
                                         "kind": 120,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 768,
@@ -113,7 +113,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 12,
                 "rawText": "12",
                 "flags": 768,
@@ -203,32 +203,12 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: yield /* comment */ { yield: 12 }
-## Input
-
-`````js
-function not_gen() { yield /* comment */ { yield: 12 } }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: function declaration
-> :: case: yield /* comment */ { yield: 12 }
-## Input
 
-`````js
-function not_gen() { yield /* comment */ { yield: 12 } }}
-`````
 ```
 

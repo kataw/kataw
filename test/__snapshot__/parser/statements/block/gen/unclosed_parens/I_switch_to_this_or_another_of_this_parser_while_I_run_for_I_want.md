@@ -61,7 +61,7 @@
                 "end": 11
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "to",
                 "rawText": "to",
                 "flags": 768,
@@ -94,7 +94,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "or",
                 "rawText": "or",
                 "flags": 768,
@@ -108,7 +108,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "another",
                 "rawText": "another",
                 "flags": 768,
@@ -122,7 +122,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "of",
                 "rawText": "of",
                 "flags": 768,
@@ -148,7 +148,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "parser",
                 "rawText": "parser",
                 "flags": 768,
@@ -168,7 +168,7 @@
                 "end": 51
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "I",
                 "rawText": "I",
                 "flags": 768,
@@ -178,7 +178,7 @@
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "run",
                     "rawText": "run",
                     "flags": 768,
@@ -202,7 +202,7 @@
                 "end": 61
             },
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "I",
                 "rawText": "I",
                 "flags": 768,
@@ -218,7 +218,7 @@
                 "end": 68
             },
             "incrementor": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "want",
                 "rawText": "want",
                 "flags": 768,
@@ -434,32 +434,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: unclosed parens
-> :: case: I switch to this or another of this parser while I run for I want
-## Input
-
-`````js
-{( I switch to this or another of this parser while I run for I want
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: unclosed parens
-> :: case: I switch to this or another of this parser while I run for I want
-## Input
 
-`````js
-{( I switch to this or another of this parser while I run for I want
-`````
 ```
 

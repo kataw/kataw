@@ -13,11 +13,12 @@ foo: bar: do { do continue foo; while(z); } while(z)
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 163,
             "label": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 768,
@@ -27,7 +28,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
             "statement": {
                 "kind": 163,
                 "label": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -43,7 +44,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                         "end": 12
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
                         "flags": 768,
@@ -70,7 +71,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                         "end": 17
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 768,
@@ -92,7 +93,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                             "end": 26
                                         },
                                         "label": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,

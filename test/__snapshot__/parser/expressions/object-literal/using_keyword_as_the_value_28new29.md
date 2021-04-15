@@ -20,7 +20,7 @@ s = {s: new}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -43,7 +43,7 @@ s = {s: new}
                                 "left": {
                                     "kind": 210,
                                     "newKeyword": {
-                                        "kind": 4259933,
+                                        "kind": 138477661,
                                         "flags": 768,
                                         "start": 7,
                                         "end": 11
@@ -62,7 +62,7 @@ s = {s: new}
                                     "end": 11
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 768,

@@ -29,7 +29,7 @@ class C { async\n a }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
                 "flags": 768,
@@ -73,7 +73,7 @@ class C { async\n a }
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
                 "flags": 768,
@@ -87,7 +87,7 @@ class C { async\n a }
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -169,32 +169,12 @@ class C { async\n a }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: async\n a
-## Input
-
-`````js
-class C { async\n a }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: async\n a
-## Input
 
-`````js
-class C { async\n a }
-`````
 ```
 

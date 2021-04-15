@@ -35,7 +35,7 @@ async function f(){ await await foo; }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -75,7 +75,7 @@ async function f(){ await await foo; }
                                         "end": 31
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 768,
@@ -124,32 +124,12 @@ async function f(){ await await foo; }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: async function f(){ await await foo; }
-## Input
-
-`````js
-async function f(){ await await foo; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: async function f(){ await await foo; }
-## Input
 
-`````js
-async function f(){ await await foo; }
-`````
 ```
 

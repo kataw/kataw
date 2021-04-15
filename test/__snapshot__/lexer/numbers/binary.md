@@ -36,7 +36,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 2,
                 "rawText": "0b10",
                 "flags": 8389376,
@@ -50,7 +50,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 2,
                 "rawText": "0B10",
                 "flags": 8389377,
@@ -64,7 +64,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0b0",
                 "flags": 8389377,
@@ -78,7 +78,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1,
                 "rawText": "0b1",
                 "flags": 8389377,
@@ -92,7 +92,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 0,
                 "rawText": "0b00",
                 "flags": 8389377,
@@ -106,7 +106,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 3,
                 "rawText": "0b11",
                 "flags": 8389377,
@@ -120,7 +120,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 1,
                 "rawText": "0b0_1",
                 "flags": 9437953,
@@ -134,7 +134,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 2,
                 "rawText": "0b10",
                 "flags": 8389377,
@@ -148,7 +148,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 616642771244373,
                 "rawText": "0b10001100001101010101010101010101010101010101010101",
                 "flags": 8389377,
@@ -162,7 +162,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 616642771244373,
                 "rawText": "0b1000_11000011_01010101_010_101010101010101010_101010101",
                 "flags": 9437953,

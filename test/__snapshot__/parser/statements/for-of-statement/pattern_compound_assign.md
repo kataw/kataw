@@ -66,7 +66,7 @@ for({}/=y of a)x
                     "end": 8
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -78,7 +78,7 @@ for({}/=y of a)x
                 "end": 9
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -88,7 +88,7 @@ for({}/=y of a)x
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -127,12 +127,12 @@ for({}/=y of a)x
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -40,7 +40,7 @@
                                         "rawText": "foo ",
                                         "text": "foo ",
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -56,7 +56,7 @@
                                         "rawText": " and ",
                                         "text": " and ",
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -89,7 +89,7 @@
                                                         "rawText": "w ",
                                                         "text": "w ",
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "d",
                                                             "rawText": "d",
                                                             "flags": 768,
@@ -105,7 +105,7 @@
                                                         "rawText": " x ",
                                                         "text": " x ",
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "e",
                                                             "rawText": "e",
                                                             "flags": 768,
@@ -121,7 +121,7 @@
                                                         "rawText": " y ",
                                                         "text": " y ",
                                                         "expression": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 768,

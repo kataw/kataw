@@ -48,7 +48,7 @@ var a : string
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -59,7 +59,7 @@ var a : string
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 16619,
+                                "kind": 134234347,
                                 "flags": 768,
                                 "start": 7,
                                 "end": 14
@@ -97,12 +97,12 @@ var a : string
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

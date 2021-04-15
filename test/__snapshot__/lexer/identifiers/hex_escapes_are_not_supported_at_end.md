@@ -24,7 +24,7 @@ xxx\x61
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "xxx",
                 "rawText": "xxx",
                 "flags": 768,
@@ -38,7 +38,7 @@ xxx\x61
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x61",
                 "rawText": "x61",
                 "flags": 768,

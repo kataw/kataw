@@ -24,7 +24,7 @@ st\u0061tic = x;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "static",
                     "rawText": "st\\u0061tic",
                     "flags": 768,
@@ -38,7 +38,7 @@ st\u0061tic = x;
                     "end": 13
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -67,32 +67,12 @@ st\u0061tic = x;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: assignment unwrapped
-> :: case: st\u0061tic
-## Input
-
-`````js
-st\u0061tic = x;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: assignment unwrapped
-> :: case: st\u0061tic
-## Input
 
-`````js
-st\u0061tic = x;
-`````
 ```
 

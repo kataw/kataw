@@ -52,7 +52,7 @@ for ({x: a.b} in obj);
                             "left": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -60,7 +60,7 @@ for ({x: a.b} in obj);
                                     "end": 10
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -73,7 +73,7 @@ for ({x: a.b} in obj);
                                 "end": 12
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -96,7 +96,7 @@ for ({x: a.b} in obj);
                 "end": 13
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 768,
@@ -127,12 +127,12 @@ for ({x: a.b} in obj);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

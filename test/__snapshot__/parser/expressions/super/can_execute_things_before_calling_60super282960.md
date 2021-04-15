@@ -13,6 +13,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -24,7 +25,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -41,7 +42,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                     "end": 15
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
                     "flags": 768,
@@ -63,7 +64,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 768,
@@ -100,7 +101,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                     {
                                                         "kind": 190,
                                                         "binding": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "xx",
                                                             "rawText": "xx",
                                                             "flags": 768,
@@ -112,7 +113,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                         "initializer": {
                                                             "kind": 198,
                                                             "left": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 768,
@@ -126,7 +127,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                                 "end": 48
                                                             },
                                                             "right": {
-                                                                "kind": 81921,
+                                                                "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 768,
@@ -167,7 +168,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                     "end": 57
                                                 },
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "mom",
                                                     "rawText": "mom",
                                                     "flags": 768,

@@ -61,7 +61,7 @@ for ([].w ^= s;;) x;
                         "end": 7
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "w",
                         "rawText": "w",
                         "flags": 768,
@@ -80,7 +80,7 @@ for ([].w ^= s;;) x;
                     "end": 12
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -96,7 +96,7 @@ for ([].w ^= s;;) x;
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -125,12 +125,12 @@ for ([].w ^= s;;) x;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

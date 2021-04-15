@@ -17,6 +17,7 @@ const obj = {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 162,
@@ -27,7 +28,7 @@ const obj = {
                     {
                         "kind": 190,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 768,
@@ -42,7 +43,7 @@ const obj = {
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 768,
@@ -52,7 +53,7 @@ const obj = {
                                     {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "generator",
                                             "rawText": "generator",
                                             "flags": 768,

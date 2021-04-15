@@ -43,7 +43,7 @@
                             "end": 14
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "Base",
                             "rawText": "Base",
                             "flags": 768,
@@ -64,7 +64,7 @@
                                 "declaredToken": null,
                                 "staticToken": null,
                                 "key": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -98,7 +98,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
                 "flags": 768,
@@ -112,7 +112,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "get",
                 "rawText": "get",
                 "flags": 768,
@@ -216,32 +216,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration_paren
-> :: case: a\n get
-## Input
-
-`````js
-(class extends Base { a\n get });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration_paren
-> :: case: a\n get
-## Input
 
-`````js
-(class extends Base { a\n get });
-`````
 ```
 

@@ -14,13 +14,14 @@ x={..."foo".foo=x}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -45,7 +46,7 @@ x={..."foo".foo=x}
                                     "left": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 67174403,
+                                            "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -53,7 +54,7 @@ x={..."foo".foo=x}
                                             "end": 11
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 768,
@@ -72,7 +73,7 @@ x={..."foo".foo=x}
                                         "end": 16
                                     },
                                     "right": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,

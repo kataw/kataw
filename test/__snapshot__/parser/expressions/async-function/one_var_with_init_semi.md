@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -26,7 +27,7 @@
                             {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -40,7 +41,7 @@
                                     "end": 6
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 768,
@@ -68,7 +69,7 @@
                     "end": 11
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 768,

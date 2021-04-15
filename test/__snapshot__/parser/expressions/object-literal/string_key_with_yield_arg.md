@@ -20,7 +20,7 @@ s = {"foo": yield /x/}
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
                     "flags": 768,
@@ -45,7 +45,7 @@ s = {"foo": yield /x/}
                                     "left": {
                                         "kind": 198,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 768,
@@ -59,7 +59,7 @@ s = {"foo": yield /x/}
                                             "end": 19
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -89,7 +89,7 @@ s = {"foo": yield /x/}
                                     "end": 21
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,

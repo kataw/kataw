@@ -214,32 +214,12 @@ do while [catch] /**/ /x do while
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: do with invalid array
-> :: case: /**/ /x do while
-## Input
-
-`````js
-do while [catch] /**/ /x do while
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: do with invalid array
-> :: case: /**/ /x do while
-## Input
 
-`````js
-do while [catch] /**/ /x do while
-`````
 ```
 

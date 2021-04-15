@@ -24,7 +24,7 @@ implem\u0065nts = x;
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "implements",
                     "rawText": "implem\\u0065nts",
                     "flags": 768,
@@ -38,7 +38,7 @@ implem\u0065nts = x;
                     "end": 17
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -67,32 +67,12 @@ implem\u0065nts = x;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: assignment unwrapped
-> :: case: implem\u0065nts
-## Input
-
-`````js
-implem\u0065nts = x;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: assignment unwrapped
-> :: case: implem\u0065nts
-## Input
 
-`````js
-implem\u0065nts = x;
-`````
 ```
 

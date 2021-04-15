@@ -33,7 +33,7 @@ var e = (await);
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
                             "flags": 768,
@@ -45,7 +45,7 @@ var e = (await);
                         "initializer": {
                             "kind": 121,
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 768,
@@ -83,32 +83,12 @@ var e = (await);
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var e = (await);
-## Input
-
-`````js
-var e = (await);
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: var e = (await);
-## Input
 
-`````js
-var e = (await);
-`````
 ```
 

@@ -1,10 +1,9 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
 
 export interface QualifiedType extends SyntaxNode {
-  kind: SyntaxKind.QualifiedType;
-  qualification: Identifier | QualifiedType;
-  id: Identifier;
+  readonly qualification: Identifier | QualifiedType;
+  readonly id: Identifier;
 }
 
 export function createQualifiedType(
@@ -17,7 +16,6 @@ export function createQualifiedType(
     kind: SyntaxKind.QualifiedType,
     qualification,
     id,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

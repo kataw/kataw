@@ -29,7 +29,7 @@ class A extends new x {}
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
                 "flags": 768,
@@ -48,13 +48,13 @@ class A extends new x {}
                 "expression": {
                     "kind": 210,
                     "newKeyword": {
-                        "kind": 4259933,
+                        "kind": 138477661,
                         "flags": 768,
                         "start": 15,
                         "end": 19
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -96,32 +96,12 @@ class A extends new x {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: new x
-## Input
-
-`````js
-class A extends new x {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: declaration
-> :: case: new x
-## Input
 
-`````js
-class A extends new x {}
-`````
 ```
 

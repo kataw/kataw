@@ -126,32 +126,12 @@ class catch {}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: catch
-## Input
-
-`````js
-class catch {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: as class name
-> :: case: catch
-## Input
 
-`````js
-class catch {}
-`````
 ```
 

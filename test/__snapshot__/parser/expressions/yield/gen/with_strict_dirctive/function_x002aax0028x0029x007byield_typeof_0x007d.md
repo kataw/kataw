@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -44,7 +44,7 @@
                 "end": 24
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
@@ -80,13 +80,13 @@
                                 "expression": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 4259885,
+                                        "kind": 138477613,
                                         "flags": 768,
                                         "start": 33,
                                         "end": 40
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -135,32 +135,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function *a(){yield typeof 0}
-## Input
-
-`````js
-'use strict'; function *a(){yield typeof 0}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: function *a(){yield typeof 0}
-## Input
 
-`````js
-'use strict'; function *a(){yield typeof 0}
-`````
 ```
 

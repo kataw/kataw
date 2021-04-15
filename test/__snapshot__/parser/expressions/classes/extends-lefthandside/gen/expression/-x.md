@@ -33,7 +33,7 @@
                         "end": 6
                     },
                     "name": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
                         "flags": 768,
@@ -58,7 +58,7 @@
                                 "end": 18
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -107,32 +107,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: -x
-## Input
-
-`````js
-(class B extends -x {})
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: n
-> :: test: expression
-> :: case: -x
-## Input
 
-`````js
-(class B extends -x {})
-`````
 ```
 

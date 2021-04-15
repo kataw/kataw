@@ -13,6 +13,7 @@ var { x: x = 10 } = x;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 155,
@@ -36,7 +37,7 @@ var { x: x = 10 } = x;
                                         "kind": 204,
                                         "ellipsisToken": null,
                                         "key": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -47,7 +48,7 @@ var { x: x = 10 } = x;
                                             "kind": 203,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
@@ -55,7 +56,7 @@ var { x: x = 10 } = x;
                                                 "end": 10
                                             },
                                             "initializer": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": 10,
                                                 "rawText": "10",
                                                 "flags": 768,
@@ -85,7 +86,7 @@ var { x: x = 10 } = x;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,

@@ -29,7 +29,7 @@ function f(){
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -50,7 +50,7 @@ function f(){
                     "kind": 217,
                     "directives": [
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 67109633,
@@ -58,7 +58,7 @@ function f(){
                             "end": 19
                         },
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 67109633,

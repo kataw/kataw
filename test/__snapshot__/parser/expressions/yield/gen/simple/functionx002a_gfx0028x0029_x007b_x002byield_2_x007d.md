@@ -35,7 +35,7 @@ function* gf() { +yield 2; }
                 "end": 9
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 768,
@@ -77,7 +77,7 @@ function* gf() { +yield 2; }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 768,
@@ -126,32 +126,12 @@ function* gf() { +yield 2; }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function* gf() { +yield 2; }
-## Input
-
-`````js
-function* gf() { +yield 2; }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function* gf() { +yield 2; }
-## Input
 
-`````js
-function* gf() { +yield 2; }
-`````
 ```
 

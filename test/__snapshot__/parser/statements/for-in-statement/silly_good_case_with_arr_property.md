@@ -59,7 +59,7 @@ for ([].bar in obj);
                     "end": 7
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 768,
@@ -72,7 +72,7 @@ for ([].bar in obj);
                 "end": 11
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 768,
@@ -103,12 +103,12 @@ for ([].bar in obj);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

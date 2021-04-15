@@ -13,6 +13,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -22,7 +23,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
                             "flags": 768,
@@ -30,7 +31,7 @@
                             "end": 2
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -38,7 +39,7 @@
                             "end": 5
                         },
                         {
-                            "kind": 67174403,
+                            "kind": 201392131,
                             "text": "c",
                             "rawText": "c",
                             "flags": 768,
@@ -46,7 +47,7 @@
                             "end": 10
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "d",
                             "rawText": "d",
                             "flags": 768,
@@ -54,7 +55,7 @@
                             "end": 13
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
                             "flags": 768,
@@ -62,7 +63,7 @@
                             "end": 16
                         },
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -85,7 +86,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,

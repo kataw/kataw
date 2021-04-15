@@ -46,7 +46,7 @@
                                                 {
                                                     "kind": 219,
                                                     "left": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 768,
@@ -54,7 +54,7 @@
                                                         "end": 8
                                                     },
                                                     "right": {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 768,
@@ -77,7 +77,7 @@
                                         "end": 9
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "length",
                                         "rawText": "length",
                                         "flags": 768,
@@ -139,32 +139,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: in arrow head
-> :: case: {x: y}.length
-## Input
-
-`````js
-([ {x: y}.length ]) => {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: d
-> :: test: in arrow head
-> :: case: {x: y}.length
-## Input
 
-`````js
-([ {x: y}.length ]) => {}
-`````
 ```
 

@@ -13,11 +13,12 @@ async({c=3} = {})
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 131,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
                 "flags": 768,
@@ -37,7 +38,7 @@ async({c=3} = {})
                                     {
                                         "kind": 205,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 768,
@@ -45,7 +46,7 @@ async({c=3} = {})
                                             "end": 8
                                         },
                                         "right": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,

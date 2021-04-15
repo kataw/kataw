@@ -13,19 +13,20 @@ typeof x
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259885,
+                    "kind": 138477613,
                     "flags": 768,
                     "start": 0,
                     "end": 6
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

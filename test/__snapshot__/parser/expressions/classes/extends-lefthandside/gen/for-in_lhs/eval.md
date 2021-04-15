@@ -28,7 +28,7 @@ for (eval in x) ;
             },
             "kind": 166,
             "initializer": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 768,
@@ -36,7 +36,7 @@ for (eval in x) ;
                 "end": 9
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -67,32 +67,12 @@ for (eval in x) ;
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: eval
-## Input
-
-`````js
-for (eval in x) ;
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: for-in lhs
-> :: case: eval
-## Input
 
-`````js
-for (eval in x) ;
-`````
 ```
 

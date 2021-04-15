@@ -25,13 +25,14 @@ x = { method(test) { } }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -52,7 +53,7 @@ x = { method(test) { } }
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 768,
@@ -112,7 +113,7 @@ x = { method(test) { } }
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -133,7 +134,7 @@ x = { method(test) { } }
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 768,
@@ -193,7 +194,7 @@ x = { method(test) { } }
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -214,7 +215,7 @@ x = { method(test) { } }
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 768,
@@ -274,7 +275,7 @@ x = { method(test) { } }
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -297,7 +298,7 @@ x = { method(test) { } }
                                 {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 768,
@@ -312,7 +313,7 @@ x = { method(test) { } }
                                                 "kind": 215,
                                                 "ellipsisToken": null,
                                                 "binding": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 768,
@@ -374,7 +375,7 @@ x = { method(test) { } }
                                         {
                                             "kind": 209,
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "function",
                                                 "rawText": "function",
                                                 "flags": 768,
@@ -444,7 +445,7 @@ x = { method(test) { } }
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -467,7 +468,7 @@ x = { method(test) { } }
                                 {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "declare",
                                         "rawText": "declare",
                                         "flags": 768,
@@ -531,7 +532,7 @@ x = { method(test) { } }
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -552,7 +553,7 @@ x = { method(test) { } }
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 768,
@@ -567,7 +568,7 @@ x = { method(test) { } }
                                             "kind": 215,
                                             "ellipsisToken": null,
                                             "binding": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 768,

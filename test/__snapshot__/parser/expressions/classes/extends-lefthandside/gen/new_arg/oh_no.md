@@ -27,13 +27,13 @@ new oh,no
                     {
                         "kind": 210,
                         "newKeyword": {
-                            "kind": 4259933,
+                            "kind": 138477661,
                             "flags": 768,
                             "start": 0,
                             "end": 3
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "oh",
                             "rawText": "oh",
                             "flags": 768,
@@ -46,7 +46,7 @@ new oh,no
                         "end": 6
                     },
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "no",
                         "rawText": "no",
                         "flags": 768,
@@ -76,32 +76,12 @@ new oh,no
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: oh,no
-## Input
-
-`````js
-new oh,no
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: g
-> :: test: new arg
-> :: case: oh,no
-## Input
 
-`````js
-new oh,no
-`````
 ```
 

@@ -13,6 +13,7 @@ function f(){ foo = new.target }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -25,7 +26,7 @@ function f(){ foo = new.target }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -51,7 +52,7 @@ function f(){ foo = new.target }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -67,7 +68,7 @@ function f(){ foo = new.target }
                                 "right": {
                                     "kind": 211,
                                     "name": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "target",
                                         "rawText": "target",
                                         "flags": 768,

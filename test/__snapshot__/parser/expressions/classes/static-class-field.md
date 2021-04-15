@@ -25,7 +25,7 @@ class x { static #foo = bar }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -57,7 +57,7 @@ class x { static #foo = bar }
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 768,

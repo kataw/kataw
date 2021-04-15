@@ -19,7 +19,7 @@
     "kind": 122,
     "directives": [
         {
-            "kind": 67174403,
+            "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
             "flags": 67109632,
@@ -40,7 +40,7 @@
                 },
                 "typeParameters": null,
                 "parameters": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
                     "flags": 768,
@@ -50,7 +50,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
                     "flags": 768,
@@ -79,32 +79,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: await => async
-## Input
-
-`````js
-'use strict'; await => async
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: with_strict_dirctive
-> :: case: await => async
-## Input
 
-`````js
-'use strict'; await => async
-`````
 ```
 

@@ -60,7 +60,7 @@ for (/x/g + b in obj);
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
                         "flags": 768,
@@ -74,7 +74,7 @@ for (/x/g + b in obj);
                         "end": 16
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 768,
@@ -147,12 +147,12 @@ for (/x/g + b in obj);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

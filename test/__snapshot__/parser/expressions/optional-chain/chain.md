@@ -14,6 +14,7 @@ a?.b?.c?.(d)?.[e].f?.g
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,7 +29,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "member": {
                                 "kind": 205,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -41,7 +42,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -66,7 +67,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 768,
@@ -94,7 +95,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "kind": 256,
                                     "elements": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 768,
@@ -127,7 +128,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "kind": 203,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 768,
@@ -143,7 +144,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "end": 17
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
@@ -164,7 +165,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         "kind": 202,
                         "chain": null,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "g",
                             "rawText": "g",
                             "flags": 768,

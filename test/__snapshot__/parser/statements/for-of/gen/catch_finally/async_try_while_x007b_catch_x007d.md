@@ -308,32 +308,12 @@ catch async try while { catch } finally
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: async try while { catch }
-## Input
-
-`````js
-catch async try while { catch } finally
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: async try while { catch }
-## Input
 
-`````js
-catch async try while { catch } finally
-`````
 ```
 

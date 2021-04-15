@@ -20,6 +20,7 @@ class x { \u0063onstructor(){} }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 178,
@@ -31,7 +32,7 @@ class x { \u0063onstructor(){} }
                 "end": 5
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -50,7 +51,7 @@ class x { \u0063onstructor(){} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "x",
                                 "flags": 768,

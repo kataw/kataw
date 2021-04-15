@@ -24,7 +24,7 @@ yield *
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 768,
@@ -76,32 +76,12 @@ yield *
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: yield *
-## Input
-
-`````js
-yield *
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: yield *
-## Input
 
-`````js
-yield *
-`````
 ```
 

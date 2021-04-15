@@ -35,7 +35,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "end": 9
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 768,
@@ -65,7 +65,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "end": 23
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,
@@ -99,7 +99,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "end": 41
                                             },
                                             "expression": {
-                                                "kind": 67174403,
+                                                "kind": 201392131,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 67109632,
@@ -168,32 +168,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function* gf() { switch (1) { case yield* 'foo': break; } }
-## Input
-
-`````js
-function* gf() { switch (1) { case yield* 'foo': break; } }
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: function* gf() { switch (1) { case yield* 'foo': break; } }
-## Input
 
-`````js
-function* gf() { switch (1) { case yield* 'foo': break; } }
-`````
 ```
 

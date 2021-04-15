@@ -124,32 +124,12 @@ catch /false//a finally
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: /false//a
-## Input
-
-`````js
-catch /false//a finally
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: catch finally
-> :: case: /false//a
-## Input
 
-`````js
-catch /false//a finally
-`````
 ```
 

@@ -15,6 +15,7 @@ typeof x;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -27,7 +28,7 @@ typeof x;
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x0",
                                 "rawText": "x0",
                                 "flags": 768,
@@ -41,7 +42,7 @@ typeof x;
                                 "end": 4
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x1",
                                 "rawText": "x1",
                                 "flags": 768,
@@ -59,7 +60,7 @@ typeof x;
                             "end": 11
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x2",
                             "rawText": "x2",
                             "flags": 768,
@@ -71,7 +72,7 @@ typeof x;
                         "end": 14
                     },
                     "operatorToken": {
-                        "kind": 33864,
+                        "kind": 134251592,
                         "flags": 768,
                         "start": 14,
                         "end": 16
@@ -83,7 +84,7 @@ typeof x;
                             "left": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x3",
                                     "rawText": "x3",
                                     "flags": 768,
@@ -97,7 +98,7 @@ typeof x;
                                     "end": 22
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x4",
                                     "rawText": "x4",
                                     "flags": 768,
@@ -115,7 +116,7 @@ typeof x;
                                 "end": 27
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x5",
                                 "rawText": "x5",
                                 "flags": 768,
@@ -127,13 +128,13 @@ typeof x;
                             "end": 30
                         },
                         "operatorToken": {
-                            "kind": 34121,
+                            "kind": 134251849,
                             "flags": 768,
                             "start": 30,
                             "end": 32
                         },
                         "right": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x6",
                             "rawText": "x6",
                             "flags": 768,
@@ -157,7 +158,7 @@ typeof x;
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x7",
                         "rawText": "x7",
                         "flags": 768,
@@ -175,7 +176,7 @@ typeof x;
                         "left": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x8",
                                 "rawText": "x8",
                                 "flags": 768,
@@ -189,7 +190,7 @@ typeof x;
                                 "end": 50
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x9",
                                 "rawText": "x9",
                                 "flags": 768,
@@ -209,7 +210,7 @@ typeof x;
                         "right": {
                             "kind": 198,
                             "left": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x10",
                                 "rawText": "x10",
                                 "flags": 768,
@@ -223,7 +224,7 @@ typeof x;
                                 "end": 62
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -255,13 +256,13 @@ typeof x;
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259885,
+                    "kind": 138477613,
                     "flags": 768,
                     "start": 64,
                     "end": 72
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

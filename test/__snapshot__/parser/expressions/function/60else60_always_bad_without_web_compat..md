@@ -19,6 +19,7 @@ if (x) ; else function f(){}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 164,
@@ -29,7 +30,7 @@ if (x) ; else function f(){}
                 "end": 2
             },
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
                 "flags": 768,
@@ -59,7 +60,7 @@ if (x) ; else function f(){}
                 },
                 "generatorToken": null,
                 "name": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 768,

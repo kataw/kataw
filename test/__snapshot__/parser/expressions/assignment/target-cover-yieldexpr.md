@@ -15,6 +15,7 @@ function* g() {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -32,7 +33,7 @@ function* g() {
                 "end": 9
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
@@ -85,7 +86,7 @@ function* g() {
                                     "end": 27
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,

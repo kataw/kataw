@@ -35,7 +35,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -104,7 +104,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                 "end": 50
                                             },
                                             "name": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -140,13 +140,13 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                                 "expression": {
                                                                     "kind": 126,
                                                                     "operandToken": {
-                                                                        "kind": 4259885,
+                                                                        "kind": 138477613,
                                                                         "flags": 768,
                                                                         "start": 59,
                                                                         "end": 66
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 768,
@@ -227,32 +227,12 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: function *a(){yield typeof 0}
-## Input
-
-`````js
-function * gen() { function not_gen() { function *a(){yield typeof 0} }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: function *a(){yield typeof 0}
-## Input
 
-`````js
-function * gen() { function not_gen() { function *a(){yield typeof 0} }}
-`````
 ```
 

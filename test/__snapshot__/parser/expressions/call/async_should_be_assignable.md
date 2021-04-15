@@ -13,13 +13,14 @@ async = 5 + 5;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
                     "flags": 768,
@@ -35,7 +36,7 @@ async = 5 + 5;
                 "right": {
                     "kind": 198,
                     "left": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 5,
                         "rawText": "5",
                         "flags": 768,
@@ -49,7 +50,7 @@ async = 5 + 5;
                         "end": 11
                     },
                     "right": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": 5,
                         "rawText": "5",
                         "flags": 768,

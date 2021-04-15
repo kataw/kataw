@@ -13,13 +13,14 @@ x={ dsda(){ return async function(a=super.foo){} }}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -40,7 +41,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "dsda",
                                     "rawText": "dsda",
                                     "flags": 768,
@@ -94,7 +95,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                 "kind": 215,
                                                                 "ellipsisToken": null,
                                                                 "binding": {
-                                                                    "kind": 81921,
+                                                                    "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 768,
@@ -118,7 +119,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "end": 41
                                                                     },
                                                                     "expression": {
-                                                                        "kind": 81921,
+                                                                        "kind": 134299649,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 768,

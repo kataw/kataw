@@ -115,32 +115,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: prefix update
-> :: case: async x => {}
-## Input
-
-`````js
-++async x => {}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: prefix update
-> :: case: async x => {}
-## Input
 
-`````js
-++async x => {}
-`````
 ```
 

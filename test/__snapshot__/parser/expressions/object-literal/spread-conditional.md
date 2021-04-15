@@ -14,6 +14,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -29,7 +30,7 @@
                                 "argument": {
                                     "kind": 197,
                                     "shortCircuit": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -43,7 +44,7 @@
                                         "end": 9
                                     },
                                     "consequent": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 768,
@@ -57,7 +58,7 @@
                                         "end": 13
                                     },
                                     "alternate": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 768,
@@ -99,7 +100,7 @@
                     "kind": 132,
                     "expressions": [
                         {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -116,7 +117,7 @@
                                         "argument": {
                                             "kind": 197,
                                             "shortCircuit": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 768,
@@ -130,7 +131,7 @@
                                                 "end": 31
                                             },
                                             "consequent": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -144,7 +145,7 @@
                                                 "end": 35
                                             },
                                             "alternate": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 768,

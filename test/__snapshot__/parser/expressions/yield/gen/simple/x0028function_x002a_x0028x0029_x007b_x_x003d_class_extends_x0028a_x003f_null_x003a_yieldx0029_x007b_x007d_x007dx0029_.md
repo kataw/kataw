@@ -58,7 +58,7 @@
                                     "expression": {
                                         "kind": 125,
                                         "left": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -95,7 +95,7 @@
                                                     "expression": {
                                                         "kind": 197,
                                                         "shortCircuit": {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -206,32 +206,12 @@
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: (function * () { x = class extends (a ? null : yield) { } });
-## Input
-
-`````js
-(function * () { x = class extends (a ? null : yield) { } });
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: e
-> :: test: simple
-> :: case: (function * () { x = class extends (a ? null : yield) { } });
-## Input
 
-`````js
-(function * () { x = class extends (a ? null : yield) { } });
-`````
 ```
 

@@ -14,13 +14,14 @@ typeof class{}
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259885,
+                    "kind": 138477613,
                     "flags": 768,
                     "start": 0,
                     "end": 6
@@ -28,6 +29,12 @@ typeof class{}
                 "expression": {
                     "kind": 189,
                     "decorators": null,
+                    "classKeyword": {
+                        "kind": 37814352,
+                        "flags": 768,
+                        "start": 6,
+                        "end": 12
+                    },
                     "name": null,
                     "typeParameters": null,
                     "classHeritage": null,

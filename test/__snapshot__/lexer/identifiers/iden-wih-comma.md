@@ -13,6 +13,7 @@ foo, bar, zoo
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -20,7 +21,7 @@ foo, bar, zoo
                 "kind": 132,
                 "expressions": [
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 768,
@@ -28,7 +29,7 @@ foo, bar, zoo
                         "end": 3
                     },
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 768,
@@ -36,7 +37,7 @@ foo, bar, zoo
                         "end": 8
                     },
                     {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "zoo",
                         "rawText": "zoo",
                         "flags": 768,

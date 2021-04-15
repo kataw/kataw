@@ -27,6 +27,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -41,7 +42,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "member": {
                                 "kind": 205,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -56,7 +57,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "kind": 202,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -72,7 +73,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "end": 4
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -88,7 +89,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 6
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 768,
@@ -101,7 +102,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 8
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -114,7 +115,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "end": 10
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -127,7 +128,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 12
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -156,7 +157,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "member": {
                                 "kind": 205,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -169,7 +170,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -194,7 +195,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -219,7 +220,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -246,7 +247,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -262,7 +263,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 30
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -278,7 +279,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 32
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -311,7 +312,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "member": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -319,7 +320,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "end": 38
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -332,7 +333,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "end": 40
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -350,7 +351,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -375,7 +376,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -400,7 +401,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -427,7 +428,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -443,7 +444,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 54
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -459,7 +460,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 56
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -492,7 +493,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "member": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -500,7 +501,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "end": 62
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 768,
@@ -521,7 +522,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                                 "kind": 256,
                                                 "elements": [
                                                     {
-                                                        "kind": 81921,
+                                                        "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
@@ -552,7 +553,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -577,7 +578,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -602,7 +603,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -629,7 +630,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -645,7 +646,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 81
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -661,7 +662,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 83
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -692,7 +693,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "member": {
                                     "kind": 205,
                                     "member": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -707,7 +708,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                                 "kind": 202,
                                                 "chain": null,
                                                 "expression": {
-                                                    "kind": 81921,
+                                                    "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 768,
@@ -723,7 +724,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "end": 93
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -739,7 +740,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 95
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -756,7 +757,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 98
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -769,7 +770,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "end": 100
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
                         "flags": 768,
@@ -782,7 +783,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 102
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -813,7 +814,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "member": {
                                     "kind": 205,
                                     "member": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,
@@ -826,7 +827,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "kind": 202,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -851,7 +852,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 768,
@@ -880,7 +881,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -907,7 +908,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -923,7 +924,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 122
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -939,7 +940,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 124
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -974,7 +975,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "member": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 768,
@@ -982,7 +983,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                                 "end": 131
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 768,
@@ -995,7 +996,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "end": 133
                                         },
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -1017,7 +1018,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "kind": 202,
                                         "chain": null,
                                         "expression": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -1042,7 +1043,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -1067,7 +1068,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -1094,7 +1095,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -1110,7 +1111,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 148
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -1126,7 +1127,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 150
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -1161,7 +1162,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "member": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 768,
@@ -1169,7 +1170,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                                 "end": 157
                                             },
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 768,
@@ -1190,7 +1191,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 81921,
+                                                            "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 768,
@@ -1221,7 +1222,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "kind": 202,
                                             "chain": null,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
@@ -1250,7 +1251,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 202,
                                     "chain": null,
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,
@@ -1275,7 +1276,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -1302,7 +1303,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 202,
                                 "chain": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -1318,7 +1319,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 177
                         },
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
                             "flags": 768,
@@ -1334,7 +1335,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "end": 179
                 },
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,

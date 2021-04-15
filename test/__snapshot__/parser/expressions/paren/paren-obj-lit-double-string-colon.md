@@ -15,6 +15,7 @@
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -28,7 +29,7 @@
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -36,7 +37,7 @@
                                     "end": 10
                                 },
                                 "right": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 768,
@@ -78,7 +79,7 @@
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 67174403,
+                                    "kind": 201392131,
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 768,
@@ -88,7 +89,7 @@
                                 "right": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 67174403,
+                                        "kind": 201392131,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 768,

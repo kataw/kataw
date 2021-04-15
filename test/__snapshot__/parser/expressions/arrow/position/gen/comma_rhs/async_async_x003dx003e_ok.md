@@ -103,32 +103,12 @@ a, async async => ok
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: comma rhs
-> :: case: async async => ok
-## Input
-
-`````js
-a, async async => ok
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: s
-> :: test: comma rhs
-> :: case: async async => ok
-## Input
 
-`````js
-a, async async => ok
-`````
 ```
 

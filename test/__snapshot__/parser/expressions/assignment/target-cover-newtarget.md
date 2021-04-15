@@ -15,6 +15,7 @@ function f() {
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -27,7 +28,7 @@ function f() {
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -57,7 +58,7 @@ function f() {
                                     "expression": {
                                         "kind": 211,
                                         "name": {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "target",
                                             "rawText": "target",
                                             "flags": 768,
@@ -79,7 +80,7 @@ function f() {
                                     "end": 31
                                 },
                                 "right": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,

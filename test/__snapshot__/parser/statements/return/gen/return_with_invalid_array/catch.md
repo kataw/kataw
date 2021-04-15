@@ -222,32 +222,12 @@ return [catch] catch
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: return with invalid array
-> :: case: catch
-## Input
-
-`````js
-return [catch] catch
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: return with invalid array
-> :: case: catch
-## Input
 
-`````js
-return [catch] catch
-`````
 ```
 

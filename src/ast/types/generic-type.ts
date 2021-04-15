@@ -1,10 +1,9 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeParameter } from './type-parameter';
 
 export interface GenericType extends SyntaxNode {
-  kind: SyntaxKind.GenericType;
-  id: any;
-  typeParameters: TypeParameter | null;
+  readonly id: any;
+  readonly typeParameters: TypeParameter | null;
 }
 
 export function createGenericType(
@@ -17,7 +16,6 @@ export function createGenericType(
     kind: SyntaxKind.GenericType,
     id,
     typeParameters,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

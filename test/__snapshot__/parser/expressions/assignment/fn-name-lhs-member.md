@@ -21,6 +21,7 @@ o.attr = function() {};
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 120,
@@ -29,7 +30,7 @@ o.attr = function() {};
                 "left": {
                     "kind": 129,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "o",
                         "rawText": "o",
                         "flags": 768,
@@ -37,7 +38,7 @@ o.attr = function() {};
                         "end": 2
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "attr",
                         "rawText": "attr",
                         "flags": 768,

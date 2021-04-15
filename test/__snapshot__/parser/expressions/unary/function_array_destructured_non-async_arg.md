@@ -13,6 +13,7 @@ async function f(){   function fh([+ await x]) { }   }
 ```javascript
 {
     "kind": 122,
+    "directives": [],
     "statements": [
         {
             "kind": 176,
@@ -30,7 +31,7 @@ async function f(){   function fh([+ await x]) { }   }
             },
             "generatorToken": null,
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -62,7 +63,7 @@ async function f(){   function fh([+ await x]) { }   }
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "fh",
                                 "rawText": "fh",
                                 "flags": 768,
@@ -142,7 +143,7 @@ async function f(){   function fh([+ await x]) { }   }
                                         "end": 42
                                     },
                                     "expression": {
-                                        "kind": 81921,
+                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 768,

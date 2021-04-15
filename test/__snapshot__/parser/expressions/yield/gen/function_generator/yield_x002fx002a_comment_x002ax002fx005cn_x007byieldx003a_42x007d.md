@@ -35,7 +35,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 768,
@@ -67,7 +67,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                             },
                             "generatorToken": null,
                             "name": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 768,
@@ -91,7 +91,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 81921,
+                                                "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 768,
@@ -137,7 +137,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
                 "flags": 768,
@@ -156,7 +156,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 81921,
+                            "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 768,
@@ -180,7 +180,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
         {
             "kind": 120,
             "expression": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": 42,
                 "rawText": "42",
                 "flags": 768,
@@ -302,32 +302,12 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: yield /* comment */\n {yield: 42}
-## Input
-
-`````js
-function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: r
-> :: test: function generator
-> :: case: yield /* comment */\n {yield: 42}
-## Input
 
-`````js
-function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
-`````
 ```
 

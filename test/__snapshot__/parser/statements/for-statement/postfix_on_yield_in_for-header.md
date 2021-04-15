@@ -53,7 +53,7 @@ for (yield[g]--;;);
                 "expression": {
                     "kind": 130,
                     "member": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 768,
@@ -61,7 +61,7 @@ for (yield[g]--;;);
                         "end": 10
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "g",
                         "rawText": "g",
                         "flags": 768,
@@ -102,12 +102,12 @@ for (yield[g]--;;);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

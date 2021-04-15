@@ -50,7 +50,7 @@ function *f(){   for (yield x in y);   }
                 "end": 10
             },
             "name": {
-                "kind": 81921,
+                "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
                 "flags": 768,
@@ -90,7 +90,7 @@ function *f(){   for (yield x in y);   }
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 768,
@@ -102,7 +102,7 @@ function *f(){   for (yield x in y);   }
                                 "end": 29
                             },
                             "expression": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 768,
@@ -149,12 +149,12 @@ function *f(){   for (yield x in y);   }
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -50,7 +50,7 @@ for ([][y] <<= p;;) x;
                         "end": 7
                     },
                     "expression": {
-                        "kind": 81921,
+                        "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
                         "flags": 768,
@@ -68,7 +68,7 @@ for ([][y] <<= p;;) x;
                     "end": 14
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "p",
                     "rawText": "p",
                     "flags": 768,
@@ -84,7 +84,7 @@ for ([][y] <<= p;;) x;
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -113,12 +113,12 @@ for ([][y] <<= p;;) x;
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

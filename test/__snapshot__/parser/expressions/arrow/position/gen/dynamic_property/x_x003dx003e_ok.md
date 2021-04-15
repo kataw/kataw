@@ -84,32 +84,12 @@ x => ok[foo]
 ### Printed
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: dynamic property
-> :: case: x => ok
-## Input
-
-`````js
-x => ok[foo]
-`````
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-ed test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: y
-> :: test: dynamic property
-> :: case: x => ok
-## Input
 
-`````js
-x => ok[foo]
-`````
 ```
 

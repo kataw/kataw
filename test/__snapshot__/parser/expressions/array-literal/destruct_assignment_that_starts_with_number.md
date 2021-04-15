@@ -35,7 +35,7 @@
                             {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": 50,
                                     "rawText": "50.",
                                     "flags": 768,
@@ -43,7 +43,7 @@
                                     "end": 4
                                 },
                                 "expression": {
-                                    "kind": 81921,
+                                    "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 768,
@@ -72,7 +72,7 @@
                     "end": 11
                 },
                 "right": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 768,
@@ -101,12 +101,12 @@
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

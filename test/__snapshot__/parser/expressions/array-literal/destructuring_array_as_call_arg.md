@@ -39,7 +39,7 @@ foo([a, b] = arr);
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 81921,
+                    "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 768,
@@ -57,7 +57,7 @@ foo([a, b] = arr);
                                     "kind": 270,
                                     "elements": [
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
@@ -65,7 +65,7 @@ foo([a, b] = arr);
                                             "end": 6
                                         },
                                         {
-                                            "kind": 81921,
+                                            "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 768,
@@ -89,7 +89,7 @@ foo([a, b] = arr);
                                 "end": 12
                             },
                             "right": {
-                                "kind": 81921,
+                                "kind": 134299649,
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 768,
@@ -128,12 +128,12 @@ foo([a, b] = arr);
 ### Printed
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 
