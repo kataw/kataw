@@ -106,7 +106,7 @@ async function x() {}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 20,
                             "end": 43
                         }
@@ -122,7 +122,7 @@ async function x() {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 46
         }

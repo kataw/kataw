@@ -122,7 +122,7 @@ async function f(){   function fh([+ await x]) { }   }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 19,
                             "end": 35
                         },
@@ -176,7 +176,7 @@ async function f(){   function fh([+ await x]) { }   }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 44
         },

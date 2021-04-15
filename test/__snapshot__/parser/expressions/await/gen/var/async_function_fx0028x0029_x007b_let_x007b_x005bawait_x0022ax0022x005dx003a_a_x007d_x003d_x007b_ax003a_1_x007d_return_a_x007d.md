@@ -321,7 +321,7 @@ var await; var f = (async function() { async function f() {
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 1280,
+                                                "flags": 1152,
                                                 "start": 38,
                                                 "end": 110
                                             }

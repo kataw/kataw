@@ -146,7 +146,7 @@ async function f() { return {await = 0} = {}; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 47
         }

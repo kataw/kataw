@@ -130,7 +130,7 @@ return =! class function try while with foo! return
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 15,
             "end": 24
         },

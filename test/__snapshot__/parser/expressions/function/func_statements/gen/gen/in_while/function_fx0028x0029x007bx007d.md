@@ -79,7 +79,7 @@ while (x) function f(){}
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 256,
+                "flags": 128,
                 "start": 9,
                 "end": 24
             },

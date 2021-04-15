@@ -172,7 +172,7 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                                             },
                                                             "typeParameters": null,
                                                             "returnType": null,
-                                                            "flags": 256,
+                                                            "flags": 128,
                                                             "start": 53,
                                                             "end": 72
                                                         },
@@ -194,7 +194,7 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 2304,
+                                            "flags": 2176,
                                             "start": 39,
                                             "end": 75
                                         }
@@ -210,7 +210,7 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 77
                         }
@@ -226,7 +226,7 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 78
         }

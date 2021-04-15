@@ -227,7 +227,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 78
         }

@@ -115,7 +115,7 @@
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 37,
                             "end": 64
                         }
@@ -131,7 +131,7 @@
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 13,
             "end": 66
         },

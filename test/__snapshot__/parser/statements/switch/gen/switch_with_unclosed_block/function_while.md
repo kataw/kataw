@@ -126,7 +126,7 @@ switch {} default(x) { function while
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 128,
                         "start": 22,
                         "end": 31
                     }

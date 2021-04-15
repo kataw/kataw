@@ -228,7 +228,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 2176,
                             "start": 20,
                             "end": 80
                         }
@@ -244,7 +244,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 82
         }

@@ -235,7 +235,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 61
         },

@@ -109,7 +109,7 @@ function *a(){yield typeof 0}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 29
         }

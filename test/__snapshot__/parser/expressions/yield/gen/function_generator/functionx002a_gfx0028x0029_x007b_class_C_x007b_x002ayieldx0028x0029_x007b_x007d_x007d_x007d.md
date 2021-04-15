@@ -239,7 +239,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 2304,
+                                            "flags": 2176,
                                             "start": 39,
                                             "end": 83
                                         }
@@ -255,7 +255,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 85
                         }
@@ -271,7 +271,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 86
         }

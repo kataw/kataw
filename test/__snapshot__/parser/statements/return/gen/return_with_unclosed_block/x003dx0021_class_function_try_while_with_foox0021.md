@@ -171,7 +171,7 @@ return {} return(x) { =! class function try while with foo!
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 30,
             "end": 39
         },

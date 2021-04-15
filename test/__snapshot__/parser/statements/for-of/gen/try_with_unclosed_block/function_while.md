@@ -135,7 +135,7 @@ try {} finally(x) { function while
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 128,
                         "start": 19,
                         "end": 28
                     }

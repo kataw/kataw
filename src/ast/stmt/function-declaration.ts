@@ -16,7 +16,7 @@ export interface FunctionDeclaration extends SyntaxNode {
   readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier | null;
   readonly formalParameters: FormalParameterList;
-  readonly contents: FunctionBody;
+  readonly contents: FunctionBody | null;
   readonly typeParameters: TypeParameter | null;
   readonly returnType: TypeNode | null;
 }
@@ -28,13 +28,14 @@ export function createFunctionDeclaration(
   generatorToken: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | null,
   formalParameters: FormalParameterList,
-  contents: FunctionBody,
+  contents: FunctionBody | null,
   typeParameters: TypeParameter | null,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): FunctionDeclaration {
-  let flags = NodeFlags.ExpressionNode;
+  if (declareKeyword) flags | NodeFlags.Declared;
 
   if (asyncKeyword) flags |= NodeFlags.Generator;
 
@@ -51,7 +52,6 @@ export function createFunctionDeclaration(
     contents,
     typeParameters,
     returnType,
-
     flags,
     start,
     end

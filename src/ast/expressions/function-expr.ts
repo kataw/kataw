@@ -29,11 +29,10 @@ export function createFunctionExpression(
   contents: FunctionBody,
   typeParameters: TypeParameter | null,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): FunctionExpression {
-  let flags = NodeFlags.ExpressionNode;
-
   if (asyncKeyword) flags |= NodeFlags.Generator;
 
   if (generatorToken) flags |= NodeFlags.Async;

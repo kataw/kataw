@@ -110,7 +110,7 @@ export const enum SyntaxKind {
   Ellipsis = 524302,
   RightBrace = 1048591,
   RightParen = 16, // )
-  Semicolon = 34611217,
+  Semicolon = 1108353041,
   Comma = 2097170,
   LeftBracket = 336003091,
   RightBracket = 20, // ]

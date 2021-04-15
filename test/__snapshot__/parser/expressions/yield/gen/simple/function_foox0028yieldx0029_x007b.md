@@ -82,7 +82,7 @@ function foo(yield) {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 21
         }

@@ -114,7 +114,7 @@ try {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1280,
+                                "flags": 1152,
                                 "start": 19,
                                 "end": 42
                             }

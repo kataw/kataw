@@ -133,7 +133,7 @@ switch [catch] function while
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 14,
             "end": 23
         },

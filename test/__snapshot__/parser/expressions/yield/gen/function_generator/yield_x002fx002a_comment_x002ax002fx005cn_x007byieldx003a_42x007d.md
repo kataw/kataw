@@ -116,7 +116,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 45
                         }
@@ -132,7 +132,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 45
         },

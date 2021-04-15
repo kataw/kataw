@@ -271,7 +271,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 91
         },

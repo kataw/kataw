@@ -309,7 +309,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 110
                         },
@@ -331,7 +331,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 113
         }

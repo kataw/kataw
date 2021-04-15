@@ -268,7 +268,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 20,
                             "end": 82
                         }
@@ -284,7 +284,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 82
         },

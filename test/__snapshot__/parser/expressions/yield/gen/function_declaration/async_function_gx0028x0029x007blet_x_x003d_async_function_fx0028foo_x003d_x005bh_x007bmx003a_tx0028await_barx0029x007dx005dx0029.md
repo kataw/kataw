@@ -304,7 +304,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 20,
                             "end": 101
                         }
@@ -320,7 +320,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 103
         }

@@ -200,7 +200,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                 },
                                                                 "typeParameters": null,
                                                                 "returnType": null,
-                                                                "flags": 1280,
+                                                                "flags": 1152,
                                                                 "start": 62,
                                                                 "end": 89
                                                             }
@@ -216,7 +216,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 1280,
+                                                "flags": 1152,
                                                 "start": 38,
                                                 "end": 91
                                             },

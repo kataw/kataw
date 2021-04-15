@@ -181,7 +181,7 @@ var await; var f = (async function() { function *f(await){} });
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 2304,
+                                                "flags": 2176,
                                                 "start": 38,
                                                 "end": 59
                                             }

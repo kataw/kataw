@@ -161,7 +161,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 19,
                             "end": 71
                         }
@@ -177,7 +177,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 74
         }

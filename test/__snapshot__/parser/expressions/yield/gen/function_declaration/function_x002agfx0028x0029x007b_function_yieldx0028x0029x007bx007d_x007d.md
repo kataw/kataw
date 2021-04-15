@@ -134,7 +134,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 256,
+                                            "flags": 128,
                                             "start": 36,
                                             "end": 55
                                         },
@@ -156,7 +156,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 2176,
                             "start": 20,
                             "end": 58
                         }
@@ -172,7 +172,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 60
         }

@@ -298,7 +298,7 @@ class A {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 6,
             "end": 115
         },

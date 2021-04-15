@@ -115,7 +115,7 @@ function not_gen() { function foo(yield) { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 20,
                             "end": 44
                         }
@@ -131,7 +131,7 @@ function not_gen() { function foo(yield) { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 45
         }

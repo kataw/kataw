@@ -198,7 +198,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 61
         }

@@ -162,7 +162,7 @@ function* foo() { var x = 10; yield 1; return x; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 50
         }

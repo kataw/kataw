@@ -100,7 +100,7 @@ function f(){ foo = new.target }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 32
         }

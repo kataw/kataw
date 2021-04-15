@@ -153,7 +153,7 @@
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 13,
             "end": 58
         }

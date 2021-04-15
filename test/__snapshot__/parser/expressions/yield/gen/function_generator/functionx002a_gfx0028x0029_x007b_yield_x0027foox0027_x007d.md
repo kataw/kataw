@@ -168,7 +168,7 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 2304,
+                                            "flags": 2176,
                                             "start": 39,
                                             "end": 70
                                         }
@@ -184,7 +184,7 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 72
                         }
@@ -200,7 +200,7 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 73
         }

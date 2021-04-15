@@ -136,7 +136,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 47
                         }
@@ -152,7 +152,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 47
         },

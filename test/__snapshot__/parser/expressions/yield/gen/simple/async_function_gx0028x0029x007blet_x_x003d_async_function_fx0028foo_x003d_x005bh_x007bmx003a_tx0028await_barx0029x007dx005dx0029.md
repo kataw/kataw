@@ -271,7 +271,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 80
         }

@@ -265,7 +265,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 97
                         }
@@ -281,7 +281,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 98
         }

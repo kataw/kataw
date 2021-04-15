@@ -130,7 +130,7 @@ function not_gen() { function *a(){yield 2e308} }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 2176,
                             "start": 20,
                             "end": 47
                         }
@@ -146,7 +146,7 @@ function not_gen() { function *a(){yield 2e308} }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 49
         }

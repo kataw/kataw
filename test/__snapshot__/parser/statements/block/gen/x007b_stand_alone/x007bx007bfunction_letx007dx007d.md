@@ -78,7 +78,7 @@
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 256,
+                                                "flags": 128,
                                                 "start": 4,
                                                 "end": 16
                                             }

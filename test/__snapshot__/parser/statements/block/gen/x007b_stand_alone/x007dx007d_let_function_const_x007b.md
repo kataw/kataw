@@ -91,7 +91,7 @@
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 8,
             "end": 17
         },

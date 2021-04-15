@@ -69,7 +69,7 @@ async function * f(){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3328,
+            "flags": 3200,
             "start": 0,
             "end": 22
         }

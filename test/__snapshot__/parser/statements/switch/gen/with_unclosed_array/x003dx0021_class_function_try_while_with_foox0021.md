@@ -143,7 +143,7 @@ switch[ =! class function try while with foo!
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 16,
             "end": 25
         },

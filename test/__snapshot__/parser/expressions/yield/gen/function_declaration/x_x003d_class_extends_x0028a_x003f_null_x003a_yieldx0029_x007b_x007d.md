@@ -172,7 +172,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 63
         }

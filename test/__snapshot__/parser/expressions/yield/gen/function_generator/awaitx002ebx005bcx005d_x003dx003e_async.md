@@ -145,7 +145,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 50
                         }
@@ -161,7 +161,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 50
         },

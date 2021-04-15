@@ -158,7 +158,7 @@ if if if =! class function try while with foo!
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 128,
                         "start": 17,
                         "end": 26
                     },

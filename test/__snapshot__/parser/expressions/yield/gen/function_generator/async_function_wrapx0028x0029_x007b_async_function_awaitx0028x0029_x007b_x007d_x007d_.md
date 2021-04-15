@@ -177,7 +177,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             },
                                                             "typeParameters": null,
                                                             "returnType": null,
-                                                            "flags": 1280,
+                                                            "flags": 1152,
                                                             "start": 63,
                                                             "end": 90
                                                         }
@@ -193,7 +193,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 1280,
+                                            "flags": 1152,
                                             "start": 39,
                                             "end": 92
                                         },
@@ -215,7 +215,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 95
                         }
@@ -231,7 +231,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 96
         }

@@ -130,7 +130,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 20,
                             "end": 50
                         }
@@ -146,7 +146,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 50
         },

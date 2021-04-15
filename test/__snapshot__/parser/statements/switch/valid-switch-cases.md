@@ -1416,7 +1416,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2304,
+                                "flags": 2176,
                                 "start": 470,
                                 "end": 486
                             }
@@ -2611,7 +2611,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1280,
+                                "flags": 1152,
                                 "start": 955,
                                 "end": 977
                             }
@@ -2673,7 +2673,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1280,
+                                "flags": 1152,
                                 "start": 986,
                                 "end": 1008
                             }
@@ -3288,7 +3288,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 1179,
                                 "end": 1194
                             },
@@ -3336,7 +3336,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 1194,
                                 "end": 1209
                             }
@@ -3450,7 +3450,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3328,
+                                "flags": 3200,
                                 "start": 1233,
                                 "end": 1255
                             },
@@ -3508,7 +3508,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3328,
+                                "flags": 3200,
                                 "start": 1255,
                                 "end": 1277
                             }
@@ -3893,7 +3893,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2304,
+                                "flags": 2176,
                                 "start": 1394,
                                 "end": 1412
                             }
@@ -4002,7 +4002,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2304,
+                                "flags": 2176,
                                 "start": 1436,
                                 "end": 1454
                             }
@@ -4277,7 +4277,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 1578,
                                 "end": 1594
                             },
@@ -4477,7 +4477,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 1662,
                                 "end": 1678
                             }
@@ -4732,7 +4732,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 1788,
                                 "end": 1804
                             },

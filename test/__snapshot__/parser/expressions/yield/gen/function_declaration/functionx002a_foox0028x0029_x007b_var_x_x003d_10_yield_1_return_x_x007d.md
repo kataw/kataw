@@ -195,7 +195,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 2176,
                             "start": 20,
                             "end": 71
                         }
@@ -211,7 +211,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 73
         }

@@ -298,7 +298,7 @@ type T = <
                 "end": 128
             },
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 99,
             "end": 133
         },
@@ -702,7 +702,7 @@ type T = <
                 "end": 362
             },
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 330,
             "end": 367
         },

@@ -103,7 +103,7 @@ function *f(){
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 14,
                             "end": 30
                         }
@@ -119,7 +119,7 @@ function *f(){
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 30
         },

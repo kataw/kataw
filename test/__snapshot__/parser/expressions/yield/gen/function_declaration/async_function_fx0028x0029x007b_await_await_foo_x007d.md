@@ -140,7 +140,7 @@ function not_gen() { async function f(){ await await foo; } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 20,
                             "end": 59
                         }
@@ -156,7 +156,7 @@ function not_gen() { async function f(){ await await foo; } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 61
         }

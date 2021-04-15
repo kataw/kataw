@@ -80,7 +80,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 128,
                         "start": 1,
                         "end": 16
                     }
@@ -148,7 +148,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 2304,
+                        "flags": 2176,
                         "start": 21,
                         "end": 39
                     }
@@ -221,7 +221,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3328,
+                        "flags": 3200,
                         "start": 44,
                         "end": 68
                     }

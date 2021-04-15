@@ -2223,7 +2223,7 @@ let x = { foo(){ super(); } };
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 621,
             "end": 648
         },
@@ -2310,7 +2310,7 @@ let x = { foo(){ super(); } };
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 649,
             "end": 674
         },

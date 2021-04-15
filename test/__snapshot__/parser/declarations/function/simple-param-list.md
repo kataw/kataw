@@ -120,7 +120,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 35
         },
@@ -201,7 +201,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 35,
             "end": 71
         },
@@ -302,7 +302,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 71,
             "end": 106
         },
@@ -402,7 +402,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 106,
             "end": 141
         }

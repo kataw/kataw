@@ -275,7 +275,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 103
                         }
@@ -291,7 +291,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 104
         }

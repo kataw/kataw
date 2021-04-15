@@ -237,7 +237,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 256,
+                                                "flags": 128,
                                                 "start": 38,
                                                 "end": 79
                                             }

@@ -101,7 +101,7 @@ function *gf(){ function yield(){}; }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 15,
                             "end": 34
                         },
@@ -123,7 +123,7 @@ function *gf(){ function yield(){}; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 37
         }

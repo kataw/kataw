@@ -106,7 +106,7 @@ async function wrap() { async function await() { } };
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 23,
                             "end": 50
                         }
@@ -122,7 +122,7 @@ async function wrap() { async function await() { } };
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 52
         },

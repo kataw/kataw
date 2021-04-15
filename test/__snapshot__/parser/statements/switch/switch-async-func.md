@@ -105,7 +105,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3328,
+                                "flags": 3200,
                                 "start": 20,
                                 "end": 43
                             }
@@ -162,7 +162,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 52,
                                 "end": 68
                             }

@@ -73,7 +73,7 @@ async function f() { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1280,
+            "flags": 1152,
             "start": 0,
             "end": 36
         }

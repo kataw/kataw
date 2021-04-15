@@ -97,7 +97,7 @@ do if(8)function s(){}while(y)
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 128,
                     "start": 8,
                     "end": 22
                 },

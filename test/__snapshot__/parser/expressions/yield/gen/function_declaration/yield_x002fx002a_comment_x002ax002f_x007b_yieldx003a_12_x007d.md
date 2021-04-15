@@ -107,7 +107,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 48
         },

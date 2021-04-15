@@ -150,7 +150,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 32,
                             "end": 61
                         }
@@ -166,7 +166,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 63
         }

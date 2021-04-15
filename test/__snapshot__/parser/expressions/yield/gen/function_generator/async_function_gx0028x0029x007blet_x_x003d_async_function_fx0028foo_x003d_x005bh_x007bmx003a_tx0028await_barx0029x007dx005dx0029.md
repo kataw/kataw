@@ -342,7 +342,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 1280,
+                                            "flags": 1152,
                                             "start": 39,
                                             "end": 120
                                         }
@@ -358,7 +358,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 128,
                             "start": 18,
                             "end": 122
                         }
@@ -374,7 +374,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2304,
+            "flags": 2176,
             "start": 0,
             "end": 123
         }

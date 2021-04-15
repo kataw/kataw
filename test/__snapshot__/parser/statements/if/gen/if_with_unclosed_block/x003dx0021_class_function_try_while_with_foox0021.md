@@ -154,7 +154,7 @@ else {} if(x) { =! class function try while with foo!
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 24,
             "end": 33
         },

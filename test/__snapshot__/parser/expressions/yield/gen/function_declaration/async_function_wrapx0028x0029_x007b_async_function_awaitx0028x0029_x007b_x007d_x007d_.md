@@ -139,7 +139,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 1280,
+                                            "flags": 1152,
                                             "start": 44,
                                             "end": 71
                                         }
@@ -155,7 +155,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 1152,
                             "start": 20,
                             "end": 73
                         },
@@ -177,7 +177,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 76
         }

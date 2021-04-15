@@ -101,7 +101,7 @@ function not_gen() { function * yield() { } }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 2176,
                             "start": 20,
                             "end": 43
                         }
@@ -117,7 +117,7 @@ function not_gen() { function * yield() { } }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 256,
+            "flags": 128,
             "start": 0,
             "end": 45
         }

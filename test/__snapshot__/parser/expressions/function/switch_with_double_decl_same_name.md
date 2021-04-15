@@ -100,7 +100,7 @@ switch (0) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 22,
                                 "end": 42
                             }
@@ -157,7 +157,7 @@ switch (0) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 128,
                                 "start": 53,
                                 "end": 73
                             }
