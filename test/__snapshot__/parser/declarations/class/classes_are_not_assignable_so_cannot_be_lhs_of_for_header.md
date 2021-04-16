@@ -55,6 +55,7 @@ for (class x { [a](){} } in c);
                     "elements": [
                         {
                             "kind": 278,
+                            "declareToken": null,
                             "decorators": null,
                             "staticToken": null,
                             "method": {

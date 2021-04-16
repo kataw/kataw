@@ -61,6 +61,7 @@ class x {    async async get f(x){}    }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

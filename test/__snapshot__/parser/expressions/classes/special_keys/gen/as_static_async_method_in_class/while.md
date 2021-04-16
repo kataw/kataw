@@ -44,6 +44,7 @@ class x {static async while(){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": {
                             "kind": 8388716,

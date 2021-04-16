@@ -182,6 +182,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "elements": [
                                                     {
                                                         "kind": 278,
+                                                        "declareToken": null,
                                                         "decorators": null,
                                                         "staticToken": {
                                                             "kind": 8388716,

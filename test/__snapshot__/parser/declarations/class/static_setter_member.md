@@ -59,6 +59,7 @@ class A {static set [foo](x){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": {
                             "kind": 8388716,

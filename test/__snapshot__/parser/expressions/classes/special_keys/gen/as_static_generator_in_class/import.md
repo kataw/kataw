@@ -69,6 +69,7 @@ class x {static * import(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

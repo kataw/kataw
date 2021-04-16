@@ -69,6 +69,7 @@ class x {static * arguments(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

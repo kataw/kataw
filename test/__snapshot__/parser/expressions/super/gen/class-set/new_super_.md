@@ -44,6 +44,7 @@ class C { set x(_) { new super; } }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

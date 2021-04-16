@@ -44,6 +44,7 @@ class x {static get private(){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": {
                             "kind": 8388716,

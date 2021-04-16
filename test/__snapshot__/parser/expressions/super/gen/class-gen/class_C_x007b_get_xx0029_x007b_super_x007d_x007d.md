@@ -64,6 +64,7 @@ class C { *method() { class C { get x) { super; } } } }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

@@ -44,6 +44,7 @@ class x {static set arguments(x){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": {
                             "kind": 8388716,

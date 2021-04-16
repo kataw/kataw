@@ -60,6 +60,7 @@ class x extends y { constructor() { super(this); } }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

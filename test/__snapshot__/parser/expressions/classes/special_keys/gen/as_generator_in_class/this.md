@@ -64,6 +64,7 @@ class x {* this(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

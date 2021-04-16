@@ -90,7 +90,19 @@
   "Coalescing and logical operators used together in the same expression must be disambiguated with parentheses": 91,
   "Unicode codepoint must not be greater than 0x10FFFF": 92,
   "Invalid astral character": 93,
-  "Missing initializer in type alias declaration": 94,
-  "The `this` parameter cannot be optional": 95
-
+  "Type parameter declaration needs a default, since a preceding type parameter declaration has a default": 94,
+  "Explicit inexact syntax cannot appear in class or interface definitions": 95,
+  "`declare module` cannot be used inside another `declare module`": 96,
+  "A binding pattern parameter cannot be optional in an implementation signature.": 97,
+  "A setter cannot have a `this` parameter.": 98,
+  "Spread properties cannot have variance": 99,
+  "A type annotation is required for the `this` parameter.": 100,
+  "The `this` parameter must be the first function parameter.": 101,
+  "`_` is only allowed as a type argument to call or new": 102,
+  "Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`": 103,
+  "Only declares and type imports are allowed inside declare module": 104,
+  "The `declare` modifier can only appear on class fields.": 105,
+  "Initializers are not allowed in fields with the `declare` modifier.": 106,
+  "Explicit inexact syntax cannot appear inside an explicit exact object type": 107,
+  "The this parameter cannot be optional": 108
 }

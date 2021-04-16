@@ -59,6 +59,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -132,6 +133,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                 "elements": [
                                                     {
                                                         "kind": 278,
+                                                        "declareToken": null,
                                                         "decorators": null,
                                                         "staticToken": null,
                                                         "method": {

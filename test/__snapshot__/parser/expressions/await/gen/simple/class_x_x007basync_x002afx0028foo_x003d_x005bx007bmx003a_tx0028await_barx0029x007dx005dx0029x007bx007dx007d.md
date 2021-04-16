@@ -44,6 +44,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

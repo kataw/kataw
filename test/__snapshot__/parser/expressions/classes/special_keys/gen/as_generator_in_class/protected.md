@@ -64,6 +64,7 @@ class x {* protected(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

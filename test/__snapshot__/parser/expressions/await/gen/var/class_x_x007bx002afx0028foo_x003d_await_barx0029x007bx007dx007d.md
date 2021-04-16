@@ -158,6 +158,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                         },
                                                         {
                                                             "kind": 278,
+                                                            "declareToken": null,
                                                             "decorators": null,
                                                             "staticToken": null,
                                                             "method": {

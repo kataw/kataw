@@ -60,6 +60,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

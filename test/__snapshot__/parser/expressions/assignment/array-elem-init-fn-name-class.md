@@ -166,6 +166,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "elements": [
                                                 {
                                                     "kind": 278,
+                                                    "declareToken": null,
                                                     "decorators": null,
                                                     "staticToken": {
                                                         "kind": 8388716,

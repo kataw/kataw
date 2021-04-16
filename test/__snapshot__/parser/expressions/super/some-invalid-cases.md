@@ -445,6 +445,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -678,6 +679,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -916,6 +918,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1073,6 +1076,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1257,6 +1261,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1444,6 +1449,7 @@ let x = { foo(){ super(); } };
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1497,6 +1503,7 @@ let x = { foo(){ super(); } };
                                                 "elements": [
                                                     {
                                                         "kind": 278,
+                                                        "declareToken": null,
                                                         "decorators": null,
                                                         "staticToken": null,
                                                         "method": {

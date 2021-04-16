@@ -106,6 +106,7 @@ function *f(){  class x{*[yield](a){}}  }
                                     },
                                     {
                                         "kind": 278,
+                                        "declareToken": null,
                                         "decorators": null,
                                         "staticToken": null,
                                         "method": {

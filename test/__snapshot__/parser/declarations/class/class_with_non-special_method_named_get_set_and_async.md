@@ -59,6 +59,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -106,6 +107,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -153,6 +155,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

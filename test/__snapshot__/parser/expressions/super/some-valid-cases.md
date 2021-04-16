@@ -142,6 +142,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -241,6 +242,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -353,6 +355,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -466,6 +469,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -579,6 +583,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -829,6 +834,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -941,6 +947,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1053,6 +1060,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1435,6 +1443,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1618,6 +1627,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1752,6 +1762,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -1887,6 +1898,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

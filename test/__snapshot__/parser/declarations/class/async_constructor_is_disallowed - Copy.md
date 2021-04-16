@@ -48,6 +48,7 @@ class X {    async constructor() {}   }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

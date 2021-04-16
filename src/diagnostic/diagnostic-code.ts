@@ -93,8 +93,21 @@ export const enum DiagnosticCode {
   Coalescing_and_logical_operators_used_together_in_the_same_expression_must_be_disambiguated_with_parentheses = 91,
   Unicode_codepoint_must_not_be_greater_than_0x10FFFF = 92,
   Invalid_astral_character = 93,
-  Missing_initializer_in_type_alias_declaration = 94,
-  The_this_parameter_cannot_be_optional = 95
+  Type_parameter_declaration_needs_a_default_since_a_preceding_type_parameter_declaration_has_a_default = 94,
+  Explicit_inexact_syntax_cannot_appear_in_class_or_interface_definitions = 95,
+  _declare_module_cannot_be_used_inside_another_declare_module = 96,
+  A_binding_pattern_parameter_cannot_be_optional_in_an_implementation_signature = 97,
+  A_setter_cannot_have_a_this_parameter = 98,
+  Spread_properties_cannot_have_variance = 99,
+  A_type_annotation_is_required_for_the_this_parameter = 100,
+  The_this_parameter_must_be_the_first_function_parameter = 101,
+  ___is_only_allowed_as_a_type_argument_to_call_or_new = 102,
+  Type_parameters_must_come_after_the_async_keyword_e_g_instead_of_T_async_use_async_T = 103,
+  Only_declares_and_type_imports_are_allowed_inside_declare_module = 104,
+  The_declare_modifier_can_only_appear_on_class_fields = 105,
+  Initializers_are_not_allowed_in_fields_with_the_declare_modifier = 106,
+  Explicit_inexact_syntax_cannot_appear_inside_an_explicit_exact_object_type = 107,
+  The_this_parameter_cannot_be_optional = 108
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -189,6 +202,19 @@ export const diagnosticMap: { [key: number]: string } = {
   [91]: 'Coalescing and logical operators used together in the same expression must be disambiguated with parentheses',
   [92]: 'Unicode codepoint must not be greater than 0x10FFFF',
   [93]: 'Invalid astral character',
-  [94]: 'Missing initializer in type alias declaration',
-  [95]: 'The `this` parameter cannot be optional'
+  [94]: 'Type parameter declaration needs a default, since a preceding type parameter declaration has a default',
+  [95]: 'Explicit inexact syntax cannot appear in class or interface definitions',
+  [96]: '`declare module` cannot be used inside another `declare module`',
+  [97]: 'A binding pattern parameter cannot be optional in an implementation signature.',
+  [98]: 'A setter cannot have a `this` parameter.',
+  [99]: 'Spread properties cannot have variance',
+  [100]: 'A type annotation is required for the `this` parameter.',
+  [101]: 'The `this` parameter must be the first function parameter.',
+  [102]: '`_` is only allowed as a type argument to call or new',
+  [103]: 'Type parameters must come after the async keyword, e.g. instead of `<T> async () => {}`, use `async <T>() => {}`',
+  [104]: 'Only declares and type imports are allowed inside declare module',
+  [105]: 'The `declare` modifier can only appear on class fields.',
+  [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
+  [107]: 'Explicit inexact syntax cannot appear inside an explicit exact object type',
+  [108]: 'The this parameter cannot be optional'
 };

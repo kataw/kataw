@@ -40,6 +40,7 @@ class x { "construct\u{6f}r"(){} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

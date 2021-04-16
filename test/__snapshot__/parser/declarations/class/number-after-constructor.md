@@ -59,6 +59,7 @@ class x{ constructor(){} 9(){} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -106,6 +107,7 @@ class x{ constructor(){} 9(){} }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

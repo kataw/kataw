@@ -64,6 +64,7 @@ class C { *method() { var f = function() { super(); } } }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

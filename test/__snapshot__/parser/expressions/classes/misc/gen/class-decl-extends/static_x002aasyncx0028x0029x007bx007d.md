@@ -89,6 +89,7 @@ class C extends Base { static *async(){} }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

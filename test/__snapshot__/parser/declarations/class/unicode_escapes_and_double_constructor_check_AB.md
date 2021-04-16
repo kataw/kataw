@@ -48,6 +48,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -101,6 +102,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

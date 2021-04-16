@@ -40,6 +40,7 @@ class x { foo(x=super.foo){ }}
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

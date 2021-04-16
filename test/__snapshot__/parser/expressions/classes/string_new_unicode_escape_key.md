@@ -46,6 +46,7 @@ class x { "prot\u{6f}type"(){} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

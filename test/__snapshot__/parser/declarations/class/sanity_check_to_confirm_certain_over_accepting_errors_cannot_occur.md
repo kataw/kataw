@@ -79,6 +79,7 @@ class x { async get foo(){ }}
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

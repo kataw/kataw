@@ -64,6 +64,7 @@ class C { *method() { class C { method() { super(); } } } }
                     },
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -117,6 +118,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                 "elements": [
                                                     {
                                                         "kind": 278,
+                                                        "declareToken": null,
                                                         "decorators": null,
                                                         "staticToken": null,
                                                         "method": {

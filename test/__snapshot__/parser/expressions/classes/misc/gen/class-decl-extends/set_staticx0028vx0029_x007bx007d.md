@@ -64,6 +64,7 @@ class C extends Base { set static(v) {} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

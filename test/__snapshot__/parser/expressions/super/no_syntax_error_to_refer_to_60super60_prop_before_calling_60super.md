@@ -60,6 +60,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

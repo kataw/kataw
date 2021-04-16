@@ -44,6 +44,7 @@ class C { constructor() { class C { method() { super(); } } } }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {
@@ -97,6 +98,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                                 "elements": [
                                                     {
                                                         "kind": 278,
+                                                        "declareToken": null,
                                                         "decorators": null,
                                                         "staticToken": null,
                                                         "method": {

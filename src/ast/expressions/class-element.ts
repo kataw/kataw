@@ -7,12 +7,14 @@ import { DecoratorList } from './decorator-list';
  * Class element.
  */
 export interface ClassElement extends SyntaxNode {
+  readonly declareToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly decorators: DecoratorList | null;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly method: MethodDefinition;
 }
 
 export function createClassElement(
+  declareToken: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   method: MethodDefinition,
@@ -21,6 +23,7 @@ export function createClassElement(
 ): ClassElement {
   return {
     kind: SyntaxKind.ClassElement,
+    declareToken,
     decorators,
     staticToken,
     method,

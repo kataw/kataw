@@ -194,7 +194,6 @@ export function create(source: string): ParserState {
 }
 
 export function parse(source: string, filename: string, isModule: boolean, options?: any): RootNode {
-
   let context = Context.None;
 
   if (options != null) {
@@ -1849,7 +1848,9 @@ function parsePropertyDefinition(
 }
 
 function parseTypeParameters(parser: ParserState, context: Context): TypeParameter | null {
-  return context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan ? parseTypeParameter(parser, context | Context.InTypes) : null;
+  return context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan
+    ? parseTypeParameter(parser, context | Context.InTypes)
+    : null;
 }
 
 function parseMethodDefinition(
@@ -1918,15 +1919,27 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
       parser.token &
       (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsEllipsis | SyntaxKind.IsPatternStart)
     ) {
-      if (nodeFlags & NodeFlags.Setter && parser.token & SyntaxKind.IsEllipsis) {
-        parser.diagnostics.push(
-          createDiagnosticError(
-            DiagnosticSource.Parser,
-            DiagnosticCode.A_set_accessor_cannot_have_rest_parameter,
-            parser.curPos,
-            parser.pos
-          )
-        );
+      if (nodeFlags & NodeFlags.Setter) {
+        if (parser.token & SyntaxKind.IsEllipsis) {
+          parser.diagnostics.push(
+            createDiagnosticError(
+              DiagnosticSource.Parser,
+              DiagnosticCode.A_set_accessor_cannot_have_rest_parameter,
+              parser.curPos,
+              parser.pos
+            )
+          );
+        }
+        if (parser.token === SyntaxKind.ThisKeyword) {
+          parser.diagnostics.push(
+            createDiagnosticError(
+              DiagnosticSource.Parser,
+              DiagnosticCode.A_setter_cannot_have_a_this_parameter,
+              parser.curPos,
+              parser.pos
+            )
+          );
+        }
       }
 
       let parameter = parseFormalParameter(parser, context);
@@ -3604,15 +3617,27 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
   const binding = parseIdentifierOrPattern(parser, context);
   const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
 
-  if (token === SyntaxKind.ThisKeyword && optionalToken) {
-    parser.diagnostics.push(
-      createDiagnosticError(
-        DiagnosticSource.Parser,
-        DiagnosticCode.The_this_parameter_cannot_be_optional,
-        parser.curPos,
-        parser.pos
-      )
-    );
+  if (context & Context.OptionsAllowTypes && token === SyntaxKind.ThisKeyword) {
+    if (optionalToken) {
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode.The_this_parameter_cannot_be_optional,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
+    if (parser.token !== SyntaxKind.Colon) {
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
   }
 
   const type = parseTypeAnnotation(parser, context);
@@ -4405,7 +4430,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       parser.diagnostics.push(
         createDiagnosticError(
           DiagnosticSource.Parser,
-          DiagnosticCode.Missing_initializer_in_type_alias_declaration,
+          DiagnosticCode.Type_parameter_declaration_needs_a_default_since_a_preceding_type_parameter_declaration_has_a_default,
           parser.curPos,
           parser.pos
         )
@@ -5114,6 +5139,7 @@ function parseClassElementList(
         parser,
         context,
         inheritedContext,
+        /* declareToken */ null,
         isDeclared,
         /* staticToken */ null,
         /* decorators */ null,
@@ -5130,12 +5156,24 @@ export function parseFieldDefinition(
   parser: ParserState,
   context: Context,
   decorators: DecoratorList | null,
+  declareToken: SyntaxToken<TokenSyntaxKind> | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   key: any,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ) {
   const type = parseTypeAnnotation(parser, context);
+
+  if (declareToken && parser.token === SyntaxKind.Assign) {
+    parser.diagnostics.push(
+      createDiagnosticError(
+        DiagnosticSource.Parser,
+        DiagnosticCode.Initializers_are_not_allowed_in_fields_with_the_declare_modifier,
+        parser.curPos,
+        parser.pos
+      )
+    );
+  }
   const initializer = parseInitializer(parser, context);
   //parseSemicolon(parser, context);
   return createFieldDefinition(
@@ -5155,6 +5193,7 @@ export function parseClassElement(
   parser: ParserState,
   context: Context,
   inheritedContext: Context,
+  declareToken: SyntaxToken<TokenSyntaxKind> | null,
   isDeclared: boolean,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
@@ -5184,11 +5223,28 @@ export function parseClassElement(
               parser,
               context,
               inheritedContext,
+              declareToken,
               isDeclared,
               createToken(SyntaxKind.StaticKeyword, pos, parser.curPos),
               decorators,
               nodeFlags
             );
+          }
+        case SyntaxKind.DeclareKeyword:
+          if (context & Context.OptionsAllowTypes) {
+            if (!declareToken) {
+              return parseClassElement(
+                parser,
+                context,
+                inheritedContext,
+                createToken(SyntaxKind.DeclareKeyword, pos, parser.curPos),
+                isDeclared,
+                staticToken,
+                decorators,
+                nodeFlags
+              );
+            }
+            break;
           }
         case SyntaxKind.AsyncKeyword:
           if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
@@ -5258,10 +5314,21 @@ export function parseClassElement(
       );
     }
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+      if (declareToken) {
+        parser.diagnostics.push(
+          createDiagnosticError(
+            DiagnosticSource.Parser,
+            DiagnosticCode.The_declare_modifier_can_only_appear_on_class_fields,
+            parser.curPos,
+            parser.pos
+          )
+        );
+      }
+
       const method = parseMethodDefinition(parser, context, isDeclared, key, nodeFlags);
-      return createClassElement(decorators, staticToken, method, pos, parser.curPos);
+      return createClassElement(declareToken, decorators, staticToken, method, pos, parser.curPos);
     }
-    return parseFieldDefinition(parser, context, decorators, staticToken, key, null, pos);
+    return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
   }
 
   const key = parsePropertyName(parser, inheritedContext);
@@ -5270,11 +5337,21 @@ export function parseClassElement(
   if (generatorToken) nodeFlags | NodeFlags.Generator;
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+    if (declareToken) {
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode.The_declare_modifier_can_only_appear_on_class_fields,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
     const method = parseMethodDefinition(parser, context, isDeclared, key, nodeFlags);
-    return createClassElement(decorators, staticToken, method, pos, parser.curPos);
+    return createClassElement(declareToken, decorators, staticToken, method, pos, parser.curPos);
   }
 
-  return parseFieldDefinition(parser, context, decorators, staticToken, key, null, pos);
+  return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
 }
 
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {

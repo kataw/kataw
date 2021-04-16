@@ -40,6 +40,7 @@ class x { async *prot\u006ftype(){} }
                 "elements": [
                     {
                         "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
                         "staticToken": null,
                         "method": {

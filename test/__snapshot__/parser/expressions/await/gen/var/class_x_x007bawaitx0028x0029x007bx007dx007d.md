@@ -138,6 +138,7 @@ var await; var f = (async function() { class x {await(){}} });
                                                     "elements": [
                                                         {
                                                             "kind": 278,
+                                                            "declareToken": null,
                                                             "decorators": null,
                                                             "staticToken": null,
                                                             "method": {
