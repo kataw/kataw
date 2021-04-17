@@ -42,14 +42,7 @@ return[ function while
                                 "end": 16
                             },
                             "generatorToken": null,
-                            "name": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 16,
-                                "end": 16
-                            },
+                            "name": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -140,14 +133,6 @@ return[ function while
             "error": "A return statement can only be used within a function_body",
             "start": 0,
             "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 16,
-            "end": 22
         },
         {
             "kind": 2,

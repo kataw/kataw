@@ -107,14 +107,7 @@ class C { constructor() { var f = function { super(); } } }
                                                                 "end": 42
                                                             },
                                                             "generatorToken": null,
-                                                            "name": {
-                                                                "kind": 16637,
-                                                                "text": "",
-                                                                "autofix": 0,
-                                                                "flags": 12,
-                                                                "start": 42,
-                                                                "end": 42
-                                                            },
+                                                            "name": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -223,14 +216,6 @@ class C { constructor() { var f = function { super(); } } }
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 42,
-            "end": 44
-        },
         {
             "kind": 2,
             "source": 2,

@@ -72,14 +72,7 @@
                                             "end": 26
                                         },
                                         "generatorToken": null,
-                                        "name": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "autofix": 0,
-                                            "flags": 12,
-                                            "start": 26,
-                                            "end": 26
-                                        },
+                                        "name": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -194,14 +187,6 @@
             "error": "',' expected",
             "start": 17,
             "end": 26
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 26,
-            "end": 28
         },
         {
             "kind": 2,

@@ -37,14 +37,7 @@ if( function while
                     "end": 12
                 },
                 "generatorToken": null,
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 12,
-                    "end": 12
-                },
+                "name": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -120,14 +113,6 @@ if( function while
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 12,
-            "end": 18
-        },
         {
             "kind": 2,
             "source": 2,

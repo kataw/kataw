@@ -1,0 +1,116 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+(foo, bar): z => null
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 768,
+                    "start": 13,
+                    "end": 16
+                },
+                "typeParameters": null,
+                "parameters": [
+                    [
+                        {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 768,
+                            "start": 1,
+                            "end": 4
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 768,
+                            "start": 5,
+                            "end": 9
+                        }
+                    ]
+                ],
+                "asyncToken": null,
+                "returnType": {
+                    "kind": 139,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "z",
+                            "rawText": "z",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 13
+                        },
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 11,
+                        "end": 13
+                    },
+                    "flags": 0,
+                    "start": 10,
+                    "end": 13
+                },
+                "contents": {
+                    "kind": 269,
+                    "text": null,
+                    "flags": 768,
+                    "start": 16,
+                    "end": 21
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 21
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 21
+        }
+    ],
+    "isModule": false,
+    "text": "(foo, bar): z => null",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [],
+    "start": 0,
+    "end": 21
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

@@ -901,14 +901,7 @@ async function f(){}
                                                     "end": 237
                                                 },
                                                 "generatorToken": null,
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "autofix": 0,
-                                                    "flags": 12,
-                                                    "start": 237,
-                                                    "end": 237
-                                                },
+                                                "name": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -1242,14 +1235,6 @@ async function f(){}
             "error": "Unexpected token.",
             "start": 228,
             "end": 237
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 237,
-            "end": 238
         },
         {
             "kind": 2,

@@ -1,4 +1,5 @@
-import { parse } from './parser';
+import { parse, Options } from './parser';
+import { RootNode } from './ast/rootNode';
 export {
   isStatementNode,
   isExpressionNode,
@@ -32,10 +33,10 @@ export {
   isSemicolon
 } from './common';
 
-export function parseScript(source: string, options: any) {
+export function parseScript(source: string, options: Options): RootNode {
   return parse(source, /* filename */ '__root__', /* isModule */ false, options);
 }
 
-export function parseModule(source: string, options: any) {
+export function parseModule(source: string, options: Options): RootNode {
   return parse(source, /* filename */ '__root__', /* isModule */ true, options);
 }

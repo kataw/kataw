@@ -254,17 +254,17 @@ type T27 = ArgumentType<never>;  // any
                             "returnType": {
                                 "kind": 144,
                                 "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 768,
-                                    "start": 132,
-                                    "end": 134
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 129,
+                                    "end": 129
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 132,
-                                "end": 134
+                                "start": 129,
+                                "end": 129
                             },
                             "typeParameters": {
                                 "kind": 146,
@@ -291,19 +291,67 @@ type T27 = ArgumentType<never>;  // any
                             },
                             "flags": 0,
                             "start": 124,
-                            "end": 134
+                            "end": 129
                         }
                     ],
                     "flags": 0,
                     "start": 122,
-                    "end": 136
+                    "end": 129
                 },
                 "flags": 0,
                 "start": 111,
-                "end": 136
+                "end": 129
             },
             "flags": 128,
             "start": 91,
+            "end": 129
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "T",
+                "rawText": "T",
+                "flags": 768,
+                "start": 132,
+                "end": 134
+            },
+            "flags": 128,
+            "start": 132,
+            "end": 134
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 135,
+                    "end": 135
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 768,
+                    "start": 135,
+                    "end": 136
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 136,
+                    "end": 136
+                },
+                "flags": 256,
+                "start": 135,
+                "end": 136
+            },
+            "flags": 128,
+            "start": 135,
             "end": 137
         },
         {
@@ -1166,7 +1214,96 @@ type T27 = ArgumentType<never>;  // any
     "text": "type T10 = ReturnType<() => string>;  // string\ntype T11 = ReturnType<(s: string) => void>;  // void\ntype T12 = ReturnType<(<T>() => T)>;  // {}\n\n//type T13 = ReturnType<(<T extends U, U extends number[]>() => T)>;  // number[]\n\ntype T14 = ReturnType<typeof f1>;  // { a: number, b: string }\n\ntype T15 = ReturnType<typeof C>;  // C\ntype T16 = ReturnType<any>;  // any\n\ntype T17 = ReturnType<never>;  // any\ntype T18 = ReturnType<string>;  // Error\ntype T19 = ReturnType<Function>;  // any\n\ntype T20 = ArgumentType<() => void>;  // never\ntype T21 = ArgumentType<(x: string) => number>;  // string\ntype T22 = ArgumentType<(x?: string) => number>;  // string | undefined\ntype T23 = ArgumentType<(...args: string[]) => number>;  // string\n//type T24 = ArgumentType<(x: string, y: string) => number>;  // Error\ntype T25 = ArgumentType<Function>;  // Error\ntype T26 = ArgumentType<any>;  // any\ntype T27 = ArgumentType<never>;  // any\n\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 129,
+            "end": 132
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 134,
+            "end": 135
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 134,
+            "end": 135
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 135,
+            "end": 136
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 3,
+            "error": "Identifier expected",
+            "start": 136,
+            "end": 137
+        }
+    ],
     "start": 0,
     "end": 930
 }

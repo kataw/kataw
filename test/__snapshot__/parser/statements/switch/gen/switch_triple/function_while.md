@@ -91,14 +91,7 @@ switch switch switch function while
                     "end": 29
                 },
                 "generatorToken": null,
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 29,
-                    "end": 29
-                },
+                "name": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -266,14 +259,6 @@ switch switch switch function while
             "error": "Unexpected token.",
             "start": 20,
             "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 29,
-            "end": 35
         },
         {
             "kind": 2,

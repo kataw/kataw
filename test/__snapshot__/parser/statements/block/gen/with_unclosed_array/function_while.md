@@ -41,14 +41,7 @@
                                             "end": 11
                                         },
                                         "generatorToken": null,
-                                        "name": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "autofix": 0,
-                                            "flags": 12,
-                                            "start": 11,
-                                            "end": 11
-                                        },
+                                        "name": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -142,14 +135,6 @@
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 11,
-            "end": 17
-        },
         {
             "kind": 2,
             "source": 2,

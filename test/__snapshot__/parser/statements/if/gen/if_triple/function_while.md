@@ -69,14 +69,7 @@ if if if function while
                             "end": 17
                         },
                         "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 17,
-                            "end": 17
-                        },
+                        "name": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -219,14 +212,6 @@ if if if function while
             "error": "Unexpected token.",
             "start": 8,
             "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 17,
-            "end": 23
         },
         {
             "kind": 2,

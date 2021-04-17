@@ -56,14 +56,7 @@ class x extends function {}
                         "end": 24
                     },
                     "generatorToken": null,
-                    "name": {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
-                        "start": 24,
-                        "end": 24
-                    },
+                    "name": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -115,14 +108,6 @@ class x extends function {}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 24,
-            "end": 26
-        },
         {
             "kind": 2,
             "source": 2,

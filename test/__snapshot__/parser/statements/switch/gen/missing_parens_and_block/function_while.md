@@ -56,14 +56,7 @@ switch case function while
                                 "end": 20
                             },
                             "generatorToken": null,
-                            "name": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 20,
-                                "end": 20
-                            },
+                            "name": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -179,14 +172,6 @@ switch case function while
             "error": "Unexpected token.",
             "start": 6,
             "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 20,
-            "end": 26
         },
         {
             "kind": 2,
