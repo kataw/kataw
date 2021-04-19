@@ -30,7 +30,12 @@
     "statements": [
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 13,
+                "end": 19
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -136,14 +141,6 @@
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 13,
-            "end": 19
-        },
         {
             "kind": 2,
             "source": 2,

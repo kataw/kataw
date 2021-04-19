@@ -2329,7 +2329,12 @@ let x = { foo(){ super(); } };
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 675,
+                "end": 681
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -2979,14 +2984,6 @@ let x = { foo(){ super(); } };
             "error": "'super' can only be referenced in members of derived classes or object literal expressions",
             "start": 669,
             "end": 670
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 675,
-            "end": 681
         },
         {
             "kind": 2,

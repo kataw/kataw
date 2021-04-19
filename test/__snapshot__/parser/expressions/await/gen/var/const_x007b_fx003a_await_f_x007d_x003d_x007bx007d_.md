@@ -115,7 +115,12 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                         "statements": [
                                             {
                                                 "kind": 162,
-                                                "lexicalKeyword": null,
+                                                "lexicalKeyword": {
+                                                    "kind": 37757004,
+                                                    "flags": 768,
+                                                    "start": 38,
+                                                    "end": 44
+                                                },
                                                 "binding": {
                                                     "kind": 151,
                                                     "bindingList": [
@@ -254,14 +259,6 @@ var await; var f = (async function() { const { f: await f } = {}; });
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 44
-        },
         {
             "kind": 2,
             "source": 2,

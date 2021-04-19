@@ -18,33 +18,28 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "flags": 256,
-                    "start": 0,
-                    "end": 4
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": null,
+                "parameters": [
+                    null
+                ],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 768,
+                    "start": 6,
+                    "end": 8
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 6,
                 "end": 8
             },
             "flags": 128,
-            "start": 6,
+            "start": 0,
             "end": 8
         },
         {
@@ -92,16 +87,16 @@
         {
             "kind": 2,
             "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
+            "code": 31,
+            "error": "The left hand side of the arrow is not destructible ",
             "start": 4,
             "end": 6
         },
         {
             "kind": 2,
             "source": 2,
-            "code": 5,
-            "error": "Statement expected",
+            "code": 1,
+            "error": "Unexpected token.",
             "start": 4,
             "end": 6
         },

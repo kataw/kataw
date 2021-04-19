@@ -72,7 +72,12 @@ class x extends const {}
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 15,
+                "end": 21
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -120,14 +125,6 @@ class x extends const {}
             "source": 2,
             "code": 3,
             "error": "Identifier expected",
-            "start": 15,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
             "start": 15,
             "end": 21
         },
