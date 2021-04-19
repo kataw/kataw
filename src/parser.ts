@@ -1953,7 +1953,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         }
       }
 
-      let parameter = parseFormalParameter(parser, context);
+      const parameter = parseFormalParameter(parser, context);
 
       nodeFlags |= parameter.flags;
 
@@ -4240,7 +4240,7 @@ function parseFunctionTypeOrParen(parser: ParserState, context: Context): any {
   }
   // A `,` or a `) =>` means thi
   if (isGroupedType) {
-    let type = parseUnionType(parser, context);
+    const type = parseUnionType(parser, context);
 
     if (
       !(
@@ -5884,7 +5884,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
 function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: SyntaxToken<TokenSyntaxKind> | null) {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context);
+  const expr = parseIdentifier(parser, context);
   if (parser.token === SyntaxKind.TypeKeyword) {
     return parseTypeAsIdentifierOrTypeAlias(
       parser,
