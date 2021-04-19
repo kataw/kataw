@@ -41,7 +41,12 @@
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 1,
+                "end": 11
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [],
@@ -84,14 +89,6 @@
             "source": 2,
             "code": 3,
             "error": "Identifier expected",
-            "start": 1,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
             "start": 1,
             "end": 11
         },

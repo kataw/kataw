@@ -581,12 +581,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "alternate": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 768,
-                            "start": 440,
-                            "end": 443
-                        },
+                        "arrowToken": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -602,191 +597,203 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "returnType": {
                             "kind": 139,
                             "type": {
+                                "kind": 148,
+                                "parameters": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "e",
+                                            "rawText": "e",
+                                            "flags": 768,
+                                            "start": 438,
+                                            "end": 439
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 438,
+                                        "end": 439
+                                    }
+                                ],
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 768,
+                                        "start": 443,
+                                        "end": 445
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 443,
+                                    "end": 445
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 436,
+                                "end": 445
+                            },
+                            "flags": 0,
+                            "start": 434,
+                            "end": 445
+                        },
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "g",
+                            "rawText": "g",
+                            "flags": 768,
+                            "start": 447,
+                            "end": 449
+                        },
+                        "flags": 256,
+                        "start": 430,
+                        "end": 449
+                    },
+                    "flags": 256,
+                    "start": 420,
+                    "end": 449
+                },
+                "colonToken": null,
+                "alternate": {
+                    "kind": 197,
+                    "shortCircuit": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 768,
+                        "start": 450,
+                        "end": 516
+                    },
+                    "questionToken": {
+                        "kind": 22,
+                        "flags": 768,
+                        "start": 516,
+                        "end": 518
+                    },
+                    "consequent": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 526,
+                            "end": 529
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 768,
+                                "start": 520,
+                                "end": 521
+                            }
+                        ],
+                        "asyncToken": null,
+                        "returnType": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 768,
+                                    "start": 524,
+                                    "end": 526
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 524,
+                                "end": 526
+                            },
+                            "flags": 0,
+                            "start": 522,
+                            "end": 526
+                        },
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "d",
+                            "rawText": "d",
+                            "flags": 768,
+                            "start": 529,
+                            "end": 531
+                        },
+                        "flags": 256,
+                        "start": 518,
+                        "end": 531
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 768,
+                        "start": 531,
+                        "end": 533
+                    },
+                    "alternate": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 768,
+                            "start": 541,
+                            "end": 544
+                        },
+                        "typeParameters": null,
+                        "parameters": [
+                            {
                                 "kind": 134299649,
                                 "text": "e",
                                 "rawText": "e",
                                 "flags": 768,
-                                "start": 438,
-                                "end": 439
-                            },
-                            "flags": 0,
-                            "start": 434,
-                            "end": 440
-                        },
-                        "contents": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 768,
-                            "start": 443,
-                            "end": 445
-                        },
-                        "flags": 256,
-                        "start": 430,
-                        "end": 445
-                    },
-                    "flags": 256,
-                    "start": 420,
-                    "end": 445
-                },
-                "colonToken": {
-                    "kind": 21,
-                    "flags": 768,
-                    "start": 445,
-                    "end": 447
-                },
-                "alternate": {
-                    "kind": 134299649,
-                    "text": "g",
-                    "rawText": "g",
-                    "flags": 768,
-                    "start": 447,
-                    "end": 449
-                },
-                "flags": 256,
-                "start": 302,
-                "end": 449
-            },
-            "flags": 128,
-            "start": 302,
-            "end": 450
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 197,
-                "shortCircuit": {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 768,
-                    "start": 450,
-                    "end": 516
-                },
-                "questionToken": {
-                    "kind": 22,
-                    "flags": 768,
-                    "start": 516,
-                    "end": 518
-                },
-                "consequent": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 526,
-                        "end": 529
-                    },
-                    "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 768,
-                            "start": 520,
-                            "end": 521
-                        }
-                    ],
-                    "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 768,
-                                "start": 524,
-                                "end": 526
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 524,
-                            "end": 526
-                        },
-                        "flags": 0,
-                        "start": 522,
-                        "end": 526
-                    },
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "d",
-                        "rawText": "d",
-                        "flags": 768,
-                        "start": 529,
-                        "end": 531
-                    },
-                    "flags": 256,
-                    "start": 518,
-                    "end": 531
-                },
-                "colonToken": {
-                    "kind": 21,
-                    "flags": 768,
-                    "start": 531,
-                    "end": 533
-                },
-                "alternate": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 768,
-                        "start": 541,
-                        "end": 544
-                    },
-                    "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "e",
-                            "rawText": "e",
-                            "flags": 768,
-                            "start": 535,
-                            "end": 536
-                        }
-                    ],
-                    "asyncToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 768,
+                                "start": 535,
+                                "end": 536
+                            }
+                        ],
+                        "asyncToken": null,
+                        "returnType": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 768,
+                                    "start": 539,
+                                    "end": 541
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 539,
                                 "end": 541
                             },
-                            "typeParameters": null,
                             "flags": 0,
-                            "start": 539,
+                            "start": 537,
                             "end": 541
                         },
-                        "flags": 0,
-                        "start": 537,
-                        "end": 541
-                    },
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "g",
-                        "rawText": "g",
-                        "flags": 768,
-                        "start": 544,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "g",
+                            "rawText": "g",
+                            "flags": 768,
+                            "start": 544,
+                            "end": 546
+                        },
+                        "flags": 256,
+                        "start": 533,
                         "end": 546
                     },
                     "flags": 256,
-                    "start": 533,
+                    "start": 450,
                     "end": 546
                 },
                 "flags": 256,
-                "start": 450,
+                "start": 302,
                 "end": 546
             },
             "flags": 128,
-            "start": 450,
+            "start": 302,
             "end": 547
         },
         {

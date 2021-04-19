@@ -26,7 +26,12 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
     "statements": [
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -44,43 +49,66 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134299649,
-                                "text": "Object",
-                                "rawText": "Object",
-                                "flags": 768,
-                                "start": 11,
-                                "end": 18
+                                "kind": 148,
+                                "parameters": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Object",
+                                            "rawText": "Object",
+                                            "flags": 768,
+                                            "start": 11,
+                                            "end": 18
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 18
+                                    }
+                                ],
+                                "returnType": {
+                                    "kind": 134217970,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Object",
+                                            "rawText": "Object",
+                                            "flags": 768,
+                                            "start": 21,
+                                            "end": 27
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 21,
+                                        "end": 27
+                                    },
+                                    "flags": 0,
+                                    "start": 19,
+                                    "end": 27
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 27
                             },
                             "flags": 0,
                             "start": 8,
-                            "end": 18
+                            "end": 27
                         },
                         "initializer": null,
                         "flags": 128,
                         "start": 5,
-                        "end": 18
+                        "end": 27
                     }
                 ],
                 "flags": 160,
                 "start": 5,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 19
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Object",
-                "rawText": "Object",
-                "flags": 768,
-                "start": 21,
                 "end": 27
             },
             "flags": 128,
-            "start": 21,
+            "start": 0,
             "end": 27
         },
         {
@@ -166,7 +194,12 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 57,
+                "end": 63
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -184,59 +217,66 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134299649,
-                                "text": "Object",
-                                "rawText": "Object",
-                                "flags": 768,
-                                "start": 70,
-                                "end": 77
+                                "kind": 148,
+                                "parameters": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Object",
+                                            "rawText": "Object",
+                                            "flags": 768,
+                                            "start": 70,
+                                            "end": 77
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 70,
+                                        "end": 77
+                                    }
+                                ],
+                                "returnType": {
+                                    "kind": 134217970,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Object",
+                                            "rawText": "Object",
+                                            "flags": 768,
+                                            "start": 80,
+                                            "end": 86
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 80,
+                                        "end": 86
+                                    },
+                                    "flags": 0,
+                                    "start": 78,
+                                    "end": 86
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 68,
+                                "end": 86
                             },
                             "flags": 0,
                             "start": 67,
-                            "end": 77
+                            "end": 86
                         },
                         "initializer": null,
                         "flags": 128,
                         "start": 63,
-                        "end": 77
+                        "end": 86
                     }
                 ],
                 "flags": 160,
                 "start": 63,
-                "end": 78
-            },
-            "flags": 128,
-            "start": 57,
-            "end": 78
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "Object",
-                        "rawText": "Object",
-                        "flags": 768,
-                        "start": 80,
-                        "end": 86
-                    },
-                    {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
-                        "start": 87,
-                        "end": 87
-                    }
-                ],
-                "flags": 256,
-                "start": 80,
                 "end": 87
             },
             "flags": 128,
-            "start": 80,
+            "start": 57,
             "end": 87
         },
         {
@@ -331,104 +371,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 29,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 37,
-            "end": 39
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 37,
-            "end": 39
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 57,
-            "end": 63
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 77,
-            "end": 78
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 77,
-            "end": 78
+            "start": 78,
+            "end": 80
         },
         {
             "kind": 2,
@@ -441,18 +385,10 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
         {
             "kind": 2,
             "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 78,
-            "end": 80
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 87,
-            "end": 89
+            "code": 13,
+            "error": "Missing initializer in const declaration",
+            "start": 86,
+            "end": 87
         },
         {
             "kind": 2,

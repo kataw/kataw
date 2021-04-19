@@ -733,30 +733,37 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 139,
                             "type": {
                                 "kind": 148,
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "n",
-                                            "rawText": "n",
-                                            "flags": 768,
+                                "parameters": {
+                                    "kind": 208,
+                                    "functionTypeParameterList": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "n",
+                                                "rawText": "n",
+                                                "flags": 768,
+                                                "start": 203,
+                                                "end": 204
+                                            },
+                                            "optionalToken": null,
+                                            "typeAnnotation": {
+                                                "kind": 134234252,
+                                                "flags": 768,
+                                                "start": 205,
+                                                "end": 209
+                                            },
+                                            "flags": 0,
                                             "start": 203,
-                                            "end": 204
-                                        },
-                                        "optionalToken": null,
-                                        "typeAnnotation": {
-                                            "kind": 134234252,
-                                            "flags": 768,
-                                            "start": 205,
                                             "end": 209
-                                        },
-                                        "flags": 0,
-                                        "start": 203,
-                                        "end": 209
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 256,
+                                    "start": 203,
+                                    "end": 209
+                                },
                                 "returnType": {
                                     "kind": 134234252,
                                     "flags": 768,
@@ -765,7 +772,7 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 203,
+                                "start": 201,
                                 "end": 217
                             },
                             "flags": 0,

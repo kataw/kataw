@@ -1001,7 +1001,7 @@ function parseConditionalExpression(
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark),
     parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
     consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
-    parseExpression(parser, context),
+    parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
     pos,
     parser.curPos
   );
@@ -1310,11 +1310,13 @@ function parseArrowFunction(
       ((context |
         Context.InAwaitContext |
         Context.InTypes |
+        //        Context.InConditionalExpr |
         Context.InGeneratorContext |
         Context.DisallowIn |
         Context.InSwitch |
         Context.InIteration) ^
         (Context.InGeneratorContext |
+          //          Context.InConditionalExpr |
           Context.InAwaitContext |
           Context.DisallowIn |
           Context.InTypes |
@@ -1590,7 +1592,6 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseUnaryExpression(parser, context);
     case SyntaxKind.YieldKeyword:
       return parseYieldIdentifierOrExpression(parser, context);
-    case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       return parseFunctionExpression(parser, context);
     case SyntaxKind.ClassKeyword:
@@ -2597,20 +2598,12 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
     // The last one is not actually an arrow function,
     // but this is probably what the user intended.
 
-    let returnType = null;
-    if (parser.token === SyntaxKind.Colon) {
-      returnType =
+    let isType = false;
+    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+      isType =
         context & Context.InConditionalExpr
-          ? speculate(
-              parser,
-              context,
-              function () {
-                const result = parseTypeAnnotation(parser, context);
-                return parser.token === SyntaxKind.Arrow ? result : null;
-              },
-              /* rollback */ false
-            )
-          : parseTypeAnnotation(parser, context);
+          ? isValidReturnType(parser, context, parsePrimaryExpression(parser, context), curPos, false)
+          : true;
     }
 
     switch (parser.token) {
@@ -2621,7 +2614,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           parser,
           context,
           /*typeParameters */ typeParameters,
-          /* returnType */ returnType,
+          /* returnType */ isType ? parseTypeAnnotation(parser, context) : null,
           /* params */ [],
           /* asyncToken */ null,
           curPos
@@ -2769,23 +2762,13 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     if (state) {
-      let returnType = null;
+      let isType = false;
       if (parser.token === SyntaxKind.Colon) {
-        returnType =
-          context & Context.InConditionalExpr
-            ? speculate(
-                parser,
-                context,
-                function () {
-                  const result = parseTypeAnnotation(parser, context);
-                  return parser.token === SyntaxKind.Arrow ? result : null;
-                },
-                /* rollback */ false
-              )
-            : parseTypeAnnotation(parser, context);
+        isType =
+          context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, curPos, true) : true;
       }
 
-      if (parser.token === SyntaxKind.Arrow || returnType) {
+      if (parser.token === SyntaxKind.Arrow || isType) {
         if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
           parser.diagnostics.push(
             createDiagnosticError(
@@ -2796,7 +2779,15 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
             )
           );
         }
-        return parseArrowFunction(parser, context, typeParameters, returnType, [expression], null, curPos);
+        return parseArrowFunction(
+          parser,
+          context,
+          typeParameters,
+          parseTypeAnnotation(parser, context),
+          [expression],
+          null,
+          curPos
+        );
       }
     }
 
@@ -2823,7 +2814,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
 
         state = Tristate.Unknown;
 
-        if (parser.token === SyntaxKind.Colon) {
+        if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
           state = Tristate.True;
 
           expression = createFormalParameter(
@@ -2955,24 +2946,14 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
       )
     );
   }
-  if (state) {
-    let returnType = null;
-    if (parser.token === SyntaxKind.Colon) {
-      returnType =
-        context & Context.InConditionalExpr
-          ? speculate(
-              parser,
-              context,
-              function () {
-                const result = parseTypeAnnotation(parser, context);
-                return parser.token === SyntaxKind.Arrow ? result : null;
-              },
-              /* rollback */ false
-            )
-          : parseTypeAnnotation(parser, context);
-    }
 
-    if (parser.token === SyntaxKind.Arrow || returnType) {
+  if (state) {
+    let isType = false;
+    if (parser.token === SyntaxKind.Colon) {
+      isType =
+        context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, curPos, true) : true;
+    }
+    if (parser.token === SyntaxKind.Arrow || isType) {
       if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
         parser.diagnostics.push(
           createDiagnosticError(
@@ -2983,7 +2964,15 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           )
         );
       }
-      return parseArrowFunction(parser, context, typeParameters, returnType, [expressions], null, curPos);
+      return parseArrowFunction(
+        parser,
+        context,
+        typeParameters,
+        parseTypeAnnotation(parser, context),
+        [expressions],
+        null,
+        curPos
+      );
     }
   }
 
@@ -3002,6 +2991,28 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
   parser.destructible = destructible;
 
   return createParenthesizedExpression(expression, curPos, parser.curPos);
+}
+
+function isValidReturnType(parser: ParserState, context: Context, _expression1: any, pos: number, _fromp: boolean) {
+  return speculate(
+    parser,
+    context,
+    function () {
+      nextToken(parser, context); // ':'
+      const isIdentifier = parser.token & SyntaxKind.IsIdentifier;
+      let expression: any = parsePrimaryExpression(parser, context);
+      if (
+        isIdentifier &&
+        expression.kind === SyntaxKind.ArrowFunction &&
+        (parser.token as SyntaxKind) === SyntaxKind.Colon
+      )
+        return true;
+      expression = parseMemberExpression(parser, context, expression, /* allowCalls */ true, pos);
+      expression = parseAssignmentExpression(parser, context, expression, pos);
+      return parser.token === SyntaxKind.Arrow;
+    },
+    /* rollback */ true
+  );
 }
 
 function parsePropertyName(
@@ -4209,51 +4220,56 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
 function parseFunctionTypeOrParen(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
   let returnType = null;
-
   nextToken(parser, context);
+  let isGroupedType = false;
   // Check to see if this is actually a grouped type
   if ((parser.token as SyntaxKind) !== SyntaxKind.RightParen && (parser.token as SyntaxKind) !== SyntaxKind.Ellipsis) {
-    if ((parser.token as SyntaxKind) === SyntaxKind.Identifier) {
-      const pos = parser.curPos;
-      const type = parseIdentifier(parser, context);
-      if (
-        (parser.token as SyntaxKind) === SyntaxKind.QuestionMark ||
-        (parser.token as SyntaxKind) === SyntaxKind.Colon
-      ) {
-        const optional = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-        consume(parser, context, SyntaxKind.Colon);
-        const returnType = parseType(parser, context);
-        const params = parseFunctionTypeParameterssRest(
-          parser,
-          context,
-          createFunctionTypeParameters(
-            /*ellipsisToken */ null,
-            type as Identifier,
-            optional,
-            returnType,
-            pos,
-            parser.curPos
-          )
-        );
-        consume(parser, context, SyntaxKind.RightParen);
+    if (parser.token & SyntaxKind.IsIdentifier) {
+      isGroupedType = speculate(
+        parser,
+        context,
+        function () {
+          nextToken(parser, context);
+          return parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon;
+        },
+        /* rollback */ true
+      );
+    } else {
+      isGroupedType = true;
+    }
+  }
+  // A `,` or a `) =>` means thi
+  if (isGroupedType) {
+    let type = parseUnionType(parser, context);
 
-        consume(parser, context, SyntaxKind.Arrow);
-
-        return createFunctionType(params, parseType(parser, context), /* typeParameters */ null, pos, parser.curPos);
-      }
+    if (
+      !(
+        parser.token === SyntaxKind.Comma ||
+        (parser.token === SyntaxKind.RightParen &&
+          speculate(
+            parser,
+            context,
+            function () {
+              nextToken(parser, context);
+              return parser.token === SyntaxKind.Arrow;
+            },
+            /* rollback */ true
+          ))
+      )
+    ) {
       consume(parser, context, SyntaxKind.RightParen);
       return type;
+    } else {
+      consumeOpt(parser, context, SyntaxKind.Comma);
     }
-    const type = parseType(parser, context);
+
     consume(parser, context, SyntaxKind.RightParen);
 
-    // If we see a => next then someone was probably confused about
-    // function types, so we can provide a better error message
-    if ((parser.token as SyntaxKind) === SyntaxKind.Arrow) {
-      //   throwError({}, Messages.ConfusedAboutFunctionType);
-    }
+    consume(parser, context, SyntaxKind.Arrow);
 
-    return type;
+    returnType = parseType(parser, context);
+
+    return createFunctionType([type], returnType, /* typeParameters */ null, pos, parser.curPos);
   }
 
   const params = parseFunctionTypeParameters(parser, context);
@@ -4286,9 +4302,14 @@ function parseTypeParameter(parser: ParserState, context: Context): TypeParamete
   const pos = parser.curPos;
   const types: TypeNode[] = [];
   consume(parser, context, SyntaxKind.LessThan);
+
   while (
     parser.token &
-    (SyntaxKind.IsLessThanOrLeftParen | SyntaxKind.IsStartOfType | SyntaxKind.IsIdentifier | SyntaxKind.IsPatternStart)
+    (SyntaxKind.IsLessThanOrLeftParen |
+      SyntaxKind.IsExpressionStart |
+      SyntaxKind.IsStartOfType |
+      SyntaxKind.IsIdentifier |
+      SyntaxKind.IsPatternStart)
   ) {
     types.push(parseType(parser, context));
     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) {
@@ -4541,7 +4562,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 
 function parseLexicalDeclaration(parser: ParserState, context: Context, isConst: boolean): LexicalDeclaration {
   const pos = parser.curPos;
-  const lexicalToken = consumeToken(parser, context, isConst ? SyntaxKind.ContinueKeyword : SyntaxKind.LetKeyword);
+  const lexicalToken = consumeToken(parser, context, isConst ? SyntaxKind.ConstKeyword : SyntaxKind.LetKeyword);
   const declarationList = parseBindingList(parser, context, isConst, /* inForStatement */ false);
   parseSemicolon(parser, context);
   return createLexicalDeclaration(lexicalToken, declarationList, pos, parser.curPos);
@@ -4732,7 +4753,7 @@ function parseObjectTypeProperty(
     if (token === SyntaxKind.GetKeyword) {
       return createObjectTypeProperty(
         /* key */ parseIdentifier(parser, context),
-        /* value */ parseFunctionType1(parser, context),
+        /* value */ parseFunctionType(parser, context),
         /* optionalToken */ null,
         /* staticToken */ null,
         pos,
@@ -4784,17 +4805,6 @@ function parseObjectTypeProperty(
   const value = parseType(parser, context);
 
   return createObjectTypeProperty(key, value, optionalToken, staticToken, pos, parser.curPos);
-}
-
-function parseFunctionType1(parser: ParserState, context: Context): FunctionType {
-  const pos = parser.curPos;
-  const typeParameters = parseTypeParameters(parser, context);
-  consume(parser, context, SyntaxKind.LeftParen);
-  const params = parseFunctionTypeParameters(parser, context);
-  consume(parser, context, SyntaxKind.RightParen);
-  consume(parser, context, SyntaxKind.Colon);
-  const returnType = parseType(parser, context);
-  return createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
 }
 
 function parseObjectTypeCallProperty(
@@ -5506,26 +5516,17 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
-    let returnType = null;
-    if (parser.token === SyntaxKind.Colon) {
-      returnType =
+    let isType = false;
+    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+      isType =
         context & Context.InConditionalExpr
-          ? speculate(
-              parser,
-              context,
-              function () {
-                const result = parseTypeAnnotation(parser, context);
-                return parser.token === SyntaxKind.Arrow ? result : null;
-              },
-              /* rollback */ false
-            )
-          : parseTypeAnnotation(parser, context);
+          ? isValidReturnType(parser, context, parsePrimaryExpression(parser, context), 1, true)
+          : true;
     }
-
     if (
       parser.token === SyntaxKind.Arrow ||
       /* Error recovery tweak. */
-      returnType
+      isType
     ) {
       if (hasLineTerminator) {
         parser.diagnostics.push(
@@ -5538,7 +5539,15 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
 
-      return parseArrowFunction(parser, context, typeParameters, returnType, [], asyncToken, start);
+      return parseArrowFunction(
+        parser,
+        context,
+        typeParameters,
+        parseTypeAnnotation(parser, context),
+        [],
+        asyncToken,
+        start
+      );
     }
     return createCallExpression(
       expr,
@@ -5567,7 +5576,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
       expression = parsePrimaryExpression(parser, context);
 
-      if (parser.token === SyntaxKind.Colon) {
+      if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
 
         expression = createFormalParameter(
@@ -5813,23 +5822,12 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   }
 
   if (state) {
-    let returnType = null;
-    if (parser.token === SyntaxKind.Colon) {
-      returnType =
-        context & Context.InConditionalExpr
-          ? speculate(
-              parser,
-              context,
-              function () {
-                const result = parseTypeAnnotation(parser, context);
-                return parser.token === SyntaxKind.Arrow ? result : null;
-              },
-              /* rollback */ false
-            )
-          : parseTypeAnnotation(parser, context);
+    let isType = false;
+    if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+      isType = context & Context.InConditionalExpr ? isValidReturnType(parser, context, expression, start, true) : true;
     }
 
-    if (parser.token === SyntaxKind.Arrow || returnType) {
+    if (parser.token === SyntaxKind.Arrow || isType) {
       if (hasLineTerminator) {
         parser.diagnostics.push(
           createDiagnosticError(
@@ -5852,7 +5850,15 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
 
-      return parseArrowFunction(parser, context, typeParameters, returnType, params, asyncToken, start);
+      return parseArrowFunction(
+        parser,
+        context,
+        typeParameters,
+        parseTypeAnnotation(parser, context),
+        params,
+        asyncToken,
+        start
+      );
     }
   }
 

@@ -179,30 +179,37 @@ type overloads2 = {
                 "types": [
                     {
                         "kind": 148,
-                        "parameters": [
-                            {
-                                "kind": 149,
-                                "ellipsisToken": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
+                        "parameters": {
+                            "kind": 208,
+                            "functionTypeParameterList": [
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 69,
+                                        "end": 70
+                                    },
+                                    "optionalToken": null,
+                                    "typeAnnotation": {
+                                        "kind": 134234347,
+                                        "flags": 768,
+                                        "start": 71,
+                                        "end": 78
+                                    },
+                                    "flags": 0,
                                     "start": 69,
-                                    "end": 70
-                                },
-                                "optionalToken": null,
-                                "typeAnnotation": {
-                                    "kind": 134234347,
-                                    "flags": 768,
-                                    "start": 71,
                                     "end": 78
-                                },
-                                "flags": 0,
-                                "start": 69,
-                                "end": 78
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 256,
+                            "start": 69,
+                            "end": 78
+                        },
                         "returnType": {
                             "kind": 134234345,
                             "flags": 768,
@@ -211,35 +218,42 @@ type overloads2 = {
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 69,
+                        "start": 68,
                         "end": 89
                     },
                     {
                         "kind": 148,
-                        "parameters": [
-                            {
-                                "kind": 149,
-                                "ellipsisToken": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
+                        "parameters": {
+                            "kind": 208,
+                            "functionTypeParameterList": [
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 97,
+                                        "end": 98
+                                    },
+                                    "optionalToken": null,
+                                    "typeAnnotation": {
+                                        "kind": 134234345,
+                                        "flags": 768,
+                                        "start": 99,
+                                        "end": 106
+                                    },
+                                    "flags": 0,
                                     "start": 97,
-                                    "end": 98
-                                },
-                                "optionalToken": null,
-                                "typeAnnotation": {
-                                    "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 99,
                                     "end": 106
-                                },
-                                "flags": 0,
-                                "start": 97,
-                                "end": 106
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 256,
+                            "start": 97,
+                            "end": 106
+                        },
                         "returnType": {
                             "kind": 134234347,
                             "flags": 768,
@@ -248,7 +262,7 @@ type overloads2 = {
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 97,
+                        "start": 96,
                         "end": 117
                     }
                 ],

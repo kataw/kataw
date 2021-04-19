@@ -32,7 +32,12 @@ const {x}: string = y;
     "statements": [
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -78,7 +83,12 @@ const {x}: string = y;
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 16,
+                "end": 23
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -169,7 +179,12 @@ const {x}: string = y;
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 40,
+                "end": 47
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -274,7 +289,12 @@ const {x}: string = y;
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 71,
+                "end": 78
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -371,14 +391,6 @@ const {x}: string = y;
         {
             "kind": 2,
             "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 13,
             "error": "Missing initializer in const declaration",
             "start": 7,
@@ -411,14 +423,6 @@ const {x}: string = y;
         {
             "kind": 2,
             "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 16,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 13,
             "error": "Missing initializer in const declaration",
             "start": 27,
@@ -447,14 +451,6 @@ const {x}: string = y;
             "error": "Statement expected",
             "start": 27,
             "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 40,
-            "end": 47
         },
         {
             "kind": 2,
@@ -527,14 +523,6 @@ const {x}: string = y;
             "error": "Statement expected",
             "start": 58,
             "end": 59
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 71,
-            "end": 78
         },
         {
             "kind": 2,

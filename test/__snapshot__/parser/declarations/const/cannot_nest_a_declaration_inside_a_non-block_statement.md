@@ -61,7 +61,12 @@ switch (x) { case x: const y = x }
                         "statements": [
                             {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 768,
+                                    "start": 20,
+                                    "end": 26
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -117,16 +122,7 @@ switch (x) { case x: const y = x }
     "text": "switch (x) { case x: const y = x }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 20,
-            "end": 26
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 34
 }

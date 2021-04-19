@@ -89,33 +89,28 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "flags": 256,
-                    "start": 13,
-                    "end": 21
+                "kind": 271,
+                "arrowToken": null,
+                "typeParameters": null,
+                "parameters": [
+                    null
+                ],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 768,
+                    "start": 22,
+                    "end": 29
                 },
                 "flags": 256,
                 "start": 13,
-                "end": 21
-            },
-            "flags": 128,
-            "start": 13,
-            "end": 21
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 768,
-                "start": 22,
                 "end": 29
             },
             "flags": 128,
-            "start": 22,
+            "start": 13,
             "end": 29
         },
         {
@@ -151,14 +146,6 @@
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 21,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
             "start": 21,
             "end": 22
         },

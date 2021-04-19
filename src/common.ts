@@ -154,7 +154,7 @@ export function speculate(parser: ParserState, context: Context, callback: any, 
     parser.tokenValue = tokenValue;
     parser.nodeFlags = nodeFlags;
     parser.tokenRaw = tokenRaw;
-    parser.diagnostics = diagnostics;
+    parser.diagnostics = [];
   }
   return result;
 }
@@ -280,3 +280,4 @@ export function isStartOfType(node: SyntaxNode): boolean {
 export function isSemicolon(node: SyntaxNode): boolean {
   return (node.flags & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
 }
+

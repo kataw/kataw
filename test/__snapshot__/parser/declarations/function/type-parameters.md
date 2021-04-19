@@ -131,7 +131,12 @@ type T = <
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 35,
+                "end": 42
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -398,46 +403,52 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 121,
-                            "expression": {
+                            "kind": 271,
+                            "arrowToken": null,
+                            "typeParameters": {
+                                "kind": 146,
+                                "types": [],
+                                "flags": 0,
+                                "start": 150,
+                                "end": 168
+                            },
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "arg",
+                                    "rawText": "arg",
+                                    "flags": 768,
+                                    "start": 169,
+                                    "end": 172
+                                }
+                            ],
+                            "asyncToken": null,
+                            "returnType": null,
+                            "contents": {
                                 "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
+                                "text": "any",
+                                "rawText": "any",
                                 "flags": 768,
-                                "start": 169,
-                                "end": 172
+                                "start": 174,
+                                "end": 178
                             },
                             "flags": 256,
                             "start": 150,
-                            "end": 173
+                            "end": 178
                         },
                         "flags": 128,
                         "start": 150,
-                        "end": 173
+                        "end": 179
                     }
                 ],
                 "multiLine": true,
                 "flags": 128,
                 "start": 150,
-                "end": 173
+                "end": 179
             },
             "flags": 128,
             "start": 148,
-            "end": 173
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "any",
-                "rawText": "any",
-                "flags": 768,
-                "start": 174,
-                "end": 178
-            },
-            "flags": 128,
-            "start": 174,
-            "end": 179
+            "end": 182
         },
         {
             "kind": 120,
@@ -574,7 +585,12 @@ type T = <
         },
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 260,
+                "end": 267
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -841,46 +857,68 @@ type T = <
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 121,
-                            "expression": {
+                            "kind": 271,
+                            "arrowToken": null,
+                            "typeParameters": {
+                                "kind": 146,
+                                "types": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "A",
+                                            "rawText": "A",
+                                            "flags": 768,
+                                            "start": 388,
+                                            "end": 393
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 388,
+                                        "end": 393
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 384,
+                                "end": 407
+                            },
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "arg",
+                                    "rawText": "arg",
+                                    "flags": 768,
+                                    "start": 408,
+                                    "end": 411
+                                }
+                            ],
+                            "asyncToken": null,
+                            "returnType": null,
+                            "contents": {
                                 "kind": 134299649,
-                                "text": "arg",
-                                "rawText": "arg",
+                                "text": "any",
+                                "rawText": "any",
                                 "flags": 768,
-                                "start": 408,
-                                "end": 411
+                                "start": 413,
+                                "end": 417
                             },
                             "flags": 256,
                             "start": 384,
-                            "end": 412
+                            "end": 417
                         },
                         "flags": 128,
                         "start": 384,
-                        "end": 412
+                        "end": 418
                     }
                 ],
                 "multiLine": true,
                 "flags": 128,
                 "start": 384,
-                "end": 412
+                "end": 418
             },
             "flags": 128,
             "start": 382,
-            "end": 412
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "any",
-                "rawText": "any",
-                "flags": 768,
-                "start": 413,
-                "end": 417
-            },
-            "flags": 128,
-            "start": 413,
-            "end": 418
+            "end": 421
         },
         {
             "kind": 120,
@@ -974,14 +1012,6 @@ type T = <
             "error": "Expression expected",
             "start": 34,
             "end": 35
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 35,
-            "end": 42
         },
         {
             "kind": 2,
@@ -1140,30 +1170,6 @@ type T = <
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 173,
-            "end": 174
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 173,
-            "end": 174
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 179,
-            "end": 182
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
             "start": 188,
             "end": 190
         },
@@ -1174,14 +1180,6 @@ type T = <
             "error": "Expression expected",
             "start": 259,
             "end": 260
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 260,
-            "end": 267
         },
         {
             "kind": 2,
@@ -1334,30 +1332,6 @@ type T = <
             "error": "Unexpected token.",
             "start": 412,
             "end": 413
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 412,
-            "end": 413
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 412,
-            "end": 413
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 418,
-            "end": 421
         },
         {
             "kind": 2,

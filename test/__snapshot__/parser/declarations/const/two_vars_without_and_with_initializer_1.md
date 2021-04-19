@@ -36,7 +36,12 @@ const [foo, bar=b] = arr;
     "statements": [
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -128,16 +133,7 @@ const [foo, bar=b] = arr;
     "text": "const [foo, bar=b] = arr;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 0,
-            "end": 5
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 25
 }

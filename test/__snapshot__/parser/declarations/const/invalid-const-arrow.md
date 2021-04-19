@@ -25,7 +25,12 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
     "statements": [
         {
             "kind": 162,
-            "lexicalKeyword": null,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
             "binding": {
                 "kind": 151,
                 "bindingList": [
@@ -43,37 +48,51 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134299649,
-                                "text": "Object",
-                                "rawText": "Object",
-                                "flags": 768,
-                                "start": 11,
-                                "end": 18
+                                "kind": 148,
+                                "parameters": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Object",
+                                            "rawText": "Object",
+                                            "flags": 768,
+                                            "start": 11,
+                                            "end": 18
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 18
+                                    }
+                                ],
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Object",
+                                        "rawText": "Object",
+                                        "flags": 768,
+                                        "start": 19,
+                                        "end": 26
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 19,
+                                    "end": 26
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 26
                             },
                             "flags": 0,
                             "start": 8,
-                            "end": 18
+                            "end": 26
                         },
                         "initializer": null,
                         "flags": 128,
                         "start": 5,
-                        "end": 18
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "Object",
-                            "rawText": "Object",
-                            "flags": 768,
-                            "start": 19,
-                            "end": 26
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 128,
-                        "start": 19,
                         "end": 26
                     },
                     {
@@ -194,24 +213,16 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 0,
-            "end": 5
+            "start": 19,
+            "end": 26
         },
         {
             "kind": 2,
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 18,
-            "end": 19
+            "start": 19,
+            "end": 26
         },
         {
             "kind": 2,
