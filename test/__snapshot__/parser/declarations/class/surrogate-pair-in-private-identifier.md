@@ -1,0 +1,128 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+class C { #@{x29e3d}@ }
+`````
+
+## Options
+
+### Parser Options
+
+`````js
+{}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "C",
+                "rawText": "C",
+                "flags": 768,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "key": {
+                            "kind": 67109115,
+                            "text": "#",
+                            "flags": 768,
+                            "start": 9,
+                            "end": 11
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 9,
+                        "end": 11
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "@{x29e3d}@",
+                            "rawText": "C",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 13
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 11,
+                        "end": 13
+                    }
+                ],
+                "flags": 256,
+                "start": 9,
+                "end": 15
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 15
+        }
+    ],
+    "isModule": false,
+    "text": "class C { #@{x29e3d}@ }",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 9,
+            "end": 11
+        }
+    ],
+    "start": 0,
+    "end": 15
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

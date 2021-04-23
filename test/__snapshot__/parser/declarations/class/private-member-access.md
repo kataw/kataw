@@ -1,0 +1,230 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+  class C { #aaa; f() { this.#aaa } }
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 768,
+                "start": 0,
+                "end": 7
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "C",
+                "rawText": "C",
+                "flags": 768,
+                "start": 7,
+                "end": 9
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "key": {
+                            "kind": 67109115,
+                            "text": "#aaa",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 16
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 11,
+                        "end": 16
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 768,
+                        "start": 16,
+                        "end": 17
+                    },
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 768,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 20,
+                                "end": 21
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 129,
+                                                "member": {
+                                                    "kind": 134299649,
+                                                    "text": "this",
+                                                    "rawText": "this",
+                                                    "flags": 768,
+                                                    "start": 23,
+                                                    "end": 28
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "autofix": 0,
+                                                    "flags": 12,
+                                                    "start": 29,
+                                                    "end": 29
+                                                },
+                                                "autofix": 0,
+                                                "flags": 256,
+                                                "start": 23,
+                                                "end": 29
+                                            },
+                                            "flags": 128,
+                                            "start": 23,
+                                            "end": 29
+                                        }
+                                    ],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 23,
+                                    "end": 29
+                                },
+                                "flags": 256,
+                                "start": 21,
+                                "end": 29
+                            },
+                            "flags": 0,
+                            "start": 19,
+                            "end": 29
+                        },
+                        "flags": 256,
+                        "start": 17,
+                        "end": 29
+                    },
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "key": {
+                            "kind": 67109115,
+                            "text": "#aaa",
+                            "flags": 768,
+                            "start": 29,
+                            "end": 33
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 29,
+                        "end": 33
+                    }
+                ],
+                "flags": 256,
+                "start": 11,
+                "end": 35
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 35
+        }
+    ],
+    "isModule": false,
+    "text": "  class C { #aaa; f() { this.#aaa } }",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 68,
+            "error": "Dot property must be an identifier",
+            "start": 29,
+            "end": 33
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 33
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 29,
+            "end": 33
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 5,
+            "error": "Statement expected",
+            "start": 35,
+            "end": 37
+        }
+    ],
+    "start": 0,
+    "end": 37
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+
