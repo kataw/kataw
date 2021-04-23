@@ -1215,9 +1215,11 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): Identifier | PrivateIdentifier {
   const pos = parser.curPos;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-    return parser.token === SyntaxKind.PrivateIdentifier
-      ? parsePrivateIdentifier(parser, context)
-      : parseIdentifier(parser, context);
+    return parseIdentifier(parser, context);
+  }
+
+  if (parser.token === SyntaxKind.PrivateIdentifier) {
+    return parsePrivateIdentifier(parser, context);
   }
 
   // For cases like `(foo.)` where we will hit the ')' instead of discovering a property.
@@ -1310,13 +1312,13 @@ function parseArrowFunction(
       ((context |
         Context.InAwaitContext |
         Context.InTypes |
-        //        Context.InConditionalExpr |
+        Context.InClassBody |
         Context.InGeneratorContext |
         Context.DisallowIn |
         Context.InSwitch |
         Context.InIteration) ^
         (Context.InGeneratorContext |
-          //          Context.InConditionalExpr |
+          Context.InClassBody |
           Context.InAwaitContext |
           Context.DisallowIn |
           Context.InTypes |
@@ -1590,6 +1592,8 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
     case SyntaxKind.TypeofKeyword:
     case SyntaxKind.VoidKeyword:
       return parseUnaryExpression(parser, context);
+    case SyntaxKind.PrivateIdentifier:
+      return parsePrivateIdentifier(parser, context);
     case SyntaxKind.YieldKeyword:
       return parseYieldIdentifierOrExpression(parser, context);
     case SyntaxKind.FunctionKeyword:
@@ -2244,22 +2248,31 @@ function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpre
       )
     );
   }
-  if (
-    context & Context.Strict &&
-    operandToken.kind === SyntaxKind.DeleteKeyword &&
-    expression.kind === SyntaxKind.Identifier
-  ) {
-    // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
-    // UnaryExpression is a direct reference to a variable, function argument, or function name
-    parser.diagnostics.push(
-      createDiagnosticError(
-        DiagnosticSource.Parser,
-        DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode,
-        parser.curPos,
-        parser.pos
-      )
-    );
+  if (context & Context.Strict && operandToken.kind === SyntaxKind.DeleteKeyword) {
+    if (expression.kind === SyntaxKind.Identifier) {
+      // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
+      // UnaryExpression is a direct reference to a variable, function argument, or function name
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
+    if (expression.kind === SyntaxKind.PrivateIdentifier) {
+      parser.diagnostics.push(
+        createDiagnosticError(
+          DiagnosticSource.Parser,
+          DiagnosticCode.Prohibit_delete_of_private_class_elements,
+          parser.curPos,
+          parser.pos
+        )
+      );
+    }
   }
+
   parser.assignable = false;
   return createUnaryExpression(operandToken, expression, curPos, parser.curPos);
 }
@@ -3276,11 +3289,13 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
       Context.Parameters |
       Context.DisallowIn |
       Context.InTypes |
+      Context.InClassBody |
       Context.SuperProperty |
       Context.SuperCall) ^
       (Context.InGeneratorContext |
         Context.InAwaitContext |
         Context.InTypes |
+        Context.InClassBody |
         Context.Parameters |
         Context.DisallowIn |
         Context.SuperProperty |
@@ -3408,12 +3423,14 @@ function parseFunctionDeclaration(
       Context.DisallowIn |
       Context.InTypes |
       Context.SuperProperty |
+      Context.InClassBody |
       Context.SuperCall) ^
       (Context.InGeneratorContext |
         Context.InAwaitContext |
         Context.Parameters |
         Context.InTypes |
         Context.DisallowIn |
+        Context.InClassBody |
         Context.SuperProperty |
         Context.SuperCall)) |
     (asyncToken ? Context.InAwaitContext : Context.None) |
@@ -4671,7 +4688,8 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
 
   while ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
     const innerPos = parser.curPos;
-    const staticToken = allowStatic && consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.StaticKeyword);
+    const staticKeyword =
+      allowStatic && consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.StaticKeyword);
 
     if (allowStatic && consumeOpt(parser, context, SyntaxKind.StaticKeyword)) {
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
@@ -4680,7 +4698,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
             /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
             /* value */ parseFunctionType(parser, context),
             /* optionalToken */ null,
-            /* staticToken */ null,
+            /* staticKeyword */ null,
             pos,
             parser.curPos
           )
@@ -4691,27 +4709,27 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
             /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
             /* value */ parseType(parser, context),
             /* optionalToken */ null,
-            /* staticToken */ null,
+            /* staticKeyword */ null,
             pos,
             parser.curPos
           )
         );
       } else if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-        indexers.push(parseObjectTypeIndexer(parser, context, /* isStatic */ staticToken, innerPos));
+        indexers.push(parseObjectTypeIndexer(parser, context, /* isStatic */ staticKeyword, innerPos));
       }
     } else {
       if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
         if (parser.token === SyntaxKind.LeftBracket) {
-          internalSlots.push(parseObjectTypeInternalSlot(parser, context, staticToken, innerPos));
+          internalSlots.push(parseObjectTypeInternalSlot(parser, context, staticKeyword, innerPos));
         } else {
-          indexers.push(parseObjectTypeIndexer(parser, context, staticToken, innerPos));
+          indexers.push(parseObjectTypeIndexer(parser, context, staticKeyword, innerPos));
         }
       } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        callProperties.push(parseObjectTypeCallProperty(parser, context, staticToken, innerPos));
+        callProperties.push(parseObjectTypeCallProperty(parser, context, staticKeyword, innerPos));
       } else if (parser.token === SyntaxKind.Ellipsis) {
-        properties.push(parseObjectTypeSpreadProperty(parser, context, staticToken, innerPos));
+        properties.push(parseObjectTypeSpreadProperty(parser, context, staticKeyword, innerPos));
       } else {
-        properties.push(parseObjectTypeProperty(parser, context, staticToken, innerPos));
+        properties.push(parseObjectTypeProperty(parser, context, staticKeyword, innerPos));
       }
     }
 
@@ -4726,13 +4744,13 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
 function parseObjectTypeSpreadProperty(
   parser: ParserState,
   context: Context,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeSpreadProperty {
   return createObjectTypeSpreadProperty(
     /* ellipsisToken */ consumeToken(parser, context, SyntaxKind.Ellipsis),
     /* type */ parseType(parser, context),
-    /* staticToken */ staticToken,
+    /* staticKeyword */ staticKeyword,
     pos,
     parser.curPos
   );
@@ -4741,7 +4759,7 @@ function parseObjectTypeSpreadProperty(
 function parseObjectTypeProperty(
   parser: ParserState,
   context: Context,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): any {
   let key;
@@ -4755,7 +4773,7 @@ function parseObjectTypeProperty(
         /* key */ parseIdentifier(parser, context),
         /* value */ parseFunctionType(parser, context),
         /* optionalToken */ null,
-        /* staticToken */ null,
+        /* staticKeyword */ null,
         pos,
         parser.curPos
       );
@@ -4765,7 +4783,7 @@ function parseObjectTypeProperty(
         /* key */ parseIdentifier(parser, context),
         /* value */ parseFunctionType(parser, context),
         /* optionalToken */ null,
-        /* staticToken */ null,
+        /* staticKeyword */ null,
         pos,
         parser.curPos
       );
@@ -4776,7 +4794,7 @@ function parseObjectTypeProperty(
         key,
         parseFunctionType(parser, context),
         /* optionalToken */ null,
-        staticToken,
+        staticKeyword,
         pos,
         parser.curPos
       );
@@ -4785,7 +4803,7 @@ function parseObjectTypeProperty(
     consume(parser, context, SyntaxKind.Colon);
     const value = parseType(parser, context);
 
-    return createObjectTypeProperty(key, value, optionalToken, staticToken, pos, parser.curPos);
+    return createObjectTypeProperty(key, value, optionalToken, staticKeyword, pos, parser.curPos);
   }
   key = parsePropertyName(parser, context);
 
@@ -4795,7 +4813,7 @@ function parseObjectTypeProperty(
       key,
       parseFunctionType(parser, context),
       /* optionalToken */ null,
-      staticToken,
+      staticKeyword,
       pos,
       parser.curPos
     );
@@ -4804,13 +4822,13 @@ function parseObjectTypeProperty(
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
 
-  return createObjectTypeProperty(key, value, optionalToken, staticToken, pos, parser.curPos);
+  return createObjectTypeProperty(key, value, optionalToken, staticKeyword, pos, parser.curPos);
 }
 
 function parseObjectTypeCallProperty(
   parser: ParserState,
   context: Context,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
   const typeParameters = parseTypeParameters(parser, context);
@@ -4820,13 +4838,13 @@ function parseObjectTypeCallProperty(
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
-  return createObjectTypeCallProperty(typeParameters, params, staticToken, returnType, pos, parser.curPos);
+  return createObjectTypeCallProperty(typeParameters, params, staticKeyword, returnType, pos, parser.curPos);
 }
 
 function parseObjectTypeInternalSlot(
   parser: ParserState,
   context: Context,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeInternalSlot {
   consume(parser, context, SyntaxKind.LeftBracket);
@@ -4841,17 +4859,24 @@ function parseObjectTypeInternalSlot(
     consume(parser, context, SyntaxKind.Colon);
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
-    return createObjectTypeInternalSlot(name, /* optionalToken */ null, staticToken, value, pos, parser.curPos);
+    return createObjectTypeInternalSlot(name, /* optionalToken */ null, staticKeyword, value, pos, parser.curPos);
   }
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
-  return createObjectTypeInternalSlot(name, optionalToken, staticToken, parseType(parser, context), pos, parser.curPos);
+  return createObjectTypeInternalSlot(
+    name,
+    optionalToken,
+    staticKeyword,
+    parseType(parser, context),
+    pos,
+    parser.curPos
+  );
 }
 
 function parseObjectTypeIndexer(
   parser: ParserState,
   context: Context,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeIndexer {
   let key: any;
@@ -4879,7 +4904,7 @@ function parseObjectTypeIndexer(
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
   parseSemicolon(parser, context);
-  return createObjectTypeIndexer(name, key, value, staticToken, pos, parser.curPos);
+  return createObjectTypeIndexer(name, key, value, staticKeyword, pos, parser.curPos);
 }
 
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {
@@ -5085,8 +5110,8 @@ function parseClassDeclaration(
   const classElementList = consume(parser, context, SyntaxKind.LeftBrace)
     ? parseClassElementList(
         parser,
-        inheritedContext,
-        context,
+        inheritedContext | Context.InClassBody,
+        context | Context.InClassBody,
         /* isDeclared */ declareKeyword ? true : false,
         /* isDecl */ true
       )
@@ -5131,7 +5156,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
   }
 
   const classElementList = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassElementList(parser, inheritedContext, context, /* isDeclared */ false, /* isDecl */ true)
+    ? parseClassElementList(parser, inheritedContext | Context.InClassBody, context | Context.InClassBody, /* isDeclared */ false, /* isDecl */ true)
     : // Empty list
       createClassElementList([], curPos, curPos);
   parser.assignable = false;
@@ -5185,9 +5210,9 @@ function parseClassElementList(
         parser,
         context,
         inheritedContext,
-        /* declareToken */ null,
+        /* declareKeyword */ null,
         isDeclared,
-        /* staticToken */ null,
+        /* staticKeyword */ null,
         /* decorators */ null,
         NodeFlags.None
       )
@@ -5202,15 +5227,16 @@ export function parseFieldDefinition(
   parser: ParserState,
   context: Context,
   decorators: DecoratorList | null,
-  declareToken: SyntaxToken<TokenSyntaxKind> | null,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   key: any,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ) {
   const type = parseTypeAnnotation(parser, context);
 
-  if (declareToken && parser.token === SyntaxKind.Assign) {
+  if (declareKeyword && parser.token === SyntaxKind.Assign) {
     parser.diagnostics.push(
       createDiagnosticError(
         DiagnosticSource.Parser,
@@ -5221,11 +5247,12 @@ export function parseFieldDefinition(
     );
   }
   const initializer = parseInitializer(parser, context);
-  //parseSemicolon(parser, context);
+
   return createFieldDefinition(
     decorators,
-    null,
-    staticToken,
+    declareKeyword,
+    staticKeyword,
+    asyncKeyword,
     key,
     optionalToken,
     type,
@@ -5239,9 +5266,9 @@ export function parseClassElement(
   parser: ParserState,
   context: Context,
   inheritedContext: Context,
-  declareToken: SyntaxToken<TokenSyntaxKind> | null,
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
   isDeclared: boolean,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
   nodeFlags: NodeFlags
 ): ClassElement | SemicolonClassElement | FieldDefinition {
@@ -5265,15 +5292,15 @@ export function parseClassElement(
       token === SyntaxKind.PrivateIdentifier
         ? parsePrivateIdentifier(parser, context)
         : parseIdentifier(parser, context);
-    if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
+    if ((parser.token & (SyntaxKind.Smi | SyntaxKind.IsLessThanOrLeftParen)) === 0) {
       switch (token) {
         case SyntaxKind.StaticKeyword:
-          if (!staticToken) {
+          if (!staticKeyword) {
             return parseClassElement(
               parser,
               context,
               inheritedContext,
-              declareToken,
+              declareKeyword,
               isDeclared,
               createToken(SyntaxKind.StaticKeyword, pos, parser.curPos),
               decorators,
@@ -5282,14 +5309,14 @@ export function parseClassElement(
           }
         case SyntaxKind.DeclareKeyword:
           if (context & Context.OptionsAllowTypes) {
-            if (!declareToken) {
+            if (!declareKeyword) {
               return parseClassElement(
                 parser,
                 context,
                 inheritedContext,
                 createToken(SyntaxKind.DeclareKeyword, pos, parser.curPos),
                 isDeclared,
-                staticToken,
+                staticKeyword,
                 decorators,
                 nodeFlags
               );
@@ -5297,26 +5324,16 @@ export function parseClassElement(
             break;
           }
         case SyntaxKind.AsyncKeyword:
-          if (parser.token & SyntaxKind.Smi) {
-            return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
-          }
           nodeFlags |= NodeFlags.Async;
           asyncKeyword = createToken(SyntaxKind.AsyncKeyword, pos, parser.curPos);
           if (consumeOpt(parser, context, SyntaxKind.Multiply)) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
-          if (parser.token & SyntaxKind.Smi) {
-            return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
-          }
           nodeFlags |= NodeFlags.Getter;
           getKeyword = createToken(SyntaxKind.AsyncKeyword, pos, parser.curPos);
           break;
 
         case SyntaxKind.SetKeyword:
-          if (parser.token & SyntaxKind.Smi) {
-            return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
-          }
-
           setKeyword = createToken(SyntaxKind.AsyncKeyword, pos, parser.curPos);
           nodeFlags |= NodeFlags.Setter;
           break;
@@ -5340,7 +5357,7 @@ export function parseClassElement(
       }
     }
     if (parser.tokenValue === 'constructor') {
-      if (!staticToken && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+      if (!staticKeyword && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
           parser.diagnostics.push(
             createDiagnosticError(
@@ -5365,7 +5382,7 @@ export function parseClassElement(
         }
       }
     } else if (
-      staticToken ||
+      staticKeyword ||
       (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter) && parser.tokenValue === 'prototype')
     ) {
       createDiagnosticError(
@@ -5376,7 +5393,7 @@ export function parseClassElement(
       );
     }
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-      if (declareToken) {
+      if (declareKeyword) {
         parser.diagnostics.push(
           createDiagnosticError(
             DiagnosticSource.Parser,
@@ -5387,11 +5404,11 @@ export function parseClassElement(
         );
       }
 
-      const method = parseMethodDefinition(parser, context, isDeclared, key, nodeFlags);
+      const method = parseMethodDefinition(parser, context | Context.InClassBody, isDeclared, key, nodeFlags);
       return createClassElement(
-        declareToken,
+        declareKeyword,
         decorators,
-        staticToken,
+        staticKeyword,
         asyncKeyword,
         getKeyword,
         setKeyword,
@@ -5400,7 +5417,17 @@ export function parseClassElement(
         parser.curPos
       );
     }
-    return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
+    return parseFieldDefinition(
+      parser,
+      context | Context.InClassBody,
+      decorators,
+      declareKeyword,
+      staticKeyword,
+      asyncKeyword,
+      key,
+      null,
+      pos
+    );
   }
 
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
@@ -5410,7 +5437,7 @@ export function parseClassElement(
   if (generatorToken) nodeFlags | NodeFlags.Generator;
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    if (declareToken) {
+    if (declareKeyword) {
       parser.diagnostics.push(
         createDiagnosticError(
           DiagnosticSource.Parser,
@@ -5420,11 +5447,11 @@ export function parseClassElement(
         )
       );
     }
-    const method = parseMethodDefinition(parser, context, isDeclared, key, nodeFlags);
+    const method = parseMethodDefinition(parser, context | Context.InClassBody, isDeclared, key, nodeFlags);
     return createClassElement(
-      declareToken,
+      declareKeyword,
       decorators,
-      staticToken,
+      staticKeyword,
       asyncKeyword,
       getKeyword,
       setKeyword,
@@ -5434,12 +5461,22 @@ export function parseClassElement(
     );
   }
 
-  return parseFieldDefinition(parser, context, decorators, declareToken, staticToken, key, null, pos);
+  return parseFieldDefinition(parser, context | Context.InClassBody, decorators, declareKeyword, staticKeyword, asyncKeyword, key, null, pos);
 }
 
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
   const pos = parser.curPos;
   const name = parser.tokenValue;
+  if ((context & Context.InClassBody) === 0) {
+    parser.diagnostics.push(
+      createDiagnosticError(
+        DiagnosticSource.Parser,
+        DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies,
+        parser.curPos,
+        parser.pos
+      )
+    );
+  }
   nextToken(parser, context);
   return createPrivateIdentifier(name, pos, parser.curPos);
 }

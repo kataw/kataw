@@ -104,5 +104,7 @@
   "The `declare` modifier can only appear on class fields.": 105,
   "Initializers are not allowed in fields with the `declare` modifier.": 106,
   "Explicit inexact syntax cannot appear inside an explicit exact object type": 107,
-  "The this parameter cannot be optional": 108
+  "The this parameter cannot be optional": 108,
+  "Prohibit delete of private class elements": 109
+
 }

@@ -12,6 +12,7 @@ export interface FieldDefinition extends SyntaxNode {
   readonly decorators: DecoratorList | null;
   readonly declaredToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: ExpressionNode | Identifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly type: TypeNode | null;
@@ -22,6 +23,7 @@ export function createFieldDefinition(
   decorators: DecoratorList | null,
   declaredToken: SyntaxToken<TokenSyntaxKind> | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   key: ExpressionNode | Identifier,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   type: TypeNode | null,
@@ -34,6 +36,7 @@ export function createFieldDefinition(
     decorators,
     declaredToken,
     staticToken,
+    asyncKeyword,
     key,
     optionalToken,
     type,
