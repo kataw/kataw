@@ -91,32 +91,6 @@ var a : string
     "text": "var a : string",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 5,
-            "end": 7
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 5,
-            "end": 7
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 5,
-            "end": 7
-        }
-    ],
     "start": 0,
     "end": 14
 }

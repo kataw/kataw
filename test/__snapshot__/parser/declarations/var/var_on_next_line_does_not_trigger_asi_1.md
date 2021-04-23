@@ -83,16 +83,6 @@ var foo
     "text": "export\nvar foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 60,
-            "error": "The `export` keyword can only be used with the module goal",
-            "start": 0,
-            "end": 6
-        }
-    ],
     "start": 0,
     "end": 14
 }

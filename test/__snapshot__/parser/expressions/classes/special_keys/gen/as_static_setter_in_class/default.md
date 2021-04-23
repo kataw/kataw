@@ -136,7 +136,6 @@ class x {static set default(x){}}
     "text": "class x {static set default(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

@@ -97,16 +97,6 @@
     "text": "++async async => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 25,
-            "error": "The operand of an increment or decrement operator must be a variable or a property access",
-            "start": 19,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 19
 }

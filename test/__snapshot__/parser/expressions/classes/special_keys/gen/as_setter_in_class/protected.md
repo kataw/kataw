@@ -131,7 +131,6 @@ class x {set protected(x){}}
     "text": "class x {set protected(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

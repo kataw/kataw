@@ -38,24 +38,6 @@ ext\u0065nds = x;
     "text": "ext\\u0065nds = x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 12,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 17
 }

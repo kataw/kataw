@@ -120,7 +120,6 @@ function f(x=(yield)=y){}
     "text": "function f(x=(yield)=y){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -161,24 +161,6 @@ x {}
     "text": "function *P(){\n  class D extends async\nx {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 40
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 40,
-            "end": 42
-        }
-    ],
     "start": 0,
     "end": 45
 }

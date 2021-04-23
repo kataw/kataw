@@ -55,7 +55,6 @@ class package {}
     "text": "class package {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

@@ -101,16 +101,6 @@ const [foo];
     "text": "const [foo];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 11,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 12
 }

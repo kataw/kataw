@@ -74,7 +74,6 @@ new x() ** 2;
     "text": "new x() ** 2;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 13
 }

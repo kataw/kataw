@@ -164,7 +164,6 @@
     "text": "(x, y) => (u, v) => x*u + y*v;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

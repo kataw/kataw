@@ -107,16 +107,6 @@ function* f() { yield*; }
     "text": "function* f() { yield*; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 22,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 25
 }

@@ -108,7 +108,6 @@
     "text": "({ \"__proto__\": null, __proto__(){}, })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

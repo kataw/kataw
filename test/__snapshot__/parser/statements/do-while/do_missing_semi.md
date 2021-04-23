@@ -99,7 +99,6 @@ do;while(j)try{}finally{}
     "text": "do;while(j)try{}finally{}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

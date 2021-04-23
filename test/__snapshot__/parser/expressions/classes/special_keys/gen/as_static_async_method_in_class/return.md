@@ -117,7 +117,6 @@ class x {static async return(){}}
     "text": "class x {static async return(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

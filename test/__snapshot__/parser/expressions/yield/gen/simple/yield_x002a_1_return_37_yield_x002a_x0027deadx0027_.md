@@ -112,16 +112,6 @@ yield * 1; return 37; yield * 'dead';
     "text": "yield * 1; return 37; yield * 'dead';",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 10,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 37
 }

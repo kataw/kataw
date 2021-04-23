@@ -146,7 +146,6 @@ x={ foo(a = super.foo){ }}
     "text": "x={ foo(a = super.foo){ }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

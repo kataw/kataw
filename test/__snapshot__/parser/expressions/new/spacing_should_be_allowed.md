@@ -89,7 +89,6 @@ function f(){ new . target }
     "text": "function f(){ new . target }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

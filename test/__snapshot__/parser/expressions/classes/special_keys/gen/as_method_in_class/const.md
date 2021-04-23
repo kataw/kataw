@@ -107,7 +107,6 @@ class x {const(){}}
     "text": "class x {const(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

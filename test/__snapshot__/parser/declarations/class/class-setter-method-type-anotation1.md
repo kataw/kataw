@@ -157,7 +157,6 @@ class Foo {set fooProp(value:number):void{}}
     "text": "class Foo {set fooProp(value:number):void{}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

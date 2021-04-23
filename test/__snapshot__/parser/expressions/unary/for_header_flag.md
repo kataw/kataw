@@ -94,7 +94,6 @@ for(delete(x in y);;)x
     "text": "for(delete(x in y);;)x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

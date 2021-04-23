@@ -236,7 +236,6 @@ var a : { <T>(x: T): number; }
     "text": "var a : { (): number; }\n\nvar a : { <T>(x: T): number; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 55
 }

@@ -119,7 +119,6 @@ switch([x = y]) { case y: foo }
     "text": "switch([x = y]) { case y: foo }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

@@ -83,16 +83,6 @@ async
     "text": "async\n function(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 15,
-            "end": 16
-        }
-    ],
     "start": 0,
     "end": 19
 }

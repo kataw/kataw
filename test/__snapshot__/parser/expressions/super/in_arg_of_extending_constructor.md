@@ -208,7 +208,6 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
     "text": "class x extends y { constructor(){ return (a=super.foo) => a; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 64
 }

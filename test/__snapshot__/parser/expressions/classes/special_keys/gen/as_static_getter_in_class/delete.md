@@ -117,7 +117,6 @@ class x {static get delete(){}}
     "text": "class x {static get delete(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

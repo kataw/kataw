@@ -153,40 +153,6 @@ for ({a: x + y} = z in obj);
     "text": "for ({a: x + y} = z in obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 26,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 27
-        }
-    ],
     "start": 0,
     "end": 28
 }

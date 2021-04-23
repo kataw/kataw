@@ -113,32 +113,6 @@ for (/x/g + b in obj);
     "text": "for (/x/g + b in obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 20,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 20,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 20,
-            "end": 21
-        }
-    ],
     "start": 0,
     "end": 22
 }

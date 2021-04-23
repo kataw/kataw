@@ -123,7 +123,6 @@ async(a = (await) => {}) => {};
     "text": "async(a = (await) => {}) => {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

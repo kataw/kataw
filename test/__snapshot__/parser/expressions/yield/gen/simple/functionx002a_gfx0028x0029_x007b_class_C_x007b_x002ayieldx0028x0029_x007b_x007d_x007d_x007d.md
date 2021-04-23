@@ -161,7 +161,6 @@ function* gf() { class C { *yield() { } } }
     "text": "function* gf() { class C { *yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 43
 }

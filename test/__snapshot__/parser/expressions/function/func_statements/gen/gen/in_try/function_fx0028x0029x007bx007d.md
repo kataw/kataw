@@ -138,7 +138,6 @@ try {
     "text": "try {\n  function f(){}\n} catch (e) {\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 38
 }

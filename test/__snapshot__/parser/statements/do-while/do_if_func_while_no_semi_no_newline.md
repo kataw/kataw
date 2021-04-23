@@ -116,7 +116,6 @@ do if(8)function s(){}while(y)
     "text": "do if(8)function s(){}while(y)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

@@ -291,7 +291,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
     "text": "async function f(){    async function f(){   (a= {[await foo](){}, \"x\"(){}} ) => a    }    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 92
 }

@@ -117,7 +117,6 @@ class x {static get await(){}}
     "text": "class x {static get await(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

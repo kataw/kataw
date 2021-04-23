@@ -111,7 +111,6 @@ let o = {await(){}}
     "text": "let o = {await(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

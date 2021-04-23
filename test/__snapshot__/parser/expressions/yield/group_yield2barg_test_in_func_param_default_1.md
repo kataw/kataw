@@ -144,64 +144,6 @@ function f(x=(yield z)=y){}
     "text": "function f(x=(yield z)=y){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 22,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 22,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 22,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 24,
-            "end": 25
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 24,
-            "end": 25
-        }
-    ],
     "start": 0,
     "end": 27
 }

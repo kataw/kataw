@@ -107,24 +107,6 @@ switch (A) {case B: C; default: D;}
     "text": "switch (A) {case B: C; default: D;}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 30,
-            "end": 31
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 31,
-            "end": 33
-        }
-    ],
     "start": 0,
     "end": 35
 }

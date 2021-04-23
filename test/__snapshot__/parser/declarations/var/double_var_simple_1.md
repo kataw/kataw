@@ -124,7 +124,6 @@ var {x, y} = obj;
     "text": "var {x, y} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 17
 }

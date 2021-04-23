@@ -186,40 +186,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
     "text": "function yield(yield) { yield: yield (yield + yield(0)); }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 29,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 29,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 29,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 56,
-            "end": 58
-        }
-    ],
     "start": 0,
     "end": 58
 }

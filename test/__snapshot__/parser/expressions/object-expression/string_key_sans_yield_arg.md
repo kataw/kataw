@@ -145,7 +145,6 @@ function *f(){   s = {"foo": yield}   }
     "text": "function *f(){   s = {\"foo\": yield}   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

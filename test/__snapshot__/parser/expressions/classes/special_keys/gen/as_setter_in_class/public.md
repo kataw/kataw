@@ -131,7 +131,6 @@ class x {set public(x){}}
     "text": "class x {set public(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

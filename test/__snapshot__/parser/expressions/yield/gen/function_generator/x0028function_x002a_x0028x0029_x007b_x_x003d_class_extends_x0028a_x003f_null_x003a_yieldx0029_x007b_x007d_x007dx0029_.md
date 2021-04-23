@@ -300,7 +300,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
     "text": "function * gen() { function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 104
 }

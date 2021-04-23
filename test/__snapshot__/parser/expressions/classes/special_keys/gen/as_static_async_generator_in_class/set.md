@@ -117,7 +117,6 @@ class x {static async * set(){}}
     "text": "class x {static async * set(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

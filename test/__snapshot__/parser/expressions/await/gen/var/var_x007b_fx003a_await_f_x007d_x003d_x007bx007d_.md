@@ -259,16 +259,6 @@ var await; var f = (async function() { var { f: await f } = {}; });
     "text": "var await; var f = (async function() { var { f: await f } = {}; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 53,
-            "end": 55
-        }
-    ],
     "start": 0,
     "end": 67
 }

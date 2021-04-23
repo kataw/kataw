@@ -104,7 +104,6 @@ async function f() { await 3; }
     "text": "async function f() { await 3; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

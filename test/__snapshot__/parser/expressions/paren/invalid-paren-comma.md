@@ -56,24 +56,6 @@
     "text": "(,);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 1,
-            "end": 2
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 2,
-            "end": 3
-        }
-    ],
     "start": 0,
     "end": 4
 }

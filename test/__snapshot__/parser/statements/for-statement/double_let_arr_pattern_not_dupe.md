@@ -194,7 +194,6 @@ for (let [a]=x;;);
     "text": "for (let [a]=x;;);\nfor (let [a]=x;;);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

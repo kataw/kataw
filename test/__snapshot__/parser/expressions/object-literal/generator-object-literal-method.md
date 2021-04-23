@@ -146,7 +146,6 @@ var x = { *test () { yield *v } };
     "text": "var x = { *test () { yield *v } };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

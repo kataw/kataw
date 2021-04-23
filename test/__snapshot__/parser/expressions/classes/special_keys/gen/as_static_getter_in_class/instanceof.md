@@ -117,7 +117,6 @@ class x {static get instanceof(){}}
     "text": "class x {static get instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

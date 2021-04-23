@@ -125,7 +125,6 @@ for ({ eval = 0 } in [{}]) ;
     "text": "for ({ eval = 0 } in [{}]) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

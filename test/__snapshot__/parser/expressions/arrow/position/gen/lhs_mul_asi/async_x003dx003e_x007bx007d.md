@@ -106,16 +106,6 @@ async => {}
     "text": "async => {}\n* x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 28,
-            "error": "An arrow function can not be part of an operator to the right",
-            "start": 11,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 15
 }

@@ -93,7 +93,6 @@ async (x = yield y) => {}
     "text": "async (x = yield y) => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

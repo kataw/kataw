@@ -135,7 +135,6 @@ class A {async get [foo](){}}
     "text": "class A {async get [foo](){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

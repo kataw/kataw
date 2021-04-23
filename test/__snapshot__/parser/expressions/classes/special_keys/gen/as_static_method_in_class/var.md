@@ -112,7 +112,6 @@ class x {static var(){}}
     "text": "class x {static var(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

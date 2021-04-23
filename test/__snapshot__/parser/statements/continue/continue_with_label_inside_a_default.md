@@ -77,32 +77,6 @@ switch (x) { default: continue foo; }
     "text": "switch (x) { default: continue foo; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 20,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 21,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 45,
-            "error": "A 'continue' statement can only be used within an enclosing iteration statement.",
-            "start": 21,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 37
 }

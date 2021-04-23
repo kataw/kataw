@@ -87,24 +87,6 @@ let ...a = 1;
     "text": "let ...a = 1;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 3,
-            "end": 7
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 3,
-            "end": 7
-        }
-    ],
     "start": 0,
     "end": 13
 }

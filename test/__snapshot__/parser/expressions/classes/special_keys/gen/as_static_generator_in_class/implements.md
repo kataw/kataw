@@ -112,7 +112,6 @@ class x {static * implements(){}}
     "text": "class x {static * implements(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

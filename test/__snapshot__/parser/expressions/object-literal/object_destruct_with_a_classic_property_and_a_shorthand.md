@@ -112,7 +112,6 @@ x = {a:b, c} = obj;
     "text": "x = {a:b, c} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

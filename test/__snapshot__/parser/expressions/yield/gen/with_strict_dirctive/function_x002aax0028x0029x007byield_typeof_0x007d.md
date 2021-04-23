@@ -127,7 +127,6 @@
     "text": "'use strict'; function *a(){yield typeof 0}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 43
 }

@@ -141,7 +141,6 @@ wrap({[a]:b, [15]:d}=obj);
     "text": "wrap({[a]:b, [15]:d}=obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

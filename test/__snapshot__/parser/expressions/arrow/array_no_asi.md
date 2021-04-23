@@ -110,24 +110,6 @@ async x=>{}[x]
     "text": "async x=>{}[x]",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 29,
-            "error": "Block body arrows can not be immediately invoked without a group",
-            "start": 11,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 14
 }

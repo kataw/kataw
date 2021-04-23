@@ -130,7 +130,6 @@ const map = {
     "text": "const map = {\n  [age <= 17] : 'Too young'\n};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

@@ -267,7 +267,6 @@
     "text": "[{x:x = 1, y:y = 2}, [a = 3, b = 4, c = 5]] = {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

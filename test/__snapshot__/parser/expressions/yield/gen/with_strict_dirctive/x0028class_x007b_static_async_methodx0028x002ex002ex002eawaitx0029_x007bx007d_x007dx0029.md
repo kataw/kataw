@@ -154,7 +154,6 @@
     "text": "'use strict'; (class { static async method(...await) {} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 58
 }

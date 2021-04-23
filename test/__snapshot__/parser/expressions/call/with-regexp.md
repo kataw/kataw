@@ -123,7 +123,6 @@
     "text": " x(/^(<[^>]+>)/)[1];\n\n x(y, /a/);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

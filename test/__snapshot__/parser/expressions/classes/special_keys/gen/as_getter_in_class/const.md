@@ -112,7 +112,6 @@ class x {get const(){}}
     "text": "class x {get const(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

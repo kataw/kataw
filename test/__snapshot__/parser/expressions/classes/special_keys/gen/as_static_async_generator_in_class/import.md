@@ -117,7 +117,6 @@ class x {static async * import(){}}
     "text": "class x {static async * import(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

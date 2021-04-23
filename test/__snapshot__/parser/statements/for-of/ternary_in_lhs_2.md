@@ -104,24 +104,6 @@ for (a ? b : c of x);
     "text": "for (a ? b : c of x);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 17,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 21
 }

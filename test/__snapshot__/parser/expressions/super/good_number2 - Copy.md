@@ -518,7 +518,6 @@ a?.9:b
     "text": "a?.0:b\n\na?.1:b\n\na?.2:b\n\na?.3:b\n\na?.4:b\n\na?.5:b\n\na?.6:b\n\na?.7:b\n\na?.8:b\n\na?.9:b",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 78
 }

@@ -117,7 +117,6 @@ class x {static get false(){}}
     "text": "class x {static get false(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

@@ -131,16 +131,6 @@ const { f: await f } = {};
     "text": "const { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 16,
-            "end": 18
-        }
-    ],
     "start": 0,
     "end": 26
 }

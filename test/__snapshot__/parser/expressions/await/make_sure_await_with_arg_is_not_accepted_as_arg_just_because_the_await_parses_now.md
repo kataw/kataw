@@ -125,16 +125,6 @@ async function f(){  (await fail) => x  }
     "text": "async function f(){  (await fail) => x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 33,
-            "end": 36
-        }
-    ],
     "start": 0,
     "end": 41
 }

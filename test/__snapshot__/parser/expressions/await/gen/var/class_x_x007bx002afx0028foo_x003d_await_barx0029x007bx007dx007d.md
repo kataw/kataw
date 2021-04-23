@@ -278,16 +278,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
     "text": "var await; var f = (async function() { class x {*f(foo = await bar){}} });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 62,
-            "end": 66
-        }
-    ],
     "start": 0,
     "end": 74
 }

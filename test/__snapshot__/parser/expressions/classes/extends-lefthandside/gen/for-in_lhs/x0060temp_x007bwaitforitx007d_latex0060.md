@@ -58,7 +58,6 @@ for (`temp {waitforit} late` in x) ;
     "text": "for (`temp {waitforit} late` in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

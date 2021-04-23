@@ -44,48 +44,6 @@
     "text": "(({w = x} >(-9)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 9,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 15,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 15,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 15
 }

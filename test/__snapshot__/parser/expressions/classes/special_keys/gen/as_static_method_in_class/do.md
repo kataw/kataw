@@ -112,7 +112,6 @@ class x {static do(){}}
     "text": "class x {static do(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

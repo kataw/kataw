@@ -194,16 +194,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
     "text": "function not_gen() { (class { static async method(...await) {} }) }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 67,
-            "end": 68
-        }
-    ],
     "start": 0,
     "end": 68
 }

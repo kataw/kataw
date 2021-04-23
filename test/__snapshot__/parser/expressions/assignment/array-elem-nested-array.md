@@ -266,7 +266,6 @@ result = [[x]] = vals;
     "text": "var x;\n\nvar result;\nvar vals = [[1]];\n\nresult = [[x]] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 61
 }

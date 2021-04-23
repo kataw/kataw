@@ -131,7 +131,6 @@ class x {set throw(x){}}
     "text": "class x {set throw(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

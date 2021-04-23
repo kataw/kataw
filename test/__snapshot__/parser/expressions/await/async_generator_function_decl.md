@@ -97,16 +97,6 @@ async function *f(await){}
     "text": "async function *f(await){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 58,
-            "error": "`Await` expression cannot be used in function parameters",
-            "start": 18,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 26
 }

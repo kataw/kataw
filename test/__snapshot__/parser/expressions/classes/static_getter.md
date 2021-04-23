@@ -113,7 +113,6 @@ class A {static get foo(){}}
     "text": "class A {static get foo(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

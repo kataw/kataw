@@ -245,7 +245,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
     "text": "let {a,b=0,c:d,e:f=0,[g]:[h]}=0",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

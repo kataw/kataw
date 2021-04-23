@@ -217,7 +217,6 @@ fn = function() {};
     "text": "var xFn, fn;\n\nxFn = function x() {};\nfn = function() {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 56
 }

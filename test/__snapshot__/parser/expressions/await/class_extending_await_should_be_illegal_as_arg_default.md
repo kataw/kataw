@@ -187,7 +187,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
     "text": "async function f(){    (fail = class A extends await foo {}) => fail    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 73
 }

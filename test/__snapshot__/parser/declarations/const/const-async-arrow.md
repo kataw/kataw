@@ -137,7 +137,6 @@ const a = async (foo: string = "") => {}
     "text": "const a = async (foo: string = \"\") => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 40
 }

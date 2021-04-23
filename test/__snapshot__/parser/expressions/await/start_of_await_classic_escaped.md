@@ -95,7 +95,6 @@ async () => { var \u0061wait; }
     "text": "async () => { var \\u0061wait; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

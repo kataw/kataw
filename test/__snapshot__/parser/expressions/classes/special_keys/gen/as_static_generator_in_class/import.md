@@ -112,7 +112,6 @@ class x {static * import(){}}
     "text": "class x {static * import(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

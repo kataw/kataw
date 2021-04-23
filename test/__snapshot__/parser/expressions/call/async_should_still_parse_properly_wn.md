@@ -54,7 +54,6 @@ async + 10;
     "text": "async + 10;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 11
 }

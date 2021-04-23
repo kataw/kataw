@@ -109,7 +109,6 @@ foo: while(z) { while(z) continue foo }
     "text": "foo: while(z) { while(z) continue foo }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

@@ -167,56 +167,6 @@
     "text": "'use strict'; async function f(){ await foo\\n/foo/g }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 39,
-            "end": 43
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 43,
-            "end": 43
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 43,
-            "end": 44
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 43,
-            "end": 44
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 43,
-            "end": 44
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 51,
-            "end": 53
-        }
-    ],
     "start": 0,
     "end": 53
 }

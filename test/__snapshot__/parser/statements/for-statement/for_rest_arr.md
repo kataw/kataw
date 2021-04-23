@@ -128,7 +128,6 @@ for (const [...x] in y){}
     "text": "for (const [...x] in y){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

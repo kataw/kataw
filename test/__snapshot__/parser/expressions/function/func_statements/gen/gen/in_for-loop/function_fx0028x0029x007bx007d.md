@@ -87,16 +87,6 @@ for (;;) function f(){}
     "text": "for (;;) function f(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 21,
-            "error": "Function declarations are not allowed in an arbitrary statement position.",
-            "start": 8,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 23
 }

@@ -222,16 +222,6 @@
     "text": "'use strict'; async function g(){let o = {f(foo = await bar){}}    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 55,
-            "end": 59
-        }
-    ],
     "start": 0,
     "end": 68
 }

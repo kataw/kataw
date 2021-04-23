@@ -147,7 +147,6 @@ x {}
     "text": "function *P(){\n  class D extends yield\nx {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

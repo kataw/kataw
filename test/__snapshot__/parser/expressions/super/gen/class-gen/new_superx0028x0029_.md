@@ -146,16 +146,6 @@ class C { *method() { new super(); } }
     "text": "class C { *method() { new super(); } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 31,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 38
 }

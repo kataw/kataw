@@ -105,7 +105,6 @@
     "text": "({ident: {x}}) => x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

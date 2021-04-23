@@ -85,7 +85,6 @@
     "text": "(class B extends /more crap/g {})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

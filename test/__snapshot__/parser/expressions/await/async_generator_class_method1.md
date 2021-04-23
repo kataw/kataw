@@ -276,7 +276,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
     "text": "async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 74
 }

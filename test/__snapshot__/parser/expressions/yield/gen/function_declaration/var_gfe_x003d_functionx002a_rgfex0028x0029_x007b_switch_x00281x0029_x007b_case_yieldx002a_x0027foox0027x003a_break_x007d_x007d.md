@@ -245,16 +245,6 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
     "text": "function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 94,
-            "end": 95
-        }
-    ],
     "start": 0,
     "end": 95
 }

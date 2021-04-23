@@ -103,7 +103,6 @@ class A {*foo(){}}
     "text": "class A {*foo(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

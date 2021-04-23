@@ -148,7 +148,6 @@ class x { foo(x=super.foo){ }}
     "text": "class x { foo(x=super.foo){ }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

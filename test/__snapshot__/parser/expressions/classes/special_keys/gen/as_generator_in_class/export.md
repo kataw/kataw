@@ -107,7 +107,6 @@ class x {* export(){}}
     "text": "class x {* export(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

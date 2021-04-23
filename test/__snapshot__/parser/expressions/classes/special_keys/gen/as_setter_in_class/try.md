@@ -131,7 +131,6 @@ class x {set try(x){}}
     "text": "class x {set try(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

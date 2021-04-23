@@ -225,7 +225,6 @@ var await; var f = (async function() { function f(x = await){} });
     "text": "var await; var f = (async function() { function f(x = await){} });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 66
 }

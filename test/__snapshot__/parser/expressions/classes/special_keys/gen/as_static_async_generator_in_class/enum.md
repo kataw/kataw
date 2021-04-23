@@ -117,7 +117,6 @@ class x {static async * enum(){}}
     "text": "class x {static async * enum(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

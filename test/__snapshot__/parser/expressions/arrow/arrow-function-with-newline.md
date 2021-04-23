@@ -94,7 +94,6 @@ async (f)
     "text": "async (f)\n: t => { }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

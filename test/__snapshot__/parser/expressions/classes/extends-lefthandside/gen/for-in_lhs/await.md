@@ -58,7 +58,6 @@ for (await in x) ;
     "text": "for (await in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

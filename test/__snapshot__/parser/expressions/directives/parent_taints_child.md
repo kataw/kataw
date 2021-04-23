@@ -175,16 +175,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
     "text": "function f(){ \"use strict\"; foo; function g() { with (x) y; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 75,
-            "error": "'with' statements are not allowed in strict mode.",
-            "start": 47,
-            "end": 52
-        }
-    ],
     "start": 0,
     "end": 63
 }

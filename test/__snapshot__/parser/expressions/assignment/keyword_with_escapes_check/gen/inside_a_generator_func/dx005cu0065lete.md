@@ -126,24 +126,6 @@ function *f(){
     "text": "function *f(){\n  d\\u0065lete = x\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 28,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 34
 }

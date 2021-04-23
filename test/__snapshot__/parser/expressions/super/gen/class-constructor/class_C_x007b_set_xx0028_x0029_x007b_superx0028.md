@@ -248,40 +248,6 @@ class C { constructor() { class C { set x(_) { super( } }
     "text": "class C { constructor() { class C { set x(_) { super( } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 52,
-            "end": 53
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 53,
-            "end": 55
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 57,
-            "end": 57
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 57,
-            "end": 57
-        }
-    ],
     "start": 0,
     "end": 57
 }

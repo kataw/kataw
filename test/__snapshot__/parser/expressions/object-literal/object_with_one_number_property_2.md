@@ -175,7 +175,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
     "text": "wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

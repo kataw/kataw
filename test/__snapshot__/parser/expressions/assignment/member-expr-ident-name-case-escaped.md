@@ -124,40 +124,6 @@ obj.c\u0061se = 42;
     "text": "var obj = {};\n\nobj.c\\u0061se = 42;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 19,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 19,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 28,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 34
 }

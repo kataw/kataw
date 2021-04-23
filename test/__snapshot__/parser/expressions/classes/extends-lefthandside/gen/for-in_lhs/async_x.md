@@ -81,24 +81,6 @@ x in x) ;
     "text": "for (async\nx in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 10,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 17,
-            "end": 18
-        }
-    ],
     "start": 0,
     "end": 20
 }

@@ -88,7 +88,6 @@ let.dot in x
     "text": "let.dot in x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 12
 }

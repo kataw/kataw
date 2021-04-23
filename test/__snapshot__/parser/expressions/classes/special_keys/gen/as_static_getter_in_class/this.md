@@ -117,7 +117,6 @@ class x {static get this(){}}
     "text": "class x {static get this(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

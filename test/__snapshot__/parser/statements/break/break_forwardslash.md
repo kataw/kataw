@@ -82,32 +82,6 @@ for(x of 3)break/
     "text": "for(x of 3)break/",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 16,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 16,
-            "end": 18
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 16,
-            "end": 18
-        }
-    ],
     "start": 0,
     "end": 17
 }

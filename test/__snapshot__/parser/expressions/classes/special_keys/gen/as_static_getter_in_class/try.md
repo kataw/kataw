@@ -117,7 +117,6 @@ class x {static get try(){}}
     "text": "class x {static get try(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

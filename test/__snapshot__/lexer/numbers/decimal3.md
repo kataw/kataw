@@ -274,7 +274,6 @@
     "text": "0e-100\n;\n1e-100\n;\n0E-100\n;\n1E-100\n;\n0.e-100\n;\n1.e-100\n;\n0.E-100\n;\n1.E-100\n;\n0.1e-100\n;\n1.1e-100\n;\n0.1E-100\n;\n1.1E-100\n;\n.0e-100\n;\n.1e-100\n;\n.0E-100\n;\n.1E-100",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 157
 }

@@ -123,40 +123,6 @@ for (x of 3) continue/x/
     "text": "for (x of 3) continue/x/",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 21,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 21,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 21,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 24,
-            "end": 24
-        }
-    ],
     "start": 0,
     "end": 24
 }

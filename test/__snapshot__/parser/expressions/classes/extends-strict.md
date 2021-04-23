@@ -227,16 +227,6 @@ class C extends (function B() {
     "text": "var C;\n\nclass C extends (function B() {\n  with ({});\n  return B;\n}()) {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 75,
-            "error": "'with' statements are not allowed in strict mode.",
-            "start": 39,
-            "end": 46
-        }
-    ],
     "start": 0,
     "end": 72
 }

@@ -294,16 +294,6 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
     "text": "f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 77,
-            "end": 80
-        }
-    ],
     "start": 0,
     "end": 83
 }

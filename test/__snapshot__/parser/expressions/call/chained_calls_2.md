@@ -149,7 +149,6 @@ foo(a)(b)(c)(d)(e)
     "text": "foo(a)(b)(c)(d)(e)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

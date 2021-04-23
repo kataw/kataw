@@ -75,7 +75,6 @@ class x extends package {}
     "text": "class x extends package {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

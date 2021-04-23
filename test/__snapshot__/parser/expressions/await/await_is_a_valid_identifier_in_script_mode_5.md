@@ -54,7 +54,6 @@ await - 25
     "text": "await - 25",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 10
 }

@@ -97,7 +97,6 @@ f(a + async instanceof b)
     "text": "f(a + async instanceof b)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

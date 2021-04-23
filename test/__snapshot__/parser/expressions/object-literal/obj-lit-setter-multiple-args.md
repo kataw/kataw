@@ -124,16 +124,6 @@
     "text": "({ set x(y, z){} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 38,
-            "error": "A 'set' accessor must have exactly one parameter.",
-            "start": 11,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 19
 }

@@ -141,7 +141,6 @@ for ({a: b.c}[x] of d) e
     "text": "for ({a: b.c}[x] of d) e",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

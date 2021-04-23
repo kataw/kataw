@@ -101,7 +101,6 @@ new Foo`a${b}c${c}e`
     "text": "new Foo`a${b}c${c}e`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

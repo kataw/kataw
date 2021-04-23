@@ -106,7 +106,6 @@ var x; "use strict"; with (x) y;
     "text": "var x; \"use strict\"; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

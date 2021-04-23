@@ -117,7 +117,6 @@ class x {static get export(){}}
     "text": "class x {static get export(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

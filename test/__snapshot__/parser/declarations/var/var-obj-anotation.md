@@ -165,7 +165,6 @@ var {x}: {x: string; } = { x: "hello" };
     "text": "var {x}: {x: string; } = { x: \"hello\" };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 40
 }

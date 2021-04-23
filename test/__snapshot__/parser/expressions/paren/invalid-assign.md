@@ -423,48 +423,6 @@
     "text": "({foo: {x:y} += x});\n\n({x:y} += x);\n(({x:y}) += x);\n(a = b)++;\n({foo: {x:y} += x});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 12,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 28,
-            "end": 31
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 44,
-            "end": 47
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 25,
-            "error": "The operand of an increment or decrement operator must be a variable or a property access",
-            "start": 59,
-            "end": 61
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 75,
-            "end": 78
-        }
-    ],
     "start": 0,
     "end": 83
 }

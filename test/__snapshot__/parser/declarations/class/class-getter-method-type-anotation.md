@@ -127,7 +127,6 @@ class Foo {get fooProp():number{}}
     "text": "class Foo {get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

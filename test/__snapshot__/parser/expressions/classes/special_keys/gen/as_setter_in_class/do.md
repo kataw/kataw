@@ -131,7 +131,6 @@ class x {set do(x){}}
     "text": "class x {set do(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

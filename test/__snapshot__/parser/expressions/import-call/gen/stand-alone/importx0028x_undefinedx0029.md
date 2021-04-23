@@ -66,32 +66,6 @@ import(x,undefined)
     "text": "import(x,undefined)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 18,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 19
 }

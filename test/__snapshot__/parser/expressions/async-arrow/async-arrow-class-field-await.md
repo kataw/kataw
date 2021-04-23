@@ -221,16 +221,6 @@ async( x = class { x = await });
     "text": "async () => class C { aaa = await };\n\nasync( x = class { x = await });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 33,
-            "end": 35
-        }
-    ],
     "start": 0,
     "end": 70
 }

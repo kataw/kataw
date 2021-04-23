@@ -186,16 +186,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
     "text": "function not_gen() { async function wrap() { async function await() { } }; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 76,
-            "end": 77
-        }
-    ],
     "start": 0,
     "end": 77
 }

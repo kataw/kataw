@@ -124,16 +124,6 @@ for ([a.b]++ of c) d
     "text": "for ([a.b]++ of c) d",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 63,
-            "error": "Invalid left-hand side in for-of loop",
-            "start": 15,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 20
 }

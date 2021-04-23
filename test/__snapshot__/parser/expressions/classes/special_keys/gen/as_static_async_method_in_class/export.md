@@ -117,7 +117,6 @@ class x {static async export(){}}
     "text": "class x {static async export(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

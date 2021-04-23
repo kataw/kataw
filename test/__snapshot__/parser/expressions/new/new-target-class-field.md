@@ -86,16 +86,6 @@ class C { aaa = new.target }
     "text": "class C { aaa = new.target }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 20,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 28
 }

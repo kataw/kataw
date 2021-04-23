@@ -165,16 +165,6 @@ function not_gen() { async function f(){ await await foo; } }}
     "text": "function not_gen() { async function f(){ await await foo; } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 61,
-            "end": 62
-        }
-    ],
     "start": 0,
     "end": 62
 }

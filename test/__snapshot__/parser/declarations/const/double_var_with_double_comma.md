@@ -120,48 +120,6 @@ const {x,, y} = obj;
     "text": "const {x,, y} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 12,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 12,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 13,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 20
 }

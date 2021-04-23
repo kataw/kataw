@@ -112,7 +112,6 @@ class x {get else(){}}
     "text": "class x {get else(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

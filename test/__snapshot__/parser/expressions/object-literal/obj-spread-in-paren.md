@@ -176,7 +176,6 @@
     "text": "({a,...obj} = foo);\n\n({a:b,...obj} = foo);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 42
 }

@@ -149,7 +149,6 @@ function g(a:number=1, e:number=1) {}
     "text": "function g(a:number=1, e:number=1) {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

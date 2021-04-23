@@ -97,7 +97,6 @@ function f(){   return
     "text": "function f(){   return\n foo;    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

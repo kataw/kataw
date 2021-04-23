@@ -133,7 +133,6 @@ let [foo, bar=b] = arr;
     "text": "let [foo, bar=b] = arr;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

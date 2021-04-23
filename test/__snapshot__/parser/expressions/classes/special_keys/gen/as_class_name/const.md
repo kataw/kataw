@@ -92,24 +92,6 @@ class const {}
     "text": "class const {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 5,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 14,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 14
 }

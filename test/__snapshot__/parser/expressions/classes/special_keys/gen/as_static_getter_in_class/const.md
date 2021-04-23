@@ -117,7 +117,6 @@ class x {static get const(){}}
     "text": "class x {static get const(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

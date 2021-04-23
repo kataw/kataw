@@ -107,7 +107,6 @@ class x {* switch(){}}
     "text": "class x {* switch(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

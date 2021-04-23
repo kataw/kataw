@@ -46,7 +46,6 @@ debugger
     "text": "debugger\n/bar/g",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

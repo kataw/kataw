@@ -117,7 +117,6 @@ class x {static get public(){}}
     "text": "class x {static get public(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

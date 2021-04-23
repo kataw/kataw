@@ -136,7 +136,6 @@ result = [ x = 'x' in {} ] = vals;
     "text": "result = [ x = 'x' in {} ] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

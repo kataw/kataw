@@ -125,56 +125,6 @@ class C extends Base { yield\n a }
     "text": "class C extends Base { yield\\n a }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 22,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 28,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 28,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 30,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 32,
-            "end": 34
-        }
-    ],
     "start": 0,
     "end": 34
 }

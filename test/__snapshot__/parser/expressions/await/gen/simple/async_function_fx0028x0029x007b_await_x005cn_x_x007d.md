@@ -132,64 +132,6 @@ async function f(){ await \n x; }
     "text": "async function f(){ await \\n x; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 25,
-            "end": 26
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 25,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 25,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 25,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 25,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 31,
-            "end": 33
-        }
-    ],
     "start": 0,
     "end": 33
 }

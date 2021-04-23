@@ -112,7 +112,6 @@ class x {static this(){}}
     "text": "class x {static this(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -752,7 +752,6 @@
     "text": "({ __proto__: null, get __proto__(){} });\n({ __proto__: null, __proto__(){}, });\n({ __proto__: null, set __proto__(x){} });\n({ \"__proto__\": null, get __proto__(){}, set __proto__(x){} });\n({ \"__proto__\": null, __proto__(){}, });\n({ \"__proto__\": null, set __proto__(x){} });\n({ \"__proto__\": null, __proto__ });\n({ __proto__, __proto__ });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 337
 }

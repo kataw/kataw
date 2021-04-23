@@ -88,7 +88,6 @@ for ("foo".bar in obj);
     "text": "for (\"foo\".bar in obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

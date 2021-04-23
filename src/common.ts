@@ -64,6 +64,12 @@ export const enum DestuctionKind {
   REST,
   FOR
 }
+
+/**
+ * The type of the `onComment` option.
+ */
+ export type OnError = (error: DiagnosticType) => void | undefined;
+
 /**
  * The parser interface.
  */
@@ -72,10 +78,10 @@ export const enum DestuctionKind {
   nodeFlags: NodeFlags;
   curPos: number;
   pos: number;
-  diagnostics: DiagnosticType[];
   token: TokenSyntaxKind;
   tokenPos: number;
   end: number;
+  onError: (error: DiagnosticType) => void | undefined;
   destructible: DestructibleKind;
   assignable: boolean;
   tokenValue: any;
@@ -95,7 +101,7 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     nextToken(parser, context);
     return true;
   }
-  parser.diagnostics.push(createDiagnosticError(
+  parser.onError(createDiagnosticError(
     DiagnosticSource.Parser,
     DiagnosticCode.Unexpected_token,
     parser.curPos,
@@ -121,7 +127,7 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
   nextToken(parser, context);
   return createToken(kind, pos, parser.curPos);
   }
-  parser.diagnostics.push(createDiagnosticError(
+  parser.onError(createDiagnosticError(
     DiagnosticSource.Parser,
     DiagnosticCode.Unexpected_token,
     parser.curPos,
@@ -142,7 +148,7 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
 }
 
 export function speculate(parser: ParserState, context: Context, callback: any, rollback: boolean) {
-  const { pos, curPos, tokenPos, tokenRaw, token, tokenValue, nodeFlags, diagnostics } = parser;
+  const { pos, curPos, tokenPos, tokenRaw, token, tokenValue, nodeFlags } = parser;
   const result = callback(parser, context);
 
   // If our callback returned something 'falsy' or we're just looking ahead,
@@ -155,7 +161,6 @@ export function speculate(parser: ParserState, context: Context, callback: any, 
     parser.tokenValue = tokenValue;
     parser.nodeFlags = nodeFlags;
     parser.tokenRaw = tokenRaw;
-    parser.diagnostics = [];
   }
   return result;
 }

@@ -130,7 +130,6 @@ function *g() { yield {...(x),}}
     "text": "function *g() { yield {...(x),}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

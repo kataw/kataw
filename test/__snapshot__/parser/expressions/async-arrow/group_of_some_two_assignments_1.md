@@ -112,7 +112,6 @@ async (a = 1, b = 2) => x;
     "text": "async (a = 1, b = 2) => x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

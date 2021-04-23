@@ -126,7 +126,6 @@ x = {arrow: x => ok}.y
     "text": "x = {arrow: x => ok}.y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

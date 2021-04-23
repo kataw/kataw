@@ -264,16 +264,6 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
     "text": "var await; var f = (async function() { var asyncArrow = async(...await) => {}; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 70,
-            "end": 71
-        }
-    ],
     "start": 0,
     "end": 82
 }

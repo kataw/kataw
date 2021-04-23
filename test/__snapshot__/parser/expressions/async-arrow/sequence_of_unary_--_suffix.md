@@ -85,16 +85,6 @@ async (x--, y) => x;
     "text": "async (x--, y) => x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 14,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 20
 }

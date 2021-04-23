@@ -174,7 +174,6 @@ function *g() { function f(x = x + yield) {}; }
     "text": "function *g() { function f(x = x + yield) {}; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 47
 }

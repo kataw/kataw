@@ -167,7 +167,6 @@ var {[2]: y = 1} = {2:3}
     "text": "var {[2]: y = 1} = {2:3}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

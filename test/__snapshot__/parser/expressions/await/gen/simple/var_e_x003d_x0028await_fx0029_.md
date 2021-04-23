@@ -91,7 +91,6 @@ var e = (await, f);
     "text": "var e = (await, f);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

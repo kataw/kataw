@@ -75,7 +75,6 @@ class A extends arguments {}
     "text": "class A extends arguments {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

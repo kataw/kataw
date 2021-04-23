@@ -199,32 +199,6 @@ async({a=1}. {b=2}, {c=3} = {}))
     "text": "async({a=1}. {b=2}, {c=3} = {}))",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 11,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 12,
-            "end": 14
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 31,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 32
 }

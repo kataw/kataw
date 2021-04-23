@@ -192,16 +192,6 @@ function *g() { function f(x = x + yield y) {}; }
     "text": "function *g() { function f(x = x + yield y) {}; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 40,
-            "end": 42
-        }
-    ],
     "start": 0,
     "end": 49
 }

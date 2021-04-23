@@ -50,24 +50,6 @@ debugge\u0072 = x;
     "text": "debugge\\u0072 = x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 13,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 13,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 18
 }

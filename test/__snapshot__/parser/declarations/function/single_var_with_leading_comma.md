@@ -103,40 +103,6 @@ let {,x} = obj;
     "text": "let {,x} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 5,
-            "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 12,
-            "error": "Missing initializer in destructuring declaration",
-            "start": 5,
-            "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 8,
-            "end": 10
-        }
-    ],
     "start": 0,
     "end": 15
 }

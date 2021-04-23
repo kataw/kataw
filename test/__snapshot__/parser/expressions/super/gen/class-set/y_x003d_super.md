@@ -184,24 +184,6 @@ class C { set x(_) { y = super } }
     "text": "class C { set x(_) { y = super } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 30,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 30,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 34
 }

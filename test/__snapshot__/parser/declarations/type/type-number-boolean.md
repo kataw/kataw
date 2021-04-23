@@ -97,7 +97,6 @@ type A = { [string | boolean]: number };
     "text": "type A = { [string | boolean]: number };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 40
 }

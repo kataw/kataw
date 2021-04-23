@@ -112,7 +112,6 @@ class x {static * get(){}}
     "text": "class x {static * get(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

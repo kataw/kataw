@@ -136,7 +136,6 @@ function *f() { 1 ? yield 2 : 3; }
     "text": "function *f() { 1 ? yield 2 : 3; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

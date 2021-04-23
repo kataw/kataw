@@ -117,7 +117,6 @@ class x {static get implements(){}}
     "text": "class x {static get implements(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

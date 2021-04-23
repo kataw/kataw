@@ -58,7 +58,6 @@ await = 1
     "text": "await = 1",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 9
 }

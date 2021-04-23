@@ -921,7 +921,6 @@ x({*foo(){}});
     "text": "x({*[foo](){}});\n\nx({*get(){}});\n\nx({*123(){}});\n\nx({async foo(){}, bar(){}});\n\nx({foo(){}, async bar(){}});\n\nx({async \"foo\"(){}});\n\nx({async [foo](){}});\n\nx({foo(){}, *bar(){}});\n\nx({*foo(){}});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 195
 }

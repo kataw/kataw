@@ -200,24 +200,6 @@ class x extends y {
     "text": "class x extends y {\n  constructor() {\n    ({\"foo\": super})\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 56,
-            "end": 57
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 56,
-            "end": 57
-        }
-    ],
     "start": 0,
     "end": 64
 }

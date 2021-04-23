@@ -117,7 +117,6 @@ class x {static get protected(){}}
     "text": "class x {static get protected(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

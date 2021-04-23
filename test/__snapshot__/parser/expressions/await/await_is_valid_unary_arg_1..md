@@ -244,16 +244,6 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
     "text": "async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 56,
-            "end": 60
-        }
-    ],
     "start": 0,
     "end": 71
 }

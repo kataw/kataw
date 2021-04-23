@@ -109,7 +109,6 @@ var [yield] = [42];
     "text": "var [yield] = [42];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

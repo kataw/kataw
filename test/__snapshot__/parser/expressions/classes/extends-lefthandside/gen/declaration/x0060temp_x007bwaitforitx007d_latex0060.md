@@ -75,7 +75,6 @@ class A extends `temp {waitforit} late` {}
     "text": "class A extends `temp {waitforit} late` {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 42
 }

@@ -117,7 +117,6 @@ class x {static async super(){}}
     "text": "class x {static async super(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

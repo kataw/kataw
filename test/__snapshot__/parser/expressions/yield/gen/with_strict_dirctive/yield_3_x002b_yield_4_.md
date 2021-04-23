@@ -95,24 +95,6 @@
     "text": "'use strict'; yield 3 + yield 4;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 29,
-            "end": 31
-        }
-    ],
     "start": 0,
     "end": 32
 }

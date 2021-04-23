@@ -89,7 +89,6 @@ loop: while (x) { break loop; }
     "text": "loop: while (x) { break loop; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

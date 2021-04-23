@@ -158,16 +158,6 @@ function not_gen() { var [yield] = [42]; }}
     "text": "function not_gen() { var [yield] = [42]; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 42,
-            "end": 43
-        }
-    ],
     "start": 0,
     "end": 43
 }

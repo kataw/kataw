@@ -117,7 +117,6 @@ class x {static async * new(){}}
     "text": "class x {static async * new(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

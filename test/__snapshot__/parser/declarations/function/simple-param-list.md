@@ -411,40 +411,6 @@ function x({x}) { "use strict"; }
     "text": "function x(x = y) { \"use strict\"; }\n\nfunction x(...x) { \"use strict\"; }\n\nfunction x([x]) { \"use strict\"; }\n\nfunction x({x}) { \"use strict\"; }\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 85,
-            "error": "'use strict' directive cannot be used with non-simple parameter list.",
-            "start": 32,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 85,
-            "error": "'use strict' directive cannot be used with non-simple parameter list.",
-            "start": 68,
-            "end": 69
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 85,
-            "error": "'use strict' directive cannot be used with non-simple parameter list.",
-            "start": 103,
-            "end": 104
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 85,
-            "error": "'use strict' directive cannot be used with non-simple parameter list.",
-            "start": 138,
-            "end": 139
-        }
-    ],
     "start": 0,
     "end": 142
 }

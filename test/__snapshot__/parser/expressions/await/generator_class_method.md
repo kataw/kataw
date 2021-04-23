@@ -122,7 +122,6 @@ class x {*f(await){}}
     "text": "class x {*f(await){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

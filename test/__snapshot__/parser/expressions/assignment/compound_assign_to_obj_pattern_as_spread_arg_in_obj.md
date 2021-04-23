@@ -105,16 +105,6 @@
     "text": "({...{x} /= y});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 8,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 16
 }

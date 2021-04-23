@@ -112,7 +112,6 @@ class x {async * try(){}}
     "text": "class x {async * try(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

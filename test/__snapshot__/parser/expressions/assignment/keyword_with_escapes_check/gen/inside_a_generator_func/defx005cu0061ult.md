@@ -93,40 +93,6 @@ function *f(){
     "text": "function *f(){\n  def\\u0061ult = x\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 14,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 29,
-            "end": 31
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 33,
-            "end": 35
-        }
-    ],
     "start": 0,
     "end": 35
 }

@@ -156,7 +156,6 @@
     "text": "[x, {y = 1}] = [0, {}]",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

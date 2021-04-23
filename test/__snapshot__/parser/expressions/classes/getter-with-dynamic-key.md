@@ -119,7 +119,6 @@ class x { static get [y](){}}
     "text": "class x { static get [y](){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

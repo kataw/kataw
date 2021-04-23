@@ -116,7 +116,6 @@ async (x, y) => ok async (x, y) => ok
     "text": "async (x, y) => ok async (x, y) => ok",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

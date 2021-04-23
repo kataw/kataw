@@ -92,7 +92,6 @@ type = x;
     "text": "type;\n\ntype = x;\n\n(type);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

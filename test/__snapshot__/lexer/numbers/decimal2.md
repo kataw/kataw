@@ -408,7 +408,6 @@
     "text": "0e1\n;\n1e2\n;\n2e3\n;\n3e4\n;\n4e5\n;\n5e6\n;\n6e7\n;\n7e8\n;\n8e9\n;\n9e0\n;\n10e10\n;\n21e21\n;\n32e32\n;\n43e43\n;\n54e54\n;\n65e65\n;\n76e79\n;\n87e87\n;\n98e98\n;\n19e19\n;\n123e123\n;\n456e456\n;\n7890e789\n;\n1234567890e1234567890",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 192
 }

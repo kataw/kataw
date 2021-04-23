@@ -90,7 +90,6 @@ x => y
     "text": "new async\nx => y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

@@ -99,32 +99,6 @@ async x => {}()
     "text": "async x => {}()",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 29,
-            "error": "Block body arrows can not be immediately invoked without a group",
-            "start": 13,
-            "end": 14
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 13,
-            "end": 14
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 15,
-            "error": "Expression expected",
-            "start": 15,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 15
 }

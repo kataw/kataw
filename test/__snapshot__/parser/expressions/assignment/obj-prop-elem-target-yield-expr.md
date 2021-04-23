@@ -201,7 +201,6 @@ result = { x: x[yield] } = vals;
     "text": "var vals = { x: 23 };\n\nresult = { x: x[yield] } = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 55
 }

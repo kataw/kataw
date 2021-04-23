@@ -135,16 +135,6 @@ function *f(){   for (yield of y);   }
     "text": "function *f(){   for (yield of y);   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 63,
-            "error": "Invalid left-hand side in for-of loop",
-            "start": 30,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 38
 }

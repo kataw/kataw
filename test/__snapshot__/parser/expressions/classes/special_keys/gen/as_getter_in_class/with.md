@@ -112,7 +112,6 @@ class x {get with(){}}
     "text": "class x {get with(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

@@ -129,7 +129,6 @@ wrap({set [foo](a){}});
     "text": "wrap({set [foo](a){}});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

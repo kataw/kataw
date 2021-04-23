@@ -213,7 +213,6 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
     "text": "class x extends y { constructor() { log(super.foo); super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 66
 }

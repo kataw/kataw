@@ -145,7 +145,6 @@ const {a, [x]: y} = a;
     "text": "const {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

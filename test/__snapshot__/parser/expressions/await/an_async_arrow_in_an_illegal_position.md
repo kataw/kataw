@@ -128,7 +128,6 @@ let y = typeof async x => await x
     "text": "let y = typeof async x => await x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

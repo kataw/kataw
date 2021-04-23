@@ -169,7 +169,6 @@
     "text": "[...[x].map(y, z)[x]] = a;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

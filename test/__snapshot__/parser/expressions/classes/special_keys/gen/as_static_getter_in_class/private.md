@@ -117,7 +117,6 @@ class x {static get private(){}}
     "text": "class x {static get private(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

@@ -114,7 +114,6 @@ type C = { ...A&B };
     "text": "type C = { ...A&B };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

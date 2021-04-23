@@ -133,7 +133,6 @@ function f(){ "use strict"
     "text": "function f(){ \"use strict\"\n /* suffix = */ .foo; eval = 1; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 60
 }

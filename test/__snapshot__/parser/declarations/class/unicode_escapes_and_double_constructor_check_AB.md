@@ -168,7 +168,6 @@ class x { \u0063onstructor(){}; constructor(){} }
     "text": "class x { \\u0063onstructor(){}; constructor(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

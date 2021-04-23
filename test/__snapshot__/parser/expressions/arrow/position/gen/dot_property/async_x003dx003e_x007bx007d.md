@@ -100,16 +100,6 @@ async => {}.x
     "text": "async => {}.x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 27,
-            "error": "Block body arrows can not be immediately accessed without a group",
-            "start": 11,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 13
 }

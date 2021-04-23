@@ -144,7 +144,6 @@ function foo(numVal: any, otherVal: mixed){}
     "text": "function foo(numVal: any, otherVal: mixed){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

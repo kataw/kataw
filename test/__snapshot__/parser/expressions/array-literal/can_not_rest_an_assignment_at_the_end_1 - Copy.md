@@ -130,16 +130,6 @@
     "text": "[x, y, ...z = arr] = obj",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 18,
-            "end": 20
-        }
-    ],
     "start": 0,
     "end": 24
 }

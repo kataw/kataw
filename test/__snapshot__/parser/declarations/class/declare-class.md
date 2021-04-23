@@ -155,7 +155,6 @@ declare class A { static foo(): number; static x : string }
     "text": "declare class A { static foo(): number; static x : string }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 59
 }

@@ -195,56 +195,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
     "text": "function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 50,
-            "end": 56
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 56
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 56
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 59,
-            "end": 61
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 61,
-            "end": 62
-        }
-    ],
     "start": 0,
     "end": 62
 }

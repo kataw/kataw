@@ -83,7 +83,6 @@ type A = { [string]: number };
     "text": "type A = { [string]: number };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

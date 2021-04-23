@@ -77,7 +77,6 @@ new 'foo'.__proto__.constructor
     "text": "new 'foo'.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

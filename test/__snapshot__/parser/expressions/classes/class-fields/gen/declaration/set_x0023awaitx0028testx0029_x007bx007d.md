@@ -130,7 +130,6 @@ class C { set #await(test) {} }
     "text": "class C { set #await(test) {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

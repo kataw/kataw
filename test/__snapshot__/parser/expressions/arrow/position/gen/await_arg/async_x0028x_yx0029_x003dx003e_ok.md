@@ -144,7 +144,6 @@ async function f() {
     "text": "async function f() {\n  await async (x, y) => ok\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

@@ -113,56 +113,6 @@ return try { !xxx
     "text": "return try { !xxx",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 6,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 6,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 17,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 17,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 17,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 17
 }

@@ -133,7 +133,6 @@ for (true ? a in b : {}; false; ) ;
     "text": "for (true ? a in b : {}; false; ) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

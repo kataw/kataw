@@ -178,24 +178,6 @@
     "text": "0b10\n;\n0B10\n;\n0b0\n;\n0b1\n;\n0b00\n;\n0b11\n;\n0b0_1\n;\n0b10\n;\n0b10001100001101010101010101010101010101010101010101\n;\n0b1000_11000011_01010101_010_101010101010101010_101010101",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 39,
-            "end": 40
-        },
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 109,
-            "end": 110
-        }
-    ],
     "start": 0,
     "end": 167
 }

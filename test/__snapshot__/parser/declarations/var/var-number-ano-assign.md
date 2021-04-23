@@ -194,7 +194,6 @@ var a: { [a: number]: string; [b: number]: string; };
     "text": "var numVal:number = otherNumVal;\n\nvar a: { [a: number]: string; [b: number]: string; };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 87
 }

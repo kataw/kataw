@@ -105,16 +105,6 @@ x; {}
     "text": "class A extends await\nx; {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 21,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 27
 }

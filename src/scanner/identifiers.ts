@@ -162,7 +162,7 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
       // 10.1.3 Static Semantics: UTF16SurrogatePairToCodePoint ( lead, trail )
       cp = 0x10000 + ((cp & 0x3ff) << 10) + (trail & 0x3ff);
       if ((trail & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Parser,
             DiagnosticCode.Invalid_astral_character,
@@ -184,7 +184,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
   let pos = parser.pos;
 
   if (parser.source.charCodeAt(pos + 1) !== Char.LowerU) {
-    parser.diagnostics.push(
+    parser.onError(
       createDiagnosticError(
         DiagnosticSource.Parser,
         DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -214,7 +214,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
     while (digit >= 0) {
       code = (code << 4) | digit;
       if (code > Char.LastUnicodeChar) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Parser,
             DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF,
@@ -234,7 +234,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
     if (0 < digit || cp !== Char.RightBrace) {
       // The 'pos' value can't be set if we have a missing '}', so that we can report an nice error message
       // when parsing out cases like 'x\u{0 foo' where '}'.
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(
           DiagnosticSource.Parser,
           DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -260,7 +260,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
     const digit = toHex(cp);
 
     if (digit < 0) {
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(
           DiagnosticSource.Parser,
           DiagnosticCode.Invalid_hexadecimal_escape_sequence,

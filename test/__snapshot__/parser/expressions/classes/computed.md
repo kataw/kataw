@@ -148,7 +148,6 @@ class A { [x=y](foo) {} }
     "text": "class A { [x=y](foo) {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -53,7 +53,6 @@ while (x) continue
     "text": "while (x) continue",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

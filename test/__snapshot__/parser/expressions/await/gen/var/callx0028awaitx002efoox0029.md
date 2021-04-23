@@ -215,16 +215,6 @@ var await; var f = (async function() { call(await.foo) });
     "text": "var await; var f = (async function() { call(await.foo) });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 49,
-            "end": 50
-        }
-    ],
     "start": 0,
     "end": 58
 }

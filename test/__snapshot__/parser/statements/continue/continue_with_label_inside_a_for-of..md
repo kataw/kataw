@@ -83,7 +83,6 @@ foo: for (x of y) continue foo
     "text": "foo: for (x of y) continue foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

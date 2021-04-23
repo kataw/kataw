@@ -117,7 +117,6 @@ class x {static async * arguments(){}}
     "text": "class x {static async * arguments(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 38
 }

@@ -165,7 +165,6 @@ function *f(){   s = {"foo": yield / x}   }
     "text": "function *f(){   s = {\"foo\": yield / x}   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 43
 }

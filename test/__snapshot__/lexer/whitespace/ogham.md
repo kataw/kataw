@@ -40,7 +40,6 @@ left@{x1680}@right
     "text": "left@{x1680}@right",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 10
 }

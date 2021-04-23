@@ -72,7 +72,6 @@ type Foo = (string | number)
     "text": "type Foo = (string | number)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

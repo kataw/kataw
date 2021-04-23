@@ -227,7 +227,6 @@
     "text": "'use strict'; class x {async *f(foo = [{m: t(await bar)}]){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 61
 }

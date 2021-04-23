@@ -274,16 +274,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
     "text": "result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} } ] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 82,
-            "end": 84
-        }
-    ],
     "start": 0,
     "end": 90
 }

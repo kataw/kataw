@@ -75,7 +75,6 @@ class x extends implements {}
     "text": "class x extends implements {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

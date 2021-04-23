@@ -52,56 +52,6 @@
     "text": "({*=f(){}})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 2,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 2,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 10,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 11
 }

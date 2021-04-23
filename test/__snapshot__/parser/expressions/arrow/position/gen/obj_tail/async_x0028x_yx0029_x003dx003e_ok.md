@@ -141,7 +141,6 @@ x = {arrow: async (x, y) => ok}.y
     "text": "x = {arrow: async (x, y) => ok}.y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

@@ -81,7 +81,6 @@ class C { 1e2 }
     "text": "class C { 1e2 }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

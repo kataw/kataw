@@ -92,24 +92,6 @@ foo: function() {}
     "text": "\"use strict\";\nfoo: function() {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 21,
-            "error": "Function declarations are not allowed in an arbitrary statement position.",
-            "start": 18,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 27,
-            "end": 28
-        }
-    ],
     "start": 0,
     "end": 32
 }

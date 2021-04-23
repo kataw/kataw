@@ -127,7 +127,6 @@ class A {async foo(){}}
     "text": "class A {async foo(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

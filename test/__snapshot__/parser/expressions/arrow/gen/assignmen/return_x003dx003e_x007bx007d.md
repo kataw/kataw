@@ -98,56 +98,6 @@ x = return => {} ;
     "text": "x = return => {} ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 3,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 3,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 3,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 10,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 10,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 10,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 18
 }

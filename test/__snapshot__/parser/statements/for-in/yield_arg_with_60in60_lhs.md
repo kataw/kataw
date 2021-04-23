@@ -161,7 +161,6 @@ function *f(){   for (yield x in y in z);   }
     "text": "function *f(){   for (yield x in y in z);   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

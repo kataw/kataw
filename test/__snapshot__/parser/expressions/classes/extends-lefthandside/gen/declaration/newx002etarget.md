@@ -81,16 +81,6 @@ class A extends new.target {}
     "text": "class A extends new.target {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 20,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 29
 }

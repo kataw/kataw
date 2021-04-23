@@ -116,16 +116,6 @@ class X {    async constructor() {}   }
     "text": "class X {    async constructor() {}   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 67,
-            "error": "Class constructor may not be a accessor",
-            "start": 30,
-            "end": 31
-        }
-    ],
     "start": 0,
     "end": 39
 }

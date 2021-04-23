@@ -171,7 +171,6 @@
     "text": "'use strict'; async function a(){     async ([v] = await bar);     }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 68
 }

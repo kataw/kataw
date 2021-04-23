@@ -129,7 +129,6 @@ for(;;)x
     "text": "do throw function(){}\nwhile(y)\nfor(;;)x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

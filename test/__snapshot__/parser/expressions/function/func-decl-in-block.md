@@ -240,16 +240,6 @@
     "text": "{\n  function(){}\n}\n\n{\n  function *f(){}\n}\n\n{\n  async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 12,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 70
 }

@@ -112,7 +112,6 @@ class x {static * false(){}}
     "text": "class x {static * false(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

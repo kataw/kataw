@@ -105,32 +105,6 @@ switch (x) { case y: break; default: return; }
     "text": "switch (x) { case y: break; default: return; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 35,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 36,
-            "end": 43
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 36,
-            "end": 43
-        }
-    ],
     "start": 0,
     "end": 46
 }

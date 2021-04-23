@@ -57,16 +57,6 @@ for (true in x) ;
     "text": "for (true in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 12,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 17
 }

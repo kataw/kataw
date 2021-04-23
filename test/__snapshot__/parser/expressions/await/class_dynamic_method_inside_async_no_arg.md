@@ -191,7 +191,6 @@ async function f() {
     "text": "async function f() {\n  class x{[x](a=await){}}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 48
 }

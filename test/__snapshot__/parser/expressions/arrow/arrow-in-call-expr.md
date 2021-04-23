@@ -248,7 +248,6 @@ foo(y,(y) => ok);
     "text": "foo((x, y) => {});\nfoo(x,(y) => {});\nfoo(y,(y) => ok);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 54
 }

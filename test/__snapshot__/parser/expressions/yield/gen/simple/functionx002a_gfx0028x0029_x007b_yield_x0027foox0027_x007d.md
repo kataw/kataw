@@ -106,7 +106,6 @@ function* gf() { yield 'foo' }
     "text": "function* gf() { yield 'foo' }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

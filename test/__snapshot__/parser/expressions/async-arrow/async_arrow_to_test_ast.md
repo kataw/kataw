@@ -125,7 +125,6 @@ let f = a + b + async()=>d
     "text": "let f = a + b + async()=>d",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

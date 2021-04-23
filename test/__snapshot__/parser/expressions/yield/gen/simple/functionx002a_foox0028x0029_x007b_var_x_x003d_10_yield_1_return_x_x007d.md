@@ -171,7 +171,6 @@ function* foo() { var x = 10; yield 1; return x; }
     "text": "function* foo() { var x = 10; yield 1; return x; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 50
 }

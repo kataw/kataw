@@ -80,16 +80,6 @@ async("foo".bar) => x
     "text": "async(\"foo\".bar) => x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 16,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 21
 }

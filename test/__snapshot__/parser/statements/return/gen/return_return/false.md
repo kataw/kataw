@@ -56,32 +56,6 @@ return false return
     "text": "return false return",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 12,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 12,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 19
 }

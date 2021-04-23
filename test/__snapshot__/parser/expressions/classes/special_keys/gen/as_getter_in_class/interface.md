@@ -112,7 +112,6 @@ class x {get interface(){}}
     "text": "class x {get interface(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

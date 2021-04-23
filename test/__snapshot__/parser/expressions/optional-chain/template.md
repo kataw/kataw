@@ -62,16 +62,6 @@ a?.`foo`
     "text": "a?.`foo`\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 70,
-            "error": "Tagged template expressions are not permitted in an optional chain.",
-            "start": 3,
-            "end": 8
-        }
-    ],
     "start": 0,
     "end": 9
 }

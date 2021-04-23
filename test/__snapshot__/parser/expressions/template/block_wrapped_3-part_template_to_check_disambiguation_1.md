@@ -119,16 +119,6 @@
     "text": "{`foo ${a} and ${b} and ${c} baz`}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 1,
-            "end": 8
-        }
-    ],
     "start": 0,
     "end": 34
 }

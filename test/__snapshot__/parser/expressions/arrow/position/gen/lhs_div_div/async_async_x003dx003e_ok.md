@@ -119,7 +119,6 @@ async async => ok
     "text": "async async => ok\n/ x / g",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

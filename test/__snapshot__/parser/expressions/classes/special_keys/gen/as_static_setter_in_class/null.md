@@ -136,7 +136,6 @@ class x {static set null(x){}}
     "text": "class x {static set null(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

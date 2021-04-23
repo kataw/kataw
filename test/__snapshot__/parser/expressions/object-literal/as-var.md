@@ -123,40 +123,6 @@ var {...[]} = {}
     "text": "var {...[]} = {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 17,
-            "error": "The binding pattern is not destructible",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 9,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 10,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 10,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 16
 }

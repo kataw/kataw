@@ -93,7 +93,6 @@ new async function *(){}
     "text": "new async function *(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

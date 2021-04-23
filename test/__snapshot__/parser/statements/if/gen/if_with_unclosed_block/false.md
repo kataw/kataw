@@ -88,24 +88,6 @@ else {} if(x) { false
     "text": "else {} if(x) { false",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 21,
-            "end": 21
-        }
-    ],
     "start": 0,
     "end": 21
 }

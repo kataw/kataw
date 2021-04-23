@@ -120,7 +120,6 @@ a={get fooProp():number{}}
     "text": "a={get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

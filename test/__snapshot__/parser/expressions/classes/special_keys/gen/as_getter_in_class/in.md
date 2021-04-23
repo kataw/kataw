@@ -112,7 +112,6 @@ class x {get in(){}}
     "text": "class x {get in(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

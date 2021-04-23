@@ -144,16 +144,6 @@
     "text": "'use strict'; (class { async method(await) {} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 58,
-            "error": "`Await` expression cannot be used in function parameters",
-            "start": 36,
-            "end": 41
-        }
-    ],
     "start": 0,
     "end": 48
 }

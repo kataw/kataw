@@ -107,7 +107,6 @@ class C { async#aaa(){} }
     "text": "class C { async#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

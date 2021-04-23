@@ -205,16 +205,6 @@ var await; var f = (async function() { export var await; });
     "text": "var await; var f = (async function() { export var await; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 60,
-            "error": "The `export` keyword can only be used with the module goal",
-            "start": 38,
-            "end": 45
-        }
-    ],
     "start": 0,
     "end": 60
 }

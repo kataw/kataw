@@ -108,7 +108,6 @@ class X { ge\u0074 x() {} }
     "text": "class X { ge\\u0074 x() {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

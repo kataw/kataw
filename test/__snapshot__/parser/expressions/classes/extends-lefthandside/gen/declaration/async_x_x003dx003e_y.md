@@ -128,24 +128,6 @@ x => y {}
     "text": "class A extends async\nx => y {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 21,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 31
 }

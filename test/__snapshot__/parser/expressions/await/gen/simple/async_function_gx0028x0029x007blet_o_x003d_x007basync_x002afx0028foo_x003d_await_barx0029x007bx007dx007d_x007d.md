@@ -207,7 +207,6 @@ async function g(){let o = {async *f(foo = await bar){}}    }
     "text": "async function g(){let o = {async *f(foo = await bar){}}    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 61
 }

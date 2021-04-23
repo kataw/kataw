@@ -161,7 +161,6 @@ declare class A<T> extends B<T> { x: number }
     "text": "declare class A<T> extends B<T> { x: number }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

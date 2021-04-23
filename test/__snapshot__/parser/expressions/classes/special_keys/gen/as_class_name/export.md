@@ -79,24 +79,6 @@ class export {}
     "text": "class export {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 5,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 60,
-            "error": "The `export` keyword can only be used with the module goal",
-            "start": 5,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 15
 }

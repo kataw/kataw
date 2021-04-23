@@ -202,7 +202,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
     "text": "function foo(callback: (_1:bool, ...foo:Array<number>) => number){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 67
 }

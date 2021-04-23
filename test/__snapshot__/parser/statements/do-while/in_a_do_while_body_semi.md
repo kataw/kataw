@@ -76,7 +76,6 @@ do x, y; while (z)
     "text": "do x, y; while (z)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

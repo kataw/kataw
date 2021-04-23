@@ -129,40 +129,6 @@ for({}/=y in y)x
     "text": "for({}/=y in y)x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 23,
-            "error": "Expression exprected. A compound assignment cannot follow an object literal",
-            "start": 6,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 14,
-            "end": 15
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 14,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 16
 }

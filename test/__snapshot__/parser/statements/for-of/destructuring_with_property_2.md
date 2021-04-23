@@ -142,7 +142,6 @@ for ({a: b.c}.foo of d) e
     "text": "for ({a: b.c}.foo of d) e",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

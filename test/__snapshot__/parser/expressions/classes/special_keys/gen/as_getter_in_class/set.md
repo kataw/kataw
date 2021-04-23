@@ -112,7 +112,6 @@ class x {get set(){}}
     "text": "class x {get set(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

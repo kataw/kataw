@@ -87,7 +87,6 @@ class A extends typeof x {}
     "text": "class A extends typeof x {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

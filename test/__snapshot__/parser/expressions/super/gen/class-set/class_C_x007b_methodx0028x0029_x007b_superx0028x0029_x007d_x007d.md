@@ -248,16 +248,6 @@ class C { set x(_) { class C { method() { super(); } } } }
     "text": "class C { set x(_) { class C { method() { super(); } } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 47,
-            "end": 48
-        }
-    ],
     "start": 0,
     "end": 58
 }

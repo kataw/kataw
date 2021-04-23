@@ -388,7 +388,6 @@ var x: [number, string] = [123, "aladdin"];
     "text": "var x: [] = [];\n\nvar x: [number,] = [123,];\n\nvar x: [Foo<T>] = [foo];\n\nvar x: [number, string] = [123, \"aladdin\"];\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 115
 }

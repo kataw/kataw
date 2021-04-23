@@ -149,7 +149,6 @@ class w {  t[x](){}  }
     "text": "class w {  t[x](){}  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

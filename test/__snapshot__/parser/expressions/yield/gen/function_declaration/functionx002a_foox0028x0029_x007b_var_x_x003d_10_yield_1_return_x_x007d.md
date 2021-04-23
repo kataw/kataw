@@ -220,16 +220,6 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
     "text": "function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 73,
-            "end": 74
-        }
-    ],
     "start": 0,
     "end": 74
 }

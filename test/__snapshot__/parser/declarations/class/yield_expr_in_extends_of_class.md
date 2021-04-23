@@ -80,7 +80,6 @@ class x extends yield {}
     "text": "class x extends yield {}\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -40,7 +40,6 @@ xxx\u0065
     "text": "xxx\\u0065",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 9
 }

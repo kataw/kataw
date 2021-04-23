@@ -97,7 +97,6 @@ f(async foo=>c)
     "text": "f(async foo=>c)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

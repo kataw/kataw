@@ -131,7 +131,6 @@ class x {set finally(x){}}
     "text": "class x {set finally(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

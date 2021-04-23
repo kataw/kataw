@@ -258,32 +258,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
     "text": "async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 61,
-            "end": 64
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 61,
-            "end": 64
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 67,
-            "end": 73
-        }
-    ],
     "start": 0,
     "end": 73
 }

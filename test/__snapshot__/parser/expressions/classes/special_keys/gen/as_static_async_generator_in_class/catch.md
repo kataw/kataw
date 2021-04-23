@@ -117,7 +117,6 @@ class x {static async * catch(){}}
     "text": "class x {static async * catch(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

@@ -74,40 +74,6 @@ async () => {  \u0065xtends = x  }
     "text": "async () => {  \\u0065xtends = x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 13,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 13,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 31,
-            "end": 34
-        }
-    ],
     "start": 0,
     "end": 34
 }

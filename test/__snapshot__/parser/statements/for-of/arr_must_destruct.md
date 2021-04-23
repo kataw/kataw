@@ -128,7 +128,6 @@ for ([{x=y}]=x of x) ;
     "text": "for ([{x=y}]=x of x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

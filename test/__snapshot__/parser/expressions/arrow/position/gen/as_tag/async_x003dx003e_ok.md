@@ -92,7 +92,6 @@ async => ok`foo`
     "text": "async => ok`foo`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

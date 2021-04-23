@@ -165,7 +165,6 @@ async (): string => {}
     "text": "a ? async (): string => {}  :  b;\n\nasync (): string => {}\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 58
 }

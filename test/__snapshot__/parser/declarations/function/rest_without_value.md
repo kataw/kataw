@@ -113,16 +113,6 @@ let [...] = obj;
     "text": "let [...] = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 8,
-            "end": 9
-        }
-    ],
     "start": 0,
     "end": 16
 }

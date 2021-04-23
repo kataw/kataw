@@ -139,7 +139,6 @@ result = [ arrow = () => {} ] = vals;
     "text": "result = [ arrow = () => {} ] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

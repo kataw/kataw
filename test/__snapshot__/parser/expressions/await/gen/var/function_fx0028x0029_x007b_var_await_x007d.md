@@ -238,7 +238,6 @@ var await; var f = (async function() { function f() { var await; } });
     "text": "var await; var f = (async function() { function f() { var await; } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 70
 }

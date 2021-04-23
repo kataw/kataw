@@ -88,7 +88,6 @@ for ((let).foo;;);
     "text": "for ((let).foo;;);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

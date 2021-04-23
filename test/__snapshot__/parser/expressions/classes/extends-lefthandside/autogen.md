@@ -516,24 +516,6 @@ for (# in x) ;
     "text": "class A extends # {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 69,
-            "error": "Private identifiers are not allowed outside class_bodies",
-            "start": 15,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 20
 }

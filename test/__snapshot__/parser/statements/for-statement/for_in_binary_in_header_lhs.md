@@ -113,24 +113,6 @@ for (x in a>c;;) x
     "text": "for (x in a>c;;) x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 13,
-            "end": 14
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 15,
-            "end": 16
-        }
-    ],
     "start": 0,
     "end": 18
 }

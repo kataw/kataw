@@ -88,16 +88,6 @@
     "text": "[x] += 0",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 9,
-            "error": "Expression exprected. A compound assignment cannot follow an array literal",
-            "start": 3,
-            "end": 6
-        }
-    ],
     "start": 0,
     "end": 8
 }

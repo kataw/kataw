@@ -112,7 +112,6 @@ class x {async continue(){}}
     "text": "class x {async continue(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

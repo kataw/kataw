@@ -56,7 +56,7 @@ export function scanTemplate(
     cp = parser.source.charCodeAt(parser.pos);
   }
 
-  parser.diagnostics.push(
+  parser.onError(
     createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
   );
 

@@ -132,7 +132,6 @@ function* g() { let x = yield 3; }
     "text": "function* g() { let x = yield 3; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

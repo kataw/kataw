@@ -274,7 +274,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
     "text": "try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

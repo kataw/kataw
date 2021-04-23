@@ -101,16 +101,6 @@ for([]/=y;;)x
     "text": "for([]/=y;;)x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 9,
-            "error": "Expression exprected. A compound assignment cannot follow an array literal",
-            "start": 6,
-            "end": 8
-        }
-    ],
     "start": 0,
     "end": 13
 }

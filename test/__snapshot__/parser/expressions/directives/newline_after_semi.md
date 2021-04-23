@@ -113,16 +113,6 @@ with (x) y; }
     "text": "function f(){ \"use strict\";\nwith (x) y; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 75,
-            "error": "'with' statements are not allowed in strict mode.",
-            "start": 27,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 41
 }

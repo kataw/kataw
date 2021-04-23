@@ -117,7 +117,6 @@ class x {static get throw(){}}
     "text": "class x {static get throw(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

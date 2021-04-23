@@ -82,16 +82,6 @@ foo: for (x in y) continue foo
     "text": "foo: for (x in y) continue foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 45,
-            "error": "A 'continue' statement can only be used within an enclosing iteration statement.",
-            "start": 17,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 30
 }

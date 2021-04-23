@@ -75,7 +75,6 @@ class x extends get {}
     "text": "class x extends get {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

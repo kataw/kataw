@@ -107,7 +107,6 @@ class x {void(){}}
     "text": "class x {void(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

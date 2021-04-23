@@ -290,7 +290,6 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
     "text": "var await; var f = (async function() { async function a(){     async ({r} = await bar);     } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 97
 }

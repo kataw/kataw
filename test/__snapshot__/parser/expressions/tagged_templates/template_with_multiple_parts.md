@@ -88,7 +88,6 @@ foo`x${a}y${b}z`
     "text": "foo`x${a}y${b}z`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

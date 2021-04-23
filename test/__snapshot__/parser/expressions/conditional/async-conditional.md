@@ -103,7 +103,6 @@ true ? async.waterfall() : null;
     "text": "true ? async.waterfall() : null;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

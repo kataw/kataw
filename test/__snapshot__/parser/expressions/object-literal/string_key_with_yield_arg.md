@@ -124,16 +124,6 @@ s = {"foo": yield /x/}
     "text": "s = {\"foo\": yield /x/}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 21,
-            "end": 22
-        }
-    ],
     "start": 0,
     "end": 22
 }

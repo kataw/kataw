@@ -148,7 +148,6 @@ class A {async get 7(){}}
     "text": "class A {async get 7(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

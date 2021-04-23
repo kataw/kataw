@@ -117,7 +117,6 @@ class x {static async get(){}}
     "text": "class x {static async get(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

@@ -136,16 +136,6 @@ function* f(){ yield
     "text": "function* f(){ yield\n/foo/ }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 26,
-            "end": 28
-        }
-    ],
     "start": 0,
     "end": 28
 }

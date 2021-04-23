@@ -1,6 +1,5 @@
 import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
 import { StatementNode } from './stmt';
-import { DiagnosticType } from '../diagnostic/';
 import { StringLiteral } from './expressions/string-literal';
 
 /**
@@ -13,7 +12,6 @@ export interface RootNode extends SyntaxNode {
   readonly isModule: boolean;
   readonly text: string;
   readonly fileName: string;
-  readonly diagnostics: DiagnosticType[];
 }
 
 export function createRootNode(
@@ -21,8 +19,7 @@ export function createRootNode(
   statements: StatementNode[],
   isModule: boolean,
   text: string,
-  fileName: string,
-  diagnostics: DiagnosticType[]
+  fileName: string
 ): RootNode {
   return {
     kind: SyntaxKind.RootNode,
@@ -32,7 +29,6 @@ export function createRootNode(
     text,
     fileName,
     flags: NodeFlags.None,
-    diagnostics,
     start: 0,
     end: text.length
   };

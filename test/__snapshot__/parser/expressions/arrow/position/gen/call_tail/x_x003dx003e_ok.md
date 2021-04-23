@@ -99,7 +99,6 @@ foo(x => ok).bar
     "text": "foo(x => ok).bar",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

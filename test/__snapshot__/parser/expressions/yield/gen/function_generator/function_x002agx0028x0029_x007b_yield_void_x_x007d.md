@@ -221,7 +221,6 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
     "text": "function * gen() { function not_gen() { function *g() { yield void x } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 73
 }

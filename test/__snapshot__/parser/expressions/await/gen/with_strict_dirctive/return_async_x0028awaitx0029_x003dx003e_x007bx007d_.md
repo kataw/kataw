@@ -90,16 +90,6 @@
     "text": "'use strict'; return async (await) => {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 13,
-            "end": 20
-        }
-    ],
     "start": 0,
     "end": 41
 }

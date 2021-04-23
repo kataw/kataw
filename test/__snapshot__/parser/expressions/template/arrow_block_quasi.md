@@ -102,16 +102,6 @@
     "text": "`${x => {}}`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 0,
-            "end": 3
-        }
-    ],
     "start": 0,
     "end": 12
 }

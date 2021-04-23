@@ -91,7 +91,6 @@ class x extends new A() {}
     "text": "class x extends new A() {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

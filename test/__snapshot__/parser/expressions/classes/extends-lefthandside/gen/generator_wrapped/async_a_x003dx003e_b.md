@@ -171,7 +171,6 @@ function *P(){
     "text": "function *P(){\n  class D extends async a => b {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 50
 }

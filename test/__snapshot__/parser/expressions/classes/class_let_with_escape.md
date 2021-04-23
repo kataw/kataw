@@ -51,7 +51,6 @@ class l\u0065t {}
     "text": "class l\\u0065t {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 17
 }

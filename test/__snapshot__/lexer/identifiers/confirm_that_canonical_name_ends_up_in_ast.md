@@ -48,7 +48,6 @@ pa\u0073s();
     "text": "pa\\u0073s();",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 12
 }

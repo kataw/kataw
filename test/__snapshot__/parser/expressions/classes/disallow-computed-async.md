@@ -132,7 +132,6 @@ class A {
     "text": "class A {\n  [\"async\"] a() {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

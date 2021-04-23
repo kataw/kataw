@@ -248,7 +248,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
     "text": "function * gen() { function not_gen() { (class { static async method(...await) {} }) }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 87
 }

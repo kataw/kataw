@@ -92,16 +92,6 @@ function *f(yield){}
     "text": "function *f(yield){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 57,
-            "error": "`Yield` expression cannot be used in function parameters",
-            "start": 12,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 20
 }

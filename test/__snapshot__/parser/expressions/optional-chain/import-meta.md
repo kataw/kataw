@@ -153,16 +153,6 @@ function f() {
     "text": "function f() {\n    return import?.(\"foo\").then(party);\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 53,
-            "end": 54
-        }
-    ],
     "start": 0,
     "end": 56
 }

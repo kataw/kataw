@@ -165,7 +165,6 @@
     "text": "'use strict'; await => async.await[async / ((async) => foo.bar)]",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 64
 }

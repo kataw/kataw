@@ -148,7 +148,6 @@ function *f() {
     "text": "function *f() {\n  yield a + b instanceof c\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

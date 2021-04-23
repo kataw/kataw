@@ -123,32 +123,6 @@ class x {static get true(){}}
     "text": "class x {static get true(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 24
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 28,
-            "end": 29
-        }
-    ],
     "start": 0,
     "end": 29
 }

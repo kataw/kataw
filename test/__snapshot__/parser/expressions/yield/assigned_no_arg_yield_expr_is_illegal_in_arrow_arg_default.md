@@ -166,7 +166,6 @@ function *f(){ async (x = z = yield) => {} }
     "text": "function *f(){ async (x = z = yield) => {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

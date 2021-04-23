@@ -112,7 +112,6 @@ class x {async * import(){}}
     "text": "class x {async * import(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

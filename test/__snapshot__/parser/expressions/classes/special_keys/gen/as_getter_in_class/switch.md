@@ -112,7 +112,6 @@ class x {get switch(){}}
     "text": "class x {get switch(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

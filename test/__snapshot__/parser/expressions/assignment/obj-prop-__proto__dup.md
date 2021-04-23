@@ -240,7 +240,6 @@ result = ({ __proto__: x, __proto__: y } = value);
     "text": "result = { __proto__: x, __proto__: y } = value;\n\nresult = ({ __proto__: x, __proto__: y } = value);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 100
 }

@@ -143,16 +143,6 @@ function *P(){
     "text": "function *P(){\n  class D extends delete x {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 43,
-            "error": "'delete' cannot be called on an identifier in strict mode.",
-            "start": 41,
-            "end": 43
-        }
-    ],
     "start": 0,
     "end": 46
 }

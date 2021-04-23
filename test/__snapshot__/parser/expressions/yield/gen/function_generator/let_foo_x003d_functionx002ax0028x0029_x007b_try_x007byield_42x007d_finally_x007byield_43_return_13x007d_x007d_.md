@@ -340,24 +340,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
     "text": "function * gen() { function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 97,
-            "end": 104
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 113,
-            "end": 114
-        }
-    ],
     "start": 0,
     "end": 114
 }

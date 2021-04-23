@@ -126,24 +126,6 @@ var [... ...foo] = obj;
     "text": "var [... ...foo] = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 8,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 8,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 23
 }

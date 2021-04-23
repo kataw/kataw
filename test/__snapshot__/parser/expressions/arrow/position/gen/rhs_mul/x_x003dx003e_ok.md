@@ -81,7 +81,6 @@ x * x => ok
     "text": "x * x => ok",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 11
 }

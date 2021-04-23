@@ -136,7 +136,6 @@ class x {static set catch(x){}}
     "text": "class x {static set catch(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

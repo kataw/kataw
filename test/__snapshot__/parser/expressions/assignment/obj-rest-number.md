@@ -96,7 +96,6 @@ result = {...rest} = 69;
     "text": "result = {...rest} = 69;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

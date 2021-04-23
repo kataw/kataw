@@ -112,7 +112,6 @@ class x {static * function(){}}
     "text": "class x {static * function(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

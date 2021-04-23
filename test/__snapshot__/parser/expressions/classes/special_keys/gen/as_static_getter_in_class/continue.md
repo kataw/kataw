@@ -117,7 +117,6 @@ class x {static get continue(){}}
     "text": "class x {static get continue(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

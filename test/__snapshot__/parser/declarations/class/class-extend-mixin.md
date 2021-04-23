@@ -124,7 +124,6 @@ class Foo<T> extends mixin(Bar) { }
     "text": "class Foo<T> extends mixin(Bar) { }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

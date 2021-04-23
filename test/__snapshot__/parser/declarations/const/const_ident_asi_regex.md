@@ -131,32 +131,6 @@ const q
     "text": "const q\n/d/",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 7,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 7,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 11,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 11
 }

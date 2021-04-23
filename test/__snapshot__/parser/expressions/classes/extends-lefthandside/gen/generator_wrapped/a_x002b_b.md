@@ -171,24 +171,6 @@ function *P(){
     "text": "function *P(){\n  class D extends a + b {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 40
-        }
-    ],
     "start": 0,
     "end": 43
 }

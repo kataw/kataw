@@ -127,32 +127,6 @@ class x {set true(x){}}
     "text": "class x {set true(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 12,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 20,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 22,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 23
 }

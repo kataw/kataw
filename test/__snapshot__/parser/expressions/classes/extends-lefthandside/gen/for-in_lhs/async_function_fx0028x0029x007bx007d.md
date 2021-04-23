@@ -102,16 +102,6 @@ for (async function f(){} in x) ;
     "text": "for (async function f(){} in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 28,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 33
 }

@@ -127,16 +127,6 @@ class x { get constructor(){} }
     "text": "class x { get constructor(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 67,
-            "error": "Class constructor may not be a accessor",
-            "start": 25,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 31
 }

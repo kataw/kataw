@@ -134,40 +134,6 @@ switch(x) { case y: break; case z: break; default: default: }
     "text": "switch(x) { case y: break; case z: break; default: default: }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 49,
-            "end": 50
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 58
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 58,
-            "end": 59
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 59,
-            "end": 61
-        }
-    ],
     "start": 0,
     "end": 61
 }

@@ -107,7 +107,6 @@ for (x[a in b] in y);
     "text": "for (x[a in b] in y);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

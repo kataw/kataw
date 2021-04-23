@@ -172,7 +172,6 @@ function* foo() {
     "text": "function* foo() {\n  class C {\n    // here yield is an identifier reference\n    p = yield + 42;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 100
 }

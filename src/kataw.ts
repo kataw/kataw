@@ -33,10 +33,10 @@ export {
   isSemicolon
 } from './common';
 
-export function parseScript(source: string, options: Options): RootNode {
-  return parse(source, /* filename */ '__root__', /* isModule */ false, options);
+export function parseScript(source: string, options?: Options, onError?: any): RootNode {
+  return parse(source, /* filename */ '__root__', /* isModule */ false, options, onError);
 }
 
-export function parseModule(source: string, options: Options): RootNode {
-  return parse(source, /* filename */ '__root__', /* isModule */ true, options);
+export function parseModule(source: string, options?: Options, onError?: any): RootNode {
+  return parse(source, /* filename */ '__root__', /* isModule */ true, options, onError);
 }

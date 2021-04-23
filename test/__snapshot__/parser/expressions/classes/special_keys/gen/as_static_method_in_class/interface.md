@@ -112,7 +112,6 @@ class x {static interface(){}}
     "text": "class x {static interface(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

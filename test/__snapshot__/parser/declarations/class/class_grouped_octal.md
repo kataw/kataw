@@ -110,7 +110,6 @@ class x extends y{}(09)
     "text": "class x extends y{}(09)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

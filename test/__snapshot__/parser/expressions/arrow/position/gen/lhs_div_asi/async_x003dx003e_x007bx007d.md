@@ -99,16 +99,6 @@ async => {}
     "text": "async => {}\n/ x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 15
 }

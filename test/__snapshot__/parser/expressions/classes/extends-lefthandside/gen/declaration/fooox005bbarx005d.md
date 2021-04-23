@@ -89,7 +89,6 @@ class A extends fooo[bar] {}
     "text": "class A extends fooo[bar] {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

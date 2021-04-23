@@ -70,16 +70,6 @@ for (typeof x in x) ;
     "text": "for (typeof x in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 16,
-            "end": 18
-        }
-    ],
     "start": 0,
     "end": 21
 }

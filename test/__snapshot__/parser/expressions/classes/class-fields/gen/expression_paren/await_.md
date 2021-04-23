@@ -87,7 +87,6 @@
     "text": "(class { await; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

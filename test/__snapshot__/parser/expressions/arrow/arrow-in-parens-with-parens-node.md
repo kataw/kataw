@@ -124,7 +124,6 @@ var asserted1 = <any>((n) => { return n; });
     "text": "var asserted1 = <any>((n) => { return n; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

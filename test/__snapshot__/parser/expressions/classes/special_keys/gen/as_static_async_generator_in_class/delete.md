@@ -117,7 +117,6 @@ class x {static async * delete(){}}
     "text": "class x {static async * delete(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

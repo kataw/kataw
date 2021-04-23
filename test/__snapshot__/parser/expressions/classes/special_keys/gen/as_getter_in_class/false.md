@@ -112,7 +112,6 @@ class x {get false(){}}
     "text": "class x {get false(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

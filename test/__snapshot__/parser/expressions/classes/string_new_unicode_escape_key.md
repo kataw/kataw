@@ -109,7 +109,6 @@ class x { "prot\u{6f}type"(){} }
     "text": "class x { \"prot\\u{6f}type\"(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

@@ -88,7 +88,6 @@ async () => new await x()
     "text": "async () => new await x()",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

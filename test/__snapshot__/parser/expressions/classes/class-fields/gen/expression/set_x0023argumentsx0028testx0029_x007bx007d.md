@@ -150,7 +150,6 @@ class C extends Base { set #arguments(test) {} }
     "text": "class C extends Base { set #arguments(test) {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 48
 }

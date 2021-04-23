@@ -115,7 +115,6 @@
     "text": " 0, [{ x }] = [null];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

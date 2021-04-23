@@ -141,7 +141,6 @@ x({[a]:b, [15]:d}=obj);
     "text": "x({[a]:b, [15]:d}=obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

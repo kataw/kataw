@@ -98,7 +98,6 @@ new async async => {}
     "text": "new async async => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

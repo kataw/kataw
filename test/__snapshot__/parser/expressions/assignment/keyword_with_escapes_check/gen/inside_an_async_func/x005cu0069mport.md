@@ -90,56 +90,6 @@ async () => {  \u0069mport = x  }
     "text": "async () => {  \\u0069mport = x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 59,
-            "error": "The `import` keyword can only be used with the module goal",
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 30,
-            "end": 33
-        }
-    ],
     "start": 0,
     "end": 33
 }

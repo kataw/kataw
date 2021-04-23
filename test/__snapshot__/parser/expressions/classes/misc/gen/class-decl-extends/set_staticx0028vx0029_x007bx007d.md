@@ -151,7 +151,6 @@ class C extends Base { set static(v) {} }
     "text": "class C extends Base { set static(v) {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 41
 }

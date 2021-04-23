@@ -109,56 +109,6 @@ function *f(){
     "text": "function *f(){\n  impo\\u0072t = x\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 59,
-            "error": "The `import` keyword can only be used with the module goal",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 32,
-            "end": 34
-        }
-    ],
     "start": 0,
     "end": 34
 }

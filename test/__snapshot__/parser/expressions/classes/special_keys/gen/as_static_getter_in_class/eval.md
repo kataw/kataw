@@ -117,7 +117,6 @@ class x {static get eval(){}}
     "text": "class x {static get eval(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

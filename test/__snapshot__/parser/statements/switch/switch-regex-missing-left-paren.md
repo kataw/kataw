@@ -102,40 +102,6 @@ switch (/a/i {}
     "text": "switch /a/i) {}\n\nswitch /a/i {}\n\nswitch (/a/i {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 6,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 23,
-            "end": 28
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 28,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 45,
-            "end": 47
-        }
-    ],
     "start": 0,
     "end": 48
 }

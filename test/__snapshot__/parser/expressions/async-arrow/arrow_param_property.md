@@ -80,16 +80,6 @@ async (a.b) => x;
     "text": "async (a.b) => x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 11,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 17
 }

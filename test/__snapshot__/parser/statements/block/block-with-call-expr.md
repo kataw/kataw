@@ -91,24 +91,6 @@
     "text": "{ a(); bt(); }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 6,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 12,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 14
 }

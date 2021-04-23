@@ -75,7 +75,6 @@ class x extends let {}
     "text": "class x extends let {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

@@ -142,7 +142,6 @@ var {x = 10, y = 5, z = 1} = a;
     "text": "var {x = 10, y = 5, z = 1} = a;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

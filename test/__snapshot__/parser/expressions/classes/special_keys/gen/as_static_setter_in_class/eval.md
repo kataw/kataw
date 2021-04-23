@@ -136,7 +136,6 @@ class x {static set eval(x){}}
     "text": "class x {static set eval(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

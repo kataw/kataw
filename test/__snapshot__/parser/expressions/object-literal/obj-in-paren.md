@@ -90,7 +90,6 @@
     "text": "({ responseText: text } = res)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

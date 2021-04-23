@@ -121,7 +121,6 @@ function f(a = x => ok) {}
     "text": "function f(a = x => ok) {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

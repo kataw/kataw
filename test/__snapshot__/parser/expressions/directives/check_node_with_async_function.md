@@ -82,7 +82,6 @@ async function f() { "use strict"; }
     "text": "async function f() { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

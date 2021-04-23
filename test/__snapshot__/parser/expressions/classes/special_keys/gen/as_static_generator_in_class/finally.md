@@ -112,7 +112,6 @@ class x {static * finally(){}}
     "text": "class x {static * finally(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

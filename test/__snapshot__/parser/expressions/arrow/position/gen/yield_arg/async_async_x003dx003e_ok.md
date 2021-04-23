@@ -148,7 +148,6 @@ function *f() {
     "text": "function *f() {\n  yield async async => ok\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 43
 }

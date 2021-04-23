@@ -82,7 +82,6 @@ new new A().foo
     "text": "new new A().foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

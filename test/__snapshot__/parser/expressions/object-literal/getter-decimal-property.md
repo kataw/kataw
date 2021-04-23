@@ -87,7 +87,6 @@
     "text": "({ get 5.2322341234123() { } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

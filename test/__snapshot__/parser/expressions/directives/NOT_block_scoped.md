@@ -105,24 +105,6 @@ if (x) { "use strict"; with (x) y; }
     "text": "if (x) { \"use strict\"; with (x) y; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 22,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 34,
-            "end": 36
-        }
-    ],
     "start": 0,
     "end": 36
 }

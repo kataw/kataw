@@ -109,7 +109,6 @@ wrap({1:b, 0:d});
     "text": "wrap({1:b, 0:d});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 17
 }

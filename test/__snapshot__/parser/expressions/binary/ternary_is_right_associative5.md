@@ -150,7 +150,6 @@ typeof x;
     "text": "a ? b : c ? d : e * x\n\ntypeof x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

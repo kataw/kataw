@@ -123,7 +123,6 @@ foo(async async => {}).bar
     "text": "foo(async async => {}).bar",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

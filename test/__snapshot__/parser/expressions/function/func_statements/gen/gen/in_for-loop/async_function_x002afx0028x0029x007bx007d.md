@@ -102,7 +102,6 @@ for (;;) async function *f(){}
     "text": "for (;;) async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

@@ -34,16 +34,6 @@
     "text": "();",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 15,
-            "error": "Expression expected",
-            "start": 2,
-            "end": 3
-        }
-    ],
     "start": 0,
     "end": 3
 }

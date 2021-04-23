@@ -189,7 +189,6 @@
     "text": "([a / b]);\n\n([a / b], ([a / b]));",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

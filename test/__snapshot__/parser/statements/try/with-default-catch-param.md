@@ -122,7 +122,6 @@ try { } catch ([a = 0]) { }
     "text": "try { } catch ([a = 0]) { }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

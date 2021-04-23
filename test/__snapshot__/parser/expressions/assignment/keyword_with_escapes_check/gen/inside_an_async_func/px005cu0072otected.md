@@ -95,7 +95,6 @@ async () => {  p\u0072otected = x  }
     "text": "async () => {  p\\u0072otected = x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

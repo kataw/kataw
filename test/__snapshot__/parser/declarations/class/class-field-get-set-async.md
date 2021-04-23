@@ -162,7 +162,6 @@ class C { get; set; static; async }
     "text": "class C { get; set; static; async }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

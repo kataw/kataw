@@ -196,7 +196,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
     "text": "var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 71
 }

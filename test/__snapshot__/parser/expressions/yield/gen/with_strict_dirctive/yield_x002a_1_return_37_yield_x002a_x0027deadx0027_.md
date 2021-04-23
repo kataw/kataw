@@ -121,16 +121,6 @@
     "text": "'use strict'; yield * 1; return 37; yield * 'dead';",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 33,
-            "error": "A return statement can only be used within a function_body",
-            "start": 24,
-            "end": 31
-        }
-    ],
     "start": 0,
     "end": 51
 }

@@ -221,7 +221,6 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
     "text": "class x extends y { constructor() { let xx = x + x; super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 66
 }

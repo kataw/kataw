@@ -233,7 +233,6 @@ gen = function*() {};
     "text": "var xGen, gen;\n\nxGen = function* x() {};\ngen = function*() {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 62
 }

@@ -108,7 +108,6 @@ let x = function *await(){}
     "text": "let x = function *await(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

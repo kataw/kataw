@@ -72,7 +72,6 @@ x`foo ${a b} bar`
     "text": "x`foo ${a b} bar`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 17
 }

@@ -112,7 +112,6 @@ class x {get eval(){}}
     "text": "class x {get eval(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

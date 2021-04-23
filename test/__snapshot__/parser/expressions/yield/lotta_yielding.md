@@ -440,7 +440,6 @@ var gen = async function *g() {
     "text": "var gen = async function *g() {\n  callCount += 1;\n  yield {\n       ...yield yield,\n       ...(function(arg) {\n          var yield = arg;\n          return {...yield};\n       }(yield)),\n       ...yield,\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 209
 }

@@ -122,7 +122,6 @@ switch (x) { case x: const y = x }
     "text": "switch (x) { case x: const y = x }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

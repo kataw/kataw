@@ -201,24 +201,6 @@
     "text": "([(x().foo)]) => x;\n\n({[foo]: bar()}) => baz;\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 13,
-            "end": 16
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 37,
-            "end": 40
-        }
-    ],
     "start": 0,
     "end": 46
 }

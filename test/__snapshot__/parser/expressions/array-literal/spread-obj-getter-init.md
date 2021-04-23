@@ -403,7 +403,6 @@ var callCount = 0;
     "text": "let o = {a: 2, b: 3};\nlet executedGetter = false;\n\n\nvar callCount = 0;\n\n(function(obj) {\n}.apply(null, [{...o, get c() {}}]));",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 126
 }

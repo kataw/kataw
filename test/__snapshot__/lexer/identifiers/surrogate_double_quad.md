@@ -40,7 +40,6 @@ abc\uD835\uDFD0def
     "text": "abc\\uD835\\uDFD0def",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

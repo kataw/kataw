@@ -150,7 +150,6 @@ var x = ({ a } : any = 'foo') => {}
     "text": "var x = ({ a } : any = 'foo') => {}\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

@@ -153,7 +153,6 @@ var a: {param1?: number; param2: string; param3: string;}
     "text": "var a: {param1?: number; param2: string; param3: string;}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 57
 }

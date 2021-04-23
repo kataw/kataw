@@ -112,7 +112,6 @@ class x {static * delete(){}}
     "text": "class x {static * delete(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

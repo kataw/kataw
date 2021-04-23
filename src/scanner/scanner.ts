@@ -343,7 +343,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           } while (parser.pos < parser.end);
 
           if (!commentClosed) {
-            parser.diagnostics.push(
+            parser.onError(
               createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
             );
           }
@@ -508,7 +508,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       case SyntaxKind.PrivateIdentifier:
         if (parser.pos !== 0 && source.charCodeAt(parser.pos + 1) === Char.Exclamation) {
-          parser.diagnostics.push(
+          parser.onError(
             createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
           );
           parser.pos++;
@@ -528,7 +528,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           parser.pos = pos;
         } else {
           parser.tokenValue = '#';
-          parser.diagnostics.push(
+          parser.onError(
             createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
           );
         }
@@ -550,7 +550,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
           cp = 0x10000 + ((cp & 0x3ff) << 10) + (lead & 0x3ff);
           if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
-            parser.diagnostics.push(
+            parser.onError(
               createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
             );
           }
@@ -560,7 +560,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           return SyntaxKind.Identifier;
         }
 
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
 

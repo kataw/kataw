@@ -267,32 +267,6 @@
     "text": "'use strict'; async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 75,
-            "end": 78
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 75,
-            "end": 78
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 81,
-            "end": 87
-        }
-    ],
     "start": 0,
     "end": 87
 }

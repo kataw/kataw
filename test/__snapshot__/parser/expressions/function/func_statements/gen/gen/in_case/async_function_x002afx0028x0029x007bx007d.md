@@ -135,7 +135,6 @@ switch (x) {
     "text": "switch (x) {\n  case foo:\n    async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 52
 }

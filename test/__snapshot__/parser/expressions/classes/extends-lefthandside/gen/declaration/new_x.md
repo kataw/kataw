@@ -88,7 +88,6 @@ class A extends new x {}
     "text": "class A extends new x {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

@@ -81,16 +81,6 @@
     "text": "(x--, y) => x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 8,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 14
 }

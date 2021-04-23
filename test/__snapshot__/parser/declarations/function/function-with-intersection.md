@@ -178,7 +178,6 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
     "text": "function x(a: | 1 | 2, b: & 3 & 4): number {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

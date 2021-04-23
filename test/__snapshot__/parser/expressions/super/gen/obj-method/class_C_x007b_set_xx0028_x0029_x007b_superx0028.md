@@ -232,48 +232,6 @@
     "text": "({ method() { class C { set x(_) { super( } })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 40,
-            "end": 41
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 41,
-            "end": 43
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 45,
-            "end": 46
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 45,
-            "end": 46
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 45,
-            "end": 46
-        }
-    ],
     "start": 0,
     "end": 46
 }

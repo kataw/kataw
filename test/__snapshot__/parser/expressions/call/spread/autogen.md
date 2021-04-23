@@ -160,48 +160,6 @@ function fn() {} fn( # );
     "text": "function fn() { 'use strict';} fn( # );",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 69,
-            "error": "Private identifiers are not allowed outside class_bodies",
-            "start": 34,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 36,
-            "end": 38
-        }
-    ],
     "start": 0,
     "end": 39
 }

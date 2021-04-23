@@ -81,16 +81,6 @@
     "text": "(async\n => async)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 84,
-            "error": "Line terminator not permitted before arrow",
-            "start": 6,
-            "end": 10
-        }
-    ],
     "start": 0,
     "end": 17
 }

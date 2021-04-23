@@ -149,56 +149,6 @@
     "text": "{ function * await(yield x) ; {",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 57,
-            "error": "`Yield` expression cannot be used in function parameters",
-            "start": 19,
-            "end": 24
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 24,
-            "end": 26
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 31,
-            "end": 31
-        }
-    ],
     "start": 0,
     "end": 31
 }

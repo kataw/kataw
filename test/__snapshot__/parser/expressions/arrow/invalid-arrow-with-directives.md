@@ -3144,40 +3144,6 @@
     "text": "\"use strict\"; (a = yield) => {};\n\"use strict\"; (a = yield /a/g) => {};\n\"use strict\"; yield => {};\n\"use strict\"; (yield) => {};\n\"use strict\"; (yield = 0) => {};\n\"use strict\"; ([yield]) => {};\n\"use strict\"; ([yield = 0]) => {};\n\"use strict\"; ([...yield]) => {};\n\"use strict\"; ({a: yield}) => {};\n\"use strict\"; ({yield}) => {};\n\"use strict\"; ({yield = 0}) => {};\n\"use strict\"; () => yield;\n\"use strict\"; () => yield /a/g;\n\"use strict\"; () => { var x = yield; };\n\"use strict\"; () => { var x = yield /a/g; };\n\"use strict\"; () => { var yield; };\n\"use strict\"; () => { var yield = 0; };\n\"use strict\"; () => { var [yield] = []; };\n\"use strict\"; () => { var [yield = 0] = []; };\n\"use strict\"; () => { var [...yield] = []; };\n\"use strict\"; () => { var {a: yield} = {}; };\n\"use strict\"; () => { var {yield} = {}; };\n\"use strict\"; () => { var {yield = 0} = {}; };\n\"use strict\"; () => { let yield; };\n\"use strict\"; () => { let yield = 0; };\n\"use strict\"; () => { let [yield] = []; };\n\"use strict\"; () => { let [yield = 0] = []; };\n\"use strict\"; () => { let [...yield] = []; };\n\"use strict\"; () => { let {a: yield} = {}; };\n\"use strict\"; () => { let {yield} = {}; };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 11,
-            "error": "Identifier expected. 'let' is a reserved word in strict mode",
-            "start": 877,
-            "end": 883
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 877,
-            "end": 883
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 11,
-            "error": "Identifier expected. 'let' is a reserved word in strict mode",
-            "start": 913,
-            "end": 919
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 913,
-            "end": 919
-        }
-    ],
     "start": 0,
     "end": 1152
 }

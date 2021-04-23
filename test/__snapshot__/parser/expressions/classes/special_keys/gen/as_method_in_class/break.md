@@ -107,7 +107,6 @@ class x {break(){}}
     "text": "class x {break(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

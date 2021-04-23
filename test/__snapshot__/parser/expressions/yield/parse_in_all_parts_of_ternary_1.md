@@ -170,7 +170,6 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
     "text": "function *f() { (yield 1) ? yield 2 : yield 3; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 48
 }

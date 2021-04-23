@@ -126,7 +126,6 @@ for ({a: b.c} in d) e
     "text": "for ({a: b.c} in d) e",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

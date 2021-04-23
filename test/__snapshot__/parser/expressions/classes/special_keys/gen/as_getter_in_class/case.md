@@ -112,7 +112,6 @@ class x {get case(){}}
     "text": "class x {get case(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

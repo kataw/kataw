@@ -107,7 +107,6 @@ class x {* new(){}}
     "text": "class x {* new(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

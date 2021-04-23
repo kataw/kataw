@@ -72,16 +72,6 @@
     "text": "(!3 ** 2)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 14,
-            "error": "Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses",
-            "start": 3,
-            "end": 6
-        }
-    ],
     "start": 0,
     "end": 9
 }

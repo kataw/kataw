@@ -95,7 +95,6 @@ async () => {  st\u0061tic = x  }
     "text": "async () => {  st\\u0061tic = x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

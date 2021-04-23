@@ -117,7 +117,6 @@ class x {static async * extends(){}}
     "text": "class x {static async * extends(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

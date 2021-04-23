@@ -107,7 +107,6 @@ class x {continue(){}}
     "text": "class x {continue(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

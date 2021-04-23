@@ -186,7 +186,6 @@ function foo(callback: (_1:bool, _2:string) => number){}
     "text": "function foo(callback: (_1:bool, _2:string) => number){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 56
 }

@@ -120,7 +120,6 @@ for (function(){ }[foo] of x);
     "text": "for (function(){ }[foo] of x);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

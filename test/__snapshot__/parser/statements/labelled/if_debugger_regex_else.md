@@ -127,32 +127,6 @@ function x(){
     "text": "function x(){\n  if (x)\n    debugger\n    / /;\n  else;\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 44,
-            "end": 51
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 44,
-            "end": 51
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 52,
-            "end": 54
-        }
-    ],
     "start": 0,
     "end": 54
 }

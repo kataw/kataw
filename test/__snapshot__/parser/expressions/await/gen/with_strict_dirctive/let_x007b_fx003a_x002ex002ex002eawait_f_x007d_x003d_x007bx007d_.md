@@ -145,16 +145,6 @@
     "text": "'use strict'; let { f: ...await f } = {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 31,
-            "end": 33
-        }
-    ],
     "start": 0,
     "end": 41
 }

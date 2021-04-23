@@ -57,16 +57,6 @@ new new.target
     "text": "new new.target",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 8,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 14
 }

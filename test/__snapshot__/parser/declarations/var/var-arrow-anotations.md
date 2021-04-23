@@ -2225,7 +2225,6 @@ class Array { concat(items:number | string) {}; }
     "text": "var a: number[];\n\nvar a: Map<string, Array<string>>;\n\nvar a: Map<string, Array<string> >;\n\nvar x: typeof Y = Y;\n\nvar x : () => number | () => string = fn;\n\nvar foo = bar ? (foo) : number => {} : baz;\n\nvar a: {numVal: number;};\n\nvar foo = bar ? (foo) : number;\n\nvar foo = ((bar): number => bar);\n\nvar foo = ((): number => bar);\n\nvar foo = async (bar): number => bar;\n\nvar foo = async (): number => bar;\n\nvar foo = async (foo: bar, bar: foo) => {}\n\nvar foo = (): number => bar;\n\nvar a: {param1: number; param2?: string}\n\nvar [x]: Array<string> = [ \"hello\" ];\n\nvar {x}: {x: string } = { x: \"hello\" };\n\nvar {x}: {x: string; } = { x: \"hello\" };\n\nvar a: ?{numVal: number};\n\nvar x: typeof Y | number = Y;\n\nvar a: {subObj: {strVal: string}}\n\nclass Array { concat(items:number | string) {}; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 783
 }

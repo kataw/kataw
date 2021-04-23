@@ -544,7 +544,6 @@
     "text": "({throw(x, y) {}});\n({package(x, y) {}});\n({package(x, y) {}});\n({this(x, y) {}});\n({switch(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 103
 }

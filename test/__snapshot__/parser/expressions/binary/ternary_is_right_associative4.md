@@ -122,7 +122,6 @@ a ? b ** x : c ? d : e
     "text": "a ? b ** x : c ? d : e",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

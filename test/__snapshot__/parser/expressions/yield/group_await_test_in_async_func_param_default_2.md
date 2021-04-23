@@ -191,16 +191,6 @@ async function f(){    async function g(x=(await z)=y){}   }
     "text": "async function f(){    async function g(x=(await z)=y){}   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 51,
-            "end": 52
-        }
-    ],
     "start": 0,
     "end": 60
 }

@@ -129,7 +129,6 @@ const x = 1
     "text": "for (var x;;);\nconst x = 1",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

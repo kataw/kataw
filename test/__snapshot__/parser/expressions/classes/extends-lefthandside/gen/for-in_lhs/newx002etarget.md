@@ -64,16 +64,6 @@ for (new.target in x) ;
     "text": "for (new.target in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 9,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 23
 }

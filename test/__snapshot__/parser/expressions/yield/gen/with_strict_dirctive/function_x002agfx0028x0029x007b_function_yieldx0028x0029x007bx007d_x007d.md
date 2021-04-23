@@ -141,7 +141,6 @@
     "text": "'use strict'; function *gf(){ function yield(){}; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 51
 }

@@ -209,16 +209,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
     "text": "function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 82,
-            "end": 83
-        }
-    ],
     "start": 0,
     "end": 83
 }

@@ -48,7 +48,6 @@ tag`some \" quote`;
     "text": "tag`some \\\" quote`;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

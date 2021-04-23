@@ -48,7 +48,6 @@ foo`H\x45Y`
     "text": "foo`H\\x45Y`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 11
 }

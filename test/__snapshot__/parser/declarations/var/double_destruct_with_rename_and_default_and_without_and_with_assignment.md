@@ -195,16 +195,6 @@ var {x:y=z}, {a:b=c} = obj;
     "text": "var {x:y=z}, {a:b=c} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 12,
-            "error": "Missing initializer in destructuring declaration",
-            "start": 11,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 27
 }

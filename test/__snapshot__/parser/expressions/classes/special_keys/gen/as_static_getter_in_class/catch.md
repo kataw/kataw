@@ -117,7 +117,6 @@ class x {static get catch(){}}
     "text": "class x {static get catch(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

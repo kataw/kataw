@@ -112,7 +112,6 @@ class x {async extends(){}}
     "text": "class x {async extends(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

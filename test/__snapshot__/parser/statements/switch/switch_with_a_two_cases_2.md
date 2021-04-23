@@ -146,7 +146,6 @@ switch (A) {case B: C; break; case D: E; break;}
     "text": "switch (A) {case B: C; break; case D: E; break;}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 48
 }

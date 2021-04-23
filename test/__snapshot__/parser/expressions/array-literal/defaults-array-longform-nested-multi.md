@@ -235,7 +235,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
     "text": "var {x: x, y: y, z: { a: a = 10} } = b;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

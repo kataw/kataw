@@ -46,7 +46,6 @@ delete.500
     "text": "delete.500",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 10
 }

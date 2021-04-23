@@ -206,7 +206,6 @@
     "text": "'use strict'; (function * () { x = class extends (a ? null : yield) { } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 75
 }

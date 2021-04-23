@@ -141,7 +141,6 @@ function * gen() { function not_gen() { yield /* comment */ }}
     "text": "function * gen() { function not_gen() { yield /* comment */ }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 62
 }

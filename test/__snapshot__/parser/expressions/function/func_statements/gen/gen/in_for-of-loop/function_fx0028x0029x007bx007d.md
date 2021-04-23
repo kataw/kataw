@@ -101,16 +101,6 @@ for (a of b) function f(){}
     "text": "for (a of b) function f(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 21,
-            "error": "Function declarations are not allowed in an arbitrary statement position.",
-            "start": 12,
-            "end": 21
-        }
-    ],
     "start": 0,
     "end": 27
 }

@@ -92,7 +92,6 @@
     "text": "(function() {\n  \"asterisk: \\052\";\n  \"use strict\";\n});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 53
 }

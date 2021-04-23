@@ -117,7 +117,6 @@ class A extends async function *(){} {}
     "text": "class A extends async function *(){} {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

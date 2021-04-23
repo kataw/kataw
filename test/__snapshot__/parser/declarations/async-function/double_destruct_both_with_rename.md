@@ -155,7 +155,6 @@ let {x : y, z : a} = obj;
     "text": "let {x : y, z : a} = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

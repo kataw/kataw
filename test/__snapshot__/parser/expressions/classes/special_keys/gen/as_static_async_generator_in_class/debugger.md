@@ -117,7 +117,6 @@ class x {static async * debugger(){}}
     "text": "class x {static async * debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

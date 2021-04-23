@@ -173,7 +173,6 @@ class C { #aaa
     "text": "class C { #aaa; #bbb }\n\nclass C { #aaa\n #bbb }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 46
 }

@@ -278,40 +278,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
     "text": "var await; var f = (async function() { let x = function f(foo = await bar){ });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 69,
-            "end": 73
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 77,
-            "end": 78
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 77,
-            "end": 78
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 77,
-            "end": 78
-        }
-    ],
     "start": 0,
     "end": 79
 }

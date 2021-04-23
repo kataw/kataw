@@ -145,7 +145,6 @@ var y = { \u0066inally: x } = { finally: 42 };
     "text": "var y = { \\u0066inally: x } = { finally: 42 };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 46
 }

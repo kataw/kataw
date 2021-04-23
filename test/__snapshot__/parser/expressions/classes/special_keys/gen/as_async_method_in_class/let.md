@@ -112,7 +112,6 @@ class x {async let(){}}
     "text": "class x {async let(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

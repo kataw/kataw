@@ -130,7 +130,6 @@ function *P(){
     "text": "function *P(){\n  class D extends false {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 43
 }

@@ -136,7 +136,6 @@ let {[x]: y = z} = a;
     "text": "let {[x]: y = z} = a;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

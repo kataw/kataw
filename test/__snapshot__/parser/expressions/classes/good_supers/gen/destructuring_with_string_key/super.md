@@ -220,32 +220,6 @@ class x extends y {
     "text": "class x extends y {\n  constructor() {\n    ({\"foo\": super} = x)\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 56,
-            "end": 57
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 56,
-            "end": 57
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 57,
-            "end": 59
-        }
-    ],
     "start": 0,
     "end": 68
 }

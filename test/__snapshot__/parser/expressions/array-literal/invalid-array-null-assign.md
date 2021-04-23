@@ -87,16 +87,6 @@
     "text": "[null] = x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 24,
-            "error": "The left-hand side of an assignment expression must be a variable or a property access",
-            "start": 6,
-            "end": 8
-        }
-    ],
     "start": 0,
     "end": 10
 }

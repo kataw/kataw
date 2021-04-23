@@ -112,7 +112,6 @@ class x {get instanceof(){}}
     "text": "class x {get instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

@@ -131,7 +131,6 @@
     "text": "({ident: [foo, bar].join(\"\")})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

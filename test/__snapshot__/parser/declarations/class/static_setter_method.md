@@ -151,7 +151,6 @@ class A {static set 10(x){}}
     "text": "class A {static set 10(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

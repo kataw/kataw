@@ -128,7 +128,6 @@ function *f(){ return [...yield]; }
     "text": "function *f(){ return [...yield]; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

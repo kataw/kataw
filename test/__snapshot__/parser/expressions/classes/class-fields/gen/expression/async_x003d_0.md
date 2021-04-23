@@ -109,16 +109,6 @@ class C extends Base { async = 0 }
     "text": "class C extends Base { async = 0 }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 28,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 34
 }

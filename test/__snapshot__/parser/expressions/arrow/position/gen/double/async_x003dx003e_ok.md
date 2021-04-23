@@ -132,16 +132,6 @@ async => ok async => ok
     "text": "async => ok async => ok",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 23
 }

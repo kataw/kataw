@@ -112,7 +112,6 @@ class x {async while(){}}
     "text": "class x {async while(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

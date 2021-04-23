@@ -128,7 +128,6 @@ x = {arrow: async => ok}
     "text": "x = {arrow: async => ok}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

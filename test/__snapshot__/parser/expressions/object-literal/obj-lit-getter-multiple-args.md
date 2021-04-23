@@ -106,16 +106,6 @@
     "text": "({ get x(y){} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 42,
-            "error": "A 'get' accessor cannot have parameters.",
-            "start": 9,
-            "end": 10
-        }
-    ],
     "start": 0,
     "end": 16
 }

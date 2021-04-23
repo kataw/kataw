@@ -247,16 +247,6 @@ class C { set x(_) { var f = function*() { super(); } } }
     "text": "class C { set x(_) { var f = function*() { super(); } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 48,
-            "end": 49
-        }
-    ],
     "start": 0,
     "end": 57
 }

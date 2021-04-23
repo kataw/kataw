@@ -143,16 +143,6 @@ async function p(){
     "text": "async function p(){\n  class C extends delete x {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 43,
-            "error": "'delete' cannot be called on an identifier in strict mode.",
-            "start": 46,
-            "end": 48
-        }
-    ],
     "start": 0,
     "end": 51
 }

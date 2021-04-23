@@ -123,7 +123,6 @@ let f = async
     "text": "let f = async\n (g = await foo) => g",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

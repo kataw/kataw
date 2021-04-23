@@ -286,32 +286,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
     "text": "function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 78,
-            "end": 85
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 92,
-            "end": 94
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 94,
-            "end": 95
-        }
-    ],
     "start": 0,
     "end": 95
 }

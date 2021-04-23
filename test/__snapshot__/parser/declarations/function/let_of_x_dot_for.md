@@ -89,16 +89,6 @@ for (let.foo of x);
     "text": "for (let.foo of x);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 11,
-            "error": "Identifier expected. 'let' is a reserved word in strict mode",
-            "start": 12,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 19
 }

@@ -165,7 +165,6 @@
     "text": "'use strict'; function f() { class C { yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 54
 }

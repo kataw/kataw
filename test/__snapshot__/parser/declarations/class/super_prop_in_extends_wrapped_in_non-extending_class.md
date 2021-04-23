@@ -193,7 +193,6 @@ class a { foo(){      class x extends super.foo {}    }}
     "text": "class a { foo(){      class x extends super.foo {}    }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 56
 }

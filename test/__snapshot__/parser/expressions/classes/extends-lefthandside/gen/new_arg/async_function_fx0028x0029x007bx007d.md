@@ -95,7 +95,6 @@ new async function f(){}
     "text": "new async function f(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

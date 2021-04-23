@@ -112,7 +112,6 @@ class x {get finally(){}}
     "text": "class x {get finally(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -74,7 +74,6 @@ class A extends false {}
     "text": "class A extends false {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

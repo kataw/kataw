@@ -107,24 +107,6 @@ class x extends function {}
     "text": "class x extends function {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 24,
-            "end": 26
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 27
-        }
-    ],
     "start": 0,
     "end": 27
 }

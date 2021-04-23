@@ -71,7 +71,6 @@ type foo<number> = string;
     "text": "type foo<number> = string;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

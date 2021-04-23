@@ -177,7 +177,6 @@ class C { #aaa; f(obj) { obj.#aaa } }
     "text": "class C { #aaa; f(obj) { obj.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

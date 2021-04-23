@@ -228,48 +228,6 @@ class Foo {
     "text": "class Foo {\n  #x;\n  constructor() {\n    delete this?.#x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 70,
-            "error": "Tagged template expressions are not permitted in an optional chain.",
-            "start": 53,
-            "end": 55
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 53,
-            "end": 55
-        },
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 55,
-            "end": 62
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 62,
-            "end": 62
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 62,
-            "end": 62
-        }
-    ],
     "start": 0,
     "end": 62
 }

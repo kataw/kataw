@@ -74,7 +74,6 @@ async = 5 + 5;
     "text": "async = 5 + 5;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 14
 }

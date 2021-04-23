@@ -133,7 +133,6 @@ const [foo=a, bar] = arr;
     "text": "const [foo=a, bar] = arr;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

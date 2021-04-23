@@ -182,24 +182,6 @@ class x extends y {
     "text": "class x extends y {\n  constructor() {\n    super?.(foo)\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 47,
-            "end": 49
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 47,
-            "end": 49
-        }
-    ],
     "start": 0,
     "end": 60
 }

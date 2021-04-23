@@ -111,7 +111,6 @@ type Foo<T> = Bar<T>
     "text": "type Foo<T> = Bar<T>",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

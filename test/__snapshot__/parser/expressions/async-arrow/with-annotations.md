@@ -175,7 +175,6 @@ async ([a]:string)=>c;
     "text": "async (a:string)=>c;\n\nasync ([a]:string)=>c;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

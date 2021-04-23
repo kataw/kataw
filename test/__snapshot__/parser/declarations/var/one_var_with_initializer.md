@@ -106,7 +106,6 @@ var [foo=a] = arr;
     "text": "var [foo=a] = arr;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

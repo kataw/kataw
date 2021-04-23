@@ -157,7 +157,6 @@ class x{[yield](a){}}
     "text": "\"use strict\";\nclass x{[yield](a){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

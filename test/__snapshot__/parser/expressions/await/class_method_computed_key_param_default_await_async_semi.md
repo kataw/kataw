@@ -309,7 +309,6 @@ async function f(){
     "text": "async function f(){\n  (fail = class A {\n    [x](y=await){};\n    \"x\"(){}\n  }) => {\n  };\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 88
 }

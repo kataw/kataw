@@ -209,7 +209,6 @@ function * gen() { function not_gen() { function *a(){yield 2e308} }}
     "text": "function * gen() { function not_gen() { function *a(){yield 2e308} }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 69
 }

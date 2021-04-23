@@ -125,56 +125,6 @@ class C extends Base { a\n get }
     "text": "class C extends Base { a\\n get }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 22,
-            "end": 24
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 24,
-            "end": 24
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 24,
-            "end": 25
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 24,
-            "end": 25
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 26,
-            "end": 30
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 30,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 32
 }

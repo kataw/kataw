@@ -92,7 +92,6 @@ class C { aaa }
     "text": "class C { aaa }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

@@ -110,24 +110,6 @@ function *f() {
     "text": "function *f() {\n  yield\n  *\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 15,
-            "error": "Expression expected",
-            "start": 23,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 27,
-            "end": 29
-        }
-    ],
     "start": 0,
     "end": 29
 }

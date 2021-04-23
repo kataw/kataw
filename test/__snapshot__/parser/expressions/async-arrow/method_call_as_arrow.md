@@ -156,16 +156,6 @@ async ({ident: [foo, bar].join("")}) => x
     "text": "async ({ident: [foo, bar].join(\"\")}) => x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 36,
-            "end": 39
-        }
-    ],
     "start": 0,
     "end": 41
 }

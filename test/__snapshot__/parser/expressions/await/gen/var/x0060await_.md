@@ -111,32 +111,6 @@ var await; var f = (async function() { `await; });
     "text": "var await; var f = (async function() { `await; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 50
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 50
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 50
-        }
-    ],
     "start": 0,
     "end": 50
 }

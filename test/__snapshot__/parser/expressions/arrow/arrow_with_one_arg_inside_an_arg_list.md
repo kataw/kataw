@@ -147,7 +147,6 @@ f(((a) => a + b)(1, 4), 5);
     "text": "f(((a) => a + b)(1, 4), 5);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

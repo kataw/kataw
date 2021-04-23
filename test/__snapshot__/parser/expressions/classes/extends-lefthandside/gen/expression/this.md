@@ -84,7 +84,6 @@
     "text": "(class B extends this {})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

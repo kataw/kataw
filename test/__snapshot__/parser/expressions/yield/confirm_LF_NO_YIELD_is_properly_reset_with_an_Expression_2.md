@@ -134,7 +134,6 @@ function *g(){ return x + (yield f); }
     "text": "function *g(){ return x + (yield f); }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 38
 }

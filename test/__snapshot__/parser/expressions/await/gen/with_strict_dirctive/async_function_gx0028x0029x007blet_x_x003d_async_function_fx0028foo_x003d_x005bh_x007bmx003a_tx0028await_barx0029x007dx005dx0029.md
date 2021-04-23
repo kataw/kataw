@@ -289,7 +289,6 @@
     "text": "'use strict'; async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 94
 }

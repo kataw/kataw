@@ -182,7 +182,6 @@ var a: { id<T>(x: T): T; }
     "text": "var a: { id<T>(x: T): T; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

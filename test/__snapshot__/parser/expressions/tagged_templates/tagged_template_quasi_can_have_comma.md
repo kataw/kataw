@@ -88,7 +88,6 @@ y`${y,0}`
     "text": "y`${y,0}`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 9
 }

@@ -133,7 +133,6 @@ class A {set 9(x){}}
     "text": "class A {set 9(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

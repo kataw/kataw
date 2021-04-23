@@ -107,7 +107,6 @@ class x {* protected(){}}
     "text": "class x {* protected(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

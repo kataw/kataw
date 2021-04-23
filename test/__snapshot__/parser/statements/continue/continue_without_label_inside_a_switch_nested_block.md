@@ -98,16 +98,6 @@ switch (x) { case x: {continue;} }
     "text": "switch (x) { case x: {continue;} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 45,
-            "error": "A 'continue' statement can only be used within an enclosing iteration statement.",
-            "start": 22,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 34
 }

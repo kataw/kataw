@@ -112,7 +112,6 @@ class x {async eval(){}}
     "text": "class x {async eval(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

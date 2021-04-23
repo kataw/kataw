@@ -76,24 +76,6 @@
     "text": "(...x,) => x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 19,
-            "error": "A rest parameter must be last in a parameter list",
-            "start": 5,
-            "end": 6
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 19,
-            "error": "A rest parameter must be last in a parameter list",
-            "start": 5,
-            "end": 6
-        }
-    ],
     "start": 0,
     "end": 12
 }

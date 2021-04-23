@@ -117,7 +117,6 @@ class x {static get extends(){}}
     "text": "class x {static get extends(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

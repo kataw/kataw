@@ -112,7 +112,6 @@ class x {static void(){}}
     "text": "class x {static void(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

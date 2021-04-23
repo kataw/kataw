@@ -135,7 +135,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
     "text": "foo: bar: do { do continue foo; while(z); } while(z)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 52
 }

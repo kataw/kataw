@@ -272,7 +272,6 @@ var await; var f = (async function() { (class { static async method(...await) {}
     "text": "var await; var f = (async function() { (class { static async method(...await) {} }) });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 87
 }

@@ -75,7 +75,6 @@ class x extends enum {}
     "text": "class x extends enum {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

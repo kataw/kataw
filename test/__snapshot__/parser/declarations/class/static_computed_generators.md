@@ -133,7 +133,6 @@ class x { static *[expr](){} }
     "text": "class x { static *[expr](){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

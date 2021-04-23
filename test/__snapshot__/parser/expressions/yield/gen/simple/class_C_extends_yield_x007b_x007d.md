@@ -75,7 +75,6 @@ class C extends yield { }
     "text": "class C extends yield { }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

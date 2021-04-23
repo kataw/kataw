@@ -112,7 +112,6 @@ class x {static if(){}}
     "text": "class x {static if(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

@@ -1720,7 +1720,6 @@
     "text": "(x = { \"a\": x = y }) / y.z;\n(x = { \"a\": (x) = y }) / y.z;\n(x = { \"a\": x = (y) }) / y.z;\n(x = { \"a\": (x = (y)) }) / y.z;\n(x = { [a]: {x} = y }) / y.z;\n(x = { [a]: x = y }) / y.z;\n(x = { [a]: (x) = y }) / y.z;\n(x = { [a]: x = (y) }) / y.z;\n(x = { [a]: (x = (y)) }) / y.z;\n({  ...1 in {} });\n({ set foo(b){}, set bar(d){} });\n({ set foo(c){}, bar(){} });\n({ foo: typeof x });\n({ foo: true / false });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 397
 }

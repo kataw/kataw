@@ -154,16 +154,6 @@ class x {    async async get f(x){}    }
     "text": "class x {    async async get f(x){}    }\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 42,
-            "error": "A 'get' accessor cannot have parameters.",
-            "start": 31,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 41
 }

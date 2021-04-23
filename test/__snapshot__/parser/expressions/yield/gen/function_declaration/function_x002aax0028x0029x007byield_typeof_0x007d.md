@@ -167,16 +167,6 @@ function not_gen() { function *a(){yield typeof 0} }}
     "text": "function not_gen() { function *a(){yield typeof 0} }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 52,
-            "end": 53
-        }
-    ],
     "start": 0,
     "end": 53
 }

@@ -115,7 +115,6 @@ class A extends async a => b {}
     "text": "class A extends async a => b {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

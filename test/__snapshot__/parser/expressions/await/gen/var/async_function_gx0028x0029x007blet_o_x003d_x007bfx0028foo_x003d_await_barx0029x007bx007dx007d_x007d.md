@@ -340,16 +340,6 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
     "text": "var await; var f = (async function() { async function g(){let o = {f(foo = await bar){}}    } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 80,
-            "end": 84
-        }
-    ],
     "start": 0,
     "end": 97
 }

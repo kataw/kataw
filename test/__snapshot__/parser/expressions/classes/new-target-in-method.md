@@ -142,16 +142,6 @@ class A {a(x=new.target){}}
     "text": "class A {a(x=new.target){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 17,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 27
 }

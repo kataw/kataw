@@ -151,24 +151,6 @@
     "text": "(...x = y) => x;\n\n(...x = 10) => {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 5,
-            "end": 7
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 23,
-            "end": 25
-        }
-    ],
     "start": 0,
     "end": 36
 }

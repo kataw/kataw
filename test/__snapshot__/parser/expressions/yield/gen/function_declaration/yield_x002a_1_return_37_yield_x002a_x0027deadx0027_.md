@@ -161,16 +161,6 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
     "text": "function not_gen() { yield * 1; return 37; yield * 'dead'; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 60,
-            "end": 61
-        }
-    ],
     "start": 0,
     "end": 61
 }

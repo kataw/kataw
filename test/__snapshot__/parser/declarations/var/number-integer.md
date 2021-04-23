@@ -79,7 +79,6 @@ var a: 123
     "text": "var a: 123",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 10
 }

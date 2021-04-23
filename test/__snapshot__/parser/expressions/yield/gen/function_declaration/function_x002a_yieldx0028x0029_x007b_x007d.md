@@ -126,16 +126,6 @@ function not_gen() { function * yield() { } }}
     "text": "function not_gen() { function * yield() { } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 45,
-            "end": 46
-        }
-    ],
     "start": 0,
     "end": 46
 }

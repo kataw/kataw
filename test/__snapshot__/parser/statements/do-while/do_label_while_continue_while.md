@@ -100,7 +100,6 @@ do wow: while (x) continue wow; while (x)
     "text": "do wow: while (x) continue wow; while (x)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 41
 }

@@ -140,24 +140,6 @@ class C { constructor() { super; } }
     "text": "class C { constructor() { super; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 31,
-            "end": 32
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 31,
-            "end": 32
-        }
-    ],
     "start": 0,
     "end": 36
 }

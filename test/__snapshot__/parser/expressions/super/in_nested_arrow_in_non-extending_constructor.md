@@ -175,7 +175,6 @@ class x { constructor(){ return () => () => super.foo; }}
     "text": "class x { constructor(){ return () => () => super.foo; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 57
 }

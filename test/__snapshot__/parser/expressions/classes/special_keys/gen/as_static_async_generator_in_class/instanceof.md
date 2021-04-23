@@ -117,7 +117,6 @@ class x {static async * instanceof(){}}
     "text": "class x {static async * instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 39
 }

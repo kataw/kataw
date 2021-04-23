@@ -192,7 +192,6 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
     "text": "function * gen() { function not_gen() { var foo = yield = 1; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 63
 }

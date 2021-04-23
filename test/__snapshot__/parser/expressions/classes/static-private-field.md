@@ -157,7 +157,6 @@ class A {
     "text": "class A {\n  static #private; }\n\n  class A {\n  static #private = x; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 68
 }

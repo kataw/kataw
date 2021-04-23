@@ -74,7 +74,6 @@ class A extends null {}
     "text": "class A extends null {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

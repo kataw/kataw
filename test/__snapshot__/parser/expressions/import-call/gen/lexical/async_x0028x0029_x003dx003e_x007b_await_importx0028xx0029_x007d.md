@@ -105,7 +105,6 @@ async () => { await import(x) }
     "text": "async () => { await import(x) }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

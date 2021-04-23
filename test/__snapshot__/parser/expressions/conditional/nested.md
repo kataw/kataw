@@ -149,7 +149,6 @@ z(z(z(a ? b : c++)));
     "text": "z(z(z(a ? b : c++)));",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

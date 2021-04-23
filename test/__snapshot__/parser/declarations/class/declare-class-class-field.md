@@ -188,7 +188,6 @@ declare class X {
     "text": "declare class X {\n  a: number;\n  static b: number;\n  c: number;\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 65
 }

@@ -190,7 +190,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
           // `x`, `X`
           case ZeroDigitKind.LetterX:
             if (type & 0b00000000000000000000000000001110) {
-              parser.diagnostics.push(
+              parser.onError(
                 createDiagnosticError(
                   DiagnosticSource.Parser,
                   DiagnosticCode.Unexpected_token,
@@ -211,7 +211,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
               break;
             }
             if (type & 0b00000000000000000000000000001100) {
-              parser.diagnostics.push(
+              parser.onError(
                 createDiagnosticError(
                   DiagnosticSource.Lexer,
                   DiagnosticCode.Unexpected_token,
@@ -228,7 +228,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
           // `o`, `O`
           case ZeroDigitKind.LetterO:
             if (type & 0b00000000000000000000000000001110) {
-              parser.diagnostics.push(
+              parser.onError(
                 createDiagnosticError(
                   DiagnosticSource.Lexer,
                   DiagnosticCode.Unexpected_token,
@@ -262,7 +262,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
               val = val * 0b00000000000000000000000000010000 + toHex(cp);
               break;
             }
-            parser.diagnostics.push(
+            parser.onError(
               createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
             );
             break;
@@ -277,7 +277,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
               // '0b' and '__' are seen as invalid characters and should only be consumed.
 
               if (source.charCodeAt(pos + 1) === Char.Underscore) {
-                parser.diagnostics.push(
+                parser.onError(
                   createDiagnosticError(
                     DiagnosticSource.Lexer,
                     DiagnosticCode.Unexpected_token,
@@ -305,20 +305,20 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
       } while (AsciiCharTypes[cp] & (AsciiCharFlags.IsSeparator | AsciiCharFlags.Hex | AsciiCharFlags.OctHexBin));
 
       if (AsciiCharTypes[cp] & 0b00000000000000000000000000000011) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
         pos++; // skip invalid chars
       }
       if (type & 0b00000000000000000000000000001110 && digits <= 1) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
         // We can't avoid this branching if we want to avoid double diagnostics, or
         // we can but it will require use of 2x 'charCodeAt' and some unnecessary
         // property / member access.
       } else if ((state & SeparatorAndBigIntState.AllowSeparator) === 0) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
       }
@@ -341,13 +341,13 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
         }
       } while (cp >= Char.Zero && cp <= Char.Nine);
       if (cp === Char.Underscore) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
       }
 
       if (cp === Char.LowerN) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
       }
@@ -397,7 +397,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
 
   if (cp === Char.LowerN) {
     if (state & SeparatorAndBigIntState.DisallowBigInt) {
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
       );
     }
@@ -420,7 +420,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
     }
 
     if ((AsciiCharTypes[cp] & AsciiCharFlags.Decimal) === 0) {
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
       );
       // For cases like '1e!', '1e€' etc we do a 'parser.pos + 1' so we can consume the
@@ -439,7 +439,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
   // The SourceCharacter immediately following a NumericLiteral must not be an IdentifierStart or DecimalDigit.
   // For example : 3in is an error and not the two input elements 3 and in
   if ((AsciiCharTypes[cp] & 0b00000000000000000000000000000011) > 0) {
-    parser.diagnostics.push(
+    parser.onError(
       createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
     );
   }
@@ -464,7 +464,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
 
       // '__' (invalid)
       if (cp === Char.Underscore) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
         );
       }
@@ -476,7 +476,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
   }
 
   if (state & SeparatorAndBigIntState.AllowSeparator) {
-    parser.diagnostics.push(
+    parser.onError(
       createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
     );
   }
@@ -502,7 +502,7 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
     if (cp === Char.Plus || cp === Char.Hyphen) cp = source.charCodeAt(++parser.pos);
 
     if ((AsciiCharTypes[cp] & AsciiCharFlags.Decimal) === 0) {
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
       );
 
@@ -521,7 +521,7 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
   // The SourceCharacter immediately following a NumericLiteral must not be an IdentifierStart or DecimalDigit.
   // For example : 3in is an error and not the two input elements 3 and in
   if ((AsciiCharTypes[source.charCodeAt(parser.pos)] & 0b00000000000000000000000000000011) > 0) {
-    parser.diagnostics.push(
+    parser.onError(
       createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
     );
   }

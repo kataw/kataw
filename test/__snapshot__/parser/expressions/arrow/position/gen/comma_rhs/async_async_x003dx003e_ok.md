@@ -94,7 +94,6 @@ a, async async => ok
     "text": "a, async async => ok",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

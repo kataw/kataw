@@ -70,7 +70,6 @@ x = {5};
     "text": "x = {5};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 8
 }

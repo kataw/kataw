@@ -91,7 +91,6 @@ new async async => ok
     "text": "new async async => ok",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

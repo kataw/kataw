@@ -124,16 +124,6 @@ function not_gen() { class C extends yield { } }}
     "text": "function not_gen() { class C extends yield { } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 48,
-            "end": 49
-        }
-    ],
     "start": 0,
     "end": 49
 }

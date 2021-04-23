@@ -240,7 +240,6 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
     "text": "async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 67
 }

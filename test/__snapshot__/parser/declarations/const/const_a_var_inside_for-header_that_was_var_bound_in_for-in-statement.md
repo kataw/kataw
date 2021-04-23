@@ -144,7 +144,6 @@ for (const x in obj) { var x = 13 }
     "text": "for (const x in obj) { var x = 13 }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

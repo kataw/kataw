@@ -221,7 +221,6 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
     "text": "function * gen() { function not_gen() { function *a(){yield typeof 0} }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 72
 }

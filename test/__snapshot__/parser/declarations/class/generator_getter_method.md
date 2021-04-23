@@ -132,7 +132,6 @@ class A {* get "foo"(){}}
     "text": "class A {* get \"foo\"(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

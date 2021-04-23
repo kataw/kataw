@@ -130,7 +130,6 @@ class A {* get [x](){}}
     "text": "class A {* get [x](){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

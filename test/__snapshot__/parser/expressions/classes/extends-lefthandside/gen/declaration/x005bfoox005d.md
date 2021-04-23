@@ -90,7 +90,6 @@ class A extends [foo] {}
     "text": "class A extends [foo] {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

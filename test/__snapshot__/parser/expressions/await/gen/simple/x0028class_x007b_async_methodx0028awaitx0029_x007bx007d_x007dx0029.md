@@ -135,16 +135,6 @@
     "text": "(class { async method(await) {} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 58,
-            "error": "`Await` expression cannot be used in function parameters",
-            "start": 22,
-            "end": 27
-        }
-    ],
     "start": 0,
     "end": 34
 }

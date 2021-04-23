@@ -132,7 +132,6 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
     "text": "bar ? (eval => { 'use strict'; 0 }) : baz;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 42
 }

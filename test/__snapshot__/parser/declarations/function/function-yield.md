@@ -232,7 +232,6 @@ function *foo() {
     "text": "function *foo() {\n  const x = (yield 5: any);\n  x ? yield 1 : x;\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 66
 }

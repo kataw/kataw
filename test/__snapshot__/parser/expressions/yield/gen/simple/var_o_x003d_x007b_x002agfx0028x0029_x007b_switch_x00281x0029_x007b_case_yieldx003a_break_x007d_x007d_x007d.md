@@ -187,7 +187,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
     "text": "var o = { *gf() { switch (1) { case yield: break; } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 55
 }

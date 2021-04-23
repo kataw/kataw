@@ -152,7 +152,6 @@ class Foo { bar():this { return this; }}
     "text": "class Foo { bar():this { return this; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 40
 }

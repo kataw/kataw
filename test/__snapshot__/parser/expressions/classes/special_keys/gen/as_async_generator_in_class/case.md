@@ -112,7 +112,6 @@ class x {async * case(){}}
     "text": "class x {async * case(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

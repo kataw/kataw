@@ -171,24 +171,6 @@ async function p(){
     "text": "async function p(){\n  class C extends a + b {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 39,
-            "end": 41
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 43,
-            "end": 45
-        }
-    ],
     "start": 0,
     "end": 48
 }

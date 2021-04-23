@@ -152,7 +152,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
     "text": "var y = { prot\\u0065cted: x } = { protected: 42 };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 50
 }

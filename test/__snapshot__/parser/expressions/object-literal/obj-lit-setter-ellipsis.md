@@ -111,16 +111,6 @@
     "text": "({ set x(...y){} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 41,
-            "error": "A 'set' accessor cannot have rest parameter.",
-            "start": 9,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 19
 }

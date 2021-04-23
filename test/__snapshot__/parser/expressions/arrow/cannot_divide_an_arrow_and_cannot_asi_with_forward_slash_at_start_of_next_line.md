@@ -78,16 +78,6 @@ _ => {}
     "text": "_ => {}\n/foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 9
-        }
-    ],
     "start": 0,
     "end": 12
 }

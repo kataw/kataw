@@ -64,7 +64,6 @@ b
     "text": "a\n`foo\\r\\nbar`\nb",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

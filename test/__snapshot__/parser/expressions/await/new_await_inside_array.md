@@ -128,7 +128,6 @@ async function f(){ [new await foo] }
     "text": "async function f(){ [new await foo] }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

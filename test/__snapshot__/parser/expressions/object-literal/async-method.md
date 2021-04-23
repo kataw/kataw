@@ -870,7 +870,6 @@
     "text": "({ async *method([x] = g[Symbol.iterator] = function() {}) {} });\n({ async *method({ w: [x, y, z] = [4, 5, 6] } = {}) {} });\n({ async *method({ x: y = thrower() } = {}) {} });\n({ async *method([x = 23]) {} });\n({ async *method([_, x]) {} });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 241
 }

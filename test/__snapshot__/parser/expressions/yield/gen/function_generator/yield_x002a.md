@@ -161,16 +161,6 @@ function * gen() { function not_gen() { yield * }}
     "text": "function * gen() { function not_gen() { yield * }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 47,
-            "end": 49
-        }
-    ],
     "start": 0,
     "end": 50
 }

@@ -140,7 +140,6 @@ function not_gen() { function foo(yield) { }}
     "text": "function not_gen() { function foo(yield) { }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 45
 }

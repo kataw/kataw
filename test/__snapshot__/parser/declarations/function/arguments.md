@@ -130,7 +130,6 @@ function f() {
     "text": "function f() {\n    var x=arguments[12];\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 41
 }

@@ -146,7 +146,6 @@ async function p(){
     "text": "async function p(){\n  class C extends fooo.bar {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 51
 }

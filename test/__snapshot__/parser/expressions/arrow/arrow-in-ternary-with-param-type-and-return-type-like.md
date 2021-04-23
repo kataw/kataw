@@ -136,7 +136,6 @@ test
     "text": "test\n  ? (x: T): U => y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

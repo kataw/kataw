@@ -108,7 +108,6 @@ class x { async *prototype(){} }
     "text": "class x { async *prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

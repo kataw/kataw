@@ -104,16 +104,6 @@ var asyncArrow = async(...await) => {};
     "text": "var asyncArrow = async(...await) => {};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 32,
-            "end": 35
-        }
-    ],
     "start": 0,
     "end": 39
 }

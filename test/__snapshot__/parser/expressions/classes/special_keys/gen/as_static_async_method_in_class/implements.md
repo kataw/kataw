@@ -117,7 +117,6 @@ class x {static async implements(){}}
     "text": "class x {static async implements(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 37
 }

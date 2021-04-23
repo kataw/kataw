@@ -145,7 +145,6 @@
     "text": "(class { static async method(...await) {} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

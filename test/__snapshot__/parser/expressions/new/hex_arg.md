@@ -77,7 +77,6 @@ new 0x2.__proto__.constructor
     "text": "new 0x2.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

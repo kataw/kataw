@@ -283,7 +283,6 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
     "text": "var await; var f = (async function() { function f() { class C { await() { } } } });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 83
 }

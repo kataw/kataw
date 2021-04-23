@@ -123,7 +123,6 @@ function f() {
     "text": "function f() {\n  new.target = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

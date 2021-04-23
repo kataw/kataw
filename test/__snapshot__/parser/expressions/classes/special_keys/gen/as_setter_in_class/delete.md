@@ -131,7 +131,6 @@ class x {set delete(x){}}
     "text": "class x {set delete(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

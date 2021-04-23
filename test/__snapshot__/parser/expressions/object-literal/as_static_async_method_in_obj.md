@@ -95,16 +95,6 @@
     "text": "({static async async(){}});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 8,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 27
 }

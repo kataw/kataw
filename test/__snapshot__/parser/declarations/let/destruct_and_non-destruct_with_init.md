@@ -131,7 +131,6 @@ let {x} = a, y = obj;
     "text": "let {x} = a, y = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

@@ -256,16 +256,6 @@ class x extends y {
     "text": "class x extends y {\n  constructor() {\n    ({\"foo\": #})\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 50,
-            "end": 52
-        }
-    ],
     "start": 0,
     "end": 60
 }

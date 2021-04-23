@@ -213,48 +213,6 @@ class C { #aaa; f(obj) { obj?.#aaa } }
     "text": "class C { #aaa; f(obj) { obj?.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 70,
-            "error": "Tagged template expressions are not permitted in an optional chain.",
-            "start": 30,
-            "end": 34
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 30,
-            "end": 34
-        },
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 34,
-            "end": 38
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 38
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 38,
-            "end": 38
-        }
-    ],
     "start": 0,
     "end": 38
 }

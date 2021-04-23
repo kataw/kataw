@@ -114,7 +114,6 @@ let foo, [bar] = arr2;
     "text": "let foo, [bar] = arr2;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

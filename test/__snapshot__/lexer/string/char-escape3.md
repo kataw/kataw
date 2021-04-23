@@ -66,7 +66,6 @@
     "text": "\"\\P\"\n;\n\"prefix\\Q\"\n;\n\"\\Rsuffix\"",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

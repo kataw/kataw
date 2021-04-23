@@ -112,7 +112,6 @@ x={..."foo".foo=x}
     "text": "x={...\"foo\".foo=x}\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

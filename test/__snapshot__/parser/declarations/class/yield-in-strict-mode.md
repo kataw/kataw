@@ -150,7 +150,6 @@ function* f() { class C { aaa = yield } }
     "text": "function* f() { class C { aaa = yield } }\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 42
 }

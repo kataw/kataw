@@ -145,7 +145,6 @@ let {a, [x]: y} = a;
     "text": "let {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

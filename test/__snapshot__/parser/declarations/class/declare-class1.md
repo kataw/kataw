@@ -133,7 +133,6 @@ type T2 = number;
     "text": "declare class C1 {}\n\ndeclare type T1 = number;\n\ntype T2 = number;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 65
 }

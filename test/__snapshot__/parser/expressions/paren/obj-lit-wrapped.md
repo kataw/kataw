@@ -3676,7 +3676,6 @@
     "text": "({ x = y } = {});\n({ x: [ x ] } = { x: null });\n({ x: { x } } = { x: null });\n({ x: { x } } = { x: undefined });\n({ x: { x } } = {});\n({ a: x } = {});\n({ x: [ x ] } = { x: undefined });\n({[(a)(x = (y))]: {}});\n({a = [b]} = 1 * (c = d));\n({a = [b]} = 1 * (d = (e)));\n({1: [b.c = x]} = 1 / (d = ((a)) = a));\n({1: [b.c = x]} = 2 / (dd = ((a)) = 3));\n({1: [b.c = x]} = 2 ** (dd = ((a)) = 3));\n({1: [b.c = x]} = 1 * (d = ((a)) = a));\n\n({a, a});\n({a, a: 1});\n({a: 1, a});\n({a: 1, a});\n({a: b = x} = d);\n({a: b = x} / d);\n({a: b * x});\n\n(x, {a, a});\n(x, {a, a: 1});\n(x, {a: 1, a});\n(x, {a: 1, a});\n(x, {a: b = x} = d);\n(x, {a: b = x} / d);\n(x, {a: b * x});\n\n({ test = 1 } = {});\n({x = 0} = 1);\n({x = 0,} = 1);\n({var: x} = 0);\n\n\n({b, c, d, ...{a} });\n((a)) = b;\n\n({}.length);\n({}.x);\n([].x);\n([x].foo) = x;\n\n({*15(){}});\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 813
 }

@@ -109,7 +109,6 @@
     "text": "(w, o, e, m) => { \"use strict\"; \"use strict\" }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 46
 }

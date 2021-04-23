@@ -103,7 +103,6 @@ for ({}.b in c) d;
     "text": "for ({}.b in c) d;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

@@ -127,7 +127,6 @@
     "text": "({ __proto__: null, set __proto__(x){} })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 41
 }

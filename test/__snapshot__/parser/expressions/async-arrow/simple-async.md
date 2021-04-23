@@ -70,16 +70,6 @@ async (x, ...a)=>0;
     "text": "async (x, ...a)=>0;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 31,
-            "error": "The left hand side of the arrow is not destructible ",
-            "start": 15,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 19
 }

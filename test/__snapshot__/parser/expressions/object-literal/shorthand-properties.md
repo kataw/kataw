@@ -178,7 +178,6 @@ var x = {
     "text": "var foo,\n    get,\n    set;\n\nvar x = {\n    foo,\n    get,\n    set\n};\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 67
 }

@@ -83,16 +83,6 @@ async (a=/i/) = /i/
     "text": "async (a=/i/) = /i/",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 13,
-            "end": 15
-        }
-    ],
     "start": 0,
     "end": 19
 }

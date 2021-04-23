@@ -127,7 +127,6 @@ class A {static constructor(){}}
     "text": "class A {static constructor(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 32
 }

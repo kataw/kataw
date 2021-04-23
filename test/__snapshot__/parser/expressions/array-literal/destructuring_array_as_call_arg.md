@@ -119,7 +119,6 @@ foo([a, b] = arr);
     "text": "foo([a, b] = arr);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

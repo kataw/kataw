@@ -104,7 +104,6 @@ var x = {
     "text": "var x = {\n    [bar]: foo\n};\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

@@ -57,16 +57,6 @@ for (/more crap/g in x) ;
     "text": "for (/more crap/g in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 20,
-            "end": 22
-        }
-    ],
     "start": 0,
     "end": 25
 }

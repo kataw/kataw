@@ -57,24 +57,6 @@ c\u006fnst = x;
     "text": "c\\u006fnst = x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 10,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 10,
-            "end": 12
-        }
-    ],
     "start": 0,
     "end": 15
 }

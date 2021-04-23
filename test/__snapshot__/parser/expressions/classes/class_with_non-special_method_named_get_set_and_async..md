@@ -205,7 +205,6 @@ class A {set(){} get(){} async(){}}
     "text": "class A {set(){} get(){} async(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

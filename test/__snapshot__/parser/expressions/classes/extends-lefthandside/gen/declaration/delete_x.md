@@ -87,16 +87,6 @@ class A extends delete x {}
     "text": "class A extends delete x {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 43,
-            "error": "'delete' cannot be called on an identifier in strict mode.",
-            "start": 24,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 27
 }

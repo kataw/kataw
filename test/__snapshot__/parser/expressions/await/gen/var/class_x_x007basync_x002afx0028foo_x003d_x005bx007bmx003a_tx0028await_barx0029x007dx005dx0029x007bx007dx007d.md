@@ -345,7 +345,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
     "text": "var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)}]){}} });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 90
 }

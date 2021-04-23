@@ -138,7 +138,6 @@ var x = {
     "text": "var x = {\n    \"foo\"() {\n        return bar;\n    }\n};\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 53
 }

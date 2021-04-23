@@ -112,7 +112,6 @@ class x {async instanceof(){}}
     "text": "class x {async instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

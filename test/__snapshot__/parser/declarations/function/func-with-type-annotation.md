@@ -153,7 +153,6 @@ function a<string>(x: string): string {
     "text": "function a<string>(x: string): string {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 53
 }

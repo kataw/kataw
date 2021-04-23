@@ -103,7 +103,6 @@ x *
     "text": "x *\n(async (x, y) => ok)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

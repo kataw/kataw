@@ -259,7 +259,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
     "text": "var {x: y, z: { a: b } } = { x: \"3\", z: { a: \"b\" } };",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 53
 }

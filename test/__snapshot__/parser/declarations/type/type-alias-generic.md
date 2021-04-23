@@ -100,7 +100,6 @@ type T<U> = U;
     "text": "type T<U> = U;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 14
 }

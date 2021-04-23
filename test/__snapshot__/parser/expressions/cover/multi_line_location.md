@@ -79,7 +79,6 @@ a = (
     "text": "a = (\n  b,\n  c\n)",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

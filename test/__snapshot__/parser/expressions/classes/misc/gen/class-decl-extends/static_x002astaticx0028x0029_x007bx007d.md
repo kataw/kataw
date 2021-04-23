@@ -132,7 +132,6 @@ class C extends Base { static *static() {} }
     "text": "class C extends Base { static *static() {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

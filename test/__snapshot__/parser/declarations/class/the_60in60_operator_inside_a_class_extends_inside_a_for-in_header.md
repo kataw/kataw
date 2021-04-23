@@ -163,56 +163,6 @@ for (class x extends a in b {} in c);
     "text": "for (class x extends a in b {} in c);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 22,
-            "end": 25
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 25,
-            "end": 27
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 30,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 35,
-            "end": 36
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 35,
-            "end": 36
-        }
-    ],
     "start": 0,
     "end": 37
 }

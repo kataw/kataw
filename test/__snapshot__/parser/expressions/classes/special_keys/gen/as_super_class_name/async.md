@@ -75,7 +75,6 @@ class x extends async {}
     "text": "class x extends async {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

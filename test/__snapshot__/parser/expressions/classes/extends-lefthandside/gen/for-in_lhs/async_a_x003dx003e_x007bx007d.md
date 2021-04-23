@@ -105,24 +105,6 @@ for (async a => {} in x) ;
     "text": "for (async a => {} in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 28,
-            "error": "An arrow function can not be part of an operator to the right",
-            "start": 18,
-            "end": 21
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 62,
-            "error": "Invalid left-hand side in for-in loop",
-            "start": 21,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 26
 }

@@ -521,7 +521,6 @@
     "text": "({set [\"a\"](x) {}});\n({set [0](x) {}});\n({set [0](x) { super.m(\"b\", v); }});\n({set [0](x) { super.m(\"1\", v); }});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 113
 }

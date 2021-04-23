@@ -134,7 +134,6 @@ x = {[ a > b instanceof c ]: y}
     "text": "x = {[ a > b instanceof c ]: y}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

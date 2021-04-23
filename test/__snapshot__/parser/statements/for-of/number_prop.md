@@ -97,7 +97,6 @@ for (456..x of c) d;
     "text": "for (456..x of c) d;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

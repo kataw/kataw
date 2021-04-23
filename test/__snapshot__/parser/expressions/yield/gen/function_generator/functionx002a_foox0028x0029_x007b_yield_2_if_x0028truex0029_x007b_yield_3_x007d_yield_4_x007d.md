@@ -307,7 +307,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
     "text": "function * gen() { function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 102
 }

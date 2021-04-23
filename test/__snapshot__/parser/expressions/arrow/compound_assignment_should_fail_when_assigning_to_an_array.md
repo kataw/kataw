@@ -113,16 +113,6 @@
     "text": "({ident: [foo, bar] += x})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 9,
-            "error": "Expression exprected. A compound assignment cannot follow an array literal",
-            "start": 19,
-            "end": 22
-        }
-    ],
     "start": 0,
     "end": 26
 }

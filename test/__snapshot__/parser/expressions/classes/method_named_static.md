@@ -103,7 +103,6 @@ class x{   static(){}   }
     "text": "class x{   static(){}   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

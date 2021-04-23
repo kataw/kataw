@@ -743,7 +743,6 @@
     "text": "({a = [b]} = c);\n({a = [b]} = \"a\");\n({a = [b]} = 1 / (c = d));\n({a = [b]} = 1 / (d = (e)));\n({\"a\": [b]} = 1 / (d = (e)));\n({[\"a\"]: [b]} = 1 / (d = (e)));",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 153
 }

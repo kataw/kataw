@@ -112,7 +112,6 @@ class x {get protected(){}}
     "text": "class x {get protected(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

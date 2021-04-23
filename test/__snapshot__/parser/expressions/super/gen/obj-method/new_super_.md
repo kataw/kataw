@@ -137,24 +137,6 @@
     "text": "({ method() { new super; } })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 23,
-            "end": 24
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 23,
-            "end": 24
-        }
-    ],
     "start": 0,
     "end": 29
 }

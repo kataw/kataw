@@ -194,7 +194,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
-  parser.diagnostics.push(
+  parser.onError(
     createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
   );
 
@@ -212,7 +212,7 @@ export function scanEscapeSequence(
   const start = parser.pos;
   parser.pos++;
   if (parser.pos >= parser.end) {
-    parser.diagnostics.push(
+    parser.onError(
       createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
     );
     return '';
@@ -249,7 +249,7 @@ export function scanEscapeSequence(
       }
 
       if (AsciiCharTypes[source.charCodeAt(parser.pos + 1)] & AsciiCharFlags.Decimal && context & Context.Strict) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Lexer,
             DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode,
@@ -267,7 +267,7 @@ export function scanEscapeSequence(
     case EscapeChars.Six:
     case EscapeChars.Seven: {
       if (context & Context.Strict) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Lexer,
             DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode,
@@ -282,7 +282,7 @@ export function scanEscapeSequence(
     // `8`, `9` (invalid escapes)
     case EscapeChars.Eigth:
     case EscapeChars.Nine:
-      parser.diagnostics.push(
+      parser.onError(
         createDiagnosticError(
           DiagnosticSource.Lexer,
           DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes,
@@ -340,7 +340,7 @@ export function scanEscapeSequence(
         let code = toHex(ch);
 
         if (code < 0) {
-          parser.diagnostics.push(
+          parser.onError(
             createDiagnosticError(
               DiagnosticSource.Lexer,
               DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -358,7 +358,7 @@ export function scanEscapeSequence(
           const digit = toHex(ch);
 
           if (digit < 0) {
-            parser.diagnostics.push(
+            parser.onError(
               createDiagnosticError(
                 DiagnosticSource.Lexer,
                 DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -373,7 +373,7 @@ export function scanEscapeSequence(
           // Check this early to avoid `code` wrapping to a negative on overflow (which is
           // reserved for abnormal conditions).
           if (code > Char.LastUnicodeChar) {
-            parser.diagnostics.push(
+            parser.onError(
               createDiagnosticError(
                 DiagnosticSource.Lexer,
                 DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF,
@@ -401,7 +401,7 @@ export function scanEscapeSequence(
       ch = source.charCodeAt(pos);
       let code = toHex(ch);
       if (code < 0) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Lexer,
             DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -416,7 +416,7 @@ export function scanEscapeSequence(
         ch = source.charCodeAt(++pos);
         const digit = toHex(ch);
         if (digit < 0) {
-          parser.diagnostics.push(
+          parser.onError(
             createDiagnosticError(
               DiagnosticSource.Lexer,
               DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -450,7 +450,7 @@ export function scanEscapeSequence(
       const hi = toHex(source.charCodeAt(parser.pos));
 
       if (hi < 0) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Lexer,
             DiagnosticCode.Invalid_hexadecimal_escape_sequence,
@@ -466,7 +466,7 @@ export function scanEscapeSequence(
       const lo = toHex(source.charCodeAt(parser.pos));
 
       if (lo < 0) {
-        parser.diagnostics.push(
+        parser.onError(
           createDiagnosticError(
             DiagnosticSource.Lexer,
             DiagnosticCode.Invalid_hexadecimal_escape_sequence,

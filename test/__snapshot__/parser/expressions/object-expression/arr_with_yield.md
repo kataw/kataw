@@ -103,7 +103,6 @@ result = [x[yield]] = vals;
     "text": "result = [x[yield]] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

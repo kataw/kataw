@@ -140,16 +140,6 @@ class A {static a(x=new.target){}}
     "text": "class A {static a(x=new.target){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 80,
-            "error": "'new.target' only allowed within functions",
-            "start": 24,
-            "end": 30
-        }
-    ],
     "start": 0,
     "end": 34
 }

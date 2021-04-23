@@ -130,7 +130,6 @@
     "text": "(class B extends async function f(){} {})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 41
 }

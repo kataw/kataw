@@ -120,7 +120,6 @@ function *f() {  return typeof yield foo;  }
     "text": "function *f() {  return typeof yield foo;  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 44
 }

@@ -240,7 +240,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
     "text": "function * gen() { function not_gen() { async function wrap() { async function await() { } }; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 96
 }

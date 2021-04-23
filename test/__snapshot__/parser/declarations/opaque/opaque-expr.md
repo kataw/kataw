@@ -107,7 +107,6 @@ opaque += 4;
     "text": "var opaque = 0;\nopaque += 4;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

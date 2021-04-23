@@ -117,7 +117,6 @@ class x {static get if(){}}
     "text": "class x {static get if(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

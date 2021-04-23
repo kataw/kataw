@@ -210,7 +210,6 @@ x = {arrow: (x, y) => ok};
     "text": "x = {arrow: (x) => ok};\n\nx = {arrow: (x, y) => ok};",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 51
 }

@@ -193,7 +193,6 @@ a?.b?.c?.(d)?.[e].f?.g
     "text": "a?.b?.c?.(d)?.[e].f?.g\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

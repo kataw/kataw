@@ -236,16 +236,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
     "text": "function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 78,
-            "end": 79
-        }
-    ],
     "start": 0,
     "end": 79
 }

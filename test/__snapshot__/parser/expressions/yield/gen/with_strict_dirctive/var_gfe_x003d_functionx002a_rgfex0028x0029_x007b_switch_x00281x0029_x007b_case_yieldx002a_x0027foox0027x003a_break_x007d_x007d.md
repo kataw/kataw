@@ -205,7 +205,6 @@
     "text": "'use strict'; var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 85
 }

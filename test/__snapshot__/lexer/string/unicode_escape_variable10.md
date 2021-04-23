@@ -40,16 +40,6 @@
     "text": "\"\\u{00000000000000000000110000}\"",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 92,
-            "error": "Unicode codepoint must not be greater than 0x10FFFF",
-            "start": 0,
-            "end": 29
-        }
-    ],
     "start": 0,
     "end": 32
 }

@@ -113,7 +113,6 @@ x({[a]:b}=obj);
     "text": "x({[a]:b}=obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

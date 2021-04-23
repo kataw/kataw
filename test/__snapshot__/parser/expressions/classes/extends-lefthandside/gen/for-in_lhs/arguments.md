@@ -58,7 +58,6 @@ for (arguments in x) ;
     "text": "for (arguments in x) ;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

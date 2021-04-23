@@ -114,16 +114,6 @@ else function *f(){}
     "text": "if (x) x;\nelse function *f(){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 20,
-            "error": "Generators can only be declared at the top level or inside a block",
-            "start": 25,
-            "end": 26
-        }
-    ],
     "start": 0,
     "end": 30
 }

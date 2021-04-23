@@ -51,7 +51,6 @@ new `temp {waitforit} late`
     "text": "new `temp {waitforit} late`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

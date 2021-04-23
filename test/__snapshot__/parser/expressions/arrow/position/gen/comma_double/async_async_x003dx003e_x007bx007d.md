@@ -148,7 +148,6 @@ async async => {}, async async => {}
     "text": "async async => {}, async async => {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

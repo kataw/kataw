@@ -135,16 +135,6 @@ class A {
     "text": "class A {\n  get prop (arg) {}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 42,
-            "error": "A 'get' accessor cannot have parameters.",
-            "start": 22,
-            "end": 25
-        }
-    ],
     "start": 0,
     "end": 31
 }

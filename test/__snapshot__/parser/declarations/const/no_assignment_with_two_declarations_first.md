@@ -118,24 +118,6 @@ const [foo], bar;
     "text": "const [foo], bar;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 11,
-            "end": 12
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 13,
-            "error": "Missing initializer in const declaration",
-            "start": 16,
-            "end": 17
-        }
-    ],
     "start": 0,
     "end": 17
 }

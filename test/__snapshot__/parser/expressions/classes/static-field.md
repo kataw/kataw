@@ -89,7 +89,6 @@ class {
     "text": "class {\n\n      static field = foo;\n\n\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 38
 }

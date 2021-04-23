@@ -124,24 +124,6 @@
     "text": "({ async * bar(await x){}})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 58,
-            "error": "`Await` expression cannot be used in function parameters",
-            "start": 15,
-            "end": 20
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 20,
-            "end": 22
-        }
-    ],
     "start": 0,
     "end": 27
 }

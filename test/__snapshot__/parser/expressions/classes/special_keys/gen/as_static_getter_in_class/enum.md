@@ -117,7 +117,6 @@ class x {static get enum(){}}
     "text": "class x {static get enum(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

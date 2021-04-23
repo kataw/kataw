@@ -193,7 +193,6 @@ x({set [foo](b){}, set [bar](d){}});
     "text": "x({set [foo](b){}, set [bar](d){}});",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

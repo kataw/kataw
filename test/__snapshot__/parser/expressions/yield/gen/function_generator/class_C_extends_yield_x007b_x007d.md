@@ -178,7 +178,6 @@ function * gen() { function not_gen() { class C extends yield { } }}
     "text": "function * gen() { function not_gen() { class C extends yield { } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 68
 }

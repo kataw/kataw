@@ -106,32 +106,6 @@ class x extends export {}
     "text": "class x extends export {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 15,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 22
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 60,
-            "error": "The `export` keyword can only be used with the module goal",
-            "start": 15,
-            "end": 22
-        }
-    ],
     "start": 0,
     "end": 25
 }

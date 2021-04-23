@@ -146,16 +146,6 @@ let x = async function f(foo = await){}
     "text": "let x = async function f(foo = await){}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 36,
-            "end": 37
-        }
-    ],
     "start": 0,
     "end": 39
 }

@@ -107,7 +107,6 @@ class x {this(){}}
     "text": "class x {this(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 18
 }

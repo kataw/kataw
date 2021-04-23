@@ -134,7 +134,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
     "text": "bar ? ((interface) => { 'use strict'; 0 }) : baz;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

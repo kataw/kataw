@@ -111,7 +111,6 @@ class C { async *#arguments() {} }
     "text": "class C { async *#arguments() {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

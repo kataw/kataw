@@ -75,7 +75,6 @@ class x extends await {}
     "text": "class x extends await {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

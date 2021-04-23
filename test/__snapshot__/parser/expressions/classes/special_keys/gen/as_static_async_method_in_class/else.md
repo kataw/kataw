@@ -117,7 +117,6 @@ class x {static async else(){}}
     "text": "class x {static async else(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 31
 }

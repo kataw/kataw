@@ -96,7 +96,6 @@ foo: while(z) if (x) continue foo
     "text": "foo: while(z) if (x) continue foo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

@@ -111,7 +111,6 @@ var foo = (async (): number => bar);
     "text": "var foo = (async (): number => bar);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

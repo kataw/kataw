@@ -118,16 +118,6 @@ function* gf() { yield++; }
     "text": "function* gf() { yield++; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 24,
-            "end": 25
-        }
-    ],
     "start": 0,
     "end": 27
 }

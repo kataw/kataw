@@ -213,24 +213,6 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
     "text": "var a : { x: number{ y: string } } = { x: 0, y: 'foo' };\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 19,
-            "end": 20
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 19,
-            "end": 20
-        }
-    ],
     "start": 0,
     "end": 57
 }

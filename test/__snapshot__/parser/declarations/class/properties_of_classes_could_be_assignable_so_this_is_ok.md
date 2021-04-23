@@ -168,7 +168,6 @@ for (class x { [a](){} }.x in c);
     "text": "for (class x { [a](){} }.x in c);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

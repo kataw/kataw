@@ -201,7 +201,6 @@
     "text": "([delete /a/g.x]);\n\n([delete /a/g.x], [delete /a/g.x]);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 55
 }

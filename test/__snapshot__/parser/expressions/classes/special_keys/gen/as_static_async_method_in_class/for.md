@@ -117,7 +117,6 @@ class x {static async for(){}}
     "text": "class x {static async for(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 30
 }

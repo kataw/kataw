@@ -114,7 +114,6 @@ var [...x] = y
     "text": "var [...x] = y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 14
 }

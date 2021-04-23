@@ -58,7 +58,6 @@ foo, bar, zoo
     "text": "foo, bar, zoo",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 13
 }

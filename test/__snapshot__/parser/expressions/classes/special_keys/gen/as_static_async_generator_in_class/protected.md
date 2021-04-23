@@ -117,7 +117,6 @@ class x {static async * protected(){}}
     "text": "class x {static async * protected(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 38
 }

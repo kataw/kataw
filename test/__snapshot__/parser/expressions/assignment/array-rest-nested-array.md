@@ -116,7 +116,6 @@ result = [...[x]] = vals;
     "text": "result = [...[x]] = vals;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

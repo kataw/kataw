@@ -190,7 +190,6 @@ class x extends y { constructor() { super.mom; super.mom; } }
     "text": "class x extends y { constructor() { super.mom; super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 61
 }

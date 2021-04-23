@@ -78,7 +78,6 @@ var foo: true
     "text": "var foo: true",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 13
 }

@@ -72,16 +72,6 @@ let
     "text": "let\n[]",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 12,
-            "error": "Missing initializer in destructuring declaration",
-            "start": 6,
-            "end": 6
-        }
-    ],
     "start": 0,
     "end": 6
 }

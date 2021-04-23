@@ -34,7 +34,6 @@ left@{x200d}@right
     "text": "left@{x200d}@right",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 10
 }

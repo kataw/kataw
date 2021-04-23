@@ -127,7 +127,6 @@ async g => (x = [await y])
     "text": "async g => (x = [await y])",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

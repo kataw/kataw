@@ -108,7 +108,6 @@ for (var a=1, b;;);
     "text": "for (var a=1, b;;);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 19
 }

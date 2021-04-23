@@ -52,24 +52,6 @@
     "text": "\"\\x9q\"\n;\n\"\\x5\"\n;\n",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 89,
-            "error": "Invalid hexadecimal escape sequence",
-            "start": 8,
-            "end": 13
-        }
-    ],
     "start": 0,
     "end": 17
 }

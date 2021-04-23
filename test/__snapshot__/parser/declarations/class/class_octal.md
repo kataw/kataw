@@ -105,7 +105,6 @@ class x extends y{}
     "text": "class x extends y{}\n09",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

@@ -99,16 +99,6 @@ async => {}`foo`
     "text": "async => {}`foo`",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 30,
-            "error": "Block body arrows can not be immediately tagged without a group",
-            "start": 11,
-            "end": 16
-        }
-    ],
     "start": 0,
     "end": 16
 }

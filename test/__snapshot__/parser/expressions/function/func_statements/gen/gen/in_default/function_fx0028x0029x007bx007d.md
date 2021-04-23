@@ -112,24 +112,6 @@ switch (x) {
     "text": "switch (x) {\n  default:\n    function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 22,
-            "end": 23
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 23,
-            "end": 36
-        }
-    ],
     "start": 0,
     "end": 44
 }

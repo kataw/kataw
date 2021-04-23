@@ -198,7 +198,6 @@ function *g() { (x = x + foo(a, yield y)) => x; }
     "text": "function *g() { (x = x + foo(a, yield y)) => x; }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 49
 }

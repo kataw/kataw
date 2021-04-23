@@ -114,7 +114,6 @@ class A extends function f(){} {}
     "text": "class A extends function f(){} {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 33
 }

@@ -215,7 +215,6 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
     "text": "function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 80
 }

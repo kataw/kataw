@@ -211,16 +211,6 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
     "text": "function not_gen() { function* gf() { var fe = function yield() { } } }}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 71,
-            "end": 72
-        }
-    ],
     "start": 0,
     "end": 72
 }

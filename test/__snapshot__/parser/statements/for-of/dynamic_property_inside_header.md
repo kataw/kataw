@@ -169,7 +169,6 @@ async function f() {
     "text": "async function f() {\n    for await (x[a in b] of y);\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 54
 }

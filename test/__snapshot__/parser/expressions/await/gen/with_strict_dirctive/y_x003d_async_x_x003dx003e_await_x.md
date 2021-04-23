@@ -119,7 +119,6 @@
     "text": "'use strict'; y = async x => await x",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

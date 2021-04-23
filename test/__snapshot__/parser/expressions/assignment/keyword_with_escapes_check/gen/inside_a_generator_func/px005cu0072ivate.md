@@ -114,7 +114,6 @@ function *f(){
     "text": "function *f(){\n  p\\u0072ivate = x\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 35
 }

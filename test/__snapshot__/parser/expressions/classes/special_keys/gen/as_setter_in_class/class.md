@@ -131,7 +131,6 @@ class x {set class(x){}}
     "text": "class x {set class(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

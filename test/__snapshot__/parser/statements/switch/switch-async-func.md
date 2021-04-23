@@ -185,24 +185,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
     "text": "switch (0) { case 1: async function* f() {} default: function f() {} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 51,
-            "end": 52
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 52,
-            "end": 61
-        }
-    ],
     "start": 0,
     "end": 70
 }

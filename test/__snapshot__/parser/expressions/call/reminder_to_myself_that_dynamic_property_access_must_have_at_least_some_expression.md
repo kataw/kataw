@@ -71,24 +71,6 @@ foo(async[])
     "text": "foo(async[])",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 34,
-            "error": "An element access expression should take an argument.",
-            "start": 10,
-            "end": 11
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 10,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 12
 }

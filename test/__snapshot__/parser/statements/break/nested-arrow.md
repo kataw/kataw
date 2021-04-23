@@ -86,16 +86,6 @@
     "text": "() => {   { break }   }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 46,
-            "error": "A 'break' statement can only be used within an enclosing iteration or switch statement.",
-            "start": 17,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 23
 }

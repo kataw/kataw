@@ -106,16 +106,6 @@
     "text": "({ * bar(yield){}})",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 57,
-            "error": "`Yield` expression cannot be used in function parameters",
-            "start": 9,
-            "end": 14
-        }
-    ],
     "start": 0,
     "end": 19
 }

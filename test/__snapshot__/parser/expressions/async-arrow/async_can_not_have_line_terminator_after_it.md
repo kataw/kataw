@@ -95,7 +95,6 @@ let f = async
     "text": "let f = async\n(g) => g",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 22
 }

@@ -117,16 +117,6 @@ for (x of 3) continue
     "text": "for (x of 3) continue\n/x/g",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 21,
-            "end": 23
-        }
-    ],
     "start": 0,
     "end": 26
 }

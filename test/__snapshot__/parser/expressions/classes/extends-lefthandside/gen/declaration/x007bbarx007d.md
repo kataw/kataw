@@ -91,7 +91,6 @@ class A extends {bar} {}
     "text": "class A extends {bar} {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

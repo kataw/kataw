@@ -109,7 +109,6 @@ while (x);
     "text": "do async function f(){}\nwhile (x);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }

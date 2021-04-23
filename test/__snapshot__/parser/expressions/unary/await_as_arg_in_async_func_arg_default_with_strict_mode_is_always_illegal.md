@@ -186,16 +186,6 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
     "text": "async function f(){   async function g(x = + await x) { \"use strict\"; }  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 85,
-            "error": "'use strict' directive cannot be used with non-simple parameter list.",
-            "start": 68,
-            "end": 69
-        }
-    ],
     "start": 0,
     "end": 74
 }

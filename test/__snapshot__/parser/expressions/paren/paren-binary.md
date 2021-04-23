@@ -365,7 +365,6 @@
     "text": "(x + y) >= z;\n(x + y) <= z;\n(x + y) != z;\n(x + y) == z;\n(x + y) == z;\n(x) / y;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 78
 }

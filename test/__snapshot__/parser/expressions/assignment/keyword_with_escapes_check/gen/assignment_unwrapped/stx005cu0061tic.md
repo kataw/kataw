@@ -58,7 +58,6 @@ st\u0061tic = x;
     "text": "st\\u0061tic = x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 16
 }

@@ -1373,7 +1373,6 @@
     "text": "[{[foo]: bar4}] = [{bar: \"bar\"}];\n\n[{[foo2()]: bar5}] = [{bar: \"bar\"}];\n\n[{[foo()]: bar4}] = [{bar: \"bar\"}];\n\n[{ [foo]: bar4 }] = [{ bar: \"bar\" }];\n\n[{ [foo2()]: bar5 }] = [{ bar: \"bar\" }];\n\n[{ [foo()]: bar4 }] = [{ bar: \"bar\" }];\n\n[{ [(1 + {})]: bar4 }] = [{ bar: \"bar\" }];\n\n[...x] = it;\n\n[[ x ]] = [null];\n\n[ x ] = [];\n\n[ ...x ] = [];\n\n[...x[yield]] = [];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 357
 }

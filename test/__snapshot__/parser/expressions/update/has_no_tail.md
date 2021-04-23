@@ -75,24 +75,6 @@ x.foo++.bar
     "text": "x.foo++.bar",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 7,
-            "end": 8
-        }
-    ],
     "start": 0,
     "end": 11
 }

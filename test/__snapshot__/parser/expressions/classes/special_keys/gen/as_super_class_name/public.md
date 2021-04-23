@@ -75,7 +75,6 @@ class x extends public {}
     "text": "class x extends public {}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

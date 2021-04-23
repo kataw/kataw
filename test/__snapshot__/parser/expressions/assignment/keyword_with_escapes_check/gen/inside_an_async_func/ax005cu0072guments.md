@@ -95,7 +95,6 @@ async () => {  a\u0072guments = x  }
     "text": "async () => {  a\\u0072guments = x  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 36
 }

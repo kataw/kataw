@@ -116,7 +116,6 @@ for ([].w ^= s;;) x;
     "text": "for ([].w ^= s;;) x;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 20
 }

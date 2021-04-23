@@ -115,7 +115,6 @@ for (const [let] in obj);
     "text": "for (const [let] in obj);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 25
 }

@@ -124,24 +124,6 @@
     "text": "({ get x() { super; } })",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 74,
-            "error": "'super' must be followed by an argument list or member access.",
-            "start": 18,
-            "end": 19
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 18,
-            "end": 19
-        }
-    ],
     "start": 0,
     "end": 24
 }

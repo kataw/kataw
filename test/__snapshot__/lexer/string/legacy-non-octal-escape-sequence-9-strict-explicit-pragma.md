@@ -34,16 +34,6 @@
     "text": "\"\\9\";",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 86,
-            "error": "Escapes \\8 or \\9 are not syntactically valid escapes",
-            "start": 0,
-            "end": 3
-        }
-    ],
     "start": 0,
     "end": 5
 }

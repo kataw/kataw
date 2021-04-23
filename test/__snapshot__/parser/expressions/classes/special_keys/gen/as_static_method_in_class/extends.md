@@ -112,7 +112,6 @@ class x {static extends(){}}
     "text": "class x {static extends(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 28
 }

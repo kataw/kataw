@@ -52,24 +52,6 @@
     "text": "{ /)finally",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 0,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 1,
-            "end": 3
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 11
-        }
-    ],
     "start": 0,
     "end": 11
 }

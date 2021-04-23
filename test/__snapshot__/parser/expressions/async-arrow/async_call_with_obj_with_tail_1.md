@@ -84,7 +84,6 @@ async ({} + 1);
     "text": "async ({} + 1);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 15
 }

@@ -121,7 +121,6 @@ f((async (a, b) => a + b));
     "text": "f((async (a, b) => a + b));",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

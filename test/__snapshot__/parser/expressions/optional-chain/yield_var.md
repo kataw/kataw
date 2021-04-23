@@ -115,7 +115,6 @@
     "text": "(x = a?.(yield)) => y",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 21
 }

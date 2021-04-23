@@ -112,7 +112,6 @@ class x {async * with(){}}
     "text": "class x {async * with(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

@@ -512,64 +512,6 @@
     "text": "[a,b,...rest, x];\n[a,,...rest, x];\n[...rest,];\n[a,b,...rest,];\n[a,,...rest,];\n[...rest,...rest1];\n[a,b,...rest,...rest1];\n[a,,..rest,...rest1];",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 126,
-            "end": 127
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 127,
-            "end": 128
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 133,
-            "end": 136
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 133,
-            "end": 136
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 133,
-            "end": 136
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 141,
-            "end": 142
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 141,
-            "end": 142
-        }
-    ],
     "start": 0,
     "end": 143
 }

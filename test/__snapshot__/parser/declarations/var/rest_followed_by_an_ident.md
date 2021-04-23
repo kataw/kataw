@@ -132,7 +132,6 @@ var [...foo, bar] = obj;
     "text": "var [...foo, bar] = obj;",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 24
 }

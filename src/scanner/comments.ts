@@ -29,7 +29,7 @@ export function skipMultilineComment(parser: ParserState, cp: number, source: st
     cp = source.charCodeAt(parser.pos);
   } while (parser.pos < parser.end);
 
-  parser.diagnostics.push(
+  parser.onError(
     createDiagnosticError(
       DiagnosticSource.Parser,
       DiagnosticCode.A_break_statement_can_only_be_used_within_an_enclosing_iteration_or_switch_statement,

@@ -131,7 +131,6 @@ class x {set case(x){}}
     "text": "class x {set case(x){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 23
 }

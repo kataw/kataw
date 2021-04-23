@@ -159,7 +159,6 @@
     "text": "'use strict'; class x {async f(foo = await bar){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 50
 }

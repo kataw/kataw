@@ -112,7 +112,6 @@ class x {static * case(){}}
     "text": "class x {static * case(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 27
 }

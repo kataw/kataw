@@ -91,7 +91,6 @@ for (var a of b);
     "text": "for (var a of b);",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 17
 }

@@ -250,16 +250,6 @@ var await; var f = (async function() { var [...await f] = []; });
     "text": "var await; var f = (async function() { var [...await f] = []; });",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
-            "start": 52,
-            "end": 54
-        }
-    ],
     "start": 0,
     "end": 65
 }

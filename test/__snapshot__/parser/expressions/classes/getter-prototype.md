@@ -108,7 +108,6 @@ class x { get prototype(){} }
     "text": "class x { get prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 29
 }

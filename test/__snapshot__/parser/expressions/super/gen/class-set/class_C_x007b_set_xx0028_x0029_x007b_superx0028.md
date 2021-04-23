@@ -272,40 +272,6 @@ class C { set x(_) { class C { set x(_) { super( } }
     "text": "class C { set x(_) { class C { set x(_) { super( } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 73,
-            "error": "'super' can only be referenced in members of derived classes or object literal expressions",
-            "start": 47,
-            "end": 48
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 48,
-            "end": 50
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 52,
-            "end": 52
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 52,
-            "end": 52
-        }
-    ],
     "start": 0,
     "end": 52
 }

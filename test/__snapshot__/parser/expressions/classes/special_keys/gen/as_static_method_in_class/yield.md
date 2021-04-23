@@ -112,7 +112,6 @@ class x {static yield(){}}
     "text": "class x {static yield(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 26
 }

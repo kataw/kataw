@@ -117,7 +117,6 @@ class x {static async package(){}}
     "text": "class x {static async package(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [],
     "start": 0,
     "end": 34
 }
