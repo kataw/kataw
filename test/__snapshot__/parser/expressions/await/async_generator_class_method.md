@@ -1,0 +1,156 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+class x {async *f(await){}}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": null,
+            "classKeyword": {
+                "kind": 37822544,
+                "flags": 768,
+                "start": 0,
+                "end": 5
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 768,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 14
+                        },
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 768,
+                                "start": 16,
+                                "end": 17
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [
+                                    {
+                                        "kind": 215,
+                                        "ellipsisToken": null,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 768,
+                                            "start": 18,
+                                            "end": 23
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 256,
+                                        "start": 18,
+                                        "end": 23
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 3328,
+                                "start": 18,
+                                "end": 24
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 25,
+                                    "end": 25
+                                },
+                                "flags": 256,
+                                "start": 24,
+                                "end": 26
+                            },
+                            "flags": 3072,
+                            "start": 17,
+                            "end": 26
+                        },
+                        "flags": 256,
+                        "start": 9,
+                        "end": 26
+                    }
+                ],
+                "flags": 256,
+                "start": 9,
+                "end": 27
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 27
+        }
+    ],
+    "isModule": false,
+    "text": "class x {async *f(await){}}",
+    "fileName": "__root__",
+    "flags": 0,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 58,
+            "error": "`Await` expression cannot be used in function parameters",
+            "start": 18,
+            "end": 23
+        }
+    ],
+    "start": 0,
+    "end": 27
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

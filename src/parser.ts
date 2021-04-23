@@ -5156,7 +5156,13 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
   }
 
   const classElementList = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassElementList(parser, inheritedContext | Context.InClassBody, context | Context.InClassBody, /* isDeclared */ false, /* isDecl */ true)
+    ? parseClassElementList(
+        parser,
+        inheritedContext | Context.InClassBody,
+        context | Context.InClassBody,
+        /* isDeclared */ false,
+        /* isDecl */ true
+      )
     : // Empty list
       createClassElementList([], curPos, curPos);
   parser.assignable = false;
@@ -5461,7 +5467,17 @@ export function parseClassElement(
     );
   }
 
-  return parseFieldDefinition(parser, context | Context.InClassBody, decorators, declareKeyword, staticKeyword, asyncKeyword, key, null, pos);
+  return parseFieldDefinition(
+    parser,
+    context | Context.InClassBody,
+    decorators,
+    declareKeyword,
+    staticKeyword,
+    asyncKeyword,
+    key,
+    null,
+    pos
+  );
 }
 
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
