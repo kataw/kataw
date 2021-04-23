@@ -47,6 +47,7 @@ class C { await\n a }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "await",

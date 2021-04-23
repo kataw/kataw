@@ -49,7 +49,15 @@ class x { get prototype(){} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 13
+                        },
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

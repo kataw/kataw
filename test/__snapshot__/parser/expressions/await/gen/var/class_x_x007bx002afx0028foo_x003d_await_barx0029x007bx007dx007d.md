@@ -137,30 +137,13 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                     "kind": 277,
                                                     "elements": [
                                                         {
-                                                            "kind": 280,
-                                                            "decorators": null,
-                                                            "declaredToken": null,
-                                                            "staticToken": null,
-                                                            "key": {
-                                                                "kind": 16637,
-                                                                "text": "",
-                                                                "autofix": 0,
-                                                                "flags": 12,
-                                                                "start": 48,
-                                                                "end": 48
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "initializer": null,
-                                                            "flags": 256,
-                                                            "start": 48,
-                                                            "end": 49
-                                                        },
-                                                        {
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
+                                                            "asyncKeyword": null,
+                                                            "setKeyword": null,
+                                                            "getKeyword": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -245,7 +228,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                 "end": 69
                                                             },
                                                             "flags": 256,
-                                                            "start": 49,
+                                                            "start": 48,
                                                             "end": 69
                                                         }
                                                     ],
@@ -296,14 +279,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 48,
-            "end": 49
-        },
         {
             "kind": 2,
             "source": 2,

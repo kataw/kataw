@@ -46,7 +46,10 @@ class C { constructor() { class C { get x) { super; } } } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -101,6 +104,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                         "decorators": null,
                                                         "declaredToken": null,
                                                         "staticToken": null,
+                                                        "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "x",

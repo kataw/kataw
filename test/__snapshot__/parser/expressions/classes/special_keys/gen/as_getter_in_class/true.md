@@ -47,12 +47,13 @@ class x {get true(){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 12,
+                            "kind": 134299649,
+                            "text": "get",
+                            "rawText": "get",
+                            "flags": 768,
+                            "start": 9,
                             "end": 12
                         },
                         "optionalToken": null,
@@ -118,14 +119,6 @@ class x {get true(){}}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 12,
-            "end": 17
-        },
         {
             "kind": 2,
             "source": 2,

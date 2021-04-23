@@ -204,26 +204,25 @@ switch[ #
                             "end": 11
                         },
                         "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
+                            "kind": 67109115,
+                            "text": "#",
+                            "flags": 768,
                             "start": 11,
-                            "end": 11
+                            "end": 13
                         },
                         "statements": [],
                         "flags": 128,
                         "start": 6,
-                        "end": 11
+                        "end": 13
                     }
                 ],
                 "flags": 128,
                 "start": 6,
-                "end": 11
+                "end": 13
             },
             "flags": 128,
             "start": 0,
-            "end": 11
+            "end": 13
         }
     ],
     "isModule": false,
@@ -274,33 +273,25 @@ switch[ #
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 11,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 11,
-            "end": 13
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "code": 69,
             "error": "Private identifiers are not allowed outside class_bodies",
             "start": 11,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
+            "end": 13
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 1,
+            "error": "Unexpected token.",
+            "start": 13,
             "end": 13
         }
     ],

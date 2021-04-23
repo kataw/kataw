@@ -67,6 +67,7 @@ class x { static / foo(){} }
                             "start": 9,
                             "end": 16
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",

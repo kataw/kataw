@@ -43,35 +43,18 @@ class x {static * class(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
+                        "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 15,
-                            "end": 15
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 15,
-                        "end": 17
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -112,7 +95,7 @@ class x {static * class(){}}
                             "end": 27
                         },
                         "flags": 256,
-                        "start": 17,
+                        "start": 15,
                         "end": 27
                     }
                 ],
@@ -129,16 +112,7 @@ class x {static * class(){}}
     "text": "class x {static * class(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 15,
-            "end": 17
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 28
 }

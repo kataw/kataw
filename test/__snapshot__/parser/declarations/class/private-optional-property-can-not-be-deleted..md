@@ -67,6 +67,7 @@ class Foo {
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#x",
@@ -134,9 +135,7 @@ class Foo {
                                                 "expression": {
                                                     "kind": 205,
                                                     "member": {
-                                                        "kind": 134299649,
-                                                        "text": "this",
-                                                        "rawText": "this",
+                                                        "kind": 135,
                                                         "flags": 768,
                                                         "start": 46,
                                                         "end": 51
@@ -154,24 +153,23 @@ class Foo {
                                                                         "rawText": "this",
                                                                         "text": "#x",
                                                                         "expression": {
-                                                                            "kind": 16637,
-                                                                            "text": "",
-                                                                            "autofix": 0,
-                                                                            "flags": 12,
+                                                                            "kind": 67109115,
+                                                                            "text": "#x",
+                                                                            "flags": 768,
                                                                             "start": 53,
-                                                                            "end": 53
+                                                                            "end": 55
                                                                         },
                                                                         "flags": 256,
                                                                         "start": 53,
-                                                                        "end": 53
+                                                                        "end": 55
                                                                     }
                                                                 ],
                                                                 "tail": {
                                                                     "kind": 458761,
-                                                                    "text": ";\n  }\n}",
+                                                                    "text": "\n  }\n}",
                                                                     "rawText": "this",
                                                                     "flags": 768,
-                                                                    "start": 53,
+                                                                    "start": 55,
                                                                     "end": 62
                                                                 },
                                                                 "flags": 256,
@@ -249,18 +247,10 @@ class Foo {
         },
         {
             "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 53,
-            "end": 55
-        },
-        {
-            "kind": 2,
             "source": 0,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 53,
+            "start": 55,
             "end": 62
         },
         {

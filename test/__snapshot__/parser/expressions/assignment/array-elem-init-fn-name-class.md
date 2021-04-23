@@ -168,12 +168,15 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                     "kind": 278,
                                                     "declareToken": null,
                                                     "decorators": null,
-                                                    "staticToken": {
+                                                    "staticKeyword": {
                                                         "kind": 8388716,
                                                         "flags": 768,
                                                         "start": 61,
                                                         "end": 68
                                                     },
+                                                    "asyncKeyword": null,
+                                                    "setKeyword": null,
+                                                    "getKeyword": null,
                                                     "method": {
                                                         "kind": 209,
                                                         "name": {

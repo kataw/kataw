@@ -50,7 +50,15 @@ class Foo {get fooProp():number{}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

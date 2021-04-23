@@ -62,12 +62,20 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "staticToken": {
+                                "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 768,
                                     "start": 21,
                                     "end": 27
                                 },
+                                "asyncKeyword": null,
+                                "setKeyword": {
+                                    "kind": 82031,
+                                    "flags": 768,
+                                    "start": 27,
+                                    "end": 31
+                                },
+                                "getKeyword": null,
                                 "method": {
                                     "kind": 209,
                                     "name": {

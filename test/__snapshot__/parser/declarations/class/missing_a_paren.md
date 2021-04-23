@@ -62,6 +62,7 @@ class A {"x"){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 201392131,
                             "text": "x",

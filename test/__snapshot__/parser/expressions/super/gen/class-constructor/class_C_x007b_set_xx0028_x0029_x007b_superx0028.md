@@ -46,7 +46,10 @@ class C { constructor() { class C { set x(_) { super( } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -100,7 +103,15 @@ class C { constructor() { class C { set x(_) { super( } }
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": {
+                                                            "kind": 82031,
+                                                            "flags": 768,
+                                                            "start": 35,
+                                                            "end": 39
+                                                        },
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {

@@ -186,7 +186,10 @@ class C { set x(_) { # } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -235,6 +238,7 @@ class C { set x(_) { # } }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#",

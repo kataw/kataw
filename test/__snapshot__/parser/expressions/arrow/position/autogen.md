@@ -423,20 +423,19 @@ function f(a = #) {}
                     "end": 3
                 },
                 "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
+                    "kind": 67109115,
+                    "text": "#",
+                    "flags": 768,
                     "start": 3,
-                    "end": 3
+                    "end": 5
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 3
+                "end": 5
             },
             "flags": 128,
             "start": 0,
-            "end": 3
+            "end": 5
         }
     ],
     "isModule": false,
@@ -444,22 +443,6 @@ function f(a = #) {}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 3,
-            "end": 5
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 3,
-            "end": 5
-        },
         {
             "kind": 2,
             "source": 2,

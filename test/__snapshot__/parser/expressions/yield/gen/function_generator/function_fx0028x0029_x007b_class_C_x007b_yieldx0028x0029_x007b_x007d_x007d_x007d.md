@@ -150,7 +150,10 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                         "kind": 278,
                                                                         "declareToken": null,
                                                                         "decorators": null,
-                                                                        "staticToken": null,
+                                                                        "staticKeyword": null,
+                                                                        "asyncKeyword": null,
+                                                                        "setKeyword": null,
+                                                                        "getKeyword": null,
                                                                         "method": {
                                                                             "kind": 209,
                                                                             "name": {

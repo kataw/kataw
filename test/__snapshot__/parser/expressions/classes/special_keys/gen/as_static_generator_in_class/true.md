@@ -52,13 +52,14 @@ class x {static * true(){}}
                             "start": 9,
                             "end": 15
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
                             "autofix": 0,
                             "flags": 12,
-                            "start": 15,
-                            "end": 15
+                            "start": 17,
+                            "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
@@ -128,8 +129,8 @@ class x {static * true(){}}
             "source": 2,
             "code": 18,
             "error": "A rest element cannot have an initializer",
-            "start": 15,
-            "end": 17
+            "start": 17,
+            "end": 22
         },
         {
             "kind": 2,

@@ -43,6 +43,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
@@ -129,107 +130,54 @@ class C { #aaa; f(obj) { obj.#aaa } }
                                                     "end": 28
                                                 },
                                                 "expression": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "autofix": 0,
-                                                    "flags": 12,
+                                                    "kind": 67109115,
+                                                    "text": "#aaa",
+                                                    "flags": 768,
                                                     "start": 29,
-                                                    "end": 29
+                                                    "end": 33
                                                 },
                                                 "autofix": 0,
                                                 "flags": 256,
                                                 "start": 24,
-                                                "end": 29
+                                                "end": 33
                                             },
                                             "flags": 128,
                                             "start": 24,
-                                            "end": 29
+                                            "end": 33
                                         }
                                     ],
                                     "multiline": false,
                                     "flags": 256,
                                     "start": 24,
-                                    "end": 29
+                                    "end": 33
                                 },
                                 "flags": 256,
                                 "start": 22,
-                                "end": 29
+                                "end": 35
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 29
+                            "end": 35
                         },
                         "flags": 256,
                         "start": 15,
-                        "end": 29
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 67109115,
-                            "text": "#aaa",
-                            "flags": 768,
-                            "start": 29,
-                            "end": 33
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 29,
-                        "end": 33
+                        "end": 35
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 35
+                "end": 37
             },
             "flags": 128,
             "start": 0,
-            "end": 35
+            "end": 37
         }
     ],
     "isModule": false,
     "text": "class C { #aaa; f(obj) { obj.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 68,
-            "error": "Dot property must be an identifier",
-            "start": 29,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 29,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 29,
-            "end": 33
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 35,
-            "end": 37
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 37
 }

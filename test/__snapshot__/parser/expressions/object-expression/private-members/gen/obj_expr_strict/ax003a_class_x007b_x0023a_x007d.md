@@ -59,6 +59,7 @@
                                                 "decorators": null,
                                                 "declaredToken": null,
                                                 "staticToken": null,
+                                                "asyncKeyword": null,
                                                 "key": {
                                                     "kind": 67109115,
                                                     "text": "#a",

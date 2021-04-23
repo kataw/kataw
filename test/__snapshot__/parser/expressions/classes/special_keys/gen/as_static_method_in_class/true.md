@@ -46,25 +46,21 @@ class x {static true(){}}
                         "kind": 280,
                         "decorators": null,
                         "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
                             "flags": 768,
                             "start": 9,
-                            "end": 15
-                        },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 15,
                             "end": 15
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 256,
-                        "start": 15,
+                        "start": 9,
                         "end": 15
                     }
                 ],
@@ -123,14 +119,6 @@ class x {static true(){}}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 15,
-            "end": 20
-        },
         {
             "kind": 2,
             "source": 2,

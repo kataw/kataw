@@ -62,6 +62,7 @@ class x {[x]z){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 194,
                             "expression": {
@@ -88,6 +89,7 @@ class x {[x]z){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "z",

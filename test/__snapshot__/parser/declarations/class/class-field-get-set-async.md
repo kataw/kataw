@@ -51,6 +51,7 @@ class C { get; set; static; async }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "get",
@@ -77,6 +78,7 @@ class C { get; set; static; async }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "set",
@@ -99,6 +101,27 @@ class C { get; set; static; async }
                         "end": 19
                     },
                     {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 768,
+                            "start": 19,
+                            "end": 26
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 19,
+                        "end": 26
+                    },
+                    {
                         "kind": 281,
                         "flags": 768,
                         "start": 26,
@@ -109,6 +132,7 @@ class C { get; set; static; async }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "async",

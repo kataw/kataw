@@ -46,6 +46,7 @@ class {
                             "start": 7,
                             "end": 21
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "field",

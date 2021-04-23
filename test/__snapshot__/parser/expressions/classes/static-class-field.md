@@ -48,6 +48,7 @@ class x { static #foo = bar }
                             "start": 9,
                             "end": 16
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#foo",

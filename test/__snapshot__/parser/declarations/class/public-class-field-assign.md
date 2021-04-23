@@ -62,6 +62,7 @@ class C { aaa = bbb }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",

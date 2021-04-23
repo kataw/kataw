@@ -65,6 +65,7 @@ class C {
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",

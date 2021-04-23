@@ -104,6 +104,14 @@
             "error": "Unexpected token.",
             "start": 2,
             "end": 4
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
+            "start": 2,
+            "end": 4
         }
     ],
     "start": 0,

@@ -52,6 +52,7 @@ class A {
                             "start": 9,
                             "end": 18
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#private",
@@ -114,6 +115,7 @@ class A {
                             "start": 43,
                             "end": 52
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#private",

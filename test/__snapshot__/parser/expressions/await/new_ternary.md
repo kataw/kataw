@@ -41,7 +41,7 @@ new a ? b : c
                     "end": 5
                 },
                 "questionToken": {
-                    "kind": 134217750,
+                    "kind": 22,
                     "flags": 768,
                     "start": 5,
                     "end": 7

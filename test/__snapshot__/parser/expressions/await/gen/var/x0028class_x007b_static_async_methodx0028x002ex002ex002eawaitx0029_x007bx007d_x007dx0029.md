@@ -136,12 +136,20 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                     "kind": 278,
                                                                     "declareToken": null,
                                                                     "decorators": null,
-                                                                    "staticToken": {
+                                                                    "staticKeyword": {
                                                                         "kind": 8388716,
                                                                         "flags": 768,
                                                                         "start": 47,
                                                                         "end": 54
                                                                     },
+                                                                    "asyncKeyword": {
+                                                                        "kind": 82031,
+                                                                        "flags": 768,
+                                                                        "start": 54,
+                                                                        "end": 60
+                                                                    },
+                                                                    "setKeyword": null,
+                                                                    "getKeyword": null,
                                                                     "method": {
                                                                         "kind": 209,
                                                                         "name": {

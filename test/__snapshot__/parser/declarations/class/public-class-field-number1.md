@@ -51,6 +51,7 @@ class C { 1e2 }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": 100,

@@ -67,6 +67,12 @@ class C extends Base { async = 0 }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 22,
+                            "end": 28
+                        },
                         "key": {
                             "kind": 16637,
                             "text": "",

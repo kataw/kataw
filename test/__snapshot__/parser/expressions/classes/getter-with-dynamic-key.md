@@ -42,12 +42,20 @@ class x { static get [y](){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 16
                         },
+                        "asyncKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 16,
+                            "end": 20
+                        },
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

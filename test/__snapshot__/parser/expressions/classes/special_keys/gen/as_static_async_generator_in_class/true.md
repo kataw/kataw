@@ -52,6 +52,12 @@ class x {static async * true(){}}
                             "start": 9,
                             "end": 15
                         },
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 15,
+                            "end": 21
+                        },
                         "key": {
                             "kind": 16637,
                             "text": "",

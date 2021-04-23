@@ -85,30 +85,13 @@ function *f(){  class x{*[yield](a){}}  }
                                 "kind": 277,
                                 "elements": [
                                     {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "autofix": 0,
-                                            "flags": 12,
-                                            "start": 24,
-                                            "end": 24
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 256,
-                                        "start": 24,
-                                        "end": 25
-                                    },
-                                    {
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
+                                        "asyncKeyword": null,
+                                        "setKeyword": null,
+                                        "getKeyword": null,
                                         "method": {
                                             "kind": 209,
                                             "name": {
@@ -181,7 +164,7 @@ function *f(){  class x{*[yield](a){}}  }
                                             "end": 37
                                         },
                                         "flags": 256,
-                                        "start": 25,
+                                        "start": 24,
                                         "end": 37
                                     }
                                 ],
@@ -214,16 +197,7 @@ function *f(){  class x{*[yield](a){}}  }
     "text": "function *f(){  class x{*[yield](a){}}  }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 24,
-            "end": 25
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 41
 }

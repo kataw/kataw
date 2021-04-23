@@ -90,30 +90,13 @@
                                 "kind": 277,
                                 "elements": [
                                     {
-                                        "kind": 280,
-                                        "decorators": null,
-                                        "declaredToken": null,
-                                        "staticToken": null,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "autofix": 0,
-                                            "flags": 12,
-                                            "start": 40,
-                                            "end": 40
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 256,
-                                        "start": 40,
-                                        "end": 42
-                                    },
-                                    {
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
+                                        "asyncKeyword": null,
+                                        "setKeyword": null,
+                                        "getKeyword": null,
                                         "method": {
                                             "kind": 209,
                                             "name": {
@@ -154,7 +137,7 @@
                                             "end": 53
                                         },
                                         "flags": 256,
-                                        "start": 42,
+                                        "start": 40,
                                         "end": 53
                                     }
                                 ],
@@ -187,16 +170,7 @@
     "text": "'use strict'; function* gf() { class C { *yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 40,
-            "end": 42
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 57
 }

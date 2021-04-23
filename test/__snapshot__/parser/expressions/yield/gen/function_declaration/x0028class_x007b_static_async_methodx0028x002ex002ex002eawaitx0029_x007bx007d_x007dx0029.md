@@ -75,12 +75,20 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                 "kind": 278,
                                                 "declareToken": null,
                                                 "decorators": null,
-                                                "staticToken": {
+                                                "staticKeyword": {
                                                     "kind": 8388716,
                                                     "flags": 768,
                                                     "start": 29,
                                                     "end": 36
                                                 },
+                                                "asyncKeyword": {
+                                                    "kind": 82031,
+                                                    "flags": 768,
+                                                    "start": 36,
+                                                    "end": 42
+                                                },
+                                                "setKeyword": null,
+                                                "getKeyword": null,
                                                 "method": {
                                                     "kind": 209,
                                                     "name": {

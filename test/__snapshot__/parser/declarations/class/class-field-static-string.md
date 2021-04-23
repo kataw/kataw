@@ -56,6 +56,7 @@ class C { static '0' }
                             "start": 9,
                             "end": 16
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 201392131,
                             "text": "0",

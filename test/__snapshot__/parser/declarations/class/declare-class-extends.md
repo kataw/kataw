@@ -120,6 +120,7 @@ declare class A<T> extends B<T> { x: number }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "x",

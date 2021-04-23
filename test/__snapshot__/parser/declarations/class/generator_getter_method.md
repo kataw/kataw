@@ -51,26 +51,30 @@ class A {* get "foo"(){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 9,
-                            "end": 9
+                            "kind": 134299649,
+                            "text": "get",
+                            "rawText": "get",
+                            "flags": 768,
+                            "start": 10,
+                            "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 256,
                         "start": 9,
-                        "end": 10
+                        "end": 14
                     },
                     {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -86,7 +90,7 @@ class A {* get "foo"(){}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 0,
                                 "start": 21,
                                 "end": 22
                             },
@@ -106,12 +110,12 @@ class A {* get "foo"(){}}
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 8192,
+                            "flags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "flags": 256,
-                        "start": 10,
+                        "start": 14,
                         "end": 24
                     }
                 ],
@@ -128,16 +132,7 @@ class A {* get "foo"(){}}
     "text": "class A {* get \"foo\"(){}}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 9,
-            "end": 10
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 25
 }

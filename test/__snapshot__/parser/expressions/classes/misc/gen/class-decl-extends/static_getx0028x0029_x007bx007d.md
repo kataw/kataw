@@ -66,12 +66,15 @@ class C extends Base { static get() {} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 22,
                             "end": 29
                         },
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

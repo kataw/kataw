@@ -145,7 +145,10 @@ class x extends y {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -184,12 +187,11 @@ class x extends y {
                                                             {
                                                                 "kind": 219,
                                                                 "left": {
-                                                                    "kind": 16637,
-                                                                    "text": "",
-                                                                    "autofix": 0,
-                                                                    "flags": 12,
+                                                                    "kind": 67109115,
+                                                                    "text": "#",
+                                                                    "flags": 768,
                                                                     "start": 50,
-                                                                    "end": 50
+                                                                    "end": 52
                                                                 },
                                                                 "right": {
                                                                     "kind": 201392131,
@@ -201,13 +203,6 @@ class x extends y {
                                                                 },
                                                                 "flags": 256,
                                                                 "start": 44,
-                                                                "end": 50
-                                                            },
-                                                            {
-                                                                "kind": 67109115,
-                                                                "text": "#",
-                                                                "flags": 768,
-                                                                "start": 50,
                                                                 "end": 52
                                                             }
                                                         ],
@@ -267,22 +262,6 @@ class x extends y {
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 50,
-            "end": 52
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 50,
-            "end": 52
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 4,
-            "error": "',' expected",
             "start": 50,
             "end": 52
         }

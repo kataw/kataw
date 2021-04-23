@@ -62,6 +62,12 @@ class x{   async static static(){}    }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 8,
+                            "end": 16
+                        },
                         "key": {
                             "kind": 134299649,
                             "text": "static",
@@ -81,7 +87,10 @@ class x{   async static static(){}    }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

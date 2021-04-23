@@ -60,6 +60,7 @@ class C {
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#brand",
@@ -84,7 +85,10 @@ class C {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -131,7 +135,15 @@ class C {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 35,
+                            "end": 42
+                        },
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -178,12 +190,15 @@ class C {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 55,
                             "end": 65
                         },
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -238,352 +253,147 @@ class C {
                                                 "end": 87
                                             },
                                             "expression": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "autofix": 0,
-                                                "flags": 12,
+                                                "kind": 198,
+                                                "left": {
+                                                    "kind": 198,
+                                                    "left": {
+                                                        "kind": 198,
+                                                        "left": {
+                                                            "kind": 67109115,
+                                                            "text": "#brand",
+                                                            "flags": 768,
+                                                            "start": 87,
+                                                            "end": 94
+                                                        },
+                                                        "operatorToken": {
+                                                            "kind": 21006388,
+                                                            "flags": 768,
+                                                            "start": 94,
+                                                            "end": 97
+                                                        },
+                                                        "right": {
+                                                            "kind": 134299649,
+                                                            "text": "obj",
+                                                            "rawText": "obj",
+                                                            "flags": 768,
+                                                            "start": 97,
+                                                            "end": 101
+                                                        },
+                                                        "flags": 256,
+                                                        "start": 87,
+                                                        "end": 101
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 33594,
+                                                        "flags": 768,
+                                                        "start": 101,
+                                                        "end": 104
+                                                    },
+                                                    "right": {
+                                                        "kind": 198,
+                                                        "left": {
+                                                            "kind": 67109115,
+                                                            "text": "#method",
+                                                            "flags": 768,
+                                                            "start": 104,
+                                                            "end": 112
+                                                        },
+                                                        "operatorToken": {
+                                                            "kind": 21006388,
+                                                            "flags": 768,
+                                                            "start": 112,
+                                                            "end": 115
+                                                        },
+                                                        "right": {
+                                                            "kind": 134299649,
+                                                            "text": "obj",
+                                                            "rawText": "obj",
+                                                            "flags": 768,
+                                                            "start": 115,
+                                                            "end": 119
+                                                        },
+                                                        "flags": 256,
+                                                        "start": 112,
+                                                        "end": 119
+                                                    },
+                                                    "flags": 256,
+                                                    "start": 87,
+                                                    "end": 119
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 33594,
+                                                    "flags": 768,
+                                                    "start": 119,
+                                                    "end": 122
+                                                },
+                                                "right": {
+                                                    "kind": 198,
+                                                    "left": {
+                                                        "kind": 67109115,
+                                                        "text": "#getter",
+                                                        "flags": 768,
+                                                        "start": 122,
+                                                        "end": 130
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 21006388,
+                                                        "flags": 768,
+                                                        "start": 130,
+                                                        "end": 133
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "obj",
+                                                        "rawText": "obj",
+                                                        "flags": 768,
+                                                        "start": 133,
+                                                        "end": 137
+                                                    },
+                                                    "flags": 256,
+                                                    "start": 130,
+                                                    "end": 137
+                                                },
+                                                "flags": 256,
                                                 "start": 87,
-                                                "end": 87
+                                                "end": 137
                                             },
                                             "flags": 128,
-                                            "start": 0,
+                                            "start": 1,
                                             "end": 76
                                         }
                                     ],
                                     "multiline": true,
                                     "flags": 256,
                                     "start": 76,
-                                    "end": 87
+                                    "end": 138
                                 },
                                 "flags": 256,
                                 "start": 74,
-                                "end": 87
+                                "end": 142
                             },
                             "flags": 0,
                             "start": 69,
-                            "end": 87
+                            "end": 142
                         },
                         "flags": 256,
                         "start": 65,
-                        "end": 87
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 67109115,
-                            "text": "#brand",
-                            "flags": 768,
-                            "start": 87,
-                            "end": 94
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 87,
-                        "end": 94
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "in",
-                            "rawText": "in",
-                            "flags": 768,
-                            "start": 94,
-                            "end": 97
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 94,
-                        "end": 97
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "obj",
-                            "rawText": "obj",
-                            "flags": 768,
-                            "start": 97,
-                            "end": 101
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 97,
-                        "end": 101
+                        "end": 142
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 101
+                "end": 144
             },
             "flags": 128,
             "start": 0,
-            "end": 101
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 101,
-                    "end": 101
-                },
-                "operatorToken": {
-                    "kind": 33594,
-                    "flags": 768,
-                    "start": 101,
-                    "end": 104
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 104,
-                    "end": 104
-                },
-                "flags": 256,
-                "start": 101,
-                "end": 104
-            },
-            "flags": 128,
-            "start": 101,
-            "end": 104
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
-                        "start": 112,
-                        "end": 112
-                    },
-                    "operatorToken": {
-                        "kind": 21006388,
-                        "flags": 768,
-                        "start": 112,
-                        "end": 115
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "obj",
-                        "rawText": "obj",
-                        "flags": 768,
-                        "start": 115,
-                        "end": 119
-                    },
-                    "flags": 256,
-                    "start": 112,
-                    "end": 119
-                },
-                "operatorToken": {
-                    "kind": 33594,
-                    "flags": 768,
-                    "start": 119,
-                    "end": 122
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 122,
-                    "end": 122
-                },
-                "flags": 256,
-                "start": 112,
-                "end": 122
-            },
-            "flags": 128,
-            "start": 112,
-            "end": 122
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 130,
-                    "end": 130
-                },
-                "operatorToken": {
-                    "kind": 21006388,
-                    "flags": 768,
-                    "start": 130,
-                    "end": 133
-                },
-                "right": {
-                    "kind": 134299649,
-                    "text": "obj",
-                    "rawText": "obj",
-                    "flags": 768,
-                    "start": 133,
-                    "end": 137
-                },
-                "flags": 256,
-                "start": 130,
-                "end": 137
-            },
-            "flags": 128,
-            "start": 130,
-            "end": 138
+            "end": 144
         }
     ],
     "isModule": true,
     "text": "class C {\n  #brand;\n\n  #method() {}\n\n  get #getter() {}\n\n  static isC(obj) {\n    return #brand in obj && #method in obj && #getter in obj;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 87,
-            "end": 94
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 87,
-            "end": 94
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 87,
-            "end": 94
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 101,
-            "end": 104
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 101,
-            "end": 104
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 104,
-            "end": 112
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 104,
-            "end": 112
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 69,
-            "error": "Private identifiers are not allowed outside class_bodies",
-            "start": 104,
-            "end": 112
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 112,
-            "end": 115
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 122,
-            "end": 130
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 122,
-            "end": 130
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 69,
-            "error": "Private identifiers are not allowed outside class_bodies",
-            "start": 122,
-            "end": 130
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 130,
-            "end": 133
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 138,
-            "end": 142
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 142,
-            "end": 144
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 144
 }

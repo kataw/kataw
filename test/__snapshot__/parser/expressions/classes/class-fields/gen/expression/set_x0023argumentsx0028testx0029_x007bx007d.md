@@ -66,7 +66,15 @@ class C extends Base { set #arguments(test) {} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 22,
+                            "end": 26
+                        },
                         "method": {
                             "kind": 209,
                             "name": {

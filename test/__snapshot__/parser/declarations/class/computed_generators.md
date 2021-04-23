@@ -58,30 +58,13 @@ class x { *[expr](){} }
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 9,
-                            "end": 9
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 11
-                    },
-                    {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -128,7 +111,7 @@ class x { *[expr](){} }
                             "end": 21
                         },
                         "flags": 256,
-                        "start": 11,
+                        "start": 9,
                         "end": 21
                     }
                 ],
@@ -145,16 +128,7 @@ class x { *[expr](){} }
     "text": "class x { *[expr](){} }",
     "fileName": "__root__",
     "flags": 0,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 9,
-            "end": 11
-        }
-    ],
+    "diagnostics": [],
     "start": 0,
     "end": 23
 }

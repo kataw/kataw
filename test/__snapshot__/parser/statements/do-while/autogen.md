@@ -205,60 +205,30 @@ do[ #
                 "text": "",
                 "autofix": 0,
                 "flags": 12,
-                "start": 4,
-                "end": 4
+                "start": 10,
+                "end": 10
             },
-            "whileKeyword": null,
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 2,
-                    "end": 2
-                },
-                "flags": 128,
-                "start": 2,
-                "end": 2
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 768,
                 "start": 4,
                 "end": 10
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 10,
-                "end": 10
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 10,
-                    "end": 10
+                    "kind": 67109115,
+                    "text": "#",
+                    "flags": 768,
+                    "start": 2,
+                    "end": 4
                 },
                 "flags": 128,
-                "start": 10,
-                "end": 10
+                "start": 2,
+                "end": 4
             },
             "flags": 128,
-            "start": 4,
+            "start": 0,
             "end": 10
         }
     ],
@@ -278,42 +248,10 @@ do[ #
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
             "start": 2,
             "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 2,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 2,
-            "end": 4
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 4,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 4,
-            "end": 10
         },
         {
             "kind": 2,
@@ -344,14 +282,6 @@ do[ #
             "source": 2,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 10,
-            "end": 10
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
             "start": 10,
             "end": 10
         }

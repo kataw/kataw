@@ -447,7 +447,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -496,6 +499,7 @@ let x = { foo(){ super(); } };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "super",
@@ -582,6 +586,7 @@ let x = { foo(){ super(); } };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "super",
@@ -681,7 +686,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -793,6 +801,7 @@ let x = { foo(){ super(); } };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 194,
                             "expression": {
@@ -838,6 +847,7 @@ let x = { foo(){ super(); } };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "y",
@@ -920,7 +930,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -1078,7 +1091,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -1263,7 +1279,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -1451,7 +1470,10 @@ let x = { foo(){ super(); } };
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -1505,7 +1527,10 @@ let x = { foo(){ super(); } };
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -1554,6 +1579,7 @@ let x = { foo(){ super(); } };
                                                         "decorators": null,
                                                         "declaredToken": null,
                                                         "staticToken": null,
+                                                        "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "super",

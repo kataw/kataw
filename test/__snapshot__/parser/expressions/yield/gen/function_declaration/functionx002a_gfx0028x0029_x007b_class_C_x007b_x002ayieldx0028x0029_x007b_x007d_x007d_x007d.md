@@ -114,30 +114,13 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                 "kind": 277,
                                                 "elements": [
                                                     {
-                                                        "kind": 280,
-                                                        "decorators": null,
-                                                        "declaredToken": null,
-                                                        "staticToken": null,
-                                                        "key": {
-                                                            "kind": 16637,
-                                                            "text": "",
-                                                            "autofix": 0,
-                                                            "flags": 12,
-                                                            "start": 47,
-                                                            "end": 47
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "initializer": null,
-                                                        "flags": 256,
-                                                        "start": 47,
-                                                        "end": 49
-                                                    },
-                                                    {
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -178,7 +161,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                             "end": 60
                                                         },
                                                         "flags": 256,
-                                                        "start": 49,
+                                                        "start": 47,
                                                         "end": 60
                                                     }
                                                 ],
@@ -228,14 +211,6 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 47,
-            "end": 49
-        },
         {
             "kind": 2,
             "source": 2,

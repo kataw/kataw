@@ -43,6 +43,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
@@ -141,24 +142,23 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                                     "rawText": "obj",
                                                                     "text": "#aaa",
                                                                     "expression": {
-                                                                        "kind": 16637,
-                                                                        "text": "",
-                                                                        "autofix": 0,
-                                                                        "flags": 12,
+                                                                        "kind": 67109115,
+                                                                        "text": "#aaa",
+                                                                        "flags": 768,
                                                                         "start": 30,
-                                                                        "end": 30
+                                                                        "end": 34
                                                                     },
                                                                     "flags": 256,
                                                                     "start": 30,
-                                                                    "end": 30
+                                                                    "end": 34
                                                                 }
                                                             ],
                                                             "tail": {
                                                                 "kind": 458761,
-                                                                "text": " } }",
+                                                                "text": " }",
                                                                 "rawText": "obj",
                                                                 "flags": 768,
-                                                                "start": 30,
+                                                                "start": 34,
                                                                 "end": 38
                                                             },
                                                             "flags": 256,
@@ -232,18 +232,10 @@ class C { #aaa; f(obj) { obj?.#aaa } }
         },
         {
             "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 30,
-            "end": 34
-        },
-        {
-            "kind": 2,
             "source": 0,
             "code": 1,
             "error": "Unexpected token.",
-            "start": 30,
+            "start": 34,
             "end": 38
         },
         {

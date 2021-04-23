@@ -46,12 +46,20 @@ class x {static get throw(){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
+                        "asyncKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 15,
+                            "end": 19
+                        },
+                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {

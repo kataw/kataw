@@ -61,6 +61,7 @@ async( x = class { x = await });
                             "decorators": null,
                             "declaredToken": null,
                             "staticToken": null,
+                            "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
                                 "text": "aaa",
@@ -163,6 +164,7 @@ async( x = class { x = await });
                                         "decorators": null,
                                         "declaredToken": null,
                                         "staticToken": null,
+                                        "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",

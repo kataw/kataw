@@ -61,11 +61,19 @@ class x { static set [y](z){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 16
+                        },
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 16,
+                            "end": 20
                         },
                         "method": {
                             "kind": 209,

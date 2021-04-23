@@ -52,6 +52,7 @@ class x {static: x}
                             "start": 9,
                             "end": 15
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",

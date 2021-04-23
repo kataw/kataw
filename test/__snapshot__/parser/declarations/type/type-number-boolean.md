@@ -44,7 +44,7 @@ type A = { [string | boolean]: number };
             "opaqueType": null,
             "typeParameters": null,
             "type": {
-                "kind": 134234353,
+                "kind": 134217969,
                 "properties": [],
                 "indexers": [
                     {

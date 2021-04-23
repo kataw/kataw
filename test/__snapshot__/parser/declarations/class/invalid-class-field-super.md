@@ -58,6 +58,7 @@ class C { [super.bbb] = 0 };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
@@ -142,6 +143,7 @@ class C { [super.bbb] = 0 };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
@@ -242,6 +244,7 @@ class C { [super.bbb] = 0 };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
@@ -358,6 +361,7 @@ class C { [super.bbb] = 0 };
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 194,
                             "expression": {

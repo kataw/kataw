@@ -47,13 +47,14 @@ class x {* true(){}}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 16637,
                             "text": "",
                             "autofix": 0,
                             "flags": 12,
-                            "start": 9,
-                            "end": 9
+                            "start": 10,
+                            "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
@@ -123,8 +124,8 @@ class x {* true(){}}
             "source": 2,
             "code": 18,
             "error": "A rest element cannot have an initializer",
-            "start": 9,
-            "end": 10
+            "start": 10,
+            "end": 15
         },
         {
             "kind": 2,

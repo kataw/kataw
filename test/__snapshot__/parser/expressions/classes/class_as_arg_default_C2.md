@@ -83,12 +83,15 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "staticToken": {
+                                                        "staticKeyword": {
                                                             "kind": 8388716,
                                                             "flags": 768,
                                                             "start": 21,
                                                             "end": 28
                                                         },
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {

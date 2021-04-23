@@ -442,46 +442,36 @@ x = # ;
                 "consequent": {
                     "kind": 121,
                     "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
+                        "kind": 67109115,
+                        "text": "#",
+                        "flags": 768,
                         "start": 7,
-                        "end": 7
+                        "end": 8
                     },
                     "flags": 256,
                     "start": 5,
-                    "end": 7
+                    "end": 9
                 },
-                "colonToken": null,
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 768,
+                    "start": 9,
+                    "end": 11
+                },
                 "alternate": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 8,
-                    "end": 8
+                    "kind": 134299649,
+                    "text": "baz",
+                    "rawText": "baz",
+                    "flags": 768,
+                    "start": 11,
+                    "end": 15
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 8
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "baz",
-                "rawText": "baz",
-                "flags": 768,
-                "start": 11,
                 "end": 15
             },
             "flags": 128,
-            "start": 11,
+            "start": 0,
             "end": 16
         }
     ],
@@ -501,58 +491,10 @@ x = # ;
         {
             "kind": 2,
             "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
+            "code": 69,
+            "error": "Private identifiers are not allowed outside class_bodies",
             "start": 7,
             "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 7,
-            "end": 8
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 8,
-            "end": 9
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 5,
-            "error": "Statement expected",
-            "start": 9,
-            "end": 11
         }
     ],
     "start": 0,

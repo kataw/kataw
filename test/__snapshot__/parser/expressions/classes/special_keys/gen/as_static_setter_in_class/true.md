@@ -52,12 +52,13 @@ class x {static set true(x){}}
                             "start": 9,
                             "end": 15
                         },
+                        "asyncKeyword": null,
                         "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 19,
+                            "kind": 134299649,
+                            "text": "set",
+                            "rawText": "set",
+                            "flags": 768,
+                            "start": 15,
                             "end": 19
                         },
                         "optionalToken": null,
@@ -132,14 +133,6 @@ class x {static set true(x){}}
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 18,
-            "error": "A rest element cannot have an initializer",
-            "start": 19,
-            "end": 24
-        },
         {
             "kind": 2,
             "source": 2,

@@ -51,6 +51,7 @@ class Foo { prop1:string; prop2:number; }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "prop1",
@@ -88,6 +89,7 @@ class Foo { prop1:string; prop2:number; }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "prop2",

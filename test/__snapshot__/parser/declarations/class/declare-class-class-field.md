@@ -60,6 +60,7 @@ declare class X {
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "a",
@@ -102,6 +103,7 @@ declare class X {
                             "start": 30,
                             "end": 39
                         },
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "b",
@@ -139,6 +141,7 @@ declare class X {
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
+                        "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
                             "text": "c",

@@ -489,41 +489,26 @@ for (# in x) ;
                     "end": 15
                 },
                 "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
+                    "kind": 67109115,
+                    "text": "#",
+                    "flags": 768,
                     "start": 15,
-                    "end": 15
+                    "end": 17
                 },
                 "typeParameter": null,
                 "flags": 128,
                 "start": 15,
-                "end": 15
+                "end": 17
             },
             "members": {
                 "kind": 277,
                 "elements": [],
                 "flags": 256,
-                "start": 0,
-                "end": 0
+                "start": 19,
+                "end": 20
             },
             "flags": 128,
             "start": 0,
-            "end": 15
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 19,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 17,
             "end": 20
         }
     ],
@@ -532,22 +517,6 @@ for (# in x) ;
     "fileName": "__root__",
     "flags": 0,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 1,
-            "error": "Unexpected token.",
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "code": 3,
-            "error": "Identifier expected",
-            "start": 15,
-            "end": 17
-        },
         {
             "kind": 2,
             "source": 2,
