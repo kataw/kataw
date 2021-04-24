@@ -6,7 +6,7 @@ parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 The CST node contains several properties, and the `flags` property contains the CST info.
 
-All important CST methods can be extracted from the CST node through public APO methods.
+All important CST methods can be extracted from the CST node through public API methods.
 
 
 ## Parsing
