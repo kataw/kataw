@@ -11,13 +11,12 @@ All important CST methods can be extracted from the CST node through public API 
 
 ## Parsing
 
-The parse method exposed by `Kataw` takes an optional options object which allows you to specify whether to parse in `script mode` (*the default*) or in `module mode`.
-
+The parse method allows you to parse in `script mode` (*the default*) or in `module mode`-
 
 ```ts
-kataw.parseScript('foo', { allowTypes: false}, function (source, message, start, end) {})
+kataw.parseScript('foo', { next: true }, function (source, message, start, end) {})
 
-kataw.parseModule('foo', { allowTypes: false}, function (source, message, start, end) {})
+kataw.parseModule('foo', { next: true }, function (source, message, start, end) {})
 ```
 
 ### Parser options
@@ -33,7 +32,7 @@ kataw.parseModule('foo', { allowTypes: false}, function (source, message, start,
 
 ### Error handling
 
-Kataw has a build in error recovery feature so it will never throw any errors by defailt - a callback function has to be used.
+Kataw has a build in error recovery feature so it will never throw any errors by default - a callback function has to be used.
 
 For example:
 
