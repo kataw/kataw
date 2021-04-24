@@ -43,80 +43,80 @@
                         "flags": 128,
                         "start": 1,
                         "end": 3
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 8,
+                                "end": 8
+                            },
+                            "flags": 128,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [
+                                    {
+                                        "kind": 160,
+                                        "switchKeyword": {
+                                            "kind": 37757024,
+                                            "flags": 768,
+                                            "start": 11,
+                                            "end": 17
+                                        },
+                                        "expression": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "autofix": 0,
+                                            "flags": 12,
+                                            "start": 17,
+                                            "end": 17
+                                        },
+                                        "caseBlock": {
+                                            "kind": 152,
+                                            "clauses": [],
+                                            "flags": 128,
+                                            "start": 17,
+                                            "end": 17
+                                        },
+                                        "flags": 128,
+                                        "start": 11,
+                                        "end": 17
+                                    }
+                                ],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 11,
+                                "end": 17
+                            },
+                            "flags": 128,
+                            "start": 9,
+                            "end": 17
+                        },
+                        "flags": 128,
+                        "start": 3,
+                        "end": 17
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 3
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 3
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 8,
-                    "end": 8
-                },
-                "flags": 128,
-                "start": 8,
-                "end": 8
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [
-                        {
-                            "kind": 160,
-                            "switchKeyword": {
-                                "kind": 37757024,
-                                "flags": 768,
-                                "start": 11,
-                                "end": 17
-                            },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "caseBlock": {
-                                "kind": 152,
-                                "clauses": [],
-                                "flags": 128,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "flags": 128,
-                            "start": 11,
-                            "end": 17
-                        }
-                    ],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 11,
-                    "end": 17
-                },
-                "flags": 128,
-                "start": 9,
                 "end": 17
             },
             "flags": 128,
-            "start": 3,
+            "start": 0,
             "end": 17
         }
     ],

@@ -43,84 +43,84 @@
                         "flags": 128,
                         "start": 1,
                         "end": 2
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 768,
+                            "start": 2,
+                            "end": 6
+                        },
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [
+                                    {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 126,
+                                            "operandToken": {
+                                                "kind": 65584,
+                                                "flags": 768,
+                                                "start": 8,
+                                                "end": 10
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "xxx",
+                                                "rawText": "xxx",
+                                                "flags": 768,
+                                                "start": 10,
+                                                "end": 13
+                                            },
+                                            "flags": 256,
+                                            "start": 8,
+                                            "end": 13
+                                        },
+                                        "flags": 128,
+                                        "start": 8,
+                                        "end": 13
+                                    }
+                                ],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 8,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 6,
+                            "end": 13
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 2,
+                        "end": 13
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 2
+                "end": 13
             },
             "flags": 128,
             "start": 0,
-            "end": 2
-        },
-        {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 768,
-                "start": 2,
-                "end": 6
-            },
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 126,
-                                "operandToken": {
-                                    "kind": 65584,
-                                    "flags": 768,
-                                    "start": 8,
-                                    "end": 10
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "xxx",
-                                    "rawText": "xxx",
-                                    "flags": 768,
-                                    "start": 10,
-                                    "end": 13
-                                },
-                                "flags": 256,
-                                "start": 8,
-                                "end": 13
-                            },
-                            "flags": 128,
-                            "start": 8,
-                            "end": 13
-                        }
-                    ],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 8,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 6,
-                "end": 13
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 2,
             "end": 13
         }
     ],

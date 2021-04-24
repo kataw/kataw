@@ -101,55 +101,55 @@ else {} if(x) { function while
                             "flags": 128,
                             "start": 15,
                             "end": 24
+                        },
+                        {
+                            "kind": 154,
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 768,
+                                "start": 24,
+                                "end": 30
+                            },
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "autofix": 0,
+                                "flags": 12,
+                                "start": 30,
+                                "end": 30
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 30,
+                                    "end": 30
+                                },
+                                "flags": 128,
+                                "start": 30,
+                                "end": 30
+                            },
+                            "flags": 128,
+                            "start": 24,
+                            "end": 30
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 15,
-                    "end": 24
+                    "end": 30
                 },
                 "flags": 128,
                 "start": 13,
-                "end": 24
+                "end": 30
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 128,
             "start": 7,
-            "end": 24
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 768,
-                "start": 24,
-                "end": 30
-            },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 30,
-                "end": 30
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 30,
-                    "end": 30
-                },
-                "flags": 128,
-                "start": 30,
-                "end": 30
-            },
-            "flags": 128,
-            "start": 24,
             "end": 30
         }
     ],

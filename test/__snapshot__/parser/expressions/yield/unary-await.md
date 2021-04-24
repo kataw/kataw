@@ -87,30 +87,30 @@ fuction *f() {  return await yield;  }
                         "flags": 128,
                         "start": 0,
                         "end": 14
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 768,
+                            "start": 28,
+                            "end": 34
+                        },
+                        "flags": 128,
+                        "start": 28,
+                        "end": 35
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 14,
-                "end": 28
+                "end": 35
             },
             "flags": 128,
             "start": 12,
-            "end": 28
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "yield",
-                "rawText": "yield",
-                "flags": 768,
-                "start": 28,
-                "end": 34
-            },
-            "flags": 128,
-            "start": 28,
-            "end": 35
+            "end": 38
         }
     ],
     "isModule": false,

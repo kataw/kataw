@@ -43,95 +43,95 @@
                         "flags": 128,
                         "start": 1,
                         "end": 2
-                    }
-                ],
-                "multiLine": false,
-                "flags": 128,
-                "start": 1,
-                "end": 2
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 2
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [
-                        {
-                            "kind": 159,
-                            "tryKeyword": {
-                                "kind": 37757027,
-                                "flags": 768,
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [
+                                    {
+                                        "kind": 159,
+                                        "tryKeyword": {
+                                            "kind": 37757027,
+                                            "flags": 768,
+                                            "start": 10,
+                                            "end": 14
+                                        },
+                                        "block": {
+                                            "kind": 249,
+                                            "block": {
+                                                "kind": 124,
+                                                "statements": [],
+                                                "multiLine": false,
+                                                "flags": 128,
+                                                "start": 14,
+                                                "end": 14
+                                            },
+                                            "flags": 128,
+                                            "start": 14,
+                                            "end": 14
+                                        },
+                                        "catchClause": null,
+                                        "finallyKeyword": null,
+                                        "finallyBlock": {
+                                            "kind": 249,
+                                            "block": {
+                                                "kind": 124,
+                                                "statements": [],
+                                                "multiLine": false,
+                                                "flags": 128,
+                                                "start": 14,
+                                                "end": 14
+                                            },
+                                            "flags": 128,
+                                            "start": 14,
+                                            "end": 14
+                                        },
+                                        "flags": 128,
+                                        "start": 10,
+                                        "end": 14
+                                    }
+                                ],
+                                "multiLine": false,
+                                "flags": 128,
                                 "start": 10,
                                 "end": 14
                             },
+                            "flags": 128,
+                            "start": 8,
+                            "end": 14
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
                             "block": {
-                                "kind": 249,
-                                "block": {
-                                    "kind": 124,
-                                    "statements": [],
-                                    "multiLine": false,
-                                    "flags": 128,
-                                    "start": 14,
-                                    "end": 14
-                                },
-                                "flags": 128,
-                                "start": 14,
-                                "end": 14
-                            },
-                            "catchClause": null,
-                            "finallyKeyword": null,
-                            "finallyBlock": {
-                                "kind": 249,
-                                "block": {
-                                    "kind": 124,
-                                    "statements": [],
-                                    "multiLine": false,
-                                    "flags": 128,
-                                    "start": 14,
-                                    "end": 14
-                                },
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
                                 "flags": 128,
                                 "start": 14,
                                 "end": 14
                             },
                             "flags": 128,
-                            "start": 10,
+                            "start": 14,
                             "end": 14
-                        }
-                    ],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 10,
-                    "end": 14
-                },
+                        },
+                        "flags": 128,
+                        "start": 2,
+                        "end": 14
+                    }
+                ],
+                "multiLine": false,
                 "flags": 128,
-                "start": 8,
-                "end": 14
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 128,
-                "start": 14,
+                "start": 1,
                 "end": 14
             },
             "flags": 128,
-            "start": 2,
+            "start": 0,
             "end": 14
         }
     ],

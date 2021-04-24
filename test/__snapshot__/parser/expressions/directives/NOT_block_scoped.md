@@ -49,56 +49,56 @@ if (x) { "use strict"; with (x) y; }
                             "flags": 128,
                             "start": 8,
                             "end": 22
+                        },
+                        {
+                            "kind": 153,
+                            "withKeyword": {
+                                "kind": 37757029,
+                                "flags": 768,
+                                "start": 22,
+                                "end": 27
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 768,
+                                "start": 29,
+                                "end": 30
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 768,
+                                    "start": 31,
+                                    "end": 33
+                                },
+                                "flags": 128,
+                                "start": 31,
+                                "end": 34
+                            },
+                            "flags": 128,
+                            "start": 22,
+                            "end": 34
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 8,
-                    "end": 22
+                    "end": 34
                 },
                 "flags": 128,
                 "start": 6,
-                "end": 22
+                "end": 36
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 128,
             "start": 0,
-            "end": 22
-        },
-        {
-            "kind": 153,
-            "withKeyword": {
-                "kind": 37757029,
-                "flags": 768,
-                "start": 22,
-                "end": 27
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 29,
-                "end": 30
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 768,
-                    "start": 31,
-                    "end": 33
-                },
-                "flags": 128,
-                "start": 31,
-                "end": 34
-            },
-            "flags": 128,
-            "start": 22,
-            "end": 34
+            "end": 36
         }
     ],
     "isModule": false,

@@ -77,16 +77,29 @@ return try { !xxx return
                             "flags": 128,
                             "start": 12,
                             "end": 17
+                        },
+                        {
+                            "kind": 161,
+                            "returnKeyword": {
+                                "kind": 37757022,
+                                "flags": 768,
+                                "start": 17,
+                                "end": 24
+                            },
+                            "expression": null,
+                            "flags": 128,
+                            "start": 0,
+                            "end": 17
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 12,
-                    "end": 17
+                    "end": 24
                 },
                 "flags": 128,
                 "start": 10,
-                "end": 17
+                "end": 24
             },
             "catchClause": null,
             "finallyKeyword": null,

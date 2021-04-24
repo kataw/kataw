@@ -37,66 +37,66 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "flags": 128,
+                            "start": 12,
+                            "end": 12
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 13
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 128,
+                        "start": 13,
+                        "end": 14
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 128,
-                "start": 12,
-                "end": 12
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 4,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 13,
                 "end": 14
             },
             "flags": 128,
-            "start": 13,
+            "start": 0,
             "end": 14
         },
         {
@@ -117,46 +117,46 @@
                         "flags": 128,
                         "start": 17,
                         "end": 23
+                    },
+                    {
+                        "kind": 178,
+                        "declareKeyword": null,
+                        "decorators": null,
+                        "classKeyword": {
+                            "kind": 37822544,
+                            "flags": 768,
+                            "start": 23,
+                            "end": 29
+                        },
+                        "name": {
+                            "kind": 16637,
+                            "text": "",
+                            "autofix": 0,
+                            "flags": 12,
+                            "start": 29,
+                            "end": 29
+                        },
+                        "typeParameters": null,
+                        "classHeritage": null,
+                        "members": {
+                            "kind": 277,
+                            "elements": [],
+                            "flags": 256,
+                            "start": 23,
+                            "end": 23
+                        },
+                        "flags": 128,
+                        "start": 23,
+                        "end": 29
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 17,
-                "end": 23
+                "end": 29
             },
             "flags": 128,
             "start": 15,
-            "end": 23
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": null,
-            "classKeyword": {
-                "kind": 37822544,
-                "flags": 768,
-                "start": 23,
-                "end": 29
-            },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 29,
-                "end": 29
-            },
-            "typeParameters": null,
-            "classHeritage": null,
-            "members": {
-                "kind": 277,
-                "elements": [],
-                "flags": 256,
-                "start": 23,
-                "end": 23
-            },
-            "flags": 128,
-            "start": 23,
             "end": 29
         }
     ],

@@ -113,35 +113,35 @@
                         "flags": 2176,
                         "start": 1,
                         "end": 27
+                    },
+                    {
+                        "kind": 168,
+                        "flags": 128,
+                        "start": 27,
+                        "end": 29
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "multiLine": false,
+                            "flags": 128,
+                            "start": 31,
+                            "end": 31
+                        },
+                        "flags": 128,
+                        "start": 29,
+                        "end": 31
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 27
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 27
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 27,
-            "end": 29
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 31,
                 "end": 31
             },
             "flags": 128,
-            "start": 29,
+            "start": 0,
             "end": 31
         }
     ],

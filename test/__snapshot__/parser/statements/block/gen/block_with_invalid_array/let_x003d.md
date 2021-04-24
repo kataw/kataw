@@ -43,86 +43,86 @@
                         "flags": 128,
                         "start": 1,
                         "end": 3
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 8,
+                                "end": 8
+                            },
+                            "flags": 128,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 9,
+                                "end": 9
+                            },
+                            "flags": 128,
+                            "start": 9,
+                            "end": 9
+                        },
+                        "flags": 128,
+                        "start": 3,
+                        "end": 9
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 768,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 768,
+                                "start": 13,
+                                "end": 16
+                            },
+                            "right": {
+                                "kind": 16637,
+                                "text": "",
+                                "autofix": 0,
+                                "flags": 12,
+                                "start": 16,
+                                "end": 16
+                            },
+                            "flags": 256,
+                            "start": 9,
+                            "end": 16
+                        },
+                        "flags": 128,
+                        "start": 9,
+                        "end": 16
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 3
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 3
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 8,
-                    "end": 8
-                },
-                "flags": 128,
-                "start": 8,
-                "end": 8
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 9,
-                    "end": 9
-                },
-                "flags": 128,
-                "start": 9,
-                "end": 9
-            },
-            "flags": 128,
-            "start": 3,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "let",
-                    "rawText": "let",
-                    "flags": 768,
-                    "start": 9,
-                    "end": 13
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 768,
-                    "start": 13,
-                    "end": 16
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 16,
-                    "end": 16
-                },
-                "flags": 256,
-                "start": 9,
                 "end": 16
             },
             "flags": 128,
-            "start": 9,
+            "start": 0,
             "end": 16
         }
     ],

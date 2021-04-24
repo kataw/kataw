@@ -90,70 +90,70 @@
                                         "flags": 128,
                                         "start": 17,
                                         "end": 24
+                                    },
+                                    {
+                                        "kind": 155,
+                                        "declareKeyword": null,
+                                        "varKeyword": {
+                                            "kind": 37757002,
+                                            "flags": 768,
+                                            "start": 24,
+                                            "end": 28
+                                        },
+                                        "declarationList": {
+                                            "kind": 156,
+                                            "declarations": [
+                                                {
+                                                    "kind": 157,
+                                                    "binding": {
+                                                        "kind": 134299649,
+                                                        "text": "f",
+                                                        "rawText": "f",
+                                                        "flags": 768,
+                                                        "start": 28,
+                                                        "end": 30
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "flags": 128,
+                                                    "start": 28,
+                                                    "end": 30
+                                                }
+                                            ],
+                                            "flags": 128,
+                                            "start": 28,
+                                            "end": 30
+                                        },
+                                        "flags": 128,
+                                        "start": 24,
+                                        "end": 30
                                     }
                                 ],
                                 "multiLine": false,
                                 "flags": 128,
                                 "start": 17,
-                                "end": 24
-                            },
-                            "flags": 128,
-                            "start": 15,
-                            "end": 24
-                        },
-                        {
-                            "kind": 155,
-                            "declareKeyword": null,
-                            "varKeyword": {
-                                "kind": 37757002,
-                                "flags": 768,
-                                "start": 24,
-                                "end": 28
-                            },
-                            "declarationList": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 768,
-                                            "start": 28,
-                                            "end": 30
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 128,
-                                        "start": 28,
-                                        "end": 30
-                                    }
-                                ],
-                                "flags": 128,
-                                "start": 28,
                                 "end": 30
                             },
                             "flags": 128,
-                            "start": 24,
-                            "end": 30
+                            "start": 15,
+                            "end": 32
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
                     "start": 15,
-                    "end": 30
+                    "end": 32
                 },
                 "flags": 256,
                 "start": 13,
-                "end": 32
+                "end": 34
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 128,
             "start": 0,
-            "end": 32
+            "end": 34
         }
     ],
     "isModule": false,

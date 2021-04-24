@@ -37,66 +37,66 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "flags": 128,
+                            "start": 12,
+                            "end": 12
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 13
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 128,
+                        "start": 13,
+                        "end": 14
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 128,
-                "start": 12,
-                "end": 12
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 4,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 13,
                 "end": 14
             },
             "flags": 128,
-            "start": 13,
+            "start": 0,
             "end": 14
         },
         {
@@ -152,49 +152,49 @@
                         "flags": 128,
                         "start": 17,
                         "end": 29
+                    },
+                    {
+                        "kind": 154,
+                        "whileKeyword": {
+                            "kind": 37757028,
+                            "flags": 768,
+                            "start": 29,
+                            "end": 35
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "I",
+                            "rawText": "I",
+                            "flags": 768,
+                            "start": 35,
+                            "end": 37
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "sleep",
+                                "rawText": "sleep",
+                                "flags": 768,
+                                "start": 37,
+                                "end": 43
+                            },
+                            "flags": 128,
+                            "start": 37,
+                            "end": 43
+                        },
+                        "flags": 128,
+                        "start": 29,
+                        "end": 43
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 17,
-                "end": 29
-            },
-            "flags": 128,
-            "start": 15,
-            "end": 29
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 768,
-                "start": 29,
-                "end": 35
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "I",
-                "rawText": "I",
-                "flags": 768,
-                "start": 35,
-                "end": 37
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "sleep",
-                    "rawText": "sleep",
-                    "flags": 768,
-                    "start": 37,
-                    "end": 43
-                },
-                "flags": 128,
-                "start": 37,
                 "end": 43
             },
             "flags": 128,
-            "start": 29,
+            "start": 15,
             "end": 43
         }
     ],

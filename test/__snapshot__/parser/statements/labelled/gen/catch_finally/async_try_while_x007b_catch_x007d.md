@@ -121,56 +121,56 @@ catch async try while { catch } finally
                             "flags": 128,
                             "start": 23,
                             "end": 31
+                        },
+                        {
+                            "kind": 159,
+                            "tryKeyword": null,
+                            "block": {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 39,
+                                    "end": 39
+                                },
+                                "flags": 128,
+                                "start": 39,
+                                "end": 39
+                            },
+                            "catchClause": null,
+                            "finallyKeyword": null,
+                            "finallyBlock": {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 39,
+                                    "end": 39
+                                },
+                                "flags": 128,
+                                "start": 39,
+                                "end": 39
+                            },
+                            "flags": 128,
+                            "start": 31,
+                            "end": 39
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 23,
-                    "end": 31
+                    "end": 39
                 },
                 "flags": 128,
                 "start": 21,
-                "end": 31
+                "end": 39
             },
             "flags": 128,
             "start": 11,
-            "end": 31
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 39,
-                    "end": 39
-                },
-                "flags": 128,
-                "start": 39,
-                "end": 39
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 39,
-                    "end": 39
-                },
-                "flags": 128,
-                "start": 39,
-                "end": 39
-            },
-            "flags": 128,
-            "start": 31,
             "end": 39
         }
     ],

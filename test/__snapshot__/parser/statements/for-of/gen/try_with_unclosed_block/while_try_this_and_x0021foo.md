@@ -152,55 +152,55 @@ try {} finally(x) { while try this and !foo
                         "flags": 128,
                         "start": 19,
                         "end": 34
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "and",
+                            "rawText": "and",
+                            "flags": 768,
+                            "start": 34,
+                            "end": 38
+                        },
+                        "flags": 128,
+                        "start": 34,
+                        "end": 38
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 126,
+                            "operandToken": {
+                                "kind": 65584,
+                                "flags": 768,
+                                "start": 38,
+                                "end": 40
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 768,
+                                "start": 40,
+                                "end": 43
+                            },
+                            "flags": 256,
+                            "start": 38,
+                            "end": 43
+                        },
+                        "flags": 128,
+                        "start": 38,
+                        "end": 43
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 19,
-                "end": 34
-            },
-            "flags": 128,
-            "start": 17,
-            "end": 34
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "and",
-                "rawText": "and",
-                "flags": 768,
-                "start": 34,
-                "end": 38
-            },
-            "flags": 128,
-            "start": 34,
-            "end": 38
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 768,
-                    "start": 38,
-                    "end": 40
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 768,
-                    "start": 40,
-                    "end": 43
-                },
-                "flags": 256,
-                "start": 38,
                 "end": 43
             },
             "flags": 128,
-            "start": 38,
+            "start": 17,
             "end": 43
         }
     ],

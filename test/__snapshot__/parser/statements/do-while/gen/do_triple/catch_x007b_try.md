@@ -69,12 +69,7 @@ do do do catch { try while while while
                         "start": 38,
                         "end": 38
                     },
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 768,
-                        "start": 32,
-                        "end": 38
-                    },
+                    "whileKeyword": null,
                     "statement": {
                         "kind": 159,
                         "tryKeyword": null,
@@ -124,16 +119,70 @@ do do do catch { try while while while
                                         "flags": 128,
                                         "start": 16,
                                         "end": 26
+                                    },
+                                    {
+                                        "kind": 154,
+                                        "whileKeyword": {
+                                            "kind": 37757028,
+                                            "flags": 768,
+                                            "start": 26,
+                                            "end": 32
+                                        },
+                                        "expression": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "autofix": 0,
+                                            "flags": 12,
+                                            "start": 32,
+                                            "end": 32
+                                        },
+                                        "statement": {
+                                            "kind": 154,
+                                            "whileKeyword": {
+                                                "kind": 37757028,
+                                                "flags": 768,
+                                                "start": 32,
+                                                "end": 38
+                                            },
+                                            "expression": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 38,
+                                                "end": 38
+                                            },
+                                            "statement": {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "autofix": 0,
+                                                    "flags": 12,
+                                                    "start": 38,
+                                                    "end": 38
+                                                },
+                                                "flags": 128,
+                                                "start": 38,
+                                                "end": 38
+                                            },
+                                            "flags": 128,
+                                            "start": 32,
+                                            "end": 38
+                                        },
+                                        "flags": 128,
+                                        "start": 26,
+                                        "end": 38
                                     }
                                 ],
                                 "multiLine": false,
                                 "flags": 128,
                                 "start": 16,
-                                "end": 26
+                                "end": 38
                             },
                             "flags": 128,
                             "start": 14,
-                            "end": 26
+                            "end": 38
                         },
                         "catchClause": null,
                         "finallyKeyword": null,
@@ -144,16 +193,16 @@ do do do catch { try while while while
                                 "statements": [],
                                 "multiLine": false,
                                 "flags": 128,
-                                "start": 32,
-                                "end": 32
+                                "start": 38,
+                                "end": 38
                             },
                             "flags": 128,
-                            "start": 32,
-                            "end": 32
+                            "start": 38,
+                            "end": 38
                         },
                         "flags": 128,
                         "start": 8,
-                        "end": 32
+                        "end": 38
                     },
                     "flags": 128,
                     "start": 5,

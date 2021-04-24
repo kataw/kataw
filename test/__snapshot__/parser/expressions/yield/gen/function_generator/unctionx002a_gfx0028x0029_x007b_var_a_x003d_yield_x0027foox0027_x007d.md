@@ -187,62 +187,62 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "flags": 128,
                                                         "start": 55,
                                                         "end": 69
+                                                    },
+                                                    {
+                                                        "kind": 120,
+                                                        "expression": {
+                                                            "kind": 201392131,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 67109632,
+                                                            "start": 69,
+                                                            "end": 75
+                                                        },
+                                                        "flags": 128,
+                                                        "start": 69,
+                                                        "end": 76
                                                     }
                                                 ],
                                                 "multiLine": false,
                                                 "flags": 128,
                                                 "start": 55,
-                                                "end": 69
+                                                "end": 76
                                             },
                                             "flags": 128,
                                             "start": 53,
-                                            "end": 69
-                                        },
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 201392131,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 67109632,
-                                                "start": 69,
-                                                "end": 75
-                                            },
-                                            "flags": 128,
-                                            "start": 69,
-                                            "end": 76
+                                            "end": 78
                                         }
                                     ],
                                     "multiline": false,
                                     "flags": 256,
                                     "start": 39,
-                                    "end": 76
+                                    "end": 78
                                 },
                                 "flags": 256,
                                 "start": 37,
-                                "end": 78
+                                "end": 80
                             },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 128,
                             "start": 18,
-                            "end": 78
+                            "end": 80
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
                     "start": 18,
-                    "end": 78
+                    "end": 80
                 },
                 "flags": 256,
                 "start": 16,
-                "end": 80
+                "end": 81
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
             "start": 0,
-            "end": 80
+            "end": 81
         }
     ],
     "isModule": false,

@@ -37,79 +37,79 @@
                         "flags": 128,
                         "start": 1,
                         "end": 5
+                    },
+                    {
+                        "kind": 162,
+                        "lexicalKeyword": {
+                            "kind": 37757004,
+                            "flags": 768,
+                            "start": 5,
+                            "end": 11
+                        },
+                        "binding": {
+                            "kind": 151,
+                            "bindingList": [
+                                {
+                                    "kind": 190,
+                                    "binding": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "initializer": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "autofix": 0,
+                                        "flags": 12,
+                                        "start": 15,
+                                        "end": 15
+                                    },
+                                    "flags": 128,
+                                    "start": 11,
+                                    "end": 15
+                                }
+                            ],
+                            "flags": 160,
+                            "start": 11,
+                            "end": 15
+                        },
+                        "flags": 128,
+                        "start": 5,
+                        "end": 15
+                    },
+                    {
+                        "kind": 155,
+                        "declareKeyword": null,
+                        "varKeyword": {
+                            "kind": 37757002,
+                            "flags": 768,
+                            "start": 15,
+                            "end": 19
+                        },
+                        "declarationList": {
+                            "kind": 156,
+                            "declarations": [],
+                            "flags": 128,
+                            "start": 19,
+                            "end": 19
+                        },
+                        "flags": 128,
+                        "start": 15,
+                        "end": 19
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 5
+                "end": 19
             },
             "flags": 128,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 37757004,
-                "flags": 768,
-                "start": 5,
-                "end": 11
-            },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 768,
-                            "start": 11,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 15,
-                            "end": 15
-                        },
-                        "flags": 128,
-                        "start": 11,
-                        "end": 15
-                    }
-                ],
-                "flags": 160,
-                "start": 11,
-                "end": 15
-            },
-            "flags": 128,
-            "start": 5,
-            "end": 15
-        },
-        {
-            "kind": 155,
-            "declareKeyword": null,
-            "varKeyword": {
-                "kind": 37757002,
-                "flags": 768,
-                "start": 15,
-                "end": 19
-            },
-            "declarationList": {
-                "kind": 156,
-                "declarations": [],
-                "flags": 128,
-                "start": 19,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 15,
             "end": 19
         }
     ],

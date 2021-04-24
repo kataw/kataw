@@ -195,91 +195,85 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                             "flags": 128,
                                                                             "start": 69,
                                                                             "end": 78
+                                                                        },
+                                                                        {
+                                                                            "kind": 161,
+                                                                            "returnKeyword": {
+                                                                                "kind": 37757022,
+                                                                                "flags": 768,
+                                                                                "start": 78,
+                                                                                "end": 85
+                                                                            },
+                                                                            "expression": {
+                                                                                "kind": 134299649,
+                                                                                "text": 13,
+                                                                                "rawText": "13",
+                                                                                "flags": 768,
+                                                                                "start": 85,
+                                                                                "end": 88
+                                                                            },
+                                                                            "flags": 128,
+                                                                            "start": 0,
+                                                                            "end": 78
                                                                         }
                                                                     ],
                                                                     "multiLine": false,
                                                                     "flags": 128,
                                                                     "start": 69,
-                                                                    "end": 78
+                                                                    "end": 88
                                                                 },
                                                                 "flags": 128,
                                                                 "start": 67,
-                                                                "end": 78
+                                                                "end": 89
                                                             },
                                                             "flags": 128,
                                                             "start": 44,
-                                                            "end": 78
-                                                        },
-                                                        {
-                                                            "kind": 161,
-                                                            "returnKeyword": {
-                                                                "kind": 37757022,
-                                                                "flags": 768,
-                                                                "start": 78,
-                                                                "end": 85
-                                                            },
-                                                            "expression": {
-                                                                "kind": 134299649,
-                                                                "text": 13,
-                                                                "rawText": "13",
-                                                                "flags": 768,
-                                                                "start": 85,
-                                                                "end": 88
-                                                            },
-                                                            "flags": 128,
-                                                            "start": 0,
-                                                            "end": 78
+                                                            "end": 89
                                                         }
                                                     ],
                                                     "multiline": false,
                                                     "flags": 256,
                                                     "start": 44,
-                                                    "end": 88
+                                                    "end": 89
                                                 },
                                                 "flags": 256,
                                                 "start": 42,
-                                                "end": 89
+                                                "end": 91
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
                                             "flags": 2304,
                                             "start": 30,
-                                            "end": 89
+                                            "end": 91
                                         },
                                         "flags": 128,
                                         "start": 24,
-                                        "end": 89
+                                        "end": 91
                                     }
                                 ],
                                 "flags": 128,
                                 "start": 24,
-                                "end": 89
+                                "end": 91
                             },
                             "flags": 128,
                             "start": 20,
-                            "end": 89
+                            "end": 92
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
                     "start": 20,
-                    "end": 89
+                    "end": 92
                 },
                 "flags": 256,
                 "start": 18,
-                "end": 91
+                "end": 94
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 128,
             "start": 0,
-            "end": 91
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 91,
-            "end": 92
+            "end": 94
         }
     ],
     "isModule": false,

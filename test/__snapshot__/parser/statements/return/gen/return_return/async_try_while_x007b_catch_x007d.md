@@ -104,33 +104,33 @@ return async try while { catch } return
                             "flags": 128,
                             "start": 24,
                             "end": 32
+                        },
+                        {
+                            "kind": 161,
+                            "returnKeyword": {
+                                "kind": 37757022,
+                                "flags": 768,
+                                "start": 32,
+                                "end": 39
+                            },
+                            "expression": null,
+                            "flags": 128,
+                            "start": 0,
+                            "end": 32
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 24,
-                    "end": 32
+                    "end": 39
                 },
                 "flags": 128,
                 "start": 22,
-                "end": 32
+                "end": 39
             },
             "flags": 128,
             "start": 12,
-            "end": 32
-        },
-        {
-            "kind": 161,
-            "returnKeyword": {
-                "kind": 37757022,
-                "flags": 768,
-                "start": 32,
-                "end": 39
-            },
-            "expression": null,
-            "flags": 128,
-            "start": 0,
-            "end": 32
+            "end": 39
         }
     ],
     "isModule": false,

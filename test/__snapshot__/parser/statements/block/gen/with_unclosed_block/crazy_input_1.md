@@ -37,66 +37,66 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "flags": 128,
+                            "start": 12,
+                            "end": 12
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 13
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 128,
+                        "start": 13,
+                        "end": 14
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 128,
-                "start": 12,
-                "end": 12
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 4,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 13,
                 "end": 14
             },
             "flags": 128,
-            "start": 13,
+            "start": 0,
             "end": 14
         },
         {
@@ -117,43 +117,43 @@
                         "flags": 128,
                         "start": 17,
                         "end": 23
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "input",
+                            "rawText": "input",
+                            "flags": 768,
+                            "start": 23,
+                            "end": 29
+                        },
+                        "flags": 128,
+                        "start": 23,
+                        "end": 29
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": 1,
+                            "rawText": "1",
+                            "flags": 768,
+                            "start": 29,
+                            "end": 31
+                        },
+                        "flags": 128,
+                        "start": 29,
+                        "end": 31
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 17,
-                "end": 23
-            },
-            "flags": 128,
-            "start": 15,
-            "end": 23
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "input",
-                "rawText": "input",
-                "flags": 768,
-                "start": 23,
-                "end": 29
-            },
-            "flags": 128,
-            "start": 23,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": 1,
-                "rawText": "1",
-                "flags": 768,
-                "start": 29,
                 "end": 31
             },
             "flags": 128,
-            "start": 29,
+            "start": 15,
             "end": 31
         }
     ],

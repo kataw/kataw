@@ -104,95 +104,95 @@ try {} finally(x) { async try while { catch }
                         "flags": 128,
                         "start": 19,
                         "end": 25
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 768,
+                            "start": 25,
+                            "end": 29
+                        },
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 29,
+                                "end": 29
+                            },
+                            "flags": 128,
+                            "start": 29,
+                            "end": 29
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [
+                                    {
+                                        "kind": 159,
+                                        "tryKeyword": null,
+                                        "block": {
+                                            "kind": 249,
+                                            "block": {
+                                                "kind": 124,
+                                                "statements": [],
+                                                "multiLine": false,
+                                                "flags": 128,
+                                                "start": 43,
+                                                "end": 43
+                                            },
+                                            "flags": 128,
+                                            "start": 43,
+                                            "end": 43
+                                        },
+                                        "catchClause": null,
+                                        "finallyKeyword": null,
+                                        "finallyBlock": {
+                                            "kind": 249,
+                                            "block": {
+                                                "kind": 124,
+                                                "statements": [],
+                                                "multiLine": false,
+                                                "flags": 128,
+                                                "start": 45,
+                                                "end": 45
+                                            },
+                                            "flags": 128,
+                                            "start": 45,
+                                            "end": 45
+                                        },
+                                        "flags": 128,
+                                        "start": 37,
+                                        "end": 45
+                                    }
+                                ],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 37,
+                                "end": 45
+                            },
+                            "flags": 128,
+                            "start": 35,
+                            "end": 45
+                        },
+                        "flags": 128,
+                        "start": 25,
+                        "end": 45
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 19,
-                "end": 25
-            },
-            "flags": 128,
-            "start": 17,
-            "end": 25
-        },
-        {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 768,
-                "start": 25,
-                "end": 29
-            },
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 29,
-                    "end": 29
-                },
-                "flags": 128,
-                "start": 29,
-                "end": 29
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [
-                        {
-                            "kind": 159,
-                            "tryKeyword": null,
-                            "block": {
-                                "kind": 249,
-                                "block": {
-                                    "kind": 124,
-                                    "statements": [],
-                                    "multiLine": false,
-                                    "flags": 128,
-                                    "start": 43,
-                                    "end": 43
-                                },
-                                "flags": 128,
-                                "start": 43,
-                                "end": 43
-                            },
-                            "catchClause": null,
-                            "finallyKeyword": null,
-                            "finallyBlock": {
-                                "kind": 249,
-                                "block": {
-                                    "kind": 124,
-                                    "statements": [],
-                                    "multiLine": false,
-                                    "flags": 128,
-                                    "start": 45,
-                                    "end": 45
-                                },
-                                "flags": 128,
-                                "start": 45,
-                                "end": 45
-                            },
-                            "flags": 128,
-                            "start": 37,
-                            "end": 45
-                        }
-                    ],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 37,
-                    "end": 45
-                },
-                "flags": 128,
-                "start": 35,
                 "end": 45
             },
             "flags": 128,
-            "start": 25,
+            "start": 17,
             "end": 45
         }
     ],

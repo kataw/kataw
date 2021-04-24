@@ -82,69 +82,69 @@
                                                 "flags": 128,
                                                 "start": 5,
                                                 "end": 17
+                                            },
+                                            {
+                                                "kind": 154,
+                                                "whileKeyword": {
+                                                    "kind": 37757028,
+                                                    "flags": 768,
+                                                    "start": 17,
+                                                    "end": 23
+                                                },
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "I",
+                                                    "rawText": "I",
+                                                    "flags": 768,
+                                                    "start": 23,
+                                                    "end": 25
+                                                },
+                                                "statement": {
+                                                    "kind": 120,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "sleep",
+                                                        "rawText": "sleep",
+                                                        "flags": 768,
+                                                        "start": 25,
+                                                        "end": 31
+                                                    },
+                                                    "flags": 128,
+                                                    "start": 25,
+                                                    "end": 31
+                                                },
+                                                "flags": 128,
+                                                "start": 17,
+                                                "end": 31
                                             }
                                         ],
                                         "multiLine": false,
                                         "flags": 128,
                                         "start": 5,
-                                        "end": 17
+                                        "end": 31
                                     },
                                     "flags": 128,
                                     "start": 3,
-                                    "end": 17
+                                    "end": 31
                                 }
                             ],
                             "multiLine": false,
                             "flags": 128,
                             "start": 3,
-                            "end": 17
+                            "end": 31
                         },
                         "flags": 128,
                         "start": 1,
-                        "end": 17
+                        "end": 31
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 17
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 768,
-                "start": 17,
-                "end": 23
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "I",
-                "rawText": "I",
-                "flags": 768,
-                "start": 23,
-                "end": 25
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "sleep",
-                    "rawText": "sleep",
-                    "flags": 768,
-                    "start": 25,
-                    "end": 31
-                },
-                "flags": 128,
-                "start": 25,
                 "end": 31
             },
             "flags": 128,
-            "start": 17,
+            "start": 0,
             "end": 31
         }
     ],

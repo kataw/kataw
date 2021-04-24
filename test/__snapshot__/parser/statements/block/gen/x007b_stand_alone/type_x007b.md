@@ -37,29 +37,29 @@
                         "flags": 128,
                         "start": 1,
                         "end": 6
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "multiLine": false,
+                            "flags": 128,
+                            "start": 8,
+                            "end": 8
+                        },
+                        "flags": 128,
+                        "start": 6,
+                        "end": 8
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 6
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 8,
                 "end": 8
             },
             "flags": 128,
-            "start": 6,
+            "start": 0,
             "end": 8
         }
     ],

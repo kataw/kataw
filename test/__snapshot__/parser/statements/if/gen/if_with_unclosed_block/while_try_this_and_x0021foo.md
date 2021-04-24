@@ -115,61 +115,61 @@ else {} if(x) { while try this and !foo
                             "flags": 128,
                             "start": 15,
                             "end": 30
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "and",
+                                "rawText": "and",
+                                "flags": 768,
+                                "start": 30,
+                                "end": 34
+                            },
+                            "flags": 128,
+                            "start": 30,
+                            "end": 34
+                        },
+                        {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 65584,
+                                    "flags": 768,
+                                    "start": 34,
+                                    "end": 36
+                                },
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 768,
+                                    "start": 36,
+                                    "end": 39
+                                },
+                                "flags": 256,
+                                "start": 34,
+                                "end": 39
+                            },
+                            "flags": 128,
+                            "start": 34,
+                            "end": 39
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
                     "start": 15,
-                    "end": 30
+                    "end": 39
                 },
                 "flags": 128,
                 "start": 13,
-                "end": 30
+                "end": 39
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 128,
             "start": 7,
-            "end": 30
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "and",
-                "rawText": "and",
-                "flags": 768,
-                "start": 30,
-                "end": 34
-            },
-            "flags": 128,
-            "start": 30,
-            "end": 34
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 768,
-                    "start": 34,
-                    "end": 36
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 768,
-                    "start": 36,
-                    "end": 39
-                },
-                "flags": 256,
-                "start": 34,
-                "end": 39
-            },
-            "flags": 128,
-            "start": 34,
             "end": 39
         }
     ],

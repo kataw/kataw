@@ -47,66 +47,66 @@
                                                 "flags": 128,
                                                 "start": 5,
                                                 "end": 11
+                                            },
+                                            {
+                                                "kind": 178,
+                                                "declareKeyword": null,
+                                                "decorators": null,
+                                                "classKeyword": {
+                                                    "kind": 37822544,
+                                                    "flags": 768,
+                                                    "start": 11,
+                                                    "end": 17
+                                                },
+                                                "name": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "autofix": 0,
+                                                    "flags": 12,
+                                                    "start": 17,
+                                                    "end": 17
+                                                },
+                                                "typeParameters": null,
+                                                "classHeritage": null,
+                                                "members": {
+                                                    "kind": 277,
+                                                    "elements": [],
+                                                    "flags": 256,
+                                                    "start": 11,
+                                                    "end": 11
+                                                },
+                                                "flags": 128,
+                                                "start": 11,
+                                                "end": 17
                                             }
                                         ],
                                         "multiLine": false,
                                         "flags": 128,
                                         "start": 5,
-                                        "end": 11
+                                        "end": 17
                                     },
                                     "flags": 128,
                                     "start": 3,
-                                    "end": 11
+                                    "end": 17
                                 }
                             ],
                             "multiLine": false,
                             "flags": 128,
                             "start": 3,
-                            "end": 11
+                            "end": 17
                         },
                         "flags": 128,
                         "start": 1,
-                        "end": 11
+                        "end": 17
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 11
+                "end": 17
             },
             "flags": 128,
             "start": 0,
-            "end": 11
-        },
-        {
-            "kind": 178,
-            "declareKeyword": null,
-            "decorators": null,
-            "classKeyword": {
-                "kind": 37822544,
-                "flags": 768,
-                "start": 11,
-                "end": 17
-            },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 17,
-                "end": 17
-            },
-            "typeParameters": null,
-            "classHeritage": null,
-            "members": {
-                "kind": 277,
-                "elements": [],
-                "flags": 256,
-                "start": 11,
-                "end": 11
-            },
-            "flags": 128,
-            "start": 11,
             "end": 17
         }
     ],

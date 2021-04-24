@@ -125,30 +125,30 @@
                         "flags": 128,
                         "start": 29,
                         "end": 43
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 201392131,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 67109632,
+                            "start": 43,
+                            "end": 49
+                        },
+                        "flags": 128,
+                        "start": 43,
+                        "end": 50
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 29,
-                "end": 43
+                "end": 50
             },
             "flags": 128,
             "start": 27,
-            "end": 43
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 67109632,
-                "start": 43,
-                "end": 49
-            },
-            "flags": 128,
-            "start": 43,
-            "end": 50
+            "end": 52
         }
     ],
     "isModule": false,

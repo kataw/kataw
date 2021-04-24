@@ -74,16 +74,50 @@ do try { !xxx while
                                 "flags": 128,
                                 "start": 8,
                                 "end": 13
+                            },
+                            {
+                                "kind": 154,
+                                "whileKeyword": {
+                                    "kind": 37757028,
+                                    "flags": 768,
+                                    "start": 13,
+                                    "end": 19
+                                },
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "statement": {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "autofix": 0,
+                                        "flags": 12,
+                                        "start": 19,
+                                        "end": 19
+                                    },
+                                    "flags": 128,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "flags": 128,
+                                "start": 13,
+                                "end": 19
                             }
                         ],
                         "multiLine": false,
                         "flags": 128,
                         "start": 8,
-                        "end": 13
+                        "end": 19
                     },
                     "flags": 128,
                     "start": 6,
-                    "end": 13
+                    "end": 19
                 },
                 "catchClause": null,
                 "finallyKeyword": null,

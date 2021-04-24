@@ -67,55 +67,15 @@ else {} if(x) { async try while { catch }
                             "flags": 128,
                             "start": 15,
                             "end": 21
-                        }
-                    ],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 15,
-                    "end": 21
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 21
-            },
-            "elseKeyword": null,
-            "alternate": null,
-            "flags": 128,
-            "start": 7,
-            "end": 21
-        },
-        {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 768,
-                "start": 21,
-                "end": 25
-            },
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 25,
-                    "end": 25
-                },
-                "flags": 128,
-                "start": 25,
-                "end": 25
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [
+                        },
                         {
                             "kind": 159,
-                            "tryKeyword": null,
+                            "tryKeyword": {
+                                "kind": 37757027,
+                                "flags": 768,
+                                "start": 21,
+                                "end": 25
+                            },
                             "block": {
                                 "kind": 249,
                                 "block": {
@@ -123,12 +83,12 @@ else {} if(x) { async try while { catch }
                                     "statements": [],
                                     "multiLine": false,
                                     "flags": 128,
-                                    "start": 39,
-                                    "end": 39
+                                    "start": 25,
+                                    "end": 25
                                 },
                                 "flags": 128,
-                                "start": 39,
-                                "end": 39
+                                "start": 25,
+                                "end": 25
                             },
                             "catchClause": null,
                             "finallyKeyword": null,
@@ -136,32 +96,72 @@ else {} if(x) { async try while { catch }
                                 "kind": 249,
                                 "block": {
                                     "kind": 124,
-                                    "statements": [],
+                                    "statements": [
+                                        {
+                                            "kind": 159,
+                                            "tryKeyword": null,
+                                            "block": {
+                                                "kind": 249,
+                                                "block": {
+                                                    "kind": 124,
+                                                    "statements": [],
+                                                    "multiLine": false,
+                                                    "flags": 128,
+                                                    "start": 39,
+                                                    "end": 39
+                                                },
+                                                "flags": 128,
+                                                "start": 39,
+                                                "end": 39
+                                            },
+                                            "catchClause": null,
+                                            "finallyKeyword": null,
+                                            "finallyBlock": {
+                                                "kind": 249,
+                                                "block": {
+                                                    "kind": 124,
+                                                    "statements": [],
+                                                    "multiLine": false,
+                                                    "flags": 128,
+                                                    "start": 41,
+                                                    "end": 41
+                                                },
+                                                "flags": 128,
+                                                "start": 41,
+                                                "end": 41
+                                            },
+                                            "flags": 128,
+                                            "start": 33,
+                                            "end": 41
+                                        }
+                                    ],
                                     "multiLine": false,
                                     "flags": 128,
-                                    "start": 41,
+                                    "start": 33,
                                     "end": 41
                                 },
                                 "flags": 128,
-                                "start": 41,
+                                "start": 31,
                                 "end": 41
                             },
                             "flags": 128,
-                            "start": 33,
+                            "start": 21,
                             "end": 41
                         }
                     ],
                     "multiLine": false,
                     "flags": 128,
-                    "start": 33,
+                    "start": 15,
                     "end": 41
                 },
                 "flags": 128,
-                "start": 31,
+                "start": 13,
                 "end": 41
             },
+            "elseKeyword": null,
+            "alternate": null,
             "flags": 128,
-            "start": 21,
+            "start": 7,
             "end": 41
         }
     ],

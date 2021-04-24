@@ -72,49 +72,49 @@
                         "flags": 128,
                         "start": 1,
                         "end": 13
+                    },
+                    {
+                        "kind": 154,
+                        "whileKeyword": {
+                            "kind": 37757028,
+                            "flags": 768,
+                            "start": 13,
+                            "end": 19
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "I",
+                            "rawText": "I",
+                            "flags": 768,
+                            "start": 19,
+                            "end": 21
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "sleep",
+                                "rawText": "sleep",
+                                "flags": 768,
+                                "start": 21,
+                                "end": 27
+                            },
+                            "flags": 128,
+                            "start": 21,
+                            "end": 27
+                        },
+                        "flags": 128,
+                        "start": 13,
+                        "end": 27
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 13
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 768,
-                "start": 13,
-                "end": 19
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "I",
-                "rawText": "I",
-                "flags": 768,
-                "start": 19,
-                "end": 21
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "sleep",
-                    "rawText": "sleep",
-                    "flags": 768,
-                    "start": 21,
-                    "end": 27
-                },
-                "flags": 128,
-                "start": 21,
                 "end": 27
             },
             "flags": 128,
-            "start": 13,
+            "start": 0,
             "end": 27
         }
     ],

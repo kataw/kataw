@@ -149,46 +149,46 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "flags": 128,
                                         "start": 36,
                                         "end": 50
+                                    },
+                                    {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 67109632,
+                                            "start": 50,
+                                            "end": 56
+                                        },
+                                        "flags": 128,
+                                        "start": 50,
+                                        "end": 57
                                     }
                                 ],
                                 "multiLine": false,
                                 "flags": 128,
                                 "start": 36,
-                                "end": 50
+                                "end": 57
                             },
                             "flags": 128,
                             "start": 34,
-                            "end": 50
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 201392131,
-                                "text": "foo",
-                                "rawText": "foo",
-                                "flags": 67109632,
-                                "start": 50,
-                                "end": 56
-                            },
-                            "flags": 128,
-                            "start": 50,
-                            "end": 57
+                            "end": 59
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
                     "start": 20,
-                    "end": 57
+                    "end": 59
                 },
                 "flags": 256,
                 "start": 18,
-                "end": 59
+                "end": 61
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 128,
             "start": 0,
-            "end": 59
+            "end": 61
         }
     ],
     "isModule": false,

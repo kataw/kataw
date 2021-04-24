@@ -37,66 +37,66 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 12,
+                                "end": 12
+                            },
+                            "flags": 128,
+                            "start": 12,
+                            "end": 12
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 13,
+                                "end": 13
+                            },
+                            "flags": 128,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 13
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 128,
+                        "start": 13,
+                        "end": 14
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 159,
-            "tryKeyword": null,
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 12,
-                    "end": 12
-                },
-                "flags": 128,
-                "start": 12,
-                "end": 12
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 128,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 128,
-            "start": 4,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 13,
                 "end": 14
             },
             "flags": 128,
-            "start": 13,
+            "start": 0,
             "end": 14
         },
         {
@@ -141,69 +141,69 @@
                         "flags": 128,
                         "start": 17,
                         "end": 24
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 768,
+                                "start": 24,
+                                "end": 26
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 768,
+                                "start": 26,
+                                "end": 28
+                            },
+                            "right": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 768,
+                                    "start": 28,
+                                    "end": 30
+                                },
+                                "operatorToken": {
+                                    "kind": 35897,
+                                    "flags": 768,
+                                    "start": 30,
+                                    "end": 33
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "d",
+                                    "rawText": "d",
+                                    "flags": 768,
+                                    "start": 33,
+                                    "end": 35
+                                },
+                                "flags": 256,
+                                "start": 28,
+                                "end": 35
+                            },
+                            "flags": 256,
+                            "start": 24,
+                            "end": 35
+                        },
+                        "flags": 128,
+                        "start": 24,
+                        "end": 35
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 17,
-                "end": 24
-            },
-            "flags": 128,
-            "start": 15,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 134299649,
-                    "text": "d",
-                    "rawText": "d",
-                    "flags": 768,
-                    "start": 24,
-                    "end": 26
-                },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 768,
-                    "start": 26,
-                    "end": 28
-                },
-                "right": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 768,
-                        "start": 28,
-                        "end": 30
-                    },
-                    "operatorToken": {
-                        "kind": 35897,
-                        "flags": 768,
-                        "start": 30,
-                        "end": 33
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "d",
-                        "rawText": "d",
-                        "flags": 768,
-                        "start": 33,
-                        "end": 35
-                    },
-                    "flags": 256,
-                    "start": 28,
-                    "end": 35
-                },
-                "flags": 256,
-                "start": 24,
                 "end": 35
             },
             "flags": 128,
-            "start": 24,
+            "start": 15,
             "end": 35
         }
     ],

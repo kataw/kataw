@@ -171,74 +171,68 @@
                                                             "flags": 128,
                                                             "start": 62,
                                                             "end": 71
+                                                        },
+                                                        {
+                                                            "kind": 161,
+                                                            "returnKeyword": {
+                                                                "kind": 37757022,
+                                                                "flags": 768,
+                                                                "start": 71,
+                                                                "end": 78
+                                                            },
+                                                            "expression": {
+                                                                "kind": 134299649,
+                                                                "text": 13,
+                                                                "rawText": "13",
+                                                                "flags": 768,
+                                                                "start": 78,
+                                                                "end": 81
+                                                            },
+                                                            "flags": 128,
+                                                            "start": 0,
+                                                            "end": 71
                                                         }
                                                     ],
                                                     "multiLine": false,
                                                     "flags": 128,
                                                     "start": 62,
-                                                    "end": 71
+                                                    "end": 81
                                                 },
                                                 "flags": 128,
                                                 "start": 60,
-                                                "end": 71
+                                                "end": 82
                                             },
                                             "flags": 128,
                                             "start": 37,
-                                            "end": 71
-                                        },
-                                        {
-                                            "kind": 161,
-                                            "returnKeyword": {
-                                                "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 71,
-                                                "end": 78
-                                            },
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": 13,
-                                                "rawText": "13",
-                                                "flags": 768,
-                                                "start": 78,
-                                                "end": 81
-                                            },
-                                            "flags": 128,
-                                            "start": 0,
-                                            "end": 71
+                                            "end": 82
                                         }
                                     ],
                                     "multiline": false,
                                     "flags": 256,
                                     "start": 37,
-                                    "end": 81
+                                    "end": 82
                                 },
                                 "flags": 256,
                                 "start": 35,
-                                "end": 82
+                                "end": 84
                             },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 2304,
                             "start": 23,
-                            "end": 82
+                            "end": 84
                         },
                         "flags": 128,
                         "start": 17,
-                        "end": 82
+                        "end": 84
                     }
                 ],
                 "flags": 128,
                 "start": 17,
-                "end": 82
+                "end": 84
             },
             "flags": 128,
             "start": 13,
-            "end": 82
-        },
-        {
-            "kind": 168,
-            "flags": 128,
-            "start": 84,
             "end": 85
         }
     ],

@@ -41,43 +41,43 @@
                         "flags": 128,
                         "start": 1,
                         "end": 12
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 768,
+                            "start": 12,
+                            "end": 14
+                        },
+                        "flags": 128,
+                        "start": 12,
+                        "end": 14
+                    },
+                    {
+                        "kind": 249,
+                        "block": {
+                            "kind": 124,
+                            "statements": [],
+                            "multiLine": false,
+                            "flags": 128,
+                            "start": 16,
+                            "end": 16
+                        },
+                        "flags": 128,
+                        "start": 14,
+                        "end": 16
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 12
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 768,
-                "start": 12,
-                "end": 14
-            },
-            "flags": 128,
-            "start": 12,
-            "end": 14
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 16,
                 "end": 16
             },
             "flags": 128,
-            "start": 14,
+            "start": 0,
             "end": 16
         }
     ],

@@ -37,29 +37,29 @@
                         "flags": 128,
                         "start": 1,
                         "end": 16
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "z",
+                            "rawText": "z",
+                            "flags": 768,
+                            "start": 16,
+                            "end": 18
+                        },
+                        "flags": 128,
+                        "start": 16,
+                        "end": 18
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 16
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 16
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "z",
-                "rawText": "z",
-                "flags": 768,
-                "start": 16,
                 "end": 18
             },
             "flags": 128,
-            "start": 16,
+            "start": 0,
             "end": 18
         },
         {

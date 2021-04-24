@@ -41,65 +41,65 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 132,
+                            "expressions": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 768,
+                                    "start": 4,
+                                    "end": 6
+                                },
+                                {
+                                    "kind": 125,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 768,
+                                        "start": 7,
+                                        "end": 9
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 768,
+                                        "start": 9,
+                                        "end": 11
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 768,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    "flags": 256,
+                                    "start": 7,
+                                    "end": 13
+                                }
+                            ],
+                            "flags": 256,
+                            "start": 4,
+                            "end": 13
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 13
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 134299649,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 768,
-                        "start": 4,
-                        "end": 6
-                    },
-                    {
-                        "kind": 125,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "c",
-                            "rawText": "c",
-                            "flags": 768,
-                            "start": 7,
-                            "end": 9
-                        },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 768,
-                            "start": 9,
-                            "end": 11
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 768,
-                            "start": 11,
-                            "end": 13
-                        },
-                        "flags": 256,
-                        "start": 7,
-                        "end": 13
-                    }
-                ],
-                "flags": 256,
-                "start": 4,
                 "end": 13
             },
             "flags": 128,
-            "start": 4,
+            "start": 0,
             "end": 13
         },
         {

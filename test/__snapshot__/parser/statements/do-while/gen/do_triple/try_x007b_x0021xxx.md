@@ -52,12 +52,7 @@ do do do try { !xxx while while while
                     "start": 37,
                     "end": 37
                 },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 768,
-                    "start": 31,
-                    "end": 37
-                },
+                "whileKeyword": null,
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -71,15 +66,10 @@ do do do try { !xxx while while while
                         "text": "",
                         "autofix": 0,
                         "flags": 12,
-                        "start": 31,
-                        "end": 31
+                        "start": 37,
+                        "end": 37
                     },
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 768,
-                        "start": 25,
-                        "end": 31
-                    },
+                    "whileKeyword": null,
                     "statement": {
                         "kind": 159,
                         "tryKeyword": {
@@ -118,16 +108,90 @@ do do do try { !xxx while while while
                                         "flags": 128,
                                         "start": 14,
                                         "end": 19
+                                    },
+                                    {
+                                        "kind": 154,
+                                        "whileKeyword": {
+                                            "kind": 37757028,
+                                            "flags": 768,
+                                            "start": 19,
+                                            "end": 25
+                                        },
+                                        "expression": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "autofix": 0,
+                                            "flags": 12,
+                                            "start": 25,
+                                            "end": 25
+                                        },
+                                        "statement": {
+                                            "kind": 154,
+                                            "whileKeyword": {
+                                                "kind": 37757028,
+                                                "flags": 768,
+                                                "start": 25,
+                                                "end": 31
+                                            },
+                                            "expression": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 31,
+                                                "end": 31
+                                            },
+                                            "statement": {
+                                                "kind": 154,
+                                                "whileKeyword": {
+                                                    "kind": 37757028,
+                                                    "flags": 768,
+                                                    "start": 31,
+                                                    "end": 37
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "autofix": 0,
+                                                    "flags": 12,
+                                                    "start": 37,
+                                                    "end": 37
+                                                },
+                                                "statement": {
+                                                    "kind": 120,
+                                                    "expression": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "autofix": 0,
+                                                        "flags": 12,
+                                                        "start": 37,
+                                                        "end": 37
+                                                    },
+                                                    "flags": 128,
+                                                    "start": 37,
+                                                    "end": 37
+                                                },
+                                                "flags": 128,
+                                                "start": 31,
+                                                "end": 37
+                                            },
+                                            "flags": 128,
+                                            "start": 25,
+                                            "end": 37
+                                        },
+                                        "flags": 128,
+                                        "start": 19,
+                                        "end": 37
                                     }
                                 ],
                                 "multiLine": false,
                                 "flags": 128,
                                 "start": 14,
-                                "end": 19
+                                "end": 37
                             },
                             "flags": 128,
                             "start": 12,
-                            "end": 19
+                            "end": 37
                         },
                         "catchClause": null,
                         "finallyKeyword": null,
@@ -138,20 +202,20 @@ do do do try { !xxx while while while
                                 "statements": [],
                                 "multiLine": false,
                                 "flags": 128,
-                                "start": 25,
-                                "end": 25
+                                "start": 37,
+                                "end": 37
                             },
                             "flags": 128,
-                            "start": 25,
-                            "end": 25
+                            "start": 37,
+                            "end": 37
                         },
                         "flags": 128,
                         "start": 8,
-                        "end": 25
+                        "end": 37
                     },
                     "flags": 128,
                     "start": 5,
-                    "end": 31
+                    "end": 37
                 },
                 "flags": 128,
                 "start": 2,

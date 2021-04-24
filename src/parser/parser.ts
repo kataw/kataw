@@ -957,7 +957,7 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
-  if (
+  while (
     parser.token &
     (SyntaxKind.IsStatementStart |
       SyntaxKind.IsExpressionStart |
@@ -967,9 +967,11 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
       SyntaxKind.IsBinaryOp)
   ) {
     const statement = parseStatementListItem(parser, context);
+
     if (statement) {
       statements.push(statement);
     }
+
   }
   return createBlockStatement(statements, multiline, curPos, parser.curPos);
 }

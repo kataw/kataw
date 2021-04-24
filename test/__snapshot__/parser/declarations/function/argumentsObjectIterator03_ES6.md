@@ -314,67 +314,67 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "flags": 128,
                         "start": 87,
                         "end": 118
+                    },
+                    {
+                        "kind": 161,
+                        "returnKeyword": {
+                            "kind": 37757022,
+                            "flags": 768,
+                            "start": 118,
+                            "end": 130
+                        },
+                        "expression": {
+                            "kind": 119,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 768,
+                                        "start": 132,
+                                        "end": 133
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 768,
+                                        "start": 134,
+                                        "end": 136
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 137,
+                                        "end": 139
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 132,
+                                "end": 139
+                            },
+                            "flags": 256,
+                            "start": 130,
+                            "end": 140
+                        },
+                        "flags": 128,
+                        "start": 1,
+                        "end": 118
                     }
                 ],
                 "multiLine": true,
                 "flags": 128,
                 "start": 87,
-                "end": 118
+                "end": 141
             },
             "flags": 128,
             "start": 85,
-            "end": 118
-        },
-        {
-            "kind": 161,
-            "returnKeyword": {
-                "kind": 37757022,
-                "flags": 768,
-                "start": 118,
-                "end": 130
-            },
-            "expression": {
-                "kind": 119,
-                "elementList": {
-                    "kind": 270,
-                    "elements": [
-                        {
-                            "kind": 134299649,
-                            "text": "z",
-                            "rawText": "z",
-                            "flags": 768,
-                            "start": 132,
-                            "end": 133
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 768,
-                            "start": 134,
-                            "end": 136
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 768,
-                            "start": 137,
-                            "end": 139
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 132,
-                    "end": 139
-                },
-                "flags": 256,
-                "start": 130,
-                "end": 140
-            },
-            "flags": 128,
-            "start": 1,
-            "end": 118
+            "end": 143
         }
     ],
     "isModule": false,

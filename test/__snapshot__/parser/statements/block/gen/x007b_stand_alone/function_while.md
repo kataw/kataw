@@ -71,49 +71,49 @@
                         "flags": 128,
                         "start": 1,
                         "end": 10
+                    },
+                    {
+                        "kind": 154,
+                        "whileKeyword": {
+                            "kind": 37757028,
+                            "flags": 768,
+                            "start": 10,
+                            "end": 16
+                        },
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "autofix": 0,
+                            "flags": 12,
+                            "start": 16,
+                            "end": 16
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "autofix": 0,
+                                "flags": 12,
+                                "start": 16,
+                                "end": 16
+                            },
+                            "flags": 128,
+                            "start": 16,
+                            "end": 16
+                        },
+                        "flags": 128,
+                        "start": 10,
+                        "end": 16
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 10
+                "end": 16
             },
             "flags": 128,
             "start": 0,
-            "end": 10
-        },
-        {
-            "kind": 154,
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 768,
-                "start": 10,
-                "end": 16
-            },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 16,
-                "end": 16
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 16,
-                    "end": 16
-                },
-                "flags": 128,
-                "start": 16,
-                "end": 16
-            },
-            "flags": 128,
-            "start": 10,
             "end": 16
         }
     ],

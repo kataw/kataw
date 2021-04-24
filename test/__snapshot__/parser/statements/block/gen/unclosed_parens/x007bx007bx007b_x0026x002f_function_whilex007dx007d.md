@@ -41,78 +41,78 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
-                    }
-                ],
-                "multiLine": false,
-                "flags": 128,
-                "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                    },
                     {
                         "kind": 249,
                         "block": {
                             "kind": 124,
                             "statements": [
                                 {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 198,
-                                        "left": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "autofix": 0,
-                                            "flags": 12,
-                                            "start": 6,
-                                            "end": 6
-                                        },
-                                        "operatorToken": {
-                                            "kind": 34375,
-                                            "flags": 768,
-                                            "start": 6,
-                                            "end": 8
-                                        },
-                                        "right": {
-                                            "kind": 221,
-                                            "text": "/ function while}}",
-                                            "flags": 768,
-                                            "start": 8,
-                                            "end": 26
-                                        },
-                                        "flags": 256,
+                                    "kind": 249,
+                                    "block": {
+                                        "kind": 124,
+                                        "statements": [
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 198,
+                                                    "left": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "autofix": 0,
+                                                        "flags": 12,
+                                                        "start": 6,
+                                                        "end": 6
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 34375,
+                                                        "flags": 768,
+                                                        "start": 6,
+                                                        "end": 8
+                                                    },
+                                                    "right": {
+                                                        "kind": 221,
+                                                        "text": "/ function while}}",
+                                                        "flags": 768,
+                                                        "start": 8,
+                                                        "end": 26
+                                                    },
+                                                    "flags": 256,
+                                                    "start": 6,
+                                                    "end": 26
+                                                },
+                                                "flags": 128,
+                                                "start": 6,
+                                                "end": 26
+                                            }
+                                        ],
+                                        "multiLine": false,
+                                        "flags": 128,
                                         "start": 6,
                                         "end": 26
                                     },
                                     "flags": 128,
-                                    "start": 6,
+                                    "start": 5,
                                     "end": 26
                                 }
                             ],
                             "multiLine": false,
                             "flags": 128,
-                            "start": 6,
+                            "start": 5,
                             "end": 26
                         },
                         "flags": 128,
-                        "start": 5,
+                        "start": 4,
                         "end": 26
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
-                "start": 5,
+                "start": 1,
                 "end": 26
             },
             "flags": 128,
-            "start": 4,
+            "start": 0,
             "end": 26
         }
     ],

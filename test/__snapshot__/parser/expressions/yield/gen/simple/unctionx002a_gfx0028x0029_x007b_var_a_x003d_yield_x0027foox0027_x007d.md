@@ -116,30 +116,30 @@ unction* gf() { var a = yield 'foo'; }
                         "flags": 128,
                         "start": 15,
                         "end": 29
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 201392131,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 67109632,
+                            "start": 29,
+                            "end": 35
+                        },
+                        "flags": 128,
+                        "start": 29,
+                        "end": 36
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 15,
-                "end": 29
+                "end": 36
             },
             "flags": 128,
             "start": 13,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 67109632,
-                "start": 29,
-                "end": 35
-            },
-            "flags": 128,
-            "start": 29,
-            "end": 36
+            "end": 38
         }
     ],
     "isModule": false,

@@ -90,151 +90,151 @@
                         "flags": 128,
                         "start": 1,
                         "end": 11
+                    },
+                    {
+                        "kind": 176,
+                        "declareKeyword": null,
+                        "asyncKeyword": null,
+                        "functionKeyword": {
+                            "kind": 37822554,
+                            "flags": 768,
+                            "start": 11,
+                            "end": 20
+                        },
+                        "generatorToken": null,
+                        "name": {
+                            "kind": 16637,
+                            "text": "",
+                            "autofix": 0,
+                            "flags": 12,
+                            "start": 20,
+                            "end": 20
+                        },
+                        "formalParameters": {
+                            "kind": 214,
+                            "formalParameterList": [],
+                            "trailingComma": false,
+                            "flags": 256,
+                            "start": 20,
+                            "end": 20
+                        },
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 256,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "flags": 256,
+                            "start": 20,
+                            "end": 20
+                        },
+                        "typeParameters": null,
+                        "returnType": null,
+                        "flags": 128,
+                        "start": 11,
+                        "end": 20
+                    },
+                    {
+                        "kind": 159,
+                        "tryKeyword": {
+                            "kind": 37757027,
+                            "flags": 768,
+                            "start": 20,
+                            "end": 24
+                        },
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 24,
+                                "end": 24
+                            },
+                            "flags": 128,
+                            "start": 24,
+                            "end": 24
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 128,
+                                "start": 30,
+                                "end": 30
+                            },
+                            "flags": 128,
+                            "start": 30,
+                            "end": 30
+                        },
+                        "flags": 128,
+                        "start": 20,
+                        "end": 30
+                    },
+                    {
+                        "kind": 153,
+                        "withKeyword": {
+                            "kind": 37757029,
+                            "flags": 768,
+                            "start": 30,
+                            "end": 35
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 768,
+                            "start": 35,
+                            "end": 39
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 65584,
+                                    "flags": 768,
+                                    "start": 39,
+                                    "end": 40
+                                },
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "autofix": 0,
+                                    "flags": 12,
+                                    "start": 40,
+                                    "end": 40
+                                },
+                                "flags": 256,
+                                "start": 39,
+                                "end": 40
+                            },
+                            "flags": 128,
+                            "start": 39,
+                            "end": 40
+                        },
+                        "flags": 128,
+                        "start": 30,
+                        "end": 40
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 11
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 11
-        },
-        {
-            "kind": 176,
-            "declareKeyword": null,
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 768,
-                "start": 11,
-                "end": 20
-            },
-            "generatorToken": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 20,
-                "end": 20
-            },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 256,
-                "start": 20,
-                "end": 20
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 256,
-                    "start": 20,
-                    "end": 20
-                },
-                "flags": 256,
-                "start": 20,
-                "end": 20
-            },
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 128,
-            "start": 11,
-            "end": 20
-        },
-        {
-            "kind": 159,
-            "tryKeyword": {
-                "kind": 37757027,
-                "flags": 768,
-                "start": 20,
-                "end": 24
-            },
-            "block": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 24,
-                    "end": 24
-                },
-                "flags": 128,
-                "start": 24,
-                "end": 24
-            },
-            "catchClause": null,
-            "finallyKeyword": null,
-            "finallyBlock": {
-                "kind": 249,
-                "block": {
-                    "kind": 124,
-                    "statements": [],
-                    "multiLine": false,
-                    "flags": 128,
-                    "start": 30,
-                    "end": 30
-                },
-                "flags": 128,
-                "start": 30,
-                "end": 30
-            },
-            "flags": 128,
-            "start": 20,
-            "end": 30
-        },
-        {
-            "kind": 153,
-            "withKeyword": {
-                "kind": 37757029,
-                "flags": 768,
-                "start": 30,
-                "end": 35
-            },
-            "expression": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 768,
-                "start": 35,
-                "end": 39
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 126,
-                    "operandToken": {
-                        "kind": 65584,
-                        "flags": 768,
-                        "start": 39,
-                        "end": 40
-                    },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
-                        "start": 40,
-                        "end": 40
-                    },
-                    "flags": 256,
-                    "start": 39,
-                    "end": 40
-                },
-                "flags": 128,
-                "start": 39,
                 "end": 40
             },
             "flags": 128,
-            "start": 30,
+            "start": 0,
             "end": 40
         }
     ],

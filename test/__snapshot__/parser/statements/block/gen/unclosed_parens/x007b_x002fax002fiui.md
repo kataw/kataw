@@ -41,28 +41,28 @@
                         "flags": 128,
                         "start": 1,
                         "end": 4
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 221,
+                            "text": "/a/iui",
+                            "flags": 768,
+                            "start": 4,
+                            "end": 11
+                        },
+                        "flags": 128,
+                        "start": 4,
+                        "end": 11
                     }
                 ],
                 "multiLine": false,
                 "flags": 128,
                 "start": 1,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 221,
-                "text": "/a/iui",
-                "flags": 768,
-                "start": 4,
                 "end": 11
             },
             "flags": 128,
-            "start": 4,
+            "start": 0,
             "end": 11
         }
     ],
