@@ -29,7 +29,14 @@ class class {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "classHeritage": null,
             "members": {
@@ -53,7 +60,14 @@ class class {}
                 "start": 5,
                 "end": 11
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 11,
+                "end": 11
+            },
             "typeParameters": null,
             "classHeritage": null,
             "members": {

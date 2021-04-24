@@ -74,7 +74,7 @@
   "'super' must be followed by an argument list or member access.": 74,
   "'with' statements are not allowed in strict mode.": 75,
   "Identifier expected. 'yield' is a reserved word in strict mode": 76,
-  "Identifier expected. 'await' is a reserved word in strict mode": 77,
+  "Identifier expected. 'await' is a reserved word in strict mode and module goal": 77,
   "The operand of a 'delete' operator must be a property reference.": 79,
   "'new.target' only allowed within functions": 80,
   "A lexical declaration can't define a 'let' binding": 81,
@@ -106,6 +106,11 @@
   "Explicit inexact syntax cannot appear inside an explicit exact object type": 107,
   "The this parameter cannot be optional": 108,
   "Prohibit delete of private class elements": 109,
-  "Cannot use new with import(...)": 110
-
+  "Cannot use new with import(...)": 110,
+  "Cannot use 'import.meta' outside a module": 111,
+  "for await (... of ...) is only valid in async functions and async generators": 112,
+  "Unterminated string literal": 113,
+  "Unterminated template literal": 114,
+  "Binding identifier expected": 115,
+  "Identifier expected. Reserved word in strict mode": 116
 }

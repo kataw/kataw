@@ -970,7 +970,14 @@ let x = { foo(){ super(); } };
                                                 "start": 279,
                                                 "end": 285
                                             },
-                                            "name": null,
+                                            "name": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 285,
+                                                "end": 285
+                                            },
                                             "typeParameters": null,
                                             "classHeritage": null,
                                             "members": {

@@ -55,7 +55,12 @@ export function scanTemplate(
     cp = parser.source.charCodeAt(parser.pos);
   }
 
-  parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+  parser.onError(
+    DiagnosticSource.Lexer,
+    diagnosticMap[DiagnosticCode.Unterminated_template_literal],
+    parser.curPos,
+    parser.pos
+  );
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 

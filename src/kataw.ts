@@ -42,7 +42,7 @@ export function parseModule(source: string, options?: Options, onError?: OnError
   return parse(
     source,
     /* filename */ '__root__',
-    Context.Module | Context.Strict,
+    Context.Module | Context.Strict | Context.AllowImportMeta,
     /* isModule */ true,
     options,
     onError

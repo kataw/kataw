@@ -115,7 +115,14 @@
                 "start": 15,
                 "end": 21
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 21,
+                "end": 21
+            },
             "typeParameters": null,
             "classHeritage": null,
             "members": {

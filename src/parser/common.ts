@@ -26,7 +26,8 @@ export const enum Context {
   Module = 1 << 20,
   InConditionalExpr = 1 << 22,
   InTypes = 1 << 23,
-  InClassBody = 1 << 24
+  InClassBody = 1 << 24,
+  AllowImportMeta = 1 << 25
 }
 
 export const enum DestructibleKind {

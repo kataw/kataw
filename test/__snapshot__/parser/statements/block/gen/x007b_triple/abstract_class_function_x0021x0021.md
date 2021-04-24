@@ -88,7 +88,14 @@
                 "start": 14,
                 "end": 20
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 20,
+                "end": 20
+            },
             "typeParameters": null,
             "classHeritage": null,
             "members": {

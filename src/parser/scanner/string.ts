@@ -193,7 +193,12 @@ export function scanString(parser: ParserState, context: Context, quote: number,
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
-  parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+  parser.onError(
+    DiagnosticSource.Lexer,
+    diagnosticMap[DiagnosticCode.Unterminated_string_literal],
+    parser.curPos,
+    parser.pos
+  );
 
   parser.tokenValue = result += source.substring(start, parser.pos);
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);

@@ -359,7 +359,14 @@ class A {
                 "end": 139
             },
             "classKeyword": null,
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "autofix": 0,
+                "flags": 12,
+                "start": 145,
+                "end": 145
+            },
             "typeParameters": null,
             "classHeritage": null,
             "members": {

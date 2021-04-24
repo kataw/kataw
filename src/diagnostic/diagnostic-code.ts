@@ -77,7 +77,7 @@ export const enum DiagnosticCode {
   _super_must_be_followed_by_an_argument_list_or_member_access = 74,
   _with_statements_are_not_allowed_in_strict_mode = 75,
   Identifier_expected_yield_is_a_reserved_word_in_strict_mode = 76,
-  Identifier_expected_await_is_a_reserved_word_in_strict_mode = 77,
+  Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal = 77,
   The_operand_of_a_delete_operator_must_be_a_property_reference = 79,
   _new_target_only_allowed_within_functions = 80,
   A_lexical_declaration_can_t_define_a_let_binding = 81,
@@ -109,7 +109,13 @@ export const enum DiagnosticCode {
   Explicit_inexact_syntax_cannot_appear_inside_an_explicit_exact_object_type = 107,
   The_this_parameter_cannot_be_optional = 108,
   Prohibit_delete_of_private_class_elements = 109,
-  Cannot_use_new_with_import = 110
+  Cannot_use_new_with_import = 110,
+  Cannot_use_import_meta_outside_a_module = 111,
+  for_await_of_is_only_valid_in_async_functions_and_async_generators = 112,
+  Unterminated_string_literal = 113,
+  Unterminated_template_literal = 114,
+  Binding_identifier_expected = 115,
+  Identifier_expected_Reserved_word_in_strict_mode = 116
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -188,7 +194,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [74]: "'super' must be followed by an argument list or member access.",
   [75]: "'with' statements are not allowed in strict mode.",
   [76]: "Identifier expected. 'yield' is a reserved word in strict mode",
-  [77]: "Identifier expected. 'await' is a reserved word in strict mode",
+  [77]: "Identifier expected. 'await' is a reserved word in strict mode and module goal",
   [79]: "The operand of a 'delete' operator must be a property reference.",
   [80]: "'new.target' only allowed within functions",
   [81]: "A lexical declaration can't define a 'let' binding",
@@ -220,5 +226,11 @@ export const diagnosticMap: { [key: number]: string } = {
   [107]: 'Explicit inexact syntax cannot appear inside an explicit exact object type',
   [108]: 'The this parameter cannot be optional',
   [109]: 'Prohibit delete of private class elements',
-  [110]: 'Cannot use new with import(...)'
+  [110]: 'Cannot use new with import(...)',
+  [111]: "Cannot use 'import.meta' outside a module",
+  [112]: 'for await (... of ...) is only valid in async functions and async generators',
+  [113]: 'Unterminated string literal',
+  [114]: 'Unterminated template literal',
+  [115]: 'Binding identifier expected',
+  [116]: 'Identifier expected. Reserved word in strict mode'
 };
