@@ -1,25 +1,29 @@
 ## Kataw parser
 
-This files and folders contains the Kataw parser. It's developed for performance, and emits an ECMAScript friendly CST.
+This files and folders contains the Kataw parser. It's developed for performance, and emits an ECMAScript friendly CST
+and allows you to
+parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
-- The NodeFlags contains the CST info.
+The CST node contains several properties, and the `flags` property contains the CST info.
 
-- The TransformFlags contains info for transformers.
+All important CST methods can be extracted from the CST node through public APO methods.
 
 
 ## Parsing
 
-Kataw parser allows you to parse:
+The parse method exposed by `Kataw` takes an optional options object which allows you to specify whether to parse in `script mode` (*the default*) or in `module mode`.
 
-- Javascript - ECMAScript® 2022 (ECMA-262 12th Edition) language specification
 
-- JSX
+```ts
+kataw.parseScript('foo', { allowTypes: false}, function (source, message, start, end) {})
+
+kataw.parseModule('foo', { allowTypes: false}, function (source, message, start, end) {})
+```
 
 
 ### Error handling
 
-Kataw has a build in error recovery feature so it will never throw any errors by defailt. A
-callback function has to be used.
+Kataw has a build in error recovery feature so it will never throw any errors by defailt - a callback function has to be used.
 
 For example:
 
@@ -27,7 +31,8 @@ For example:
 kataw.parseScript('¤', { allowTypes: false}, function (source, message, start, end) {})
 ```
 
-The `source` argument is either `1` for lexer and `2` for parser.
+The `source` argument is either `1` for lexer or  `2` for parser.
+
 
 
 ### Public API methods to extract info from CST nodes
@@ -64,6 +69,10 @@ Multiple API methods exist to get info from the CST nodes
 | `containsInvalidEscape`              | True if the node contains invalid escape (*template literal*) |
 | `hasErrors`              | True if the node contains errors |
 
+## Location tracking
+
+Each CST node has a `start` and `end` property for where the AST node start. Kataw ignores whitespace, so the
+location values are calculated before any whitespace has been skipped.
 
 ## Types
 
